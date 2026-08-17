@@ -1,0 +1,53 @@
+{
+  "_comment": "Link REIT / Hang Lung curated tenants with verified floor+shop+phone. Live directory scrape may add more.",
+  "tenants": [
+    {
+      "mall_hint": "樂富廣場",
+      "district": "九龍城區",
+      "store_name": "Living PLAZA by AEON",
+      "floor": "A區 3樓",
+      "shop_number": "3169A",
+      "phone": "2368 4633",
+      "title": "樂富廣場｜Living PLAZA 常態優惠",
+      "details": "領展商場商戶常態禮遇：AEON MEMBER 出示會員可享積分及當期折扣；詳情以官方公告為準。",
+      "source_url": "https://aeonstores.com.hk/shop_info",
+      "is_evergreen": true
+    },
+    {
+      "mall_hint": "康怡廣場",
+      "district": "東區",
+      "store_name": "AEON STYLE",
+      "floor": "南座 地下至3樓",
+      "shop_number": "G-3",
+      "phone": "2884 6888",
+      "title": "康怡廣場｜AEON STYLE 常態優惠",
+      "details": "恒隆商場商戶常態禮遇：AEON MEMBER 出示會員可享積分及當期折扣；詳情以官方公告為準。",
+      "source_url": "https://aeonstores.com.hk/shop_info",
+      "is_evergreen": true
+    },
+    {
+      "mall_hint": "黃大仙中心",
+      "district": "黃大仙區",
+      "store_name": "萬寧",
+      "floor": "UG",
+      "shop_number": "UG23",
+      "phone": "2350 1453",
+      "title": "黃大仙中心｜萬寧常態優惠",
+      "details": "領展／地區商場藥妝常態禮遇：出示 yuu 可賺分換領；詳情以 App 為準。",
+      "source_url": "https://www.apta.com.hk/product/where-to-buy/aptamil.html",
+      "is_evergreen": true
+    },
+    {
+      "mall_hint": "荷里活廣場",
+      "district": "黃大仙區",
+      "store_name": "無印良品",
+      "floor": "1樓",
+      "shop_number": "125-127",
+      "phone": "3971 3220",
+      "title": "荷里活廣場｜無印良品常態優惠",
+      "details": "恒隆商場商戶常態禮遇：MUJI passport App 會員可享積分及當期推廣；詳情以 App 為準。",
+      "source_url": "https://www.muji.com/hk-en/blog/20251023_779/",
+      "is_evergreen": true
+    }
+  ]
+}

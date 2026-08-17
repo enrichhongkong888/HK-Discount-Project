@@ -1,0 +1,152 @@
+[
+  {
+    "district": "中西區",
+    "mall_name": "中環街市",
+    "mall_offers": 1
+  },
+  {
+    "district": "中西區",
+    "mall_name": "置地廣場",
+    "mall_offers": 1
+  },
+  {
+    "district": "元朗區",
+    "mall_name": "+WOO 嘉湖",
+    "mall_offers": 2
+  },
+  {
+    "district": "北區",
+    "mall_name": "上水中心購物商場",
+    "mall_offers": 2
+  },
+  {
+    "district": "北區",
+    "mall_name": "上水匯 spot",
+    "mall_offers": 1
+  },
+  {
+    "district": "北區",
+    "mall_name": "上水廣場",
+    "mall_offers": 1
+  },
+  {
+    "district": "北區",
+    "mall_name": "粉嶺名都商場",
+    "mall_offers": 1
+  },
+  {
+    "district": "南區",
+    "mall_name": "數碼港商場",
+    "mall_offers": 1
+  },
+  {
+    "district": "南區",
+    "mall_name": "海怡廣場",
+    "mall_offers": 1
+  },
+  {
+    "district": "南區",
+    "mall_name": "赤柱廣場",
+    "mall_offers": 1
+  },
+  {
+    "district": "南區",
+    "mall_name": "香港仔中心商場",
+    "mall_offers": 1
+  },
+  {
+    "district": "大埔區",
+    "mall_name": "大埔廣場",
+    "mall_offers": 1
+  },
+  {
+    "district": "屯門區",
+    "mall_name": "屯門時代廣場",
+    "mall_offers": 1
+  },
+  {
+    "district": "屯門區",
+    "mall_name": "錦薈坊",
+    "mall_offers": 1
+  },
+  {
+    "district": "沙田區",
+    "mall_name": "沙田中心",
+    "mall_offers": 2
+  },
+  {
+    "district": "油尖旺區",
+    "mall_name": "K11 MUSEA",
+    "mall_offers": 1
+  },
+  {
+    "district": "油尖旺區",
+    "mall_name": "K11購物藝術館",
+    "mall_offers": 1
+  },
+  {
+    "district": "深水埗區",
+    "mall_name": "昇悅商場",
+    "mall_offers": 1
+  },
+  {
+    "district": "深水埗區",
+    "mall_name": "碧海藍天商場",
+    "mall_offers": 1
+  },
+  {
+    "district": "深水埗區",
+    "mall_name": "西九龍中心",
+    "mall_offers": 1
+  },
+  {
+    "district": "灣仔區",
+    "mall_name": "利東街",
+    "mall_offers": 1
+  },
+  {
+    "district": "灣仔區",
+    "mall_name": "合和中心",
+    "mall_offers": 1
+  },
+  {
+    "district": "灣仔區",
+    "mall_name": "合和商場",
+    "mall_offers": 1
+  },
+  {
+    "district": "荃灣區",
+    "mall_name": "D·PARK 愉景新城",
+    "mall_offers": 1
+  },
+  {
+    "district": "荃灣區",
+    "mall_name": "OP Mall 海之戀商場",
+    "mall_offers": 1
+  },
+  {
+    "district": "荃灣區",
+    "mall_name": "綠楊坊",
+    "mall_offers": 1
+  },
+  {
+    "district": "葵青區",
+    "mall_name": "葵涌廣場",
+    "mall_offers": 1
+  },
+  {
+    "district": "西貢區",
+    "mall_name": "將軍澳中心 Park Central",
+    "mall_offers": 2
+  },
+  {
+    "district": "離島區",
+    "mall_name": "愉景灣北商場 DB North Plaza",
+    "mall_offers": 1
+  },
+  {
+    "district": "離島區",
+    "mall_name": "愉景灣廣場 DB Plaza",
+    "mall_offers": 1
+  }
+]

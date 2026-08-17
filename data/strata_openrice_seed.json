@@ -1,0 +1,96 @@
+{
+  "_comment": "Seeded strata / food-court indie stores. Only verified six-field rows.",
+  "stores": [
+    {
+      "enabled": true,
+      "mall_hint": "西九龍中心",
+      "address": "深水埗欽洲街37K西九龍中心",
+      "store_name": "萬寧",
+      "floor": "5樓",
+      "shop_number": "501B",
+      "phone": "2387 8262",
+      "title": "西九龍中心｜萬寧門市優惠",
+      "details": "民生商場藥妝優惠：出示 yuu 會員碼可賺分換領；外賣自取訂單詳情以店內及 App 為準。",
+      "source_url": "https://elixir.com.hk/locate-us/",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "海怡廣場",
+      "address": "鴨脷洲海怡路18A海怡廣場",
+      "store_name": "萬寧",
+      "floor": "東翼 地下",
+      "shop_number": "G05",
+      "phone": "2518 7767",
+      "title": "海怡廣場｜萬寧門市／外賣自取優惠",
+      "details": "民生商場藥妝優惠：出示 yuu 可賺分換領；外賣自取及門市折扣以 App 及店內告示為準。",
+      "source_url": "https://www.nestlehealthscience.com.hk/zh-hans/brands/compleat/sales-locations",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "中環街市",
+      "address": "中環德輔道中80號中環街市",
+      "store_name": "Chef's Market",
+      "floor": "地下",
+      "shop_number": "G04-G09",
+      "phone": "6687 1703",
+      "title": "中環街市｜Chef's Market 門市優惠",
+      "details": "中環街市美食市集常態禮遇：惠顧正價貨品／餐飲可享店內當期推廣折扣；實際條款以店內告示為準。",
+      "source_url": "https://www.centralmarket.hk/tc/floor-directory",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "中環街市",
+      "address": "中環德輔道中80號中環街市",
+      "store_name": "亞答屋",
+      "floor": "地下",
+      "shop_number": "G17",
+      "phone": "5339 4099",
+      "title": "中環街市｜亞答屋門市／外賣優惠",
+      "details": "中環街市餐飲常態禮遇：堂食／外賣惠顧可享店內當期推廣；詳情以店內告示為準。",
+      "source_url": "https://www.centralmarket.hk/tc/floor-directory",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "愉景灣北商場 DB North Plaza",
+      "address": "愉景灣海澄湖畔路92號愉景北商場",
+      "store_name": "Uncle Russ Coffee",
+      "floor": "LG",
+      "shop_number": "LG19",
+      "phone": "2840 1188",
+      "title": "愉景灣北商場｜Uncle Russ Coffee 常態優惠",
+      "details": "愉景北商場咖啡店常態禮遇：惠顧正價飲品／輕食可享店內當期推廣；詳情以店內告示為準。",
+      "source_url": "https://www.visitdiscoverybay.com/en/shops-detail/81",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "利東街",
+      "address": "灣仔皇后大道東200號利東街",
+      "store_name": "Sho-EN",
+      "floor": "地下",
+      "shop_number": "G02-03",
+      "phone": "2869 1228",
+      "title": "利東街｜Sho-EN 門市／外賣優惠",
+      "details": "利東街餐飲常態禮遇：堂食／外賣惠顧可享店內當期推廣折扣；詳情以店內告示為準。",
+      "source_url": "https://www.openrice.com/en/hongkong/r-sho-en-wan-chai-japanese-r887059",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "利東街",
+      "address": "灣仔皇后大道東200號利東街",
+      "store_name": "Rakuraku Ramen",
+      "floor": "地下",
+      "shop_number": "G30",
+      "phone": "2818 3222",
+      "title": "利東街｜Rakuraku 樂拉麵門市／外賣優惠",
+      "details": "利東街拉麵店常態禮遇：堂食／外賣惠顧可享店內當期推廣；詳情以店內告示為準。",
+      "source_url": "https://www.openrice.com/en/hongkong/r-rakuraku-ramen-wan-chai-japanese-ramen-r598554",
+      "is_evergreen": true
+    }
+  ]
+}

@@ -1,0 +1,1227 @@
+{
+  "scrape_time": "2026-08-15T14:18:26+08:00",
+  "malls": [
+    {
+      "mall_name": "中環街市",
+      "district": "中西區",
+      "address": "中環皇后大道中 93 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.centralmarket.hk/"
+    },
+    {
+      "mall_name": "信德中心",
+      "district": "中西區",
+      "address": "上環干諾道中 168-200 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.shuntakgroup.com/"
+    },
+    {
+      "mall_name": "國際金融中心商場",
+      "district": "中西區",
+      "address": "中環金融街 8 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://ifc.com.hk/"
+    },
+    {
+      "mall_name": "太古廣場",
+      "district": "中西區",
+      "address": "金鐘金鐘道 88 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.pacificplace.com.hk/"
+    },
+    {
+      "mall_name": "置地廣場",
+      "district": "中西區",
+      "address": "中環皇后大道中 15 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.landmark.hk/"
+    },
+    {
+      "mall_name": "AIRSIDE",
+      "district": "九龍城區",
+      "address": "啟德協調道 2 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.airside.com.hk/"
+    },
+    {
+      "mall_name": "又一城",
+      "district": "九龍城區",
+      "address": "九龍塘達之路 80 號",
+      "phone": "2844 2222",
+      "network_phone": null,
+      "mall_url": "https://www.festivalwalk.com.hk/"
+    },
+    {
+      "mall_name": "樂富廣場",
+      "district": "九龍城區",
+      "address": "樂富聯合道 198 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.linkhk.com/"
+    },
+    {
+      "mall_name": "黃埔天地",
+      "district": "九龍城區",
+      "address": "紅磡黃埔花園",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.thewhampoa.com/"
+    },
+    {
+      "mall_name": "+WOO 嘉湖",
+      "district": "元朗區",
+      "address": "天水圍天恩路 12-18 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.fortunemalls.com.hk/"
+    },
+    {
+      "mall_name": "T Town",
+      "district": "元朗區",
+      "address": "天水圍天華路 30 及 33 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.linkreit.com/en/business/properties/t-town/"
+    },
+    {
+      "mall_name": "YOHO MALL 形點",
+      "district": "元朗區",
+      "address": "元朗朗日路 8-9 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.yohomall.hk/"
+    },
+    {
+      "mall_name": "元朗廣場",
+      "district": "元朗區",
+      "address": "元朗青山公路 249-251 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.yuenlongplaza.com/"
+    },
+    {
+      "mall_name": "上水中心購物商場",
+      "district": "北區",
+      "address": "上水智昌路 3 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.sheungshuicentre.com/en/"
+    },
+    {
+      "mall_name": "上水匯 spot",
+      "district": "北區",
+      "address": "上水龍琛路 48 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.ssspot.com.hk/home.aspx"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "address": "上水龍琛路 39 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.landmarknorth.com.hk/"
+    },
+    {
+      "mall_name": "粉嶺名都商場",
+      "district": "北區",
+      "address": "粉嶺粉嶺車站路 18 號",
+      "phone": "2677 9969",
+      "network_phone": null,
+      "mall_url": "https://www.fanlingcentre.com.hk/html/"
+    },
+    {
+      "mall_name": "THE SOUTHSIDE",
+      "district": "南區",
+      "address": "黃竹坑香葉道 11 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://thesouthside.hk/"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "address": "鋼綫灣數碼港道 100 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://arcade.cyberport.hk/"
+    },
+    {
+      "mall_name": "海怡廣場",
+      "district": "南區",
+      "address": "鴨脷洲海怡半島海怡東商場及西商場",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E6%80%A1%E5%BB%A3%E5%A0%B4_(%E8%A5%BF%E7%BF%BC)"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "address": "赤柱佳美道 23 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.linkhk.com/en/shopCentre/splxc2"
+    },
+    {
+      "mall_name": "香港仔中心商場",
+      "district": "南區",
+      "address": "香港仔南寧街 6-12 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "http://www.aberdeencentre.com.hk/"
+    },
+    {
+      "mall_name": "大埔廣場",
+      "district": "大埔區",
+      "address": "大埔安泰路 1 號",
+      "phone": "2665 1229",
+      "network_phone": null,
+      "mall_url": "http://www.taipoplaza.com.hk/"
+    },
+    {
+      "mall_name": "大埔超級城",
+      "district": "大埔區",
+      "address": "大埔安邦路 8-10 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://taipomegamall.shkp.com/"
+    },
+    {
+      "mall_name": "V city",
+      "district": "屯門區",
+      "address": "屯門鄉事會路 83 號",
+      "phone": "2960 1800",
+      "network_phone": null,
+      "mall_url": "https://www.vcity.com.hk/"
+    },
+    {
+      "mall_name": "屯門市廣場",
+      "district": "屯門區",
+      "address": "屯門屯順街 1 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.tmtp.com.hk/"
+    },
+    {
+      "mall_name": "屯門時代廣場",
+      "district": "屯門區",
+      "address": "屯門屯隆街 2 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.trendplazahk.com.hk/"
+    },
+    {
+      "mall_name": "錦薈坊",
+      "district": "屯門區",
+      "address": "屯門屯隆街 3 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.k-point.com.hk/"
+    },
+    {
+      "mall_name": "北角匯",
+      "district": "東區",
+      "address": "北角渣華道 123 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.northpointhoi.com.hk/"
+    },
+    {
+      "mall_name": "太古城中心",
+      "district": "東區",
+      "address": "太古城太古城道 18 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.cityplaza.com/"
+    },
+    {
+      "mall_name": "康怡廣場",
+      "district": "東區",
+      "address": "鰂魚涌康山道 1-2 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://hanglungmalls.com/en/kornhill-plaza"
+    },
+    {
+      "mall_name": "杏花新城",
+      "district": "東區",
+      "address": "杏花邨盛泰道 100 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.paradise-mall.com.hk/"
+    },
+    {
+      "mall_name": "HomeSquare",
+      "district": "沙田區",
+      "address": "沙田鄉事會路 138 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.homesquare.com.hk/"
+    },
+    {
+      "mall_name": "圍方 The Wai",
+      "district": "沙田區",
+      "address": "大圍車公廟路 18 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.thewaimall.com/"
+    },
+    {
+      "mall_name": "新城市廣場",
+      "district": "沙田區",
+      "address": "沙田正街 18-19 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.newtownplaza.com.hk/"
+    },
+    {
+      "mall_name": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "address": "馬鞍山鞍祿街 18 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.mostown.com.hk/"
+    },
+    {
+      "mall_name": "沙田中心",
+      "district": "沙田區",
+      "address": "沙田橫壆街 2-16 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.shatinplazacentre.com.hk/"
+    },
+    {
+      "mall_name": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "address": "尖沙咀柯士甸道西 1 號",
+      "phone": "2735 5234",
+      "network_phone": null,
+      "mall_url": "https://www.elementshk.com/"
+    },
+    {
+      "mall_name": "K11 MUSEA",
+      "district": "油尖旺區",
+      "address": "尖沙咀梳士巴利道 18 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.k11musea.com/"
+    },
+    {
+      "mall_name": "K11購物藝術館",
+      "district": "油尖旺區",
+      "address": "尖沙咀河內道 18 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://hk.k11.com/"
+    },
+    {
+      "mall_name": "THE ONE",
+      "district": "油尖旺區",
+      "address": "尖沙咀彌敦道 100 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.the-one.hk/"
+    },
+    {
+      "mall_name": "奧海城",
+      "district": "油尖旺區",
+      "address": "大角咀海庭道 18 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.olympiancity.com.hk/"
+    },
+    {
+      "mall_name": "朗豪坊",
+      "district": "油尖旺區",
+      "address": "旺角亞皆老街 8 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.langhamplace.com.hk/"
+    },
+    {
+      "mall_name": "海港城",
+      "district": "油尖旺區",
+      "address": "尖沙咀廣東道 3-27 號",
+      "phone": "2118 8666",
+      "network_phone": null,
+      "mall_url": "https://www.harbourcity.com.hk/"
+    },
+    {
+      "mall_name": "V Walk",
+      "district": "深水埗區",
+      "address": "深水埗深旺道 28 號",
+      "phone": "3612 1000",
+      "network_phone": null,
+      "mall_url": "https://www.vwalk.com.hk/"
+    },
+    {
+      "mall_name": "昇悅商場",
+      "district": "深水埗區",
+      "address": "長沙灣荔枝角道 833 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://ckmalls.com.hk/eng/promotion/?id=4"
+    },
+    {
+      "mall_name": "碧海藍天商場",
+      "district": "深水埗區",
+      "address": "長沙灣深盛路 8 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.aeonstores.com.hk/shop_info/detail?id=124"
+    },
+    {
+      "mall_name": "西九龍中心",
+      "district": "深水埗區",
+      "address": "深水埗欽州街 37K 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://dragoncentre.com.hk/"
+    },
+    {
+      "mall_name": "Hysan Place",
+      "district": "灣仔區",
+      "address": "銅鑼灣軒尼詩道 500 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.hysanplace.com.hk/"
+    },
+    {
+      "mall_name": "利東街",
+      "district": "灣仔區",
+      "address": "灣仔皇后大道東 200 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.leetungavenue.com.hk/en/"
+    },
+    {
+      "mall_name": "合和中心",
+      "district": "灣仔區",
+      "address": "灣仔皇后大道東 183 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.hopewellcentre.com/eng/index.htm"
+    },
+    {
+      "mall_name": "合和商場",
+      "district": "灣仔區",
+      "address": "灣仔堅尼地道 15 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.hopewellhill.com.hk/"
+    },
+    {
+      "mall_name": "時代廣場",
+      "district": "灣仔區",
+      "address": "銅鑼灣勿地臣街 1 號",
+      "phone": "2118 8900",
+      "network_phone": null,
+      "mall_url": "https://timessquare.com.hk/"
+    },
+    {
+      "mall_name": "皇室堡",
+      "district": "灣仔區",
+      "address": "銅鑼灣告士打道 311 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.windsorhouse.hk/"
+    },
+    {
+      "mall_name": "D·PARK 愉景新城",
+      "district": "荃灣區",
+      "address": "荃灣青山公路荃灣段 398 號",
+      "phone": "3460 5613",
+      "network_phone": null,
+      "mall_url": "https://www.dpark.com.hk/"
+    },
+    {
+      "mall_name": "OP Mall 海之戀商場",
+      "district": "荃灣區",
+      "address": "荃灣大河道 100 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.ckah.com/zh-hant/hong-kong-properties/leasing/817"
+    },
+    {
+      "mall_name": "綠楊坊",
+      "district": "荃灣區",
+      "address": "荃灣蕙荃路 22-66 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.lukyeunggalleria.com/"
+    },
+    {
+      "mall_name": "荃新天地",
+      "district": "荃灣區",
+      "address": "荃灣楊屋道 1 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.citywalk.com.hk/"
+    },
+    {
+      "mall_name": "荃灣廣場",
+      "district": "荃灣區",
+      "address": "荃灣大壩街 4-30 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.tsuenwanplaza.com.hk/"
+    },
+    {
+      "mall_name": "新都會廣場",
+      "district": "葵青區",
+      "address": "葵芳興芳路 223 號",
+      "phone": "2429 6500",
+      "network_phone": null,
+      "mall_url": "https://www.metroplaza.com.hk/"
+    },
+    {
+      "mall_name": "葵涌廣場",
+      "district": "葵青區",
+      "address": "葵涌興芳路 7-11 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": null
+    },
+    {
+      "mall_name": "青衣城",
+      "district": "葵青區",
+      "address": "青衣青敬路 33 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.mtrmalls.com/"
+    },
+    {
+      "mall_name": "PopCorn",
+      "district": "西貢區",
+      "address": "將軍澳唐賢街 9 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.popcorntko.com.hk/"
+    },
+    {
+      "mall_name": "將軍澳中心 Park Central",
+      "district": "西貢區",
+      "address": "將軍澳唐德街 9 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.park-central.com.hk/"
+    },
+    {
+      "mall_name": "新都城中心",
+      "district": "西貢區",
+      "address": "將軍澳貿業路 8 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.metrocity1.com/"
+    },
+    {
+      "mall_name": "東港城",
+      "district": "西貢區",
+      "address": "將軍澳重華路 8 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.eastpointcity.com.hk/"
+    },
+    {
+      "mall_name": "MegaBox",
+      "district": "觀塘區",
+      "address": "九龍灣宏照道 38 號企業廣場五期",
+      "phone": "2989 3000",
+      "network_phone": null,
+      "mall_url": "https://www.megabox.com.hk/"
+    },
+    {
+      "mall_name": "apm",
+      "district": "觀塘區",
+      "address": "觀塘觀塘道 418 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.hkapm.com.hk/"
+    },
+    {
+      "mall_name": "德福廣場",
+      "district": "觀塘區",
+      "address": "九龍灣偉業街 33 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.telford-plaza.com/"
+    },
+    {
+      "mall_name": "愉景灣北商場 DB North Plaza",
+      "district": "離島區",
+      "address": "愉景灣海澄徑 1 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.visitdiscoverybay.com/"
+    },
+    {
+      "mall_name": "愉景灣廣場 DB Plaza",
+      "district": "離島區",
+      "address": "愉景灣愉景廣場徑",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.visitdiscoverybay.com/"
+    },
+    {
+      "mall_name": "東薈城名店倉",
+      "district": "離島區",
+      "address": "東涌達東路 20 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.citygateoutlets.com.hk/"
+    },
+    {
+      "mall_name": "荷里活廣場",
+      "district": "黃大仙區",
+      "address": "鑽石山龍蟠街 3 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.plazahollywood.com.hk/"
+    },
+    {
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "address": "黃大仙龍翔道 136 號",
+      "phone": null,
+      "network_phone": null,
+      "mall_url": "https://www.linkhk.com/"
+    }
+  ],
+  "by_district": {
+    "中西區": [
+      {
+        "mall_name": "中環街市",
+        "district": "中西區",
+        "address": "中環皇后大道中 93 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.centralmarket.hk/"
+      },
+      {
+        "mall_name": "信德中心",
+        "district": "中西區",
+        "address": "上環干諾道中 168-200 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.shuntakgroup.com/"
+      },
+      {
+        "mall_name": "國際金融中心商場",
+        "district": "中西區",
+        "address": "中環金融街 8 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://ifc.com.hk/"
+      },
+      {
+        "mall_name": "太古廣場",
+        "district": "中西區",
+        "address": "金鐘金鐘道 88 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.pacificplace.com.hk/"
+      },
+      {
+        "mall_name": "置地廣場",
+        "district": "中西區",
+        "address": "中環皇后大道中 15 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.landmark.hk/"
+      }
+    ],
+    "九龍城區": [
+      {
+        "mall_name": "AIRSIDE",
+        "district": "九龍城區",
+        "address": "啟德協調道 2 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.airside.com.hk/"
+      },
+      {
+        "mall_name": "又一城",
+        "district": "九龍城區",
+        "address": "九龍塘達之路 80 號",
+        "phone": "2844 2222",
+        "network_phone": null,
+        "mall_url": "https://www.festivalwalk.com.hk/"
+      },
+      {
+        "mall_name": "樂富廣場",
+        "district": "九龍城區",
+        "address": "樂富聯合道 198 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.linkhk.com/"
+      },
+      {
+        "mall_name": "黃埔天地",
+        "district": "九龍城區",
+        "address": "紅磡黃埔花園",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.thewhampoa.com/"
+      }
+    ],
+    "元朗區": [
+      {
+        "mall_name": "+WOO 嘉湖",
+        "district": "元朗區",
+        "address": "天水圍天恩路 12-18 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.fortunemalls.com.hk/"
+      },
+      {
+        "mall_name": "T Town",
+        "district": "元朗區",
+        "address": "天水圍天華路 30 及 33 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.linkreit.com/en/business/properties/t-town/"
+      },
+      {
+        "mall_name": "YOHO MALL 形點",
+        "district": "元朗區",
+        "address": "元朗朗日路 8-9 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.yohomall.hk/"
+      },
+      {
+        "mall_name": "元朗廣場",
+        "district": "元朗區",
+        "address": "元朗青山公路 249-251 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.yuenlongplaza.com/"
+      }
+    ],
+    "北區": [
+      {
+        "mall_name": "上水中心購物商場",
+        "district": "北區",
+        "address": "上水智昌路 3 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.sheungshuicentre.com/en/"
+      },
+      {
+        "mall_name": "上水匯 spot",
+        "district": "北區",
+        "address": "上水龍琛路 48 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.ssspot.com.hk/home.aspx"
+      },
+      {
+        "mall_name": "上水廣場",
+        "district": "北區",
+        "address": "上水龍琛路 39 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.landmarknorth.com.hk/"
+      },
+      {
+        "mall_name": "粉嶺名都商場",
+        "district": "北區",
+        "address": "粉嶺粉嶺車站路 18 號",
+        "phone": "2677 9969",
+        "network_phone": null,
+        "mall_url": "https://www.fanlingcentre.com.hk/html/"
+      }
+    ],
+    "南區": [
+      {
+        "mall_name": "THE SOUTHSIDE",
+        "district": "南區",
+        "address": "黃竹坑香葉道 11 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://thesouthside.hk/"
+      },
+      {
+        "mall_name": "數碼港商場",
+        "district": "南區",
+        "address": "鋼綫灣數碼港道 100 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://arcade.cyberport.hk/"
+      },
+      {
+        "mall_name": "海怡廣場",
+        "district": "南區",
+        "address": "鴨脷洲海怡半島海怡東商場及西商場",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E6%80%A1%E5%BB%A3%E5%A0%B4_(%E8%A5%BF%E7%BF%BC)"
+      },
+      {
+        "mall_name": "赤柱廣場",
+        "district": "南區",
+        "address": "赤柱佳美道 23 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.linkhk.com/en/shopCentre/splxc2"
+      },
+      {
+        "mall_name": "香港仔中心商場",
+        "district": "南區",
+        "address": "香港仔南寧街 6-12 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "http://www.aberdeencentre.com.hk/"
+      }
+    ],
+    "大埔區": [
+      {
+        "mall_name": "大埔廣場",
+        "district": "大埔區",
+        "address": "大埔安泰路 1 號",
+        "phone": "2665 1229",
+        "network_phone": null,
+        "mall_url": "http://www.taipoplaza.com.hk/"
+      },
+      {
+        "mall_name": "大埔超級城",
+        "district": "大埔區",
+        "address": "大埔安邦路 8-10 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://taipomegamall.shkp.com/"
+      }
+    ],
+    "屯門區": [
+      {
+        "mall_name": "V city",
+        "district": "屯門區",
+        "address": "屯門鄉事會路 83 號",
+        "phone": "2960 1800",
+        "network_phone": null,
+        "mall_url": "https://www.vcity.com.hk/"
+      },
+      {
+        "mall_name": "屯門市廣場",
+        "district": "屯門區",
+        "address": "屯門屯順街 1 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.tmtp.com.hk/"
+      },
+      {
+        "mall_name": "屯門時代廣場",
+        "district": "屯門區",
+        "address": "屯門屯隆街 2 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.trendplazahk.com.hk/"
+      },
+      {
+        "mall_name": "錦薈坊",
+        "district": "屯門區",
+        "address": "屯門屯隆街 3 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.k-point.com.hk/"
+      }
+    ],
+    "東區": [
+      {
+        "mall_name": "北角匯",
+        "district": "東區",
+        "address": "北角渣華道 123 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.northpointhoi.com.hk/"
+      },
+      {
+        "mall_name": "太古城中心",
+        "district": "東區",
+        "address": "太古城太古城道 18 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.cityplaza.com/"
+      },
+      {
+        "mall_name": "康怡廣場",
+        "district": "東區",
+        "address": "鰂魚涌康山道 1-2 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://hanglungmalls.com/en/kornhill-plaza"
+      },
+      {
+        "mall_name": "杏花新城",
+        "district": "東區",
+        "address": "杏花邨盛泰道 100 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.paradise-mall.com.hk/"
+      }
+    ],
+    "沙田區": [
+      {
+        "mall_name": "HomeSquare",
+        "district": "沙田區",
+        "address": "沙田鄉事會路 138 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.homesquare.com.hk/"
+      },
+      {
+        "mall_name": "圍方 The Wai",
+        "district": "沙田區",
+        "address": "大圍車公廟路 18 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.thewaimall.com/"
+      },
+      {
+        "mall_name": "新城市廣場",
+        "district": "沙田區",
+        "address": "沙田正街 18-19 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.newtownplaza.com.hk/"
+      },
+      {
+        "mall_name": "新港城中心 MOSTown",
+        "district": "沙田區",
+        "address": "馬鞍山鞍祿街 18 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.mostown.com.hk/"
+      },
+      {
+        "mall_name": "沙田中心",
+        "district": "沙田區",
+        "address": "沙田橫壆街 2-16 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.shatinplazacentre.com.hk/"
+      }
+    ],
+    "油尖旺區": [
+      {
+        "mall_name": "ELEMENTS 圓方",
+        "district": "油尖旺區",
+        "address": "尖沙咀柯士甸道西 1 號",
+        "phone": "2735 5234",
+        "network_phone": null,
+        "mall_url": "https://www.elementshk.com/"
+      },
+      {
+        "mall_name": "K11 MUSEA",
+        "district": "油尖旺區",
+        "address": "尖沙咀梳士巴利道 18 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.k11musea.com/"
+      },
+      {
+        "mall_name": "K11購物藝術館",
+        "district": "油尖旺區",
+        "address": "尖沙咀河內道 18 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://hk.k11.com/"
+      },
+      {
+        "mall_name": "THE ONE",
+        "district": "油尖旺區",
+        "address": "尖沙咀彌敦道 100 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.the-one.hk/"
+      },
+      {
+        "mall_name": "奧海城",
+        "district": "油尖旺區",
+        "address": "大角咀海庭道 18 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.olympiancity.com.hk/"
+      },
+      {
+        "mall_name": "朗豪坊",
+        "district": "油尖旺區",
+        "address": "旺角亞皆老街 8 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.langhamplace.com.hk/"
+      },
+      {
+        "mall_name": "海港城",
+        "district": "油尖旺區",
+        "address": "尖沙咀廣東道 3-27 號",
+        "phone": "2118 8666",
+        "network_phone": null,
+        "mall_url": "https://www.harbourcity.com.hk/"
+      }
+    ],
+    "深水埗區": [
+      {
+        "mall_name": "V Walk",
+        "district": "深水埗區",
+        "address": "深水埗深旺道 28 號",
+        "phone": "3612 1000",
+        "network_phone": null,
+        "mall_url": "https://www.vwalk.com.hk/"
+      },
+      {
+        "mall_name": "昇悅商場",
+        "district": "深水埗區",
+        "address": "長沙灣荔枝角道 833 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://ckmalls.com.hk/eng/promotion/?id=4"
+      },
+      {
+        "mall_name": "碧海藍天商場",
+        "district": "深水埗區",
+        "address": "長沙灣深盛路 8 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.aeonstores.com.hk/shop_info/detail?id=124"
+      },
+      {
+        "mall_name": "西九龍中心",
+        "district": "深水埗區",
+        "address": "深水埗欽州街 37K 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://dragoncentre.com.hk/"
+      }
+    ],
+    "灣仔區": [
+      {
+        "mall_name": "Hysan Place",
+        "district": "灣仔區",
+        "address": "銅鑼灣軒尼詩道 500 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.hysanplace.com.hk/"
+      },
+      {
+        "mall_name": "利東街",
+        "district": "灣仔區",
+        "address": "灣仔皇后大道東 200 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.leetungavenue.com.hk/en/"
+      },
+      {
+        "mall_name": "合和中心",
+        "district": "灣仔區",
+        "address": "灣仔皇后大道東 183 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.hopewellcentre.com/eng/index.htm"
+      },
+      {
+        "mall_name": "合和商場",
+        "district": "灣仔區",
+        "address": "灣仔堅尼地道 15 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.hopewellhill.com.hk/"
+      },
+      {
+        "mall_name": "時代廣場",
+        "district": "灣仔區",
+        "address": "銅鑼灣勿地臣街 1 號",
+        "phone": "2118 8900",
+        "network_phone": null,
+        "mall_url": "https://timessquare.com.hk/"
+      },
+      {
+        "mall_name": "皇室堡",
+        "district": "灣仔區",
+        "address": "銅鑼灣告士打道 311 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.windsorhouse.hk/"
+      }
+    ],
+    "荃灣區": [
+      {
+        "mall_name": "D·PARK 愉景新城",
+        "district": "荃灣區",
+        "address": "荃灣青山公路荃灣段 398 號",
+        "phone": "3460 5613",
+        "network_phone": null,
+        "mall_url": "https://www.dpark.com.hk/"
+      },
+      {
+        "mall_name": "OP Mall 海之戀商場",
+        "district": "荃灣區",
+        "address": "荃灣大河道 100 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.ckah.com/zh-hant/hong-kong-properties/leasing/817"
+      },
+      {
+        "mall_name": "綠楊坊",
+        "district": "荃灣區",
+        "address": "荃灣蕙荃路 22-66 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.lukyeunggalleria.com/"
+      },
+      {
+        "mall_name": "荃新天地",
+        "district": "荃灣區",
+        "address": "荃灣楊屋道 1 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.citywalk.com.hk/"
+      },
+      {
+        "mall_name": "荃灣廣場",
+        "district": "荃灣區",
+        "address": "荃灣大壩街 4-30 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.tsuenwanplaza.com.hk/"
+      }
+    ],
+    "葵青區": [
+      {
+        "mall_name": "新都會廣場",
+        "district": "葵青區",
+        "address": "葵芳興芳路 223 號",
+        "phone": "2429 6500",
+        "network_phone": null,
+        "mall_url": "https://www.metroplaza.com.hk/"
+      },
+      {
+        "mall_name": "葵涌廣場",
+        "district": "葵青區",
+        "address": "葵涌興芳路 7-11 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": null
+      },
+      {
+        "mall_name": "青衣城",
+        "district": "葵青區",
+        "address": "青衣青敬路 33 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.mtrmalls.com/"
+      }
+    ],
+    "西貢區": [
+      {
+        "mall_name": "PopCorn",
+        "district": "西貢區",
+        "address": "將軍澳唐賢街 9 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.popcorntko.com.hk/"
+      },
+      {
+        "mall_name": "將軍澳中心 Park Central",
+        "district": "西貢區",
+        "address": "將軍澳唐德街 9 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.park-central.com.hk/"
+      },
+      {
+        "mall_name": "新都城中心",
+        "district": "西貢區",
+        "address": "將軍澳貿業路 8 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.metrocity1.com/"
+      },
+      {
+        "mall_name": "東港城",
+        "district": "西貢區",
+        "address": "將軍澳重華路 8 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.eastpointcity.com.hk/"
+      }
+    ],
+    "觀塘區": [
+      {
+        "mall_name": "MegaBox",
+        "district": "觀塘區",
+        "address": "九龍灣宏照道 38 號企業廣場五期",
+        "phone": "2989 3000",
+        "network_phone": null,
+        "mall_url": "https://www.megabox.com.hk/"
+      },
+      {
+        "mall_name": "apm",
+        "district": "觀塘區",
+        "address": "觀塘觀塘道 418 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.hkapm.com.hk/"
+      },
+      {
+        "mall_name": "德福廣場",
+        "district": "觀塘區",
+        "address": "九龍灣偉業街 33 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.telford-plaza.com/"
+      }
+    ],
+    "離島區": [
+      {
+        "mall_name": "愉景灣北商場 DB North Plaza",
+        "district": "離島區",
+        "address": "愉景灣海澄徑 1 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.visitdiscoverybay.com/"
+      },
+      {
+        "mall_name": "愉景灣廣場 DB Plaza",
+        "district": "離島區",
+        "address": "愉景灣愉景廣場徑",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.visitdiscoverybay.com/"
+      },
+      {
+        "mall_name": "東薈城名店倉",
+        "district": "離島區",
+        "address": "東涌達東路 20 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.citygateoutlets.com.hk/"
+      }
+    ],
+    "黃大仙區": [
+      {
+        "mall_name": "荷里活廣場",
+        "district": "黃大仙區",
+        "address": "鑽石山龍蟠街 3 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.plazahollywood.com.hk/"
+      },
+      {
+        "mall_name": "黃大仙中心",
+        "district": "黃大仙區",
+        "address": "黃大仙龍翔道 136 號",
+        "phone": null,
+        "network_phone": null,
+        "mall_url": "https://www.linkhk.com/"
+      }
+    ]
+  }
+}

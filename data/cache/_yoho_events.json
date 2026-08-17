@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "id": 717,
+      "attributes": {
+        "name": "SmarTone PRIORITY 指定會員 額外1小時泊車優惠",
+        "createdAt": null,
+        "updatedAt": "2026-05-22T01:32:57.663Z",
+        "publishedAt": "2024-05-14T04:21:30.000Z",
+        "event_start": "2024-12-31T16:00:00.000Z",
+        "event_end": "2026-12-31T14:00:00.000Z",
+        "content": "",
+        "locale": "zh-Hant-HK",
+        "category": "parking",
+        "promotion_uid": null,
+        "homepage_online_date": "2024-12-31T16:00:00.000Z",
+        "homepage_offline_date": "2026-12-31T14:00:00.000Z",
+        "slug": null
+      }
+    },
+    {
+      "id": 792,
+      "attributes": {
+        "name": "[Go Royal會員尊享] 額外1小時泊車優惠",
+        "createdAt": null,
+        "updatedAt": "2025-12-31T02:20:28.778Z",
+        "publishedAt": "2024-05-14T04:21:30.000Z",
+        "event_start": "2024-12-30T16:00:00.000Z",
+        "event_end": "2026-12-31T14:00:00.000Z",
+        "content": "",
+        "locale": "zh-Hant-HK",
+        "category": "parking",
+        "promotion_uid": null,
+        "homepage_online_date": "2024-12-31T02:00:00.000Z",
+        "homepage_offline_date": "2026-12-31T14:00:00.000Z",
+        "slug": null
+      }
+    },
+    {
+      "id": 807,
+      "attributes": {
+        "name": "形點推廣換領活動守則",
+        "createdAt": null,
+        "updatedAt": "2025-12-24T03:20:09.207Z",
+        "publishedAt": "2024-05-14T04:21:30.000Z",
+        "event_start": "2020-12-31T00:00:00.000Z",
+        "event_end": "2026-12-30T16:00:00.000Z",
+        "content": "",
+        "locale": "zh-Hant-HK",
+        "category": "others",
+        "promotion_uid": null,
+        "homepage_online_date": "2020-12-31T00:00:00.000Z",
+        "homepage_offline_date": "2026-12-31T00:00:00.000Z",
+        "slug": null
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 3,
+      "pageCount": 50,
+      "total": 149
+    }
+  }
+}

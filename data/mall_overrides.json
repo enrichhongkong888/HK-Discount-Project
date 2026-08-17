@@ -1,0 +1,597 @@
+{
+  "_comment": "只收錄已由官方網站核實、且無明確短期截止日的常青商場政策。未驗證資料不得加入。",
+  "overrides": [
+    {
+      "mall_name": "中環街市",
+      "district": "中西區",
+      "title": "中環街市最新活動及市集優惠",
+      "details": "中環街市定期舉辦市集、工作坊與品牌活動；最新日程與報名詳情見官方活動日曆。",
+      "source_url": "https://www.centralmarket.hk/tc/event-calendar",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "信德中心",
+      "district": "中西區",
+      "title": "信德中心物業及商場概覽",
+      "details": "信德中心為信德集團旗下綜合零售及寫字樓物業，設約 270 個泊車位；官方物業組合頁刊載地址與設施概覽。商場推廣主要經官方渠道發佈。",
+      "source_url": "https://www.shuntakgroup.com/en/business/property/portfolio/1045",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "國際金融中心商場",
+      "district": "中西區",
+      "title": "ifc mall 免費泊車及 CLUB ic 泊車禮遇",
+      "details": "即日單一電子消費滿 HK$300／HK$500 可享 2／3 小時免費泊車；消費滿 HK$2,000 可換領 4 小時免費代客泊車。CLUB ic Lifetime／Black 會員每日可換領 2 小時、Platinum 會員 1 小時會員泊車。",
+      "source_url": "https://ifc.com.hk/en/mall/parking/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "太古廣場",
+      "district": "中西區",
+      "title": "太古廣場 above 會員免費泊車",
+      "details": "above 會員於太古廣場／三座／六座及星街小區指定商戶，即日累積電子消費滿 HK$500，或下午 5 時後滿 HK$300，可享 3 小時免費泊車；above Blue 會員可額外 1 小時。亦可憑 above 積分換領泊車時數。",
+      "source_url": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings/free-parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "置地廣場",
+      "district": "中西區",
+      "title": "置地廣場 BESPOKE 免費代客泊車",
+      "details": "BESPOKE 雋環會員憑最多三張即日合資格單據：消費滿 HK$1,500／HK$4,000 可享 2／4 小時免費代客泊車；晚上 6 時後進場之指定餐飲消費滿 HK$500／HK$1,000 可享 2／4 小時。",
+      "source_url": "https://www.landmark.hk/tc/whats-on/happenings/complimentary-valet-parking/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "AIRSIDE",
+      "district": "九龍城區",
+      "title": "AIRSIDE 免費泊車優惠",
+      "details": "憑最多兩張不同商戶的即日電子消費單據可換領免費泊車時數；NF Touch 會員、積分及電子優惠券可享額外禮遇。每次泊車最多合共 5 小時免費泊車。",
+      "source_url": "https://www.airside.com.hk/zh-hk/visit/parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "又一城",
+      "district": "九龍城區",
+      "title": "又一城免費泊車優惠",
+      "details": "消費及電影戲票可按官方條款換領免費泊車；下午 5 時後入車享首小時免費泊車，並可按指定消費換領額外時數。",
+      "source_url": "https://www.festivalwalk.com.hk/en/parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "樂富廣場",
+      "district": "九龍城區",
+      "title": "樂富廣場／領展商場最新推廣",
+      "details": "樂富廣場屬領展商場網絡；最新推廣與「優惠泊」等泊車禮遇見領展客戶網推廣頁及場內公告。",
+      "source_url": "https://www.linkhk.com/tc/promotion/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "黃埔天地",
+      "district": "九龍城區",
+      "title": "黃埔天地免費泊車優惠",
+      "details": "黃埔天地時租停車場：平日消費滿 HK$200 可享 2 小時免費泊車；指定食肆消費或電影戲票可享額外時數。週末及公眾假期消費滿 HK$200／HK$400 可享 1／2 小時，W+ 會員可享額外時數。",
+      "source_url": "https://www.thewhampoa.com/list/detail-670.html",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "+WOO 嘉湖",
+      "district": "元朗區",
+      "title": "+WOO 嘉湖商場會員及泊車資訊",
+      "details": "請參閱官方推廣頁查閱最新商場活動。停車場時租：星期一至五約 HK$19／小時；週末及公眾假期約 HK$22／小時。消費換泊如有推出，以官網及場內公告為準。",
+      "source_url": "https://www.fortunemalls.com.hk/tc/promotions",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "T Town",
+      "district": "元朗區",
+      "title": "T Town／領展商場最新推廣",
+      "details": "T Town 屬領展商場網絡；最新推廣與泊車安排見領展客戶網推廣頁、物業頁及場內公告。",
+      "source_url": "https://www.linkhk.com/tc/promotion/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "YOHO MALL 形點",
+      "district": "元朗區",
+      "title": "YOHO MALL The Point 會員免費泊車",
+      "details": "The Point 會員可憑最多兩張不同商戶的即日電子消費單據，於 YOHO MALL、YOHO MIX 或 YOHO PLUS 換領免費泊車。平日最高 4 小時；YOHO PLUS 於週末及公眾假期最高 6 小時。",
+      "source_url": "https://www.yohomall.hk/en/driving-info",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "元朗廣場",
+      "district": "元朗區",
+      "title": "元朗廣場 The Point 會員泊車禮遇",
+      "details": "元朗廣場為 The Point 體系商場；會員可按官方／App 公佈以消費或積分換領免費泊車。時租參考：平日約 HK$24／小時，週末及公眾假期約 HK$28／小時。",
+      "source_url": "https://www.yuenlongplaza.com/parking/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "上水匯 spot",
+      "district": "北區",
+      "title": "上水匯 spot 最新消息及活動",
+      "details": "上水匯 spot 官方新聞頁刊載最新商場消息與活動；交通資訊見 how-to-go 頁。",
+      "source_url": "https://www.ssspot.com.hk/news.aspx",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "title": "上水廣場 The Point 免觸式泊車",
+      "details": "上水廣場為 The Point 免觸式泊車適用商場之一；會員可按指定消費或積分於 App 換領泊車時數，詳情以 The Point 官方條款為準。",
+      "source_url": "https://www.thepoint.com.hk/sc/contactless-parking.html",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "粉嶺名都商場",
+      "district": "北區",
+      "title": "粉嶺名都商場購物泊車優惠",
+      "details": "平日消費滿 HK$200／HK$300 可享 1／2 小時；週末及公眾假期滿 HK$300／HK$500 可享 1／2 小時。於 G/F 禮賓部 07:00–23:59 辦理。",
+      "source_url": "https://www.fanlingcentre.com.hk/html/tc/parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "THE SOUTHSIDE",
+      "district": "南區",
+      "title": "THE SOUTHSIDE 泊車優惠",
+      "details": "只限 MTR Mobile 會員。基本優惠：消費滿 HK$200／HK$500 可享 1／3 小時；平日餐飲／After 6／戲票另設禮遇。詳情以官方條款為準。",
+      "source_url": "https://www.thesouthside.com.hk/tch/promotions/parking-promotion",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "title": "數碼港商場消費免費泊車優惠",
+      "details": "單一電子消費滿 HK$100／HK$200 可享 1／2 小時；累積滿 HK$400（最多兩張不同商戶單據）可享 4 小時。星期一至五（公眾假期除外）下午 5 時或以後入車，同日 17:00–22:00 食肆單一消費滿 HK$100 可享 5 小時。換領：商場一樓客戶服務部。",
+      "source_url": "https://connect.cyberport.hk/zh-hk/parking/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "海怡廣場",
+      "district": "南區",
+      "title": "海怡廣場（海怡東／西商場）基本資料及泊車資訊",
+      "details": "海怡廣場為鴨脷洲海怡半島屋苑商場，分海怡西商場及海怡東商場，以天橋連接；主要服務屋苑居民日常購物，與鴨脷洲「新海怡廣場／Horizon Plaza」並非同一商場。屋苑／商場設有訪客／時租泊車設施，收費及任何消費換泊安排請以場內或管理處公告為準。",
+      "source_url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E6%80%A1%E5%BB%A3%E5%A0%B4_(%E8%A5%BF%E7%BF%BC)",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "title": "赤柱廣場／領展商場最新推廣",
+      "details": "赤柱廣場屬領展商場網絡；最新推廣見領展客戶網推廣頁，商場資料見 shopCentre 頁。",
+      "source_url": "https://www.linkhk.com/tc/promotion/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "香港仔中心商場",
+      "district": "南區",
+      "title": "ac／香港仔中心商場官方資訊",
+      "details": "商場（現稱 ac）官方網站刊載最新推廣與商戶活動；泊車條款請以場內公告為準。",
+      "source_url": "http://www.aberdeencentre.com.hk/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "大埔廣場",
+      "district": "大埔區",
+      "title": "大埔廣場屋苑／商場基本資料及泊車資訊",
+      "details": "大埔廣場為大埔市中心居屋連基座商場，官方／管理網站載明地址為新界大埔安泰路一號，設兩層購物商場及住宅。設有時租／訪客泊車，收費及任何消費換泊請以場內或管理處公告為準。客戶服務可經官方網站查詢。",
+      "source_url": "http://www.taipoplaza.com.hk/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "大埔超級城",
+      "district": "大埔區",
+      "title": "大埔超級城 The Point 會員免費泊車",
+      "details": "只限 The Point 會員，並只適用多層停車場。平日消費滿 HK$200／HK$300／HK$400 可享 1／2／3 小時；週末及公眾假期消費滿 HK$400 可享 2 小時。",
+      "source_url": "https://taipomegamall.shkp.com/parking/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "V city",
+      "district": "屯門區",
+      "title": "V city The Point 會員免費泊車",
+      "details": "只限 The Point 會員。平日消費滿 HK$200／HK$400 或 1,500 積分可享 1／2 小時；週末及公眾假期滿 HK$700／HK$900 或 4,000 積分可享 1／2 小時。入車時段 07:00–22:00，每次最多合共 2 小時。",
+      "source_url": "https://www.vcity.com.hk/tch/parking/parking.jsp",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "屯門市廣場",
+      "district": "屯門區",
+      "title": "屯門市廣場 S+ REWARDS 免費泊車",
+      "details": "S+ REWARDS 會員於屯門市廣場一期及三期，以即日合資格電子消費及指定積分換領免費泊車。可於 S+ REWARDS App 或商場禮賓處按官方條款辦理。",
+      "source_url": "https://www.tmtp.com.hk/en/Parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "屯門時代廣場",
+      "district": "屯門區",
+      "title": "屯門時代廣場泊車及 H·COINS 會員",
+      "details": "地庫停車場時租：平日（公眾假期除外）約 HK$21／小時，週末及公眾假期約 HK$29／小時；另設平日日泊及夜泊。商場為 H·COINS 參與物業，電子消費可按計劃儲分換獎賞。最新活動見官方推廣頁。",
+      "source_url": "https://www.trendplazahk.com.hk/tc/get-here.html?s=parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "錦薈坊",
+      "district": "屯門區",
+      "title": "錦薈坊最新活動",
+      "details": "錦薈坊為 The Point 體系商場；最新推廣與活動見官方「最新活動」頁，會員泊車禮遇以 The Point App／場內公告為準。",
+      "source_url": "https://www.k-point.com.hk/%e6%9c%80%e6%96%b0%e6%b4%bb%e5%8b%95/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "北角匯",
+      "district": "東區",
+      "title": "北角匯 The Point 會員免費泊車",
+      "details": "只限 The Point 會員。平日單一商戶消費滿 HK$200 或累積滿 HK$400 可享 1／2 小時；週末及公眾假期單一滿 HK$400 或累積滿 HK$800 可享 1／2 小時。",
+      "source_url": "https://www.harbournorth.com.hk/zh/valet-parking-tc/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "太古城中心",
+      "district": "東區",
+      "title": "太古城中心免費泊車優惠",
+      "details": "憑最多兩張即日合資格電子消費單據，消費滿 HK$200 可享 2 小時免費泊車；消費滿 HK$300 或出示兩張 MOViE MOViE Cityplaza 即日戲票可享 5 小時。可於 B2 泊車換領處或 TAIKOO+ App 辦理。",
+      "source_url": "https://www.cityplaza.com/en/location-and-parking/free-parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "康怡廣場",
+      "district": "東區",
+      "title": "康怡廣場 hello 恒隆積分泊車禮遇",
+      "details": "hello 恒隆會員可經 App／小程序以積分兌換電子泊車券。時租：首半小時 HK$18，其後每小時 HK$27；另設平日日泊及夜泊收費。詳情以恒隆商場官方泊車頁為準。",
+      "source_url": "https://hanglungmalls.com/parking?mall=kornhill-plaza",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "杏花新城",
+      "district": "東區",
+      "title": "杏花新城免費泊車優惠",
+      "details": "憑不多於兩張即日電子消費單據：平日消費滿 HK$200／HK$300 可享 1／2 小時；週末及公眾假期滿 HK$400 可享 2 小時。平日 After 6 夜泊另設消費滿 HK$200 最高 4 小時禮遇。",
+      "source_url": "https://www.paradise-mall.com.hk/tch/promotions/free_parking_privilege",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "HomeSquare",
+      "district": "沙田區",
+      "title": "HomeSquare 活動推廣及泊車資訊",
+      "details": "HomeSquare 官方活動推廣頁刊載最新家居展銷與商場優惠；泊車條款見官方泊車頁，換領安排以場內及最新公告為準。",
+      "source_url": "https://www.homesquare.com.hk/zh-hant/event-promotions",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "圍方 The Wai",
+      "district": "沙田區",
+      "title": "圍方免費泊車優惠",
+      "details": "平日消費及餐飲可按時段換領 1 至 4 小時免費泊車；週末及公眾假期滿 HK$300／HK$600 可享 2／4 小時。兩張英皇戲院 Plus+ 即日戲票可換領 3 小時。",
+      "source_url": "https://www.thewaimall.com/tch/promotions/free-parking-privilege",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "新城市廣場",
+      "district": "沙田區",
+      "title": "新城市廣場 The Point 會員免費泊車",
+      "details": "The Point 會員可憑即日電子消費或 The Point Bonus Points 換領免費泊車。平日最高可享 5 小時、週末及公眾假期最高 4 小時；餐飲消費配合 Movie Town 戲票另設泊車禮遇。",
+      "source_url": "https://www.newtownplaza.com.hk/parking/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "title": "MOSTown／H·COINS 會員積分",
+      "details": "新港城中心為 H·COINS 參與商場；於參與商戶以電子支付消費，一般每港幣 $1 可賺 1 H COIN，並可兌換電子優惠券等獎賞。",
+      "source_url": "https://www.hcoins.com.hk/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "title": "新港城中心 MOSTown 泊車及推廣資訊",
+      "details": "MOSTown 官方網站提供最新推廣與泊車優惠入口；消費換泊門檻及會員加碼以官網及場內最新條款為準。",
+      "source_url": "https://www.mostown.com.hk/tc/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "沙田中心",
+      "district": "沙田區",
+      "title": "沙田中心及沙田廣場最新推廣",
+      "details": "恒基沙田中心及沙田廣場官方推廣頁刊載最新商場活動；泊車及消費禮遇以官網與場內公告為準。",
+      "source_url": "https://www.shatinplazacentre.com.hk/tc/promotions/index.shtml",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "沙田中心",
+      "district": "沙田區",
+      "title": "沙田中心／H·COINS 會員積分計劃",
+      "details": "沙田中心為 H·COINS 參與商場；會員於參與商戶電子消費一般每港幣 $1 可賺 1 H COIN，並可兌換獎賞。",
+      "source_url": "https://www.hcoins.com.hk/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "title": "ELEMENTS 圓方免費泊車優惠",
+      "details": "即日單一電子消費每滿 HK$100 可換領 1 小時免費泊車；憑兩張 PREMIERE CINEMAS 戲票可換領 3 小時，每次入車最多 5 小時。",
+      "source_url": "https://www.elementshk.com/tch/elements/promotions/parking-privileges-2025",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "K11 MUSEA",
+      "district": "油尖旺區",
+      "title": "K11 MUSEA KLUB 11 免費泊車",
+      "details": "只限 KLUB 11 會員。憑 K11 MUSEA 或 K11 購物藝術館即日單據：星期一至四消費滿 HK$200／HK$300 可享 2／3 小時；星期五至日及公眾假期滿 HK$500／HK$800 可享 2／3 小時。",
+      "source_url": "https://www.k11musea.com/parking/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "K11購物藝術館",
+      "district": "油尖旺區",
+      "title": "K11 購物藝術館 KLUB 11 免費泊車",
+      "details": "只限 KLUB 11 會員於 B4 時租停車場換領。星期一至四消費滿 HK$300／HK$500 可享 1／2 小時；星期五至日及公眾假期滿 HK$500／HK$800 可享 1／2 小時。",
+      "source_url": "https://hk.k11.com/parking/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "THE ONE",
+      "district": "油尖旺區",
+      "title": "THE ONE 免費泊車及午市泊車優惠",
+      "details": "憑最多兩張不同商戶即日機印單據，於 UG2 顧客服務中心換領，每日最多可享 3 小時免費泊車；百老匯戲院即日票尾亦適用。另設午市餐飲泊車優惠，每日最多 2 小時。",
+      "source_url": "https://www.the-one.hk/mobile/tc/gettingthere/parking.asp",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "奧海城",
+      "district": "油尖旺區",
+      "title": "奧海城免費泊車優惠",
+      "details": "平日於 1／2／3 期消費滿 HK$200／HK$400 可享 1／2 小時。週末及公眾假期：1 期滿 HK$200／HK$400 享 1／2 小時；2／3 期滿 HK$300／HK$600 享 1／2 小時。憑最多兩張不同商戶即日電子單據換領。",
+      "source_url": "https://www.olympiancity.com.hk/tc/Parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "朗豪坊",
+      "district": "油尖旺區",
+      "title": "朗豪坊免費泊車優惠",
+      "details": "憑最多兩張不同商戶即日電子消費單據（每張須滿 HK$100）換領：平日消費滿 HK$200／HK$400 可享 1／2 小時；週末及公眾假期滿 HK$400／HK$600 可享 1／2 小時。即日戲票兩張及 LP CLUB 會員可另享額外時數。",
+      "source_url": "https://www.langhamplace.com.hk/zh-hk/visit-us/parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "海港城",
+      "district": "油尖旺區",
+      "title": "海港城 VIC Club 會員禮遇",
+      "details": "VIC Club 會員於海港城消費一般每港幣 $1 可賺 1 分（更高級別可賺 1.5／2 分），並可享級別相關額外泊車時數等禮遇。免費泊車換領細則以官方條款及場內公告為準。",
+      "source_url": "https://www.harbourcity.com.hk/tc/vic_club/vic-club-tier/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "V Walk",
+      "district": "深水埗區",
+      "title": "V Walk The Point 會員免費泊車",
+      "details": "只限 The Point 會員。平日消費滿 HK$200／HK$300 或 1,500 積分可享 1／2 小時；週末及公眾假期滿 HK$300／HK$500 或 3,000 積分可享 1／2 小時。",
+      "source_url": "https://www.vwalk.com.hk/tch/access/parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "昇悅商場",
+      "district": "深水埗區",
+      "title": "昇悅商場最新推廣",
+      "details": "昇悅商場推廣活動見 CK Malls 官方推廣列表；最新條款與換領安排以場內及官方公告為準。",
+      "source_url": "https://ckmalls.com.hk/cht/promotion/?id=4",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "碧海藍天商場",
+      "district": "深水埗區",
+      "title": "碧海藍天商場基本資料（AEON 荔枝角店）",
+      "details": "碧海藍天（Aqua Marine）位於長沙灣深盛路 8 號，基座為商場；現以 AEON 荔枝角店為主要綜合百貨／超市錨點（地下至二樓）。場內設泊車相關設施／服務，惟未見公開固定免費泊車消費門檻，詳情請向分店或場內查詢。",
+      "source_url": "https://www.aeonstores.com.hk/shop_info/detail?id=124",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "西九龍中心",
+      "district": "深水埗區",
+      "title": "西九龍中心免費泊車優惠",
+      "details": "星期一至五以電子消費滿港幣 $200 或以上，或星期六、日及公眾假期滿港幣 $300 或以上，最高可獲最多 4 小時免費泊車（含即日及下次使用泊車券安排）。最多可累積五張不同商戶電子消費收據；詳情以場內公告為準。",
+      "source_url": "https://dragoncentre.com.hk/parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "Hysan Place",
+      "district": "灣仔區",
+      "title": "利園區／希慎廣場免費泊車優惠",
+      "details": "星期一至四（公眾假期除外）於利園區以電子貨幣／八達通即日消費滿 HK$400 享 3 小時免費泊車；星期五、六、日及公眾假期滿 HK$600 享 3 小時。最多兩組即日機印單據；須成為會員並經 Lee Gardens App 換領。",
+      "source_url": "https://www.leegardens.com.hk/car-park-promotion.aspx",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "利東街",
+      "district": "灣仔區",
+      "title": "利東街精彩活動及優惠推介",
+      "details": "利東街官方網站刊載最新活動、優惠推介及泊車相關資訊；詳情以官網及場內公告為準。",
+      "source_url": "https://www.leetungavenue.com.hk/tc/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "合和中心",
+      "district": "灣仔區",
+      "title": "合和中心／Hopewell Hill 免費泊車優惠",
+      "details": "電子消費滿 HK$200／HK$400／HK$600 可享 1／2／3 小時，或晚上 6 時後入車可按門檻享用夜泊至翌日早上 8 時。合和商圈商戶單據可用；適用合和商場及胡忠大廈停車場。",
+      "source_url": "https://www.hopewellhill.com.hk/zh-hk/parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "合和商場",
+      "district": "灣仔區",
+      "title": "合和商場／Hopewell Hill 免費泊車優惠",
+      "details": "電子消費滿 HK$200／HK$400／HK$600 可享 1／2／3 小時，或晚上 6 時後入車可按門檻享用夜泊至翌日早上 8 時。最多兩張即日機印發票連電子貨幣單據；適用合和商場及胡忠大廈停車場。",
+      "source_url": "https://www.hopewellhill.com.hk/zh-hk/parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "時代廣場",
+      "district": "灣仔區",
+      "title": "時代廣場 3 小時免費泊車優惠",
+      "details": "即日電子消費滿 HK$300，平日可享 3 小時、週末及公眾假期可享 2 小時免費泊車；星期日至五下午 4 時後入車，消費滿 HK$200 可享 3 小時。優惠由 2026 年 1 月 1 日起至另行通知。",
+      "source_url": "https://timessquare.com.hk/happenings/3-hours-free-parking-2026/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "皇室堡",
+      "district": "灣仔區",
+      "title": "皇室堡免費泊車及午市泊車優惠",
+      "details": "憑最多兩張不同商戶即日機印單據：平日消費滿 HK$200／HK$400／HK$500 可享 1／2／3 小時；週末及公眾假期滿 HK$300／HK$500／HK$600 可享 1／2／3 小時。平日午市餐飲另設泊車禮遇。",
+      "source_url": "https://www.windsorhouse.hk/index.php?id=178&lang=tc&sec=event",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "D·PARK 愉景新城",
+      "district": "荃灣區",
+      "title": "D·PARK 如心賞會員消費泊車優惠",
+      "details": "如心賞會員憑最多兩張即日不同商戶電子單據：平日消費滿 HK$100／HK$200／HK$300／HK$400／HK$500 可享 1 至 5 小時；週末及公眾假期滿 HK$200／HK$300／HK$400 可享 1／2／3 小時。",
+      "source_url": "https://www.dpark.com.hk/contact?lang=tc",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "OP Mall 海之戀商場",
+      "district": "荃灣區",
+      "title": "OP Mall 海之戀商場官方資訊",
+      "details": "長江實業官方租賃頁介紹海之戀商場零售組合與大型停車場；最新會員禮遇及泊車推廣以官方 App／場內公告為準。",
+      "source_url": "https://www.ckah.com/zh-hant/hong-kong-properties/leasing/817",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "綠楊坊",
+      "district": "荃灣區",
+      "title": "綠楊坊鄰近訪客泊車資訊",
+      "details": "顧客可泊綠楊新邨時租訪客停車場；訪客時租約 HK$17／小時。最新活動與優惠請參閱綠楊坊官方 Happenings 頁。",
+      "source_url": "https://www.lukyeunggalleria.com/tch/promotions/carparkinfo",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "荃新天地",
+      "district": "荃灣區",
+      "title": "荃新天地免費泊車優惠",
+      "details": "於荃新天地或荃新天地 2 即日電子消費滿 HK$200／HK$400，可享 1／2 小時免費泊車（入車時段 10:00–22:00）。憑最多兩張不同商戶即日機印單據換領。",
+      "source_url": "https://citywalk.com.hk/tc/Parking",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "荃灣廣場",
+      "district": "荃灣區",
+      "title": "荃灣廣場 The Point 會員免費泊車",
+      "details": "只限 The Point 會員。入車時段 10:00–22:00，即日消費滿 HK$200／HK$400 可享 1／2 小時；平日指定餐飲消費滿 HK$200 可額外 1 小時。亦可按平日／假日積分門檻換領。",
+      "source_url": "https://www.tsuenwanplaza.com.hk/tc/parking-tc/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "新都會廣場",
+      "district": "葵青區",
+      "title": "新都會廣場 The Point 免觸式泊車",
+      "details": "新都會廣場為 The Point 免觸式泊車適用商場之一；會員可按指定消費或積分於 App 換領泊車時數，詳情以 The Point 官方條款為準。",
+      "source_url": "https://www.thepoint.com.hk/sc/contactless-parking.html",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "青衣城",
+      "district": "葵青區",
+      "title": "青衣城 MTR Mobile 免費泊車優惠",
+      "details": "MTR Mobile 會員尊享。平日／After 6／週末可按消費或戲票換領最高 4 小時；平日另設餐飲泊車禮遇。詳情以青衣城官方條款為準。",
+      "source_url": "https://www.maritimesquare.com/tch/promotions/free-parking-privilege",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "PopCorn",
+      "district": "西貢區",
+      "title": "PopCorn 免費泊車優惠",
+      "details": "憑即日合資格電子消費或指定戲票可換領免費泊車；餐飲消費及晚間泊車設有指定禮遇，詳情以 MTR Malls 官方條款為準。",
+      "source_url": "https://www.popcorntko.com.hk/en/promotions/free-parking-privilege",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "將軍澳中心 Park Central",
+      "district": "西貢區",
+      "title": "將軍澳中心 The Point 會員免費泊車",
+      "details": "只限 The Point 會員，入車時段 10:00–22:00。平日消費滿 HK$300／HK$500 可享 2／3 小時；週末及公眾假期滿 HK$400／HK$600 可享 2／3 小時。",
+      "source_url": "https://www.park-central.com.hk/tc-parking-service/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "新都城中心",
+      "district": "西貢區",
+      "title": "新都城中心免費泊車優惠",
+      "details": "只限各期停車場私家車時租車位；入車時段約 07:00–22:00。即日電子消費滿港幣 $200／$400 可享 1／2 小時免費泊車。詳情以官方泊車頁及各期禮賓部為準。",
+      "source_url": "https://www.metrocity1.com/parking/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "東港城",
+      "district": "西貢區",
+      "title": "東港城 The Point 會員免費泊車",
+      "details": "只限 The Point 會員。平日消費或積分可換領 1 至 3 小時；週末及公眾假期滿 HK$400／HK$600 可享 2／3 小時。最多兩組即日機印發票。",
+      "source_url": "https://www.eastpointcity.com.hk/parking-2/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "MegaBox",
+      "district": "觀塘區",
+      "title": "MegaBox 免費泊車優惠",
+      "details": "平日消費滿 HK$100／HK$200 可享 1／2 小時；週末及公眾假期滿 HK$200／HK$400 可享 1／2 小時。指定食肆消費及 CineArt MegaBox 戲票可享額外泊車時數。",
+      "source_url": "https://www.megabox.com.hk/page.php?lang=eng&page_id=367",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "apm",
+      "district": "觀塘區",
+      "title": "apm The Point 會員免費泊車",
+      "details": "apm 的免費泊車優惠只適用於已登記 The Point 會員；會員可按商場指定消費或 The Point Bonus Points 換領泊車時數，並須使用免觸式泊車服務。詳情以 apm 顧客服務中心及官方 The Point 條款為準。",
+      "source_url": "https://www.thepoint.com.hk/en/contactless-parking.html",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "德福廣場",
+      "district": "觀塘區",
+      "title": "德福廣場免費泊車優惠",
+      "details": "MTR Mobile 會員消費滿 HK$200／HK$400，可享 1／2 小時免費泊車；合資格電子消費單據及平日指定戲票可按官方條款換領。",
+      "source_url": "https://www.telford-plaza.com/en/promotions/free_parking_privilege",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "愉景灣北商場 DB North Plaza",
+      "district": "離島區",
+      "title": "愉景灣北商場活動及交通資訊",
+      "details": "私人車輛進入愉景灣受限，訪客通常於欣澳／東涌泊車再轉巴士。最新商場活動與 Spend & Ride 等禮遇以官方 What’s Hot 頁為準。",
+      "source_url": "https://www.visitdiscoverybay.com/en/whats-hot-event/176",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "愉景灣廣場 DB Plaza",
+      "district": "離島區",
+      "title": "愉景灣 Spend & Ride 交通禮遇",
+      "details": "私人車輛進入愉景灣受限。訪客可於指定餐飲電子消費後，按官方活動條款換領回程交通相關禮遇（Spend & Ride）；門檻與時段以 visitdiscoverybay.com 公告為準。",
+      "source_url": "https://www.visitdiscoverybay.com/en/whats-hot-event/103",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "東薈城名店倉",
+      "district": "離島區",
+      "title": "東薈城名店倉免費泊車禮遇",
+      "details": "即日單一電子消費滿 HK$200／HK$400 可換領免費泊車（適用 P2／P3，不適用 P1；每日最多 3 小時）。CLUB CG 會員每日可額外 1 小時。",
+      "source_url": "https://www.citygateoutlets.com.hk/zh-hk/offer-events/events/parking-offers/",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "荷里活廣場",
+      "district": "黃大仙區",
+      "title": "荷里活廣場免費泊車優惠",
+      "details": "平日與週末消費可按不同門檻換領免費泊車；指定食肆消費及 CineArt Plazahollywood 戲票可享額外時數。",
+      "source_url": "https://www.plazahollywood.com.hk/en/happenings-detail-en?index=6",
+      "is_evergreen": true
+    },
+    {
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "title": "黃大仙中心／領展商場最新推廣",
+      "details": "黃大仙中心（Temple Mall）屬領展商場網絡；最新推廣與泊車禮遇見領展客戶網推廣頁及場內公告。",
+      "source_url": "https://www.linkhk.com/tc/promotion/",
+      "is_evergreen": true
+    }
+  ]
+}

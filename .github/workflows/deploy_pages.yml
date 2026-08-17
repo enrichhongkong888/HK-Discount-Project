@@ -1,0 +1,69 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "malls.json"
+      - ".nojekyll"
+      - ".github/workflows/deploy_pages.yml"
+  workflow_run:
+    workflows: ["Daily Sync"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # After Daily Sync, publish the branch tip that received the data commit.
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch || github.ref }}
+
+      - name: Prepare static site
+        run: |
+          mkdir -p _site
+          cp index.html malls.json _site/
+          cp .nojekyll _site/.nojekyll
+          test -f _site/index.html
+          test -f _site/malls.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          malls = json.loads(Path("_site/malls.json").read_text(encoding="utf-8"))
+          n = sum(len(d.get("malls", [])) for d in malls.get("districts", []))
+          print(f"pages artifact malls={n} updated_at={malls.get('updated_at')}")
+          if n < 1:
+              raise SystemExit("malls.json has no malls to publish")
+          PY
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,75 @@
+{
+  "_comment": "District community / indie-shop structured feeds for community_aggregator. Cross-matched by mall_hint + address keywords. Phone must be the stall/store line, not mall hotlines.",
+  "offers": [
+    {
+      "enabled": true,
+      "mall_hint": "國際金融中心商場",
+      "address": "中環金融街8號",
+      "store_name": "萬寧",
+      "floor": "2樓",
+      "shop_number": "2004",
+      "phone": "2523 9672",
+      "title": "中環街坊情報｜萬寧 ifc 旗艦店會員禮遇",
+      "details": "地區小店／藥妝優惠：萬寧 ifc 旗艦店出示 yuu 會員碼可賺分及換領當期優惠；詳情以 yuu App 為準。",
+      "source_url": "https://ifc.com.hk/",
+      "keywords": ["街坊", "小店", "藥妝", "yuu"],
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "THE SOUTHSIDE",
+      "address": "黃竹坑香葉道11號",
+      "store_name": "UNIQLO",
+      "floor": "L2",
+      "shop_number": "214-221",
+      "phone": "2512 8698",
+      "title": "南區街坊情報｜THE SOUTHSIDE UNIQLO App 會員禮遇",
+      "details": "地區小店／服飾優惠：下載 UNIQLO App 登記會員可享 App 專屬折扣與新品情報；詳情以 App 為準。",
+      "source_url": "https://www.thesouthside.com.hk/tch/shops/uniqlo",
+      "keywords": ["街坊", "小店", "App"],
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "上水廣場",
+      "address": "上水石湖墟龍琛路39號",
+      "store_name": "萬寧",
+      "floor": "4樓",
+      "shop_number": "419-423",
+      "phone": "2480 0034",
+      "title": "北區街坊情報｜上水廣場萬寧 yuu 禮遇",
+      "details": "街坊藥妝小店優惠：上水廣場萬寧出示 yuu 會員碼可賺分換領當期優惠；詳情以 yuu App 為準。",
+      "source_url": "https://www.nestlehealthscience.com.hk/zh-hans/brands/compleat/sales-locations",
+      "keywords": ["街坊", "小店", "藥妝"],
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "將軍澳中心 Park Central",
+      "address": "將軍澳唐德街9號",
+      "store_name": "萬寧",
+      "floor": "地下",
+      "shop_number": "G33",
+      "phone": "3417 4813",
+      "title": "西貢街坊情報｜將軍澳中心萬寧會員禮遇",
+      "details": "地區小店優惠：將軍澳中心萬寧出示 yuu 可賺分及換領當期優惠；詳情以 App 及店內告示為準。",
+      "source_url": "https://elixir.com.hk/locate-us/",
+      "keywords": ["街坊", "小店", "市集"],
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "西九龍中心",
+      "address": "深水埗欽洲街37K",
+      "store_name": "萬寧",
+      "floor": "5樓",
+      "shop_number": "501B",
+      "phone": "2387 8262",
+      "title": "深水埗街坊情報｜西九龍中心萬寧優惠",
+      "details": "街坊藥妝優惠：西九龍中心萬寧出示 yuu 會員碼可賺分換領；詳情以 yuu App 為準。",
+      "source_url": "https://elixir.com.hk/locate-us/",
+      "keywords": ["街坊", "小店", "藥妝"],
+      "is_evergreen": true
+    }
+  ]
+}

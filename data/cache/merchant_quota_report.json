@@ -1,0 +1,526 @@
+{
+  "today": "2026-08-15",
+  "target_independent_ratio": 0.7,
+  "malls_on_target": 74,
+  "malls_total": 74,
+  "malls": [
+    {
+      "mall_name": "中環街市",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "信德中心",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "國際金融中心商場",
+      "combined_indie": 3,
+      "combined_chain": 1,
+      "combined_ratio": 0.75,
+      "unique_shops": 4
+    },
+    {
+      "mall_name": "太古廣場",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "置地廣場",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "AIRSIDE",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "又一城",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "樂富廣場",
+      "combined_indie": 7,
+      "combined_chain": 3,
+      "combined_ratio": 0.7,
+      "unique_shops": 10
+    },
+    {
+      "mall_name": "黃埔天地",
+      "combined_indie": 14,
+      "combined_chain": 6,
+      "combined_ratio": 0.7,
+      "unique_shops": 20
+    },
+    {
+      "mall_name": "+WOO 嘉湖",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "T Town",
+      "combined_indie": 5,
+      "combined_chain": 2,
+      "combined_ratio": 0.7143,
+      "unique_shops": 7
+    },
+    {
+      "mall_name": "YOHO MALL 形點",
+      "combined_indie": 16,
+      "combined_chain": 7,
+      "combined_ratio": 0.6957,
+      "unique_shops": 23
+    },
+    {
+      "mall_name": "元朗廣場",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "上水中心購物商場",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "上水匯 spot",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "上水廣場",
+      "combined_indie": 15,
+      "combined_chain": 6,
+      "combined_ratio": 0.7143,
+      "unique_shops": 21
+    },
+    {
+      "mall_name": "粉嶺名都商場",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "THE SOUTHSIDE",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "數碼港商場",
+      "combined_indie": 9,
+      "combined_chain": 4,
+      "combined_ratio": 0.6923,
+      "unique_shops": 13
+    },
+    {
+      "mall_name": "海怡廣場",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "combined_indie": 10,
+      "combined_chain": 5,
+      "combined_ratio": 0.6667,
+      "unique_shops": 15
+    },
+    {
+      "mall_name": "香港仔中心商場",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "大埔廣場",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "大埔超級城",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "V city",
+      "combined_indie": 3,
+      "combined_chain": 1,
+      "combined_ratio": 0.75,
+      "unique_shops": 4
+    },
+    {
+      "mall_name": "屯門市廣場",
+      "combined_indie": 18,
+      "combined_chain": 7,
+      "combined_ratio": 0.72,
+      "unique_shops": 25
+    },
+    {
+      "mall_name": "屯門時代廣場",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "錦薈坊",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "北角匯",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "太古城中心",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "康怡廣場",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "杏花新城",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "HomeSquare",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "圍方 The Wai",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "新城市廣場",
+      "combined_indie": 10,
+      "combined_chain": 5,
+      "combined_ratio": 0.6667,
+      "unique_shops": 15
+    },
+    {
+      "mall_name": "新港城中心 MOSTown",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "沙田中心",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "ELEMENTS 圓方",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "K11 MUSEA",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "K11購物藝術館",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "THE ONE",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "奧海城",
+      "combined_indie": 16,
+      "combined_chain": 7,
+      "combined_ratio": 0.6957,
+      "unique_shops": 23
+    },
+    {
+      "mall_name": "朗豪坊",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "海港城",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "V Walk",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "昇悅商場",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "碧海藍天商場",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "西九龍中心",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "Hysan Place",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "利東街",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "合和中心",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "合和商場",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "時代廣場",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "皇室堡",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "D·PARK 愉景新城",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "OP Mall 海之戀商場",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "綠楊坊",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "荃新天地",
+      "combined_indie": 8,
+      "combined_chain": 4,
+      "combined_ratio": 0.6667,
+      "unique_shops": 12
+    },
+    {
+      "mall_name": "荃灣廣場",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "新都會廣場",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "葵涌廣場",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "青衣城",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "PopCorn",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "將軍澳中心 Park Central",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "新都城中心",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "東港城",
+      "combined_indie": 1,
+      "combined_chain": 1,
+      "combined_ratio": 0.5,
+      "unique_shops": 2
+    },
+    {
+      "mall_name": "MegaBox",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "apm",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "德福廣場",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "愉景灣北商場 DB North Plaza",
+      "combined_indie": 2,
+      "combined_chain": 1,
+      "combined_ratio": 0.6667,
+      "unique_shops": 3
+    },
+    {
+      "mall_name": "愉景灣廣場 DB Plaza",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "東薈城名店倉",
+      "combined_indie": 1,
+      "combined_chain": 0,
+      "combined_ratio": 1.0,
+      "unique_shops": 1
+    },
+    {
+      "mall_name": "荷里活廣場",
+      "combined_indie": 3,
+      "combined_chain": 1,
+      "combined_ratio": 0.75,
+      "unique_shops": 4
+    },
+    {
+      "mall_name": "黃大仙中心",
+      "combined_indie": 4,
+      "combined_chain": 2,
+      "combined_ratio": 0.6667,
+      "unique_shops": 6
+    }
+  ]
+}

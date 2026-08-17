@@ -1,0 +1,310 @@
+{
+  "error": "0000",
+  "errorMessage": "",
+  "errorCode": "",
+  "data": {
+    "seoTitleEn": "“Savour the Tastes of Home in Hundred Ways” Stamp Rewards Programme - Part 2",
+    "seoTitleTc": "「麥食當三番」消費換領活動 第二彈",
+    "seoTitleSc": "“麦食当三番”消费换领活动 第二弹",
+    "seoKeywordEn": "",
+    "seoKeywordTc": "",
+    "seoKeywordSc": "",
+    "seoDescriptionEn": "",
+    "seoDescriptionTc": "",
+    "seoDescriptionSc": "",
+    "promotionInfo": {
+      "id": 806,
+      "promotionType": "promotion",
+      "promotionTypeNameEn": "Current Promotion",
+      "promotionTypeNameTc": "最新推廣活動",
+      "promotionTypeNameSc": "最新推广活动",
+      "titleEn": "“Savour the Tastes of Home in Hundred Ways” Stamp Rewards Programme - Part 2",
+      "titleTc": "「麥食當三番」消費換領活動 第二彈",
+      "titleSc": "“麦食当三番”消费换领活动 第二弹",
+      "dateEn": "17 August to 31 October 2026",
+      "dateTc": "2026年8月17日至10月31日",
+      "dateSc": "2026年8月17日至10月31日",
+      "timeEn": "11:00 – 20:00",
+      "timeTc": "上午11時至晚上8時",
+      "timeSc": "上午11时至晚上8时",
+      "introductionEn": "<p>During the Promotion Period, customers with same-day e-spending* of $60 or above at designated merchants (including but not limited to: catering, supermarkets, convenience stores, snacks & pastries and fresh markets) are entitled to redeem ONE stamp by presenting an original machine-printed receipt (Spending per receipt at HK$60 or above for 1 stamp, HK$120 or above for 2 stamps, and so on; maximum 20 stamps per receipt).</p>\n",
+      "introductionTc": "<p>推廣期內，顧客於領展旗下指定活動推廣地點以電子貨幣<sup>*</sup>於指定商戶(包括但不限於：餐飲、超級市場、便利店、零食及糕點及街市)單一淨消費滿$60港元，憑正本機印發票，即可於該活動推廣地點之換領地點換領印花1個；滿 $120港元可換領印花2個，如此類推，每張發票最多可換領印花20個。</p>\n",
+      "introductionSc": "<p>推广期内，顾客于领展旗下指定活动推广地点以电子货币<sup>*</sup>于指定商户(包括但不限于：餐饮、超级市场、便利店、零食及糕点及街市)单一净消费满$60港元，凭正本机印发票，即可于该活动推广地点之换领地点换领印花1个；满 $120港元可换领印花2个，如此类推，每张发票最多可换领印花20个。</p>\n",
+      "contact": "",
+      "viewLocationThumbnailUrlEn": "/linkweb/api/file/File%20Resources/Image/promotions_detail_view_location_button_en.svg?v=e932256a1037d89fb44e199176eb7214",
+      "viewLocationThumbnailUrlTc": "/linkweb/api/file/File%20Resources/Image/promotions_detail_view_location_button_tc.svg?v=526eb4a97b074e37bd6c4ec5d174163d",
+      "viewLocationThumbnailUrlSc": "/linkweb/api/file/File%20Resources/Image/promotions_detail_view_location_button_sc.svg?v=ae2adabc53d10d36c13aa4a03f9abd7d",
+      "downloadIconUrlEn": "/linkweb/api/file/File%20Resources/Image/promotions_detail_download_button_with_text_en.svg?v=292ef393f4e09a061d7ab648b052fdcb",
+      "downloadIconUrlTc": "/linkweb/api/file/File%20Resources/Image/promotions_detail_download_button_with_text_tc.svg?v=e35c73287947a3507edf381ad5ef236a",
+      "downloadIconUrlSc": "/linkweb/api/file/File%20Resources/Image/promotions_detail_download_button_with_text_sc.svg?v=d5be1b0b8b84d871a723ae26ad60f879",
+      "downloadUrl": "",
+      "locationEn": "24&nbsp;Shopping Centres",
+      "locationTc": "24&nbsp;個領展旗下商場",
+      "locationSc": "24&nbsp;个领展旗下商场",
+      "isCustomLocation": false,
+      "isSingleLocation": false,
+      "singleShopCentreId": null,
+      "singlePropCode": "",
+      "shopCentreList": [
+        {
+          "areaCode": "HK",
+          "areaNameEn": "Hong Kong",
+          "areaNameTc": "香港",
+          "areaNameSc": "香港",
+          "shopCentres": [
+            {
+              "shopCentreId": 27,
+              "propCode": "sswxc2",
+              "shopCentreNameEn": "Siu Sai Wan Plaza",
+              "shopCentreNameTc": "小西灣廣場",
+              "shopCentreNameSc": "小西湾广场"
+            }
+          ]
+        },
+        {
+          "areaCode": "KL",
+          "areaNameEn": "Kowloon",
+          "areaNameTc": "九龍",
+          "areaNameSc": "九龙",
+          "shopCentres": [
+            {
+              "shopCentreId": 60,
+              "propCode": "hmtpc2",
+              "shopCentreNameEn": "Homantin Plaza",
+              "shopCentreNameTc": "何文田廣場",
+              "shopCentreNameSc": "何文田广场"
+            },
+            {
+              "shopCentreId": 21,
+              "propCode": "katxd2",
+              "shopCentreNameEn": "Kai Tin Shopping Centre",
+              "shopCentreNameTc": "啟田商場",
+              "shopCentreNameSc": "启田商场"
+            },
+            {
+              "shopCentreId": 24,
+              "propCode": "lympd2",
+              "shopCentreNameEn": "Lei Yue Mun Plaza",
+              "shopCentreNameTc": "鯉魚門廣場",
+              "shopCentreNameSc": "鲤鱼门广场"
+            },
+            {
+              "shopCentreId": 7,
+              "propCode": "lfxxc2",
+              "shopCentreNameEn": "Lok Fu Place",
+              "shopCentreNameTc": "樂富廣場",
+              "shopCentreNameSc": "乐富广场"
+            },
+            {
+              "shopCentreId": 58,
+              "propCode": "fchxc2",
+              "shopCentreNameEn": "Nam Cheong Place",
+              "shopCentreNameTc": "南昌薈",
+              "shopCentreNameSc": "南昌荟"
+            },
+            {
+              "shopCentreId": 127,
+              "propCode": "smpxd2",
+              "shopCentreNameEn": "Sau Mau Ping Shopping Centre",
+              "shopCentreNameTc": "秀茂坪商場",
+              "shopCentreNameSc": "秀茂坪商场"
+            },
+            {
+              "shopCentreId": 164,
+              "propCode": "temple",
+              "shopCentreNameEn": "Temple Mall",
+              "shopCentreNameTc": "黃大仙中心",
+              "shopCentreNameSc": "黄大仙中心"
+            },
+            {
+              "shopCentreId": 74,
+              "propCode": "twsxd2",
+              "shopCentreNameEn": "Tsz Wan Shan Shopping Centre",
+              "shopCentreNameTc": "慈雲山中心",
+              "shopCentreNameSc": "慈云山中心"
+            }
+          ]
+        },
+        {
+          "areaCode": "NT",
+          "areaNameEn": "New Territories",
+          "areaNameTc": "新界",
+          "areaNameSc": "新界",
+          "shopCentres": [
+            {
+              "shopCentreId": 134,
+              "propCode": "bexxc2",
+              "shopCentreNameEn": "Butterfly Plaza",
+              "shopCentreNameTc": "蝴蝶廣場",
+              "shopCentreNameSc": "蝴蝶广场"
+            },
+            {
+              "shopCentreId": 38,
+              "propCode": "cftxc2",
+              "shopCentreNameEn": "Cheung Fat Plaza",
+              "shopCentreNameTc": "長發廣場",
+              "shopCentreNameSc": "长发广场"
+            },
+            {
+              "shopCentreId": 77,
+              "propCode": "cyxxc2",
+              "shopCentreNameEn": "Choi Yuen Plaza",
+              "shopCentreNameTc": "彩園廣場",
+              "shopCentreNameSc": "彩园广场"
+            },
+            {
+              "shopCentreId": 94,
+              "propCode": "choxc2",
+              "shopCentreNameEn": "Chung On Shopping Centre",
+              "shopCentreNameTc": "頌安商場",
+              "shopCentreNameSc": "颂安商场"
+            },
+            {
+              "shopCentreId": 44,
+              "propCode": "ftgxc2",
+              "shopCentreNameEn": "Fu Tung Plaza",
+              "shopCentreNameTc": "富東廣場",
+              "shopCentreNameSc": "富东广场"
+            },
+            {
+              "shopCentreId": 138,
+              "propCode": "lkgxc2",
+              "shopCentreNameEn": "Leung King Plaza",
+              "shopCentreNameTc": "良景廣場",
+              "shopCentreNameSc": "良景广场"
+            },
+            {
+              "shopCentreId": 135,
+              "propCode": "cfsxe2",
+              "shopCentreNameEn": "T Town",
+              "shopCentreNameTc": "T Town",
+              "shopCentreNameSc": "T Town"
+            },
+            {
+              "shopCentreId": 113,
+              "propCode": "hta2c2",
+              "shopCentreNameEn": "TKO Gateway",
+              "shopCentreNameTc": "TKO Gateway",
+              "shopCentreNameSc": "TKO Gateway"
+            },
+            {
+              "shopCentreId": 128,
+              "propCode": "staxc2",
+              "shopCentreNameEn": "TKO Spot",
+              "shopCentreNameTc": "TKO Spot",
+              "shopCentreNameSc": "TKO Spot"
+            },
+            {
+              "shopCentreId": 85,
+              "propCode": "twoxc2",
+              "shopCentreNameEn": "Tai Wo Plaza",
+              "shopCentreNameTc": "太和廣場",
+              "shopCentreNameSc": "太和广场"
+            },
+            {
+              "shopCentreId": 86,
+              "propCode": "tyxxc2",
+              "shopCentreNameEn": "Tai Yuen Commercial Centre",
+              "shopCentreNameTc": "大元商場",
+              "shopCentreNameSc": "大元商场"
+            },
+            {
+              "shopCentreId": 147,
+              "propCode": "tckxc2",
+              "shopCentreNameEn": "Tin Chak Shopping Centre",
+              "shopCentreNameTc": "天澤商場",
+              "shopCentreNameSc": "天泽商场"
+            },
+            {
+              "shopCentreId": 153,
+              "propCode": "tny1c2",
+              "shopCentreNameEn": "Tin Yiu Plaza",
+              "shopCentreNameTc": "天耀廣場",
+              "shopCentreNameSc": "天耀广场"
+            },
+            {
+              "shopCentreId": 109,
+              "propCode": "wcxxc2",
+              "shopCentreNameEn": "Wo Che Plaza",
+              "shopCentreNameTc": "禾輋廣場",
+              "shopCentreNameSc": "禾輋广场"
+            },
+            {
+              "shopCentreId": 55,
+              "propCode": "yttxc2",
+              "shopCentreNameEn": "Yat Tung Shopping Centre",
+              "shopCentreNameTc": "逸東商場",
+              "shopCentreNameSc": "逸东商场"
+            }
+          ]
+        }
+      ],
+      "promotionPhotos": [
+        {
+          "posterEn": "/linkweb/api/file/SiteAssets/Promotion/2026/08/13/V2_LINK_MegaStandee_0812_V4A.jpg?v=bd7932c76f1003063831c0411818288b",
+          "posterTc": "/linkweb/api/file/SiteAssets/Promotion/2026/08/13/V2_LINK_MegaStandee_0812_V4A.jpg?v=bd7932c76f1003063831c0411818288b",
+          "posterSc": "/linkweb/api/file/SiteAssets/Promotion/2026/08/13/V2_LINK_MegaStandee_0812_V4A.jpg?v=bd7932c76f1003063831c0411818288b",
+          "posterAltTextEn": "Promotion Photo 1",
+          "posterAltTextTc": "推廣活動照片1",
+          "posterAltTextSc": "推广活动照片1"
+        }
+      ],
+      "lastYearPromotionId": null,
+      "lastYearPromotionIconUrlEn": "",
+      "lastYearPromotionIconUrlTc": "",
+      "lastYearPromotionIconUrlSc": ""
+    },
+    "eventGallery": null,
+    "promotionDetails": {
+      "detailEn": "<p><strong>“Savour the Tastes of Home in Hundred Ways” Stamp Rewards Programme - Part 2 </strong></p>\n\n<p>Event Promotion Period: 17 August to 31 October 2026</p>\n\n<p>Stamp & Gift Redemption Period: 17 August to 31 October 2026</p>\n\n<p>Promotion Venues^: 24 designated shopping centres or fresh markets</p>\n\n<p>Stamp & Gift Redemption Venue: Customer service counters of the designated promotion venues</p>\n\n<p>Stamp Redemption Time: 11:00 – 20:00 or service hours of individual redemption venues△</p>\n\n<p><strong>Each receipt can be redeemed for a maximum of 20 stamps.</strong></p>\n\n<p>Stamp cards issued under Phase 1 of “Savour the Tastes of Home in Hundred Ways” are also applicable. A maximum of two stamp cards can be used for each redemption.</p>\n\n<p>During the Gift Redemption Period, customers who accumulate the designated number of stamps are entitled to redeem one corresponding gift at the gift redemption venue during the redemption hours. A total of 3,990 gifts are available on a first-come, first-served basis, while stocks last.</p>\n\n<p><strong>Number of Stamps Required to Redeem the Corresponding Gift</strong></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p><strong>Gift</strong></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p><strong>Number of Stamps Required        </strong></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p><strong>Total Quantity</strong></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>“Savour the Tastes of Home in Hundred Ways”</p>\n\n\t\t\t\t\t\t<p>Ceramic Plates Set</p>\n\n\t\t\t\t\t\t<p>(2 McDull & Mrs. Mak Ceramic Plates and 2 Ceramic Chopsticks)</p>\n\n\t\t\t\t\t\t<p></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>100</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>2,145</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>“Savour the Tastes of Home in Hundred Ways”</p>\n\n\t\t\t\t\t\t<p>Ceramic Bowls Set</p>\n\n\t\t\t\t\t\t<p>(2 McDull & Mrs. Mak Ceramic Bowls and 2 Ceramic Spoons)</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>100</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>1,845</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\n\t\t\t<p><br />\n\t\t\t </p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>Gift Distribution per Designated Shopping Centres</strong></p>\n\n\t\t\t<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p><strong>Shopping Centre</strong></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\"><strong>“Savour the Tastes of Home in Hundred Ways” </strong></p>\n\n\t\t\t\t\t\t<p align=\"center\"><strong>Ceramic Bowl Set</strong></p>\n\n\t\t\t\t\t\t<p align=\"center\"><strong>(2 McDull & Mrs. Mak Ceramic Bowls and 2 Ceramic Spoons)</strong></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\"><strong>“Savour the Tastes of Home in Hundred Ways” </strong></p>\n\n\t\t\t\t\t\t<p align=\"center\"><strong>Ceramic Plate Set</strong></p>\n\n\t\t\t\t\t\t<p align=\"center\"><strong>(2 McDull & Mrs. Mak Ceramic Plates and 2 Ceramic Chopsticks)</strong></p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>T Town</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">148</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">172</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Tin Chak Shopping Centre</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Tin Yiu Plaza</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Butterfly Plaza & Market</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">148</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">172</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Leung King Plaza</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">92</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">107</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Choi Yuen Plaza</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Tai Wo Plaza</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Tai Yuen Commercial Centre</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Wo Che Plaza</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">92</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">107</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Chung On Shopping Centre</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Lok Fu Place & Market</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">148</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">172</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Temple Mall</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">148</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">172</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Kai Tin Shopping Centre</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Sau Mau Ping Shopping Centre & Market</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Lei Yue Mun Plaza</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>TKO Gateway & Market</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">92</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">107</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>TKO Spot & Market</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Homantin Plaza & Market</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Nam Cheong Place</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Tsz Wan Shan Shopping Centre</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Fu Tung Plaza & Market</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Yat Tung Shopping Centre</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Cheung Fat Plaza</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">92</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">107</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Siu Sai Wan Plaza</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">55</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p align=\"center\">64<br />\n\t\t\t\t\t\t </p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\n\t\t\t<p></p>\n\n\t\t\t<p></p>\n\n\t\t\t<p>^Promotion Venues:</p>\n\n\t\t\t<p>T Town, Tin Chak Shopping Centre & Market, Tin Yiu Plaza, Butterfly Plaza & Market, Leung King Plaza, Choi Yuen Plaza, Tai Wo Plaza, Tai Yuen Shopping Centre & Market, Chung On Shopping Centre, Wo Che Plaza & Market, Lok Fu Place & Market, Temple Mall (North & South), Kai Tin Shopping Centre, Sau Mau Ping Shopping Centre & Market, Lei Yue Mun Plaza, TKO Gateway & Market, TKO Spot & Market, Nam Cheong Place & Market, Homantin Plaza & Market, Tsz Wan Shan Shopping Centre, Cheung Fat Plaza, Siu Sai Wan Plaza, Fu Tung Plaza & Market and Yat Tung Shopping Centre.</p>\n\n\t\t\t<p></p>\n\n\t\t\t<p>*Electronic payment methods include credit cards, EPS, Apple Pay, Samsung Pay, Google Pay, Tap & Go, Alipay, AlipayHK, UnionPay, BoC Pay+, PayMe from HSBC, WeChat Pay, Octopus, Octopus Wallet, TNG Wallet, other mobile payment applications, or other stored value facilities regulated under the Payment Systems and Stored Value Facilities Ordinance (Cap. 584).</p>\n\n\t\t\t<p></p>\n\n\t\t\t<p>△Service hours of individual stamp redemption venues / gift redemption venues may vary. For details, please inquire with shopping centre staff.</p>\n\n\t\t\t<p><br />\n\t\t\tPhotos are for reference only.</p>\n\n\t\t\t<p></p>\n\n\t\t\t<p>Terms and conditions apply. For details, please refer to in-mall promotional materials.</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p></p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+      "detailTc": "<p><strong>「麥食當三番」消費換領活動 第二彈</strong></p>\n\n<p>活動及印花換領日期：2026年8月17日至10月31日</p>\n\n<p>禮品換領日期：2026年8月17日至10月31日</p>\n\n<p>活動推廣地點^：下列24個領展旗下<a name=\"_Hlk198290553\">商場</a>及/或街市</p>\n\n<p>印花及禮品換領地點：活動推廣地點之顧客服務台</p>\n\n<p>印花及禮品換領時間：上午11時至晚上8時△</p>\n\n<p>換領期內，當顧客儲滿指定數量印花，可於換領時間到指定換領地點換領相應禮品乙份。禮品總數量共3,990份，數量有限，先到先得，換完即止。</p>\n\n<p><strong>每張發票可換領最多</strong><strong>20個印花<br />\n「麥食當三番」第一彈所發出之印花卡亦適用。每次換領最多可使用兩張印花卡</strong></p>\n\n<p><strong>換領相應禮品所須印花數目</strong></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>禮品</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong>所須印花數目</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong> 禮品總數量</strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>屋企百味 陶瓷碟套裝<br />\n\t\t\t（麥兜麥太造型陶瓷碟 x 2 及陶瓷筷子 x 2）</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>100</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>  2,145</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>屋企百味 陶瓷碗套裝<br />\n\t\t\t（麥兜麥太造型陶瓷碗 x 2 及陶瓷湯匙 x 2）</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>100</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>  1,845</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p></p>\n\n<p><strong>商場禮品數量分佈</strong><strong>(每一商場)</strong></p>\n\n<p></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>商</strong><strong>場</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\"><strong>屋企百味 陶瓷碗套裝</strong></p>\n\n\t\t\t<p align=\"center\"><strong>（麥兜麥太造型陶瓷碗</strong><strong> x 2 及陶瓷湯匙 x 2）</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\"><strong>屋企百味 陶瓷碟套裝</strong></p>\n\n\t\t\t<p align=\"center\"><strong>（麥兜麥太造型陶瓷碟</strong><strong> x 2 及陶瓷筷子 x 2）</strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>T Town</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">148</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">172</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>天澤商場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>天耀商場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>蝴蝶廣場及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">148</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">172</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>良景廣場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">92</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">107</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>彩園廣場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>太和廣場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>大元商場及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>禾輋廣場及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">92</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">107</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>頌安商場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>樂富廣場及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">148</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">172</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>黃大仙中心</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">148</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">172</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>啟田商場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>秀茂坪商場及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>鯉魚門廣場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>TKO Gateway及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">92</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">107</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>TKO Spot及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>何文田廣場及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>南昌薈及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>慈雲山中心</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>富東廣場及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>逸東商場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>長發廣場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">92</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">107</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>小西灣廣場</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\n\t\t\t<p align=\"center\"></p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>^活動推廣地點</strong></p>\n\n<p><strong>T Town、天澤商場及街市、天耀廣場、蝴蝶廣場及街市、良景廣場、彩園廣場、太和廣場、大元商場及街市、頌安商場、禾輋廣場及街市、樂富廣場及街市、黃大仙中心（南館/北館）、啟田商場、秀茂坪商場及街市、鯉魚門廣場、TKO Gateway及街市、TKO Spot及街市、南昌薈及街市、何文田廣場及街市、慈雲山中心、長發廣場、小西灣廣場、富東廣場及街市、逸東商場。</strong></p>\n\n<p>△個別印花換領地點/禮品換領地點之顧客服務台服務時間可能有所不同，詳情請向商場職員查詢。</p>\n\n<p>活動受有關條款及細則約束，詳情請參閱場內宣傳品。</p>\n\n<p>圖片只供參考，如有任何爭議，領展資產管理有限公司保留最終決定權。</p>\n",
+      "detailSc": "<p><strong>“麦食当三番”消费换领活动 第二弹</strong></p>\n\n<p>活动及印花换领日期：2026年8月17日至10月31日</p>\n\n<p>礼品换领日期：2026年8月17日至10月31日</p>\n\n<p>活动推广地点^：下列24个领展旗下<a name=\"_Hlk198290553\">商场</a>及/或街市</p>\n\n<p>印花及礼品换领地点：活动推广地点之顾客服务台</p>\n\n<p>印花及礼品换领时间：上午11时至晚上8时△</p>\n\n<p>换领期内，当顾客储满指定数量印花，可于换领时间到指定换领地点换领相应礼品乙份。礼品总数量共3,990份，数量有限，先到先得，换完即止。</p>\n\n<p><strong>每张发票可换领最多</strong><strong>20个印花<br />\n“麦食当三番”第一弹所发出之印花卡亦适用。每次换领最多可使用两张印花卡</strong></p>\n\n<p><strong>换领相应礼品所须印花数目</strong></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>礼品</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong>所须印花数目</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p><strong> 礼品总数量</strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>屋企百味 陶瓷碟套装<br />\n\t\t\t（麦兜麦太造型陶瓷碟 x 2 及陶瓷筷子 x 2）</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>100</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>  2,145</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>屋企百味 陶瓷碗套装<br />\n\t\t\t（麦兜麦太造型陶瓷碗 x 2 及陶瓷汤匙 x 2）</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>100</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p>  1,845</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p></p>\n\n<p><strong>商场礼品数量分布</strong><strong>(每一商场)</strong></p>\n\n<p></p>\n\n<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p><strong>商</strong><strong>场</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\"><strong>屋企百味 陶瓷碗套装</strong></p>\n\n\t\t\t<p align=\"center\"><strong>（麦兜麦太造型陶瓷碗</strong><strong> x 2 及陶瓷汤匙 x 2）</strong></p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\"><strong>屋企百味 陶瓷碟套装</strong></p>\n\n\t\t\t<p align=\"center\"><strong>（麦兜麦太造型陶瓷碟</strong><strong> x 2 及陶瓷筷子 x 2）</strong></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>T Town</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">148</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">172</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>天泽商场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>天耀商场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>蝴蝶广场及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">148</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">172</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>良景广场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">92</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">107</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>彩园广场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>太和广场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>大元商场及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>禾輋广场及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">92</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">107</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>颂安商场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>乐富广场及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">148</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">172</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>黄大仙中心</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">148</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">172</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>启田商场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>秀茂坪商场及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>鲤鱼门广场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>TKO Gateway及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">92</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">107</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>TKO Spot及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>何文田广场及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>南昌荟及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>慈云山中心</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>富东广场及街市</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>逸东商场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>长发广场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">92</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">107</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>小西湾广场</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">55</p>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<p align=\"center\">64</p>\n\n\t\t\t<p align=\"center\"></p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>^活动推广地点</strong></p>\n\n<p><strong>T Town、天泽商场及街市、天耀广场、蝴蝶广场及街市、良景广场、彩园广场、太和广场、大元商场及街市、颂安商场、禾輋广场及街市、乐富广场及街市、黄大仙中心（南馆/北馆）、启田商场、秀茂坪商场及街市、鲤鱼门广场、TKO Gateway及街市、TKO Spot及街市、南昌荟及街市、何文田广场及街市、慈云山中心、长发广场、小西湾广场、富东广场及街市、逸东商场。</strong></p>\n\n<p>△个别印花换领地点/礼品换领地点之顾客服务台服务时间可能有所不同，详情请向商场职员查询。</p>\n\n<p>活动受有关条款及细则约束，详情请参阅场内宣传品。</p>\n\n<p>图片只供参考，如有任何争议，领展资产管理有限公司保留最终决定权。</p>\n",
+      "additionalTitleEn": "Terms & Conditions",
+      "additionalTitleTc": "條款及細則",
+      "additionalTitleSc": "条款及细则",
+      "additionalContentEn": "<p>Please refer to the Chinese version. </p>\n",
+      "additionalContentTc": "<p>1.「麥食當三番」消費換領活動 第二彈（「活動」）由領展資產管理有限公司（「主辦單位」）舉辦；<br />\n2.參加活動，即視作同意及接受遵守本條款及細則；<br />\n3.換領印花之發票必須由同一活動推廣地點之商戶發出，並只適用於該活動推廣地點之換領地點換領；<br />\n4.所有用作換領印花之發票必須是在推廣期內發出，並於消費日即日換領，所有逾期之發票將不獲受理；<br />\n5.如晚上 8時後或個別換領地點服務時間後發出之發票，可於翌日換領時間作換領用途(2026年 10月 31日除外)，逾期無效；<br />\n6.所有用作換領印花之發票必須清晰印有商戶名稱、消費日期、時間及金額之電子機印發票正本，並由主辦單位工作人員核實後方為有效，過程中顧客必須提供相對應消費之電子貨幣付款存根正本或紀錄介面給工作人員核實。如對任何發票之真偽存疑，主辦單位工作人員有絕對酌情權拒絕接受；<br />\n7.恕不接受任何分拆簽賬，顧客於同一商戶之消費簽賬不可分拆成多張發票或簽賬存根以參加活動，每套發票當中只接受一張由同一商戶同日發出之發票；<br />\n8.恕不接受(i)任何以現金/任何形式商舖禮券/餅券/月餅券/現金券等形式付款之發票、以任何形式支付之預繳消費、訂金收據、手寫單、發票重印本、影印本或複印本或已損毀及/或塗改之發票; (ii) 任何銀行、老人院、護老院、醫務中心、供金會、僱傭中心、證券及投資公司、香港賽馬會、展銷攤位、展銷亭、購買補習及教育中心課程、購買美容中心套票、購買健身會藉或套票、購買門票、八達通及其他手機支付程式增值、繳費靈、律師費、中介費、樓宇買賣佣金、租金、任何按金、向政府部門及電訊公司繳費、儲值卡或任何增值卡之付款收據; (iii) 香港郵政局發出包括購買郵票之收據；(iv)購買或增值任何形式商戶會員卡、代幣、商舖禮券及餅券，購買金粒及金條之發票；<br />\n9.計算消費總額須扣除任何信用卡、易辦事、任何形式商舖禮券、現金券、餅券、月餅券、會員卡、八達通或其他手機支付程式或會員卡等任何形式的積分或優惠後之淨支付金額；<br />\n10.為避免秩序混亂起見，每位顧客每次只可憑最多三套已核實及有效之發票換領印花，如欲登記其餘發票，顧客必須重新排隊輪候；<br />\n11.已用作換領之發票均會被蓋印以兹識別及/或拍照以作紀錄，已蓋印之發票不可重複使用參與商場內其他推廣或換領活動(商場泊車優惠除外) ，發票照片只會用於是次活動紀錄之用，一切存檔將會於活動結束後六個月內銷毀<br />\n12.所有於本活動派發之印花須於2026年10月31日(晚上8時)之前或個別換領地點服務時間結束之前換領禮品，逾期作廢；<br />\n13.換領禮品或禮品換領信時，主辦單位工作人員會即時收回蓋有印花之實體正本印花卡，如印花卡上的印花超過換領禮品所需的指定數目，餘數印花恕不發還。任何印花卡複印本或印花卡照片/圖片，或印花/印花卡如有任何損壞、塗污或偽造，均屬無效；<br />\n14.每張印花卡只可換領一款禮品，顧客如需換領兩款或以上禮品，印花必須分別蓋於不同之印花卡上，顧客或可齊集最多三張印花卡換領一款禮品；<br />\n15.所有禮品會於主辦單位工作人員核對印花卡或收回禮品換領信後即時派發，顧客必須即時檢查清楚禮品，如有任何疑問，須即時提出進行更換，換領禮品手續完成後，將不獲安排禮品換領、補發或其他補償；禮品換領信必須為正本，任何複印本或照片/圖片，均屬無效；<br />\n16.各換領地點之禮品換領數量會根據實際換領情況而作出調動，活動內容如有更改，恕不作另行通知；<br />\n17.所有印花及禮品在任何情況下均不得兌換現金或其他優惠/禮品；<br />\n18.主辦單位將會根據法例或附屬規例頒佈的措施，保留酌情權在任何時間因應相關法規及按實際情況實施適當管制措施，活動安排將可能會有所變更；<br />\n19.主辦單位有權隨時更改禮品種類或款式而不作另行通知；換領名額、禮品之分發由主辦單位之工作人員決定，顧客不得異議；<br />\n20.主辦單位並非禮品供應商，如對禮品之品質狀況或禮品上列明的任何規格上有任何疑問、查詢及/或跟進均由相關的供應商負責，主辦單位對禮品任何事宜恕不承擔任何責任及/或賠償；<br />\n21.顧客須自行評估及留意顧客是否對禮品內提供的任何(如適用)食品/飲品/個人護理及清潔用品及/或物料出現敏感症狀。主辦單位不會因顧客食用/飲用及/或使用後(如適用)出現敏感反應或不適而承擔任何責任及/或賠償；<br />\n22.若發現任何行為破壞/影響/干擾活動，將會即時取消該顧客參加活動的資格，主辦單位保留所有追訴權；<br />\n23.顧客知悉並同意，主辦單位及其授權人士可於顧客參與此換領活動期間進行攝影、錄影及/或錄音，並可於法律允許的範圍內，為活動記錄、宣傳、推廣及相關用途使用有關照片、錄像及/或錄音；<br />\n24.主辦單位旗下之外判公司、商戶、有關的合作伙伴及其僱員，均不可參加是次活動；<br />\n25.主辦單位保留權利在任何(包括但不限於極端天氣或不可抗力)的情況下，不作事先通知下取消、暫停、延遲換領活動或更改是次活動條款及細則。因該取消、暫停、延遲或更改而引致的任何直接或間接的損失或後果，主辦單位將不會負上任何責任/賠償；<br />\n26.為避免秩序混亂，主辦單位保留酌情權拒絕任何影響活動進行的人士參與活動；<br />\n27.活動於香港舉行。本條款及細則受香港法律管轄，並按香港法律詮釋。參加者同意接受香港法院的專屬司法管轄權管轄；<br />\n28.如有任何爭議，主辦單位保留最終決定權；<br />\n29.活動詳情請留意場內宣傳海報、瀏覽Linkhk.com 或查詢請與商場職員聯絡。</p>\n",
+      "additionalContentSc": "<p>1.“麦食当三番”消费换领活动 第二弹（“活动”）由领展资产管理有限公司（“主办单位”）举办；<br />\n2.参加活动，即视作同意及接受遵守本条款及细则；<br />\n3.换领印花之发票必须由同一活动推广地点之商户发出，并只适用于该活动推广地点之换领地点换领；<br />\n4.所有用作换领印花之发票必须是在推广期内发出，并于消费日即日换领，所有逾期之发票将不获受理；<br />\n5.如晚上 8时后或个别换领地点服务时间后发出之发票，可于翌日换领时间作换领用途(2026年 10月 31日除外)，逾期无效；<br />\n6.所有用作换领印花之发票必须清晰印有商户名称、消费日期、时间及金额之电子机印发票正本，并由主办单位工作人员核实后方为有效，过程中顾客必须提供相对应消费之电子货币付款存根正本或纪录介面给工作人员核实。如对任何发票之真伪存疑，主办单位工作人员有绝对酌情权拒绝接受；<br />\n7.恕不接受任何分拆签账，顾客于同一商户之消费签账不可分拆成多张发票或签账存根以参加活动，每套发票当中只接受一张由同一商户同日发出之发票；<br />\n8.恕不接受(i)任何以现金/任何形式商铺礼券/饼券/月饼券/现金券等形式付款之发票、以任何形式支付之预缴消费、订金收据、手写单、发票重印本、影印本或复印本或已损毁及/或涂改之发票; (ii) 任何银行、老人院、护老院、医务中心、供金会、雇佣中心、证券及投资公司、香港赛马会、展销摊位、展销亭、购买补习及教育中心课程、购买美容中心套票、购买健身会藉或套票、购买门票、八达通及其他手机支付程式增值、缴费灵、律师费、中介费、楼宇买卖佣金、租金、任何按金、向政府部门及电讯公司缴费、储值卡或任何增值卡之付款收据; (iii) 香港邮政局发出包括购买邮票之收据；(iv)购买或增值任何形式商户会员卡、代币、商铺礼券及饼券，购买金粒及金条之发票；<br />\n9.计算消费总额须扣除任何信用卡、易办事、任何形式商铺礼券、现金券、饼券、月饼券、会员卡、八达通或其他手机支付程式或会员卡等任何形式的积分或优惠后之净支付金额；<br />\n10.为避免秩序混乱起见，每位顾客每次只可凭最多三套已核实及有效之发票换领印花，如欲登记其余发票，顾客必须重新排队轮候；<br />\n11.已用作换领之发票均会被盖印以兹识别及/或拍照以作纪录，已盖印之发票不可重复使用参与商场内其他推广或换领活动(商场泊车优惠除外) ，发票照片只会用于是次活动纪录之用，一切存档将会于活动结束后六个月内销毁<br />\n12.所有于本活动派发之印花须于2026年10月31日(晚上8时)之前或个别换领地点服务时间结束之前换领礼品，逾期作废；<br />\n13.换领礼品或礼品换领信时，主办单位工作人员会即时收回盖有印花之实体正本印花卡，如印花卡上的印花超过换领礼品所需的指定数目，余数印花恕不发还。任何印花卡复印本或印花卡照片/图片，或印花/印花卡如有任何损坏、涂污或伪造，均属无效；<br />\n14.每张印花卡只可换领一款礼品，顾客如需换领两款或以上礼品，印花必须分别盖于不同之印花卡上，顾客或可齐集最多三张印花卡换领一款礼品；<br />\n15.所有礼品会于主办单位工作人员核对印花卡或收回礼品换领信后即时派发，顾客必须即时检查清楚礼品，如有任何疑问，须即时提出进行更换，换领礼品手续完成后，将不获安排礼品换领、补发或其他补偿；礼品换领信必须为正本，任何复印本或照片/图片，均属无效；<br />\n16.各换领地点之礼品换领数量会根据实际换领情况而作出调动，活动内容如有更改，恕不作另行通知；<br />\n17.所有印花及礼品在任何情况下均不得兑换现金或其他优惠/礼品；<br />\n18.主办单位将会根据法例或附属规例颁布的措施，保留酌情权在任何时间因应相关法规及按实际情况实施适当管制措施，活动安排将可能会有所变更；<br />\n19.主办单位有权随时更改礼品种类或款式而不作另行通知；换领名额、礼品之分发由主办单位之工作人员决定，顾客不得异议；<br />\n20.主办单位并非礼品供应商，如对礼品之品质状况或礼品上列明的任何规格上有任何疑问、查询及/或跟进均由相关的供应商负责，主办单位对礼品任何事宜恕不承担任何责任及/或赔偿；<br />\n21.顾客须自行评估及留意顾客是否对礼品内提供的任何(如适用)食品/饮品/个人护理及清洁用品及/或物料出现敏感症状。主办单位不会因顾客食用/饮用及/或使用后(如适用)出现敏感反应或不适而承担任何责任及/或赔偿；<br />\n22.若发现任何行为破坏/影响/干扰活动，将会即时取消该顾客参加活动的资格，主办单位保留所有追诉权；<br />\n23.顾客知悉并同意，主办单位及其授权人士可于顾客参与此换领活动期间进行摄影、录影及/或录音，并可于法律允许的范围内，为活动记录、宣传、推广及相关用途使用有关照片、录像及/或录音；<br />\n24.主办单位旗下之外判公司、商户、有关的合作伙伴及其雇员，均不可参加是次活动；<br />\n25.主办单位保留权利在任何(包括但不限于极端天气或不可抗力)的情况下，不作事先通知下取消、暂停、延迟换领活动或更改是次活动条款及细则。因该取消、暂停、延迟或更改而引致的任何直接或间接的损失或后果，主办单位将不会负上任何责任/赔偿；<br />\n26.为避免秩序混乱，主办单位保留酌情权拒绝任何影响活动进行的人士参与活动；<br />\n27.活动于香港举行。本条款及细则受香港法律管辖，并按香港法律诠释。参加者同意接受香港法院的专属司法管辖权管辖；<br />\n28.如有任何争议，主办单位保留最终决定权；<br />\n29.活动详情请留意场内宣传海报、浏览Linkhk.com 或查询请与商场职员联络。</p>\n"
+    },
+    "youWillAlsoLike": {
+      "titleEn": "You may also like",
+      "titleTc": "你可能也會喜歡",
+      "titleSc": "你可能也会喜欢",
+      "youWillAlsoLikeList": [
+        {
+          "id": 757,
+          "locationEn": "Nan Fung Plaza",
+          "locationTc": "南豐廣場",
+          "locationSc": "南丰广场",
+          "titleEn": "Nan Fung Plaza- Free Parking Programme",
+          "titleTc": "南豐廣場-消費泊車優惠",
+          "titleSc": "南丰广场-消费泊车优惠",
+          "posterEn": "/linkweb/api/file/SiteAssets/Promotion/2025/07/30/Ver_D.jpg?v=3366d67873977e0fc452df2b76b31e64",
+          "posterTc": "/linkweb/api/file/SiteAssets/Promotion/2025/07/30/Ver_D.jpg?v=3366d67873977e0fc452df2b76b31e64",
+          "posterSc": "/linkweb/api/file/SiteAssets/Promotion/2025/07/30/Ver_D.jpg?v=3366d67873977e0fc452df2b76b31e64",
+          "posterAltTextEn": "Nan Fung Plaza- Free Parking Programme",
+          "posterAltTextTc": "南豐廣場-消費泊車優惠",
+          "posterAltTextSc": "南丰广场-消费泊车优惠"
+        },
+        {
+          "id": 805,
+          "locationEn": "24&nbsp;Shopping Centres",
+          "locationTc": "24&nbsp;個領展旗下商場",
+          "locationSc": "24&nbsp;个领展旗下商场",
+          "titleEn": "Link ▪ Octopus Dining Rewards Campaign",
+          "titleTc": "領展商場 ▪ 八達通滋味賞推廣活動",
+          "titleSc": "领展商场 ▪ 八达通滋味赏推广活动",
+          "posterEn": "/linkweb/api/file/SiteAssets/Promotion/2026/08/10/Cust%20SiteOctopus%20Poster_1080%20x%201620.jpg.jpeg?v=61cec7ccb027973684a0edb645740e5f",
+          "posterTc": "/linkweb/api/file/SiteAssets/Promotion/2026/08/10/Cust%20SiteOctopus%20Poster_1080%20x%201620.jpg.jpeg?v=61cec7ccb027973684a0edb645740e5f",
+          "posterSc": "/linkweb/api/file/SiteAssets/Promotion/2026/08/10/Cust%20SiteOctopus%20Poster_1080%20x%201620.jpg.jpeg?v=61cec7ccb027973684a0edb645740e5f",
+          "posterAltTextEn": "Link ▪ Octopus Dining Rewards Campaign",
+          "posterAltTextTc": "領展商場 ▪ 八達通滋味賞推廣活動",
+          "posterAltTextSc": "领展商场 ▪ 八达通滋味赏推广活动"
+        }
+      ],
+      "viewAllEn": "VIEW ALL",
+      "viewAllTc": "查看所有",
+      "viewAllSc": "查看所有"
+    }
+  }
+}

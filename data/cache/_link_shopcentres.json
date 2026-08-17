@@ -1,0 +1,27 @@
+{
+  "error": "0000",
+  "errorMessage": "",
+  "errorCode": "",
+  "data": {
+    "seoTitleEn": "",
+    "seoTitleTc": "",
+    "seoTitleSc": "",
+    "seoKeywordEn": "",
+    "seoKeywordTc": "",
+    "seoKeywordSc": "",
+    "seoDescriptionEn": "",
+    "seoDescriptionTc": "",
+    "seoDescriptionSc": "",
+    "mallBanner": null,
+    "yourJourney": null,
+    "promotions": null,
+    "mallDescription": null,
+    "mallInfo": null,
+    "parkingVacancy": null,
+    "dine": null,
+    "shop": null,
+    "market": null,
+    "theNearestMall": null,
+    "sightseeingNearby": null
+  }
+}

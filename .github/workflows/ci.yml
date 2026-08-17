@@ -1,0 +1,61 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lifecycle-gate:
+    name: Lifecycle + coverage gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate lifecycle (placeholders=0, 100% store coverage)
+        run: |
+          python scripts/validate_lifecycle.py \
+            --discounts discounts.json \
+            --malls malls.json
+
+      - name: Audit empty store malls
+        run: python scripts/audit_empty_store_malls.py
+
+      - name: Enforce zero empty-store malls
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("data/cache/empty_store_audit.json").read_text(encoding="utf-8"))
+          summary = report.get("summary") or {}
+          empty = int(summary.get("malls_empty_store_offers") or 0)
+          total = int(summary.get("total_malls") or 0)
+          with_store = int(summary.get("malls_with_store_offers") or 0)
+          print(f"coverage={with_store}/{total} empty={empty}")
+          if empty != 0 or (total and with_store < total):
+              raise SystemExit(
+                  f"CI gate failed: require 100% store coverage and placeholders=0 "
+                  f"(empty_store_malls={empty}, coverage={with_store}/{total})"
+              )
+          print("CI coverage gate passed")
+          PY

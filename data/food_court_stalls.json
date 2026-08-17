@@ -1,0 +1,93 @@
+{
+  "_comment": "Food court / casual dining stalls mapped to the 74-mall registry. Six fields required; evergreen stalls rematerialize dates daily.",
+  "zones": [
+    {
+      "mall_name": "奧海城",
+      "district": "油尖旺區",
+      "floor": "1樓",
+      "zone_name": "大食代 Food Republic",
+      "source_url": "https://www.olympiancity.com.hk/"
+    },
+    {
+      "mall_name": "黃埔天地",
+      "district": "九龍城區",
+      "floor": "奇妙坊 G/F",
+      "zone_name": "黃埔美食坊／奇妙坊餐飲樓層",
+      "source_url": "https://www.thewhampoa.com/category/food.html"
+    },
+    {
+      "mall_name": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "floor": "木區 L2",
+      "zone_name": "ELEMENTS dining",
+      "source_url": "https://www.elementshk.com/"
+    }
+  ],
+  "stalls": [
+    {
+      "enabled": true,
+      "mall_hint": "奧海城",
+      "district": "油尖旺區",
+      "store_name": "大食代 Food Republic",
+      "floor": "1樓",
+      "shop_number": "103",
+      "phone": "2771 3315",
+      "title": "大食代 Food Republic｜美食廣場常態優惠",
+      "details": "美食廣場檔口常態優惠：惠顧正價食品可享商場會員或店內當期推廣折扣；實際折扣與換購條款以店內告示為準。",
+      "source_url": "https://www.openrice.com/zh/hongkong/r-%E5%A4%A7%E9%A3%9F%E4%BB%A3-%E5%A4%A7%E8%A7%92%E5%92%80-%E5%A4%9A%E5%9C%8B%E8%8F%9C-r493261",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "store_name": "星巴克",
+      "floor": "木區 L2",
+      "shop_number": "2100B",
+      "phone": "2697 0533",
+      "title": "星巴克｜ELEMENTS 餐飲樓層常態優惠",
+      "details": "餐飲樓層常態優惠：以 Starbucks Rewards App 登記會員，可於店內賺取星星及兌換當期飲品／食品獎賞；詳情以 App 為準。",
+      "source_url": "https://www.elementshk.com/tch/elements/dining/starbucks-coffee",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "太古廣場",
+      "district": "中西區",
+      "store_name": "星巴克",
+      "floor": "L1",
+      "shop_number": "128-129",
+      "phone": "2802 9822",
+      "title": "星巴克｜太古廣場餐飲樓層常態優惠",
+      "details": "餐飲樓層常態優惠：Starbucks Rewards 會員於店內消費可累積星星換領獎賞；當期推廣以 App 及店內告示為準。",
+      "source_url": "https://www.pacificplace.com.hk/en/taste/directory/starbucks-coffee",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "海怡廣場",
+      "district": "南區",
+      "store_name": "萬寧",
+      "floor": "東翼 地下",
+      "shop_number": "G05",
+      "phone": "2518 7767",
+      "title": "萬寧｜海怡廣場餐飲／零售樓層常態優惠",
+      "details": "商場零售樓層常態優惠：出示 yuu 會員碼於萬寧消費可賺分換領當期優惠；詳情以 yuu App 為準。",
+      "source_url": "https://www.nestlehealthscience.com.hk/zh-hans/brands/compleat/sales-locations",
+      "is_evergreen": true
+    },
+    {
+      "enabled": true,
+      "mall_hint": "西九龍中心",
+      "district": "深水埗區",
+      "store_name": "萬寧",
+      "floor": "5樓",
+      "shop_number": "501B",
+      "phone": "2387 8262",
+      "title": "萬寧｜西九龍中心零售樓層常態優惠",
+      "details": "零售樓層常態優惠：西九龍中心萬寧出示 yuu 可賺分換領；詳情以 App 及店內告示為準。",
+      "source_url": "https://elixir.com.hk/locate-us/",
+      "is_evergreen": true
+    }
+  ]
+}

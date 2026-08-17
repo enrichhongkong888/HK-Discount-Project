@@ -1,0 +1,171 @@
+{
+  "_comment": "Curated community / calendar events for community_calendar_scraper. Use start_offset_days relative to pipeline today so the 3-day window stays fresh. brand_affinity must match verified store_name tokens; mall_hint pins mall-calendar rows. Never invent floor/shop/phone — join happens onto authentic seeds only.",
+  "events": [
+    {
+      "enabled": true,
+      "channel": "supermarket",
+      "brand_affinity": [
+        "AEON",
+        "AEON STYLE",
+        "AEON SUPERMARKET",
+        "Living PLAZA by AEON",
+        "AEON Mono Mono"
+      ],
+      "title": "AEON 週末快閃特價週",
+      "details": "AEON 官方日曆推廣：週末快閃特價週期間限定貨品／家品折扣；出示 AEON MEMBER 可享換領禮遇。",
+      "source_url": "https://www.aeonstores.com.hk/aeon_member_card/detail04",
+      "start_offset_days": 1,
+      "end_offset_days": 7,
+      "max_stores": 6
+    },
+    {
+      "enabled": true,
+      "channel": "supermarket",
+      "brand_affinity": [
+        "AEON",
+        "AEON STYLE",
+        "AEON SUPERMARKET",
+        "Living PLAZA by AEON",
+        "AEON Mono Mono"
+      ],
+      "title": "AEON 會員積分換領日",
+      "details": "AEON 日曆公告：會員積分換領日於門市推出限定換領；詳情以 AEON App 及店內告示為準。",
+      "source_url": "https://www.aeonstores.com.hk/aeon_member_card/detail04",
+      "start_offset_days": 2,
+      "end_offset_days": 9,
+      "max_stores": 6
+    },
+    {
+      "enabled": true,
+      "channel": "supermarket",
+      "brand_affinity": ["DON DON DONKI", "Don Don Donki"],
+      "title": "DONKI 期間限定進口零食快閃",
+      "details": "DON DON DONKI 官方活動日曆：期間限定進口零食／日用品快閃特價；數量有限售完即止。",
+      "source_url": "https://www.dondondonki.com/hk/",
+      "start_offset_days": 1,
+      "end_offset_days": 5,
+      "max_stores": 2
+    },
+    {
+      "enabled": true,
+      "channel": "cinema",
+      "brand_affinity": ["百老匯", "Broadway"],
+      "title": "百老匯戲院新片早鳥套票",
+      "details": "百老匯戲院日曆公告：新片早鳥套票及會員加購優惠；購票條款以官方網站及票房為準。",
+      "source_url": "https://www.broadway.com.hk/",
+      "start_offset_days": 1,
+      "end_offset_days": 10,
+      "max_stores": 4
+    },
+    {
+      "enabled": true,
+      "channel": "cinema",
+      "brand_affinity": ["百老匯", "Broadway"],
+      "title": "百老匯戲院平日場次禮遇",
+      "details": "百老匯戲院活動日曆：平日指定場次套餐／小食加購禮遇；詳情以戲院現場及 App 為準。",
+      "source_url": "https://www.broadway.com.hk/",
+      "start_offset_days": 3,
+      "end_offset_days": 10,
+      "max_stores": 4
+    },
+    {
+      "enabled": true,
+      "channel": "cinema",
+      "brand_affinity": ["MCL", "MCL Cinemas"],
+      "title": "MCL 戲院近期場次會員賞",
+      "details": "MCL 戲院公開日曆：近期場次會員積分／套票禮遇；若本商場未有核實 MCL 門市則不入庫。",
+      "source_url": "https://www.mclcinema.com/",
+      "start_offset_days": 2,
+      "end_offset_days": 9,
+      "max_stores": 2
+    },
+    {
+      "enabled": true,
+      "channel": "mall_calendar",
+      "mall_hint": "樂富廣場",
+      "title": "樂富廣場週末市集日曆",
+      "details": "樂富廣場公開活動日曆：週末市集／快閃攤位期間限定；參與商戶以商場官方公告為準。",
+      "source_url": "https://www.lokfuplaza.com.hk/",
+      "start_offset_days": 1,
+      "end_offset_days": 2,
+      "max_stores": 3
+    },
+    {
+      "enabled": true,
+      "channel": "mall_calendar",
+      "mall_hint": "屯門市廣場",
+      "title": "屯門市廣場 S⁺ 活動日曆",
+      "details": "屯門市廣場公開推廣日曆：期間限定換領／會員活動；詳情以 S⁺ App 及商場公告為準。",
+      "source_url": "https://www.tmtp.com.hk/tc/Promotion",
+      "start_offset_days": 2,
+      "end_offset_days": 8,
+      "max_stores": 3
+    },
+    {
+      "enabled": true,
+      "channel": "mall_calendar",
+      "mall_hint": "荃新天地",
+      "title": "荃新天地週末活動日曆",
+      "details": "荃新天地公開活動日曆：週末限定消費賞及快閃推廣；詳情以商場官方頁面為準。",
+      "source_url": "https://www.citywalk.com.hk/tc/Promotion",
+      "start_offset_days": 1,
+      "end_offset_days": 3,
+      "max_stores": 3
+    },
+    {
+      "enabled": true,
+      "channel": "mall_calendar",
+      "mall_hint": "奧海城",
+      "title": "奧海城期間限定活動",
+      "details": "奧海城公開日曆：期間限定會員／泊車／換領活動；實際條款以商場官方公告為準。",
+      "source_url": "https://www.olympiancity.com.hk/tc/Promotion",
+      "start_offset_days": 3,
+      "end_offset_days": 10,
+      "max_stores": 3
+    },
+    {
+      "enabled": true,
+      "channel": "mall_calendar",
+      "mall_hint": "康怡廣場",
+      "title": "康怡廣場社區活動日曆",
+      "details": "康怡廣場公開活動日曆：社區／親子期間限定活動與商戶快閃；詳情以商場公告為準。",
+      "source_url": "https://www.kornhillplaza.com/",
+      "start_offset_days": 2,
+      "end_offset_days": 4,
+      "max_stores": 3
+    },
+    {
+      "enabled": true,
+      "channel": "mall_calendar",
+      "mall_hint": "新城市廣場",
+      "title": "新城市廣場節日早鳥日曆",
+      "details": "新城市廣場公開日曆：節日早鳥／會員積分活動；詳情以商場官方 App 為準。",
+      "source_url": "https://www.newtownplaza.com.hk/",
+      "start_offset_days": 1,
+      "end_offset_days": 7,
+      "max_stores": 3
+    },
+    {
+      "enabled": true,
+      "channel": "mall_calendar",
+      "mall_hint": "黃埔天地",
+      "title": "黃埔天地週末快閃日曆",
+      "details": "黃埔天地公開活動日曆：週末快閃優惠及市集活動；詳情以商場官方公告為準。",
+      "source_url": "https://www.whampoa.com.hk/",
+      "start_offset_days": 1,
+      "end_offset_days": 2,
+      "max_stores": 3
+    },
+    {
+      "enabled": true,
+      "channel": "mall_calendar",
+      "mall_hint": "YOHO MALL",
+      "title": "YOHO MALL 活動日曆",
+      "details": "YOHO MALL 公開日曆：期間限定商場活動與商戶聯乘快閃；詳情以官方網站為準。",
+      "source_url": "https://www.yohomall.com.hk/",
+      "start_offset_days": 2,
+      "end_offset_days": 8,
+      "max_stores": 3
+    }
+  ]
+}

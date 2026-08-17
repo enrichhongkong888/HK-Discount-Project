@@ -1,0 +1,270 @@
+{
+  "summary": {
+    "total_malls": 74,
+    "malls_with_store_offers": 62,
+    "malls_empty_store_offers": 12,
+    "primary_gap_breakdown": {
+      "no_VERIFIED_PINS": 12
+    }
+  },
+  "empty_malls": [
+    {
+      "district": "中西區",
+      "mall_name": "中環街市",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 0,
+      "presence_verified_ok": 0,
+      "presence_pending": 0,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "中西區",
+      "mall_name": "置地廣場",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 7,
+      "presence_verified_ok": 0,
+      "presence_pending": 7,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "pending_presence_rows=7",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "南區",
+      "mall_name": "數碼港商場",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 1,
+      "presence_verified_ok": 0,
+      "presence_pending": 1,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "pending_presence_rows=1",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "南區",
+      "mall_name": "赤柱廣場",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 0,
+      "presence_verified_ok": 0,
+      "presence_pending": 0,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "大埔區",
+      "mall_name": "大埔廣場",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 0,
+      "presence_verified_ok": 0,
+      "presence_pending": 0,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "油尖旺區",
+      "mall_name": "K11 MUSEA",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 19,
+      "presence_verified_ok": 0,
+      "presence_pending": 19,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "pending_presence_rows=19",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "深水埗區",
+      "mall_name": "碧海藍天商場",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 1,
+      "presence_verified_ok": 0,
+      "presence_pending": 1,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "pending_presence_rows=1",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "灣仔區",
+      "mall_name": "利東街",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 0,
+      "presence_verified_ok": 0,
+      "presence_pending": 0,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "灣仔區",
+      "mall_name": "合和商場",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 0,
+      "presence_verified_ok": 0,
+      "presence_pending": 0,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "荃灣區",
+      "mall_name": "OP Mall 海之戀商場",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 21,
+      "presence_verified_ok": 0,
+      "presence_pending": 21,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "pending_presence_rows=21",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "葵青區",
+      "mall_name": "葵涌廣場",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 1,
+      "presence_verified_ok": 0,
+      "presence_pending": 1,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "pending_presence_rows=1",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    },
+    {
+      "district": "離島區",
+      "mall_name": "愉景灣北商場 DB North Plaza",
+      "mall_offers": 1,
+      "spa_store_offers": 0,
+      "discounts_store_offers": 0,
+      "verified_pins": false,
+      "directory_cache_pins": 0,
+      "presence_total": 0,
+      "presence_verified_ok": 0,
+      "presence_pending": 0,
+      "reasons": [
+        "no_VERIFIED_PINS",
+        "no_brand_locator_match",
+        "no_directory_cache_pins",
+        "no_verified_presence_passing_six_fields",
+        "no_store_rows_in_discounts_json",
+        "mall_only_offers_present"
+      ],
+      "primary_gap": "no_VERIFIED_PINS"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum DiscountCategory {
+  MALL        @map("商場優惠")
+  FLIGHT      @map("機票")
+  BUFFET      @map("自助餐")
+  THEME_PARK  @map("主題樂園")
+}
+
+enum DiscountSource {
+  SCRAPING
+  API
+  USER_SUBMIT
+}
+
+enum AuditStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+model Mall {
+  id           Int       @id @default(autoincrement())
+  mallName     String    @map("mall_name") @db.VarChar(120)
+  district     String    @db.VarChar(50)
+  address      String
+  phone        String?   @db.VarChar(50)
+  networkPhone String?   @map("network_phone") @db.VarChar(50)
+  mallUrl      String?   @map("mall_url")
+  createdAt    DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt    DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  discounts    Discount[]
+
+  @@unique([mallName, district])
+  @@index([district])
+  @@map("malls")
+}
+
+model Brand {
+  id          Int       @id @default(autoincrement())
+  name        String    @unique @db.VarChar(120)
+  logoUrl     String?   @map("logo_url")
+  website     String?
+  description String?
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt   DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  discounts   Discount[]
+
+  @@map("brands")
+}
+
+model Discount {
+  id             Int              @id @default(autoincrement())
+  brandId        Int?             @map("brand_id")
+  mallId         Int?             @map("mall_id")
+  category       DiscountCategory
+  district       String?          @db.VarChar(50)
+  title          String           @db.VarChar(255)
+  shortDesc      String?          @map("short_desc")
+  detailUrl      String           @unique @map("detail_url")
+  imageUrl       String?          @map("image_url")
+  discountCode   String?          @map("discount_code") @db.VarChar(50)
+  amountOff      Decimal?         @map("amount_off") @db.Decimal(10, 2)
+  percentOff     Decimal?         @map("percent_off") @db.Decimal(5, 2)
+  minSpend       Decimal?         @map("min_spend") @db.Decimal(10, 2)
+  giftDesc       String?          @map("gift_desc")
+  isDailySpecial Boolean          @default(false) @map("is_daily_special")
+  createdDate    DateTime         @default(now()) @map("created_date") @db.Date
+  expiryDate     DateTime         @map("expiry_date") @db.Date
+  isActive       Boolean          @default(true) @map("is_active")
+  source         DiscountSource   @default(SCRAPING)
+  sourceName     String?          @map("source_name") @db.VarChar(120)
+  auditStatus    AuditStatus      @default(PENDING) @map("audit_status")
+  createdAt      DateTime         @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt      DateTime         @updatedAt @map("updated_at") @db.Timestamptz(6)
+  brand          Brand?           @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  mall           Mall?            @relation(fields: [mallId], references: [id], onDelete: SetNull)
+
+  @@index([category, district])
+  @@index([isDailySpecial, createdAt])
+  @@index([expiryDate])
+  @@map("discounts")
+}

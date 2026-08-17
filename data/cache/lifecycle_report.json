@@ -1,0 +1,26 @@
+{
+  "today": "2026-08-15",
+  "preview_days": 3,
+  "discounts": {
+    "input": 623,
+    "active": 401,
+    "upcoming": 222,
+    "pruned_expired": 0,
+    "pruned_scheduled": 0,
+    "pruned_invalid": 0,
+    "transitioned_to_active": 0,
+    "transitioned_to_upcoming": 0,
+    "retained": 623
+  },
+  "malls": {
+    "mall_cards_in": 118,
+    "store_cards_in": 870,
+    "pruned_expired": 0,
+    "pruned_scheduled": 0,
+    "active": 589,
+    "upcoming": 399,
+    "retained_mall_cards": 118,
+    "retained_store_cards": 870
+  },
+  "database": null
+}

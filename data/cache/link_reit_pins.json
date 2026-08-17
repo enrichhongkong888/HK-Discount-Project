@@ -1,0 +1,88 @@
+{
+  "pins": [
+    {
+      "chain_id": "aeon_member",
+      "mall_name": "樂富廣場",
+      "district": "九龍城區",
+      "floor": "A區 3樓",
+      "shop_number": "3169A",
+      "phone": "2368 4633",
+      "store_name": "Living PLAZA by AEON",
+      "verification_status": "verified",
+      "source": "link_reit_channel",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "aeon_member",
+      "mall_name": "康怡廣場",
+      "district": "東區",
+      "floor": "南座 地下至3樓",
+      "shop_number": "G-3",
+      "phone": "2884 6888",
+      "store_name": "AEON",
+      "verification_status": "verified",
+      "source": "link_reit_channel",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "yuu",
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "UG",
+      "shop_number": "UG23",
+      "phone": "2350 1453",
+      "store_name": "萬寧",
+      "verification_status": "verified",
+      "source": "link_reit_channel",
+      "source_url": "https://www.apta.com.hk/product/where-to-buy/aptamil.html"
+    },
+    {
+      "chain_id": "muji_app",
+      "mall_name": "荷里活廣場",
+      "district": "黃大仙區",
+      "floor": "1樓",
+      "shop_number": "125-127",
+      "phone": "3971 3220",
+      "store_name": "無印良品",
+      "verification_status": "verified",
+      "source": "link_reit_channel",
+      "source_url": "https://www.muji.com/hk-en/blog/20251023_779/"
+    },
+    {
+      "chain_id": "pacific_coffee_perfect_cup",
+      "mall_name": "樂富廣場",
+      "district": "九龍城區",
+      "floor": "A區1樓",
+      "shop_number": "1158",
+      "phone": "2455 2160",
+      "store_name": "太平洋咖啡",
+      "verification_status": "verified",
+      "source": "link_reit_channel",
+      "source_url": "https://www.linkhk.com/tc/shop/27039"
+    },
+    {
+      "chain_id": "saint_honore_cake_easy",
+      "mall_name": "樂富廣場",
+      "district": "九龍城區",
+      "floor": "A區2樓",
+      "shop_number": "2118",
+      "phone": "2304 5170",
+      "store_name": "聖安娜",
+      "verification_status": "verified",
+      "source": "link_reit_channel",
+      "source_url": "https://www.linkhk.com/tc/shop/23327"
+    },
+    {
+      "chain_id": "moneyback",
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "樓",
+      "shop_number": "N221",
+      "phone": "2274 3109",
+      "store_name": "屈臣氏",
+      "verification_status": "verified",
+      "source": "link_reit_channel",
+      "source_url": "https://www.linkhk.com/tc/shop/27622"
+    }
+  ]
+}

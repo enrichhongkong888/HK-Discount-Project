@@ -1,0 +1,955 @@
+{
+  "_comment": "Official brand locator / mall directory pins. Matched by scripts/match_store_locators.py.",
+  "pins": [
+    {
+      "chain_id": "fortress_club",
+      "store_name": "豐澤",
+      "mall_hint": "新城市廣場",
+      "district": "沙田區",
+      "floor": "一期 L6",
+      "shop_number": "635-636",
+      "phone": "2694 7866",
+      "source_url": "https://www.newtownplaza.com.hk/zh-hant/shopping/fortress-world/"
+    },
+    {
+      "chain_id": "fortress_club",
+      "store_name": "豐澤",
+      "mall_hint": "青衣城",
+      "district": "葵青區",
+      "floor": "3樓",
+      "shop_number": "305-307A",
+      "phone": "2186 7213",
+      "source_url": "https://www.discoverhongkong.com/tc/plan/qts/shops-results/shops-details.id2007.html"
+    },
+    {
+      "chain_id": "fortress_club",
+      "store_name": "豐澤",
+      "mall_hint": "V city",
+      "district": "屯門區",
+      "floor": "MTR 低層2樓",
+      "shop_number": "M-45-46",
+      "phone": "2409 8266",
+      "source_url": "https://www.discoverhongkong.com/tc/plan/qts/shops-results/shops-details.id2007.html"
+    },
+    {
+      "chain_id": "yata_app",
+      "store_name": "一田",
+      "mall_hint": "新城市廣場",
+      "district": "沙田區",
+      "floor": "三期 1-2樓",
+      "shop_number": "L1-L2",
+      "phone": "2694 1111",
+      "source_url": "https://www.yata.hk/tch/store/sha-tin/"
+    },
+    {
+      "chain_id": "yata_app",
+      "store_name": "一田",
+      "mall_hint": "大埔超級城",
+      "district": "大埔區",
+      "floor": "B區 1-2樓",
+      "shop_number": "B1-B2",
+      "phone": "3761 1388",
+      "source_url": "https://www.yata.hk/"
+    },
+    {
+      "chain_id": "aeon_member",
+      "store_name": "AEON STYLE",
+      "mall_hint": "康怡廣場",
+      "district": "東區",
+      "floor": "南座 地下至3樓",
+      "shop_number": "G-3",
+      "phone": "2884 6888",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "aeon_member",
+      "store_name": "AEON STYLE",
+      "mall_hint": "黃埔天地",
+      "district": "九龍城區",
+      "floor": "第5及6期 地面及地庫",
+      "shop_number": "5-6期",
+      "phone": "2627 6688",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "aeon_member",
+      "store_name": "AEON",
+      "mall_hint": "屯門市廣場",
+      "district": "屯門區",
+      "floor": "1期 地下至1樓",
+      "shop_number": "1期",
+      "phone": "2452 7333",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "aeon_member",
+      "store_name": "AEON",
+      "mall_hint": "MegaBox",
+      "district": "觀塘區",
+      "floor": "1-2樓",
+      "shop_number": "1-46",
+      "phone": "2339 3388",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "aeon_member",
+      "store_name": "AEON SUPERMARKET",
+      "mall_hint": "THE ONE",
+      "district": "油尖旺區",
+      "floor": "LG1-LG2",
+      "shop_number": "LG1-LG2",
+      "phone": "2673 6108",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "aeon_member",
+      "store_name": "Living PLAZA by AEON",
+      "mall_hint": "荷里活廣場",
+      "district": "黃大仙區",
+      "floor": "1樓",
+      "shop_number": "166",
+      "phone": "2390 9899",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "aeon_member",
+      "store_name": "Living PLAZA by AEON",
+      "mall_hint": "樂富廣場",
+      "district": "九龍城區",
+      "floor": "A區 3樓",
+      "shop_number": "3169A",
+      "phone": "2368 4633",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "aeon_member",
+      "store_name": "AEON Mono Mono",
+      "mall_hint": "青衣城",
+      "district": "葵青區",
+      "floor": "2期 地下",
+      "shop_number": "G34-35",
+      "phone": "2370 2278",
+      "source_url": "https://aeonstores.com.hk/shop_info"
+    },
+    {
+      "chain_id": "broadway_club",
+      "store_name": "百老匯",
+      "mall_hint": "德福廣場",
+      "district": "觀塘區",
+      "floor": "一期 G/F",
+      "shop_number": "G44",
+      "phone": "3148 1296",
+      "source_url": "https://www.aforce.com/zt/where-to-buy/"
+    },
+    {
+      "chain_id": "broadway_club",
+      "store_name": "百老匯",
+      "mall_hint": "德福廣場",
+      "district": "觀塘區",
+      "floor": "一期 G/F",
+      "shop_number": "G22",
+      "phone": "2753 7309",
+      "source_url": "https://www.aforce.com/zt/where-to-buy/"
+    },
+    {
+      "chain_id": "muji_app",
+      "store_name": "無印良品",
+      "mall_hint": "皇室堡",
+      "district": "灣仔區",
+      "floor": "地庫",
+      "shop_number": "B1",
+      "phone": "3971 3110",
+      "source_url": "https://www.muji.com/hk/store/CausewayBay_WindsorHouse/"
+    },
+    {
+      "chain_id": "starbucks_rewards",
+      "store_name": "星巴克",
+      "mall_hint": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "2樓",
+      "shop_number": "2097-98",
+      "phone": "2234 7871",
+      "source_url": "https://ifc.com.hk/en/mall/shop/starbucks-coffee/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "2樓",
+      "shop_number": "2004",
+      "phone": "2523 9672",
+      "source_url": "https://ifc.com.hk/"
+    },
+    {
+      "chain_id": "citysuper_super_e",
+      "store_name": "city'super",
+      "mall_hint": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "1樓",
+      "shop_number": "1041-1049",
+      "phone": "2736 3866",
+      "source_url": "https://ifc.com.hk/mall/shop/citysuper/?lang=en"
+    },
+    {
+      "chain_id": "starbucks_rewards",
+      "store_name": "星巴克",
+      "mall_hint": "太古廣場",
+      "district": "中西區",
+      "floor": "L1",
+      "shop_number": "128-129",
+      "phone": "2802 9822",
+      "source_url": "https://www.pacificplace.com.hk/en/taste/directory/starbucks-coffee"
+    },
+    {
+      "chain_id": "starbucks_rewards",
+      "store_name": "星巴克",
+      "mall_hint": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "floor": "木區 L2",
+      "shop_number": "2100B",
+      "phone": "2697 0533",
+      "source_url": "https://www.elementshk.com/tch/elements/dining/starbucks-coffee"
+    },
+    {
+      "chain_id": "fortress_club",
+      "store_name": "豐澤",
+      "mall_hint": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "floor": "水區 L1",
+      "shop_number": "1050B",
+      "phone": "2196 8252",
+      "source_url": "https://www.wastereduction.gov.hk/zh-hk/recycling-point/fortress-shop-1050b-first-level-elements-1-austin-road-west-tsim-sha-tsui"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "時代廣場",
+      "district": "灣仔區",
+      "floor": "9樓",
+      "shop_number": "927-928",
+      "phone": "3468 7632",
+      "source_url": "https://www.watsons.com.hk/en/store/wtchk_3289_en"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "THE SOUTHSIDE",
+      "district": "南區",
+      "floor": "L2",
+      "shop_number": "214-221",
+      "phone": "2512 8698",
+      "source_url": "https://www.thesouthside.com.hk/tch/shops/uniqlo"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "THE SOUTHSIDE",
+      "district": "南區",
+      "floor": "GF",
+      "shop_number": "G13",
+      "phone": "2893 7311",
+      "source_url": "https://www.thesouthside.com.hk/tch/shops/watsons"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "元朗廣場",
+      "district": "元朗區",
+      "floor": "2樓",
+      "shop_number": "201-220A",
+      "phone": "2777 5380",
+      "source_url": "https://www.uniqlo.com.hk/"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "T Town",
+      "district": "元朗區",
+      "floor": "1樓",
+      "shop_number": "S122-124",
+      "phone": "2816 1468",
+      "source_url": "https://www.uniqlo.com.hk/"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "V Walk",
+      "district": "深水埗區",
+      "floor": "2樓",
+      "shop_number": "35-36",
+      "phone": "2878 8773",
+      "source_url": "https://www.uniqlo.com.hk/"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "東薈城名店倉",
+      "district": "離島區",
+      "floor": "1樓",
+      "shop_number": "117",
+      "phone": "2868 0077",
+      "source_url": "https://www.uniqlo.com.hk/"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "新都城中心",
+      "district": "西貢區",
+      "floor": "1樓",
+      "shop_number": "1055-1062",
+      "phone": "2311 2823",
+      "source_url": "https://www.uniqlo.com.hk/"
+    },
+    {
+      "chain_id": "muji_app",
+      "store_name": "無印良品",
+      "mall_hint": "新都城中心",
+      "district": "西貢區",
+      "floor": "1樓",
+      "shop_number": "1050-53",
+      "phone": "3971 3261",
+      "source_url": "https://www.muji.com/hk-en/blog/20251023_779/"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "floor": "3樓",
+      "shop_number": "3025-29",
+      "phone": "2146 6658",
+      "source_url": "https://www.uniqlo.com.hk/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "floor": "2樓",
+      "shop_number": "2108",
+      "phone": "2633 6674",
+      "source_url": "https://www.apta.com.hk/product/where-to-buy/neo.html"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "信德中心",
+      "district": "中西區",
+      "floor": "2樓",
+      "shop_number": "223",
+      "phone": "2858 6672",
+      "source_url": "https://www.apta.com.hk/product/where-to-buy/neo.html"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "樂富廣場",
+      "district": "九龍城區",
+      "floor": "1樓",
+      "shop_number": "1151-1156",
+      "phone": "2337 3837",
+      "source_url": "https://www.uniqlo.com.hk/"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "荷里活廣場",
+      "district": "黃大仙區",
+      "floor": "地下",
+      "shop_number": "G101",
+      "phone": "2955 4100",
+      "source_url": "https://www.uniqlo.com.hk/"
+    },
+    {
+      "chain_id": "uniqlo_app",
+      "store_name": "UNIQLO",
+      "mall_hint": "北角匯",
+      "district": "東區",
+      "floor": "1-2樓",
+      "shop_number": "121-123,201,221-223",
+      "phone": "2907 8806",
+      "source_url": "https://www.uniqlo.com.hk/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "杏花新城",
+      "district": "東區",
+      "floor": "L1",
+      "shop_number": "157-159",
+      "phone": "2976 5694",
+      "source_url": "https://www.paradise-mall.com.hk/tch/shops/mannings"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "UG",
+      "shop_number": "UG23",
+      "phone": "2350 1453",
+      "source_url": "https://www.apta.com.hk/product/where-to-buy/aptamil.html"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "LG",
+      "shop_number": "LG2",
+      "phone": "2320 3251",
+      "source_url": "https://www.apta.com.hk/product/where-to-buy/aptamil.html"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "上水中心購物商場",
+      "district": "北區",
+      "floor": "2樓",
+      "shop_number": "2077D-H",
+      "phone": "2787 7202",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "上水匯 spot",
+      "district": "北區",
+      "floor": "1樓",
+      "shop_number": "103B,104",
+      "phone": "2603 1378",
+      "source_url": "https://www.nestlehealthscience.com.hk/zh-hans/brands/compleat/sales-locations"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "上水廣場",
+      "district": "北區",
+      "floor": "4樓",
+      "shop_number": "419-423",
+      "phone": "2480 0034",
+      "source_url": "https://www.nestlehealthscience.com.hk/zh-hans/brands/compleat/sales-locations"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "粉嶺名都商場",
+      "district": "北區",
+      "floor": "2樓",
+      "shop_number": "5",
+      "phone": "2947 5278",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "fortress_club",
+      "store_name": "豐澤",
+      "mall_hint": "粉嶺名都商場",
+      "district": "北區",
+      "floor": "2樓",
+      "shop_number": "28C-28D",
+      "phone": "2675 0656",
+      "source_url": "https://www.discoverhongkong.com/tc/plan/qts/shops-results/shops-details.id2007.html"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "西九龍中心",
+      "district": "深水埗區",
+      "floor": "5樓",
+      "shop_number": "501B",
+      "phone": "2387 8262",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "昇悅商場",
+      "district": "深水埗區",
+      "floor": "1樓",
+      "shop_number": "130,132",
+      "phone": "2204 4930",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "將軍澳中心 Park Central",
+      "district": "西貢區",
+      "floor": "地下",
+      "shop_number": "G33",
+      "phone": "3417 4813",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "K11購物藝術館",
+      "district": "油尖旺區",
+      "floor": "地庫1層",
+      "shop_number": "B109-B110",
+      "phone": "3122 4037",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "海怡廣場",
+      "district": "南區",
+      "floor": "東翼 地下",
+      "shop_number": "G05",
+      "phone": "2518 7767",
+      "source_url": "https://www.nestlehealthscience.com.hk/zh-hans/brands/compleat/sales-locations"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "海怡廣場",
+      "district": "南區",
+      "floor": "1樓",
+      "shop_number": "112-113",
+      "phone": "2871 0782",
+      "source_url": "https://www.nestlehealthscience.com.hk/zh-hans/brands/compleat/sales-locations"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "綠楊坊",
+      "district": "荃灣區",
+      "floor": "平台",
+      "shop_number": "P11A-P11B",
+      "phone": "2492 3224",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "D·PARK 愉景新城",
+      "district": "荃灣區",
+      "floor": "2樓",
+      "shop_number": "2050",
+      "phone": "2889 4608",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "屯門時代廣場",
+      "district": "屯門區",
+      "floor": "南翼 3樓",
+      "shop_number": "8,39",
+      "phone": "2441 7153",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "錦薈坊",
+      "district": "屯門區",
+      "floor": "3樓",
+      "shop_number": "353",
+      "phone": "2761 0298",
+      "source_url": "https://elixir.com.hk/locate-us/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "3樓",
+      "shop_number": "3015",
+      "phone": "2670 5619",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "太古城中心",
+      "district": "東區",
+      "floor": "1樓",
+      "shop_number": "124",
+      "phone": "2915 9055",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "太古廣場",
+      "district": "中西區",
+      "floor": "1樓",
+      "shop_number": "145",
+      "phone": "2523 2885",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "時代廣場",
+      "district": "灣仔區",
+      "floor": "9樓",
+      "shop_number": "928",
+      "phone": "3468 7632",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "德福廣場",
+      "district": "觀塘區",
+      "floor": "地下",
+      "shop_number": "G52",
+      "phone": "2426 5933",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "海港城",
+      "district": "油尖旺區",
+      "floor": "3樓",
+      "shop_number": "3302",
+      "phone": "3974 6302",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "黃埔天地",
+      "district": "九龍城區",
+      "floor": "地下",
+      "shop_number": "3A",
+      "phone": "2994 5691",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "荷里活廣場",
+      "district": "黃大仙區",
+      "floor": "2樓",
+      "shop_number": "228",
+      "phone": "2955 5756",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "大埔超級城",
+      "district": "大埔區",
+      "floor": "1樓",
+      "shop_number": "672-673",
+      "phone": "2667 4533",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "新都城中心",
+      "district": "西貢區",
+      "floor": "地下",
+      "shop_number": "G26-27",
+      "phone": "2458 0382",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "東港城",
+      "district": "西貢區",
+      "floor": "2樓",
+      "shop_number": "239",
+      "phone": "2469 0018",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "東港城",
+      "district": "西貢區",
+      "floor": "2樓",
+      "shop_number": "226",
+      "phone": "2792 5268",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "新城市廣場",
+      "district": "沙田區",
+      "floor": "4樓",
+      "shop_number": "451-453",
+      "phone": "2606 6500",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "新城市廣場",
+      "district": "沙田區",
+      "floor": "6樓",
+      "shop_number": "601",
+      "phone": "2284 4017",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "沙田中心",
+      "district": "沙田區",
+      "floor": "L3樓",
+      "shop_number": "52A,52B1",
+      "phone": "2670 9733",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "floor": "2樓",
+      "shop_number": "2E34",
+      "phone": "2613 5157",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "+WOO 嘉湖",
+      "district": "元朗區",
+      "floor": "地下",
+      "shop_number": "G73A",
+      "phone": "2796 8003",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "V city",
+      "district": "屯門區",
+      "floor": "樓",
+      "shop_number": "32",
+      "phone": "2679 3202",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "屯門時代廣場",
+      "district": "屯門區",
+      "floor": "2樓",
+      "shop_number": "11A",
+      "phone": "2404 2368",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "錦薈坊",
+      "district": "屯門區",
+      "floor": "3樓",
+      "shop_number": "338-343",
+      "phone": "2474 5263",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "D·PARK 愉景新城",
+      "district": "荃灣區",
+      "floor": "1樓",
+      "shop_number": "1014-1015",
+      "phone": "2661 5510",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "屈臣氏",
+      "mall_hint": "荃灣廣場",
+      "district": "荃灣區",
+      "floor": "地庫",
+      "shop_number": "B117-118",
+      "phone": "2417 7092",
+      "source_url": "https://www.equopausa.com.hk/storelist/"
+    },
+    {
+      "chain_id": "starbucks_rewards",
+      "store_name": "星巴克",
+      "mall_hint": "置地廣場",
+      "district": "中西區",
+      "floor": "3樓",
+      "shop_number": "305-306",
+      "phone": "3596 7836",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "starbucks_rewards",
+      "store_name": "星巴克",
+      "mall_hint": "K11 MUSEA",
+      "district": "油尖旺區",
+      "floor": "B1",
+      "shop_number": "B107A",
+      "phone": "2782 3928",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "萬寧",
+      "mall_hint": "K11 MUSEA",
+      "district": "油尖旺區",
+      "floor": "B2",
+      "shop_number": "B201-01B",
+      "phone": "2793 1047",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "store_name": "大快活",
+      "mall_hint": "OP Mall 海之戀商場",
+      "district": "荃灣區",
+      "floor": "3樓",
+      "shop_number": "3001,3006",
+      "phone": "2856 4020",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "starbucks_rewards",
+      "store_name": "星巴克",
+      "mall_hint": "OP Mall 海之戀商場",
+      "district": "荃灣區",
+      "floor": "地下",
+      "shop_number": "G17",
+      "phone": "2675 6388",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "pizza_hut_rewards",
+      "store_name": "必勝客",
+      "mall_hint": "中環街市",
+      "district": "中西區",
+      "floor": "地下",
+      "shop_number": "G20-G21",
+      "phone": "6161 9882",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "starbucks_rewards",
+      "store_name": "星巴克",
+      "mall_hint": "赤柱廣場",
+      "district": "南區",
+      "floor": "地下",
+      "shop_number": "G01",
+      "phone": "2871 3321",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "百佳",
+      "mall_hint": "赤柱廣場",
+      "district": "南區",
+      "floor": "2樓",
+      "shop_number": "201-203",
+      "phone": "2813 8520",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "pizza_hut_rewards",
+      "store_name": "必勝客",
+      "mall_hint": "赤柱廣場",
+      "district": "南區",
+      "floor": "1樓",
+      "shop_number": "101",
+      "phone": "2538 7138",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "starbucks_rewards",
+      "store_name": "星巴克",
+      "mall_hint": "數碼港商場",
+      "district": "南區",
+      "floor": "3樓",
+      "shop_number": "316",
+      "phone": "2989 9592",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "moneyback",
+      "store_name": "百佳",
+      "mall_hint": "數碼港商場",
+      "district": "南區",
+      "floor": "1樓",
+      "shop_number": "3",
+      "phone": "2989 6030",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "惠康",
+      "mall_hint": "大埔廣場",
+      "district": "大埔區",
+      "floor": "2樓",
+      "shop_number": "32",
+      "phone": "2667 7951",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "store_name": "大家樂",
+      "mall_hint": "葵涌廣場",
+      "district": "葵青區",
+      "floor": "1樓",
+      "shop_number": "B13-B18",
+      "phone": "2410 0313",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "samgor_spicy_club",
+      "store_name": "譚仔三哥米線",
+      "mall_hint": "葵涌廣場",
+      "district": "葵青區",
+      "floor": "1樓",
+      "shop_number": "93",
+      "phone": "2669 3623",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "aeon_member",
+      "store_name": "AEON",
+      "mall_hint": "碧海藍天商場",
+      "district": "深水埗區",
+      "floor": "地下至2樓",
+      "shop_number": "G-2",
+      "phone": "3120 7188",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "Market Place",
+      "mall_hint": "愉景灣北商場 DB North Plaza",
+      "district": "離島區",
+      "floor": "地下",
+      "shop_number": "G11",
+      "phone": "2947 9092",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "yuu",
+      "store_name": "7-Eleven",
+      "mall_hint": "愉景灣北商場 DB North Plaza",
+      "district": "離島區",
+      "floor": "LG",
+      "shop_number": "LG21",
+      "phone": "2608 2712",
+      "source_url": "verified_pins_empty_mall_remediation"
+    },
+    {
+      "chain_id": "starbucks_rewards",
+      "store_name": "星巴克",
+      "mall_hint": "合和商場",
+      "district": "灣仔區",
+      "floor": "3樓",
+      "shop_number": "317-319",
+      "phone": "3527 3900",
+      "source_url": "verified_pins_empty_mall_remediation"
+    }
+  ]
+}

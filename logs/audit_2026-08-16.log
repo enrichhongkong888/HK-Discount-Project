@@ -1,0 +1,608 @@
+[2026-08-16 23:17:15+0800] daily_store_auditor
+DELETE [C_expired] mall=中環街市 store=必勝客 unit=G20-G21 key=95f8bbc69aa6_a61125c6f649_g20-g21_ea7ba993afef
+  removed image frontend\images\stores\95f8bbc69aa6_a61125c6f649_g20-g21_ea7ba993afef.jpg
+DELETE [C_expired] mall=中環街市 store=亞答屋 unit=G17 key=95f8bbc69aa6_a61125c6f649_g17_a728aa349d63
+  removed image frontend\images\stores\95f8bbc69aa6_a61125c6f649_g17_a728aa349d63.jpg
+DELETE [A_relocated] mall=中環街市 store=審計測試已搬離店 unit=g20-g21 key=95f8bbc69aa6_test_relocated_ghost
+  removed image frontend\images\stores\95f8bbc69aa6_test_relocated_ghost.jpg
+DELETE [C_expired] mall=信德中心 store=萬寧 unit=223 key=864ed6237a0b_2-80bd233f8f64_223_78f07e619fd2
+  removed image frontend\images\stores\864ed6237a0b_2-80bd233f8f64_223_78f07e619fd2.jpg
+DELETE [C_expired] mall=國際金融中心商場 store=city'super unit=1041-1049 key=55c893c2557d_1-d60d7527eb36_1041-1049_city-super
+  removed image frontend\images\stores\55c893c2557d_1-d60d7527eb36_1041-1049_city-super.jpg
+DELETE [C_expired] mall=國際金融中心商場 store=屈臣氏 unit=3015 key=55c893c2557d_3-674eeb7dcb29_3015_224dbe7bd715
+  removed image frontend\images\stores\55c893c2557d_3-674eeb7dcb29_3015_224dbe7bd715.jpg
+DELETE [C_expired] mall=國際金融中心商場 store=星巴克 unit=2097-98 key=55c893c2557d_2-80bd233f8f64_2097-98_3f14e3553fa3
+  removed image frontend\images\stores\55c893c2557d_2-80bd233f8f64_2097-98_3f14e3553fa3.jpg
+DELETE [C_expired] mall=國際金融中心商場 store=萬寧 unit=2004 key=55c893c2557d_2-80bd233f8f64_2004_78f07e619fd2
+  removed image frontend\images\stores\55c893c2557d_2-80bd233f8f64_2004_78f07e619fd2.jpg
+DELETE [C_expired] mall=太古廣場 store=屈臣氏 unit=145 key=3432ba4e7cee_1-d60d7527eb36_145_224dbe7bd715
+  removed image frontend\images\stores\3432ba4e7cee_1-d60d7527eb36_145_224dbe7bd715.jpg
+DELETE [C_expired] mall=太古廣場 store=無印良品 unit=100 key=3432ba4e7cee_l1_100_a1262dcd9063
+  removed image frontend\images\stores\3432ba4e7cee_l1_100_a1262dcd9063.jpg
+DELETE [C_expired] mall=太古廣場 store=星巴克 unit=128-129 key=3432ba4e7cee_l1_128-129_3f14e3553fa3
+  removed image frontend\images\stores\3432ba4e7cee_l1_128-129_3f14e3553fa3.jpg
+DELETE [C_expired] mall=置地廣場 store=星巴克 unit=305-306 key=fc1ca715373e_3-674eeb7dcb29_305-306_3f14e3553fa3
+  removed image frontend\images\stores\fc1ca715373e_3-674eeb7dcb29_305-306_3f14e3553fa3.jpg
+DELETE [C_expired] mall=AIRSIDE store=無印良品 unit=408-410 key=airside_4-17e57ce99006_408-410_a1262dcd9063
+  removed image frontend\images\stores\airside_4-17e57ce99006_408-410_a1262dcd9063.jpg
+DELETE [C_expired] mall=又一城 store=無印良品 unit=LG1-30 key=18f74826e08d_lg1_lg1-30_a1262dcd9063
+  removed image frontend\images\stores\18f74826e08d_lg1_lg1-30_a1262dcd9063.jpg
+DELETE [C_expired] mall=又一城 store=星巴克 unit=UG-20A key=18f74826e08d_ug_ug-20a_3f14e3553fa3
+  removed image frontend\images\stores\18f74826e08d_ug_ug-20a_3f14e3553fa3.jpg
+DELETE [C_expired] mall=又一城 store=UNIQLO unit=L1-01 key=18f74826e08d_l1_l1-01_uniqlo
+  removed image frontend\images\stores\18f74826e08d_l1_l1-01_uniqlo.jpg
+DELETE [C_expired] mall=樂富廣場 store=Living PLAZA by AEON unit=3169A key=2c55a9365efd_a-3_3169a_living-plaza-by-aeon
+  removed image frontend\images\stores\2c55a9365efd_a-3_3169a_living-plaza-by-aeon.jpg
+DELETE [C_expired] mall=樂富廣場 store=太平洋咖啡 unit=1158 key=2c55a9365efd_a-1_1158_1a102b9db1ff
+  removed image frontend\images\stores\2c55a9365efd_a-1_1158_1a102b9db1ff.jpg
+DELETE [C_expired] mall=樂富廣場 store=聖安娜 unit=2118 key=2c55a9365efd_a-2_2118_044d36a14c06
+  removed image frontend\images\stores\2c55a9365efd_a-2_2118_044d36a14c06.jpg
+DELETE [C_expired] mall=樂富廣場 store=UNIQLO unit=1151-1156 key=2c55a9365efd_1-d60d7527eb36_1151-1156_uniqlo
+  removed image frontend\images\stores\2c55a9365efd_1-d60d7527eb36_1151-1156_uniqlo.jpg
+DELETE [A_relocated] mall=黃埔天地 store=火夫 unit=G29 key=2c39d39b5018_ac4be148bf10_g29_a6626f70d378
+  removed image frontend\images\stores\2c39d39b5018_ac4be148bf10_g29_a6626f70d378.jpg
+DELETE [C_expired] mall=黃埔天地 store=AEON STYLE unit=5-6期 key=2c39d39b5018_5-6_5-6_aeon-style
+  removed image frontend\images\stores\2c39d39b5018_5-6_5-6_aeon-style.jpg
+DELETE [C_expired] mall=黃埔天地 store=AEON unit=G1 key=2c39d39b5018_g1_g1_aeon
+  removed image frontend\images\stores\2c39d39b5018_g1_g1_aeon.jpg
+DELETE [C_expired] mall=黃埔天地 store=屈臣氏 unit=3A key=2c39d39b5018_a61125c6f649_3a_224dbe7bd715
+  removed image frontend\images\stores\2c39d39b5018_a61125c6f649_3a_224dbe7bd715.jpg
+DELETE [C_expired] mall=+WOO 嘉湖 store=屈臣氏 unit=G73A key=woo_a61125c6f649_g73a_224dbe7bd715
+  removed image frontend\images\stores\woo_a61125c6f649_g73a_224dbe7bd715.jpg
+DELETE [C_expired] mall=T Town store=UNIQLO unit=S122-124 key=t-town_1-d60d7527eb36_s122-124_uniqlo
+  removed image frontend\images\stores\t-town_1-d60d7527eb36_s122-124_uniqlo.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=大家樂 unit=A217 key=yoho-mall_yoho-mall-ii-l2_a217_deacc8b6ef57
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l2_a217_deacc8b6ef57.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=豐澤 unit=A328-A329 key=yoho-mall_yoho-mall-ii-l3_a328-a329_7abd8d50275a
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l3_a328-a329_7abd8d50275a.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=元氣壽司 unit=A222-A225 key=yoho-mall_yoho-mall-ii-l2_a222-a225_fefa9a7e0cf5
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l2_a222-a225_fefa9a7e0cf5.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=JHC unit=A212b key=yoho-mall_yoho-mall-ii-l2_a212b_jhc
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l2_a212b_jhc.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=奇華餅家 unit=A215 key=yoho-mall_yoho-mall-ii-l2_a215_73f3c8de6fdc
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l2_a215_73f3c8de6fdc.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=麥當勞 unit=A312 key=yoho-mall_yoho-mall-ii-l3_a312_4b0df4d80ba9
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l3_a312_4b0df4d80ba9.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=百佳 unit=A233 key=yoho-mall_yoho-mall-ii-l2_a233_777f345acf30
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l2_a233_777f345acf30.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=屈臣氏 unit=B169& B187 key=yoho-mall_yoho-mix-l1_b169-b187_224dbe7bd715
+  removed image frontend\images\stores\yoho-mall_yoho-mix-l1_b169-b187_224dbe7bd715.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=無印良品 unit=1061-1062 key=yoho-mall_yoho-mall-i-l1_1061-1062_a1262dcd9063
+  removed image frontend\images\stores\yoho-mall_yoho-mall-i-l1_1061-1062_a1262dcd9063.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=美心 MX unit=C015-C018 key=yoho-mall_mall-plus-g_c015-c018_mx
+  removed image frontend\images\stores\yoho-mall_mall-plus-g_c015-c018_mx.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=譚仔三哥米線 unit=A219 key=yoho-mall_yoho-mall-ii-l2_a219_0f16bf23cf90
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l2_a219_0f16bf23cf90.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=莎莎 unit=A111 key=yoho-mall_yoho-mall-ii-l1_a111_709860cf0372
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l1_a111_709860cf0372.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=星巴克 unit=A335 key=yoho-mall_yoho-mall-ii-l3_a335_3f14e3553fa3
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l3_a335_3f14e3553fa3.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=UNIQLO unit=1156-1157 key=yoho-mall_yoho-mall-i-l1_1156-1157_uniqlo
+  removed image frontend\images\stores\yoho-mall_yoho-mall-i-l1_1156-1157_uniqlo.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=榮華餅家 unit=A226 key=yoho-mall_yoho-mall-ii-l2_a226_d7c890125deb
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l2_a226_d7c890125deb.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=一田 unit=1013-1015&1018-1020 key=yoho-mall_yoho-mall-i-l1_1013-1015-1018-1020_75320e11b2fe
+  removed image frontend\images\stores\yoho-mall_yoho-mall-i-l1_1013-1015-1018-1020_75320e11b2fe.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=吉野家 unit=A139 key=yoho-mall_yoho-mall-ii-l1_a139_b8056010bb12
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l1_a139_b8056010bb12.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=7-Eleven unit=1070 key=yoho-mall_yoho-mall-i-l1_1070_7-eleven
+  removed image frontend\images\stores\yoho-mall_yoho-mall-i-l1_1070_7-eleven.jpg
+DELETE [C_expired] mall=YOHO MALL 形點 store=萬寧 unit=2008 key=yoho-mall_yoho-mall-i-l2_2008_78f07e619fd2
+  removed image frontend\images\stores\yoho-mall_yoho-mall-i-l2_2008_78f07e619fd2.jpg
+DELETE [A_relocated] mall=YOHO MALL 形點 store=萬寧  Mannings unit=A212a key=yoho-mall_yoho-mall-ii-l2_a212a_mannings
+  removed image frontend\images\stores\yoho-mall_yoho-mall-ii-l2_a212a_mannings.jpg
+DELETE [C_expired] mall=元朗廣場 store=UNIQLO unit=201-220A key=2db42835b170_2-80bd233f8f64_201-220a_uniqlo
+  removed image frontend\images\stores\2db42835b170_2-80bd233f8f64_201-220a_uniqlo.jpg
+DELETE [C_expired] mall=上水中心購物商場 store=萬寧 unit=2077D-H key=ed2e2e8206d1_2-80bd233f8f64_2077d-h_78f07e619fd2
+  removed image frontend\images\stores\ed2e2e8206d1_2-80bd233f8f64_2077d-h_78f07e619fd2.jpg
+DELETE [C_expired] mall=上水匯 spot store=屈臣氏 unit=103B,104 key=spot_1-d60d7527eb36_103b-104_224dbe7bd715
+  removed image frontend\images\stores\spot_1-d60d7527eb36_103b-104_224dbe7bd715.jpg
+DELETE [C_expired] mall=上水廣場 store=萬寧 unit=419-423 key=9998a5d14f22_4-17e57ce99006_419-423_78f07e619fd2
+  removed image frontend\images\stores\9998a5d14f22_4-17e57ce99006_419-423_78f07e619fd2.jpg
+DELETE [C_expired] mall=上水廣場 store=牛摩 unit=513 key=9998a5d14f22_5-487b4bd8ac92_513_19b018966e94
+  removed image frontend\images\stores\9998a5d14f22_5-487b4bd8ac92_513_19b018966e94.jpg
+DELETE [C_expired] mall=上水廣場 store=PizzaExpress unit=501 key=9998a5d14f22_5-487b4bd8ac92_501_pizzaexpress
+  removed image frontend\images\stores\9998a5d14f22_5-487b4bd8ac92_501_pizzaexpress.jpg
+DELETE [C_expired] mall=上水廣場 store=営丼 unit=502B key=9998a5d14f22_5-487b4bd8ac92_502b_c5d5e85c158b
+  removed image frontend\images\stores\9998a5d14f22_5-487b4bd8ac92_502b_c5d5e85c158b.jpg
+DELETE [C_expired] mall=上水廣場 store=金鶴二代目 unit=511 key=9998a5d14f22_5-487b4bd8ac92_511_899ed29210a5
+  removed image frontend\images\stores\9998a5d14f22_5-487b4bd8ac92_511_899ed29210a5.jpg
+DELETE [C_expired] mall=上水廣場 store=泰Cow unit=505 key=9998a5d14f22_5-487b4bd8ac92_505_cow
+  removed image frontend\images\stores\9998a5d14f22_5-487b4bd8ac92_505_cow.jpg
+DELETE [C_expired] mall=上水廣場 store=錦麗 unit=405-406 key=9998a5d14f22_4-f_405-406_e9226cd9fa47
+  removed image frontend\images\stores\9998a5d14f22_4-f_405-406_e9226cd9fa47.jpg
+DELETE [C_expired] mall=上水廣場 store=Merci Cafe by Déesses unit=512 key=9998a5d14f22_5-487b4bd8ac92_512_merci-cafe-by-d-esses
+  removed image frontend\images\stores\9998a5d14f22_5-487b4bd8ac92_512_merci-cafe-by-d-esses.jpg
+DELETE [C_expired] mall=上水廣場 store=一焼肉 unit=428B key=9998a5d14f22_4-17e57ce99006_428b_52b5bb22f8e8
+  removed image frontend\images\stores\9998a5d14f22_4-17e57ce99006_428b_52b5bb22f8e8.jpg
+DELETE [C_expired] mall=上水廣場 store=亞參雞飯 unit=506-508 key=9998a5d14f22_5-487b4bd8ac92_506-508_99ce46064e21
+  removed image frontend\images\stores\9998a5d14f22_5-487b4bd8ac92_506-508_99ce46064e21.jpg
+DELETE [C_expired] mall=上水廣場 store=太興 unit=405-406 key=9998a5d14f22_4-17e57ce99006_405-406_41380373b0c8
+  removed image frontend\images\stores\9998a5d14f22_4-17e57ce99006_405-406_41380373b0c8.jpg
+DELETE [C_expired] mall=上水廣場 store=手作功夫茶 unit=207 key=9998a5d14f22_2-80bd233f8f64_207_b0dd1305a357
+  removed image frontend\images\stores\9998a5d14f22_2-80bd233f8f64_207_b0dd1305a357.jpg
+DELETE [C_expired] mall=上水廣場 store=CHAGEE 霸王茶姬 unit=266-267 key=9998a5d14f22_2-80bd233f8f64_266-267_chagee
+  removed image frontend\images\stores\9998a5d14f22_2-80bd233f8f64_266-267_chagee.jpg
+DELETE [C_expired] mall=上水廣場 store=皇玥 unit=4-5 key=9998a5d14f22_4-17e57ce99006_4-5_5bcc620e56da
+  removed image frontend\images\stores\9998a5d14f22_4-17e57ce99006_4-5_5bcc620e56da.jpg
+DELETE [C_expired] mall=上水廣場 store=ABC BAKERY unit=206 key=9998a5d14f22_2-80bd233f8f64_206_abc-bakery
+  removed image frontend\images\stores\9998a5d14f22_2-80bd233f8f64_206_abc-bakery.jpg
+DELETE [C_expired] mall=上水廣場 store=瑞幸咖啡 unit=208 key=9998a5d14f22_2-80bd233f8f64_208_8514b0f0e079
+  removed image frontend\images\stores\9998a5d14f22_2-80bd233f8f64_208_8514b0f0e079.jpg
+DELETE [C_expired] mall=上水廣場 store=奇華餅家 unit=415 key=9998a5d14f22_4-17e57ce99006_415_73f3c8de6fdc
+  removed image frontend\images\stores\9998a5d14f22_4-17e57ce99006_415_73f3c8de6fdc.jpg
+DELETE [C_expired] mall=上水廣場 store=官燕棧 unit=431A key=9998a5d14f22_4-17e57ce99006_431a_961560e519e3
+  removed image frontend\images\stores\9998a5d14f22_4-17e57ce99006_431a_961560e519e3.jpg
+DELETE [C_expired] mall=上水廣場 store=太興 unit=501 key=9998a5d14f22_5-487b4bd8ac92_501_41380373b0c8
+  removed image frontend\images\stores\9998a5d14f22_5-487b4bd8ac92_501_41380373b0c8.jpg
+DELETE [C_expired] mall=上水廣場 store=奇華餅家 unit=211 key=9998a5d14f22_2-80bd233f8f64_211_73f3c8de6fdc
+  removed image frontend\images\stores\9998a5d14f22_2-80bd233f8f64_211_73f3c8de6fdc.jpg
+DELETE [C_expired] mall=上水廣場 store=聖安娜餅屋 unit=206 key=9998a5d14f22_2-80bd233f8f64_206_47caad2257ec
+  removed image frontend\images\stores\9998a5d14f22_2-80bd233f8f64_206_47caad2257ec.jpg
+DELETE [C_expired] mall=粉嶺名都商場 store=豐澤 unit=28C-28D key=1b1346b34f03_2-80bd233f8f64_28c-28d_7abd8d50275a
+  removed image frontend\images\stores\1b1346b34f03_2-80bd233f8f64_28c-28d_7abd8d50275a.jpg
+DELETE [C_expired] mall=THE SOUTHSIDE store=UNIQLO unit=214-221 key=the-southside_l2_214-221_uniqlo
+  removed image frontend\images\stores\the-southside_l2_214-221_uniqlo.jpg
+DELETE [C_expired] mall=數碼港商場 store=百佳 unit=3 key=17491e366c86_1-d60d7527eb36_3-eccbc87e4b5c_777f345acf30
+  removed image frontend\images\stores\17491e366c86_1-d60d7527eb36_3-eccbc87e4b5c_777f345acf30.jpg
+DELETE [C_expired] mall=數碼港商場 store=星巴克 unit=316 key=17491e366c86_3-674eeb7dcb29_316_3f14e3553fa3
+  removed image frontend\images\stores\17491e366c86_3-674eeb7dcb29_316_3f14e3553fa3.jpg
+DELETE [C_expired] mall=數碼港商場 store=鍾菜館 unit=102 key=17491e366c86_1-d60d7527eb36_102_22311e5557e7
+  removed image frontend\images\stores\17491e366c86_1-d60d7527eb36_102_22311e5557e7.jpg
+DELETE [C_expired] mall=數碼港商場 store=Seed by Farmacy unit=207 key=17491e366c86_2-80bd233f8f64_207_seed-by-farmacy
+  removed image frontend\images\stores\17491e366c86_2-80bd233f8f64_207_seed-by-farmacy.jpg
+DELETE [C_expired] mall=數碼港商場 store=El Charro Mexican Cantina unit=208 key=17491e366c86_2-80bd233f8f64_208_el-charro-mexican-cantina
+  removed image frontend\images\stores\17491e366c86_2-80bd233f8f64_208_el-charro-mexican-cantina.jpg
+DELETE [C_expired] mall=數碼港商場 store=奧壽司 unit=307 key=17491e366c86_3-674eeb7dcb29_307_afee8c678143
+  removed image frontend\images\stores\17491e366c86_3-674eeb7dcb29_307_afee8c678143.jpg
+DELETE [C_expired] mall=數碼港商場 store=牛田鮮 unit=304 key=17491e366c86_3-674eeb7dcb29_304_976daf43a519
+  removed image frontend\images\stores\17491e366c86_3-674eeb7dcb29_304_976daf43a519.jpg
+DELETE [C_expired] mall=數碼港商場 store=Pepper Lunch Express unit=403A key=17491e366c86_4-17e57ce99006_403a_pepper-lunch-express
+  removed image frontend\images\stores\17491e366c86_4-17e57ce99006_403a_pepper-lunch-express.jpg
+DELETE [C_expired] mall=數碼港商場 store=麵屋龍平 unit=407 key=17491e366c86_4-17e57ce99006_407_33a06e214c5c
+  removed image frontend\images\stores\17491e366c86_4-17e57ce99006_407_33a06e214c5c.jpg
+DELETE [C_expired] mall=數碼港商場 store=譚仔雲南米線 unit=409-410 key=17491e366c86_4-17e57ce99006_409-410_cf411ec6db2f
+  removed image frontend\images\stores\17491e366c86_4-17e57ce99006_409-410_cf411ec6db2f.jpg
+DELETE [C_expired] mall=數碼港商場 store=茶星人 unit=309A key=17491e366c86_3-674eeb7dcb29_309a_861121249485
+  removed image frontend\images\stores\17491e366c86_3-674eeb7dcb29_309a_861121249485.jpg
+DELETE [C_expired] mall=數碼港商場 store=The Pit Juice unit=417 key=17491e366c86_4-17e57ce99006_417_the-pit-juice
+  removed image frontend\images\stores\17491e366c86_4-17e57ce99006_417_the-pit-juice.jpg
+DELETE [C_expired] mall=數碼港商場 store=1+2小廚 unit=408 key=17491e366c86_4-17e57ce99006_408_1-2
+  removed image frontend\images\stores\17491e366c86_4-17e57ce99006_408_1-2.jpg
+DELETE [C_expired] mall=海怡廣場 store=屈臣氏 unit=112-113 key=798ab89bdb5a_1-d60d7527eb36_112-113_224dbe7bd715
+  removed image frontend\images\stores\798ab89bdb5a_1-d60d7527eb36_112-113_224dbe7bd715.jpg
+DELETE [C_expired] mall=赤柱廣場 store=百佳 unit=201-203 key=1eadbf5137ab_2-80bd233f8f64_201-203_777f345acf30
+  removed image frontend\images\stores\1eadbf5137ab_2-80bd233f8f64_201-203_777f345acf30.jpg
+DELETE [C_expired] mall=赤柱廣場 store=必勝客 unit=101 key=1eadbf5137ab_1-d60d7527eb36_101_ea7ba993afef
+  removed image frontend\images\stores\1eadbf5137ab_1-d60d7527eb36_101_ea7ba993afef.jpg
+DELETE [C_expired] mall=赤柱廣場 store=星巴克 unit=G01 key=1eadbf5137ab_a61125c6f649_g01_3f14e3553fa3
+  removed image frontend\images\stores\1eadbf5137ab_a61125c6f649_g01_3f14e3553fa3.jpg
+DELETE [C_expired] mall=赤柱廣場 store=鍾菜館 unit=308 key=1eadbf5137ab_3-674eeb7dcb29_308_22311e5557e7
+  removed image frontend\images\stores\1eadbf5137ab_3-674eeb7dcb29_308_22311e5557e7.jpg
+DELETE [C_expired] mall=赤柱廣場 store=Surf & Turf Grill and Bar unit=302 key=1eadbf5137ab_3-674eeb7dcb29_302_surf-turf-grill-and-bar
+  removed image frontend\images\stores\1eadbf5137ab_3-674eeb7dcb29_302_surf-turf-grill-and-bar.jpg
+DELETE [C_expired] mall=赤柱廣場 store=Beef & Liberty unit=G04 key=1eadbf5137ab_a61125c6f649_g04_beef-liberty
+  removed image frontend\images\stores\1eadbf5137ab_a61125c6f649_g04_beef-liberty.jpg
+DELETE [C_expired] mall=赤柱廣場 store=Dough Bros Pizza & Doughnuts unit=G08B key=1eadbf5137ab_a61125c6f649_g08b_dough-bros-pizza-doughnuts
+  removed image frontend\images\stores\1eadbf5137ab_a61125c6f649_g08b_dough-bros-pizza-doughnuts.jpg
+DELETE [C_expired] mall=赤柱廣場 store=杏花樓 unit=102-103 key=1eadbf5137ab_1-d60d7527eb36_102-103_80f5ca8f83b9
+  removed image frontend\images\stores\1eadbf5137ab_1-d60d7527eb36_102-103_80f5ca8f83b9.jpg
+DELETE [C_expired] mall=赤柱廣場 store=麥當勞 unit=G03 key=1eadbf5137ab_a61125c6f649_g03_4b0df4d80ba9
+  removed image frontend\images\stores\1eadbf5137ab_a61125c6f649_g03_4b0df4d80ba9.jpg
+DELETE [C_expired] mall=赤柱廣場 store=McCafe unit=G03 key=1eadbf5137ab_a61125c6f649_g03_mccafe
+  removed image frontend\images\stores\1eadbf5137ab_a61125c6f649_g03_mccafe.jpg
+DELETE [C_expired] mall=赤柱廣場 store=散水餅 unit=407 key=1eadbf5137ab_4-17e57ce99006_407_a174bf100bf4
+  removed image frontend\images\stores\1eadbf5137ab_4-17e57ce99006_407_a174bf100bf4.jpg
+DELETE [C_expired] mall=赤柱廣場 store=星巴克咖啡 unit=G01 key=1eadbf5137ab_a61125c6f649_g01_9c09b1060665
+  removed image frontend\images\stores\1eadbf5137ab_a61125c6f649_g01_9c09b1060665.jpg
+DELETE [C_expired] mall=赤柱廣場 store=Gino's Gelato unit=G09 key=1eadbf5137ab_a61125c6f649_g09_gino-s-gelato
+  removed image frontend\images\stores\1eadbf5137ab_a61125c6f649_g09_gino-s-gelato.jpg
+DELETE [C_expired] mall=赤柱廣場 store=星巴克咖啡 unit=201 key=1eadbf5137ab_2-80bd233f8f64_201_9c09b1060665
+  removed image frontend\images\stores\1eadbf5137ab_2-80bd233f8f64_201_9c09b1060665.jpg
+DELETE [C_expired] mall=赤柱廣場 store=Saffron unit=102 key=1eadbf5137ab_1-d60d7527eb36_102_saffron
+  removed image frontend\images\stores\1eadbf5137ab_1-d60d7527eb36_102_saffron.jpg
+DELETE [C_expired] mall=香港仔中心商場 store=AEON Mono Mono unit=1期 key=83cc34a62636_1-e858d61b61ca_1-8c267747ee10_aeon-mono-mono
+  removed image frontend\images\stores\83cc34a62636_1-e858d61b61ca_1-8c267747ee10_aeon-mono-mono.jpg
+DELETE [C_expired] mall=香港仔中心商場 store=屈臣氏 unit=6C key=83cc34a62636_a61125c6f649_6c_224dbe7bd715
+  removed image frontend\images\stores\83cc34a62636_a61125c6f649_6c_224dbe7bd715.jpg
+DELETE [C_expired] mall=大埔廣場 store=惠康 unit=32 key=45dccf7dbd5e_2-80bd233f8f64_32_eaf2c221dd26
+  removed image frontend\images\stores\45dccf7dbd5e_2-80bd233f8f64_32_eaf2c221dd26.jpg
+DELETE [C_expired] mall=大埔超級城 store=屈臣氏 unit=672-673 key=dd00746047f2_1-d60d7527eb36_672-673_224dbe7bd715
+  removed image frontend\images\stores\dd00746047f2_1-d60d7527eb36_672-673_224dbe7bd715.jpg
+DELETE [C_expired] mall=大埔超級城 store=一田 unit=8 key=dd00746047f2_b-89157b236925_8-c9f0f895fb98_75320e11b2fe
+  removed image frontend\images\stores\dd00746047f2_b-89157b236925_8-c9f0f895fb98_75320e11b2fe.jpg
+DELETE [C_expired] mall=V city store=豐澤 unit=M-45-46 key=v-city_mtr-2_m-45-46_7abd8d50275a
+  removed image frontend\images\stores\v-city_mtr-2_m-45-46_7abd8d50275a.jpg
+DELETE [C_expired] mall=V city store=屈臣氏 unit=32 key=v-city_951a21ad198a_32_224dbe7bd715
+  removed image frontend\images\stores\v-city_951a21ad198a_32_224dbe7bd715.jpg
+DELETE [C_expired] mall=V city store=UNIQLO unit=M-89 key=v-city_mtr_m-89_uniqlo
+  removed image frontend\images\stores\v-city_mtr_m-89_uniqlo.jpg
+DELETE [C_expired] mall=V city store=一田 unit=83 key=v-city_a61125c6f649_83_75320e11b2fe
+  removed image frontend\images\stores\v-city_a61125c6f649_83_75320e11b2fe.jpg
+DELETE [C_expired] mall=屯門市廣場 store=A-1 Bakery unit=1052 key=2a9e3005383e_1-1_1052_a-1-bakery
+  removed image frontend\images\stores\2a9e3005383e_1-1_1052_a-1-bakery.jpg
+DELETE [C_expired] mall=屯門市廣場 store=AEON unit=1期 key=2a9e3005383e_1-1_1-8c267747ee10_aeon
+  removed image frontend\images\stores\2a9e3005383e_1-1_1-8c267747ee10_aeon.jpg
+DELETE [C_expired] mall=屯門市廣場 store=百老匯 unit=G011 key=2a9e3005383e_1-g_g011_14f1643dab26
+  removed image frontend\images\stores\2a9e3005383e_1-g_g011_14f1643dab26.jpg
+DELETE [C_expired] mall=屯門市廣場 store=大家樂 unit=G036 key=2a9e3005383e_1-g_g036_deacc8b6ef57
+  removed image frontend\images\stores\2a9e3005383e_1-g_g036_deacc8b6ef57.jpg
+DELETE [C_expired] mall=屯門市廣場 store=city'super unit=2251 key=2a9e3005383e_1-2_2251_city-super
+  removed image frontend\images\stores\2a9e3005383e_1-2_2251_city-super.jpg
+DELETE [C_expired] mall=屯門市廣場 store=Colourmix unit=2061 key=2a9e3005383e_1-2_2061_colourmix
+  removed image frontend\images\stores\2a9e3005383e_1-2_2061_colourmix.jpg
+DELETE [C_expired] mall=屯門市廣場 store=DON DON DONKI unit=UG001 key=2a9e3005383e_1-ug_ug001_don-don-donki
+  removed image frontend\images\stores\2a9e3005383e_1-ug_ug001_don-don-donki.jpg
+DELETE [C_expired] mall=屯門市廣場 store=豐澤 unit=G002 key=2a9e3005383e_1-g_g002_7abd8d50275a
+  removed image frontend\images\stores\2a9e3005383e_1-g_g002_7abd8d50275a.jpg
+DELETE [C_expired] mall=屯門市廣場 store=元氣壽司 unit=3206 key=2a9e3005383e_1-3_3206_fefa9a7e0cf5
+  removed image frontend\images\stores\2a9e3005383e_1-3_3206_fefa9a7e0cf5.jpg
+DELETE [C_expired] mall=屯門市廣場 store=GU unit=UG048 key=2a9e3005383e_1-ug_ug048_gu
+  removed image frontend\images\stores\2a9e3005383e_1-ug_ug048_gu.jpg
+DELETE [C_expired] mall=屯門市廣場 store=鴻福堂 unit=8A key=2a9e3005383e_2-g_8a_d4cc158297f9
+  removed image frontend\images\stores\2a9e3005383e_2-g_8a_d4cc158297f9.jpg
+DELETE [C_expired] mall=屯門市廣場 store=奇華餅家 unit=1105 key=2a9e3005383e_1-1_1105_73f3c8de6fdc
+  removed image frontend\images\stores\2a9e3005383e_1-1_1105_73f3c8de6fdc.jpg
+DELETE [C_expired] mall=屯門市廣場 store=麥當勞 unit=17 key=2a9e3005383e_2-g_17_4b0df4d80ba9
+  removed image frontend\images\stores\2a9e3005383e_2-g_17_4b0df4d80ba9.jpg
+DELETE [C_expired] mall=屯門市廣場 store=百佳 unit=1141 key=2a9e3005383e_2-2_1141_777f345acf30
+  removed image frontend\images\stores\2a9e3005383e_2-2_1141_777f345acf30.jpg
+DELETE [C_expired] mall=屯門市廣場 store=屈臣氏 unit=2115 key=2a9e3005383e_1-2_2115_224dbe7bd715
+  removed image frontend\images\stores\2a9e3005383e_1-2_2115_224dbe7bd715.jpg
+DELETE [C_expired] mall=屯門市廣場 store=無印良品 unit=1140 key=2a9e3005383e_1-1_1140_a1262dcd9063
+  removed image frontend\images\stores\2a9e3005383e_1-1_1140_a1262dcd9063.jpg
+DELETE [C_expired] mall=屯門市廣場 store=太平洋咖啡 unit=43 key=2a9e3005383e_2-1_43_1a102b9db1ff
+  removed image frontend\images\stores\2a9e3005383e_2-1_43_1a102b9db1ff.jpg
+DELETE [C_expired] mall=屯門市廣場 store=莎莎 unit=2057 key=2a9e3005383e_1-2_2057_709860cf0372
+  removed image frontend\images\stores\2a9e3005383e_1-2_2057_709860cf0372.jpg
+DELETE [C_expired] mall=屯門市廣場 store=星巴克 unit=UG038 key=2a9e3005383e_1-ug_ug038_3f14e3553fa3
+  removed image frontend\images\stores\2a9e3005383e_1-ug_ug038_3f14e3553fa3.jpg
+DELETE [C_expired] mall=屯門市廣場 store=UNIQLO unit=2001 key=2a9e3005383e_1-2_2001_uniqlo
+  removed image frontend\images\stores\2a9e3005383e_1-2_2001_uniqlo.jpg
+DELETE [C_expired] mall=屯門市廣場 store=榮華餅家 unit=2046 key=2a9e3005383e_1-2_2046_d7c890125deb
+  removed image frontend\images\stores\2a9e3005383e_1-2_2046_d7c890125deb.jpg
+DELETE [C_expired] mall=屯門市廣場 store=吉野家 unit=UG025 key=2a9e3005383e_1-ug_ug025_b8056010bb12
+  removed image frontend\images\stores\2a9e3005383e_1-ug_ug025_b8056010bb12.jpg
+DELETE [C_expired] mall=屯門市廣場 store=萬寧 unit=2199B key=2a9e3005383e_1-2_2199b_78f07e619fd2
+  removed image frontend\images\stores\2a9e3005383e_1-2_2199b_78f07e619fd2.jpg
+DELETE [C_expired] mall=屯門市廣場 store=7-Eleven unit=7 key=2a9e3005383e_2-g_7-8f14e45fceea_7-eleven
+  removed image frontend\images\stores\2a9e3005383e_2-g_7-8f14e45fceea_7-eleven.jpg
+DELETE [C_expired] mall=屯門時代廣場 store=屈臣氏 unit=11A key=8065f99e9d2b_2-80bd233f8f64_11a_224dbe7bd715
+  removed image frontend\images\stores\8065f99e9d2b_2-80bd233f8f64_11a_224dbe7bd715.jpg
+DELETE [C_expired] mall=屯門時代廣場 store=萬寧 unit=8,39 key=8065f99e9d2b_3-d90928e6f363_8-39_78f07e619fd2
+  removed image frontend\images\stores\8065f99e9d2b_3-d90928e6f363_8-39_78f07e619fd2.jpg
+DELETE [C_expired] mall=錦薈坊 store=屈臣氏 unit=338-343 key=fb70b72c5e6e_3-674eeb7dcb29_338-343_224dbe7bd715
+  removed image frontend\images\stores\fb70b72c5e6e_3-674eeb7dcb29_338-343_224dbe7bd715.jpg
+DELETE [C_expired] mall=錦薈坊 store=萬寧 unit=353 key=fb70b72c5e6e_3-674eeb7dcb29_353_78f07e619fd2
+  removed image frontend\images\stores\fb70b72c5e6e_3-674eeb7dcb29_353_78f07e619fd2.jpg
+DELETE [C_expired] mall=北角匯 store=UNIQLO unit=121-123,201,221-223 key=552284f83a1a_1-2_121-123-201-221-223_uniqlo
+  removed image frontend\images\stores\552284f83a1a_1-2_121-123-201-221-223_uniqlo.jpg
+DELETE [C_expired] mall=北角匯 store=一田 unit=123 key=552284f83a1a_2-0fc5c34e24a6_123_75320e11b2fe
+  removed image frontend\images\stores\552284f83a1a_2-0fc5c34e24a6_123_75320e11b2fe.jpg
+DELETE [C_expired] mall=太古城中心 store=屈臣氏 unit=124 key=ea4165541bb5_1-d60d7527eb36_124_224dbe7bd715
+  removed image frontend\images\stores\ea4165541bb5_1-d60d7527eb36_124_224dbe7bd715.jpg
+DELETE [C_expired] mall=太古城中心 store=無印良品 unit=245,301 key=ea4165541bb5_2-3_245-301_a1262dcd9063
+  removed image frontend\images\stores\ea4165541bb5_2-3_245-301_a1262dcd9063.jpg
+DELETE [C_expired] mall=太古城中心 store=UNIQLO unit=401 key=ea4165541bb5_4-17e57ce99006_401_uniqlo
+  removed image frontend\images\stores\ea4165541bb5_4-17e57ce99006_401_uniqlo.jpg
+DELETE [C_expired] mall=康怡廣場 store=AEON unit=G-3 key=9bfef0cb82da_3-069258bbaf63_g-3_aeon
+  removed image frontend\images\stores\9bfef0cb82da_3-069258bbaf63_g-3_aeon.jpg
+DELETE [C_expired] mall=康怡廣場 store=AEON STYLE unit=G-3 key=9bfef0cb82da_3-069258bbaf63_g-3_aeon-style
+  removed image frontend\images\stores\9bfef0cb82da_3-069258bbaf63_g-3_aeon-style.jpg
+DELETE [C_expired] mall=杏花新城 store=萬寧 unit=157-159 key=3f9d97e7ac2a_l1_157-159_78f07e619fd2
+  removed image frontend\images\stores\3f9d97e7ac2a_l1_157-159_78f07e619fd2.jpg
+DELETE [C_expired] mall=HomeSquare store=惠康 unit=G01 key=homesquare_g-f_g01_eaf2c221dd26
+  removed image frontend\images\stores\homesquare_g-f_g01_eaf2c221dd26.jpg
+DELETE [C_expired] mall=圍方 The Wai store=無印良品 unit=237 key=the-wai_2-80bd233f8f64_237_a1262dcd9063
+  removed image frontend\images\stores\the-wai_2-80bd233f8f64_237_a1262dcd9063.jpg
+DELETE [C_expired] mall=新城市廣場 store=A-1 Bakery unit=102 key=fdda653175b3_l1_102_a-1-bakery
+  removed image frontend\images\stores\fdda653175b3_l1_102_a-1-bakery.jpg
+DELETE [C_expired] mall=新城市廣場 store=百老匯 unit=612-613 key=fdda653175b3_l6_612-613_14f1643dab26
+  removed image frontend\images\stores\fdda653175b3_l6_612-613_14f1643dab26.jpg
+DELETE [C_expired] mall=新城市廣場 store=city'super unit=204-214 key=fdda653175b3_l2_204-214_city-super
+  removed image frontend\images\stores\fdda653175b3_l2_204-214_city-super.jpg
+DELETE [C_expired] mall=新城市廣場 store=豐澤 unit=623 key=fdda653175b3_l6_623_7abd8d50275a
+  removed image frontend\images\stores\fdda653175b3_l6_623_7abd8d50275a.jpg
+DELETE [C_expired] mall=新城市廣場 store=元氣壽司 unit=801B key=fdda653175b3_l8_801b_fefa9a7e0cf5
+  removed image frontend\images\stores\fdda653175b3_l8_801b_fefa9a7e0cf5.jpg
+DELETE [C_expired] mall=新城市廣場 store=GU unit=A307 key=fdda653175b3_l3_a307_gu
+  removed image frontend\images\stores\fdda653175b3_l3_a307_gu.jpg
+DELETE [C_expired] mall=新城市廣場 store=麥當勞 unit=221-223 key=fdda653175b3_l2_221-223_4b0df4d80ba9
+  removed image frontend\images\stores\fdda653175b3_l2_221-223_4b0df4d80ba9.jpg
+DELETE [C_expired] mall=新城市廣場 store=屈臣氏 unit=451-453 key=fdda653175b3_4-17e57ce99006_451-453_224dbe7bd715
+  removed image frontend\images\stores\fdda653175b3_4-17e57ce99006_451-453_224dbe7bd715.jpg
+DELETE [C_expired] mall=新城市廣場 store=無印良品 unit=A221 key=fdda653175b3_l2_a221_a1262dcd9063
+  removed image frontend\images\stores\fdda653175b3_l2_a221_a1262dcd9063.jpg
+DELETE [C_expired] mall=新城市廣場 store=莎莎 unit=A335 key=fdda653175b3_l3_a335_709860cf0372
+  removed image frontend\images\stores\fdda653175b3_l3_a335_709860cf0372.jpg
+DELETE [C_expired] mall=新城市廣場 store=星巴克 unit=155 key=fdda653175b3_l1_155_3f14e3553fa3
+  removed image frontend\images\stores\fdda653175b3_l1_155_3f14e3553fa3.jpg
+DELETE [C_expired] mall=新城市廣場 store=UNIQLO unit=225 key=fdda653175b3_l2_225_uniqlo
+  removed image frontend\images\stores\fdda653175b3_l2_225_uniqlo.jpg
+DELETE [C_expired] mall=新城市廣場 store=一田 unit=2 key=fdda653175b3_3-48e152e9f572_2-c81e728d9d4c_75320e11b2fe
+  removed image frontend\images\stores\fdda653175b3_3-48e152e9f572_2-c81e728d9d4c_75320e11b2fe.jpg
+DELETE [C_expired] mall=新城市廣場 store=萬寧 unit=307-307A key=fdda653175b3_l3_307-307a_78f07e619fd2
+  removed image frontend\images\stores\fdda653175b3_l3_307-307a_78f07e619fd2.jpg
+DELETE [C_expired] mall=新城市廣場 store=屈臣氏 unit=601 key=fdda653175b3_6-76eaab467979_601_224dbe7bd715
+  removed image frontend\images\stores\fdda653175b3_6-76eaab467979_601_224dbe7bd715.jpg
+DELETE [C_expired] mall=新港城中心 MOSTown store=屈臣氏 unit=2E34 key=mostown_2-80bd233f8f64_2e34_224dbe7bd715
+  removed image frontend\images\stores\mostown_2-80bd233f8f64_2e34_224dbe7bd715.jpg
+DELETE [C_expired] mall=新港城中心 MOSTown store=UNIQLO unit=3025-29 key=mostown_3-674eeb7dcb29_3025-29_uniqlo
+  removed image frontend\images\stores\mostown_3-674eeb7dcb29_3025-29_uniqlo.jpg
+DELETE [C_expired] mall=新港城中心 MOSTown store=萬寧 unit=2108 key=mostown_2-80bd233f8f64_2108_78f07e619fd2
+  removed image frontend\images\stores\mostown_2-80bd233f8f64_2108_78f07e619fd2.jpg
+DELETE [C_expired] mall=沙田中心 store=屈臣氏 unit=52A,52B1 key=c8f48ea02b7b_l3_52a-52b1_224dbe7bd715
+  removed image frontend\images\stores\c8f48ea02b7b_l3_52a-52b1_224dbe7bd715.jpg
+DELETE [C_expired] mall=ELEMENTS 圓方 store=豐澤 unit=1050B key=elements_l1_1050b_7abd8d50275a
+  removed image frontend\images\stores\elements_l1_1050b_7abd8d50275a.jpg
+DELETE [C_expired] mall=ELEMENTS 圓方 store=星巴克 unit=2100B key=elements_l2_2100b_3f14e3553fa3
+  removed image frontend\images\stores\elements_l2_2100b_3f14e3553fa3.jpg
+DELETE [C_expired] mall=K11 MUSEA store=星巴克 unit=B107A key=k11-musea_b1_b107a_3f14e3553fa3
+  removed image frontend\images\stores\k11-musea_b1_b107a_3f14e3553fa3.jpg
+DELETE [C_expired] mall=K11 MUSEA store=萬寧 unit=B201-01B key=k11-musea_b2_b201-01b_78f07e619fd2
+  removed image frontend\images\stores\k11-musea_b2_b201-01b_78f07e619fd2.jpg
+DELETE [C_expired] mall=K11購物藝術館 store=萬寧 unit=B109-B110 key=k11_1-88011728c800_b109-b110_78f07e619fd2
+  removed image frontend\images\stores\k11_1-88011728c800_b109-b110_78f07e619fd2.jpg
+DELETE [C_expired] mall=THE ONE store=AEON unit=G1 key=the-one_lg1-lg2_g1_aeon
+  removed image frontend\images\stores\the-one_lg1-lg2_g1_aeon.jpg
+DELETE [C_expired] mall=THE ONE store=AEON SUPERMARKET unit=LG1-LG2 key=the-one_lg1-lg2_lg1-lg2_aeon-supermarket
+  removed image frontend\images\stores\the-one_lg1-lg2_lg1-lg2_aeon-supermarket.jpg
+DELETE [C_expired] mall=奧海城 store=大家樂 unit=UG26&35 key=fc01b5097b39_1-ug-f_ug26-35_deacc8b6ef57
+  removed image frontend\images\stores\fc01b5097b39_1-ug-f_ug26-35_deacc8b6ef57.jpg
+DELETE [C_expired] mall=奧海城 store=豐澤 unit=UG05B key=fc01b5097b39_2-ug-f_ug05b_7abd8d50275a
+  removed image frontend\images\stores\fc01b5097b39_2-ug-f_ug05b_7abd8d50275a.jpg
+DELETE [C_expired] mall=奧海城 store=元氣壽司 unit=107 key=fc01b5097b39_2-1-f_107_fefa9a7e0cf5
+  removed image frontend\images\stores\fc01b5097b39_2-1-f_107_fefa9a7e0cf5.jpg
+DELETE [C_expired] mall=奧海城 store=GU unit=G11-15 key=fc01b5097b39_2-g-f_g11-15_gu
+  removed image frontend\images\stores\fc01b5097b39_2-g-f_g11-15_gu.jpg
+DELETE [C_expired] mall=奧海城 store=鴻福堂 unit=UG101 key=fc01b5097b39_3-ug-f_ug101_d4cc158297f9
+  removed image frontend\images\stores\fc01b5097b39_3-ug-f_ug101_d4cc158297f9.jpg
+DELETE [C_expired] mall=奧海城 store=JHC unit=UG12 key=fc01b5097b39_1-ug-f_ug12_jhc
+  removed image frontend\images\stores\fc01b5097b39_1-ug-f_ug12_jhc.jpg
+DELETE [C_expired] mall=奧海城 store=KFC unit=G38-39 key=fc01b5097b39_2-g-f_g38-39_kfc
+  removed image frontend\images\stores\fc01b5097b39_2-g-f_g38-39_kfc.jpg
+DELETE [C_expired] mall=奧海城 store=美心西餅 unit=UG70 key=fc01b5097b39_3-ug-f_ug70_dfca32d0b41f
+  removed image frontend\images\stores\fc01b5097b39_3-ug-f_ug70_dfca32d0b41f.jpg
+DELETE [C_expired] mall=奧海城 store=麥當勞 unit=G40-42 key=fc01b5097b39_2-g-f_g40-42_4b0df4d80ba9
+  removed image frontend\images\stores\fc01b5097b39_2-g-f_g40-42_4b0df4d80ba9.jpg
+DELETE [C_expired] mall=奧海城 store=屈臣氏 unit=108 key=fc01b5097b39_2-1-f_108_224dbe7bd715
+  removed image frontend\images\stores\fc01b5097b39_2-1-f_108_224dbe7bd715.jpg
+DELETE [C_expired] mall=奧海城 store=Café & Meal MUJI unit=G K01-10 key=fc01b5097b39_2-g-f_g-k01-10_caf-meal-muji
+  removed image frontend\images\stores\fc01b5097b39_2-g-f_g-k01-10_caf-meal-muji.jpg
+DELETE [C_expired] mall=奧海城 store=無印良品 unit=G78,K01-03,K05-10 key=fc01b5097b39_2-g-f_g78-k01-03-k05-10_a1262dcd9063
+  removed image frontend\images\stores\fc01b5097b39_2-g-f_g78-k01-03-k05-10_a1262dcd9063.jpg
+DELETE [C_expired] mall=奧海城 store=OK便利店 unit=UG02 key=fc01b5097b39_3-ug-f_ug02_ok
+  removed image frontend\images\stores\fc01b5097b39_3-ug-f_ug02_ok.jpg
+DELETE [C_expired] mall=奧海城 store=聖安娜 unit=UGK03 key=fc01b5097b39_1-ug-f_ugk03_044d36a14c06
+  removed image frontend\images\stores\fc01b5097b39_1-ug-f_ugk03_044d36a14c06.jpg
+DELETE [C_expired] mall=奧海城 store=譚仔三哥米線 unit=G71A-B key=fc01b5097b39_2-g-f_g71a-b_0f16bf23cf90
+  removed image frontend\images\stores\fc01b5097b39_2-g-f_g71a-b_0f16bf23cf90.jpg
+DELETE [C_expired] mall=奧海城 store=莎莎 unit=UG11 key=fc01b5097b39_2-ug-f_ug11_709860cf0372
+  removed image frontend\images\stores\fc01b5097b39_2-ug-f_ug11_709860cf0372.jpg
+DELETE [C_expired] mall=奧海城 store=星巴克 unit=UG37 key=fc01b5097b39_2-ug-f_ug37_3f14e3553fa3
+  removed image frontend\images\stores\fc01b5097b39_2-ug-f_ug37_3f14e3553fa3.jpg
+DELETE [C_expired] mall=奧海城 store=UNIQLO unit=UG40-45 key=fc01b5097b39_2-ug-f_ug40-45_uniqlo
+  removed image frontend\images\stores\fc01b5097b39_2-ug-f_ug40-45_uniqlo.jpg
+DELETE [C_expired] mall=奧海城 store=吉野家 unit=UG32-33 key=fc01b5097b39_1-ug-f_ug32-33_b8056010bb12
+  removed image frontend\images\stores\fc01b5097b39_1-ug-f_ug32-33_b8056010bb12.jpg
+DELETE [C_expired] mall=奧海城 store=萬寧 unit=142-143 key=fc01b5097b39_2-1-f_142-143_78f07e619fd2
+  removed image frontend\images\stores\fc01b5097b39_2-1-f_142-143_78f07e619fd2.jpg
+DELETE [C_expired] mall=奧海城 store=Market Place unit=G01 & 10 key=fc01b5097b39_2-g-f_g01-10_market-place
+  removed image frontend\images\stores\fc01b5097b39_2-g-f_g01-10_market-place.jpg
+DELETE [C_expired] mall=奧海城 store=7-Eleven unit=UG02 key=fc01b5097b39_1-ug-f_ug02_7-eleven
+  removed image frontend\images\stores\fc01b5097b39_1-ug-f_ug02_7-eleven.jpg
+DELETE [C_expired] mall=朗豪坊 store=無印良品 unit=08-12 key=e7e381980395_7-98528c4e0f5d_08-12_a1262dcd9063
+  removed image frontend\images\stores\e7e381980395_7-98528c4e0f5d_08-12_a1262dcd9063.jpg
+DELETE [C_expired] mall=海港城 store=屈臣氏 unit=3302 key=f74040b0a21e_3-674eeb7dcb29_3302_224dbe7bd715
+  removed image frontend\images\stores\f74040b0a21e_3-674eeb7dcb29_3302_224dbe7bd715.jpg
+DELETE [C_expired] mall=海港城 store=UNIQLO unit=3231-3232 key=f74040b0a21e_3-4cea4c252aa1_3231-3232_uniqlo
+  removed image frontend\images\stores\f74040b0a21e_3-4cea4c252aa1_3231-3232_uniqlo.jpg
+DELETE [C_expired] mall=V Walk store=UNIQLO unit=35-36 key=v-walk_2-80bd233f8f64_35-36_uniqlo
+  removed image frontend\images\stores\v-walk_2-80bd233f8f64_35-36_uniqlo.jpg
+DELETE [C_expired] mall=昇悅商場 store=萬寧 unit=130,132 key=eb01ea6122c8_1-d60d7527eb36_130-132_78f07e619fd2
+  removed image frontend\images\stores\eb01ea6122c8_1-d60d7527eb36_130-132_78f07e619fd2.jpg
+DELETE [C_expired] mall=碧海藍天商場 store=AEON unit=G-2 key=1ff066a7837f_2-ba5ded05dd6d_g-2_aeon
+  removed image frontend\images\stores\1ff066a7837f_2-ba5ded05dd6d_g-2_aeon.jpg
+DELETE [C_expired] mall=西九龍中心 store=屈臣氏 unit=205-206 key=1f40efdd479f_2-80bd233f8f64_205-206_224dbe7bd715
+  removed image frontend\images\stores\1f40efdd479f_2-80bd233f8f64_205-206_224dbe7bd715.jpg
+DELETE [C_expired] mall=西九龍中心 store=萬寧 unit=501B key=1f40efdd479f_5-487b4bd8ac92_501b_78f07e619fd2
+  removed image frontend\images\stores\1f40efdd479f_5-487b4bd8ac92_501b_78f07e619fd2.jpg
+DELETE [C_expired] mall=Hysan Place store=譚仔三哥米線 unit=1109 key=hysan-place_11_1109_0f16bf23cf90
+  removed image frontend\images\stores\hysan-place_11_1109_0f16bf23cf90.jpg
+DELETE [C_expired] mall=合和中心 store=屈臣氏 unit=301-306 key=b37ffac8fd01_3-674eeb7dcb29_301-306_224dbe7bd715
+  removed image frontend\images\stores\b37ffac8fd01_3-674eeb7dcb29_301-306_224dbe7bd715.jpg
+DELETE [C_expired] mall=合和商場 store=星巴克 unit=317-319 key=90f73a6406b2_3-674eeb7dcb29_317-319_3f14e3553fa3
+  removed image frontend\images\stores\90f73a6406b2_3-674eeb7dcb29_317-319_3f14e3553fa3.jpg
+DELETE [C_expired] mall=時代廣場 store=屈臣氏 unit=927-928 key=76ab5fd7fab3_9-137578443041_927-928_224dbe7bd715
+  removed image frontend\images\stores\76ab5fd7fab3_9-137578443041_927-928_224dbe7bd715.jpg
+DELETE [C_expired] mall=時代廣場 store=屈臣氏 unit=928 key=76ab5fd7fab3_9-137578443041_928_224dbe7bd715
+  removed image frontend\images\stores\76ab5fd7fab3_9-137578443041_928_224dbe7bd715.jpg
+DELETE [C_expired] mall=皇室堡 store=無印良品 unit=B1 key=eac14406db69_470875e15a04_b1_a1262dcd9063
+  removed image frontend\images\stores\eac14406db69_470875e15a04_b1_a1262dcd9063.jpg
+DELETE [C_expired] mall=D·PARK 愉景新城 store=屈臣氏 unit=1014-1015 key=d-park_1-d60d7527eb36_1014-1015_224dbe7bd715
+  removed image frontend\images\stores\d-park_1-d60d7527eb36_1014-1015_224dbe7bd715.jpg
+DELETE [C_expired] mall=D·PARK 愉景新城 store=萬寧 unit=2050 key=d-park_2-80bd233f8f64_2050_78f07e619fd2
+  removed image frontend\images\stores\d-park_2-80bd233f8f64_2050_78f07e619fd2.jpg
+DELETE [C_expired] mall=OP Mall 海之戀商場 store=大快活 unit=3001,3006 key=op-mall_3-674eeb7dcb29_3001-3006_1060d10203ca
+  removed image frontend\images\stores\op-mall_3-674eeb7dcb29_3001-3006_1060d10203ca.jpg
+DELETE [C_expired] mall=OP Mall 海之戀商場 store=星巴克 unit=G17 key=op-mall_a61125c6f649_g17_3f14e3553fa3
+  removed image frontend\images\stores\op-mall_a61125c6f649_g17_3f14e3553fa3.jpg
+DELETE [C_expired] mall=綠楊坊 store=萬寧 unit=P11A-P11B key=b91ee8c213e5_4981287fe504_p11a-p11b_78f07e619fd2
+  removed image frontend\images\stores\b91ee8c213e5_4981287fe504_p11a-p11b_78f07e619fd2.jpg
+DELETE [C_expired] mall=荃新天地 store=A-1 Bakery unit="link":"https:\/\/www.citywalk.com.hk\/tc\/Dining\/442"}} key=d168f1b9c51a_2-shopid-2-name-en-7_link-https-www-cityw_a-1-bakery
+  removed image frontend\images\stores\d168f1b9c51a_2-shopid-2-name-en-7_link-https-www-cityw_a-1-bakery.jpg
+DELETE [C_expired] mall=荃新天地 store=Colourmix unit=G81a-b key=d168f1b9c51a_393472644de2_g81a-b_colourmix
+  removed image frontend\images\stores\d168f1b9c51a_393472644de2_g81a-b_colourmix.jpg
+DELETE [C_expired] mall=荃新天地 store=鴻福堂 unit=G42 key=d168f1b9c51a_393472644de2_g42_d4cc158297f9
+  removed image frontend\images\stores\d168f1b9c51a_393472644de2_g42_d4cc158297f9.jpg
+DELETE [C_expired] mall=荃新天地 store=奇華餅家 unit=G43 key=d168f1b9c51a_393472644de2_g43_73f3c8de6fdc
+  removed image frontend\images\stores\d168f1b9c51a_393472644de2_g43_73f3c8de6fdc.jpg
+DELETE [C_expired] mall=荃新天地 store=KFC unit=28-31 key=d168f1b9c51a_2-0c6319265960_28-31_kfc
+  removed image frontend\images\stores\d168f1b9c51a_2-0c6319265960_28-31_kfc.jpg
+DELETE [C_expired] mall=荃新天地 store=美心西餅 unit=G11-12 key=d168f1b9c51a_393472644de2_g11-12_dfca32d0b41f
+  removed image frontend\images\stores\d168f1b9c51a_393472644de2_g11-12_dfca32d0b41f.jpg
+DELETE [C_expired] mall=荃新天地 store=屈臣氏 unit=(Citywalk2 key=d168f1b9c51a_g-f_citywalk2_224dbe7bd715
+  removed image frontend\images\stores\d168f1b9c51a_g-f_citywalk2_224dbe7bd715.jpg
+DELETE [C_expired] mall=荃新天地 store=必勝客 unit=UG01-UG03 key=d168f1b9c51a_2-3c2a4e309aa9_ug01-ug03_ea7ba993afef
+  removed image frontend\images\stores\d168f1b9c51a_2-3c2a4e309aa9_ug01-ug03_ea7ba993afef.jpg
+DELETE [C_expired] mall=荃新天地 store=譚仔三哥米線 unit=61-63&65 key=d168f1b9c51a_2-0c6319265960_61-63-65_0f16bf23cf90
+  removed image frontend\images\stores\d168f1b9c51a_2-0c6319265960_61-63-65_0f16bf23cf90.jpg
+DELETE [C_expired] mall=荃新天地 store=UNIQLO unit="link":"https:\/\/www.citywalk.com.hk\/tc\/Dining\/442"}} key=d168f1b9c51a_2-shopid-2-name-en-7_link-https-www-cityw_uniqlo
+  removed image frontend\images\stores\d168f1b9c51a_2-shopid-2-name-en-7_link-https-www-cityw_uniqlo.jpg
+DELETE [C_expired] mall=荃新天地 store=萬寧 unit=(Citywalk2 key=d168f1b9c51a_ug-f_citywalk2_78f07e619fd2
+  removed image frontend\images\stores\d168f1b9c51a_ug-f_citywalk2_78f07e619fd2.jpg
+DELETE [C_expired] mall=荃新天地 store=7-Eleven unit=G01 key=d168f1b9c51a_2-0c6319265960_g01_7-eleven
+  removed image frontend\images\stores\d168f1b9c51a_2-0c6319265960_g01_7-eleven.jpg
+DELETE [C_expired] mall=荃灣廣場 store=屈臣氏 unit=B117-118 key=e343b4e737c1_470875e15a04_b117-118_224dbe7bd715
+  removed image frontend\images\stores\e343b4e737c1_470875e15a04_b117-118_224dbe7bd715.jpg
+DELETE [C_expired] mall=荃灣廣場 store=一田 unit=4 key=e343b4e737c1_4-17e57ce99006_4-a87ff679a2f3_75320e11b2fe
+  removed image frontend\images\stores\e343b4e737c1_4-17e57ce99006_4-a87ff679a2f3_75320e11b2fe.jpg
+DELETE [C_expired] mall=新都會廣場 store=無印良品 unit=346-347 key=11b73af77990_3-674eeb7dcb29_346-347_a1262dcd9063
+  removed image frontend\images\stores\11b73af77990_3-674eeb7dcb29_346-347_a1262dcd9063.jpg
+DELETE [C_expired] mall=新都會廣場 store=UNIQLO unit=336 key=11b73af77990_3-674eeb7dcb29_336_uniqlo
+  removed image frontend\images\stores\11b73af77990_3-674eeb7dcb29_336_uniqlo.jpg
+DELETE [C_expired] mall=新都會廣場 store=一田 unit=223 key=11b73af77990_l4_223_75320e11b2fe
+  removed image frontend\images\stores\11b73af77990_l4_223_75320e11b2fe.jpg
+DELETE [C_expired] mall=葵涌廣場 store=大家樂 unit=B13-B18 key=77a8b04cdb7d_1-d60d7527eb36_b13-b18_deacc8b6ef57
+  removed image frontend\images\stores\77a8b04cdb7d_1-d60d7527eb36_b13-b18_deacc8b6ef57.jpg
+DELETE [C_expired] mall=葵涌廣場 store=譚仔三哥米線 unit=93 key=77a8b04cdb7d_1-d60d7527eb36_93_0f16bf23cf90
+  removed image frontend\images\stores\77a8b04cdb7d_1-d60d7527eb36_93_0f16bf23cf90.jpg
+DELETE [C_expired] mall=青衣城 store=AEON Mono Mono unit=G34-35 key=4a71829965d8_g3_g34-35_aeon-mono-mono
+  removed image frontend\images\stores\4a71829965d8_g3_g34-35_aeon-mono-mono.jpg
+DELETE [C_expired] mall=青衣城 store=豐澤 unit=305-307A key=4a71829965d8_3-674eeb7dcb29_305-307a_7abd8d50275a
+  removed image frontend\images\stores\4a71829965d8_3-674eeb7dcb29_305-307a_7abd8d50275a.jpg
+DELETE [C_expired] mall=青衣城 store=UNIQLO unit=108C key=4a71829965d8_1-d60d7527eb36_108c_uniqlo
+  removed image frontend\images\stores\4a71829965d8_1-d60d7527eb36_108c_uniqlo.jpg
+DELETE [C_expired] mall=PopCorn store=UNIQLO unit=F99-102 key=popcorn_popcorn-2-1_f99-102_uniqlo
+  removed image frontend\images\stores\popcorn_popcorn-2-1_f99-102_uniqlo.jpg
+DELETE [C_expired] mall=將軍澳中心 Park Central store=萬寧 unit=G33 key=park-central_a61125c6f649_g33_78f07e619fd2
+  removed image frontend\images\stores\park-central_a61125c6f649_g33_78f07e619fd2.jpg
+DELETE [C_expired] mall=新都城中心 store=屈臣氏 unit=G26-27 key=f55a185f622f_a61125c6f649_g26-27_224dbe7bd715
+  removed image frontend\images\stores\f55a185f622f_a61125c6f649_g26-27_224dbe7bd715.jpg
+DELETE [C_expired] mall=新都城中心 store=無印良品 unit=1050-53 key=f55a185f622f_1-d60d7527eb36_1050-53_a1262dcd9063
+  removed image frontend\images\stores\f55a185f622f_1-d60d7527eb36_1050-53_a1262dcd9063.jpg
+DELETE [C_expired] mall=新都城中心 store=UNIQLO unit=1055-1062 key=f55a185f622f_1-d60d7527eb36_1055-1062_uniqlo
+  removed image frontend\images\stores\f55a185f622f_1-d60d7527eb36_1055-1062_uniqlo.jpg
+DELETE [C_expired] mall=東港城 store=屈臣氏 unit=226 key=4494235ccd41_2-80bd233f8f64_226_224dbe7bd715
+  removed image frontend\images\stores\4494235ccd41_2-80bd233f8f64_226_224dbe7bd715.jpg
+DELETE [C_expired] mall=東港城 store=一田 unit=8 key=4494235ccd41_2-80bd233f8f64_8-c9f0f895fb98_75320e11b2fe
+  removed image frontend\images\stores\4494235ccd41_2-80bd233f8f64_8-c9f0f895fb98_75320e11b2fe.jpg
+DELETE [C_expired] mall=MegaBox store=AEON unit=1-46 key=megabox_1-2_1-46_aeon
+  removed image frontend\images\stores\megabox_1-2_1-46_aeon.jpg
+DELETE [C_expired] mall=apm store=無印良品 unit=1a-1c key=apm_l1_1a-1c_a1262dcd9063
+  removed image frontend\images\stores\apm_l1_1a-1c_a1262dcd9063.jpg
+DELETE [C_expired] mall=apm store=星巴克 unit=L2-15 key=apm_l2_l2-15_3f14e3553fa3
+  removed image frontend\images\stores\apm_l2_l2-15_3f14e3553fa3.jpg
+DELETE [C_expired] mall=apm store=一田 unit=418 key=apm_9c3433bc43ff_418_75320e11b2fe
+  removed image frontend\images\stores\apm_9c3433bc43ff_418_75320e11b2fe.jpg
+DELETE [C_expired] mall=德福廣場 store=百老匯 unit=G22 key=52a7398edfec_g-f_g22_14f1643dab26
+  removed image frontend\images\stores\52a7398edfec_g-f_g22_14f1643dab26.jpg
+DELETE [C_expired] mall=德福廣場 store=屈臣氏 unit=G52 key=52a7398edfec_a61125c6f649_g52_224dbe7bd715
+  removed image frontend\images\stores\52a7398edfec_a61125c6f649_g52_224dbe7bd715.jpg
+DELETE [C_expired] mall=德福廣場 store=無印良品 unit=401-402,431 key=52a7398edfec_4-c0f9026b25a5_401-402-431_a1262dcd9063
+  removed image frontend\images\stores\52a7398edfec_4-c0f9026b25a5_401-402-431_a1262dcd9063.jpg
+DELETE [C_expired] mall=愉景灣北商場 DB North Plaza store=Market Place unit=G11 key=db-north-plaza_a61125c6f649_g11_market-place
+  removed image frontend\images\stores\db-north-plaza_a61125c6f649_g11_market-place.jpg
+DELETE [C_expired] mall=愉景灣北商場 DB North Plaza store=7-Eleven unit=LG21 key=db-north-plaza_lg_lg21_7-eleven
+  removed image frontend\images\stores\db-north-plaza_lg_lg21_7-eleven.jpg
+DELETE [C_expired] mall=愉景灣廣場 DB Plaza store=屈臣氏 unit=135 key=db-plaza_1-d60d7527eb36_135_224dbe7bd715
+  removed image frontend\images\stores\db-plaza_1-d60d7527eb36_135_224dbe7bd715.jpg
+DELETE [C_expired] mall=東薈城名店倉 store=UNIQLO unit=117 key=4e5e2e74bcbe_1-d60d7527eb36_117_uniqlo
+  removed image frontend\images\stores\4e5e2e74bcbe_1-d60d7527eb36_117_uniqlo.jpg
+DELETE [C_expired] mall=荷里活廣場 store=Living PLAZA by AEON unit=166 key=ae641d52fac1_1-d60d7527eb36_166_living-plaza-by-aeon
+  removed image frontend\images\stores\ae641d52fac1_1-d60d7527eb36_166_living-plaza-by-aeon.jpg
+DELETE [C_expired] mall=荷里活廣場 store=屈臣氏 unit=228 key=ae641d52fac1_2-80bd233f8f64_228_224dbe7bd715
+  removed image frontend\images\stores\ae641d52fac1_2-80bd233f8f64_228_224dbe7bd715.jpg
+DELETE [C_expired] mall=荷里活廣場 store=無印良品 unit=125-127 key=ae641d52fac1_1-d60d7527eb36_125-127_a1262dcd9063
+  removed image frontend\images\stores\ae641d52fac1_1-d60d7527eb36_125-127_a1262dcd9063.jpg
+DELETE [C_expired] mall=荷里活廣場 store=UNIQLO unit=G101 key=ae641d52fac1_a61125c6f649_g101_uniqlo
+  removed image frontend\images\stores\ae641d52fac1_a61125c6f649_g101_uniqlo.jpg
+DELETE [C_expired] mall=黃大仙中心 store=屈臣氏 unit=LG2 key=8f9470c5a23d_lg_lg2_224dbe7bd715
+  removed image frontend\images\stores\8f9470c5a23d_lg_lg2_224dbe7bd715.jpg
+DELETE [C_expired] mall=黃大仙中心 store=萬寧 unit=UG23 key=8f9470c5a23d_ug_ug23_78f07e619fd2
+  removed image frontend\images\stores\8f9470c5a23d_ug_ug23_78f07e619fd2.jpg
+
+[2026-08-16 23:18:03+0800] daily_store_auditor
+DELETE [A_relocated] mall=中環街市 store=審計測試已搬離店 unit=g04-g09 key=95f8bbc69aa6_test_relocated_ghost
+  removed image frontend\images\stores\95f8bbc69aa6_test_relocated_ghost.jpg
+
+[2026-08-16 23:27:53+0800] daily_store_auditor
+DELETE [B_closed] mall=中環街市 store=Chef's Market unit=G04-G09 key=95f8bbc69aa6_g04-g09_66871703
+DELETE [B_closed] mall=中環街市 store=必勝客 unit=G20-G21 key=95f8bbc69aa6_g20-g21_61619882
+  removed image frontend\images\stores\95f8bbc69aa6_g20-g21_61619882.jpg
+DELETE [B_closed] mall=中環街市 store=亞答屋 unit=G17 key=95f8bbc69aa6_g17_53394099
+DELETE [A_relocated] mall=中環街市 store=審計測試已搬離店 unit=g12 key=95f8bbc69aa6_test_relocated_ghost
+  removed image frontend\images\stores\95f8bbc69aa6_test_relocated_ghost.jpg
+DELETE [B_closed] mall=信德中心 store=萬寧 unit=223 key=864ed6237a0b_223_28586672
+DELETE [A_relocated] mall=國際金融中心商場 store=city'super unit=1041-1049 key=55c893c2557d_1041-1049_27363866
+  removed image frontend\images\stores\55c893c2557d_1041-1049_27363866.jpg
+DELETE [B_closed] mall=國際金融中心商場 store=屈臣氏 unit=3015 key=55c893c2557d_3015_26705619
+DELETE [B_closed] mall=國際金融中心商場 store=萬寧 unit=2004 key=55c893c2557d_2004_25239672
+DELETE [B_closed] mall=太古廣場 store=屈臣氏 unit=145 key=3432ba4e7cee_145_25232885
+DELETE [B_closed] mall=太古廣場 store=無印良品 unit=100 key=3432ba4e7cee_100_39738370
+DELETE [B_closed] mall=太古廣場 store=星巴克 unit=128-129 key=3432ba4e7cee_128-129_28029822
+DELETE [B_closed] mall=置地廣場 store=星巴克 unit=305-306 key=fc1ca715373e_305-306_35967836
+DELETE [B_closed] mall=AIRSIDE store=無印良品 unit=408-410 key=airside_408-410_39713158
+DELETE [B_closed] mall=又一城 store=無印良品 unit=LG1-30 key=18f74826e08d_lg1-30_39713208
+DELETE [B_closed] mall=又一城 store=星巴克 unit=UG-20A key=18f74826e08d_ug-20a_22658589
+DELETE [B_closed] mall=又一城 store=UNIQLO unit=L1-01 key=18f74826e08d_l1-01_22658586
+DELETE [B_closed] mall=樂富廣場 store=聖安娜 unit=2118 key=2c55a9365efd_2118_23045170
+DELETE [B_closed] mall=樂富廣場 store=UNIQLO unit=1151-1156 key=2c55a9365efd_1151-1156_23373837
+DELETE [B_closed] mall=樂富廣場 store=太興 unit=L228-L230 key=2c55a9365efd_l228-l230_23389381
+DELETE [B_closed] mall=樂富廣場 store=聖安娜餅屋 unit=2118 key=2c55a9365efd_2118_23045170
+DELETE [B_closed] mall=樂富廣場 store=典雅髮廊 unit=2128 key=2c55a9365efd_2128_23382931
+DELETE [B_closed] mall=黃埔天地 store=目廊專業驗眼中心 unit=B64 key=2c39d39b5018_b64_23659636
+DELETE [B_closed] mall=黃埔天地 store=Bread n Butter unit=G34 key=2c39d39b5018_g34_23567603
+DELETE [B_closed] mall=黃埔天地 store=香港仔南記粉麵 unit=G7F key=2c39d39b5018_g7f_23568796
+DELETE [B_closed] mall=黃埔天地 store=Skechers unit=G8 key=2c39d39b5018_g8_26902980
+DELETE [B_closed] mall=黃埔天地 store=Viva Circus unit=G17 key=2c39d39b5018_g17_23303780
+DELETE [B_closed] mall=黃埔天地 store=Syster unit=G28C key=2c39d39b5018_g28c_23331373
+DELETE [B_closed] mall=黃埔天地 store=Dr. Kong 健康鞋專門店 unit=B8 key=2c39d39b5018_b8_23568902
+DELETE [A_relocated] mall=黃埔天地 store=思敏英語學習中心 unit=G29 key=2c39d39b5018_g29_23031011
+  removed image frontend\images\stores\2c39d39b5018_g29_23031011.jpg
+DELETE [B_closed] mall=黃埔天地 store=Honey Lash unit=地庫25 key=2c39d39b5018_25_23457698
+DELETE [B_closed] mall=黃埔天地 store=謝利英語世界教室 unit=地庫60-61 key=2c39d39b5018_60-61_23647288
+DELETE [B_closed] mall=黃埔天地 store=美國冒險樂園 unit=聚寶坊(第十一期)地庫2樓 key=2c39d39b5018_ae25b11c6c17_23623855
+DELETE [B_closed] mall=黃埔天地 store=June unit=G31 key=2c39d39b5018_g31_23626880
+DELETE [B_closed] mall=黃埔天地 store=.k.a.t.e. unit=G37 key=2c39d39b5018_g37_24309998
+DELETE [B_closed] mall=黃埔天地 store=豐澤 unit=B3 key=2c39d39b5018_b3_29542786
+DELETE [B_closed] mall=黃埔天地 store=G2000 unit=G32-33 key=2c39d39b5018_g32-33_22614048
+DELETE [B_closed] mall=黃埔天地 store=AEON STYLE unit=5-6期 key=2c39d39b5018_5-6_26276688
+DELETE [A_relocated] mall=黃埔天地 store=AEON unit=G1 key=2c39d39b5018_g1_23180103
+  removed image frontend\images\stores\2c39d39b5018_g1_23180103.jpg
+DELETE [B_closed] mall=黃埔天地 store=屈臣氏 unit=3A key=2c39d39b5018_3a_29945691
+DELETE [B_closed] mall=+WOO 嘉湖 store=屈臣氏 unit=G73A key=woo_g73a_27968003
+DELETE [B_closed] mall=T Town store=UNIQLO unit=S122-124 key=t-town_s122-124_28161468
+DELETE [B_closed] mall=T Town store=川川辣辣 unit=S201A-B key=t-town_s201a-b_26308318
+DELETE [B_closed] mall=T Town store=SKYMART unit=N113 key=t-town_n113_46116768
+DELETE [B_closed] mall=T Town store=盈健醫務中心 unit=G18 key=t-town_g18_24450282
+DELETE [B_closed] mall=T Town store=祥益地產 unit=G05-06 key=t-town_g05-06_27687001
+DELETE [B_closed] mall=元朗廣場 store=UNIQLO unit=201-220A key=2db42835b170_201-220a_27775380
+DELETE [B_closed] mall=上水中心購物商場 store=萬寧 unit=2077D-H key=ed2e2e8206d1_2077d-h_27877202
+DELETE [B_closed] mall=上水匯 spot store=屈臣氏 unit=103B,104 key=spot_103b-104_26031378
+DELETE [B_closed] mall=上水廣場 store=萬寧 unit=419-423 key=9998a5d14f22_419-423_24800034
+DELETE [B_closed] mall=上水廣場 store=Merci Cafe by Déesses unit=512 key=9998a5d14f22_512_68128980
+DELETE [A_relocated] mall=粉嶺名都商場 store=萬寧 unit=5 key=1b1346b34f03_e4da3b7fbbce_29475278
+  removed image frontend\images\stores\1b1346b34f03_e4da3b7fbbce_29475278.jpg
+DELETE [B_closed] mall=粉嶺名都商場 store=豐澤 unit=28C-28D key=1b1346b34f03_28c-28d_26750656
+DELETE [B_closed] mall=黃大仙中心 store=屈臣氏 unit=LG2 key=8f9470c5a23d_lg2_23203251
+DELETE [B_closed] mall=黃大仙中心 store=萬寧 unit=UG23 key=8f9470c5a23d_ug23_23501453
+DELETE [B_closed] mall=黃大仙中心 store=賞茶 unit=G04C key=8f9470c5a23d_g04c_35869840
+DELETE [B_closed] mall=黃大仙中心 store=MOS CAFE unit=G46 key=8f9470c5a23d_g46_28953710
+DELETE [B_closed] mall=黃大仙中心 store=屈臣氏 unit=N221 key=8f9470c5a23d_n221_22743109
+DELETE [B_closed] mall=黃大仙中心 store=金僑中西藥行 unit=123C key=8f9470c5a23d_123c_23246983
+
+[2026-08-16 23:28:17+0800] daily_store_auditor
+DELETE [B_closed] mall=中環街市 store=必勝客 unit=G20-G21 key=95f8bbc69aa6_g20-g21_61619882
+  removed image frontend\images\stores\95f8bbc69aa6_g20-g21_61619882.jpg
+DELETE [A_relocated] mall=中環街市 store=審計測試已搬離店 unit=g12 key=95f8bbc69aa6_test_relocated_ghost
+  removed image frontend\images\stores\95f8bbc69aa6_test_relocated_ghost.jpg
+DELETE [A_relocated] mall=國際金融中心商場 store=city'super unit=1041-1049 key=55c893c2557d_1041-1049_27363866
+  removed image frontend\images\stores\55c893c2557d_1041-1049_27363866.jpg
+DELETE [A_relocated] mall=黃埔天地 store=思敏英語學習中心 unit=G29 key=2c39d39b5018_g29_23031011
+  removed image frontend\images\stores\2c39d39b5018_g29_23031011.jpg
+DELETE [A_relocated] mall=黃埔天地 store=AEON unit=G1 key=2c39d39b5018_g1_23180103
+  removed image frontend\images\stores\2c39d39b5018_g1_23180103.jpg
+DELETE [A_relocated] mall=粉嶺名都商場 store=萬寧 unit=5 key=1b1346b34f03_e4da3b7fbbce_29475278
+  removed image frontend\images\stores\1b1346b34f03_e4da3b7fbbce_29475278.jpg
+

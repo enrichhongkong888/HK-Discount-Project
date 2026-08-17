@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-08-16T15:17:35Z",
+  "count": 1,
+  "stores": [
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "McCafe",
+      "floor": "地下",
+      "shop_number": "G03",
+      "phone": "2813 0655",
+      "source_url": "https://s.openrice.com/QrbS0Tgy0W0",
+      "branch_id": "mccafe_1eadbf5137ab_g03",
+      "image_url": "",
+      "store_image_url": "",
+      "facade_image_url": "",
+      "status": "pending_update",
+      "reasons": [
+        "store_name_changed"
+      ],
+      "previous_store_name": "麥當勞",
+      "previous_shop_number": null,
+      "checked_at": "2026-08-16T15:17:35Z"
+    }
+  ],
+  "note": "pending_update stores should be covered by the next daily scrape/expand cycle"
+}

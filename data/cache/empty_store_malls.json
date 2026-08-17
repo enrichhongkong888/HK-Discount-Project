@@ -1,0 +1,450 @@
+{
+  "empty": [
+    {
+      "district": "中西區",
+      "mall_name": "中環街市",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "中西區",
+      "mall_name": "信德中心",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "中西區",
+      "mall_name": "國際金融中心商場",
+      "stores": 0,
+      "mall_offers": 3
+    },
+    {
+      "district": "中西區",
+      "mall_name": "置地廣場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "元朗區",
+      "mall_name": "+WOO 嘉湖",
+      "stores": 0,
+      "mall_offers": 2
+    },
+    {
+      "district": "元朗區",
+      "mall_name": "T Town",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "元朗區",
+      "mall_name": "元朗廣場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "北區",
+      "mall_name": "上水中心購物商場",
+      "stores": 0,
+      "mall_offers": 2
+    },
+    {
+      "district": "北區",
+      "mall_name": "上水匯 spot",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "北區",
+      "mall_name": "上水廣場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "北區",
+      "mall_name": "粉嶺名都商場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "南區",
+      "mall_name": "THE SOUTHSIDE",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "南區",
+      "mall_name": "數碼港商場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "南區",
+      "mall_name": "海怡廣場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "南區",
+      "mall_name": "赤柱廣場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "南區",
+      "mall_name": "香港仔中心商場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "大埔區",
+      "mall_name": "大埔廣場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "屯門區",
+      "mall_name": "屯門時代廣場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "屯門區",
+      "mall_name": "錦薈坊",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "東區",
+      "mall_name": "杏花新城",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "沙田區",
+      "mall_name": "新港城中心 MOSTown",
+      "stores": 0,
+      "mall_offers": 2
+    },
+    {
+      "district": "沙田區",
+      "mall_name": "沙田中心",
+      "stores": 0,
+      "mall_offers": 2
+    },
+    {
+      "district": "油尖旺區",
+      "mall_name": "ELEMENTS 圓方",
+      "stores": 0,
+      "mall_offers": 3
+    },
+    {
+      "district": "油尖旺區",
+      "mall_name": "K11 MUSEA",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "油尖旺區",
+      "mall_name": "K11購物藝術館",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "深水埗區",
+      "mall_name": "V Walk",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "深水埗區",
+      "mall_name": "昇悅商場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "深水埗區",
+      "mall_name": "碧海藍天商場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "深水埗區",
+      "mall_name": "西九龍中心",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "灣仔區",
+      "mall_name": "利東街",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "灣仔區",
+      "mall_name": "合和中心",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "灣仔區",
+      "mall_name": "合和商場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "灣仔區",
+      "mall_name": "時代廣場",
+      "stores": 0,
+      "mall_offers": 2
+    },
+    {
+      "district": "荃灣區",
+      "mall_name": "D·PARK 愉景新城",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "荃灣區",
+      "mall_name": "OP Mall 海之戀商場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "荃灣區",
+      "mall_name": "綠楊坊",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "葵青區",
+      "mall_name": "葵涌廣場",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "西貢區",
+      "mall_name": "將軍澳中心 Park Central",
+      "stores": 0,
+      "mall_offers": 2
+    },
+    {
+      "district": "西貢區",
+      "mall_name": "新都城中心",
+      "stores": 0,
+      "mall_offers": 3
+    },
+    {
+      "district": "離島區",
+      "mall_name": "愉景灣北商場 DB North Plaza",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "離島區",
+      "mall_name": "愉景灣廣場 DB Plaza",
+      "stores": 0,
+      "mall_offers": 1
+    },
+    {
+      "district": "離島區",
+      "mall_name": "東薈城名店倉",
+      "stores": 0,
+      "mall_offers": 2
+    },
+    {
+      "district": "黃大仙區",
+      "mall_name": "黃大仙中心",
+      "stores": 0,
+      "mall_offers": 1
+    }
+  ],
+  "has": [
+    {
+      "district": "九龍城區",
+      "mall_name": "黃埔天地",
+      "stores": 46,
+      "mall_offers": 1
+    },
+    {
+      "district": "屯門區",
+      "mall_name": "屯門市廣場",
+      "stores": 24,
+      "mall_offers": 1
+    },
+    {
+      "district": "油尖旺區",
+      "mall_name": "奧海城",
+      "stores": 21,
+      "mall_offers": 1
+    },
+    {
+      "district": "元朗區",
+      "mall_name": "YOHO MALL 形點",
+      "stores": 19,
+      "mall_offers": 1
+    },
+    {
+      "district": "沙田區",
+      "mall_name": "新城市廣場",
+      "stores": 14,
+      "mall_offers": 2
+    },
+    {
+      "district": "荃灣區",
+      "mall_name": "荃新天地",
+      "stores": 12,
+      "mall_offers": 1
+    },
+    {
+      "district": "九龍城區",
+      "mall_name": "又一城",
+      "stores": 3,
+      "mall_offers": 3
+    },
+    {
+      "district": "屯門區",
+      "mall_name": "V city",
+      "stores": 3,
+      "mall_offers": 1
+    },
+    {
+      "district": "葵青區",
+      "mall_name": "新都會廣場",
+      "stores": 3,
+      "mall_offers": 1
+    },
+    {
+      "district": "葵青區",
+      "mall_name": "青衣城",
+      "stores": 3,
+      "mall_offers": 1
+    },
+    {
+      "district": "觀塘區",
+      "mall_name": "apm",
+      "stores": 3,
+      "mall_offers": 1
+    },
+    {
+      "district": "東區",
+      "mall_name": "太古城中心",
+      "stores": 2,
+      "mall_offers": 1
+    },
+    {
+      "district": "東區",
+      "mall_name": "康怡廣場",
+      "stores": 2,
+      "mall_offers": 1
+    },
+    {
+      "district": "油尖旺區",
+      "mall_name": "THE ONE",
+      "stores": 2,
+      "mall_offers": 1
+    },
+    {
+      "district": "觀塘區",
+      "mall_name": "德福廣場",
+      "stores": 2,
+      "mall_offers": 1
+    },
+    {
+      "district": "黃大仙區",
+      "mall_name": "荷里活廣場",
+      "stores": 2,
+      "mall_offers": 1
+    },
+    {
+      "district": "中西區",
+      "mall_name": "太古廣場",
+      "stores": 1,
+      "mall_offers": 2
+    },
+    {
+      "district": "九龍城區",
+      "mall_name": "AIRSIDE",
+      "stores": 1,
+      "mall_offers": 3
+    },
+    {
+      "district": "九龍城區",
+      "mall_name": "樂富廣場",
+      "stores": 1,
+      "mall_offers": 1
+    },
+    {
+      "district": "大埔區",
+      "mall_name": "大埔超級城",
+      "stores": 1,
+      "mall_offers": 1
+    },
+    {
+      "district": "東區",
+      "mall_name": "北角匯",
+      "stores": 1,
+      "mall_offers": 1
+    },
+    {
+      "district": "沙田區",
+      "mall_name": "HomeSquare",
+      "stores": 1,
+      "mall_offers": 2
+    },
+    {
+      "district": "沙田區",
+      "mall_name": "圍方 The Wai",
+      "stores": 1,
+      "mall_offers": 9
+    },
+    {
+      "district": "油尖旺區",
+      "mall_name": "朗豪坊",
+      "stores": 1,
+      "mall_offers": 1
+    },
+    {
+      "district": "油尖旺區",
+      "mall_name": "海港城",
+      "stores": 1,
+      "mall_offers": 9
+    },
+    {
+      "district": "灣仔區",
+      "mall_name": "Hysan Place",
+      "stores": 1,
+      "mall_offers": 2
+    },
+    {
+      "district": "灣仔區",
+      "mall_name": "皇室堡",
+      "stores": 1,
+      "mall_offers": 3
+    },
+    {
+      "district": "荃灣區",
+      "mall_name": "荃灣廣場",
+      "stores": 1,
+      "mall_offers": 1
+    },
+    {
+      "district": "西貢區",
+      "mall_name": "PopCorn",
+      "stores": 1,
+      "mall_offers": 7
+    },
+    {
+      "district": "西貢區",
+      "mall_name": "東港城",
+      "stores": 1,
+      "mall_offers": 1
+    },
+    {
+      "district": "觀塘區",
+      "mall_name": "MegaBox",
+      "stores": 1,
+      "mall_offers": 1
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "_comment": "Optional curated brand locator rows. Live Watsons equopausa scrape in enrich_flagship_phones.py covers HK-wide reverse matching. Only add rows with verified floor+shop+phone.",
+  "stores": []
+}

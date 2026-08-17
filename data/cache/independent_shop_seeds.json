@@ -1,0 +1,386 @@
+{
+  "seeds": [
+    {
+      "mall_name": "中環街市",
+      "district": "中西區",
+      "store_name": "Chef's Market",
+      "floor": "地下",
+      "shop_number": "G04-G09",
+      "phone": "6687 1703",
+      "source_url": "https://www.centralmarket.hk/tc/floor-directory",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "中環街市",
+      "district": "中西區",
+      "store_name": "亞答屋",
+      "floor": "地下",
+      "shop_number": "G17",
+      "phone": "5339 4099",
+      "source_url": "https://www.centralmarket.hk/tc/floor-directory",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "牛摩",
+      "floor": "5樓",
+      "shop_number": "513",
+      "phone": "3998 4630",
+      "source_url": "https://s.openrice.com/QrbS0QkuC00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "営丼",
+      "floor": "5樓",
+      "shop_number": "502B",
+      "phone": "3188 1019",
+      "source_url": "https://s.openrice.com/QrbS0VBWD00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "金鶴二代目",
+      "floor": "5樓",
+      "shop_number": "511",
+      "phone": "3619 0829",
+      "source_url": "https://s.openrice.com/QrbS0B6mD00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "泰Cow",
+      "floor": "5樓",
+      "shop_number": "505",
+      "phone": "6812 9098",
+      "source_url": "https://s.openrice.com/QrbS07w0C00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "錦麗",
+      "floor": "4/F",
+      "shop_number": "405-406",
+      "phone": "2278 0018",
+      "source_url": "https://s.openrice.com/QrbS0aI4C00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "Merci Cafe by Déesses",
+      "floor": "5樓",
+      "shop_number": "512",
+      "phone": "6812 8980",
+      "source_url": "https://s.openrice.com/QrbS0xqeC00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "一焼肉",
+      "floor": "4樓",
+      "shop_number": "428B",
+      "phone": "5970 4512",
+      "source_url": "https://s.openrice.com/QrbS0rAeB00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "亞參雞飯",
+      "floor": "5樓",
+      "shop_number": "506-508",
+      "phone": "2382 0299",
+      "source_url": "https://s.openrice.com/QrbS0dQmB00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "手作功夫茶",
+      "floor": "2樓",
+      "shop_number": "207",
+      "phone": "6760 7769",
+      "source_url": "https://s.openrice.com/QrbS0GkuA00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "皇玥",
+      "floor": "4樓",
+      "shop_number": "4-5",
+      "phone": "2217 3638",
+      "source_url": "https://s.openrice.com/QrbS0aL0B00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "ABC BAKERY",
+      "floor": "2樓",
+      "shop_number": "206",
+      "phone": "2418 1228",
+      "source_url": "https://s.openrice.com/QrbS0FnSB00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "瑞幸咖啡",
+      "floor": "2樓",
+      "shop_number": "208",
+      "phone": "5177 4013",
+      "source_url": "https://s.openrice.com/QrbS0KJCH00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "store_name": "官燕棧",
+      "floor": "4樓",
+      "shop_number": "431A",
+      "phone": "2555 8339",
+      "source_url": "https://s.openrice.com/QrbS0ygW000",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "鍾菜館",
+      "floor": "1樓",
+      "shop_number": "102",
+      "phone": "8300 8198",
+      "source_url": "https://s.openrice.com/QrbS0U9qA00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "Seed by Farmacy",
+      "floor": "2樓",
+      "shop_number": "207",
+      "phone": "6504 1467",
+      "source_url": "https://s.openrice.com/QrbS0YA0D00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "El Charro Mexican Cantina",
+      "floor": "2樓",
+      "shop_number": "208",
+      "phone": "2793 2522",
+      "source_url": "https://s.openrice.com/QrbS0KB4600",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "奧壽司",
+      "floor": "3樓",
+      "shop_number": "307",
+      "phone": "2989 6286",
+      "source_url": "https://s.openrice.com/QrbS0YZa000",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "牛田鮮",
+      "floor": "3樓",
+      "shop_number": "304",
+      "phone": "2739 1000",
+      "source_url": "https://s.openrice.com/QrbS0Ery8W0",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "Pepper Lunch Express",
+      "floor": "4樓",
+      "shop_number": "403A",
+      "phone": "2577 2311",
+      "source_url": "https://s.openrice.com/QrbS0cTy300",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "麵屋龍平",
+      "floor": "4樓",
+      "shop_number": "407",
+      "phone": "5632 9938",
+      "source_url": "https://s.openrice.com/QrbS0MfOD00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "茶星人",
+      "floor": "3樓",
+      "shop_number": "309A",
+      "phone": "6699 5257",
+      "source_url": "https://s.openrice.com/QrbS0uLuD00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "The Pit Juice",
+      "floor": "4樓",
+      "shop_number": "417",
+      "phone": "2896 1100",
+      "source_url": "https://s.openrice.com/QrbS0nV8600",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "數碼港商場",
+      "district": "南區",
+      "store_name": "1+2小廚",
+      "floor": "4樓",
+      "shop_number": "408",
+      "phone": "9443 8932",
+      "source_url": "https://s.openrice.com/QrbS0iLKD00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "鍾菜館",
+      "floor": "3樓",
+      "shop_number": "308",
+      "phone": "8300 8006",
+      "source_url": "https://s.openrice.com/QrbS0HoWC00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "Surf & Turf Grill and Bar",
+      "floor": "3樓",
+      "shop_number": "302",
+      "phone": "4679 9850",
+      "source_url": "https://s.openrice.com/QrbS05v4C00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "Beef & Liberty",
+      "floor": "地下",
+      "shop_number": "G04",
+      "phone": "2563 2085",
+      "source_url": "https://s.openrice.com/QrbS0W3i700",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "Dough Bros Pizza & Doughnuts",
+      "floor": "地下",
+      "shop_number": "G08B",
+      "phone": "2341 1185",
+      "source_url": "https://s.openrice.com/QrbS00wmB00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "杏花樓",
+      "floor": "1樓",
+      "shop_number": "102-103",
+      "phone": "2471 2349",
+      "source_url": "https://s.openrice.com/QrbS0LxqD00",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "McCafe",
+      "floor": "地下",
+      "shop_number": "G03",
+      "phone": "2813 0655",
+      "source_url": "https://s.openrice.com/QrbS0Tgy0W0",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "散水餅",
+      "floor": "4樓",
+      "shop_number": "407",
+      "phone": "6223 8996",
+      "source_url": "https://s.openrice.com/QrbS0QdW200",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "Gino's Gelato",
+      "floor": "地下",
+      "shop_number": "G09",
+      "phone": "2899 0314",
+      "source_url": "https://s.openrice.com/QrbS0eKi000",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "赤柱廣場",
+      "district": "南區",
+      "store_name": "Saffron",
+      "floor": "1樓",
+      "shop_number": "102",
+      "phone": "2813 0270",
+      "source_url": "https://s.openrice.com/QrbS0ham000",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "奧海城",
+      "district": "油尖旺區",
+      "store_name": "大食代 Food Republic",
+      "floor": "1樓",
+      "shop_number": "103",
+      "phone": "2771 3315",
+      "source_url": "https://www.openrice.com/zh/hongkong/r-%E5%A4%A7%E9%A3%9F%E4%BB%A3-%E5%A4%A7%E8%A7%92%E5%92%80-%E5%A4%9A%E5%9C%8B%E8%8F%9C-r493261",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "利東街",
+      "district": "灣仔區",
+      "store_name": "Sho-EN",
+      "floor": "地下",
+      "shop_number": "G02-03",
+      "phone": "2869 1228",
+      "source_url": "https://www.openrice.com/en/hongkong/r-sho-en-wan-chai-japanese-r887059",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "利東街",
+      "district": "灣仔區",
+      "store_name": "Rakuraku Ramen",
+      "floor": "地下",
+      "shop_number": "G30",
+      "phone": "2818 3222",
+      "source_url": "https://www.openrice.com/en/hongkong/r-rakuraku-ramen-wan-chai-japanese-ramen-r598554",
+      "merchant_type": "independent"
+    },
+    {
+      "mall_name": "愉景灣北商場 DB North Plaza",
+      "district": "離島區",
+      "store_name": "Uncle Russ Coffee",
+      "floor": "LG",
+      "shop_number": "LG19",
+      "phone": "2840 1188",
+      "source_url": "https://www.visitdiscoverybay.com/en/shops-detail/81",
+      "merchant_type": "independent"
+    }
+  ],
+  "malls_with_seeds": 7,
+  "total": 38
+}

@@ -1,0 +1,46 @@
+{
+  "submissions": [
+    {
+      "mall_name": "黃埔天地",
+      "district": "九龍城區",
+      "store_name": "目廊專業驗眼中心",
+      "floor": "聚寶坊(第十一期)",
+      "shop_number": "B64",
+      "phone": "2365 9636",
+      "vertical_category": "Services",
+      "title": "目廊｜週末驗眼套餐早鳥（商戶登錄）",
+      "details": "商戶自主登錄推廣：2026-08-16 起惠顧驗眼套餐可享會員積分加成；實際條款以店內告示為準。",
+      "start_date": "2026-08-16",
+      "expiry_date": "2026-08-31",
+      "source_url": "https://www.thewhampoa.com/member.html"
+    },
+    {
+      "mall_name": "樂富廣場",
+      "district": "九龍城區",
+      "store_name": "Living PLAZA by AEON",
+      "floor": "A區 3樓",
+      "shop_number": "3169A",
+      "phone": "2368 4633",
+      "vertical_category": "Retail",
+      "title": "Living PLAZA｜週一會員換領日（商戶登錄）",
+      "details": "商戶自主登錄推廣：2026-08-17 起出示 AEON MEMBER 可享換領／折扣禮遇；詳情以官方公告為準。",
+      "start_date": "2026-08-17",
+      "expiry_date": "2026-09-15",
+      "source_url": "https://www.aeonstores.com.hk/aeon_member_card/detail04"
+    },
+    {
+      "mall_name": "新城市廣場",
+      "district": "沙田區",
+      "store_name": "A-1 Bakery",
+      "floor": "一期 L1",
+      "shop_number": "102",
+      "phone": "2608 0878",
+      "vertical_category": "Dining",
+      "title": "A-1 Bakery｜麵包第二件優惠（商戶登錄）",
+      "details": "商戶自主登錄推廣：2026-08-18 起指定麵包第二件半價；外賣自取同樣適用，詳情以店內告示為準。",
+      "start_date": "2026-08-18",
+      "expiry_date": "2026-08-31",
+      "source_url": "https://clickandcollect.a-1bakery.com.hk/zh_HK/membership/"
+    }
+  ]
+}

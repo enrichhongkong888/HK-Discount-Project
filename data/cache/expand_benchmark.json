@@ -1,0 +1,17 @@
+{
+  "baseline_threadpool_wall_s": 172.8,
+  "asyncio_httpx_wall_s": 80.17,
+  "speedup_x": 2.155,
+  "measured_at": "2026-08-15T14:18:26+08:00",
+  "runtime": {
+    "global_concurrency": 15,
+    "domain_concurrency": {
+      "openrice.com": 2,
+      "linkreit.com": 3,
+      "linkhk.com": 3
+    },
+    "connect_timeout_s": 3.0,
+    "read_timeout_s": 5.0,
+    "max_retries": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_comment": "Merchant direct feed schema example. Copy fields into submissions/*.json or *.csv. Files starting with _ are ignored by the ingest pipeline.",
+  "required_fields": [
+    "mall_name",
+    "store_name",
+    "floor",
+    "shop_number",
+    "phone",
+    "title",
+    "details",
+    "start_date",
+    "expiry_date",
+    "source_url"
+  ],
+  "optional_fields": ["district", "address", "vertical_category", "category_tag", "tags"],
+  "rules": {
+    "start_date_window": "[today, today+3 days]",
+    "placeholders": "forbidden",
+    "source_name": "merchant_direct_feed (assigned by pipeline)"
+  }
+}

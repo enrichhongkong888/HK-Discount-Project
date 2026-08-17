@@ -1,0 +1,69 @@
+{
+  "_comment": "Structured Instagram/Facebook-style post exports for social_media_parser. Incomplete rows are rejected by six-field authenticity.",
+  "posts": [
+    {
+      "platform": "instagram",
+      "mall_hint": "奧海城",
+      "district": "油尖旺區",
+      "store_name": "大食代 Food Republic",
+      "floor": "1樓",
+      "shop_number": "103",
+      "phone": "2771 3315",
+      "title": "奧海城週年慶｜大食代小店滿額優惠",
+      "details": "週年慶市集期間，大食代 Food Republic 指定檔口惠顧滿 $80 可享第二件半價小食；條款以店內告示為準。",
+      "caption": "「大食代 Food Republic」奧海城二期1樓103號舖 電話2771 3315 週年慶小店優惠滿$80第二件半價",
+      "start_date": "2026-08-14",
+      "expiry_date": "2026-08-17",
+      "source_url": "https://www.openrice.com/zh/hongkong/r-%E5%A4%A7%E9%A3%9F%E4%BB%A3-%E5%A4%A7%E8%A7%92%E5%92%80-%E5%A4%9A%E5%9C%8B%E8%8F%9C-r493261",
+      "is_evergreen": false
+    },
+    {
+      "platform": "facebook",
+      "mall_hint": "THE SOUTHSIDE",
+      "district": "南區",
+      "store_name": "屈臣氏",
+      "floor": "GF",
+      "shop_number": "G13",
+      "phone": "2893 7311",
+      "title": "THE SOUTHSIDE 街坊小店｜屈臣氏會員日",
+      "details": "街坊市集週末：屈臣氏 G13 出示會員碼可享個人護理指定貨品額外折扣；詳情以店內及 App 為準。",
+      "caption": "THE SOUTHSIDE 地下G13號舖 屈臣氏 電話28937311 小店優惠會員日折扣",
+      "start_date": "2026-08-14",
+      "expiry_date": "2026-08-16",
+      "source_url": "https://www.thesouthside.com.hk/tch/shops/watsons",
+      "is_evergreen": false
+    },
+    {
+      "platform": "facebook",
+      "mall_hint": "粉嶺名都商場",
+      "district": "北區",
+      "store_name": "萬寧",
+      "floor": "2樓",
+      "shop_number": "5",
+      "phone": "2947 5278",
+      "title": "粉嶺名都市集｜萬寧小店週末優惠",
+      "details": "北區街坊市集：粉嶺名都萬寧指定貨品週末額外折扣；出示 yuu 可賺分，詳情以店內告示為準。",
+      "caption": "「萬寧」粉嶺名都2樓5號舖 電話29475278 市集小店優惠 yuu",
+      "start_date": "2026-08-14",
+      "expiry_date": "2026-08-17",
+      "source_url": "https://elixir.com.hk/locate-us/",
+      "is_evergreen": false
+    },
+    {
+      "platform": "instagram",
+      "mall_hint": "海怡廣場",
+      "district": "南區",
+      "store_name": "萬寧",
+      "floor": "東翼 地下",
+      "shop_number": "G05",
+      "phone": "2518 7767",
+      "title": "海怡廣場街坊情報｜萬寧小店優惠",
+      "details": "南區街坊小店：海怡廣場東翼萬寧惠顧正價貨品可享 yuu 積分換領；條款以 App 為準。",
+      "caption": "海怡廣場東翼地下G05號舖 萬寧 電話25187767 小店優惠",
+      "start_date": "2026-08-14",
+      "expiry_date": "2026-08-17",
+      "source_url": "https://www.nestlehealthscience.com.hk/zh-hans/brands/compleat/sales-locations",
+      "is_evergreen": false
+    }
+  ]
+}

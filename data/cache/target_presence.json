@@ -1,0 +1,659 @@
+{
+  "verified": [
+    {
+      "chain_id": "muji_app",
+      "mall_name": "太古廣場",
+      "district": "中西區",
+      "floor": "L1",
+      "shop_number": "100",
+      "phone": "3973 8370",
+      "store_name": "無印良品",
+      "verification_status": "verified",
+      "source": "swire_directory:pacific_place",
+      "source_url": "https://www.pacificplace.com.hk/zh-hk/shopping"
+    }
+  ],
+  "pending_sample": [
+    {
+      "chain_id": "a1_bakery_members",
+      "mall_name": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "東海堂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "a1_bakery_members",
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "",
+      "shop_number": "東海堂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "broadway_club",
+      "mall_name": "時代廣場",
+      "district": "灣仔區",
+      "floor": "",
+      "shop_number": "百老匯",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "broadway_club",
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "",
+      "shop_number": "百老匯",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "太古廣場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "置地廣場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "元朗廣場",
+      "district": "元朗區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "THE SOUTHSIDE",
+      "district": "南區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "杏花新城",
+      "district": "東區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "K11 MUSEA",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "西九龍中心",
+      "district": "深水埗區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "時代廣場",
+      "district": "灣仔區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "將軍澳中心 Park Central",
+      "district": "西貢區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "新都城中心",
+      "district": "西貢區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "東薈城名店倉",
+      "district": "離島區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cafe_de_coral_club100",
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "",
+      "shop_number": "大家樂",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "太古廣場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "元朗廣場",
+      "district": "元朗區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "THE SOUTHSIDE",
+      "district": "南區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "K11 MUSEA",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "西九龍中心",
+      "district": "深水埗區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "時代廣場",
+      "district": "灣仔區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "將軍澳中心 Park Central",
+      "district": "西貢區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "新都城中心",
+      "district": "西貢區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "東薈城名店倉",
+      "district": "離島區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "cha_tang_hui_members",
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "",
+      "shop_number": "茶湯會",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "citistore_cu_app",
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "floor": "",
+      "shop_number": "千色店",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "citistore_cu_app",
+      "mall_name": "新都城中心",
+      "district": "西貢區",
+      "floor": "",
+      "shop_number": "千色店",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "citistore_cu_app",
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "",
+      "shop_number": "千色店",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "citysuper_super_e",
+      "mall_name": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "四層",
+      "shop_number": "city'super",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "citysuper_super_e",
+      "mall_name": "THE SOUTHSIDE",
+      "district": "南區",
+      "floor": "",
+      "shop_number": "city'super",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "citysuper_super_e",
+      "mall_name": "時代廣場",
+      "district": "灣仔區",
+      "floor": "地庫",
+      "shop_number": "city'super",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "club_ic",
+      "mall_name": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "全場參與商戶",
+      "shop_number": "CLUB ic",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "太古廣場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "元朗廣場",
+      "district": "元朗區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "THE SOUTHSIDE",
+      "district": "南區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "K11 MUSEA",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "西九龍中心",
+      "district": "深水埗區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "時代廣場",
+      "district": "灣仔區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "將軍澳中心 Park Central",
+      "district": "西貢區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "新都城中心",
+      "district": "西貢區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "東薈城名店倉",
+      "district": "離島區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "colourmix_vip",
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "",
+      "shop_number": "Colourmix",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "太古廣場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "置地廣場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "元朗廣場",
+      "district": "元朗區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "THE SOUTHSIDE",
+      "district": "南區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "杏花新城",
+      "district": "東區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "K11 MUSEA",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "西九龍中心",
+      "district": "深水埗區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "時代廣場",
+      "district": "灣仔區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "將軍澳中心 Park Central",
+      "district": "西貢區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "新都城中心",
+      "district": "西貢區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "東薈城名店倉",
+      "district": "離島區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fairwood_app",
+      "mall_name": "黃大仙中心",
+      "district": "黃大仙區",
+      "floor": "",
+      "shop_number": "大快活",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fortress_club",
+      "mall_name": "THE SOUTHSIDE",
+      "district": "南區",
+      "floor": "",
+      "shop_number": "豐澤",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "fortress_club",
+      "mall_name": "時代廣場",
+      "district": "灣仔區",
+      "floor": "",
+      "shop_number": "豐澤",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "genki_sushi_members",
+      "mall_name": "國際金融中心商場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "元氣壽司",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "genki_sushi_members",
+      "mall_name": "太古廣場",
+      "district": "中西區",
+      "floor": "",
+      "shop_number": "元氣壽司",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "genki_sushi_members",
+      "mall_name": "元朗廣場",
+      "district": "元朗區",
+      "floor": "",
+      "shop_number": "元氣壽司",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "genki_sushi_members",
+      "mall_name": "上水廣場",
+      "district": "北區",
+      "floor": "",
+      "shop_number": "元氣壽司",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "genki_sushi_members",
+      "mall_name": "THE SOUTHSIDE",
+      "district": "南區",
+      "floor": "",
+      "shop_number": "元氣壽司",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "genki_sushi_members",
+      "mall_name": "新港城中心 MOSTown",
+      "district": "沙田區",
+      "floor": "",
+      "shop_number": "元氣壽司",
+      "verification_status": "pending"
+    },
+    {
+      "chain_id": "genki_sushi_members",
+      "mall_name": "ELEMENTS 圓方",
+      "district": "油尖旺區",
+      "floor": "",
+      "shop_number": "元氣壽司",
+      "verification_status": "pending"
+    }
+  ],
+  "pending_count": 349
+}

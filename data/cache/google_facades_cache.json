@@ -1,0 +1,20 @@
+{
+  "太古城中心 屈臣氏 香港": {
+    "place_id": "ChIJi163EHMBBDQR9HI2urYkhLg",
+    "name": "屈臣氏 (太古城中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-17T14:42:06Z"
+  },
+  "太古城中心 無印良品 香港": {
+    "place_id": "ChIJmWut2FIBBDQR6IiiEqKAZ7I",
+    "name": "MUJI Cityplaza 無印良品太古城中心",
+    "status": "ok",
+    "updated_at": "2026-08-17T14:42:08Z"
+  },
+  "太古城中心 uniqlo 香港": {
+    "place_id": "ChIJBcgrEnMBBDQRd6ThTkUYiMk",
+    "name": "UNIQLO 太古城中心店",
+    "status": "ok",
+    "updated_at": "2026-08-17T14:42:10Z"
+  }
+}
