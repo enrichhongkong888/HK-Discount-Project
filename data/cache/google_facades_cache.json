@@ -16,5 +16,35 @@
     "name": "UNIQLO 太古城中心店",
     "status": "ok",
     "updated_at": "2026-08-17T14:42:10Z"
+  },
+  "中環街市 chef's market 香港": {
+    "place_id": "ChIJpdvOs3wABDQRBKq48puR7iU",
+    "name": "Chef’s Market",
+    "status": "ok",
+    "updated_at": "2026-08-18T15:59:22Z"
+  },
+  "中環街市 亞答屋 香港": {
+    "place_id": "ChIJcwhZGbUBBDQR3wAc3BDNARQ",
+    "name": "亞答屋 (中環街市店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T15:59:24Z"
+  },
+  "信德中心 萬寧 香港": {
+    "place_id": "ChIJ0_V16n0ABDQRZaIU4bUyF7U",
+    "name": "萬寧 (信德中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T15:59:25Z"
+  },
+  "國際金融中心商場 屈臣氏 香港": {
+    "place_id": "ChIJlUgdDWMABDQRdN0zA0gGn7s",
+    "name": "Watsons Bebe",
+    "status": "ok",
+    "updated_at": "2026-08-18T15:59:27Z"
+  },
+  "國際金融中心商場 萬寧 香港": {
+    "place_id": "ChIJh638_GIABDQRjJl6dqIpMt8",
+    "name": "萬寧 IFC店",
+    "status": "ok",
+    "updated_at": "2026-08-18T15:59:29Z"
   }
 }

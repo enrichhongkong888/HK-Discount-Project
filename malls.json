@@ -88,12 +88,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "chefsmarket_95f8bbc69aa6_g04g09",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/95f8bbc69aa6_g04-g09_66871703.jpg",
+              "facade_image_url": "frontend/images/stores/95f8bbc69aa6_g04-g09_66871703.jpg",
+              "image_url": "frontend/images/stores/95f8bbc69aa6_g04-g09_66871703.jpg",
               "relocation_status": "ok",
               "store_key": "95f8bbc69aa6_g04-g09_66871703",
-              "mall_id": "95f8bbc69aa6"
+              "mall_id": "95f8bbc69aa6",
+              "image_source": "google_places",
+              "google_place_id": "ChIJpdvOs3wABDQRBKq48puR7iU",
+              "google_query": "中環街市 Chef's Market 香港"
             },
             {
               "type": "store",
@@ -163,12 +166,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "a728aa349d63_95f8bbc69aa6_g17",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/95f8bbc69aa6_g17_53394099.jpg",
+              "facade_image_url": "frontend/images/stores/95f8bbc69aa6_g17_53394099.jpg",
+              "image_url": "frontend/images/stores/95f8bbc69aa6_g17_53394099.jpg",
               "relocation_status": "ok",
               "store_key": "95f8bbc69aa6_g17_53394099",
-              "mall_id": "95f8bbc69aa6"
+              "mall_id": "95f8bbc69aa6",
+              "image_source": "google_places",
+              "google_place_id": "ChIJcwhZGbUBBDQR3wAc3BDNARQ",
+              "google_query": "中環街市 亞答屋 香港"
             }
           ],
           "lat": 22.28375,
@@ -292,8 +298,9 @@
               "relocation_status": "ok",
               "store_key": "864ed6237a0b_223_28586672",
               "mall_id": "864ed6237a0b",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ0_V16n0ABDQRZaIU4bUyF7U",
+              "google_query": "信德中心 萬寧 香港"
             }
           ],
           "lat": 22.28785,
@@ -414,8 +421,9 @@
               "relocation_status": "ok",
               "store_key": "55c893c2557d_3015_26705619",
               "mall_id": "55c893c2557d",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJlUgdDWMABDQRdN0zA0gGn7s",
+              "google_query": "國際金融中心商場 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -529,8 +537,9 @@
               "relocation_status": "ok",
               "store_key": "55c893c2557d_2004_25239672",
               "mall_id": "55c893c2557d",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJh638_GIABDQRjJl6dqIpMt8",
+              "google_query": "國際金融中心商場 萬寧 香港"
             }
           ],
           "lat": 22.28505,
