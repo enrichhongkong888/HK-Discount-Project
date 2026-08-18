@@ -1,167 +1,40 @@
-name: Daily Sync
+﻿name: Daily Mall & Store Audit Sync
 
 on:
   schedule:
-    # 00:30 UTC ≈ 08:30 Hong Kong time
-    - cron: "30 0 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-  issues: write
-
-concurrency:
-  group: daily-sync
-  cancel-in-progress: false
+    # 每天 UTC 00:00 (香港時間 08:00) 自動執行
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支援手動觸發
 
 jobs:
-  sync:
+  audit-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: requirements.txt
+          python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Restore data/cache (HTTP / channel artifacts)
-        uses: actions/cache@v4
-        with:
-          path: data/cache
-          key: data-cache-${{ runner.os }}-${{ github.run_id }}
-          restore-keys: |
-            data-cache-${{ runner.os }}-
-
-      - name: Lifecycle state machine (classify + prune expired)
+      - name: Run Daily Audit & Cleanup
         run: |
-          python scripts/lifecycle_manager.py \
-            --discounts discounts.json \
-            --malls malls.json
+          python scripts/daily_audit_and_cleanup.py
 
-      - name: Scrape + lifecycle clean
-        run: |
-          python scraper_advanced.py --config data/sources.json --targets malls \
-            --discounts-output discounts.json \
-            --mall-overrides data/mall_overrides.json \
-            --chain-store-offers data/chain_store_offers.json \
-            --malls-output data/malls-registry.json
-
-      - name: Expand store channels (asyncio)
-        run: python scripts/expand_store_channels.py
-
-      - name: Build SPA malls.json
-        run: |
-          python scripts/build_spa_malls.py \
-            --discounts discounts.json \
-            --registry data/malls-registry.json \
-            --output malls.json
-
-      - name: Check store relocation + refresh images
-        run: python scripts/check_store_status.py --malls malls.json
-
-      - name: Crawl mall directories + localize REAL facade images
-        run: python scripts/crawl_mall_directories.py --malls malls.json --openrice-pages 2
-
-      # Layer 2: Google Places facades for retail / still-brand-card stores.
-      # Skips automatically when GOOGLE_MAPS_API_KEY secret is unset.
-      - name: Fetch Google Places facade photos
+      - name: Fetch Missing Store Facades
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-        run: python scripts/fetch_google_facades.py --malls malls.json --apply-brands
-
-      - name: Daily store auditor (relocation / closure / expiry)
-        run: python scripts/daily_store_auditor.py --malls malls.json
-
-      - name: Validate lifecycle (must pass)
         run: |
-          python scripts/validate_lifecycle.py \
-            --discounts discounts.json \
-            --malls malls.json
+          python scripts/fetch_google_facades.py
 
-      - name: Audit empty store malls
-        run: python scripts/audit_empty_store_malls.py
-
-      - name: Commit refreshed data
+      - name: Commit & Push if updated
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add discounts.json malls.json archived_deals.json data/malls-registry.json data/chain_store_offers.json data/brand_store_locators.json data/cache frontend/images logs || true
-          if git diff --cached --quiet; then
-            echo "No data changes to commit"
-          else
-            git commit -m "chore(daily-sync): refresh mall offers and lifecycle data"
-            git push
-          fi
-
-      - name: Open GitHub Issue on failure
-        if: failure()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
-            const shortSha = context.sha.slice(0, 7);
-            const title = `[CI/CD Alert] Daily Sync failed (${shortSha})`;
-            const body = [
-              '## Daily Sync failure',
-              '',
-              `- **Workflow:** ${context.workflow}`,
-              `- **Run:** [open Actions run](${runUrl})`,
-              `- **Commit:** \`${context.sha}\``,
-              `- **Actor / event:** ${context.actor} / \`${context.eventName}\``,
-              `- **Ref:** \`${context.ref}\``,
-              '',
-              'Please inspect the failed job logs, restore lifecycle invariants',
-              '(`placeholders = 0`, full mall store coverage), and re-run **Daily Sync**.',
-            ].join('\n');
-
-            const existing = await github.rest.issues.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open',
-              labels: 'ci-cd-alert',
-              per_page: 20,
-            });
-            const duplicate = existing.data.find((issue) => issue.title === title);
-            if (duplicate) {
-              core.info(`Alert issue already open: #${duplicate.number}`);
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: duplicate.number,
-                body: `Recurring failure on run ${context.runId}: ${runUrl}`,
-              });
-              return;
-            }
-
-            // Ensure label exists (ignore if already present).
-            try {
-              await github.rest.issues.createLabel({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                name: 'ci-cd-alert',
-                color: 'B60205',
-                description: 'Automated Daily Sync / CI-CD failure alerts',
-              });
-            } catch (err) {
-              // 422 = already exists
-              if (err.status !== 422) throw err;
-            }
-
-            const issue = await github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title,
-              body,
-              labels: ['ci-cd-alert'],
-            });
-            core.info(`Opened alert issue #${issue.data.number}`);
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git diff-index --quiet HEAD || (git commit -m "chore: auto daily cleanup expired offers and update facades [skip ci]" && git push)
