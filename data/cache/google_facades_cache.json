@@ -46,5 +46,1151 @@
     "name": "萬寧 IFC店",
     "status": "ok",
     "updated_at": "2026-08-18T15:59:29Z"
+  },
+  "太古廣場 屈臣氏 香港": {
+    "place_id": "ChIJDUGF_HUBBDQRaKyABY0y8YE",
+    "name": "屈臣氏",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:38Z"
+  },
+  "太古廣場 無印良品 香港": {
+    "place_id": "ChIJ_R6kn5QBBDQR9e7y8I6ka10",
+    "name": "無印良品 太古廣場店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:40Z"
+  },
+  "太古廣場 星巴克 香港": {
+    "place_id": "ChIJDVW9tmcABDQRzrlkBV5PIYc",
+    "name": "Pacific Place",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:42Z"
+  },
+  "置地廣場 星巴克 香港": {
+    "place_id": "ChIJwehpLwABBDQR--V0Op02U44",
+    "name": "星巴克 (置地3樓)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:43Z"
+  },
+  "airside 無印良品 香港": {
+    "place_id": "ChIJpyS4BOgHBDQRtp7QCteKBsM",
+    "name": "無印良品 AIRSIDE店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:45Z"
+  },
+  "又一城 無印良品 香港": {
+    "place_id": "ChIJDez6NTEHBDQRCatfPAS3Txg",
+    "name": "無印良品 又一城店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:47Z"
+  },
+  "又一城 星巴克 香港": {
+    "place_id": "ChIJnVdqSTEHBDQRkvpP1iDQd30",
+    "name": "星巴克 (又一城)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:49Z"
+  },
+  "又一城 uniqlo 香港": {
+    "place_id": "ChIJ-bqYaDEHBDQRzFqCZYCT44Y",
+    "name": "UNIQLO 又一城店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:50Z"
+  },
+  "樂富廣場 聖安娜 香港": {
+    "place_id": "ChIJrc6zoigHBDQRLFVQbCXM4bM",
+    "name": "聖安娜餅屋 (樂富廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:52Z"
+  },
+  "樂富廣場 uniqlo 香港": {
+    "place_id": "ChIJC54vlSgHBDQRNhy5uVecHfA",
+    "name": "UNIQLO 樂富廣場店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:54Z"
+  },
+  "樂富廣場 太興 香港": {
+    "place_id": "ChIJrc6zoigHBDQRA_1wXhHc-0c",
+    "name": "太興 (樂富廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:55Z"
+  },
+  "樂富廣場 聖安娜餅屋 香港": {
+    "place_id": "ChIJrc6zoigHBDQRLFVQbCXM4bM",
+    "name": "聖安娜餅屋 (樂富廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:57Z"
+  },
+  "樂富廣場 典雅髮廊 香港": {
+    "place_id": "ChIJc8_OoygHBDQRKGUmkVbnr8U",
+    "name": "典雅髮廊",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:04:58Z"
+  },
+  "黃埔天地 目廊專業驗眼中心 香港": {
+    "place_id": "ChIJfwUadeAABDQRh07DjgQrXn8",
+    "name": "目廊專業驗眼中心",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:00Z"
+  },
+  "黃埔天地 bread n butter 香港": {
+    "place_id": "ChIJ7YC-Z-AABDQRuLKZBCRhTxM",
+    "name": "bread n butter",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:01Z"
+  },
+  "黃埔天地 香港仔南記粉麵 香港": {
+    "place_id": "ChIJZcsCjOAABDQRFrYhAh_ldTc",
+    "name": "南記粉麵",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:03Z"
+  },
+  "黃埔天地 skechers 香港": {
+    "place_id": "ChIJvZDmjdgGBDQRvCXKVnvwI1o",
+    "name": "SKECHERS 黃大仙店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:05Z"
+  },
+  "黃埔天地 viva circus 香港": {
+    "place_id": "ChIJjdOtZ-AABDQRAwwoLKjWwLM",
+    "name": "Viva Circus 黃埔花園店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:07Z"
+  },
+  "黃埔天地 syster 香港": {
+    "place_id": "ChIJjdOtZ-AABDQRdly70ExfLzk",
+    "name": "Syster",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:09Z"
+  },
+  "黃埔天地 dr. kong 健康鞋專門店 香港": {
+    "place_id": "ChIJ18p9ceAABDQRbzLDzHVezGU",
+    "name": "Dr. Kong (黃埔天地店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:11Z"
+  },
+  "黃埔天地 honey lash 香港": {
+    "place_id": "ChIJ5Xz-VvMBBDQRyL84B54xiGU",
+    "name": "Honey Lash 黃埔美睫店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:12Z"
+  },
+  "黃埔天地 謝利英語世界教室 香港": {
+    "place_id": "ChIJkUWO-98ABDQRNZrA--exvgk",
+    "name": "謝利英語世界教室/新一代普通話",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:14Z"
+  },
+  "黃埔天地 美國冒險樂園 香港": {
+    "place_id": "ChIJgxrOCuAABDQR835sUaF8evU",
+    "name": "美國冒險樂園 (黃埔天地店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:15Z"
+  },
+  "黃埔天地 june 香港": {
+    "place_id": "ChIJWYHH3d8ABDQRuSGDNJY4Eng",
+    "name": "黃埔天地",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:17Z"
+  },
+  "黃埔天地 .k.a.t.e. 香港": {
+    "place_id": "ChIJWYHH3d8ABDQRuSGDNJY4Eng",
+    "name": "黃埔天地",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:18Z"
+  },
+  "黃埔天地 豐澤 香港": {
+    "place_id": "ChIJl7ucWucABDQR3qh4oP0YsNo",
+    "name": "豐澤 (黃埔天地店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:20Z"
+  },
+  "黃埔天地 g2000 香港": {
+    "place_id": "ChIJeXxvZ-AABDQRf4hyH8tWkfA",
+    "name": "G2000 (黃埔天地店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:22Z"
+  },
+  "黃埔天地 aeon style 香港": {
+    "place_id": "ChIJjbnc6pMBBDQR0vBLvBiT2CU",
+    "name": "AEON STYLE 黃埔",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:23Z"
+  },
+  "黃埔天地 屈臣氏 香港": {
+    "place_id": "ChIJAQDs0O8ABDQRONX368w2qaQ",
+    "name": "屈臣氏",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:25Z"
+  },
+  "+woo 嘉湖 屈臣氏 香港": {
+    "place_id": "ChIJm9mx34fwAzQRCMdfyPZaDkU",
+    "name": "屈臣氏 (+WOO店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:27Z"
+  },
+  "t town uniqlo 香港": {
+    "place_id": "ChIJNYfqAGPwAzQRimJl_g-dl8I",
+    "name": "UNIQLO T Town店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:29Z"
+  },
+  "t town 川川辣辣 香港": {
+    "place_id": "ChIJCX1SAwDxAzQRl-8G1LY9aew",
+    "name": "川川辣辣",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:31Z"
+  },
+  "t town skymart 香港": {
+    "place_id": "ChIJU6D9cFz5AzQRIa09MJE9A2Y",
+    "name": "SKYMART",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:33Z"
+  },
+  "t town 盈健醫務中心 香港": {
+    "place_id": "ChIJxwEA0zAGBDQRzThzycG5TLw",
+    "name": "盈健醫務中心 Human Health",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:34Z"
+  },
+  "t town 祥益地產 香港": {
+    "place_id": "ChIJc4W0tmPwAzQRuPlgXOg4a4o",
+    "name": "祥益地產代理有限公司(T Town分行)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:36Z"
+  },
+  "元朗廣場 uniqlo 香港": {
+    "place_id": "ChIJB834Gm9S_xMRMN861Zz9_Do",
+    "name": "UNIQLO 元朗廣場店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:38Z"
+  },
+  "上水中心購物商場 萬寧 香港": {
+    "place_id": "ChIJKyWNsNYGBDQR5dhVW6GzRbA",
+    "name": "Mikiki",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:40Z"
+  },
+  "上水匯 spot 屈臣氏 香港": {
+    "place_id": "ChIJxzcnpRH2AzQRzVkMwk1-o14",
+    "name": "上水匯",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:42Z"
+  },
+  "上水廣場 萬寧 香港": {
+    "place_id": "ChIJ6xBQArz3AzQRbPxegh5CFFo",
+    "name": "萬寧 (上水廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:44Z"
+  },
+  "上水廣場 merci cafe by déesses 香港": {
+    "place_id": "ChIJ_X0zqsT3AzQRy14rqWTFeRc",
+    "name": "Merci Cafe by Déesses",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:46Z"
+  },
+  "粉嶺名都商場 豐澤 香港": {
+    "place_id": "ChIJDeR3Xx_2AzQRkEhGs0B1ouw",
+    "name": "豐澤 (粉嶺名都商場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:47Z"
+  },
+  "the southside 屈臣氏 香港": {
+    "place_id": "ChIJ9_KqNagBBDQRaoa-oVuML0k",
+    "name": "屈臣氏 (THE SOUTHSIDE)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:50Z"
+  },
+  "the southside uniqlo 香港": {
+    "place_id": "ChIJsdf3q5oBBDQR0acQtgWr43E",
+    "name": "UNIQLO THE SOUTHSIDE店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:51Z"
+  },
+  "數碼港商場 百佳 香港": {
+    "place_id": "ChIJJYKtou__AzQRd5oHfHsVHJc",
+    "name": "數碼港商場",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:53Z"
+  },
+  "數碼港商場 星巴克 香港": {
+    "place_id": "ChIJZ2jYx-__AzQRlVUl89CYxwQ",
+    "name": "星巴克 (數碼港4樓)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:54Z"
+  },
+  "數碼港商場 鍾菜館 香港": {
+    "place_id": "ChIJx3PY3d__AzQRjxSH2qGeMsc",
+    "name": "鍾菜館",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:56Z"
+  },
+  "數碼港商場 seed by farmacy 香港": {
+    "place_id": "ChIJ_z1FaeT_AzQRnHD4pZI0bFE",
+    "name": "SEED by Farmacy",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:05:58Z"
+  },
+  "數碼港商場 el charro mexican cantina 香港": {
+    "place_id": "ChIJhS7HTu7_AzQRBepzz9mWEW4",
+    "name": "El Charro",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:00Z"
+  },
+  "數碼港商場 奧壽司 香港": {
+    "place_id": "ChIJH8dRve__AzQRdQRjJxdmM48",
+    "name": "奧壽司",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:02Z"
+  },
+  "數碼港商場 牛田鮮 香港": {
+    "place_id": "ChIJ47DdqHL_AzQRpUS3uB6tqfw",
+    "name": "牛田鮮",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:03Z"
+  },
+  "數碼港商場 pepper lunch express 香港": {
+    "place_id": "ChIJdRTFve__AzQRiLd9miBE6ag",
+    "name": "胡椒廚房 (數碼港)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:05Z"
+  },
+  "數碼港商場 麵屋龍平 香港": {
+    "place_id": "ChIJs9nfdgAHBDQRPBtHXbVoB-k",
+    "name": "麵屋龍平",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:07Z"
+  },
+  "數碼港商場 茶星人 香港": {
+    "place_id": "ChIJRzMWHAD_AzQRvMcwp_diuXI",
+    "name": "茶星人 E.Tea (數碼港)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:08Z"
+  },
+  "數碼港商場 the pit juice 香港": {
+    "place_id": "ChIJkc3ove__AzQRyHrsnoO_lvM",
+    "name": "The Pit Juice",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:10Z"
+  },
+  "數碼港商場 1+2小廚 香港": {
+    "place_id": "ChIJLf0wOwD_AzQRCShNNrNGk94",
+    "name": "1+2小廚",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:12Z"
+  },
+  "海怡廣場 萬寧 香港": {
+    "place_id": "ChIJIZJw9qqqBjQRVE6IwyBMuYU",
+    "name": "海怡西商場",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:14Z"
+  },
+  "海怡廣場 屈臣氏 香港": {
+    "place_id": "ChIJEzJI9qqqBjQRODu7mOqcsPQ",
+    "name": "屈臣氏 (海怡半島店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:15Z"
+  },
+  "赤柱廣場 百佳 香港": {
+    "place_id": "ChIJFeOFHWyqBjQRkqeTNWDCsog",
+    "name": "赤柱廣場",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:17Z"
+  },
+  "赤柱廣場 必勝客 香港": {
+    "place_id": "ChIJIcum1tirBjQRQWz0Mbx932M",
+    "name": "必勝客 (赤柱廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:19Z"
+  },
+  "赤柱廣場 星巴克 香港": {
+    "place_id": "ChIJVVUVBGyqBjQR0V9z0PvkV2w",
+    "name": "星巴克 (赤柱廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:21Z"
+  },
+  "赤柱廣場 鍾菜館 香港": {
+    "place_id": "ChIJIaH5BGyqBjQREuS-LyApSH4",
+    "name": "鍾菜館",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:23Z"
+  },
+  "赤柱廣場 surf & turf grill and bar 香港": {
+    "place_id": "ChIJK9HZqjOrBjQRqcP0BI4d8bg",
+    "name": "Surf And Turf Grill and Bar",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:25Z"
+  },
+  "赤柱廣場 beef & liberty 香港": {
+    "place_id": "ChIJ15biBmyqBjQRhJewJOFrYnY",
+    "name": "Beef & Liberty (Stanley)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:26Z"
+  },
+  "赤柱廣場 dough bros pizza & doughnuts 香港": {
+    "place_id": "ChIJIxjlkwWrBjQRbX0KoWwp1n4",
+    "name": "Dough Bros. Pizza & Doughnuts (Stanley)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:28Z"
+  },
+  "赤柱廣場 杏花樓 香港": {
+    "place_id": "ChIJicDbKt2rBjQRmJbD17cLZ2k",
+    "name": "杏花樓",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:29Z"
+  },
+  "赤柱廣場 mccafe 香港": {
+    "place_id": "ChIJ_5ioj4P_AzQRmcVTKQqZttE",
+    "name": "McCafe（赤柱店）",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:31Z"
+  },
+  "赤柱廣場 散水餅 香港": {
+    "place_id": "ChIJtZgYEGyqBjQRHlU-lAgVZPI",
+    "name": "Waffleman",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:34Z"
+  },
+  "赤柱廣場 星巴克咖啡 香港": {
+    "place_id": "ChIJVVUVBGyqBjQR0V9z0PvkV2w",
+    "name": "星巴克 (赤柱廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:36Z"
+  },
+  "香港仔中心商場 aeon mono mono 香港": {
+    "place_id": "ChIJ--DDeJcBBDQRXZJQUSjDlyY",
+    "name": "ものもの Mono Mono 香港仔店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:37Z"
+  },
+  "香港仔中心商場 屈臣氏 香港": {
+    "place_id": "ChIJh18bPwMABDQRY-PiVGbUS60",
+    "name": "屈臣氏 (香港仔中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:39Z"
+  },
+  "大埔廣場 惠康 香港": {
+    "place_id": "ChIJQ0h9ND8IBDQRMpNfsYS0Ltc",
+    "name": "惠康 (大埔廣福道店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:40Z"
+  },
+  "大埔超級城 屈臣氏 香港": {
+    "place_id": "ChIJPWzsC2QJBDQR0nG2MxIGccw",
+    "name": "屈臣氏 大埔超級城",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:42Z"
+  },
+  "大埔超級城 一田 香港": {
+    "place_id": "ChIJ99_ho0cIBDQR6fCOrAJFV5g",
+    "name": "一田 (大埔店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:44Z"
+  },
+  "v city 豐澤 香港": {
+    "place_id": "ChIJCWO82jz7AzQRjPMBJmrmipg",
+    "name": "豐澤 (V city店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:46Z"
+  },
+  "v city 屈臣氏 香港": {
+    "place_id": "ChIJ0e4QEs4BBDQRs9N_omXntzw",
+    "name": "屈臣氏 (啟德體育園)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:48Z"
+  },
+  "v city uniqlo 香港": {
+    "place_id": "ChIJ30F2h68BBDQR6OLXr5REI6U",
+    "name": "UNIQLO V Walk店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:50Z"
+  },
+  "v city 一田 香港": {
+    "place_id": "ChIJrcZTJyP7AzQRTO07LjTsmo4",
+    "name": "一田超市 (屯門)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:52Z"
+  },
+  "屯門市廣場 a-1 bakery 香港": {
+    "place_id": "ChIJzQe2AKz7AzQRmf-uFxcjCh4",
+    "name": "A-1 BAKERY 英王麵包店 (屯門市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:54Z"
+  },
+  "屯門市廣場 aeon 香港": {
+    "place_id": "ChIJ9wlK0Oj7AzQRpX_udvbKWBM",
+    "name": "AEON Tuen Mun Store",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:55Z"
+  },
+  "屯門市廣場 百老匯 香港": {
+    "place_id": "ChIJQS4adz37AzQR9MrwS3gSZmo",
+    "name": "百老滙 (屯門市廣場分店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:57Z"
+  },
+  "屯門市廣場 大家樂 香港": {
+    "place_id": "ChIJy3kfFj37AzQRfeeGoj9tbDY",
+    "name": "大家樂 (屯門市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:06:59Z"
+  },
+  "屯門市廣場 colourmix 香港": {
+    "place_id": "ChIJcfrAcOAABDQRThx4OKnQTHY",
+    "name": "colour mix",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:00Z"
+  },
+  "屯門市廣場 don don donki 香港": {
+    "place_id": "ChIJpYR7Lf_7AzQRBvXlcicz56M",
+    "name": "DON DON DONKI",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:02Z"
+  },
+  "屯門市廣場 豐澤 香港": {
+    "place_id": "ChIJ08ZkDT37AzQRDeUKJkZ-haQ",
+    "name": "豐澤 (屯門市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:04Z"
+  },
+  "屯門市廣場 元氣壽司 香港": {
+    "place_id": "ChIJD5x1cT37AzQR6kY-WF2EDgo",
+    "name": "元気寿司 (屯門市廣場)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:06Z"
+  },
+  "屯門市廣場 百佳 香港": {
+    "place_id": "ChIJ9RXGQT37AzQRE8OMXOUzLkk",
+    "name": "TaSTe (屯門市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:08Z"
+  },
+  "屯門市廣場 屈臣氏 香港": {
+    "place_id": "ChIJFwxqFj37AzQRDcAoTJJMvdM",
+    "name": "屈臣氏 (屯門市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:10Z"
+  },
+  "屯門市廣場 太平洋咖啡 香港": {
+    "place_id": "ChIJNbYsegD7AzQRnGt0VZ0Sty8",
+    "name": "Pacific Coffee ( 屯門市廣場店 )",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:12Z"
+  },
+  "屯門市廣場 7-eleven 香港": {
+    "place_id": "ChIJkfdlMRD7AzQRiulpHJHDkxo",
+    "name": "7-11便利店 (屯門市廣場二期店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:13Z"
+  },
+  "屯門時代廣場 屈臣氏 香港": {
+    "place_id": "ChIJTYanbj37AzQRffuIyiPgZqQ",
+    "name": "屈臣氏",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:15Z"
+  },
+  "屯門時代廣場 萬寧 香港": {
+    "place_id": "ChIJa9l9ez37AzQRoHDXcohtkkg",
+    "name": "萬寧 (屯門市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:17Z"
+  },
+  "錦薈坊 屈臣氏 香港": {
+    "place_id": "ChIJkRXVttABBDQRtRAGnLwlwBQ",
+    "name": "屈臣氏 (Mikiki店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:19Z"
+  },
+  "錦薈坊 萬寧 香港": {
+    "place_id": "ChIJs3Z-tb4HBDQR-rm6lSHuQ7Y",
+    "name": "萬寧 (九龍城衙前圍道店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:20Z"
+  },
+  "北角匯 uniqlo 香港": {
+    "place_id": "ChIJzUsgDuEBBDQRq7xINvgTFX4",
+    "name": "UNIQLO 北角匯店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:22Z"
+  },
+  "北角匯 一田 香港": {
+    "place_id": "ChIJhTQMjfwBBDQRqXPvu7V1_-g",
+    "name": "一田超市 (北角店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:24Z"
+  },
+  "康怡廣場 aeon 香港": {
+    "place_id": "ChIJ6Xqpr3QBBDQRp_gD8Ri5zVI",
+    "name": "AEON STYLE 康怡",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:26Z"
+  },
+  "康怡廣場 aeon style 香港": {
+    "place_id": "ChIJ6Xqpr3QBBDQRp_gD8Ri5zVI",
+    "name": "AEON STYLE 康怡",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:27Z"
+  },
+  "杏花新城 萬寧 香港": {
+    "place_id": "ChIJk2ygXdUDBDQRo-1KMdBleP0",
+    "name": "萬寧 (杏花新城店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:29Z"
+  },
+  "homesquare 惠康 香港": {
+    "place_id": "ChIJ3WV1ZrIHBDQRD76FSpLPso8",
+    "name": "新城市中央廣場",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:31Z"
+  },
+  "圍方 the wai 無印良品 香港": {
+    "place_id": "ChIJnxQY9uEHBDQRGebLvtc3Ufk",
+    "name": "無印良品 圍方店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:32Z"
+  },
+  "新城市廣場 a-1 bakery 香港": {
+    "place_id": "ChIJFTcnqK0HBDQRcjafVFE3FOk",
+    "name": "英王麵包店 (新城市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:34Z"
+  },
+  "新城市廣場 百老匯 香港": {
+    "place_id": "ChIJu976pq0HBDQR7_rvZez0EJs",
+    "name": "百老滙 (新城市廣場分店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:36Z"
+  },
+  "新城市廣場 city'super 香港": {
+    "place_id": "ChIJUy-mBq0HBDQRLts2ycczygQ",
+    "name": "c!ty’super 新城市廣場店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:37Z"
+  },
+  "新城市廣場 豐澤 香港": {
+    "place_id": "ChIJrzIhaqwHBDQReU8u4mh2CR8",
+    "name": "豐澤 (新城市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:39Z"
+  },
+  "新城市廣場 屈臣氏 香港": {
+    "place_id": "ChIJz3NXSa0HBDQRC8gBELe8HIM",
+    "name": "屈臣氏 (新城市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:41Z"
+  },
+  "新城市廣場 莎莎 香港": {
+    "place_id": "ChIJ-fmlp60HBDQRjjoKTh9JoZ0",
+    "name": "莎莎 新城市廣場店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:42Z"
+  },
+  "新港城中心 mostown 屈臣氏 香港": {
+    "place_id": "ChIJu3fNU7AIBDQRYOaNs5Dg9iU",
+    "name": "屈臣氏 (新港城中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:44Z"
+  },
+  "新港城中心 mostown uniqlo 香港": {
+    "place_id": "ChIJ41DTvLEIBDQRuYiMFAQ2iWk",
+    "name": "優衣庫 新港城中心店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:46Z"
+  },
+  "新港城中心 mostown 萬寧 香港": {
+    "place_id": "ChIJj4nRorEIBDQRyIzPTdMXJ-c",
+    "name": "萬寧 (新港城中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:48Z"
+  },
+  "沙田中心 屈臣氏 香港": {
+    "place_id": "ChIJz3NXSa0HBDQRC8gBELe8HIM",
+    "name": "屈臣氏 (新城市廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:50Z"
+  },
+  "elements 圓方 豐澤 香港": {
+    "place_id": "ChIJ4UKrq5YABDQRIwhNHZY64_k",
+    "name": "豐澤 (圓方店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:51Z"
+  },
+  "elements 圓方 星巴克 香港": {
+    "place_id": "ChIJ-ZhHqpYABDQRtrhY1EOQ62A",
+    "name": "星巴克 (圓方二層店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:53Z"
+  },
+  "k11 musea 星巴克 香港": {
+    "place_id": "ChIJ2UyOMwABBDQRDGsQolN0bsM",
+    "name": "K11 MUSEA 星巴克 Starbucks",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:55Z"
+  },
+  "k11 musea 萬寧 香港": {
+    "place_id": "ChIJy9F-16sBBDQRz1FwcnL3_jw",
+    "name": "萬寧 (K11 MUSEA店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:57Z"
+  },
+  "k11購物藝術館 萬寧 香港": {
+    "place_id": "ChIJy9F-16sBBDQRz1FwcnL3_jw",
+    "name": "萬寧 (K11 MUSEA店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:07:58Z"
+  },
+  "the one aeon 香港": {
+    "place_id": "ChIJwZmUze0ABDQR5NHRvx8wSTc",
+    "name": "AEON Supermarket (尖沙咀店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:00Z"
+  },
+  "the one aeon supermarket 香港": {
+    "place_id": "ChIJwZmUze0ABDQR5NHRvx8wSTc",
+    "name": "AEON Supermarket (尖沙咀店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:01Z"
+  },
+  "奧海城 大食代 food republic 香港": {
+    "place_id": "ChIJT1QTqb4ABDQRYqJAysQKsP0",
+    "name": "大食代",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:03Z"
+  },
+  "奧海城 大家樂 香港": {
+    "place_id": "ChIJi5vychABBDQRhGs6ApvmEAM",
+    "name": "大家樂 (奧海城店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:05Z"
+  },
+  "奧海城 豐澤 香港": {
+    "place_id": "ChIJqSTOZrkABDQRT5HoWVuTPHQ",
+    "name": "豐澤 (奥海城店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:07Z"
+  },
+  "奧海城 元氣壽司 香港": {
+    "place_id": "ChIJqaTP5rsABDQRyGBTou3XxHM",
+    "name": "元気寿司 (奧運)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:08Z"
+  },
+  "奧海城 gu 香港": {
+    "place_id": "ChIJ31PsY7kABDQR_wjg2NPd7Jo",
+    "name": "GU 奧海城店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:10Z"
+  },
+  "奧海城 屈臣氏 香港": {
+    "place_id": "ChIJLdOHYLkABDQRp-FYe2T6VmY",
+    "name": "屈臣氏 (奧海城店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:12Z"
+  },
+  "奧海城 café & meal muji 香港": {
+    "place_id": "ChIJcedv5LsABDQRENfCf3QdeRk",
+    "name": "Café&Meal MUJI",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:14Z"
+  },
+  "奧海城 莎莎 香港": {
+    "place_id": "ChIJwXz047sABDQRcYw2g4-pZjY",
+    "name": "莎莎 奧海城店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:15Z"
+  },
+  "朗豪坊 無印良品 香港": {
+    "place_id": "ChIJ33J5nccABDQR2j7tABkCJ2s",
+    "name": "無印良品 朗豪坊店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:17Z"
+  },
+  "海港城 屈臣氏 香港": {
+    "place_id": "ChIJORniSO0ABDQRY_IxGAeVodI",
+    "name": "屈臣氏 (海港城店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:19Z"
+  },
+  "海港城 uniqlo 香港": {
+    "place_id": "ChIJSfKzq_IABDQR2fIM_ODY4tw",
+    "name": "UNIQLO 海港城店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:20Z"
+  },
+  "v walk uniqlo 香港": {
+    "place_id": "ChIJ30F2h68BBDQR6OLXr5REI6U",
+    "name": "UNIQLO V Walk店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:22Z"
+  },
+  "昇悅商場 萬寧 香港": {
+    "place_id": "ChIJndjROQkHBDQRLEJehHcBKrg",
+    "name": "萬寧 (晴朗商場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:23Z"
+  },
+  "碧海藍天商場 aeon 香港": {
+    "place_id": "ChIJYRUOdKsABDQRf1mCOYIbAFo",
+    "name": "AEON 荔枝角店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:25Z"
+  },
+  "西九龍中心 屈臣氏 香港": {
+    "place_id": "ChIJ4WWsELMABDQRXoLlXqxx1dY",
+    "name": "屈臣氏 (Dragon Centre店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:27Z"
+  },
+  "西九龍中心 萬寧 香港": {
+    "place_id": "ChIJw4LLE7MABDQR4MMha8oMpPc",
+    "name": "西九龍中心",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:29Z"
+  },
+  "hysan place 譚仔三哥米線 香港": {
+    "place_id": "ChIJJ8KAkxYBBDQRZqP8bbVenzI",
+    "name": "TamJai SamGor (Hysan Place)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:30Z"
+  },
+  "利東街 sho-en 香港": {
+    "place_id": "ChIJYTz9S-EBBDQREK2Mldu6-DI",
+    "name": "SHO-EN 笑 • 宴",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:32Z"
+  },
+  "利東街 rakuraku ramen 香港": {
+    "place_id": "ChIJQ5i32BcBBDQRcMNsVzu62fU",
+    "name": "樂拉麵 (灣仔利東街)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:33Z"
+  },
+  "合和中心 屈臣氏 香港": {
+    "place_id": "ChIJy_esMUMABDQR91DWBY4Afss",
+    "name": "屈臣氏 (合和中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:35Z"
+  },
+  "合和商場 星巴克 香港": {
+    "place_id": "ChIJHTysMUMABDQRP3pXpExGrns",
+    "name": "星巴克臻選™ 合和中心店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:37Z"
+  },
+  "時代廣場 屈臣氏 香港": {
+    "place_id": "ChIJIa292VAABDQRUv0qLThlYbs",
+    "name": "屈臣氏 (時代廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:39Z"
+  },
+  "皇室堡 無印良品 香港": {
+    "place_id": "ChIJhVLhOVQABDQR8mz8wns07S0",
+    "name": "無印良品 皇室堡店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:42Z"
+  },
+  "d·park 愉景新城 屈臣氏 香港": {
+    "place_id": "ChIJS2ulC-j5AzQRmZptMczGdho",
+    "name": "屈臣氏 (愉景新城店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:44Z"
+  },
+  "d·park 愉景新城 萬寧 香港": {
+    "place_id": "ChIJrej_rvH4AzQRs1qb5zATdVo",
+    "name": "萬寧 (愉景新城店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:45Z"
+  },
+  "op mall 海之戀商場 大快活 香港": {
+    "place_id": "ChIJiXxfy-j4AzQR5fQBtm0Unyg",
+    "name": "大快活 (海之戀商場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:47Z"
+  },
+  "op mall 海之戀商場 星巴克 香港": {
+    "place_id": "ChIJiXxfy-j4AzQR7ZZzIM0HNVA",
+    "name": "星巴克 (海之戀商場)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:49Z"
+  },
+  "綠楊坊 萬寧 香港": {
+    "place_id": "ChIJcw0rtPL4AzQRp9suQR8KZCs",
+    "name": "萬寧 (綠楊坊店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:50Z"
+  },
+  "荃新天地 a-1 bakery 香港": {
+    "place_id": "ChIJB5nrgu74AzQRTB1DS-FbjSI",
+    "name": "英王麵包店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:52Z"
+  },
+  "荃新天地 colourmix 香港": {
+    "place_id": "ChIJx4PUf-74AzQRIuPlBJx1NGY",
+    "name": "卡萊美化妝品專門店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:54Z"
+  },
+  "荃新天地 鴻福堂 香港": {
+    "place_id": "ChIJOVihm-74AzQReHMcaSYr08I",
+    "name": "鴻福堂 (荃新天地店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:55Z"
+  },
+  "荃新天地 奇華餅家 香港": {
+    "place_id": "ChIJ1YHAm-74AzQRNsW5hU6fAY0",
+    "name": "奇華餅家 (荃新天地店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:57Z"
+  },
+  "荃新天地 屈臣氏 香港": {
+    "place_id": "ChIJ3cowm-74AzQR33tdnRzTN_4",
+    "name": "屈臣氏",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:08:59Z"
+  },
+  "荃新天地 uniqlo 香港": {
+    "place_id": "ChIJiVS6nu74AzQRneUCr02ikS4",
+    "name": "UNIQLO 荃新天地店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:00Z"
+  },
+  "荃新天地 萬寧 香港": {
+    "place_id": "ChIJyS4eme74AzQR2E3cguBORqo",
+    "name": "萬寧 (荃新天地店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:02Z"
+  },
+  "荃新天地 7-eleven 香港": {
+    "place_id": "ChIJydw-Auz4AzQRyA6IgphmNFU",
+    "name": "7-11便利店 (荃新天地店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:04Z"
+  },
+  "荃灣廣場 屈臣氏 香港": {
+    "place_id": "ChIJl8B1_u74AzQRlJT-tYUUzSU",
+    "name": "荃灣廣場",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:06Z"
+  },
+  "荃灣廣場 一田 香港": {
+    "place_id": "ChIJDxbRA-_4AzQRDwSwvFdPSIU",
+    "name": "一田 (荃灣)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:08Z"
+  },
+  "新都會廣場 無印良品 香港": {
+    "place_id": "ChIJU4n1Mbz4AzQRyxYydmr5OIU",
+    "name": "無印良品 新都會廣場店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:09Z"
+  },
+  "新都會廣場 uniqlo 香港": {
+    "place_id": "ChIJGRRHgWD5AzQRB8ppBm3fjo8",
+    "name": "UNIQLO 新都會廣場店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:11Z"
+  },
+  "新都會廣場 一田 香港": {
+    "place_id": "ChIJzwjNLLz4AzQRWns7sC1paXA",
+    "name": "一田超市 (葵芳店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:13Z"
+  },
+  "葵涌廣場 大家樂 香港": {
+    "place_id": "ChIJRQs6jh75AzQRLJm3mERgnr4",
+    "name": "大家樂 (葵涌廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:14Z"
+  },
+  "葵涌廣場 譚仔三哥米線 香港": {
+    "place_id": "ChIJQ7zOyL34AzQRpTkbpmErXus",
+    "name": "譚仔三哥米線 (葵涌廣場)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:16Z"
+  },
+  "青衣城 aeon mono mono 香港": {
+    "place_id": "ChIJezLmGQD5AzQR9bqui1OhlOI",
+    "name": "ものもの青衣店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:18Z"
+  },
+  "青衣城 豐澤 香港": {
+    "place_id": "ChIJiyvjx9z4AzQR3bAm05PifFU",
+    "name": "豐澤 (青衣城店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:20Z"
+  },
+  "青衣城 uniqlo 香港": {
+    "place_id": "ChIJpd4vzcT4AzQRpU1U8vpfj4U",
+    "name": "UNIQLO 青衣城店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:21Z"
+  },
+  "popcorn uniqlo 香港": {
+    "place_id": "ChIJIR6KH_MDBDQRY8OMQwk4IM8",
+    "name": "UNIQLO PopCorn店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:23Z"
+  },
+  "將軍澳中心 park central 萬寧 香港": {
+    "place_id": "ChIJX96nHfIDBDQRLvm7CEauAQE",
+    "name": "萬寧 (將軍澳中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:25Z"
+  },
+  "新都城中心 屈臣氏 香港": {
+    "place_id": "ChIJtRZ4CwwEBDQRV9HAO24XNPU",
+    "name": "屈臣氏 (新都城中心二期店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:27Z"
+  },
+  "新都城中心 無印良品 香港": {
+    "place_id": "ChIJ6RZ2sh0FBDQRUuxG7kJSpIo",
+    "name": "無印良品 新都城中心",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:29Z"
+  },
+  "新都城中心 uniqlo 香港": {
+    "place_id": "ChIJryICSp8FBDQRby8SF6lCYs0",
+    "name": "UNIQLO 新都城中心店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:30Z"
+  },
+  "東港城 屈臣氏 香港": {
+    "place_id": "ChIJBYPhfHUEBDQRCRLL7vX-5d4",
+    "name": "屈臣氏 (東港城店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:32Z"
+  },
+  "東港城 一田 香港": {
+    "place_id": "ChIJJwuJgXUEBDQRCcJ7dLyJ5QM",
+    "name": "一田超市 (將軍澳店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:34Z"
+  },
+  "megabox aeon 香港": {
+    "place_id": "ChIJ14EeATQBBDQRro185kvPOcE",
+    "name": "AEON 九龍灣店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:36Z"
+  },
+  "apm 無印良品 香港": {
+    "place_id": "ChIJCf9KkU8BBDQR2UMbJHMvTVw",
+    "name": "無印良品 APM店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:38Z"
+  },
+  "apm 星巴克 香港": {
+    "place_id": "ChIJD7Hyk08BBDQRaw-thWRWFf4",
+    "name": "星巴克 (APM店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:40Z"
+  },
+  "apm 一田 香港": {
+    "place_id": "ChIJe_35j08BBDQRAY7aTdM4AZ0",
+    "name": "一田超市 (觀塘店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:41Z"
+  },
+  "德福廣場 百老匯 香港": {
+    "place_id": "ChIJf1FmRzUBBDQRp6ODsXccDQU",
+    "name": "百老滙 (德福廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:43Z"
+  },
+  "德福廣場 屈臣氏 香港": {
+    "place_id": "ChIJN9Hsz8oGBDQREVUE2iyIw60",
+    "name": "屈臣氏 (德福廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:45Z"
+  },
+  "德福廣場 無印良品 香港": {
+    "place_id": "ChIJac5uoKUBBDQRDEiM0pd1H04",
+    "name": "無印良品 德福廣場店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:46Z"
+  },
+  "愉景灣北商場 db north plaza uncle russ coffee 香港": {
+    "place_id": "ChIJWexrn7v9AzQRc7FnxaL2uAs",
+    "name": "Uncle Russ Coffee",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:48Z"
+  },
+  "愉景灣北商場 db north plaza market place 香港": {
+    "place_id": "ChIJhyynBbP9AzQRVGfkTlWLOes",
+    "name": "愉景北商場",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:50Z"
+  },
+  "愉景灣北商場 db north plaza 7-eleven 香港": {
+    "place_id": "ChIJwSkOAbP9AzQR-CP_cRbVXts",
+    "name": "7-11便利店 (愉景北商場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:52Z"
+  },
+  "愉景灣廣場 db plaza 屈臣氏 香港": {
+    "place_id": "ChIJN_E3mLv9AzQR_PzEzQbKqVM",
+    "name": "愉景廣場",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:53Z"
+  },
+  "東薈城名店倉 uniqlo 香港": {
+    "place_id": "ChIJ31Rj8IvjAzQRxY1oqBe99v4",
+    "name": "UNIQLO 東薈城店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:55Z"
+  },
+  "荷里活廣場 living plaza by aeon 香港": {
+    "place_id": "ChIJeejWcwAHBDQR4NbzyiNnzXA",
+    "name": "荷里活廣場",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:57Z"
+  },
+  "荷里活廣場 屈臣氏 香港": {
+    "place_id": "ChIJBcFWItsGBDQRDcJVEDMUxlA",
+    "name": "屈臣氏 (荷里活廣場店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:09:59Z"
+  },
+  "荷里活廣場 無印良品 香港": {
+    "place_id": "ChIJ9xZZcrsHBDQR9jT6rKSeWEc",
+    "name": "無印良品 荷里活廣場",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:10:01Z"
+  },
+  "荷里活廣場 uniqlo 香港": {
+    "place_id": "ChIJCWm3I9sGBDQRWA5dsY37tlo",
+    "name": "UNIQLO 荷里活廣場店",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:10:03Z"
+  },
+  "黃大仙中心 屈臣氏 香港": {
+    "place_id": "ChIJQ919jtgGBDQRnfTMMxYM-gg",
+    "name": "屈臣氏 (黃大仙中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:10:05Z"
+  },
+  "黃大仙中心 萬寧 香港": {
+    "place_id": "ChIJMT36htgGBDQRQeP8Wd1341A",
+    "name": "萬寧 (黃大仙中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:10:07Z"
+  },
+  "黃大仙中心 賞茶 香港": {
+    "place_id": "ChIJFYRMidgGBDQR6OoAeQAHkXo",
+    "name": "賞茶 (黃大仙中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:10:09Z"
+  },
+  "黃大仙中心 mos cafe 香港": {
+    "place_id": "ChIJ_RBKYdgGBDQRLSK2DJqjuOo",
+    "name": "MOS Burger (黃大仙中心店)",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:10:10Z"
+  },
+  "黃大仙中心 金僑中西藥行 香港": {
+    "place_id": "ChIJu8PlCNkGBDQRn9WCcAArjOA",
+    "name": "金僑中西葯行",
+    "status": "ok",
+    "updated_at": "2026-08-18T16:10:13Z"
   }
 }

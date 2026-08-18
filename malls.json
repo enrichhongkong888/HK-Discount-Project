@@ -650,8 +650,9 @@
               "relocation_status": "ok",
               "store_key": "3432ba4e7cee_145_25232885",
               "mall_id": "3432ba4e7cee",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJDUGF_HUBBDQRaKyABY0y8YE",
+              "google_query": "太古廣場 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -709,8 +710,9 @@
               "relocation_status": "ok",
               "store_key": "3432ba4e7cee_100_39738370",
               "mall_id": "3432ba4e7cee",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ_R6kn5QBBDQR9e7y8I6ka10",
+              "google_query": "太古廣場 無印良品 香港"
             },
             {
               "type": "store",
@@ -757,12 +759,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_3432ba4e7cee_128129",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/3432ba4e7cee_128-129_28029822.jpg",
+              "facade_image_url": "frontend/images/stores/3432ba4e7cee_128-129_28029822.jpg",
+              "image_url": "frontend/images/stores/3432ba4e7cee_128-129_28029822.jpg",
               "relocation_status": "ok",
               "store_key": "3432ba4e7cee_128-129_28029822",
-              "mall_id": "3432ba4e7cee"
+              "mall_id": "3432ba4e7cee",
+              "image_source": "google_places",
+              "google_place_id": "ChIJDVW9tmcABDQRzrlkBV5PIYc",
+              "google_query": "太古廣場 星巴克 香港"
             }
           ],
           "lat": 22.27755,
@@ -868,12 +873,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_fc1ca715373e_305306",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/fc1ca715373e_305-306_35967836.jpg",
+              "facade_image_url": "frontend/images/stores/fc1ca715373e_305-306_35967836.jpg",
+              "image_url": "frontend/images/stores/fc1ca715373e_305-306_35967836.jpg",
               "relocation_status": "ok",
               "store_key": "fc1ca715373e_305-306_35967836",
-              "mall_id": "fc1ca715373e"
+              "mall_id": "fc1ca715373e",
+              "image_source": "google_places",
+              "google_place_id": "ChIJwehpLwABBDQR--V0Op02U44",
+              "google_query": "置地廣場 星巴克 香港"
             }
           ],
           "lat": 22.28045,
@@ -1050,8 +1058,9 @@
               "relocation_status": "ok",
               "store_key": "airside_408-410_39713158",
               "mall_id": "airside",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJpyS4BOgHBDQRtp7QCteKBsM",
+              "google_query": "AIRSIDE 無印良品 香港"
             }
           ],
           "lat": 22.33085,
@@ -1184,8 +1193,9 @@
               "relocation_status": "ok",
               "store_key": "18f74826e08d_lg1-30_39713208",
               "mall_id": "18f74826e08d",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJDez6NTEHBDQRCatfPAS3Txg",
+              "google_query": "又一城 無印良品 香港"
             },
             {
               "type": "store",
@@ -1243,12 +1253,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_18f74826e08d_ug20a",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/18f74826e08d_ug-20a_22658589.jpg",
+              "facade_image_url": "frontend/images/stores/18f74826e08d_ug-20a_22658589.jpg",
+              "image_url": "frontend/images/stores/18f74826e08d_ug-20a_22658589.jpg",
               "relocation_status": "ok",
               "store_key": "18f74826e08d_ug-20a_22658589",
-              "mall_id": "18f74826e08d"
+              "mall_id": "18f74826e08d",
+              "image_source": "google_places",
+              "google_place_id": "ChIJnVdqSTEHBDQRkvpP1iDQd30",
+              "google_query": "又一城 星巴克 香港"
             },
             {
               "type": "store",
@@ -1314,8 +1327,9 @@
               "relocation_status": "ok",
               "store_key": "18f74826e08d_l1-01_22658586",
               "mall_id": "18f74826e08d",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ-bqYaDEHBDQRzFqCZYCT44Y",
+              "google_query": "又一城 UNIQLO 香港"
             }
           ],
           "lat": 22.33735,
@@ -1509,12 +1523,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "044d36a14c06_2c55a9365efd_2118",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/2c55a9365efd_2118_23045170.jpg",
+              "facade_image_url": "frontend/images/stores/2c55a9365efd_2118_23045170.jpg",
+              "image_url": "frontend/images/stores/2c55a9365efd_2118_23045170.jpg",
               "relocation_status": "ok",
               "store_key": "2c55a9365efd_2118_23045170",
-              "mall_id": "2c55a9365efd"
+              "mall_id": "2c55a9365efd",
+              "image_source": "google_places",
+              "google_place_id": "ChIJrc6zoigHBDQRLFVQbCXM4bM",
+              "google_query": "樂富廣場 聖安娜 香港"
             },
             {
               "type": "store",
@@ -1570,8 +1587,9 @@
               "relocation_status": "ok",
               "store_key": "2c55a9365efd_1151-1156_23373837",
               "mall_id": "2c55a9365efd",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJC54vlSgHBDQRNhy5uVecHfA",
+              "google_query": "樂富廣場 UNIQLO 香港"
             },
             {
               "type": "store",
@@ -1619,12 +1637,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "41380373b0c8_2c55a9365efd_l228l230",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c55a9365efd_l228-l230_23389381.jpg",
+              "facade_image_url": "frontend/images/stores/2c55a9365efd_l228-l230_23389381.jpg",
+              "image_url": "frontend/images/stores/2c55a9365efd_l228-l230_23389381.jpg",
               "relocation_status": "ok",
               "store_key": "2c55a9365efd_l228-l230_23389381",
-              "mall_id": "2c55a9365efd"
+              "mall_id": "2c55a9365efd",
+              "image_source": "google_places",
+              "google_place_id": "ChIJrc6zoigHBDQRA_1wXhHc-0c",
+              "google_query": "樂富廣場 太興 香港"
             },
             {
               "type": "store",
@@ -1753,12 +1774,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "044d36a14c06_2c55a9365efd_2118",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c55a9365efd_2118_23045170.jpg",
+              "facade_image_url": "frontend/images/stores/2c55a9365efd_2118_23045170.jpg",
+              "image_url": "frontend/images/stores/2c55a9365efd_2118_23045170.jpg",
               "relocation_status": "ok",
               "store_key": "2c55a9365efd_2118_23045170",
-              "mall_id": "2c55a9365efd"
+              "mall_id": "2c55a9365efd",
+              "image_source": "google_places",
+              "google_place_id": "ChIJrc6zoigHBDQRLFVQbCXM4bM",
+              "google_query": "樂富廣場 聖安娜餅屋 香港"
             },
             {
               "type": "store",
@@ -1795,12 +1819,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "226d2e57bdf5_2c55a9365efd_2128",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c55a9365efd_2128_23382931.jpg",
+              "facade_image_url": "frontend/images/stores/2c55a9365efd_2128_23382931.jpg",
+              "image_url": "frontend/images/stores/2c55a9365efd_2128_23382931.jpg",
               "relocation_status": "ok",
               "store_key": "2c55a9365efd_2128_23382931",
-              "mall_id": "2c55a9365efd"
+              "mall_id": "2c55a9365efd",
+              "image_source": "google_places",
+              "google_place_id": "ChIJc8_OoygHBDQRKGUmkVbnr8U",
+              "google_query": "樂富廣場 典雅髮廊 香港"
             },
             {
               "type": "store",
@@ -2222,12 +2249,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "breadnbutter_2c39d39b5018_g34",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_g34_23567603.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_g34_23567603.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_g34_23567603.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_g34_23567603",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ7YC-Z-AABDQRuLKZBCRhTxM",
+              "google_query": "黃埔天地 Bread n Butter 香港"
             },
             {
               "type": "store",
@@ -2278,12 +2308,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "f8d44c8367d1_2c39d39b5018_g7f",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_g7f_23568796.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_g7f_23568796.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_g7f_23568796.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_g7f_23568796",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJZcsCjOAABDQRFrYhAh_ldTc",
+              "google_query": "黃埔天地 香港仔南記粉麵 香港"
             },
             {
               "type": "store",
@@ -2322,12 +2355,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "skechers_2c39d39b5018_g8",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_g8_26902980.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_g8_26902980.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_g8_26902980.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_g8_26902980",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJvZDmjdgGBDQRvCXKVnvwI1o",
+              "google_query": "黃埔天地 Skechers 香港"
             },
             {
               "type": "store",
@@ -2360,12 +2396,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "vivacircus_2c39d39b5018_g17",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_g17_23303780.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_g17_23303780.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_g17_23303780.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_g17_23303780",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJjdOtZ-AABDQRAwwoLKjWwLM",
+              "google_query": "黃埔天地 Viva Circus 香港"
             },
             {
               "type": "store",
@@ -2398,12 +2437,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "syster_2c39d39b5018_g28c",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_g28c_23331373.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_g28c_23331373.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_g28c_23331373.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_g28c_23331373",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJjdOtZ-AABDQRdly70ExfLzk",
+              "google_query": "黃埔天地 Syster 香港"
             },
             {
               "type": "store",
@@ -2471,12 +2513,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "drkong_2c39d39b5018_b8",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_b8_23568902.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_b8_23568902.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_b8_23568902.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_b8_23568902",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ18p9ceAABDQRbzLDzHVezGU",
+              "google_query": "黃埔天地 Dr. Kong 健康鞋專門店 香港"
             },
             {
               "type": "store",
@@ -2509,12 +2554,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "honeylash_2c39d39b5018_25",
-              "store_image_url": "images/defaults/store_default.png",
-              "facade_image_url": "images/defaults/store_default.png",
-              "image_url": "images/defaults/store_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_25_23457698.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_25_23457698.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_25_23457698.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_25_23457698",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ5Xz-VvMBBDQRyL84B54xiGU",
+              "google_query": "黃埔天地 Honey Lash 香港"
             },
             {
               "type": "store",
@@ -2581,12 +2629,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "5aad2e172c39_2c39d39b5018_2ae25b11c6c17",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_ae25b11c6c17_23623855.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_ae25b11c6c17_23623855.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_ae25b11c6c17_23623855.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_ae25b11c6c17_23623855",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJgxrOCuAABDQR835sUaF8evU",
+              "google_query": "黃埔天地 美國冒險樂園 香港"
             },
             {
               "type": "store",
@@ -2619,12 +2670,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "june_2c39d39b5018_g31",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_g31_23626880.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_g31_23626880.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_g31_23626880.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_g31_23626880",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJWYHH3d8ABDQRuSGDNJY4Eng",
+              "google_query": "黃埔天地 June 香港"
             },
             {
               "type": "store",
@@ -2657,12 +2711,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "kate_2c39d39b5018_g37",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2c39d39b5018_g37_24309998.jpg",
+              "facade_image_url": "frontend/images/stores/2c39d39b5018_g37_24309998.jpg",
+              "image_url": "frontend/images/stores/2c39d39b5018_g37_24309998.jpg",
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_g37_24309998",
-              "mall_id": "2c39d39b5018"
+              "mall_id": "2c39d39b5018",
+              "image_source": "google_places",
+              "google_place_id": "ChIJWYHH3d8ABDQRuSGDNJY4Eng",
+              "google_query": "黃埔天地 .k.a.t.e. 香港"
             },
             {
               "type": "store",
@@ -2709,8 +2766,9 @@
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_b3_29542786",
               "mall_id": "2c39d39b5018",
-              "image_source": "chain_brand",
-              "brand_id": "fortress"
+              "image_source": "google_places",
+              "google_place_id": "ChIJl7ucWucABDQR3qh4oP0YsNo",
+              "google_query": "黃埔天地 豐澤 香港"
             },
             {
               "type": "store",
@@ -2755,8 +2813,9 @@
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_g32-33_22614048",
               "mall_id": "2c39d39b5018",
-              "image_source": "chain_brand",
-              "brand_id": "g2000"
+              "image_source": "google_places",
+              "google_place_id": "ChIJeXxvZ-AABDQRf4hyH8tWkfA",
+              "google_query": "黃埔天地 G2000 香港"
             },
             {
               "type": "store",
@@ -2863,8 +2922,9 @@
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_5-6_26276688",
               "mall_id": "2c39d39b5018",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJjbnc6pMBBDQR0vBLvBiT2CU",
+              "google_query": "黃埔天地 AEON STYLE 香港"
             },
             {
               "type": "store",
@@ -2910,8 +2970,9 @@
               "relocation_status": "ok",
               "store_key": "2c39d39b5018_3a_29945691",
               "mall_id": "2c39d39b5018",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJAQDs0O8ABDQRONX368w2qaQ",
+              "google_query": "黃埔天地 屈臣氏 香港"
             }
           ],
           "lat": 22.30505,
@@ -3241,8 +3302,9 @@
               "relocation_status": "ok",
               "store_key": "woo_g73a_27968003",
               "mall_id": "woo",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJm9mx34fwAzQRCMdfyPZaDkU",
+              "google_query": "+WOO 嘉湖 屈臣氏 香港"
             }
           ],
           "lat": 22.45015,
@@ -3319,8 +3381,9 @@
               "relocation_status": "ok",
               "store_key": "t-town_s122-124_28161468",
               "mall_id": "t-town",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJNYfqAGPwAzQRimJl_g-dl8I",
+              "google_query": "T Town UNIQLO 香港"
             },
             {
               "type": "store",
@@ -3373,12 +3436,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "40718f0e1053_ttown_s201ab",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/t-town_s201a-b_26308318.jpg",
+              "facade_image_url": "frontend/images/stores/t-town_s201a-b_26308318.jpg",
+              "image_url": "frontend/images/stores/t-town_s201a-b_26308318.jpg",
               "relocation_status": "ok",
               "store_key": "t-town_s201a-b_26308318",
-              "mall_id": "t-town"
+              "mall_id": "t-town",
+              "image_source": "google_places",
+              "google_place_id": "ChIJCX1SAwDxAzQRl-8G1LY9aew",
+              "google_query": "T Town 川川辣辣 香港"
             },
             {
               "type": "store",
@@ -3538,12 +3604,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "skymart_ttown_n113",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/t-town_n113_46116768.jpg",
+              "facade_image_url": "frontend/images/stores/t-town_n113_46116768.jpg",
+              "image_url": "frontend/images/stores/t-town_n113_46116768.jpg",
               "relocation_status": "ok",
               "store_key": "t-town_n113_46116768",
-              "mall_id": "t-town"
+              "mall_id": "t-town",
+              "image_source": "google_places",
+              "google_place_id": "ChIJU6D9cFz5AzQRIa09MJE9A2Y",
+              "google_query": "T Town SKYMART 香港"
             },
             {
               "type": "store",
@@ -3586,12 +3655,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "460269027a9d_ttown_g18",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/t-town_g18_24450282.jpg",
+              "facade_image_url": "frontend/images/stores/t-town_g18_24450282.jpg",
+              "image_url": "frontend/images/stores/t-town_g18_24450282.jpg",
               "relocation_status": "ok",
               "store_key": "t-town_g18_24450282",
-              "mall_id": "t-town"
+              "mall_id": "t-town",
+              "image_source": "google_places",
+              "google_place_id": "ChIJxwEA0zAGBDQRzThzycG5TLw",
+              "google_query": "T Town 盈健醫務中心 香港"
             },
             {
               "type": "store",
@@ -3634,12 +3706,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "24905627aac6_ttown_g0506",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/t-town_g05-06_27687001.jpg",
+              "facade_image_url": "frontend/images/stores/t-town_g05-06_27687001.jpg",
+              "image_url": "frontend/images/stores/t-town_g05-06_27687001.jpg",
               "relocation_status": "ok",
               "store_key": "t-town_g05-06_27687001",
-              "mall_id": "t-town"
+              "mall_id": "t-town",
+              "image_source": "google_places",
+              "google_place_id": "ChIJc4W0tmPwAzQRuPlgXOg4a4o",
+              "google_query": "T Town 祥益地產 香港"
             }
           ],
           "lat": 22.46025,
@@ -4633,8 +4708,9 @@
               "relocation_status": "ok",
               "store_key": "2db42835b170_201-220a_27775380",
               "mall_id": "2db42835b170",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJB834Gm9S_xMRMN861Zz9_Do",
+              "google_query": "元朗廣場 UNIQLO 香港"
             }
           ],
           "lat": 22.44455,
@@ -4800,8 +4876,9 @@
               "relocation_status": "ok",
               "store_key": "ed2e2e8206d1_2077d-h_27877202",
               "mall_id": "ed2e2e8206d1",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJKyWNsNYGBDQR5dhVW6GzRbA",
+              "google_query": "上水中心購物商場 萬寧 香港"
             }
           ],
           "lat": 22.50155,
@@ -4922,8 +4999,9 @@
               "relocation_status": "ok",
               "store_key": "spot_103b-104_26031378",
               "mall_id": "spot",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJxzcnpRH2AzQRzVkMwk1-o14",
+              "google_query": "上水匯 spot 屈臣氏 香港"
             }
           ],
           "lat": 22.50185,
@@ -5007,8 +5085,9 @@
               "relocation_status": "ok",
               "store_key": "9998a5d14f22_419-423_24800034",
               "mall_id": "9998a5d14f22",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ6xBQArz3AzQRbPxegh5CFFo",
+              "google_query": "上水廣場 萬寧 香港"
             },
             {
               "type": "store",
@@ -5366,12 +5445,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "mercicafebydesses_9998a5d14f22_512",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/9998a5d14f22_512_68128980.jpg",
+              "facade_image_url": "frontend/images/stores/9998a5d14f22_512_68128980.jpg",
+              "image_url": "frontend/images/stores/9998a5d14f22_512_68128980.jpg",
               "relocation_status": "ok",
               "store_key": "9998a5d14f22_512_68128980",
-              "mall_id": "9998a5d14f22"
+              "mall_id": "9998a5d14f22",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ_X0zqsT3AzQRy14rqWTFeRc",
+              "google_query": "上水廣場 Merci Cafe by Déesses 香港"
             }
           ],
           "lat": 22.50125,
@@ -5647,8 +5729,9 @@
               "relocation_status": "ok",
               "store_key": "1b1346b34f03_28c-28d_26750656",
               "mall_id": "1b1346b34f03",
-              "image_source": "chain_brand",
-              "brand_id": "fortress"
+              "image_source": "google_places",
+              "google_place_id": "ChIJDeR3Xx_2AzQRkEhGs0B1ouw",
+              "google_query": "粉嶺名都商場 豐澤 香港"
             }
           ],
           "lat": 22.49355,
@@ -5762,8 +5845,9 @@
               "relocation_status": "ok",
               "store_key": "the-southside_g13_28937311",
               "mall_id": "the-southside",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ9_KqNagBBDQRaoa-oVuML0k",
+              "google_query": "THE SOUTHSIDE 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -5837,8 +5921,9 @@
               "relocation_status": "ok",
               "store_key": "the-southside_214-221_25128698",
               "mall_id": "the-southside",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJsdf3q5oBBDQR0acQtgWr43E",
+              "google_query": "THE SOUTHSIDE UNIQLO 香港"
             }
           ],
           "lat": 22.24355,
@@ -5914,8 +5999,9 @@
               "relocation_status": "ok",
               "store_key": "17491e366c86_eccbc87e4b5c_29896030",
               "mall_id": "17491e366c86",
-              "image_source": "chain_brand",
-              "brand_id": "parknshop"
+              "image_source": "google_places",
+              "google_place_id": "ChIJJYKtou__AzQRd5oHfHsVHJc",
+              "google_query": "數碼港商場 百佳 香港"
             },
             {
               "type": "store",
@@ -5963,12 +6049,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_17491e366c86_316",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_316_29899592.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_316_29899592.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_316_29899592.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_316_29899592",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJZ2jYx-__AzQRlVUl89CYxwQ",
+              "google_query": "數碼港商場 星巴克 香港"
             },
             {
               "type": "store",
@@ -6018,12 +6107,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "22311e5557e7_17491e366c86_102",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_102_83008198.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_102_83008198.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_102_83008198.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_102_83008198",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJx3PY3d__AzQRjxSH2qGeMsc",
+              "google_query": "數碼港商場 鍾菜館 香港"
             },
             {
               "type": "store",
@@ -6066,12 +6158,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "seedbyfarmacy_17491e366c86_207",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_207_65041467.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_207_65041467.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_207_65041467.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_207_65041467",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ_z1FaeT_AzQRnHD4pZI0bFE",
+              "google_query": "數碼港商場 Seed by Farmacy 香港"
             },
             {
               "type": "store",
@@ -6114,12 +6209,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "elcharromexicancantina_17491e366c86_208",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_208_27932522.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_208_27932522.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_208_27932522.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_208_27932522",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJhS7HTu7_AzQRBepzz9mWEW4",
+              "google_query": "數碼港商場 El Charro Mexican Cantina 香港"
             },
             {
               "type": "store",
@@ -6165,12 +6263,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "afee8c678143_17491e366c86_307",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_307_29896286.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_307_29896286.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_307_29896286.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_307_29896286",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJH8dRve__AzQRdQRjJxdmM48",
+              "google_query": "數碼港商場 奧壽司 香港"
             },
             {
               "type": "store",
@@ -6203,12 +6304,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "976daf43a519_17491e366c86_304",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_304_27391000.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_304_27391000.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_304_27391000.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_304_27391000",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ47DdqHL_AzQRpUS3uB6tqfw",
+              "google_query": "數碼港商場 牛田鮮 香港"
             },
             {
               "type": "store",
@@ -6247,12 +6351,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "pepperlunchexpress_17491e366c86_403a",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_403a_25772311.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_403a_25772311.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_403a_25772311.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_403a_25772311",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJdRTFve__AzQRiLd9miBE6ag",
+              "google_query": "數碼港商場 Pepper Lunch Express 香港"
             },
             {
               "type": "store",
@@ -6294,12 +6401,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "33a06e214c5c_17491e366c86_407",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_407_56329938.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_407_56329938.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_407_56329938.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_407_56329938",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJs9nfdgAHBDQRPBtHXbVoB-k",
+              "google_query": "數碼港商場 麵屋龍平 香港"
             },
             {
               "type": "store",
@@ -6341,12 +6451,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "861121249485_17491e366c86_309a",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_309a_66995257.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_309a_66995257.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_309a_66995257.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_309a_66995257",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJRzMWHAD_AzQRvMcwp_diuXI",
+              "google_query": "數碼港商場 茶星人 香港"
             },
             {
               "type": "store",
@@ -6386,12 +6499,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "thepitjuice_17491e366c86_417",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_417_28961100.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_417_28961100.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_417_28961100.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_417_28961100",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJkc3ove__AzQRyHrsnoO_lvM",
+              "google_query": "數碼港商場 The Pit Juice 香港"
             },
             {
               "type": "store",
@@ -6431,12 +6547,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "12_17491e366c86_408",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/17491e366c86_408_94438932.jpg",
+              "facade_image_url": "frontend/images/stores/17491e366c86_408_94438932.jpg",
+              "image_url": "frontend/images/stores/17491e366c86_408_94438932.jpg",
               "relocation_status": "ok",
               "store_key": "17491e366c86_408_94438932",
-              "mall_id": "17491e366c86"
+              "mall_id": "17491e366c86",
+              "image_source": "google_places",
+              "google_place_id": "ChIJLf0wOwD_AzQRCShNNrNGk94",
+              "google_query": "數碼港商場 1+2小廚 香港"
             }
           ],
           "lat": 22.26155,
@@ -6866,8 +6985,9 @@
               "relocation_status": "ok",
               "store_key": "798ab89bdb5a_g05_25187767",
               "mall_id": "798ab89bdb5a",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJIZJw9qqqBjQRVE6IwyBMuYU",
+              "google_query": "海怡廣場 萬寧 香港"
             },
             {
               "type": "store",
@@ -6948,8 +7068,9 @@
               "relocation_status": "ok",
               "store_key": "798ab89bdb5a_112-113_28710782",
               "mall_id": "798ab89bdb5a",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJEzJI9qqqBjQRODu7mOqcsPQ",
+              "google_query": "海怡廣場 屈臣氏 香港"
             }
           ],
           "lat": 22.24305,
@@ -7028,8 +7149,9 @@
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_201-203_28138520",
               "mall_id": "1eadbf5137ab",
-              "image_source": "chain_brand",
-              "brand_id": "parknshop"
+              "image_source": "google_places",
+              "google_place_id": "ChIJFeOFHWyqBjQRkqeTNWDCsog",
+              "google_query": "赤柱廣場 百佳 香港"
             },
             {
               "type": "store",
@@ -7077,12 +7199,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "pizzahut_1eadbf5137ab_101",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_101_25387138.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_101_25387138.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_101_25387138.jpg",
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_101_25387138",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJIcum1tirBjQRQWz0Mbx932M",
+              "google_query": "赤柱廣場 必勝客 香港"
             },
             {
               "type": "store",
@@ -7132,12 +7257,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_1eadbf5137ab_g01",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_g01_28713321.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_g01_28713321.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_g01_28713321.jpg",
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_g01_28713321",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJVVUVBGyqBjQR0V9z0PvkV2w",
+              "google_query": "赤柱廣場 星巴克 香港"
             },
             {
               "type": "store",
@@ -7181,12 +7309,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "22311e5557e7_1eadbf5137ab_308",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_308_83008006.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_308_83008006.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_308_83008006.jpg",
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_308_83008006",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJIaH5BGyqBjQREuS-LyApSH4",
+              "google_query": "赤柱廣場 鍾菜館 香港"
             },
             {
               "type": "store",
@@ -7232,12 +7363,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "surfturfgrillandbar_1eadbf5137ab_302",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_302_46799850.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_302_46799850.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_302_46799850.jpg",
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_302_46799850",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJK9HZqjOrBjQRqcP0BI4d8bg",
+              "google_query": "赤柱廣場 Surf & Turf Grill and Bar 香港"
             },
             {
               "type": "store",
@@ -7283,12 +7417,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "beefliberty_1eadbf5137ab_g04",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_g04_25632085.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_g04_25632085.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_g04_25632085.jpg",
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_g04_25632085",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ15biBmyqBjQRhJewJOFrYnY",
+              "google_query": "赤柱廣場 Beef & Liberty 香港"
             },
             {
               "type": "store",
@@ -7336,12 +7473,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "doughbrospizzadoughnuts_1eadbf5137ab_g08b",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_g08b_23411185.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_g08b_23411185.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_g08b_23411185.jpg",
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_g08b_23411185",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJIxjlkwWrBjQRbX0KoWwp1n4",
+              "google_query": "赤柱廣場 Dough Bros Pizza & Doughnuts 香港"
             },
             {
               "type": "store",
@@ -7376,12 +7516,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "80f5ca8f83b9_1eadbf5137ab_102103",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_102-103_24712349.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_102-103_24712349.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_102-103_24712349.jpg",
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_102-103_24712349",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJicDbKt2rBjQRmJbD17cLZ2k",
+              "google_query": "赤柱廣場 杏花樓 香港"
             },
             {
               "type": "store",
@@ -7429,15 +7572,18 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "mccafe_1eadbf5137ab_g03",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_g03_28130655.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_g03_28130655.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_g03_28130655.jpg",
               "relocation_status": "pending_update",
               "relocation_reasons": [
                 "store_name_changed"
               ],
               "store_key": "1eadbf5137ab_g03_28130655",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ_5ioj4P_AzQRmcVTKQqZttE",
+              "google_query": "赤柱廣場 McCafe 香港"
             },
             {
               "type": "store",
@@ -7477,12 +7623,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "a174bf100bf4_1eadbf5137ab_407",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_407_62238996.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_407_62238996.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_407_62238996.jpg",
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_407_62238996",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJtZgYEGyqBjQRHlU-lAgVZPI",
+              "google_query": "赤柱廣場 散水餅 香港"
             },
             {
               "type": "store",
@@ -7522,12 +7671,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "starbucks_1eadbf5137ab_g01",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/1eadbf5137ab_g01_28713321.jpg",
+              "facade_image_url": "frontend/images/stores/1eadbf5137ab_g01_28713321.jpg",
+              "image_url": "frontend/images/stores/1eadbf5137ab_g01_28713321.jpg",
               "relocation_status": "ok",
               "store_key": "1eadbf5137ab_g01_28713321",
-              "mall_id": "1eadbf5137ab"
+              "mall_id": "1eadbf5137ab",
+              "image_source": "google_places",
+              "google_place_id": "ChIJVVUVBGyqBjQR0V9z0PvkV2w",
+              "google_query": "赤柱廣場 星巴克咖啡 香港"
             }
           ],
           "lat": 22.21855,
@@ -7975,8 +8127,9 @@
               "relocation_status": "ok",
               "store_key": "83cc34a62636_8c267747ee10_23602226",
               "mall_id": "83cc34a62636",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ--DDeJcBBDQRXZJQUSjDlyY",
+              "google_query": "香港仔中心商場 AEON Mono Mono 香港"
             },
             {
               "type": "store",
@@ -8052,8 +8205,9 @@
               "relocation_status": "ok",
               "store_key": "83cc34a62636_6c_28148319",
               "mall_id": "83cc34a62636",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJh18bPwMABDQRY-PiVGbUS60",
+              "google_query": "香港仔中心商場 屈臣氏 香港"
             }
           ],
           "lat": 22.24855,
@@ -8179,8 +8333,9 @@
               "relocation_status": "ok",
               "store_key": "45dccf7dbd5e_32_26677951",
               "mall_id": "45dccf7dbd5e",
-              "image_source": "chain_brand",
-              "brand_id": "wellcome"
+              "image_source": "google_places",
+              "google_place_id": "ChIJQ0h9ND8IBDQRMpNfsYS0Ltc",
+              "google_query": "大埔廣場 惠康 香港"
             }
           ],
           "lat": 22.45355,
@@ -8284,8 +8439,9 @@
               "relocation_status": "ok",
               "store_key": "dd00746047f2_672-673_26674533",
               "mall_id": "dd00746047f2",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJPWzsC2QJBDQR0nG2MxIGccw",
+              "google_query": "大埔超級城 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -8355,12 +8511,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "75320e11b2fe_dd00746047f2_8c9f0f895fb98",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/dd00746047f2_c9f0f895fb98_37611388.jpg",
+              "facade_image_url": "frontend/images/stores/dd00746047f2_c9f0f895fb98_37611388.jpg",
+              "image_url": "frontend/images/stores/dd00746047f2_c9f0f895fb98_37611388.jpg",
               "relocation_status": "ok",
               "store_key": "dd00746047f2_c9f0f895fb98_37611388",
-              "mall_id": "dd00746047f2"
+              "mall_id": "dd00746047f2",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ99_ho0cIBDQR6fCOrAJFV5g",
+              "google_query": "大埔超級城 一田 香港"
             }
           ],
           "lat": 22.45255,
@@ -8447,8 +8606,9 @@
               "relocation_status": "ok",
               "store_key": "v-city_m-45-46_24098266",
               "mall_id": "v-city",
-              "image_source": "chain_brand",
-              "brand_id": "fortress"
+              "image_source": "google_places",
+              "google_place_id": "ChIJCWO82jz7AzQRjPMBJmrmipg",
+              "google_query": "V city 豐澤 香港"
             },
             {
               "type": "store",
@@ -8514,8 +8674,9 @@
               "relocation_status": "ok",
               "store_key": "v-city_32_26793202",
               "mall_id": "v-city",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ0e4QEs4BBDQRs9N_omXntzw",
+              "google_query": "V city 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -8581,8 +8742,9 @@
               "relocation_status": "ok",
               "store_key": "v-city_m-89_26734408",
               "mall_id": "v-city",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ30F2h68BBDQR6OLXr5REI6U",
+              "google_query": "V city UNIQLO 香港"
             },
             {
               "type": "store",
@@ -8634,12 +8796,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "75320e11b2fe_vcity_83",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/v-city_83_24513988.jpg",
+              "facade_image_url": "frontend/images/stores/v-city_83_24513988.jpg",
+              "image_url": "frontend/images/stores/v-city_83_24513988.jpg",
               "relocation_status": "ok",
               "store_key": "v-city_83_24513988",
-              "mall_id": "v-city"
+              "mall_id": "v-city",
+              "image_source": "google_places",
+              "google_place_id": "ChIJrcZTJyP7AzQRTO07LjTsmo4",
+              "google_query": "V city 一田 香港"
             }
           ],
           "lat": 22.39455,
@@ -8707,12 +8872,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "a1bakery_2a9e3005383e_1052",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/2a9e3005383e_1052_24526308.jpg",
+              "facade_image_url": "frontend/images/stores/2a9e3005383e_1052_24526308.jpg",
+              "image_url": "frontend/images/stores/2a9e3005383e_1052_24526308.jpg",
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_1052_24526308",
-              "mall_id": "2a9e3005383e"
+              "mall_id": "2a9e3005383e",
+              "image_source": "google_places",
+              "google_place_id": "ChIJzQe2AKz7AzQRmf-uFxcjCh4",
+              "google_query": "屯門市廣場 A-1 Bakery 香港"
             },
             {
               "type": "store",
@@ -8774,8 +8942,9 @@
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_8c267747ee10_24527333",
               "mall_id": "2a9e3005383e",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ9wlK0Oj7AzQRpX_udvbKWBM",
+              "google_query": "屯門市廣場 AEON 香港"
             },
             {
               "type": "store",
@@ -8830,12 +8999,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "14f1643dab26_2a9e3005383e_g011",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/2a9e3005383e_g011_21468757.jpg",
+              "facade_image_url": "frontend/images/stores/2a9e3005383e_g011_21468757.jpg",
+              "image_url": "frontend/images/stores/2a9e3005383e_g011_21468757.jpg",
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_g011_21468757",
-              "mall_id": "2a9e3005383e"
+              "mall_id": "2a9e3005383e",
+              "image_source": "google_places",
+              "google_place_id": "ChIJQS4adz37AzQR9MrwS3gSZmo",
+              "google_query": "屯門市廣場 百老匯 香港"
             },
             {
               "type": "store",
@@ -8885,12 +9057,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "cafedecoral_2a9e3005383e_g036",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/2a9e3005383e_g036_24512431.jpg",
+              "facade_image_url": "frontend/images/stores/2a9e3005383e_g036_24512431.jpg",
+              "image_url": "frontend/images/stores/2a9e3005383e_g036_24512431.jpg",
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_g036_24512431",
-              "mall_id": "2a9e3005383e"
+              "mall_id": "2a9e3005383e",
+              "image_source": "google_places",
+              "google_place_id": "ChIJy3kfFj37AzQRfeeGoj9tbDY",
+              "google_query": "屯門市廣場 大家樂 香港"
             },
             {
               "type": "store",
@@ -8930,12 +9105,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "colourmix_2a9e3005383e_2061",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2a9e3005383e_2061_28818089.jpg",
+              "facade_image_url": "frontend/images/stores/2a9e3005383e_2061_28818089.jpg",
+              "image_url": "frontend/images/stores/2a9e3005383e_2061_28818089.jpg",
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_2061_28818089",
-              "mall_id": "2a9e3005383e"
+              "mall_id": "2a9e3005383e",
+              "image_source": "google_places",
+              "google_place_id": "ChIJcfrAcOAABDQRThx4OKnQTHY",
+              "google_query": "屯門市廣場 Colourmix 香港"
             },
             {
               "type": "store",
@@ -8972,12 +9150,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "dondondonki_2a9e3005383e_ug001",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/2a9e3005383e_ug001_28657511.jpg",
+              "facade_image_url": "frontend/images/stores/2a9e3005383e_ug001_28657511.jpg",
+              "image_url": "frontend/images/stores/2a9e3005383e_ug001_28657511.jpg",
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_ug001_28657511",
-              "mall_id": "2a9e3005383e"
+              "mall_id": "2a9e3005383e",
+              "image_source": "google_places",
+              "google_place_id": "ChIJpYR7Lf_7AzQRBvXlcicz56M",
+              "google_query": "屯門市廣場 DON DON DONKI 香港"
             },
             {
               "type": "store",
@@ -9023,8 +9204,9 @@
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_g002_24678066",
               "mall_id": "2a9e3005383e",
-              "image_source": "chain_brand",
-              "brand_id": "fortress"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ08ZkDT37AzQRDeUKJkZ-haQ",
+              "google_query": "屯門市廣場 豐澤 香港"
             },
             {
               "type": "store",
@@ -9062,12 +9244,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "fefa9a7e0cf5_2a9e3005383e_3206",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/2a9e3005383e_3206_24597388.jpg",
+              "facade_image_url": "frontend/images/stores/2a9e3005383e_3206_24597388.jpg",
+              "image_url": "frontend/images/stores/2a9e3005383e_3206_24597388.jpg",
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_3206_24597388",
-              "mall_id": "2a9e3005383e"
+              "mall_id": "2a9e3005383e",
+              "image_source": "google_places",
+              "google_place_id": "ChIJD5x1cT37AzQR6kY-WF2EDgo",
+              "google_query": "屯門市廣場 元氣壽司 香港"
             },
             {
               "type": "store",
@@ -9108,8 +9293,9 @@
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_1141_24492404",
               "mall_id": "2a9e3005383e",
-              "image_source": "chain_brand",
-              "brand_id": "parknshop"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ9RXGQT37AzQRE8OMXOUzLkk",
+              "google_query": "屯門市廣場 百佳 香港"
             },
             {
               "type": "store",
@@ -9155,8 +9341,9 @@
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_2115_24517628",
               "mall_id": "2a9e3005383e",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJFwxqFj37AzQRDcAoTJJMvdM",
+              "google_query": "屯門市廣場 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -9198,12 +9385,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "1a102b9db1ff_2a9e3005383e_43",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/2a9e3005383e_43_37955819.jpg",
+              "facade_image_url": "frontend/images/stores/2a9e3005383e_43_37955819.jpg",
+              "image_url": "frontend/images/stores/2a9e3005383e_43_37955819.jpg",
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_43_37955819",
-              "mall_id": "2a9e3005383e"
+              "mall_id": "2a9e3005383e",
+              "image_source": "google_places",
+              "google_place_id": "ChIJNbYsegD7AzQRnGt0VZ0Sty8",
+              "google_query": "屯門市廣場 太平洋咖啡 香港"
             },
             {
               "type": "store",
@@ -9244,8 +9434,9 @@
               "relocation_status": "ok",
               "store_key": "2a9e3005383e_g055_24517973",
               "mall_id": "2a9e3005383e",
-              "image_source": "chain_brand",
-              "brand_id": "seveneleven"
+              "image_source": "google_places",
+              "google_place_id": "ChIJkfdlMRD7AzQRiulpHJHDkxo",
+              "google_query": "屯門市廣場 7-Eleven 香港"
             }
           ],
           "lat": 22.39255,
@@ -9631,8 +9822,9 @@
               "relocation_status": "ok",
               "store_key": "8065f99e9d2b_11a_24042368",
               "mall_id": "8065f99e9d2b",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJTYanbj37AzQRffuIyiPgZqQ",
+              "google_query": "屯門時代廣場 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -9698,8 +9890,9 @@
               "relocation_status": "ok",
               "store_key": "8065f99e9d2b_8-39_24417153",
               "mall_id": "8065f99e9d2b",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJa9l9ez37AzQRoHDXcohtkkg",
+              "google_query": "屯門時代廣場 萬寧 香港"
             }
           ],
           "lat": 22.39155,
@@ -9803,8 +9996,9 @@
               "relocation_status": "ok",
               "store_key": "fb70b72c5e6e_338-343_24745263",
               "mall_id": "fb70b72c5e6e",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJkRXVttABBDQRtRAGnLwlwBQ",
+              "google_query": "錦薈坊 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -9880,8 +10074,9 @@
               "relocation_status": "ok",
               "store_key": "fb70b72c5e6e_353_27610298",
               "mall_id": "fb70b72c5e6e",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJs3Z-tb4HBDQR-rm6lSHuQ7Y",
+              "google_query": "錦薈坊 萬寧 香港"
             }
           ],
           "lat": 22.39105,
@@ -9988,8 +10183,9 @@
               "relocation_status": "ok",
               "store_key": "552284f83a1a_121-123-201-221-223_29078806",
               "mall_id": "552284f83a1a",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJzUsgDuEBBDQRq7xINvgTFX4",
+              "google_query": "北角匯 UNIQLO 香港"
             },
             {
               "type": "store",
@@ -10059,12 +10255,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "75320e11b2fe_552284f83a1a_123",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/552284f83a1a_123_21922300.jpg",
+              "facade_image_url": "frontend/images/stores/552284f83a1a_123_21922300.jpg",
+              "image_url": "frontend/images/stores/552284f83a1a_123_21922300.jpg",
               "relocation_status": "ok",
               "store_key": "552284f83a1a_123_21922300",
-              "mall_id": "552284f83a1a"
+              "mall_id": "552284f83a1a",
+              "image_source": "google_places",
+              "google_place_id": "ChIJhTQMjfwBBDQRqXPvu7V1_-g",
+              "google_query": "北角匯 一田 香港"
             }
           ],
           "lat": 22.29355,
@@ -10414,8 +10613,9 @@
               "relocation_status": "ok",
               "store_key": "9bfef0cb82da_g-3_28846888",
               "mall_id": "9bfef0cb82da",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ6Xqpr3QBBDQRp_gD8Ri5zVI",
+              "google_query": "康怡廣場 AEON 香港"
             },
             {
               "type": "store",
@@ -10496,8 +10696,9 @@
               "relocation_status": "ok",
               "store_key": "9bfef0cb82da_g-3_28846888",
               "mall_id": "9bfef0cb82da",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ6Xqpr3QBBDQRp_gD8Ri5zVI",
+              "google_query": "康怡廣場 AEON STYLE 香港"
             }
           ],
           "lat": 22.28455,
@@ -10618,8 +10819,9 @@
               "relocation_status": "ok",
               "store_key": "3f9d97e7ac2a_157-159_29765694",
               "mall_id": "3f9d97e7ac2a",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJk2ygXdUDBDQRo-1KMdBleP0",
+              "google_query": "杏花新城 萬寧 香港"
             }
           ],
           "lat": 22.27755,
@@ -10785,8 +10987,9 @@
               "relocation_status": "ok",
               "store_key": "homesquare_g01_22991133",
               "mall_id": "homesquare",
-              "image_source": "chain_brand",
-              "brand_id": "wellcome"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ3WV1ZrIHBDQRD76FSpLPso8",
+              "google_query": "HomeSquare 惠康 香港"
             }
           ],
           "lat": 22.38255,
@@ -11071,8 +11274,9 @@
               "relocation_status": "ok",
               "store_key": "the-wai_237_39713138",
               "mall_id": "the-wai",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJnxQY9uEHBDQRGebLvtc3Ufk",
+              "google_query": "圍方 The Wai 無印良品 香港"
             }
           ],
           "lat": 22.37455,
@@ -11165,12 +11369,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "a1bakery_fdda653175b3_102",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/fdda653175b3_102_26080878.jpg",
+              "facade_image_url": "frontend/images/stores/fdda653175b3_102_26080878.jpg",
+              "image_url": "frontend/images/stores/fdda653175b3_102_26080878.jpg",
               "relocation_status": "ok",
               "store_key": "fdda653175b3_102_26080878",
-              "mall_id": "fdda653175b3"
+              "mall_id": "fdda653175b3",
+              "image_source": "google_places",
+              "google_place_id": "ChIJFTcnqK0HBDQRcjafVFE3FOk",
+              "google_query": "新城市廣場 A-1 Bakery 香港"
             },
             {
               "type": "store",
@@ -11223,12 +11430,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "14f1643dab26_fdda653175b3_612613",
-              "store_image_url": "images/defaults/store_default.png",
-              "facade_image_url": "images/defaults/store_default.png",
-              "image_url": "images/defaults/store_default.png",
+              "store_image_url": "frontend/images/stores/fdda653175b3_612-613_26067762.jpg",
+              "facade_image_url": "frontend/images/stores/fdda653175b3_612-613_26067762.jpg",
+              "image_url": "frontend/images/stores/fdda653175b3_612-613_26067762.jpg",
               "relocation_status": "ok",
               "store_key": "fdda653175b3_612-613_26067762",
-              "mall_id": "fdda653175b3"
+              "mall_id": "fdda653175b3",
+              "image_source": "google_places",
+              "google_place_id": "ChIJu976pq0HBDQR7_rvZez0EJs",
+              "google_query": "新城市廣場 百老匯 香港"
             },
             {
               "type": "store",
@@ -11280,12 +11490,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "citysuper_fdda653175b3_204214",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/fdda653175b3_204-214_27363866.jpg",
+              "facade_image_url": "frontend/images/stores/fdda653175b3_204-214_27363866.jpg",
+              "image_url": "frontend/images/stores/fdda653175b3_204-214_27363866.jpg",
               "relocation_status": "ok",
               "store_key": "fdda653175b3_204-214_27363866",
-              "mall_id": "fdda653175b3"
+              "mall_id": "fdda653175b3",
+              "image_source": "google_places",
+              "google_place_id": "ChIJUy-mBq0HBDQRLts2ycczygQ",
+              "google_query": "新城市廣場 city'super 香港"
             },
             {
               "type": "store",
@@ -11335,8 +11548,9 @@
               "relocation_status": "ok",
               "store_key": "fdda653175b3_623_53376171",
               "mall_id": "fdda653175b3",
-              "image_source": "chain_brand",
-              "brand_id": "fortress"
+              "image_source": "google_places",
+              "google_place_id": "ChIJrzIhaqwHBDQReU8u4mh2CR8",
+              "google_query": "新城市廣場 豐澤 香港"
             },
             {
               "type": "store",
@@ -11382,8 +11596,9 @@
               "relocation_status": "ok",
               "store_key": "fdda653175b3_451-453_26066500",
               "mall_id": "fdda653175b3",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJz3NXSa0HBDQRC8gBELe8HIM",
+              "google_query": "新城市廣場 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -11423,12 +11638,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "709860cf0372_fdda653175b3_a335",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/fdda653175b3_a335_27368019.jpg",
+              "facade_image_url": "frontend/images/stores/fdda653175b3_a335_27368019.jpg",
+              "image_url": "frontend/images/stores/fdda653175b3_a335_27368019.jpg",
               "relocation_status": "ok",
               "store_key": "fdda653175b3_a335_27368019",
-              "mall_id": "fdda653175b3"
+              "mall_id": "fdda653175b3",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ-fmlp60HBDQRjjoKTh9JoZ0",
+              "google_query": "新城市廣場 莎莎 香港"
             }
           ],
           "lat": 22.38255,
@@ -11609,8 +11827,9 @@
               "relocation_status": "ok",
               "store_key": "mostown_2e34_26135157",
               "mall_id": "mostown",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJu3fNU7AIBDQRYOaNs5Dg9iU",
+              "google_query": "新港城中心 MOSTown 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -11674,8 +11893,9 @@
               "relocation_status": "ok",
               "store_key": "mostown_3025-29_21466658",
               "mall_id": "mostown",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ41DTvLEIBDQRuYiMFAQ2iWk",
+              "google_query": "新港城中心 MOSTown UNIQLO 香港"
             },
             {
               "type": "store",
@@ -11743,8 +11963,9 @@
               "relocation_status": "ok",
               "store_key": "mostown_2108_26336674",
               "mall_id": "mostown",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJj4nRorEIBDQRyIzPTdMXJ-c",
+              "google_query": "新港城中心 MOSTown 萬寧 香港"
             }
           ],
           "lat": 22.42555,
@@ -11868,8 +12089,9 @@
               "relocation_status": "ok",
               "store_key": "c8f48ea02b7b_52a-52b1_26709733",
               "mall_id": "c8f48ea02b7b",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJz3NXSa0HBDQRC8gBELe8HIM",
+              "google_query": "沙田中心 屈臣氏 香港"
             }
           ],
           "lat": 22.38205,
@@ -12018,8 +12240,9 @@
               "relocation_status": "ok",
               "store_key": "elements_1050b_21968252",
               "mall_id": "elements",
-              "image_source": "chain_brand",
-              "brand_id": "fortress"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ4UKrq5YABDQRIwhNHZY64_k",
+              "google_query": "ELEMENTS 圓方 豐澤 香港"
             },
             {
               "type": "store",
@@ -12077,12 +12300,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_elements_2100b",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/elements_2100b_26970533.jpg",
+              "facade_image_url": "frontend/images/stores/elements_2100b_26970533.jpg",
+              "image_url": "frontend/images/stores/elements_2100b_26970533.jpg",
               "relocation_status": "ok",
               "store_key": "elements_2100b_26970533",
-              "mall_id": "elements"
+              "mall_id": "elements",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ-ZhHqpYABDQRtrhY1EOQ62A",
+              "google_query": "ELEMENTS 圓方 星巴克 香港"
             }
           ],
           "lat": 22.30355,
@@ -12168,12 +12394,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_k11musea_b107a",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/k11-musea_b107a_27823928.jpg",
+              "facade_image_url": "frontend/images/stores/k11-musea_b107a_27823928.jpg",
+              "image_url": "frontend/images/stores/k11-musea_b107a_27823928.jpg",
               "relocation_status": "ok",
               "store_key": "k11-musea_b107a_27823928",
-              "mall_id": "k11-musea"
+              "mall_id": "k11-musea",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ2UyOMwABBDQRDGsQolN0bsM",
+              "google_query": "K11 MUSEA 星巴克 香港"
             },
             {
               "type": "store",
@@ -12239,8 +12468,9 @@
               "relocation_status": "ok",
               "store_key": "k11-musea_b201-01b_27931047",
               "mall_id": "k11-musea",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJy9F-16sBBDQRz1FwcnL3_jw",
+              "google_query": "K11 MUSEA 萬寧 香港"
             }
           ],
           "lat": 22.29455,
@@ -12354,8 +12584,9 @@
               "relocation_status": "ok",
               "store_key": "k11_b109-b110_31224037",
               "mall_id": "k11",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJy9F-16sBBDQRz1FwcnL3_jw",
+              "google_query": "K11購物藝術館 萬寧 香港"
             }
           ],
           "lat": 22.29855,
@@ -12456,8 +12687,9 @@
               "relocation_status": "ok",
               "store_key": "the-one_g1_26736108",
               "mall_id": "the-one",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJwZmUze0ABDQR5NHRvx8wSTc",
+              "google_query": "THE ONE AEON 香港"
             },
             {
               "type": "store",
@@ -12533,8 +12765,9 @@
               "relocation_status": "ok",
               "store_key": "the-one_lg1-lg2_26736108",
               "mall_id": "the-one",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJwZmUze0ABDQR5NHRvx8wSTc",
+              "google_query": "THE ONE AEON SUPERMARKET 香港"
             }
           ],
           "lat": 22.29805,
@@ -12621,12 +12854,15 @@
               "has_active": true,
               "has_upcoming": true,
               "branch_id": "foodrepublic_fc01b5097b39_103",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/fc01b5097b39_103_27713315.jpg",
+              "facade_image_url": "frontend/images/stores/fc01b5097b39_103_27713315.jpg",
+              "image_url": "frontend/images/stores/fc01b5097b39_103_27713315.jpg",
               "relocation_status": "ok",
               "store_key": "fc01b5097b39_103_27713315",
-              "mall_id": "fc01b5097b39"
+              "mall_id": "fc01b5097b39",
+              "image_source": "google_places",
+              "google_place_id": "ChIJT1QTqb4ABDQRYqJAysQKsP0",
+              "google_query": "奧海城 大食代 Food Republic 香港"
             },
             {
               "type": "store",
@@ -12674,12 +12910,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "cafedecoral_fc01b5097b39_ug2635",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/fc01b5097b39_ug26-35_22714165.jpg",
+              "facade_image_url": "frontend/images/stores/fc01b5097b39_ug26-35_22714165.jpg",
+              "image_url": "frontend/images/stores/fc01b5097b39_ug26-35_22714165.jpg",
               "relocation_status": "ok",
               "store_key": "fc01b5097b39_ug26-35_22714165",
-              "mall_id": "fc01b5097b39"
+              "mall_id": "fc01b5097b39",
+              "image_source": "google_places",
+              "google_place_id": "ChIJi5vychABBDQRhGs6ApvmEAM",
+              "google_query": "奧海城 大家樂 香港"
             },
             {
               "type": "store",
@@ -12743,8 +12982,9 @@
               "relocation_status": "ok",
               "store_key": "fc01b5097b39_ug05b_65003061",
               "mall_id": "fc01b5097b39",
-              "image_source": "chain_brand",
-              "brand_id": "fortress"
+              "image_source": "google_places",
+              "google_place_id": "ChIJqSTOZrkABDQRT5HoWVuTPHQ",
+              "google_query": "奧海城 豐澤 香港"
             },
             {
               "type": "store",
@@ -12799,12 +13039,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "fefa9a7e0cf5_fc01b5097b39_107",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/fc01b5097b39_107_27404729.jpg",
+              "facade_image_url": "frontend/images/stores/fc01b5097b39_107_27404729.jpg",
+              "image_url": "frontend/images/stores/fc01b5097b39_107_27404729.jpg",
               "relocation_status": "ok",
               "store_key": "fc01b5097b39_107_27404729",
-              "mall_id": "fc01b5097b39"
+              "mall_id": "fc01b5097b39",
+              "image_source": "google_places",
+              "google_place_id": "ChIJqaTP5rsABDQRyGBTou3XxHM",
+              "google_query": "奧海城 元氣壽司 香港"
             },
             {
               "type": "store",
@@ -12854,8 +13097,9 @@
               "relocation_status": "ok",
               "store_key": "fc01b5097b39_g11-15_26090778",
               "mall_id": "fc01b5097b39",
-              "image_source": "chain_brand",
-              "brand_id": "gu"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ31PsY7kABDQR_wjg2NPd7Jo",
+              "google_query": "奧海城 GU 香港"
             },
             {
               "type": "store",
@@ -12907,8 +13151,9 @@
               "relocation_status": "ok",
               "store_key": "fc01b5097b39_108_27404217",
               "mall_id": "fc01b5097b39",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJLdOHYLkABDQRp-FYe2T6VmY",
+              "google_query": "奧海城 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -12956,8 +13201,9 @@
               "relocation_status": "ok",
               "store_key": "fc01b5097b39_g-k01-10_39713240",
               "mall_id": "fc01b5097b39",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJcedv5LsABDQRENfCf3QdeRk",
+              "google_query": "奧海城 Café & Meal MUJI 香港"
             },
             {
               "type": "store",
@@ -13003,12 +13249,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "709860cf0372_fc01b5097b39_ug11",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/fc01b5097b39_ug11_22860200.jpg",
+              "facade_image_url": "frontend/images/stores/fc01b5097b39_ug11_22860200.jpg",
+              "image_url": "frontend/images/stores/fc01b5097b39_ug11_22860200.jpg",
               "relocation_status": "ok",
               "store_key": "fc01b5097b39_ug11_22860200",
-              "mall_id": "fc01b5097b39"
+              "mall_id": "fc01b5097b39",
+              "image_source": "google_places",
+              "google_place_id": "ChIJwXz047sABDQRcYw2g4-pZjY",
+              "google_query": "奧海城 莎莎 香港"
             }
           ],
           "lat": 22.31655,
@@ -13331,8 +13580,9 @@
               "relocation_status": "ok",
               "store_key": "e7e381980395_08-12_39713140",
               "mall_id": "e7e381980395",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ33J5nccABDQR2j7tABkCJ2s",
+              "google_query": "朗豪坊 無印良品 香港"
             }
           ],
           "lat": 22.31855,
@@ -13595,8 +13845,9 @@
               "relocation_status": "ok",
               "store_key": "f74040b0a21e_3302_39746302",
               "mall_id": "f74040b0a21e",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJORniSO0ABDQRY_IxGAeVodI",
+              "google_query": "海港城 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -13660,8 +13911,9 @@
               "relocation_status": "ok",
               "store_key": "f74040b0a21e_3231-3232_21750810",
               "mall_id": "f74040b0a21e",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJSfKzq_IABDQR2fIM_ODY4tw",
+              "google_query": "海港城 UNIQLO 香港"
             }
           ],
           "lat": 22.29555,
@@ -13788,8 +14040,9 @@
               "relocation_status": "ok",
               "store_key": "v-walk_35-36_28788773",
               "mall_id": "v-walk",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ30F2h68BBDQR6OLXr5REI6U",
+              "google_query": "V Walk UNIQLO 香港"
             }
           ],
           "lat": 22.32955,
@@ -13910,8 +14163,9 @@
               "relocation_status": "ok",
               "store_key": "eb01ea6122c8_130-132_22044930",
               "mall_id": "eb01ea6122c8",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJndjROQkHBDQRLEJehHcBKrg",
+              "google_query": "昇悅商場 萬寧 香港"
             }
           ],
           "lat": 22.33655,
@@ -14032,8 +14286,9 @@
               "relocation_status": "ok",
               "store_key": "1ff066a7837f_g-2_31207188",
               "mall_id": "1ff066a7837f",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJYRUOdKsABDQRf1mCOYIbAFo",
+              "google_query": "碧海藍天商場 AEON 香港"
             }
           ],
           "lat": 22.33055,
@@ -14137,8 +14392,9 @@
               "relocation_status": "ok",
               "store_key": "1f40efdd479f_205-206_23600923",
               "mall_id": "1f40efdd479f",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ4WWsELMABDQRXoLlXqxx1dY",
+              "google_query": "西九龍中心 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -14214,8 +14470,9 @@
               "relocation_status": "ok",
               "store_key": "1f40efdd479f_501b_23878262",
               "mall_id": "1f40efdd479f",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJw4LLE7MABDQR4MMha8oMpPc",
+              "google_query": "西九龍中心 萬寧 香港"
             }
           ],
           "lat": 22.33155,
@@ -14364,12 +14621,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "0f16bf23cf90_hysanplace_1109",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/hysan-place_1109_82001880.jpg",
+              "facade_image_url": "frontend/images/stores/hysan-place_1109_82001880.jpg",
+              "image_url": "frontend/images/stores/hysan-place_1109_82001880.jpg",
               "relocation_status": "ok",
               "store_key": "hysan-place_1109_82001880",
-              "mall_id": "hysan-place"
+              "mall_id": "hysan-place",
+              "image_source": "google_places",
+              "google_place_id": "ChIJJ8KAkxYBBDQRZqP8bbVenzI",
+              "google_query": "Hysan Place 譚仔三哥米線 香港"
             }
           ],
           "lat": 22.27955,
@@ -14483,12 +14743,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "shoen_1260125e9265_g0203",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/1260125e9265_g02-03_28691228.jpg",
+              "facade_image_url": "frontend/images/stores/1260125e9265_g02-03_28691228.jpg",
+              "image_url": "frontend/images/stores/1260125e9265_g02-03_28691228.jpg",
               "relocation_status": "ok",
               "store_key": "1260125e9265_g02-03_28691228",
-              "mall_id": "1260125e9265"
+              "mall_id": "1260125e9265",
+              "image_source": "google_places",
+              "google_place_id": "ChIJYTz9S-EBBDQREK2Mldu6-DI",
+              "google_query": "利東街 Sho-EN 香港"
             },
             {
               "type": "store",
@@ -14576,12 +14839,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "rakurakuramen_1260125e9265_g30",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/1260125e9265_g30_28183222.jpg",
+              "facade_image_url": "frontend/images/stores/1260125e9265_g30_28183222.jpg",
+              "image_url": "frontend/images/stores/1260125e9265_g30_28183222.jpg",
               "relocation_status": "ok",
               "store_key": "1260125e9265_g30_28183222",
-              "mall_id": "1260125e9265"
+              "mall_id": "1260125e9265",
+              "image_source": "google_places",
+              "google_place_id": "ChIJQ5i32BcBBDQRcMNsVzu62fU",
+              "google_query": "利東街 Rakuraku Ramen 香港"
             }
           ],
           "lat": 22.27655,
@@ -14702,8 +14968,9 @@
               "relocation_status": "ok",
               "store_key": "b37ffac8fd01_301-306_28662526",
               "mall_id": "b37ffac8fd01",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJy_esMUMABDQR91DWBY4Afss",
+              "google_query": "合和中心 屈臣氏 香港"
             }
           ],
           "lat": 22.27605,
@@ -14819,12 +15086,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_90f73a6406b2_317319",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/90f73a6406b2_317-319_35273900.jpg",
+              "facade_image_url": "frontend/images/stores/90f73a6406b2_317-319_35273900.jpg",
+              "image_url": "frontend/images/stores/90f73a6406b2_317-319_35273900.jpg",
               "relocation_status": "ok",
               "store_key": "90f73a6406b2_317-319_35273900",
-              "mall_id": "90f73a6406b2"
+              "mall_id": "90f73a6406b2",
+              "image_source": "google_places",
+              "google_place_id": "ChIJHTysMUMABDQRP3pXpExGrns",
+              "google_query": "合和商場 星巴克 香港"
             }
           ],
           "lat": 22.27455,
@@ -14937,8 +15207,9 @@
               "relocation_status": "ok",
               "store_key": "76ab5fd7fab3_927-928_34687632",
               "mall_id": "76ab5fd7fab3",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJIa292VAABDQRUv0qLThlYbs",
+              "google_query": "時代廣場 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -15004,8 +15275,9 @@
               "relocation_status": "ok",
               "store_key": "76ab5fd7fab3_928_34687632",
               "mall_id": "76ab5fd7fab3",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJIa292VAABDQRUv0qLThlYbs",
+              "google_query": "時代廣場 屈臣氏 香港"
             }
           ],
           "lat": 22.27855,
@@ -15168,8 +15440,9 @@
               "relocation_status": "ok",
               "store_key": "eac14406db69_b1_39713110",
               "mall_id": "eac14406db69",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJhVLhOVQABDQR8mz8wns07S0",
+              "google_query": "皇室堡 無印良品 香港"
             }
           ],
           "lat": 22.28155,
@@ -15278,8 +15551,9 @@
               "relocation_status": "ok",
               "store_key": "d-park_1014-1015_26615510",
               "mall_id": "d-park",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJS2ulC-j5AzQRmZptMczGdho",
+              "google_query": "D·PARK 愉景新城 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -15355,8 +15629,9 @@
               "relocation_status": "ok",
               "store_key": "d-park_2050_28894608",
               "mall_id": "d-park",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJrej_rvH4AzQRs1qb5zATdVo",
+              "google_query": "D·PARK 愉景新城 萬寧 香港"
             }
           ],
           "lat": 22.37255,
@@ -15452,12 +15727,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "1060d10203ca_opmall_30013006",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/op-mall_3001-3006_28564020.jpg",
+              "facade_image_url": "frontend/images/stores/op-mall_3001-3006_28564020.jpg",
+              "image_url": "frontend/images/stores/op-mall_3001-3006_28564020.jpg",
               "relocation_status": "ok",
               "store_key": "op-mall_3001-3006_28564020",
-              "mall_id": "op-mall"
+              "mall_id": "op-mall",
+              "image_source": "google_places",
+              "google_place_id": "ChIJiXxfy-j4AzQR5fQBtm0Unyg",
+              "google_query": "OP Mall 海之戀商場 大快活 香港"
             },
             {
               "type": "store",
@@ -15525,12 +15803,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_opmall_g17",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/op-mall_g17_26756388.jpg",
+              "facade_image_url": "frontend/images/stores/op-mall_g17_26756388.jpg",
+              "image_url": "frontend/images/stores/op-mall_g17_26756388.jpg",
               "relocation_status": "ok",
               "store_key": "op-mall_g17_26756388",
-              "mall_id": "op-mall"
+              "mall_id": "op-mall",
+              "image_source": "google_places",
+              "google_place_id": "ChIJiXxfy-j4AzQR7ZZzIM0HNVA",
+              "google_query": "OP Mall 海之戀商場 星巴克 香港"
             }
           ],
           "lat": 22.36955,
@@ -15654,8 +15935,9 @@
               "relocation_status": "ok",
               "store_key": "b91ee8c213e5_p11a-p11b_24923224",
               "mall_id": "b91ee8c213e5",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJcw0rtPL4AzQRp9suQR8KZCs",
+              "google_query": "綠楊坊 萬寧 香港"
             }
           ],
           "lat": 22.37555,
@@ -15726,12 +16008,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "a1bakery_d168f1b9c51a_linkhttpswwwcity",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/d168f1b9c51a_link-https-www-citywalk-_29410173.jpg",
+              "facade_image_url": "frontend/images/stores/d168f1b9c51a_link-https-www-citywalk-_29410173.jpg",
+              "image_url": "frontend/images/stores/d168f1b9c51a_link-https-www-citywalk-_29410173.jpg",
               "relocation_status": "ok",
               "store_key": "d168f1b9c51a_link-https-www-citywalk-_29410173",
-              "mall_id": "d168f1b9c51a"
+              "mall_id": "d168f1b9c51a",
+              "image_source": "google_places",
+              "google_place_id": "ChIJB5nrgu74AzQRTB1DS-FbjSI",
+              "google_query": "荃新天地 A-1 Bakery 香港"
             },
             {
               "type": "store",
@@ -15784,12 +16069,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "colourmix_d168f1b9c51a_g81ab",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/d168f1b9c51a_g81a-b_29410502.jpg",
+              "facade_image_url": "frontend/images/stores/d168f1b9c51a_g81a-b_29410502.jpg",
+              "image_url": "frontend/images/stores/d168f1b9c51a_g81a-b_29410502.jpg",
               "relocation_status": "ok",
               "store_key": "d168f1b9c51a_g81a-b_29410502",
-              "mall_id": "d168f1b9c51a"
+              "mall_id": "d168f1b9c51a",
+              "image_source": "google_places",
+              "google_place_id": "ChIJx4PUf-74AzQRIuPlBJx1NGY",
+              "google_query": "荃新天地 Colourmix 香港"
             },
             {
               "type": "store",
@@ -15842,12 +16130,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "d4cc158297f9_d168f1b9c51a_g42",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/d168f1b9c51a_g42_29410405.jpg",
+              "facade_image_url": "frontend/images/stores/d168f1b9c51a_g42_29410405.jpg",
+              "image_url": "frontend/images/stores/d168f1b9c51a_g42_29410405.jpg",
               "relocation_status": "ok",
               "store_key": "d168f1b9c51a_g42_29410405",
-              "mall_id": "d168f1b9c51a"
+              "mall_id": "d168f1b9c51a",
+              "image_source": "google_places",
+              "google_place_id": "ChIJOVihm-74AzQReHMcaSYr08I",
+              "google_query": "荃新天地 鴻福堂 香港"
             },
             {
               "type": "store",
@@ -15891,12 +16182,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "73f3c8de6fdc_d168f1b9c51a_g43",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/d168f1b9c51a_g43_25126889.jpg",
+              "facade_image_url": "frontend/images/stores/d168f1b9c51a_g43_25126889.jpg",
+              "image_url": "frontend/images/stores/d168f1b9c51a_g43_25126889.jpg",
               "relocation_status": "ok",
               "store_key": "d168f1b9c51a_g43_25126889",
-              "mall_id": "d168f1b9c51a"
+              "mall_id": "d168f1b9c51a",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ1YHAm-74AzQRNsW5hU6fAY0",
+              "google_query": "荃新天地 奇華餅家 香港"
             },
             {
               "type": "store",
@@ -15942,8 +16236,9 @@
               "relocation_status": "ok",
               "store_key": "d168f1b9c51a_citywalk2_26143695",
               "mall_id": "d168f1b9c51a",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ3cowm-74AzQR33tdnRzTN_4",
+              "google_query": "荃新天地 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -15982,8 +16277,9 @@
               "relocation_status": "ok",
               "store_key": "d168f1b9c51a_link-https-www-citywalk-_29410471",
               "mall_id": "d168f1b9c51a",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJiVS6nu74AzQRneUCr02ikS4",
+              "google_query": "荃新天地 UNIQLO 香港"
             },
             {
               "type": "store",
@@ -16029,8 +16325,9 @@
               "relocation_status": "ok",
               "store_key": "d168f1b9c51a_citywalk2_26144542",
               "mall_id": "d168f1b9c51a",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJyS4eme74AzQR2E3cguBORqo",
+              "google_query": "荃新天地 萬寧 香港"
             },
             {
               "type": "store",
@@ -16084,8 +16381,9 @@
               "relocation_status": "ok",
               "store_key": "d168f1b9c51a_g01_22991110",
               "mall_id": "d168f1b9c51a",
-              "image_source": "chain_brand",
-              "brand_id": "seveneleven"
+              "image_source": "google_places",
+              "google_place_id": "ChIJydw-Auz4AzQRyA6IgphmNFU",
+              "google_query": "荃新天地 7-Eleven 香港"
             }
           ],
           "lat": 22.36855,
@@ -16360,8 +16658,9 @@
               "relocation_status": "ok",
               "store_key": "e343b4e737c1_b117-118_24177092",
               "mall_id": "e343b4e737c1",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJl8B1_u74AzQRlJT-tYUUzSU",
+              "google_query": "荃灣廣場 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -16431,12 +16730,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "75320e11b2fe_e343b4e737c1_4a87ff679a2f3",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/e343b4e737c1_a87ff679a2f3_28039188.jpg",
+              "facade_image_url": "frontend/images/stores/e343b4e737c1_a87ff679a2f3_28039188.jpg",
+              "image_url": "frontend/images/stores/e343b4e737c1_a87ff679a2f3_28039188.jpg",
               "relocation_status": "ok",
               "store_key": "e343b4e737c1_a87ff679a2f3_28039188",
-              "mall_id": "e343b4e737c1"
+              "mall_id": "e343b4e737c1",
+              "image_source": "google_places",
+              "google_place_id": "ChIJDxbRA-_4AzQRDwSwvFdPSIU",
+              "google_query": "荃灣廣場 一田 香港"
             }
           ],
           "lat": 22.37055,
@@ -16533,8 +16835,9 @@
               "relocation_status": "ok",
               "store_key": "11b73af77990_346-347_39738350",
               "mall_id": "11b73af77990",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJU4n1Mbz4AzQRyxYydmr5OIU",
+              "google_query": "新都會廣場 無印良品 香港"
             },
             {
               "type": "store",
@@ -16598,8 +16901,9 @@
               "relocation_status": "ok",
               "store_key": "11b73af77990_336_26610618",
               "mall_id": "11b73af77990",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJGRRHgWD5AzQRB8ppBm3fjo8",
+              "google_query": "新都會廣場 UNIQLO 香港"
             },
             {
               "type": "store",
@@ -16661,12 +16965,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "75320e11b2fe_11b73af77990_223",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/11b73af77990_223_39561000.jpg",
+              "facade_image_url": "frontend/images/stores/11b73af77990_223_39561000.jpg",
+              "image_url": "frontend/images/stores/11b73af77990_223_39561000.jpg",
               "relocation_status": "ok",
               "store_key": "11b73af77990_223_39561000",
-              "mall_id": "11b73af77990"
+              "mall_id": "11b73af77990",
+              "image_source": "google_places",
+              "google_place_id": "ChIJzwjNLLz4AzQRWns7sC1paXA",
+              "google_query": "新都會廣場 一田 香港"
             }
           ],
           "lat": 22.35755,
@@ -16762,12 +17069,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "cafedecoral_77a8b04cdb7d_b13b18",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/77a8b04cdb7d_b13-b18_24100313.jpg",
+              "facade_image_url": "frontend/images/stores/77a8b04cdb7d_b13-b18_24100313.jpg",
+              "image_url": "frontend/images/stores/77a8b04cdb7d_b13-b18_24100313.jpg",
               "relocation_status": "ok",
               "store_key": "77a8b04cdb7d_b13-b18_24100313",
-              "mall_id": "77a8b04cdb7d"
+              "mall_id": "77a8b04cdb7d",
+              "image_source": "google_places",
+              "google_place_id": "ChIJRQs6jh75AzQRLJm3mERgnr4",
+              "google_query": "葵涌廣場 大家樂 香港"
             },
             {
               "type": "store",
@@ -16835,12 +17145,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "0f16bf23cf90_77a8b04cdb7d_93",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/77a8b04cdb7d_93_26693623.jpg",
+              "facade_image_url": "frontend/images/stores/77a8b04cdb7d_93_26693623.jpg",
+              "image_url": "frontend/images/stores/77a8b04cdb7d_93_26693623.jpg",
               "relocation_status": "ok",
               "store_key": "77a8b04cdb7d_93_26693623",
-              "mall_id": "77a8b04cdb7d"
+              "mall_id": "77a8b04cdb7d",
+              "image_source": "google_places",
+              "google_place_id": "ChIJQ7zOyL34AzQRpTkbpmErXus",
+              "google_query": "葵涌廣場 譚仔三哥米線 香港"
             }
           ],
           "lat": 22.35705,
@@ -16929,8 +17242,9 @@
               "relocation_status": "ok",
               "store_key": "4a71829965d8_g34-35_23702278",
               "mall_id": "4a71829965d8",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJezLmGQD5AzQR9bqui1OhlOI",
+              "google_query": "青衣城 AEON Mono Mono 香港"
             },
             {
               "type": "store",
@@ -16999,8 +17313,9 @@
               "relocation_status": "ok",
               "store_key": "4a71829965d8_305-307a_21867213",
               "mall_id": "4a71829965d8",
-              "image_source": "chain_brand",
-              "brand_id": "fortress"
+              "image_source": "google_places",
+              "google_place_id": "ChIJiyvjx9z4AzQR3bAm05PifFU",
+              "google_query": "青衣城 豐澤 香港"
             },
             {
               "type": "store",
@@ -17066,8 +17381,9 @@
               "relocation_status": "ok",
               "store_key": "4a71829965d8_108c_24956271",
               "mall_id": "4a71829965d8",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJpd4vzcT4AzQRpU1U8vpfj4U",
+              "google_query": "青衣城 UNIQLO 香港"
             }
           ],
           "lat": 22.35855,
@@ -17318,8 +17634,9 @@
               "relocation_status": "ok",
               "store_key": "popcorn_f99-102_27521457",
               "mall_id": "popcorn",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJIR6KH_MDBDQRY8OMQwk4IM8",
+              "google_query": "PopCorn UNIQLO 香港"
             }
           ],
           "lat": 22.30855,
@@ -17466,8 +17783,9 @@
               "relocation_status": "ok",
               "store_key": "park-central_g33_34174813",
               "mall_id": "park-central",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJX96nHfIDBDQRLvm7CEauAQE",
+              "google_query": "將軍澳中心 Park Central 萬寧 香港"
             }
           ],
           "lat": 22.30755,
@@ -17595,8 +17913,9 @@
               "relocation_status": "ok",
               "store_key": "f55a185f622f_g26-27_24580382",
               "mall_id": "f55a185f622f",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJtRZ4CwwEBDQRV9HAO24XNPU",
+              "google_query": "新都城中心 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -17660,8 +17979,9 @@
               "relocation_status": "ok",
               "store_key": "f55a185f622f_1050-53_39713261",
               "mall_id": "f55a185f622f",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ6RZ2sh0FBDQRUuxG7kJSpIo",
+              "google_query": "新都城中心 無印良品 香港"
             },
             {
               "type": "store",
@@ -17727,8 +18047,9 @@
               "relocation_status": "ok",
               "store_key": "f55a185f622f_1055-1062_23112823",
               "mall_id": "f55a185f622f",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJryICSp8FBDQRby8SF6lCYs0",
+              "google_query": "新都城中心 UNIQLO 香港"
             }
           ],
           "lat": 22.32255,
@@ -17832,8 +18153,9 @@
               "relocation_status": "ok",
               "store_key": "4494235ccd41_226_27925268",
               "mall_id": "4494235ccd41",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJBYPhfHUEBDQRCRLL7vX-5d4",
+              "google_query": "東港城 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -17903,12 +18225,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "75320e11b2fe_4494235ccd41_8c9f0f895fb98",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/4494235ccd41_c9f0f895fb98_36151838.jpg",
+              "facade_image_url": "frontend/images/stores/4494235ccd41_c9f0f895fb98_36151838.jpg",
+              "image_url": "frontend/images/stores/4494235ccd41_c9f0f895fb98_36151838.jpg",
               "relocation_status": "ok",
               "store_key": "4494235ccd41_c9f0f895fb98_36151838",
-              "mall_id": "4494235ccd41"
+              "mall_id": "4494235ccd41",
+              "image_source": "google_places",
+              "google_place_id": "ChIJJwuJgXUEBDQRCcJ7dLyJ5QM",
+              "google_query": "東港城 一田 香港"
             }
           ],
           "lat": 22.31755,
@@ -18024,8 +18349,9 @@
               "relocation_status": "ok",
               "store_key": "megabox_1-46_23393388",
               "mall_id": "megabox",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ14EeATQBBDQRro185kvPOcE",
+              "google_query": "MegaBox AEON 香港"
             }
           ],
           "lat": 22.31955,
@@ -18107,8 +18433,9 @@
               "relocation_status": "ok",
               "store_key": "apm_1a-1c_39713150",
               "mall_id": "apm",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJCf9KkU8BBDQR2UMbJHMvTVw",
+              "google_query": "apm 無印良品 香港"
             },
             {
               "type": "store",
@@ -18161,12 +18488,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "starbucks_apm_l215",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/apm_l2-15_35425191.jpg",
+              "facade_image_url": "frontend/images/stores/apm_l2-15_35425191.jpg",
+              "image_url": "frontend/images/stores/apm_l2-15_35425191.jpg",
               "relocation_status": "ok",
               "store_key": "apm_l2-15_35425191",
-              "mall_id": "apm"
+              "mall_id": "apm",
+              "image_source": "google_places",
+              "google_place_id": "ChIJD7Hyk08BBDQRaw-thWRWFf4",
+              "google_query": "apm 星巴克 香港"
             },
             {
               "type": "store",
@@ -18223,12 +18553,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "75320e11b2fe_apm_418",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/apm_418_39551818.jpg",
+              "facade_image_url": "frontend/images/stores/apm_418_39551818.jpg",
+              "image_url": "frontend/images/stores/apm_418_39551818.jpg",
               "relocation_status": "ok",
               "store_key": "apm_418_39551818",
-              "mall_id": "apm"
+              "mall_id": "apm",
+              "image_source": "google_places",
+              "google_place_id": "ChIJe_35j08BBDQRAY7aTdM4AZ0",
+              "google_query": "apm 一田 香港"
             }
           ],
           "lat": 22.31255,
@@ -18324,12 +18657,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "14f1643dab26_52a7398edfec_g22",
-              "store_image_url": "images/defaults/store_default.png",
-              "facade_image_url": "images/defaults/store_default.png",
-              "image_url": "images/defaults/store_default.png",
+              "store_image_url": "frontend/images/stores/52a7398edfec_g22_27537309.jpg",
+              "facade_image_url": "frontend/images/stores/52a7398edfec_g22_27537309.jpg",
+              "image_url": "frontend/images/stores/52a7398edfec_g22_27537309.jpg",
               "relocation_status": "ok",
               "store_key": "52a7398edfec_g22_27537309",
-              "mall_id": "52a7398edfec"
+              "mall_id": "52a7398edfec",
+              "image_source": "google_places",
+              "google_place_id": "ChIJf1FmRzUBBDQRp6ODsXccDQU",
+              "google_query": "德福廣場 百老匯 香港"
             },
             {
               "type": "store",
@@ -18395,8 +18731,9 @@
               "relocation_status": "ok",
               "store_key": "52a7398edfec_g52_24265933",
               "mall_id": "52a7398edfec",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJN9Hsz8oGBDQREVUE2iyIw60",
+              "google_query": "德福廣場 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -18462,8 +18799,9 @@
               "relocation_status": "ok",
               "store_key": "52a7398edfec_401-402-431_39738380",
               "mall_id": "52a7398edfec",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJac5uoKUBBDQRDEiM0pd1H04",
+              "google_query": "德福廣場 無印良品 香港"
             }
           ],
           "lat": 22.32255,
@@ -18567,12 +18905,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "unclerusscoffee_dbnorthplaza_lg19",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/db-north-plaza_lg19_28401188.jpg",
+              "facade_image_url": "frontend/images/stores/db-north-plaza_lg19_28401188.jpg",
+              "image_url": "frontend/images/stores/db-north-plaza_lg19_28401188.jpg",
               "relocation_status": "ok",
               "store_key": "db-north-plaza_lg19_28401188",
-              "mall_id": "db-north-plaza"
+              "mall_id": "db-north-plaza",
+              "image_source": "google_places",
+              "google_place_id": "ChIJWexrn7v9AzQRc7FnxaL2uAs",
+              "google_query": "愉景灣北商場 DB North Plaza Uncle Russ Coffee 香港"
             },
             {
               "type": "store",
@@ -18637,12 +18978,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "marketplace_dbnorthplaza_g11",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/db-north-plaza_g11_29479092.jpg",
+              "facade_image_url": "frontend/images/stores/db-north-plaza_g11_29479092.jpg",
+              "image_url": "frontend/images/stores/db-north-plaza_g11_29479092.jpg",
               "relocation_status": "ok",
               "store_key": "db-north-plaza_g11_29479092",
-              "mall_id": "db-north-plaza"
+              "mall_id": "db-north-plaza",
+              "image_source": "google_places",
+              "google_place_id": "ChIJhyynBbP9AzQRVGfkTlWLOes",
+              "google_query": "愉景灣北商場 DB North Plaza Market Place 香港"
             },
             {
               "type": "store",
@@ -18706,8 +19050,9 @@
               "relocation_status": "ok",
               "store_key": "db-north-plaza_lg21_26082712",
               "mall_id": "db-north-plaza",
-              "image_source": "chain_brand",
-              "brand_id": "seveneleven"
+              "image_source": "google_places",
+              "google_place_id": "ChIJwSkOAbP9AzQR-CP_cRbVXts",
+              "google_query": "愉景灣北商場 DB North Plaza 7-Eleven 香港"
             }
           ],
           "lat": 22.29755,
@@ -18831,8 +19176,9 @@
               "relocation_status": "ok",
               "store_key": "db-plaza_135_29874089",
               "mall_id": "db-plaza",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJN_E3mLv9AzQR_PzEzQbKqVM",
+              "google_query": "愉景灣廣場 DB Plaza 屈臣氏 香港"
             }
           ],
           "lat": 22.29155,
@@ -18980,8 +19326,9 @@
               "relocation_status": "ok",
               "store_key": "4e5e2e74bcbe_117_28680077",
               "mall_id": "4e5e2e74bcbe",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ31Rj8IvjAzQRxY1oqBe99v4",
+              "google_query": "東薈城名店倉 UNIQLO 香港"
             }
           ],
           "lat": 22.28955,
@@ -19070,8 +19417,9 @@
               "relocation_status": "ok",
               "store_key": "ae641d52fac1_166_23909899",
               "mall_id": "ae641d52fac1",
-              "image_source": "chain_brand",
-              "brand_id": "aeon"
+              "image_source": "google_places",
+              "google_place_id": "ChIJeejWcwAHBDQR4NbzyiNnzXA",
+              "google_query": "荷里活廣場 Living PLAZA by AEON 香港"
             },
             {
               "type": "store",
@@ -19137,8 +19485,9 @@
               "relocation_status": "ok",
               "store_key": "ae641d52fac1_228_29555756",
               "mall_id": "ae641d52fac1",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJBcFWItsGBDQRDcJVEDMUxlA",
+              "google_query": "荷里活廣場 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -19204,8 +19553,9 @@
               "relocation_status": "ok",
               "store_key": "ae641d52fac1_125-127_39713220",
               "mall_id": "ae641d52fac1",
-              "image_source": "chain_brand",
-              "brand_id": "muji"
+              "image_source": "google_places",
+              "google_place_id": "ChIJ9xZZcrsHBDQR9jT6rKSeWEc",
+              "google_query": "荷里活廣場 無印良品 香港"
             },
             {
               "type": "store",
@@ -19261,8 +19611,9 @@
               "relocation_status": "ok",
               "store_key": "ae641d52fac1_g101_29554100",
               "mall_id": "ae641d52fac1",
-              "image_source": "chain_brand",
-              "brand_id": "uniqlo"
+              "image_source": "google_places",
+              "google_place_id": "ChIJCWm3I9sGBDQRWA5dsY37tlo",
+              "google_query": "荷里活廣場 UNIQLO 香港"
             }
           ],
           "lat": 22.34055,
@@ -19341,8 +19692,9 @@
               "relocation_status": "ok",
               "store_key": "8f9470c5a23d_lg2_23203251",
               "mall_id": "8f9470c5a23d",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJQ919jtgGBDQRnfTMMxYM-gg",
+              "google_query": "黃大仙中心 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -19392,8 +19744,9 @@
               "relocation_status": "ok",
               "store_key": "8f9470c5a23d_ug23_23501453",
               "mall_id": "8f9470c5a23d",
-              "image_source": "chain_brand",
-              "brand_id": "mannings"
+              "image_source": "google_places",
+              "google_place_id": "ChIJMT36htgGBDQRQeP8Wd1341A",
+              "google_query": "黃大仙中心 萬寧 香港"
             },
             {
               "type": "store",
@@ -19448,12 +19801,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "986819c64f87_8f9470c5a23d_g04c",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/8f9470c5a23d_g04c_35869840.jpg",
+              "facade_image_url": "frontend/images/stores/8f9470c5a23d_g04c_35869840.jpg",
+              "image_url": "frontend/images/stores/8f9470c5a23d_g04c_35869840.jpg",
               "relocation_status": "ok",
               "store_key": "8f9470c5a23d_g04c_35869840",
-              "mall_id": "8f9470c5a23d"
+              "mall_id": "8f9470c5a23d",
+              "image_source": "google_places",
+              "google_place_id": "ChIJFYRMidgGBDQR6OoAeQAHkXo",
+              "google_query": "黃大仙中心 賞茶 香港"
             },
             {
               "type": "store",
@@ -19508,12 +19864,15 @@
               "has_active": true,
               "has_upcoming": false,
               "branch_id": "moscafe_8f9470c5a23d_g46",
-              "store_image_url": "images/defaults/restaurant_default.png",
-              "facade_image_url": "images/defaults/restaurant_default.png",
-              "image_url": "images/defaults/restaurant_default.png",
+              "store_image_url": "frontend/images/stores/8f9470c5a23d_g46_28953710.jpg",
+              "facade_image_url": "frontend/images/stores/8f9470c5a23d_g46_28953710.jpg",
+              "image_url": "frontend/images/stores/8f9470c5a23d_g46_28953710.jpg",
               "relocation_status": "ok",
               "store_key": "8f9470c5a23d_g46_28953710",
-              "mall_id": "8f9470c5a23d"
+              "mall_id": "8f9470c5a23d",
+              "image_source": "google_places",
+              "google_place_id": "ChIJ_RBKYdgGBDQRLSK2DJqjuOo",
+              "google_query": "黃大仙中心 MOS CAFE 香港"
             },
             {
               "type": "store",
@@ -19569,8 +19928,9 @@
               "relocation_status": "ok",
               "store_key": "8f9470c5a23d_n221_22743109",
               "mall_id": "8f9470c5a23d",
-              "image_source": "chain_brand",
-              "brand_id": "watsons"
+              "image_source": "google_places",
+              "google_place_id": "ChIJQ919jtgGBDQRnfTMMxYM-gg",
+              "google_query": "黃大仙中心 屈臣氏 香港"
             },
             {
               "type": "store",
@@ -19613,12 +19973,15 @@
               "has_active": false,
               "has_upcoming": true,
               "branch_id": "b01bf81e13ce_8f9470c5a23d_123c",
-              "store_image_url": "images/defaults/retail_default.png",
-              "facade_image_url": "images/defaults/retail_default.png",
-              "image_url": "images/defaults/retail_default.png",
+              "store_image_url": "frontend/images/stores/8f9470c5a23d_123c_23246983.jpg",
+              "facade_image_url": "frontend/images/stores/8f9470c5a23d_123c_23246983.jpg",
+              "image_url": "frontend/images/stores/8f9470c5a23d_123c_23246983.jpg",
               "relocation_status": "ok",
               "store_key": "8f9470c5a23d_123c_23246983",
-              "mall_id": "8f9470c5a23d"
+              "mall_id": "8f9470c5a23d",
+              "image_source": "google_places",
+              "google_place_id": "ChIJu8PlCNkGBDQRn9WCcAArjOA",
+              "google_query": "黃大仙中心 金僑中西藥行 香港"
             }
           ],
           "lat": 22.34155,
