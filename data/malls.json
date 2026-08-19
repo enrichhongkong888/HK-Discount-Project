@@ -5,8 +5,15 @@
     "district": "觀塘區",
     "group": "SHKP",
     "url": "https://www.hkmalls.com/mall/apm",
-    "offers_count": 0,
-    "offers": []
+    "offers_count": 1,
+    "offers": [
+      {
+        "title": "apm 免費免費泊車優惠",
+        "description": "消費滿指定金額可享最高 3 小時免費泊車優惠",
+        "link": "https://www.hkmalls.com/mall/apm",
+        "source": "創紀之城五期 (apm)"
+      }
+    ]
   },
   "new_town_plaza": {
     "mall_id": "new_town_plaza",
@@ -72,8 +79,15 @@
     "district": "屯門區",
     "group": "Sino",
     "url": "https://www.tmtp.com.hk/tc/Promotions",
-    "offers_count": 0,
-    "offers": []
+    "offers_count": 1,
+    "offers": [
+      {
+        "title": "S+ REWARDS 會員專享優惠",
+        "description": "登錄 S+ REWARDS 賺取點數換領精選禮品",
+        "link": "https://www.tmtp.com.hk/tc/Promotions",
+        "source": "屯門市廣場"
+      }
+    ]
   },
   "citywalk": {
     "mall_id": "citywalk",
@@ -81,8 +95,15 @@
     "district": "荃灣區",
     "group": "Sino",
     "url": "https://www.citywalk.com.hk/tc/Promotions",
-    "offers_count": 0,
-    "offers": []
+    "offers_count": 1,
+    "offers": [
+      {
+        "title": "荃新天地餐飲消費加碼賞",
+        "description": "指定餐飲商戶消費滿指定金額即送商場電子現金券",
+        "link": "https://www.citywalk.com.hk/tc/Promotions",
+        "source": "荃灣荃新天地"
+      }
+    ]
   },
   "taikoo_place": {
     "mall_id": "taikoo_place",
@@ -90,26 +111,71 @@
     "district": "東區",
     "group": "Swire",
     "url": "https://www.cityplaza.com/zh-hk/events",
-    "offers_count": 0,
-    "offers": []
+    "offers_count": 1,
+    "offers": [
+      {
+        "title": "LIVE+ 會員免費泊車禮遇",
+        "description": "LIVE+ 會員於太古城中心消費滿額即享免費泊車",
+        "link": "https://www.cityplaza.com/zh-hk/events",
+        "source": "太古城中心"
+      }
+    ]
   },
   "moko": {
     "mall_id": "moko",
     "name": "MOKO 新世紀廣場",
     "district": "油尖旺區",
     "group": "SHKP",
-    "url": "https://www.moko.com.hk/hk/events",
-    "offers_count": 0,
-    "offers": []
+    "url": "https://www.moko.com.hk/",
+    "offers_count": 5,
+    "offers": [
+      {
+        "title": "活動及優惠",
+        "description": "詳情請參閱官方頁面",
+        "link": "https://www.moko.com.hk/happenings/",
+        "source": "MOKO 新世紀廣場"
+      },
+      {
+        "title": "The Point",
+        "description": "詳情請參閱官方頁面",
+        "link": "https://www.moko.com.hk/vip-club/",
+        "source": "MOKO 新世紀廣場"
+      },
+      {
+        "title": "前往 MOKO",
+        "description": "詳情請參閱官方頁面",
+        "link": "https://www.moko.com.hk/about-moko/to-moko/",
+        "source": "MOKO 新世紀廣場"
+      },
+      {
+        "title": "泊車及優惠",
+        "description": "詳情請參閱官方頁面",
+        "link": "https://www.moko.com.hk/about-moko/parking/",
+        "source": "MOKO 新世紀廣場"
+      },
+      {
+        "title": "關於MOKO",
+        "description": "詳情請參閱官方頁面",
+        "link": "https://www.moko.com.hk/about-moko/",
+        "source": "MOKO 新世紀廣場"
+      }
+    ]
   },
   "popcorn": {
     "mall_id": "popcorn",
     "name": "PopCorn",
     "district": "西貢區",
     "group": "MTR",
-    "url": "https://www.popcornmall.com.hk/cht/promotions",
-    "offers_count": 0,
-    "offers": []
+    "url": "https://www.popcornmall.com.hk/",
+    "offers_count": 1,
+    "offers": [
+      {
+        "title": "MTR Mobile 會員泊車及消費禮遇",
+        "description": "於 PopCorn 累積消費賺取 MTR 分數換領免費車票與泊車時數",
+        "link": "https://www.popcornmall.com.hk/",
+        "source": "PopCorn"
+      }
+    ]
   },
   "harbour_city": {
     "mall_id": "harbour_city",
@@ -169,16 +235,30 @@
     "district": "全港連鎖",
     "group": "Chain",
     "url": "https://www.mannings.com.hk/offers",
-    "offers_count": 0,
-    "offers": []
+    "offers_count": 1,
+    "offers": [
+      {
+        "title": "萬寧週五驚喜優惠",
+        "description": "每逢星期五健康個人護理產品特價優惠及yuu積分雙倍賞",
+        "link": "https://www.mannings.com.hk/offers",
+        "source": "萬寧 Mannings"
+      }
+    ]
   },
   "chain_watsons": {
     "mall_id": "chain_watsons",
     "name": "屈臣氏 Watsons",
     "district": "全港連鎖",
     "group": "Chain",
-    "url": "https://www.watsons.com.hk/offers",
-    "offers_count": 0,
-    "offers": []
+    "url": "https://www.watsons.com.hk/",
+    "offers_count": 1,
+    "offers": [
+      {
+        "title": "屈臣氏易賞錢 MoneyBack 專享折扣",
+        "description": "會員購買指定健康及美容品牌享獨家折扣與換購優惠",
+        "link": "https://www.watsons.com.hk/",
+        "source": "屈臣氏 Watsons"
+      }
+    ]
   }
 }
