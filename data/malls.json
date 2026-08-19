@@ -4,7 +4,7 @@
     "name": "創紀之城五期 (apm)",
     "district": "觀塘區",
     "group": "SHKP",
-    "url": "https://www.apm-hk.com/chi/event/",
+    "url": "https://www.hkmalls.com/mall/apm",
     "offers_count": 0,
     "offers": []
   },
@@ -13,25 +13,25 @@
     "name": "沙田新城市廣場",
     "district": "沙田區",
     "group": "SHKP",
-    "url": "https://www.newtownplaza.com.hk/zh-hant/promotions/",
+    "url": "https://www.newtownplaza.com.hk/hk/promotions",
     "offers_count": 8,
     "offers": [
       {
         "title": "Shopping",
-        "description": "詳情請參閱商場官方通告",
+        "description": "詳情請參閱官方頁面",
         "link": "https://www.newtownplaza.com.hk/shopping/",
         "source": "沙田新城市廣場"
       },
       {
         "title": "Dining",
-        "description": "詳情請參閱商場官方通告",
+        "description": "詳情請參閱官方頁面",
         "link": "https://www.newtownplaza.com.hk/dining/",
         "source": "沙田新城市廣場"
       },
       {
         "title": "Entertainment",
         "description": "MOVIE TOWN",
-        "link": "https://www.newtownplaza.com.hk/zh-hant/promotions/#",
+        "link": "https://www.newtownplaza.com.hk/hk/promotions/#",
         "source": "沙田新城市廣場"
       },
       {
@@ -89,7 +89,7 @@
     "name": "太古城中心",
     "district": "東區",
     "group": "Swire",
-    "url": "https://www.cityplaza.com/zh-hk/promotions",
+    "url": "https://www.cityplaza.com/zh-hk/events",
     "offers_count": 0,
     "offers": []
   },
@@ -98,7 +98,7 @@
     "name": "MOKO 新世紀廣場",
     "district": "油尖旺區",
     "group": "SHKP",
-    "url": "https://www.moko.com.hk/zh-hant/events/",
+    "url": "https://www.moko.com.hk/hk/events",
     "offers_count": 0,
     "offers": []
   },
@@ -107,7 +107,7 @@
     "name": "PopCorn",
     "district": "西貢區",
     "group": "MTR",
-    "url": "https://www.popcornresidence.com.hk/cht/promotions",
+    "url": "https://www.popcornmall.com.hk/cht/promotions",
     "offers_count": 0,
     "offers": []
   },
@@ -121,43 +121,43 @@
     "offers": [
       {
         "title": "時尚美妝",
-        "description": "詳情請參閱商場官方通告",
+        "description": "詳情請參閱官方頁面",
         "link": "https://www.harbourcity.com.hk/tc/fashion-beauty/",
         "source": "海港城"
       },
       {
         "title": "美食品嚐",
-        "description": "詳情請參閱商場官方通告",
+        "description": "詳情請參閱官方頁面",
         "link": "https://www.harbourcity.com.hk/tc/gourmet/",
         "source": "海港城"
       },
       {
         "title": "潮流生活",
-        "description": "詳情請參閱商場官方通告",
+        "description": "詳情請參閱官方頁面",
         "link": "https://www.harbourcity.com.hk/tc/family-lifestyle/",
         "source": "海港城"
       },
       {
         "title": "活動推介",
-        "description": "詳情請參閱商場官方通告",
+        "description": "詳情請參閱官方頁面",
         "link": "https://www.harbourcity.com.hk/tc/happenings/",
         "source": "海港城"
       },
       {
         "title": "購物及美食",
-        "description": "詳情請參閱商場官方通告",
+        "description": "詳情請參閱官方頁面",
         "link": "https://www.harbourcity.com.hk/tc/happening/",
         "source": "海港城"
       },
       {
         "title": "探索更多",
-        "description": "詳情請參閱商場官方通告",
+        "description": "詳情請參閱官方頁面",
         "link": "https://www.harbourcity.com.hk/tc/happening/",
         "source": "海港城"
       },
       {
         "title": "時尚美妝",
-        "description": "詳情請參閱商場官方通告",
+        "description": "詳情請參閱官方頁面",
         "link": "https://www.harbourcity.com.hk/tc/fashion-beauty/",
         "source": "海港城"
       }
@@ -177,7 +177,7 @@
     "name": "屈臣氏 Watsons",
     "district": "全港連鎖",
     "group": "Chain",
-    "url": "https://www.watsons.com.hk/promotions",
+    "url": "https://www.watsons.com.hk/offers",
     "offers_count": 0,
     "offers": []
   }

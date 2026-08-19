@@ -4,21 +4,23 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
+# 更新精準網址與 URL 庫
 MALL_SOURCES = [
-    {"id": "apm", "name": "創紀之城五期 (apm)", "district": "觀塘區", "group": "SHKP", "url": "https://www.apm-hk.com/chi/event/"},
-    {"id": "new_town_plaza", "name": "沙田新城市廣場", "district": "沙田區", "group": "SHKP", "url": "https://www.newtownplaza.com.hk/zh-hant/promotions/"},
+    {"id": "apm", "name": "創紀之城五期 (apm)", "district": "觀塘區", "group": "SHKP", "url": "https://www.hkmalls.com/mall/apm"},
+    {"id": "new_town_plaza", "name": "沙田新城市廣場", "district": "沙田區", "group": "SHKP", "url": "https://www.newtownplaza.com.hk/hk/promotions"},
     {"id": "tmtp", "name": "屯門市廣場", "district": "屯門區", "group": "Sino", "url": "https://www.tmtp.com.hk/tc/Promotions"},
     {"id": "citywalk", "name": "荃灣荃新天地", "district": "荃灣區", "group": "Sino", "url": "https://www.citywalk.com.hk/tc/Promotions"},
-    {"id": "taikoo_place", "name": "太古城中心", "district": "東區", "group": "Swire", "url": "https://www.cityplaza.com/zh-hk/promotions"},
-    {"id": "moko", "name": "MOKO 新世紀廣場", "district": "油尖旺區", "group": "SHKP", "url": "https://www.moko.com.hk/zh-hant/events/"},
-    {"id": "popcorn", "name": "PopCorn", "district": "西貢區", "group": "MTR", "url": "https://www.popcornresidence.com.hk/cht/promotions"},
+    {"id": "taikoo_place", "name": "太古城中心", "district": "東區", "group": "Swire", "url": "https://www.cityplaza.com/zh-hk/events"},
+    {"id": "moko", "name": "MOKO 新世紀廣場", "district": "油尖旺區", "group": "SHKP", "url": "https://www.moko.com.hk/hk/events"},
+    {"id": "popcorn", "name": "PopCorn", "district": "西貢區", "group": "MTR", "url": "https://www.popcornmall.com.hk/cht/promotions"},
     {"id": "harbour_city", "name": "海港城", "district": "油尖旺區", "group": "Wharf", "url": "https://www.harbourcity.com.hk/tc/happening/"},
     {"id": "chain_mannings", "name": "萬寧 Mannings", "district": "全港連鎖", "group": "Chain", "url": "https://www.mannings.com.hk/offers"},
-    {"id": "chain_watsons", "name": "屈臣氏 Watsons", "district": "全港連鎖", "group": "Chain", "url": "https://www.watsons.com.hk/promotions"}
+    {"id": "chain_watsons", "name": "屈臣氏 Watsons", "district": "全港連鎖", "group": "Chain", "url": "https://www.watsons.com.hk/offers"}
 ]
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept-Language": "zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7"
 }
 
 def parse_generic_offers(mall):
@@ -30,7 +32,7 @@ def parse_generic_offers(mall):
             return offers
 
         soup = BeautifulSoup(response.text, "html.parser")
-        cards = soup.find_all(class_=re.compile(r"(promo|event|offer|card|item)", re.I))
+        cards = soup.find_all(class_=re.compile(r"(promo|event|offer|card|item|deal)", re.I))
         
         for card in cards[:8]:
             title_node = card.find(["h2", "h3", "h4", "strong", "a"])
@@ -48,7 +50,7 @@ def parse_generic_offers(mall):
                 link = href if href.startswith("http") else mall["url"].rstrip("/") + "/" + href.lstrip("/")
 
             desc_node = card.find(["p", "span"])
-            desc = desc_node.get_text(strip=True) if desc_node else "詳情請參閱商場官方通告"
+            desc = desc_node.get_text(strip=True) if desc_node else "詳情請參閱官方頁面"
 
             offers.append({
                 "title": title,
@@ -62,7 +64,7 @@ def parse_generic_offers(mall):
     return offers
 
 def run_crawler():
-    print("🚀 開始執行 18 區商場及連鎖店舖優惠爬蟲...")
+    print("🚀 開始執行 18 區商場與連鎖店熱門優惠爬蟲...")
     results = {}
 
     for mall in MALL_SOURCES:
@@ -85,7 +87,7 @@ def run_crawler():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ 爬蟲執行完成！已更新 {len(results)} 個商場/連鎖源，資料已寫入 {output_path}")
+    print(f"\n✅ 爬蟲修正版執行完成！已更新 {len(results)} 個商場/連鎖源至 {output_path}")
 
 if __name__ == "__main__":
     run_crawler()
