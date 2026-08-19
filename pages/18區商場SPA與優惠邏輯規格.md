@@ -19,3 +19,32 @@
 	- [ DONE] 撰寫 `app.js` 實現 18 區切換與動態渲染
 	- [ DONE] 實作日期比對函式（計算 Active / Upcoming / Expired）
 	- [DONE ] 於 Cursor 中進行功能測試
+- [[HK-Discount-Project]] 自動化與備份機制建置完成
+	- **最新完成功能**:
+		- [[外接硬碟全量歸檔]]
+			- 腳本位置: `scripts/export_to_hdd.py`
+			- 功能: 全量掃描 534 張門面與店家圖片，根據 18 區自動建立資料夾備份至 HDD。
+			- 檔名規範: `[商場名稱] 店家名稱_原檔名.jpg` (防止同名覆蓋)
+		- [[每日審查與過期清理]]
+			- 腳本位置: `scripts/daily_audit_and_cleanup.py`
+			- 功能: 自動比對當前日期，剔除過期優惠，並審查門面圖缺失狀況。
+		- [[GitHub Actions 自動化 CI/CD]]
+			- Workflow: `.github/workflows/daily_sync.yml`
+			- 排程時間: 香港時間每日 08:00 (Cron: `0 0 * * *`)
+			- 執行鏈: `Daily Audit Cleanup` -> `Fetch Missing Facades (Google Places API)` -> `Auto Commit & Push`
+	- **下一步計劃**:
+		- [DONE] 設定 GitHub Pages / Vercel 實現外網公開瀏覽。
+		- [ ] 檢查 GitHub Repo Secrets 是否已配置 `GOOGLE_MAPS_API_KEY`。
+	- **折扣極大化與商業邏輯升級規劃**:
+		- **數據源深度拓展**:
+			- [DONE ] 撰寫四大地產商（The Point, S Plus, Link UP, Taikoo+）官網優惠解析器。
+			- [DONE] 導入社群熱點監控（Threads / IG #香港開倉 關鍵字過濾）。
+			- [DONE ] 整合信用卡與電子支付（HSBC, PayMe, AlipayHK）商場滿額回贈資訊。
+		- **前端 UX 體驗極大化**:
+			- [ ] 實作「優惠疊加計算器」（店家折扣 + 信用卡回贈 + 支付工具優惠）。
+			- [ ] 建立「18 區商場泊車免費時數」快速查詢面板。
+			- [ ] 新增「一鍵加入行事曆」功能（針對 3 天內即將開始的優惠）。
+		- **社群爆料機制**:
+			- [ ] 設計免登入「現場優惠拍照回報」前端 Form 表單。
+-
+-
