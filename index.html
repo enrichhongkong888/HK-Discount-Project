@@ -66,7 +66,63 @@
         gap: 0.35rem 0.65rem;
         margin-top: 0.15rem;
       }
+            .hotel-official-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        border-radius: 0.75rem;
+        background: linear-gradient(135deg, #172033 0%, #2a3a55 100%);
+        color: #fde68a;
+        border: 1px solid rgba(253, 230, 138, 0.45);
+        padding: 0.35rem 0.65rem;
+        font-size: 0.7rem;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        box-shadow: 0 6px 14px rgba(23, 32, 51, 0.22);
+      }
+      .hotel-offer-cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.85rem;
+        border-radius: 0.85rem;
+        background: #172033;
+        color: #fff;
+        padding: 0.65rem 1rem;
+        font-size: 0.875rem;
+        font-weight: 800;
+        text-decoration: none;
+        transition: background 0.15s ease, transform 0.15s ease;
+      }
+      .hotel-offer-cta:hover { background: #ff5d52; transform: translateY(-1px); }
+      .hotel-card[data-source="official"] { cursor: pointer; }
+      .hotel-card[data-source="official"]:hover { box-shadow: 0 10px 24px rgba(23, 32, 51, 0.12); }
+
+.hotel-upcoming-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        border-radius: 0.75rem;
+        background: linear-gradient(135deg, #fef3c7 0%, #fde68a 55%, #fbbf24 100%);
+        color: #92400e;
+        border: 1px solid #f59e0b;
+        padding: 0.4rem 0.7rem;
+        font-size: 0.75rem;
+        font-weight: 800;
+        box-shadow: 0 6px 16px rgba(245, 158, 11, 0.28);
+        animation: hotel-pulse 1.8s ease-in-out infinite;
+      }
+      @keyframes hotel-pulse {
+        0%, 100% { transform: translateY(0); box-shadow: 0 6px 16px rgba(245, 158, 11, 0.28); }
+        50% { transform: translateY(-1px); box-shadow: 0 10px 22px rgba(245, 158, 11, 0.38); }
+      }
+      .hotel-card[data-lifecycle="upcoming"] {
+        border-color: #f59e0b;
+        background: linear-gradient(180deg, #fffbeb 0%, #ffffff 42%);
+      }
+      .mall-filters-panel[hidden], .hotel-only-hint[hidden] { display: none !important; }
       @media (max-width: 480px) {
+
         .store-card {
           flex-direction: column;
         }
@@ -88,7 +144,7 @@
         </button>
         <nav class="flex items-center gap-1" aria-label="主要導覽">
           <button class="nav-button" data-view="home" aria-current="page">最新優惠</button>
-          <button class="nav-button" data-view="malls" aria-current="false"><span class="sm:hidden">18 區</span><span class="hidden sm:inline">18 區商場</span></button>
+          <button class="nav-button" data-view="malls" aria-current="false"><span class="sm:hidden">18 區</span><span class="hidden sm:inline">18 區著數</span></button>
           <button class="nav-button hidden md:block" data-view="home">品牌專區</button>
           <button class="nav-button hidden md:block" data-view="home">優惠類型</button>
           <button class="nav-button hidden md:block" data-view="home">省錢指南</button>
@@ -168,17 +224,26 @@
       <div id="mall-view" class="hidden">
         <section class="bg-ink">
           <div class="mx-auto max-w-7xl px-4 py-16 lg:px-8 lg:py-20">
-            <p class="inline-flex rounded-full bg-white/10 px-4 py-2 text-sm font-bold text-amber-200">📍 LOCAL MALL GUIDE</p>
-            <h1 class="mt-5 max-w-3xl text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl">你附近的商場，<br><span class="text-amber-300">正在進行甚麼著數？</span></h1>
+            <p class="inline-flex rounded-full bg-white/10 px-4 py-2 text-sm font-bold text-amber-200">📍 LOCAL DEALS GUIDE</p>
+            <h1 class="mt-5 max-w-3xl text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl">18區全港著數<br><span class="text-amber-300">生活導航</span></h1>
           </div>
         </section>
         <section class="mx-auto max-w-7xl px-4 py-10 lg:px-8" tabindex="-1">
           <div class="rounded-3xl bg-white p-5 shadow-soft sm:p-7">
-            <div class="flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><p class="text-sm font-bold text-coral">CHOOSE YOUR DISTRICT</p><h2 class="mt-1 text-2xl font-black">18 區商場生活導航</h2></div><p id="district-summary" class="text-sm font-medium text-slate-500" aria-live="polite">載入商場資料中…</p></div>
+            <div class="flex flex-col justify-between gap-3 sm:flex-row sm:items-end"><div><p class="text-sm font-bold text-coral">CHOOSE YOUR DISTRICT</p><h2 class="mt-1 text-2xl font-black">18區全港著數生活導航</h2></div><p id="district-summary" class="text-sm font-medium text-slate-500" aria-live="polite">載入著數資料中…</p></div>
             <div id="district-tags" class="mt-6 grid grid-cols-3 gap-2 sm:grid-cols-6">
               <button class="district-tag" data-district="全部" aria-pressed="true">全部</button><button class="district-tag" data-district="中西區" aria-pressed="false">中西區</button><button class="district-tag" data-district="灣仔區" aria-pressed="false">灣仔</button><button class="district-tag" data-district="東區" aria-pressed="false">東區</button><button class="district-tag" data-district="南區" aria-pressed="false">南區</button><button class="district-tag" data-district="油尖旺區" aria-pressed="false">油尖旺</button><button class="district-tag" data-district="深水埗區" aria-pressed="false">深水埗</button><button class="district-tag" data-district="九龍城區" aria-pressed="false">九龍城</button><button class="district-tag" data-district="黃大仙區" aria-pressed="false">黃大仙</button><button class="district-tag" data-district="觀塘區" aria-pressed="false">觀塘</button><button class="district-tag" data-district="葵青區" aria-pressed="false">葵青</button><button class="district-tag" data-district="荃灣區" aria-pressed="false">荃灣</button><button class="district-tag" data-district="屯門區" aria-pressed="false">屯門</button><button class="district-tag" data-district="元朗區" aria-pressed="false">元朗</button><button class="district-tag" data-district="北區" aria-pressed="false">北區</button><button class="district-tag" data-district="大埔區" aria-pressed="false">大埔</button><button class="district-tag" data-district="沙田區" aria-pressed="false">沙田</button><button class="district-tag" data-district="西貢區" aria-pressed="false">西貢</button><button class="district-tag col-span-3 sm:col-span-1" data-district="離島區" aria-pressed="false">離島</button>
             </div>
             <div class="mt-6 border-t border-slate-100 pt-5">
+              <p class="text-xs font-bold text-slate-500">著數分類</p>
+              <div id="channel-filters" class="mt-2 flex flex-wrap gap-2" role="tablist" aria-label="著數分類">
+                <button type="button" class="district-tag" data-channel="全部" aria-pressed="true">全部著數</button>
+                <button type="button" class="district-tag" data-channel="malls" aria-pressed="false">🛍️ 商場門市</button>
+                <button type="button" class="district-tag" data-channel="hotels" aria-pressed="false">🏨 酒店優惠</button>
+              </div>
+              <p class="hotel-only-hint mt-3 hidden text-xs text-slate-500" id="hotel-channel-hint">顯示全港 4–5 星級酒店進行中／即將開始的著數；無有效優惠的酒店會自動隱藏。</p>
+            </div>
+            <div class="mall-filters-panel mt-6 border-t border-slate-100 pt-5" id="mall-filters-panel">
               <p class="text-xs font-bold text-slate-500">業態分類</p>
               <div id="vertical-filters" class="mt-2 flex flex-wrap gap-2">
                 <button type="button" class="district-tag" data-vertical="全部" aria-pressed="true">全部業態</button>
@@ -199,12 +264,15 @@
                 <button type="button" class="district-tag" data-tag="Birthday" aria-pressed="false">生日</button>
                 <button type="button" class="district-tag" data-tag="FreeGift" aria-pressed="false">贈品換領</button>
               </div>
-              <p class="mt-4 text-xs font-bold text-slate-500">優惠時段</p>
+            </div>
+            <div class="mt-6 border-t border-slate-100 pt-5" id="lifecycle-filters-panel">
+              <p class="text-xs font-bold text-slate-500">優惠時段</p>
               <div id="lifecycle-filters" class="mt-2 flex flex-wrap gap-2">
                 <button type="button" class="district-tag" data-lifecycle="全部" aria-pressed="true">全部時段</button>
                 <button type="button" class="district-tag" data-lifecycle="upcoming" aria-pressed="false">🔥 3天內即將開始</button>
                 <button type="button" class="district-tag" data-lifecycle="active" aria-pressed="false">🟢 今日進行中</button>
               </div>
+            </div>
             </div>
           </div>
         </section>
@@ -215,15 +283,20 @@
     <footer class="bg-ink text-slate-300"><div class="mx-auto flex max-w-7xl flex-col justify-between gap-3 px-4 py-8 text-sm sm:flex-row lg:px-8"><p>© 2026 HK-Deal. 所有優惠資料以品牌公告為準。</p><button data-view="home" class="text-left font-bold text-white hover:text-amber-300">返回首頁 ↑</button></div></footer>
 
     <template id="empty-state"><div class="col-span-full rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center"><p class="text-3xl">🏙️</p><p class="mt-3 font-black">暫未有可顯示的商場優惠</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區，或稍後再回來查看。</p></div></template>
+    <template id="empty-state-hotels"><div class="col-span-full rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center"><p class="text-3xl">🏨</p><p class="mt-3 font-black">暫未有可顯示的酒店著數</p><p class="mt-2 text-sm text-slate-500">過期優惠已自動隱藏；請選擇其他地區或稍後再查看。</p></div></template>
+    <template id="empty-state-all"><div class="col-span-full rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center"><p class="text-3xl">✨</p><p class="mt-3 font-black">暫未有可顯示的著數</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區／分類，或稍後再回來查看。</p></div></template>
 
     <script>
       const state = {
         districts: [],
+        hotels: [],
         selectedDistrict: "全部",
+        selectedChannel: "全部",
         selectedVertical: "全部",
         selectedTag: "全部",
         selectedLifecycle: "全部",
         expandedMalls: new Set(),
+        expandedHotels: new Set(),
       };
       const homeView = document.querySelector("#home-view");
       const mallView = document.querySelector("#mall-view");
@@ -233,6 +306,9 @@
       const verticalFilters = document.querySelector("#vertical-filters");
       const tagFilters = document.querySelector("#tag-filters");
       const lifecycleFilters = document.querySelector("#lifecycle-filters");
+      const channelFilters = document.querySelector("#channel-filters");
+      const mallFiltersPanel = document.querySelector("#mall-filters-panel");
+      const hotelChannelHint = document.querySelector("#hotel-channel-hint");
       const districtSummary = document.querySelector("#district-summary");
       const brandNotice = document.querySelector("#brand-notice");
 
@@ -492,10 +568,105 @@
         const fallbackMarkup = fallbacks.length ? `<div class="mt-4 space-y-2">${fallbacks.map(fallbackCard).join("")}</div>` : "";
         return `<section class="rounded-2xl border p-4 ${tone}"><div><h4 class="font-black">${title}</h4>${description ? `<p class="mt-1 text-xs opacity-70">${description}</p>` : ""}</div>${fallbackMarkup}${active.length || upcoming.length ? `${renderGroup(active, "active", "🟢 今日進行中")}${renderGroup(upcoming, "upcoming", "🟡 3 天內即將開始")}` : fallbacks.length ? "" : `<p class="mt-4 rounded-xl bg-white/75 p-3 text-sm text-slate-500">${emptyMessage}</p>`}</section>`;
       }
+
+      function starsLabel(n) {
+        const stars = Math.max(0, Math.min(5, Number(n) || 0));
+        return "★".repeat(stars) + "☆".repeat(5 - stars);
+      }
+      function hotelOfferStatus(offer) {
+        return offerStatus({
+          start_date: offer.start_date,
+          end_date: offer.end_date,
+          status: offer.status,
+          lifecycle_status: offer.lifecycle_status,
+        });
+      }
+      /** Drop end_date < today; keep only active / upcoming (within 3 days). */
+      function liveHotelOffers(hotel) {
+        const offers = Array.isArray(hotel && hotel.offers) ? hotel.offers : [];
+        return offers
+          .filter((offer) => offer && offer.start_date && offer.end_date)
+          .map((offer) => ({ ...offer, status: hotelOfferStatus(offer) }))
+          .filter((offer) => offer.status === "active" || offer.status === "upcoming");
+      }
+      function hotelMatchesDistrict(hotel) {
+        if (state.selectedDistrict === "全部") return true;
+        return String(hotel.district || "") === state.selectedDistrict;
+      }
+      function hotelMatchesLifecycle(offers) {
+        const mode = currentViewMode();
+        if (mode === "全部") return offers;
+        return offers.filter((offer) => offer.status === mode);
+      }
+      function visibleHotels() {
+        return (state.hotels || [])
+          .filter(hotelMatchesDistrict)
+          .map((hotel) => {
+            const offers = hotelMatchesLifecycle(liveHotelOffers(hotel));
+            return { ...hotel, offers };
+          })
+          .filter((hotel) => hotel.offers.length > 0);
+      }
+            function hotelBookingUrl(offer, hotel) {
+        const booking = String((offer && offer.booking_url) || "").trim();
+        if (/^https?:\/\//.test(booking)) return booking;
+        const site = String((hotel && hotel.official_website) || "").trim();
+        return /^https?:\/\//.test(site) ? site : "";
+      }
+      function hotelOfferCard(offer, hotel) {
+        const status = offer.status || hotelOfferStatus(offer);
+        const upcoming = status === "upcoming";
+        const isOfficial = String(offer.source_type || "official").toLowerCase() === "official";
+        const badge = upcoming
+          ? `<span class="hotel-upcoming-badge" role="status">${isOfficial ? "⚠️ 官網 3 天內開搶！" : "⚠️ 3天內即將開搶！"}</span>`
+          : `<span class="inline-flex rounded-lg bg-emerald-100 px-2.5 py-1 text-xs font-black text-emerald-800">🟢 今日進行中</span>`;
+        const sourceBadge = isOfficial
+          ? `<span class="hotel-official-badge" title="優惠來自酒店官方網站">🌐 官網獨家</span>`
+          : "";
+        const tags = (Array.isArray(offer.tags) ? offer.tags : [])
+          .map((tag) => `<span class="rounded-md bg-white/80 px-2 py-0.5 text-[10px] font-bold text-slate-600">${tag}</span>`)
+          .join("");
+        const href = hotelBookingUrl(offer, hotel);
+        const cta = href
+          ? `<a class="hotel-offer-cta" href="${href}" target="_blank" rel="noopener noreferrer" data-hotel-booking="1">立即預訂 / 了解詳情 ↗</a>`
+          : "";
+        const openAttr = href
+          ? ` role="link" tabindex="0" data-booking-url="${href.replace(/"/g, "&quot;")}"`
+          : "";
+        return `<article class="hotel-card rounded-2xl border p-4 ${upcoming ? "border-amber-300 bg-amber-50/80" : "border-emerald-200 bg-emerald-50/70"}" data-lifecycle="${status}" data-source="${isOfficial ? "official" : ""}"${openAttr}><div class="flex flex-wrap items-start justify-between gap-2">${badge}${sourceBadge}<p class="text-xs font-semibold text-slate-500">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p></div><h5 class="mt-3 text-base font-black leading-tight sm:text-lg">${offer.title || ""}</h5><p class="mt-2 text-sm leading-6 text-slate-700">${offer.description || ""}</p>${tags ? `<div class="mt-3 flex flex-wrap gap-1.5">${tags}</div>` : ""}${cta}</article>`;
+      }
+
+function hotelCard(hotel) {
+        const key = `hotel::${hotel.id || hotel.name}`;
+        const expanded = state.expandedHotels.has(key);
+        const hiddenWhileExpanded = (state.expandedHotels.size > 0 || state.expandedMalls.size > 0) && !expanded;
+        const offers = hotel.offers || [];
+        const activeCount = offers.filter((o) => o.status === "active").length;
+        const upcomingCount = offers.filter((o) => o.status === "upcoming").length;
+        const lifecycle = currentViewMode();
+        let summaryLabel = `🟢 ${activeCount} 個進行中　🟡 ${upcomingCount} 個即將開始`;
+        if (lifecycle === "active") summaryLabel = `🟢 ${activeCount} 個進行中`;
+        else if (lifecycle === "upcoming") summaryLabel = `🟡 ${upcomingCount} 個即將開始`;
+        const phone = String(hotel.phone || "").replace(/\s/g, "");
+        const hotelOfficialUrl = String(hotel.official_website || "");
+        const officialLink = /^https?:\/\//.test(hotelOfficialUrl)
+          ? ` · <a class="underline text-coral" href="${hotelOfficialUrl}" target="_blank" rel="noopener noreferrer">官網優惠 ↗</a>`
+          : "";
+        const upcomingAlert = upcomingCount
+          ? `<div class="mt-3"><span class="hotel-upcoming-badge">⚠️ 官網 3 天內開搶！（${upcomingCount}）</span></div>`
+          : "";
+        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-channel="hotel"><button class="hotel-toggle flex w-full items-center justify-between gap-4 p-6 text-left transition hover:bg-slate-50" data-hotel-key="${key}" aria-expanded="${expanded}"><div><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p><h3 class="mt-1 text-xl font-black">${hotel.name || ""}</h3><p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p><p class="mt-1 text-sm font-semibold text-slate-600"><a class="underline" href="tel:${phone}">${hotel.phone || ""}</a>${officialLink}</p><p class="mt-3 text-xs font-semibold text-slate-400">${summaryLabel}</p>${upcomingAlert}</div><span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white">${expanded ? "−" : "+"}</span></button>${expanded ? `<div class="space-y-3 border-t border-slate-100 bg-slate-50 p-5">${offers.map((offer) => hotelOfferCard(offer, hotel)).join("")}</div>` : ""}</article>`;
+      }
+      function syncChannelChrome() {
+        const channel = state.selectedChannel;
+        if (mallFiltersPanel) mallFiltersPanel.hidden = channel === "hotels";
+        if (hotelChannelHint) hotelChannelHint.classList.toggle("hidden", channel !== "hotels");
+      }
+
       function mallCard(district, mall) {
         const key = `${district.district}::${mall.mall_name}`;
         const expanded = state.expandedMalls.has(key);
-        const hiddenWhileExpanded = state.expandedMalls.size > 0 && !expanded;
+        const hiddenWhileExpanded = (state.expandedMalls.size > 0 || state.expandedHotels.size > 0) && !expanded;
         const lifecycle = currentViewMode();
         const rawMallOffers = (mall.mall_offers || []).filter((offer) => offer.type === "fallback" || ["active", "upcoming"].includes(offerStatus(offer)));
         const rawStoreOffers = (mall.store_offers || []).filter((offer) => ["active", "upcoming"].includes(offerStatus(offer)));
@@ -528,10 +699,29 @@
         return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}"><button class="mall-toggle flex w-full items-center justify-between gap-4 p-6 text-left transition hover:bg-slate-50" data-mall-key="${key}" aria-expanded="${expanded}"><div><p class="text-xs font-bold text-coral">${district.district}</p><h3 class="mt-1 text-xl font-black">${mall.mall_name}</h3><p class="mt-2 text-sm text-slate-500">${mall.address}</p>${geoChips(mall)}<p class="mt-3 text-xs font-semibold text-slate-400">${summaryLabel}</p></div><span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white">${expanded ? "−" : "+"}</span></button>${expanded ? `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, mallOfferCard, "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>` : ""}</article>`;
       }
       function render() {
-        const malls = getVisibleDistricts().flatMap((district) => district.malls.map((mall) => ({ district, mall })));
-        const cards = malls.map(({ district, mall }) => mallCard(district, mall)).filter(Boolean);
-        districtSummary.textContent = state.selectedDistrict === "全部" ? `顯示 ${cards.length} 間商場` : `正在查看 ${state.selectedDistrict}：${cards.length} 間商場`;
-        mallList.innerHTML = cards.length ? cards.join("") : document.querySelector("#empty-state").innerHTML;
+        syncChannelChrome();
+        const channel = state.selectedChannel;
+        const showMalls = channel === "全部" || channel === "malls";
+        const showHotels = channel === "全部" || channel === "hotels";
+        const mallCards = showMalls
+          ? getVisibleDistricts().flatMap((district) => (district.malls || []).map((mall) => mallCard(district, mall))).filter(Boolean)
+          : [];
+        const hotelCards = showHotels ? visibleHotels().map(hotelCard) : [];
+        const cards = [...mallCards, ...hotelCards];
+        const districtLabel = state.selectedDistrict === "全部" ? "" : `（${state.selectedDistrict}）`;
+        if (channel === "hotels") {
+          districtSummary.textContent = `顯示 ${hotelCards.length} 間酒店著數${districtLabel}`;
+        } else if (channel === "malls") {
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場${districtLabel}`;
+        } else {
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}`;
+        }
+        if (!cards.length) {
+          const emptyId = channel === "hotels" ? "#empty-state-hotels" : channel === "malls" ? "#empty-state" : "#empty-state-all";
+          mallList.innerHTML = document.querySelector(emptyId).innerHTML;
+          return;
+        }
+        mallList.innerHTML = cards.join("");
       }
       function bindExclusiveFilters(root, attr, stateKey) {
         if (!root) return;
@@ -555,30 +745,93 @@
       bindExclusiveFilters(verticalFilters, "data-vertical", "selectedVertical");
       bindExclusiveFilters(tagFilters, "data-tag", "selectedTag");
       bindExclusiveFilters(lifecycleFilters, "data-lifecycle", "selectedLifecycle");
-      mallList.addEventListener("click", (event) => {
-        const button = event.target.closest("[data-mall-key]");
-        if (!button) return;
-        if (state.expandedMalls.has(button.dataset.mallKey)) {
-          state.expandedMalls.delete(button.dataset.mallKey);
-        } else {
+      if (channelFilters) {
+        channelFilters.addEventListener("click", (event) => {
+          const button = event.target.closest("[data-channel]");
+          if (!button) return;
+          state.selectedChannel = button.dataset.channel;
           state.expandedMalls.clear();
-          state.expandedMalls.add(button.dataset.mallKey);
+          state.expandedHotels.clear();
+          channelFilters.querySelectorAll("[data-channel]").forEach((tag) => tag.setAttribute("aria-pressed", String(tag === button)));
+          render();
+        });
+      }
+      mallList.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        const card = event.target.closest(".hotel-card[data-booking-url]");
+        if (!card) return;
+        event.preventDefault();
+        const href = card.getAttribute("data-booking-url");
+        if (href) window.open(href, "_blank", "noopener,noreferrer");
+      }, true);
+      mallList.addEventListener("click", (event) => {
+        const bookingEl = event.target.closest("[data-hotel-booking], .hotel-card[data-booking-url]");
+        if (bookingEl) {
+          const href = bookingEl.getAttribute("href") || bookingEl.getAttribute("data-booking-url");
+          if (href && /^https?:\/\//.test(href)) {
+            // Allow native <a> navigation; for card body clicks open explicitly.
+            if (!event.target.closest("a[href]")) {
+              event.preventDefault();
+              window.open(href, "_blank", "noopener,noreferrer");
+            }
+            event.stopPropagation();
+            return;
+          }
+        }
+        const mallButton = event.target.closest("[data-mall-key]");
+        if (mallButton) {
+          if (state.expandedMalls.has(mallButton.dataset.mallKey)) {
+            state.expandedMalls.delete(mallButton.dataset.mallKey);
+          } else {
+            state.expandedMalls.clear();
+            state.expandedHotels.clear();
+            state.expandedMalls.add(mallButton.dataset.mallKey);
+          }
+          render();
+          return;
+        }
+        const hotelButton = event.target.closest("[data-hotel-key]");
+        if (!hotelButton) return;
+        if (state.expandedHotels.has(hotelButton.dataset.hotelKey)) {
+          state.expandedHotels.delete(hotelButton.dataset.hotelKey);
+        } else {
+          state.expandedHotels.clear();
+          state.expandedMalls.clear();
+          state.expandedHotels.add(hotelButton.dataset.hotelKey);
         }
         render();
       });
       let mallsLoaded = false;
+      let hotelsLoaded = false;
+      function loadHotels() {
+        return fetch("./data/hotels.json", { cache: "no-store" })
+          .then((response) => { if (!response.ok) throw new Error(); return response.json(); })
+          .then((data) => {
+            state.hotels = Array.isArray(data.hotels) ? data.hotels : (Array.isArray(data) ? data : []);
+            hotelsLoaded = true;
+          })
+          .catch(() => {
+            state.hotels = [];
+            hotelsLoaded = true;
+          });
+      }
       function loadMalls() {
-        if (mallsLoaded) {
+        if (mallsLoaded && hotelsLoaded) {
           render();
           return;
         }
-        districtSummary.textContent = "載入商場資料中…";
-        fetch("./malls.json", { cache: "no-store" }).then((response) => { if (!response.ok) throw new Error(); return response.json(); }).then((data) => {
-          state.districts = data.districts || [];
-          mallsLoaded = true;
+        districtSummary.textContent = "載入著數資料中…";
+        const mallPromise = mallsLoaded
+          ? Promise.resolve()
+          : fetch("./malls.json", { cache: "no-store" }).then((response) => { if (!response.ok) throw new Error(); return response.json(); }).then((data) => {
+              state.districts = data.districts || [];
+              mallsLoaded = true;
+            });
+        const hotelPromise = hotelsLoaded ? Promise.resolve() : loadHotels();
+        Promise.all([mallPromise, hotelPromise]).then(() => {
           render();
         }).catch(() => {
-          districtSummary.textContent = "無法載入 malls.json。請以本機網頁伺服器開啟此頁面。";
+          districtSummary.textContent = "無法載入資料。請以本機網頁伺服器開啟此頁面。";
           mallList.innerHTML = '<div class="col-span-full rounded-3xl bg-red-50 p-6 text-sm font-semibold text-red-700">資料載入失敗。請執行 <code class="rounded bg-white px-2 py-1">python -m http.server 8000</code> 後開啟 http://localhost:8000。</div>';
         });
       }

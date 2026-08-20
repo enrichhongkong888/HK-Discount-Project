@@ -1,0 +1,142 @@
+{
+  "updated_at": "2026-08-20T16:27:22Z",
+  "source": "seed_4_5_star_hotels",
+  "hotels": [
+    {
+      "id": "hotel-peninsula-hk",
+      "district": "油尖旺區",
+      "type": "hotel",
+      "star_rating": 5,
+      "name": "香港半島酒店 (The Peninsula Hong Kong)",
+      "official_website": "https://www.peninsula.com/zh-cn/hong-kong/special-offers",
+      "address": "九龍尖沙咀梳士巴利道22號",
+      "phone": "+852 2920 2888",
+      "offers": [
+        {
+          "id": "offer-peninsula-official-01",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網獨家：當月壽星專屬住宿禮遇",
+          "description": "經半島官網直接預訂，尊享特製生日香檳、生日蛋糕及延遲退房至下午 4 時。",
+          "start_date": "2026-08-23",
+          "end_date": "2026-12-31",
+          "booking_url": "https://www.peninsula.com/zh-cn/hong-kong/special-offers",
+          "tags": [
+            "官網獨家",
+            "Staycation",
+            "壽星禮遇"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hotel-mandarin-oriental",
+      "district": "中西區",
+      "type": "hotel",
+      "star_rating": 5,
+      "name": "香港文華東方酒店 (Mandarin Oriental, Hong Kong)",
+      "address": "香港中環干諾道中5號",
+      "phone": "+852 2522 0111",
+      "offers": [
+        {
+          "id": "offer-mo-staycation-01",
+          "category": "staycation",
+          "title": "奢華市景住宿連雙人自助早餐及下午茶套餐",
+          "description": "預訂高級客房免費升級至市景客房，送快船廊雙人自助早餐。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-31",
+          "tags": [
+            "官網獨家",
+            "Staycation",
+            "買一送一"
+          ],
+          "source_type": "official",
+          "booking_url": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour/offers"
+        }
+      ],
+      "official_website": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour/offers"
+    },
+    {
+      "id": "hotel-alva-by-royal",
+      "district": "沙田區",
+      "type": "hotel",
+      "star_rating": 4,
+      "name": "帝逸酒店 (ALVA HOTEL BY ROYAL)",
+      "address": "新界沙田源康街1號",
+      "phone": "+852 3653 1111",
+      "offers": [
+        {
+          "id": "offer-alva-buffet-01",
+          "category": "buffet",
+          "title": "Alva House 環球海鮮盛宴自助晚餐買二送一",
+          "description": "主打生蠔、波士頓龍蝦及刺身，經官網預訂享買二送一優惠。",
+          "start_date": "2026-08-24",
+          "end_date": "2026-09-15",
+          "tags": [
+            "官網獨家",
+            "自助餐",
+            "買一送一"
+          ],
+          "source_type": "official",
+          "booking_url": "https://www.alvahotel.com/zh-hk/offers"
+        }
+      ],
+      "official_website": "https://www.alvahotel.com/zh-hk/offers"
+    },
+    {
+      "id": "hotel-four-points-tung-chung",
+      "district": "離島區",
+      "type": "hotel",
+      "star_rating": 4,
+      "name": "東涌福朋喜來登酒店 (Four Points by Sheraton)",
+      "address": "新界大嶼山東涌怡東路9號",
+      "phone": "+852 2352 8000",
+      "offers": [
+        {
+          "id": "offer-fourpoints-buffet-01",
+          "category": "buffet",
+          "title": "藝廚餐廳週末自助晚餐買一送一",
+          "description": "預訂享買一送一優惠，暢飲指定飲品及享用日式刺身。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-30",
+          "tags": [
+            "官網獨家",
+            "自助餐",
+            "買一送一"
+          ],
+          "source_type": "official",
+          "booking_url": "https://www.marriott.com/zh/hotels/hkgfp-four-points-hong-kong-tung-chung/overview/"
+        }
+      ],
+      "official_website": "https://www.marriott.com/zh/hotels/hkgfp-four-points-hong-kong-tung-chung/overview/"
+    },
+    {
+      "id": "hotel-royal-view",
+      "district": "荃灣區",
+      "type": "hotel",
+      "star_rating": 4,
+      "name": "帝景酒店 (Royal View Hotel)",
+      "address": "新界汀九青山公路－汀九段353號",
+      "phone": "+852 3716 2888",
+      "offers": [
+        {
+          "id": "offer-royalview-birthday-01",
+          "category": "birthday",
+          "title": "當月壽星住宿優惠方案",
+          "description": "當月壽星預訂 Staycation 套餐即贈送精美生日蛋糕及氣泡酒。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-12-31",
+          "tags": [
+            "官網獨家",
+            "Staycation",
+            "壽星禮遇"
+          ],
+          "source_type": "official",
+          "booking_url": "https://www.royalview.com.hk/tc/special-offers"
+        }
+      ],
+      "official_website": "https://www.royalview.com.hk/tc/special-offers"
+    }
+  ],
+  "source_priority": "official_website"
+}

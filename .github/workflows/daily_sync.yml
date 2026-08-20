@@ -37,9 +37,13 @@ jobs:
         run: |
           python scripts/fetch_google_facades.py
 
+      - name: Audit hotel offers (drop expired)
+        run: |
+          python scripts/audit_hotels.py --hotels data/hotels.json
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add malls.json data/ frontend/
+          git add malls.json data/ frontend/ index.html
           git diff --quiet && git diff --staged --quiet || (git commit -m "auto: daily sync mall offers and images [skip ci]" && git push)
