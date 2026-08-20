@@ -37,6 +37,10 @@ jobs:
         run: |
           python scripts/fetch_google_facades.py
 
+      - name: Crawl official hotel offers (18 districts 4–5★)
+        run: |
+          python scripts/crawl_hotel_official.py --sleep 0.2
+
       - name: Audit hotel offers (drop expired)
         run: |
           python scripts/audit_hotels.py --hotels data/hotels.json
