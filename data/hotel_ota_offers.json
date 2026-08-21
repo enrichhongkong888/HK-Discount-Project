@@ -1,0 +1,133 @@
+{
+  "_comment": "Curated OTA / bank co-brand hotel offers. Merged by audit_hotels.py into data/hotels.json.",
+  "offers_by_hotel": {
+    "hotel-alva-by-royal": [
+      {
+        "id": "offer-alva-kkday-01",
+        "category": "buffet",
+        "source_type": "ota",
+        "platform": "KKday",
+        "title": "Alva House 自助晚餐買一送一 (KKday 獨家快閃)",
+        "description": "經 KKday 預訂享買一送一，暢飲指定飲品及生蠔、波士頓龍蝦。",
+        "start_date": "2026-08-22",
+        "end_date": "2026-09-15",
+        "booking_url": "https://www.kkday.com/zh-hk/product/146464",
+        "is_affiliate": true,
+        "tags": ["自助餐", "買一送一"],
+        "bank_tags": ["HSBC", "SCB"]
+      }
+    ],
+    "hotel-peninsula-hk": [
+      {
+        "id": "offer-peninsula-klook-01",
+        "category": "staycation",
+        "source_type": "ota",
+        "platform": "Klook",
+        "title": "半島酒店下午茶／住宿套餐 (Klook 限定)",
+        "description": "經 Klook 預訂半島精選體驗，適合週末短住及下午茶約會。",
+        "start_date": "2026-08-20",
+        "end_date": "2026-10-31",
+        "booking_url": "https://www.klook.com/zh-HK/search/?query=Peninsula%20Hong%20Kong",
+        "is_affiliate": true,
+        "tags": ["Staycation", "下午茶"],
+        "bank_tags": ["HSBC", "HangSeng"]
+      }
+    ],
+    "hotel-icon": [
+      {
+        "id": "offer-icon-klook-01",
+        "category": "buffet",
+        "source_type": "ota",
+        "platform": "Klook",
+        "title": "Hotel ICON 自助晚餐買一送一 (Klook)",
+        "description": "經 Klook 快閃預訂，指定日子自助晚餐買一送一。",
+        "start_date": "2026-08-22",
+        "end_date": "2026-09-20",
+        "booking_url": "https://www.klook.com/zh-HK/search/?query=Hotel%20ICON%20buffet",
+        "is_affiliate": true,
+        "tags": ["自助餐", "買一送一"],
+        "bank_tags": ["BOC", "DBS"]
+      }
+    ],
+    "hotel-cordis-hk": [
+      {
+        "id": "offer-cordis-kkday-01",
+        "category": "buffet",
+        "source_type": "ota",
+        "platform": "KKday",
+        "title": "Cordis 自助餐／下午茶 KKday 專屬",
+        "description": "經 KKday 預訂康得思精選餐飲優惠，部分日子買一送一。",
+        "start_date": "2026-08-21",
+        "end_date": "2026-09-30",
+        "booking_url": "https://www.kkday.com/zh-hk/product/136215",
+        "is_affiliate": true,
+        "tags": ["自助餐", "下午茶"],
+        "bank_tags": ["SCB", "HangSeng"]
+      }
+    ],
+    "hotel-ritz-carlton-hk": [
+      {
+        "id": "offer-ritz-klook-hsbc",
+        "category": "staycation",
+        "source_type": "ota",
+        "platform": "Klook",
+        "title": "麗思卡爾頓 Staycation × 匯豐卡專屬",
+        "description": "經 Klook 預訂並以匯豐信用卡付款，可享額外折扣或迎賓禮遇。",
+        "start_date": "2026-08-22",
+        "end_date": "2026-10-15",
+        "booking_url": "https://www.klook.com/zh-HK/search/?query=Ritz%20Carlton%20Hong%20Kong",
+        "is_affiliate": true,
+        "tags": ["Staycation", "信用卡"],
+        "bank_tags": ["HSBC"]
+      }
+    ],
+    "hotel-harbour-grand-kowloon": [
+      {
+        "id": "offer-hgk-openrice-01",
+        "category": "buffet",
+        "source_type": "ota",
+        "platform": "OpenRice",
+        "title": "九龍海逸君綽自助晚餐 OpenRice 優惠",
+        "description": "經 OpenRice 預訂指定自助晚餐，即享平台獨家折扣。",
+        "start_date": "2026-08-22",
+        "end_date": "2026-09-25",
+        "booking_url": "https://www.openrice.com/zh/hongkong",
+        "is_affiliate": true,
+        "tags": ["自助餐"],
+        "bank_tags": ["BOC", "DBS"]
+      }
+    ],
+    "hotel-disneyland-hk": [
+      {
+        "id": "offer-disney-kkday-01",
+        "category": "staycation",
+        "source_type": "ota",
+        "platform": "KKday",
+        "title": "迪士尼樂園酒店住宿套票 (KKday)",
+        "description": "經 KKday 預訂酒店連門票套餐，適合家庭週末。",
+        "start_date": "2026-08-22",
+        "end_date": "2026-11-30",
+        "booking_url": "https://www.kkday.com/zh-hk/product/20085",
+        "is_affiliate": true,
+        "tags": ["Staycation"],
+        "bank_tags": ["HSBC", "SCB", "HangSeng"]
+      }
+    ],
+    "hotel-gold-coast": [
+      {
+        "id": "offer-goldcoast-klook-01",
+        "category": "buffet",
+        "source_type": "ota",
+        "platform": "Klook",
+        "title": "黃金海岸自助晚餐買一送一 (Klook)",
+        "description": "經 Klook 預訂海景自助晚餐，指定日子買一送一；渣打／DBS 卡另有加碼。",
+        "start_date": "2026-08-23",
+        "end_date": "2026-09-18",
+        "booking_url": "https://www.klook.com/zh-HK/search/?query=Gold%20Coast%20Hotel%20buffet",
+        "is_affiliate": true,
+        "tags": ["自助餐", "買一送一", "信用卡"],
+        "bank_tags": ["SCB", "DBS"]
+      }
+    ]
+  }
+}

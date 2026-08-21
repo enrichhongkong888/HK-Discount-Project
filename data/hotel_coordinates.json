@@ -1,0 +1,153 @@
+{
+  "_comment": "Approximate hotel lobby / entrance pins for SPA map markers.",
+  "coordinates": {
+    "hotel-mandarin-oriental": {
+      "lat": 22.28175,
+      "lng": 114.15945
+    },
+    "hotel-four-seasons-hk": {
+      "lat": 22.28655,
+      "lng": 114.15685
+    },
+    "hotel-the-murray": {
+      "lat": 22.27805,
+      "lng": 114.16055
+    },
+    "hotel-island-shangri-la": {
+      "lat": 22.27745,
+      "lng": 114.16455
+    },
+    "hotel-grand-hyatt-hk": {
+      "lat": 22.28085,
+      "lng": 114.17355
+    },
+    "hotel-harbour-grand-hk": {
+      "lat": 22.29155,
+      "lng": 114.20055
+    },
+    "hotel-renaissance-harbour-view": {
+      "lat": 22.28055,
+      "lng": 114.17305
+    },
+    "hotel-peninsula-hk": {
+      "lat": 22.29525,
+      "lng": 114.17205
+    },
+    "hotel-icon": {
+      "lat": 22.30155,
+      "lng": 114.17855
+    },
+    "hotel-ritz-carlton-hk": {
+      "lat": 22.30305,
+      "lng": 114.16055
+    },
+    "hotel-cordis-hk": {
+      "lat": 22.31805,
+      "lng": 114.16855
+    },
+    "hotel-hyatt-regency-tst": {
+      "lat": 22.29755,
+      "lng": 114.17255
+    },
+    "hotel-east-hk": {
+      "lat": 22.28755,
+      "lng": 114.21155
+    },
+    "hotel-kerry-hk": {
+      "lat": 22.30355,
+      "lng": 114.19155
+    },
+    "hotel-harbour-plaza-north-point": {
+      "lat": 22.29105,
+      "lng": 114.20855
+    },
+    "hotel-fullerton-ocean-park": {
+      "lat": 22.24705,
+      "lng": 114.17455
+    },
+    "hotel-le-meridien-cyberport": {
+      "lat": 22.26155,
+      "lng": 114.12985
+    },
+    "hotel-alva-by-royal": {
+      "lat": 22.38355,
+      "lng": 114.20755
+    },
+    "hotel-hyatt-regency-sha-tin": {
+      "lat": 22.41955,
+      "lng": 114.20755
+    },
+    "hotel-royal-park": {
+      "lat": 22.38255,
+      "lng": 114.18855
+    },
+    "hotel-royal-view": {
+      "lat": 22.37055,
+      "lng": 114.07055
+    },
+    "hotel-panda": {
+      "lat": 22.37055,
+      "lng": 114.11355
+    },
+    "hotel-four-points-tung-chung": {
+      "lat": 22.28955,
+      "lng": 113.94155
+    },
+    "hotel-skycity-marriott": {
+      "lat": 22.31755,
+      "lng": 113.93455
+    },
+    "hotel-disneyland-hk": {
+      "lat": 22.31305,
+      "lng": 114.04155
+    },
+    "hotel-regal-airport": {
+      "lat": 22.31705,
+      "lng": 113.93655
+    },
+    "hotel-harbour-grand-kowloon": {
+      "lat": 22.30355,
+      "lng": 114.18955
+    },
+    "hotel-crowne-plaza-ke": {
+      "lat": 22.31155,
+      "lng": 114.22555
+    },
+    "hotel-cozi-harbour": {
+      "lat": 22.31055,
+      "lng": 114.22155
+    },
+    "hotel-gold-coast": {
+      "lat": 22.37055,
+      "lng": 113.99055
+    },
+    "hotel-regal-riverside": {
+      "lat": 22.38555,
+      "lng": 114.20355
+    },
+    "hotel-the-fullerton-ocean-park-alt": {
+      "lat": 22.24655,
+      "lng": 114.17355
+    },
+    "hotel-dorsett-mongkok": {
+      "lat": 22.31955,
+      "lng": 114.16855
+    },
+    "hotel-rambler-garden": {
+      "lat": 22.34855,
+      "lng": 114.10755
+    },
+    "hotel-silka-tsuen-wan": {
+      "lat": 22.37055,
+      "lng": 114.11655
+    },
+    "hotel-courtyard-sha-tin": {
+      "lat": 22.38255,
+      "lng": 114.19055
+    },
+    "hotel-hop-inn-yoho": {
+      "lat": 22.44555,
+      "lng": 114.03605
+    }
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-21T00:34:28+08:00",
+  "updated_at": "2026-08-22T02:11:30+08:00",
   "source": "crawl_hotel_official",
   "source_priority": "official_website",
   "registry_count": 37,
-  "pages_parsed": 12,
+  "pages_parsed": 20,
   "hotels": [
     {
       "id": "hotel-mandarin-oriental",
@@ -12,6 +12,7 @@
       "star_rating": 5,
       "name": "香港文華東方酒店 (Mandarin Oriental, Hong Kong)",
       "official_website": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour/offers",
+      "official_homepage": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour",
       "address": "香港中環干諾道中5號",
       "phone": "+852 2522 0111",
       "offers": [
@@ -27,7 +28,8 @@
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-mandarin-oriental-staycation-3edb669f",
@@ -41,7 +43,8 @@
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -52,6 +55,7 @@
       "star_rating": 5,
       "name": "香港四季酒店 (Four Seasons Hotel Hong Kong)",
       "official_website": "https://www.fourseasons.com/hongkong/offers/",
+      "official_homepage": "https://www.fourseasons.com/hongkong/",
       "address": "香港中環金融街8號",
       "phone": "+852 3196 8888",
       "offers": [
@@ -67,7 +71,8 @@
           "tags": [
             "官網獨家",
             "自助餐"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -77,7 +82,8 @@
       "type": "hotel",
       "star_rating": 5,
       "name": "美利酒店 (The Murray, Hong Kong)",
-      "official_website": "https://www.niccolohotels.com/zh-hk/hotels/hong-kong/the-murray/offers",
+      "official_website": "https://www.niccolohotels.com/",
+      "official_homepage": "https://www.niccolohotels.com/zh-hk/hotels/hong-kong/the-murray",
       "address": "香港中環花園道22號",
       "phone": "+852 3141 8888",
       "offers": [
@@ -89,12 +95,13 @@
           "description": "經美利酒店官網直接預訂，入住即送雙人精緻下午茶及歡迎飲品。",
           "start_date": "2026-08-23",
           "end_date": "2026-10-07",
-          "booking_url": "https://www.niccolohotels.com/zh-hk/hotels/hong-kong/the-murray/offers",
+          "booking_url": "https://www.niccolohotels.com/",
           "tags": [
             "官網獨家",
             "Staycation",
             "下午茶"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -105,6 +112,7 @@
       "star_rating": 5,
       "name": "港島香格里拉大酒店 (Island Shangri-La)",
       "official_website": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
+      "official_homepage": "https://www.shangri-la.com/tc/hongkong/islandshangrila/",
       "address": "香港金鐘最高法院道太平山廣場",
       "phone": "+852 2877 3838",
       "offers": [
@@ -121,7 +129,8 @@
             "官網獨家",
             "自助餐",
             "買一送一"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-island-shangri-la-staycation-5ce3b956",
@@ -130,12 +139,13 @@
           "title": "官網優惠：根據優惠類型篩選搜索",
           "description": "詳情以 港島香格里拉大酒店 (Island Shangri-La) 官方網站為準，請經官網查閱條款及預訂。",
           "start_date": "2026-10-01",
-          "end_date": "2026-11-15",
+          "end_date": "2026-11-27",
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-island-shangri-la-staycation-e430377f",
@@ -144,12 +154,13 @@
           "title": "官網優惠：2026-10-01 - 2026-10-01",
           "description": "詳情以 港島香格里拉大酒店 (Island Shangri-La) 官方網站為準，請經官網查閱條款及預訂。",
           "start_date": "2026-10-01",
-          "end_date": "2026-11-15",
+          "end_date": "2026-11-27",
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-island-shangri-la-staycation-26711be0",
@@ -158,12 +169,13 @@
           "title": "官網優惠：2026-09-24 - 2026-09-24",
           "description": "詳情以 港島香格里拉大酒店 (Island Shangri-La) 官方網站為準，請經官網查閱條款及預訂。",
           "start_date": "2026-10-01",
-          "end_date": "2026-11-15",
+          "end_date": "2026-11-27",
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -174,6 +186,7 @@
       "star_rating": 5,
       "name": "香港君悅酒店 (Grand Hyatt Hong Kong)",
       "official_website": "https://www.hyatt.com/zh-Hans/hotel/china/grand-hyatt-hong-kong/hongg/offers",
+      "official_homepage": "https://www.hyatt.com/zh-Hans/hotel/china/grand-hyatt-hong-kong/hongg",
       "address": "香港灣仔港灣道1號",
       "phone": "+852 2588 1234",
       "offers": [
@@ -189,7 +202,8 @@
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -200,6 +214,7 @@
       "star_rating": 5,
       "name": "香港君臨海景酒店 (Harbour Grand Hong Kong)",
       "official_website": "https://www.harbourgrand.com/hongkong/zh-hk/offers",
+      "official_homepage": "https://www.harbourgrand.com/hongkong/",
       "address": "香港北角油街23號",
       "phone": "+852 2121 2688",
       "offers": [
@@ -216,7 +231,8 @@
             "官網獨家",
             "自助餐",
             "買一送一"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-harbour-grand-hk-staycation-45b79ec3",
@@ -230,7 +246,8 @@
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -241,6 +258,7 @@
       "star_rating": 5,
       "name": "香港萬麗海景酒店 (Renaissance Harbour View)",
       "official_website": "https://www.marriott.com/zh/hotels/hkghv-renaissance-hong-kong-harbour-view-hotel/overview/",
+      "official_homepage": "https://www.marriott.com/zh/hotels/hkghv-renaissance-hong-kong-harbour-view-hotel/overview/",
       "address": "香港灣仔港灣道1號",
       "phone": "+852 2802 8888",
       "offers": [
@@ -256,7 +274,8 @@
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -267,6 +286,7 @@
       "star_rating": 5,
       "name": "香港半島酒店 (The Peninsula Hong Kong)",
       "official_website": "https://www.peninsula.com/zh-cn/hong-kong/special-offers",
+      "official_homepage": "https://www.peninsula.com/zh-cn/hong-kong",
       "address": "九龍尖沙咀梳士巴利道22號",
       "phone": "+852 2920 2888",
       "offers": [
@@ -283,7 +303,8 @@
             "官網獨家",
             "Staycation",
             "壽星禮遇"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-peninsula-hk-staycation-317174b0",
@@ -297,6 +318,27 @@
           "tags": [
             "官網獨家",
             "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-peninsula-klook-01",
+          "category": "staycation",
+          "source_type": "ota",
+          "platform": "Klook",
+          "title": "半島酒店下午茶／住宿套餐 (Klook 限定)",
+          "description": "經 Klook 預訂半島精選體驗，適合週末短住及下午茶約會。",
+          "start_date": "2026-08-20",
+          "end_date": "2026-10-31",
+          "booking_url": "https://www.klook.com/zh-HK/search/?query=Peninsula%20Hong%20Kong",
+          "is_affiliate": true,
+          "tags": [
+            "Staycation",
+            "下午茶"
+          ],
+          "bank_tags": [
+            "HSBC",
+            "HangSeng"
           ]
         }
       ]
@@ -307,7 +349,8 @@
       "type": "hotel",
       "star_rating": 5,
       "name": "唯港薈 (Hotel ICON)",
-      "official_website": "https://www.hotel-icon.com/zh-hk/offers",
+      "official_website": "https://www.hotel-icon.com/offers",
+      "official_homepage": "https://www.hotel-icon.com/",
       "address": "九龍尖沙咀科學館道17號",
       "phone": "+852 3400 1000",
       "offers": [
@@ -319,11 +362,77 @@
           "description": "經唯港薈官網預訂指定日子 The Market 自助晚餐，尊享買一送一。",
           "start_date": "2026-08-21",
           "end_date": "2026-10-05",
-          "booking_url": "https://www.hotel-icon.com/zh-hk/offers",
+          "booking_url": "https://www.hotel-icon.com/offers",
           "tags": [
             "官網獨家",
             "自助餐",
             "買一送一"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-icon-staycation-829e9fae",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：BEST HOTEL OFFERS IN HONG KONG - HOTEL ICON",
+          "description": "詳情以 唯港薈 (Hotel ICON) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.hotel-icon.com/offers",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-icon-staycation-da9bfdc7",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：Bed & Breakfast",
+          "description": "詳情以 唯港薈 (Hotel ICON) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.hotel-icon.com/offers",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-icon-staycation-0886097f",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：WANT TO KNOW MORE?",
+          "description": "詳情以 唯港薈 (Hotel ICON) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-23",
+          "end_date": "2026-10-07",
+          "booking_url": "https://www.hotel-icon.com/offers",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-icon-klook-01",
+          "category": "buffet",
+          "source_type": "ota",
+          "platform": "Klook",
+          "title": "Hotel ICON 自助晚餐買一送一 (Klook)",
+          "description": "經 Klook 快閃預訂，指定日子自助晚餐買一送一。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-09-20",
+          "booking_url": "https://www.klook.com/zh-HK/search/?query=Hotel%20ICON%20buffet",
+          "is_affiliate": true,
+          "tags": [
+            "自助餐",
+            "買一送一"
+          ],
+          "bank_tags": [
+            "BOC",
+            "DBS"
           ]
         }
       ]
@@ -334,7 +443,8 @@
       "type": "hotel",
       "star_rating": 5,
       "name": "香港麗思卡爾頓酒店 (The Ritz-Carlton Hong Kong)",
-      "official_website": "https://www.ritzcarlton.com/zh-cn/hotels/hong-kong/offers",
+      "official_website": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
+      "official_homepage": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
       "address": "九龍柯士甸道西1號國際商務中心",
       "phone": "+852 2263 2263",
       "offers": [
@@ -346,10 +456,75 @@
           "description": "經麗思卡爾頓官網預訂，入住即送雙人早餐及行政酒廊禮遇（視房型而定）。",
           "start_date": "2026-08-22",
           "end_date": "2026-10-21",
-          "booking_url": "https://www.ritzcarlton.com/zh-cn/hotels/hong-kong/offers",
+          "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
           "tags": [
             "官網獨家",
             "Staycation"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-ritz-carlton-hk-staycation-68109ee4",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：The Ritz-Carlton, Hong Kong",
+          "description": "詳情以 香港麗思卡爾頓酒店 (The Ritz-Carlton Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-ritz-carlton-hk-staycation-23a0e494",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：Welcome to The Ritz-Carlton, Hong Kong",
+          "description": "詳情以 香港麗思卡爾頓酒店 (The Ritz-Carlton Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-ritz-carlton-hk-staycation-b621b271",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：TIMELESS JOURNEY IN THE SKY",
+          "description": "詳情以 香港麗思卡爾頓酒店 (The Ritz-Carlton Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-23",
+          "end_date": "2026-10-07",
+          "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-ritz-klook-hsbc",
+          "category": "staycation",
+          "source_type": "ota",
+          "platform": "Klook",
+          "title": "麗思卡爾頓 Staycation × 匯豐卡專屬",
+          "description": "經 Klook 預訂並以匯豐信用卡付款，可享額外折扣或迎賓禮遇。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-15",
+          "booking_url": "https://www.klook.com/zh-HK/search/?query=Ritz%20Carlton%20Hong%20Kong",
+          "is_affiliate": true,
+          "tags": [
+            "Staycation",
+            "信用卡"
+          ],
+          "bank_tags": [
+            "HSBC"
           ]
         }
       ]
@@ -360,7 +535,8 @@
       "type": "hotel",
       "star_rating": 5,
       "name": "香港康得思酒店 (Cordis, Hong Kong)",
-      "official_website": "https://www.cordishotels.com/zh-hk/hong-kong/offers",
+      "official_website": "https://www.cordishotels.com/en/hong-kong",
+      "official_homepage": "https://www.cordishotels.com/en/hong-kong",
       "address": "九龍旺角上海街555號",
       "phone": "+852 3552 2888",
       "offers": [
@@ -372,11 +548,77 @@
           "description": "經康得思官網預訂 Staycation，當月壽星即送精美蛋糕及歡迎飲料。",
           "start_date": "2026-08-21",
           "end_date": "2026-11-29",
-          "booking_url": "https://www.cordishotels.com/zh-hk/hong-kong/offers",
+          "booking_url": "https://www.cordishotels.com/en/hong-kong",
           "tags": [
             "官網獨家",
             "壽星禮遇",
             "Staycation"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-cordis-hk-staycation-c5131982",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：STAY WITH CORDIS, HONG KONG",
+          "description": "詳情以 香港康得思酒店 (Cordis, Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.cordishotels.com/en/hong-kong",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-cordis-hk-staycation-7f6b7b91",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：AROUND CORDIS, HONG KONG",
+          "description": "詳情以 香港康得思酒店 (Cordis, Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.cordishotels.com/en/hong-kong",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-cordis-hk-staycation-66a75c56",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：CORDIS LONG STAY OFFER",
+          "description": "詳情以 香港康得思酒店 (Cordis, Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-23",
+          "end_date": "2026-10-07",
+          "booking_url": "https://www.cordishotels.com/en/hong-kong",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-cordis-kkday-01",
+          "category": "buffet",
+          "source_type": "ota",
+          "platform": "KKday",
+          "title": "Cordis 自助餐／下午茶 KKday 專屬",
+          "description": "經 KKday 預訂康得思精選餐飲優惠，部分日子買一送一。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-09-30",
+          "booking_url": "https://www.kkday.com/zh-hk/product/136215",
+          "is_affiliate": true,
+          "tags": [
+            "自助餐",
+            "下午茶"
+          ],
+          "bank_tags": [
+            "SCB",
+            "HangSeng"
           ]
         }
       ]
@@ -388,6 +630,7 @@
       "star_rating": 5,
       "name": "尖沙咀凱悅酒店 (Hyatt Regency Hong Kong, Tsim Sha Tsui)",
       "official_website": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-tsim-sha-tsui/hongt/offers",
+      "official_homepage": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-tsim-sha-tsui/hongt",
       "address": "九龍尖沙咀赫德道18號",
       "phone": "+852 2311 1234",
       "offers": [
@@ -403,7 +646,8 @@
           "tags": [
             "官網獨家",
             "自助餐"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -413,7 +657,8 @@
       "type": "hotel",
       "star_rating": 5,
       "name": "香港東隅 (EAST Hong Kong)",
-      "official_website": "https://www.east-hongkong.com/zh-hk/offers",
+      "official_website": "https://www.swirehotels.com/en/brand/east-hotels/",
+      "official_homepage": "https://www.swirehotels.com/en/brand/east-hotels/",
       "address": "香港鰂魚涌海堤街29號",
       "phone": "+852 3969 2888",
       "offers": [
@@ -425,11 +670,42 @@
           "description": "經東隅官網直接預訂，入住即送雙人早餐及 FEAST 餐飲消費額。",
           "start_date": "2026-08-22",
           "end_date": "2026-10-11",
-          "booking_url": "https://www.east-hongkong.com/zh-hk/offers",
+          "booking_url": "https://www.swirehotels.com/en/brand/east-hotels/",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-east-hk-staycation-d8d0f760",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：EAST Hotels",
+          "description": "詳情以 香港東隅 (EAST Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.swirehotels.com/en/brand/east-hotels/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-east-hk-staycation-98177cb1",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：ARRIVE AT A DIFFERENT PLACE",
+          "description": "詳情以 香港東隅 (EAST Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.swirehotels.com/en/brand/east-hotels/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -439,7 +715,8 @@
       "type": "hotel",
       "star_rating": 5,
       "name": "香港嘉里酒店 (Kerry Hotel Hong Kong)",
-      "official_website": "https://www.kerryhotels.com/hongkong/zh-hk/offers",
+      "official_website": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
+      "official_homepage": "https://www.shangri-la.com/tc/hongkong/kerry/",
       "address": "香港紅磡灣紅鸞道38號",
       "phone": "+852 2252 5888",
       "offers": [
@@ -451,12 +728,58 @@
           "description": "經嘉里酒店官網預訂指定日子自助晚餐，尊享買一送一優惠。",
           "start_date": "2026-08-24",
           "end_date": "2026-09-23",
-          "booking_url": "https://www.kerryhotels.com/hongkong/zh-hk/offers",
+          "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
           "tags": [
             "官網獨家",
             "自助餐",
             "買一送一"
-          ]
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-kerry-hk-staycation-86126c89",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：根據優惠類型篩選搜索",
+          "description": "詳情以 香港嘉里酒店 (Kerry Hotel Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-10-01",
+          "end_date": "2026-11-30",
+          "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-kerry-hk-staycation-9136bffa",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：2026-10-01 - 2026-10-01",
+          "description": "詳情以 香港嘉里酒店 (Kerry Hotel Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-10-01",
+          "end_date": "2026-11-30",
+          "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-kerry-hk-staycation-20156928",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：2026-09-09 - 2026-09-12",
+          "description": "詳情以 香港嘉里酒店 (Kerry Hotel Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-10-01",
+          "end_date": "2026-11-30",
+          "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -466,7 +789,8 @@
       "type": "hotel",
       "star_rating": 4,
       "name": "北角海逸酒店 (Harbour Plaza North Point)",
-      "official_website": "https://www.harbour-plaza.com/northpoint/zh-hk/offers",
+      "official_website": "https://www.harbour-plaza.com/northpoint/",
+      "official_homepage": "https://www.harbour-plaza.com/northpoint/",
       "address": "香港北角英皇道665號",
       "phone": "+852 2187 8888",
       "offers": [
@@ -478,25 +802,12 @@
           "description": "經海逸酒店官網預訂，入住即送雙人早餐及游泳池禮遇。",
           "start_date": "2026-08-21",
           "end_date": "2026-10-05",
-          "booking_url": "https://www.harbour-plaza.com/northpoint/zh-hk/offers",
+          "booking_url": "https://www.harbour-plaza.com/northpoint/",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
-        },
-        {
-          "id": "offer-harbour-plaza-north-point-staycation-147ae41b",
-          "category": "staycation",
-          "source_type": "official",
-          "title": "官網優惠：Reservations",
-          "description": "詳情以 北角海逸酒店 (Harbour Plaza North Point) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-08-21",
-          "end_date": "2026-10-05",
-          "booking_url": "https://www.harbour-plaza.com/northpoint/zh-hk/offers",
-          "tags": [
-            "官網獨家",
-            "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -507,6 +818,7 @@
       "star_rating": 5,
       "name": "香港海洋公園萬豪酒店 (Hong Kong Ocean Park Marriott)",
       "official_website": "https://www.marriott.com/zh/hotels/hkgop-hong-kong-ocean-park-marriott-hotel/overview/",
+      "official_homepage": "https://www.marriott.com/zh/hotels/hkgop-hong-kong-ocean-park-marriott-hotel/overview/",
       "address": "香港黃竹坑深灣道180號",
       "phone": "+852 3555 1888",
       "offers": [
@@ -522,7 +834,8 @@
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -533,6 +846,7 @@
       "star_rating": 5,
       "name": "香港數碼港艾美酒店 (Le Méridien Cyberport)",
       "official_website": "https://www.marriott.com/zh/hotels/hkgmd-le-meridien-cyberport/overview/",
+      "official_homepage": "https://www.marriott.com/zh/hotels/hkgmd-le-meridien-cyberport/overview/",
       "address": "香港鋼綫灣數碼道100號",
       "phone": "+852 2980 7788",
       "offers": [
@@ -548,7 +862,8 @@
           "tags": [
             "官網獨家",
             "自助餐"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -558,7 +873,8 @@
       "type": "hotel",
       "star_rating": 4,
       "name": "帝逸酒店 (ALVA HOTEL BY ROYAL)",
-      "official_website": "https://www.alvahotel.com/zh-hk/offers",
+      "official_website": "https://www.alva.com.hk/tc/offers/",
+      "official_homepage": "https://www.alva.com.hk/",
       "address": "新界沙田源康街1號",
       "phone": "+852 3653 1111",
       "offers": [
@@ -570,11 +886,77 @@
           "description": "主打生蠔、波士頓龍蝦及刺身，經官網預訂享買二送一優惠。",
           "start_date": "2026-08-24",
           "end_date": "2026-09-18",
-          "booking_url": "https://www.alvahotel.com/zh-hk/offers",
+          "booking_url": "https://www.alva.com.hk/tc/offers/",
           "tags": [
             "官網獨家",
             "自助餐",
             "買一送一"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-alva-by-royal-staycation-a5dd86f1",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：ALVA HOTEL BY ROYAL",
+          "description": "詳情以 帝逸酒店 (ALVA HOTEL BY ROYAL) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.alva.com.hk/tc/offers/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-alva-by-royal-staycation-c79ce2b7",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：Latest Offers",
+          "description": "詳情以 帝逸酒店 (ALVA HOTEL BY ROYAL) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.alva.com.hk/tc/offers/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-alva-by-royal-staycation-c585606c",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：Discover our wonders",
+          "description": "詳情以 帝逸酒店 (ALVA HOTEL BY ROYAL) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-23",
+          "end_date": "2026-10-07",
+          "booking_url": "https://www.alva.com.hk/tc/offers/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-alva-kkday-01",
+          "category": "buffet",
+          "source_type": "ota",
+          "platform": "KKday",
+          "title": "Alva House 自助晚餐買一送一 (KKday 獨家快閃)",
+          "description": "經 KKday 預訂享買一送一，暢飲指定飲品及生蠔、波士頓龍蝦。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-09-15",
+          "booking_url": "https://www.kkday.com/zh-hk/product/146464",
+          "is_affiliate": true,
+          "tags": [
+            "自助餐",
+            "買一送一"
+          ],
+          "bank_tags": [
+            "HSBC",
+            "SCB"
           ]
         }
       ]
@@ -586,6 +968,7 @@
       "star_rating": 5,
       "name": "沙田凱悅酒店 (Hyatt Regency Hong Kong, Sha Tin)",
       "official_website": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-sha-tin/shahy/offers",
+      "official_homepage": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-sha-tin/shahy",
       "address": "新界沙田大學徑18號",
       "phone": "+852 3723 1234",
       "offers": [
@@ -601,7 +984,8 @@
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -612,6 +996,7 @@
       "star_rating": 4,
       "name": "帝都酒店 (Royal Park Hotel)",
       "official_website": "https://www.royalpark.com.hk/tc/offers",
+      "official_homepage": "https://www.royalpark.com.hk/",
       "address": "新界沙田公園大道8號",
       "phone": "+852 2601 2111",
       "offers": [
@@ -628,7 +1013,8 @@
             "官網獨家",
             "壽星禮遇",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-royal-park-staycation-ab876640",
@@ -642,7 +1028,8 @@
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-royal-park-staycation-21ec3867",
@@ -656,7 +1043,8 @@
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-royal-park-staycation-cc5c1bee",
@@ -670,7 +1058,8 @@
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -681,6 +1070,7 @@
       "star_rating": 4,
       "name": "帝景酒店 (Royal View Hotel)",
       "official_website": "https://www.royalview.com.hk/tc/special-offers",
+      "official_homepage": "https://www.royalview.com.hk/",
       "address": "新界汀九青山公路－汀九段353號",
       "phone": "+852 3716 2888",
       "offers": [
@@ -697,7 +1087,8 @@
             "官網獨家",
             "Staycation",
             "壽星禮遇"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-royal-view-staycation-744cd4fd",
@@ -711,7 +1102,8 @@
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-royal-view-staycation-3ac38f7c",
@@ -725,7 +1117,8 @@
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-royal-view-staycation-fece6589",
@@ -739,7 +1132,8 @@
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -749,7 +1143,8 @@
       "type": "hotel",
       "star_rating": 4,
       "name": "悅來酒店 (Panda Hotel)",
-      "official_website": "https://www.pandahotel.com.hk/tc/offers",
+      "official_website": "https://www.pandahotel.com.hk/",
+      "official_homepage": "https://www.pandahotel.com.hk/",
       "address": "新界荃灣青山公路西樓角路3號",
       "phone": "+852 2409 1111",
       "offers": [
@@ -761,11 +1156,12 @@
           "description": "經悅來官網預訂週末自助晚餐，即享官網專屬折扣或買一送一。",
           "start_date": "2026-08-22",
           "end_date": "2026-09-26",
-          "booking_url": "https://www.pandahotel.com.hk/tc/offers",
+          "booking_url": "https://www.pandahotel.com.hk/",
           "tags": [
             "官網獨家",
             "自助餐"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -776,6 +1172,7 @@
       "star_rating": 4,
       "name": "東涌福朋喜來登酒店 (Four Points by Sheraton)",
       "official_website": "https://www.marriott.com/zh/hotels/hkgfp-four-points-hong-kong-tung-chung/overview/",
+      "official_homepage": "https://www.marriott.com/zh/hotels/hkgfp-four-points-hong-kong-tung-chung/overview/",
       "address": "新界大嶼山東涌怡東路9號",
       "phone": "+852 2352 8000",
       "offers": [
@@ -792,7 +1189,8 @@
             "官網獨家",
             "自助餐",
             "買一送一"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -803,6 +1201,7 @@
       "star_rating": 5,
       "name": "香港天際萬豪酒店 (Hong Kong SkyCity Marriott)",
       "official_website": "https://www.marriott.com/zh/hotels/hkgsm-hong-kong-skycity-marriott-hotel/overview/",
+      "official_homepage": "https://www.marriott.com/zh/hotels/hkgsm-hong-kong-skycity-marriott-hotel/overview/",
       "address": "新界大嶼山香港國際機場翔天路1號",
       "phone": "+852 3969 1888",
       "offers": [
@@ -818,7 +1217,8 @@
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -829,6 +1229,7 @@
       "star_rating": 5,
       "name": "香港迪士尼樂園酒店 (Hong Kong Disneyland Hotel)",
       "official_website": "https://www.hongkongdisneyland.com/zh-hk/hotels/hong-kong-disneyland-hotel/",
+      "official_homepage": "https://www.hongkongdisneyland.com/zh-hk/hotels/hong-kong-disneyland-hotel/",
       "address": "新界大嶼山香港迪士尼樂園度假區",
       "phone": "+852 3510 6000",
       "offers": [
@@ -844,6 +1245,27 @@
           "tags": [
             "官網獨家",
             "Staycation"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-disney-kkday-01",
+          "category": "staycation",
+          "source_type": "ota",
+          "platform": "KKday",
+          "title": "迪士尼樂園酒店住宿套票 (KKday)",
+          "description": "經 KKday 預訂酒店連門票套餐，適合家庭週末。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-11-30",
+          "booking_url": "https://www.kkday.com/zh-hk/product/20085",
+          "is_affiliate": true,
+          "tags": [
+            "Staycation"
+          ],
+          "bank_tags": [
+            "HSBC",
+            "SCB",
+            "HangSeng"
           ]
         }
       ]
@@ -854,7 +1276,8 @@
       "type": "hotel",
       "star_rating": 5,
       "name": "富豪機場酒店 (Regal Airport Hotel)",
-      "official_website": "https://www.regalhotel.com/zh-hk/regal-airport-hotel/offers",
+      "official_website": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
+      "official_homepage": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
       "address": "新界大嶼山香港國際機場暢航路9號",
       "phone": "+852 2286 8888",
       "offers": [
@@ -866,11 +1289,57 @@
           "description": "經富豪官網預訂，含雙人早餐及機場穿梭服務。",
           "start_date": "2026-08-21",
           "end_date": "2026-10-05",
-          "booking_url": "https://www.regalhotel.com/zh-hk/regal-airport-hotel/offers",
+          "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-regal-airport-staycation-f0a35c56",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：水療豪華按摩客房",
+          "description": "詳情以 富豪機場酒店 (Regal Airport Hotel) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-regal-airport-staycation-58154bbe",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：水療 Cabana 按摩客房",
+          "description": "詳情以 富豪機場酒店 (Regal Airport Hotel) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-regal-airport-staycation-2f6b2d08",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：長期住宿計劃優惠",
+          "description": "詳情以 富豪機場酒店 (Regal Airport Hotel) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-23",
+          "end_date": "2026-10-07",
+          "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -881,6 +1350,7 @@
       "star_rating": 5,
       "name": "九龍海逸君綽酒店 (Harbour Grand Kowloon)",
       "official_website": "https://www.harbourgrand.com/kowloon/zh-hk/offers",
+      "official_homepage": "https://www.harbourgrand.com/kowloon/",
       "address": "九龍紅磡海濱道20號",
       "phone": "+852 2621 3188",
       "offers": [
@@ -896,7 +1366,8 @@
           "tags": [
             "官網獨家",
             "自助餐"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-harbour-grand-kowloon-staycation-6891f934",
@@ -910,6 +1381,26 @@
           "tags": [
             "官網獨家",
             "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-hgk-openrice-01",
+          "category": "buffet",
+          "source_type": "ota",
+          "platform": "OpenRice",
+          "title": "九龍海逸君綽自助晚餐 OpenRice 優惠",
+          "description": "經 OpenRice 預訂指定自助晚餐，即享平台獨家折扣。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-09-25",
+          "booking_url": "https://www.openrice.com/zh/hongkong",
+          "is_affiliate": true,
+          "tags": [
+            "自助餐"
+          ],
+          "bank_tags": [
+            "BOC",
+            "DBS"
           ]
         }
       ]
@@ -920,7 +1411,8 @@
       "type": "hotel",
       "star_rating": 5,
       "name": "香港九龍東皇冠假日酒店 (Crowne Plaza Kowloon East)",
-      "official_website": "https://www.ihg.com/crowneplaza/hotels/tw/zh/hong-kong/hkgke/hoteldetail",
+      "official_website": "https://www.ihg.com/crowneplaza/hotels/us/en/hong-kong/hkgke/hoteldetail",
+      "official_homepage": "https://www.ihg.com/crowneplaza/hotels/us/en/hong-kong/hkgke/hoteldetail",
       "address": "九龍觀塘偉業街3號",
       "phone": "+852 3983 0388",
       "offers": [
@@ -932,11 +1424,12 @@
           "description": "經 IHG 官網預訂，入住即送雙人早餐及健身室禮遇。",
           "start_date": "2026-08-22",
           "end_date": "2026-10-11",
-          "booking_url": "https://www.ihg.com/crowneplaza/hotels/tw/zh/hong-kong/hkgke/hoteldetail",
+          "booking_url": "https://www.ihg.com/crowneplaza/hotels/us/en/hong-kong/hkgke/hoteldetail",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -946,7 +1439,8 @@
       "type": "hotel",
       "star_rating": 4,
       "name": "悅品海景酒店・觀塘 (hotel COZi Harbour View)",
-      "official_website": "https://www.hotelcozi.com/harbourview/zh-hk/offers",
+      "official_website": "https://www.hotelcozi.com/harbourview/",
+      "official_homepage": "https://www.hotelcozi.com/harbourview/",
       "address": "九龍觀塘海濱道163號",
       "phone": "+852 3550 6888",
       "offers": [
@@ -958,25 +1452,12 @@
           "description": "經悅品官網預訂，入住海景客房並送雙人早餐。",
           "start_date": "2026-08-21",
           "end_date": "2026-09-30",
-          "booking_url": "https://www.hotelcozi.com/harbourview/zh-hk/offers",
+          "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
-        },
-        {
-          "id": "offer-cozi-harbour-staycation-38620f86",
-          "category": "staycation",
-          "source_type": "official",
-          "title": "官網優惠：Indulge in COZi Comfort",
-          "description": "詳情以 悅品海景酒店・觀塘 (hotel COZi Harbour View) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-08-21",
-          "end_date": "2026-10-05",
-          "booking_url": "https://www.hotelcozi.com/harbourview/zh-hk/offers",
-          "tags": [
-            "官網獨家",
-            "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-cozi-harbour-staycation-77205b94",
@@ -984,13 +1465,44 @@
           "source_type": "official",
           "title": "官網優惠：RESERVATION",
           "description": "詳情以 悅品海景酒店・觀塘 (hotel COZi Harbour View) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-08-22",
-          "end_date": "2026-10-06",
-          "booking_url": "https://www.hotelcozi.com/harbourview/zh-hk/offers",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-cozi-harbour-staycation-b31435f6",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：INDULGE IN COZI COMFORT",
+          "description": "詳情以 悅品海景酒店・觀塘 (hotel COZi Harbour View) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.hotelcozi.com/harbourview/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-cozi-harbour-staycation-cc012658",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：Kai Tak Sports Park",
+          "description": "詳情以 悅品海景酒店・觀塘 (hotel COZi Harbour View) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-23",
+          "end_date": "2026-10-07",
+          "booking_url": "https://www.hotelcozi.com/harbourview/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -1001,6 +1513,7 @@
       "star_rating": 5,
       "name": "香港黃金海岸酒店 (Hong Kong Gold Coast Hotel)",
       "official_website": "https://www.goldcoasthotel.com.hk/tc/offers",
+      "official_homepage": "https://www.goldcoasthotel.com.hk/",
       "address": "新界屯門黃金海岸青山公路1號",
       "phone": "+852 2452 8888",
       "offers": [
@@ -1017,6 +1530,28 @@
             "官網獨家",
             "自助餐",
             "買一送一"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-goldcoast-klook-01",
+          "category": "buffet",
+          "source_type": "ota",
+          "platform": "Klook",
+          "title": "黃金海岸自助晚餐買一送一 (Klook)",
+          "description": "經 Klook 預訂海景自助晚餐，指定日子買一送一；渣打／DBS 卡另有加碼。",
+          "start_date": "2026-08-23",
+          "end_date": "2026-09-18",
+          "booking_url": "https://www.klook.com/zh-HK/search/?query=Gold%20Coast%20Hotel%20buffet",
+          "is_affiliate": true,
+          "tags": [
+            "自助餐",
+            "買一送一",
+            "信用卡"
+          ],
+          "bank_tags": [
+            "SCB",
+            "DBS"
           ]
         }
       ]
@@ -1027,7 +1562,8 @@
       "type": "hotel",
       "star_rating": 4,
       "name": "富豪園景酒店 (Regal Riverside Hotel)",
-      "official_website": "https://www.regalhotel.com/zh-hk/regal-riverside-hotel/offers",
+      "official_website": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
+      "official_homepage": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
       "address": "新界沙田大涌橋路34-36號",
       "phone": "+852 2649 7878",
       "offers": [
@@ -1039,11 +1575,42 @@
           "description": "經富豪官網預訂，入住即送雙人早餐及室內泳池。",
           "start_date": "2026-08-23",
           "end_date": "2026-10-07",
-          "booking_url": "https://www.regalhotel.com/zh-hk/regal-riverside-hotel/offers",
+          "booking_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-regal-riverside-staycation-a1bfb5d0",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：Regal Club 富豪薈",
+          "description": "詳情以 富豪園景酒店 (Regal Riverside Hotel) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-regal-riverside-staycation-33e6b90a",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：富豪「探索之旅」致力為各級會員提供豐富禮遇。",
+          "description": "詳情以 富豪園景酒店 (Regal Riverside Hotel) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -1053,7 +1620,8 @@
       "type": "hotel",
       "star_rating": 5,
       "name": "香港富麗敦海洋公園酒店 (The Fullerton Ocean Park Hotel)",
-      "official_website": "https://www.fullertonhotels.com/zh-hk/fullerton-ocean-park-hotel-hong-kong/offers",
+      "official_website": "https://www.fullertonhotels.com/",
+      "official_homepage": "https://www.fullertonhotels.com/",
       "address": "香港黃竹坑深灣道3號",
       "phone": "+852 2113 9333",
       "offers": [
@@ -1065,12 +1633,58 @@
           "description": "經富麗敦官網預訂，入住即送雙人下午茶及海景房升級機會。",
           "start_date": "2026-08-22",
           "end_date": "2026-10-16",
-          "booking_url": "https://www.fullertonhotels.com/zh-hk/fullerton-ocean-park-hotel-hong-kong/offers",
+          "booking_url": "https://www.fullertonhotels.com/",
           "tags": [
             "官網獨家",
             "Staycation",
             "下午茶"
-          ]
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-the-fullerton-ocean-park-alt-staycation-25bbb6ef",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：The Fullerton Hotel Singapore",
+          "description": "詳情以 香港富麗敦海洋公園酒店 (The Fullerton Ocean Park Hotel) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.fullertonhotels.com/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-the-fullerton-ocean-park-alt-staycation-9dac880f",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：The Fullerton Bay Hotel Singapore",
+          "description": "詳情以 香港富麗敦海洋公園酒店 (The Fullerton Ocean Park Hotel) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.fullertonhotels.com/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-the-fullerton-ocean-park-alt-staycation-a3d4adb0",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：The Fullerton Hotel Sydney",
+          "description": "詳情以 香港富麗敦海洋公園酒店 (The Fullerton Ocean Park Hotel) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-23",
+          "end_date": "2026-10-07",
+          "booking_url": "https://www.fullertonhotels.com/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -1080,7 +1694,8 @@
       "type": "hotel",
       "star_rating": 4,
       "name": "旺角帝盛酒店 (Dorsett Mongkok, Hong Kong)",
-      "official_website": "https://www.dorsetthotels.com/zh-hk/dorsett-mongkok-hong-kong/offers",
+      "official_website": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
+      "official_homepage": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
       "address": "九龍旺角砵蘭街88號",
       "phone": "+852 2887 1888",
       "offers": [
@@ -1092,11 +1707,12 @@
           "description": "經帝盛官網預訂，入住即送雙人早餐及指定餐飲／購物消費額。",
           "start_date": "2026-08-21",
           "end_date": "2026-09-30",
-          "booking_url": "https://www.dorsetthotels.com/zh-hk/dorsett-mongkok-hong-kong/offers",
+          "booking_url": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         },
         {
           "id": "offer-dorsett-mongkok-staycation-72a04223",
@@ -1106,11 +1722,12 @@
           "description": "詳情以 旺角帝盛酒店 (Dorsett Mongkok, Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
           "start_date": "2026-08-21",
           "end_date": "2026-12-31",
-          "booking_url": "https://www.dorsetthotels.com/zh-hk/dorsett-mongkok-hong-kong/offers",
+          "booking_url": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -1120,7 +1737,8 @@
       "type": "hotel",
       "star_rating": 4,
       "name": "藍天酒店 (Rambler Garden Hotel)",
-      "official_website": "https://www.ramblerhotels.com/garden/zh-hk/offers",
+      "official_website": "https://www.ramblerhotels.com/garden/",
+      "official_homepage": "https://www.ramblerhotels.com/garden/",
       "address": "新界青衣牙鷹洲街1號",
       "phone": "+852 2525 5111",
       "offers": [
@@ -1132,25 +1750,12 @@
           "description": "經藍天酒店官網預訂，入住即送雙人早餐及穿梭巴士禮遇。",
           "start_date": "2026-08-22",
           "end_date": "2026-10-01",
-          "booking_url": "https://www.ramblerhotels.com/garden/zh-hk/offers",
+          "booking_url": "https://www.ramblerhotels.com/garden/",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
-        },
-        {
-          "id": "offer-rambler-garden-staycation-bd45e550",
-          "category": "staycation",
-          "source_type": "official",
-          "title": "官網優惠：Reservations",
-          "description": "詳情以 藍天酒店 (Rambler Garden Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-08-21",
-          "end_date": "2026-10-05",
-          "booking_url": "https://www.ramblerhotels.com/garden/zh-hk/offers",
-          "tags": [
-            "官網獨家",
-            "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -1160,7 +1765,8 @@
       "type": "hotel",
       "star_rating": 4,
       "name": "華逸酒店・荃灣 (Silka Tsuen Wan)",
-      "official_website": "https://www.silkahotels.com/zh-hk/silka-tsuen-wan/offers",
+      "official_website": "https://www.silkahotels.com/silka-tsuen-wan/",
+      "official_homepage": "https://www.silkahotels.com/silka-tsuen-wan/",
       "address": "新界荃灣青山公路荃灣段388號",
       "phone": "+852 2945 0288",
       "offers": [
@@ -1172,53 +1778,57 @@
           "description": "經華逸官網預訂，適合週末短途 Staycation，含雙人早餐。",
           "start_date": "2026-08-23",
           "end_date": "2026-10-02",
-          "booking_url": "https://www.silkahotels.com/zh-hk/silka-tsuen-wan/offers",
+          "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         },
         {
-          "id": "offer-silka-tsuen-wan-staycation-1eaadfdd",
+          "id": "offer-silka-tsuen-wan-staycation-40b9ea3e",
           "category": "staycation",
           "source_type": "official",
-          "title": "官網優惠：傳統與現代的交匯",
+          "title": "官網優惠：Where Tradition Meets Modernity",
           "description": "詳情以 華逸酒店・荃灣 (Silka Tsuen Wan) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-30",
-          "end_date": "2026-12-31",
-          "booking_url": "https://www.silkahotels.com/zh-hk/silka-tsuen-wan/offers",
+          "start_date": "2026-08-21",
+          "end_date": "2026-10-05",
+          "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         },
         {
-          "id": "offer-silka-tsuen-wan-staycation-6a302504",
+          "id": "offer-silka-tsuen-wan-staycation-942e3a9b",
           "category": "staycation",
           "source_type": "official",
-          "title": "官網優惠：旅人之選 2022-2023",
+          "title": "官網優惠：EXPERIENCE AN AUTHENTIC HONG KONG",
           "description": "詳情以 華逸酒店・荃灣 (Silka Tsuen Wan) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-30",
-          "end_date": "2026-12-31",
-          "booking_url": "https://www.silkahotels.com/zh-hk/silka-tsuen-wan/offers",
+          "start_date": "2026-08-22",
+          "end_date": "2026-10-06",
+          "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         },
         {
-          "id": "offer-silka-tsuen-wan-staycation-e6390fb8",
+          "id": "offer-silka-tsuen-wan-staycation-6a6e8318",
           "category": "staycation",
           "source_type": "official",
-          "title": "官網優惠：前往荃灣絲麗酒店",
+          "title": "官網優惠：FAMILY-FRIENDLY ROOMS",
           "description": "詳情以 華逸酒店・荃灣 (Silka Tsuen Wan) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-30",
-          "end_date": "2026-12-31",
-          "booking_url": "https://www.silkahotels.com/zh-hk/silka-tsuen-wan/offers",
+          "start_date": "2026-08-23",
+          "end_date": "2026-10-07",
+          "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
             "官方優惠"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -1229,6 +1839,7 @@
       "star_rating": 4,
       "name": "香港沙田萬怡酒店 (Courtyard by Marriott Hong Kong Sha Tin)",
       "official_website": "https://www.marriott.com/zh/hotels/hkgcy-courtyard-hong-kong-sha-tin/overview/",
+      "official_homepage": "https://www.marriott.com/zh/hotels/hkgcy-courtyard-hong-kong-sha-tin/overview/",
       "address": "新界沙田安麗街1號",
       "phone": "+852 3553 3333",
       "offers": [
@@ -1244,7 +1855,8 @@
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
         }
       ]
     },
@@ -1254,7 +1866,8 @@
       "type": "hotel",
       "star_rating": 4,
       "name": "形點・元朗商圈酒店式優惠 (YOHO / Silka offers)",
-      "official_website": "https://www.silkahotels.com/zh-hk/offers",
+      "official_website": "https://www.silkahotels.com/",
+      "official_homepage": "https://www.silkahotels.com/",
       "address": "新界元朗形點商圈／朗屏一帶",
       "phone": "+852 2479 8233",
       "offers": [
@@ -1266,21 +1879,67 @@
           "description": "經合作酒店官網預訂，適合形點／元朗週末短住，含雙人早餐。",
           "start_date": "2026-08-22",
           "end_date": "2026-09-26",
-          "booking_url": "https://www.silkahotels.com/zh-hk/offers",
+          "booking_url": "https://www.silkahotels.com/",
           "tags": [
             "官網獨家",
             "Staycation"
-          ]
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-hop-inn-yoho-staycation-fa4582f5",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：Silka Hotels Stay Smart Save Smart",
+          "description": "詳情以 形點・元朗商圈酒店式優惠 (YOHO / Silka offers) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-12-13",
+          "booking_url": "https://www.silkahotels.com/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-hop-inn-yoho-staycation-f74d291b",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：Our Hotels",
+          "description": "詳情以 形點・元朗商圈酒店式優惠 (YOHO / Silka offers) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-12-13",
+          "booking_url": "https://www.silkahotels.com/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
+        },
+        {
+          "id": "offer-hop-inn-yoho-staycation-f3a216cd",
+          "category": "staycation",
+          "source_type": "official",
+          "title": "官網優惠：What's On",
+          "description": "詳情以 形點・元朗商圈酒店式優惠 (YOHO / Silka offers) 官方網站為準，請經官網查閱條款及預訂。",
+          "start_date": "2026-08-21",
+          "end_date": "2026-12-13",
+          "booking_url": "https://www.silkahotels.com/",
+          "tags": [
+            "官網獨家",
+            "官方優惠"
+          ],
+          "platform": "官網"
         }
       ]
     }
   ],
-  "last_audit_date": "2026-08-21",
+  "last_audit_date": "2026-08-22",
   "crawl_stats": {
     "registry_count": 37,
-    "pages_parsed": 12,
+    "pages_parsed": 20,
     "removed_expired": 0,
-    "offers_kept": 58,
+    "offers_kept": 85,
     "audited_on": "2026-08-21"
   }
 }

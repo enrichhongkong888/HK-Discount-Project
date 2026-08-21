@@ -60,6 +60,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港文華東方酒店 (Mandarin Oriental, Hong Kong)",
         "official_website": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour/offers",
+        "official_homepage": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour",
         "address": "香港中環干諾道中5號",
         "phone": "+852 2522 0111",
         "seed_offers": [
@@ -79,6 +80,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港四季酒店 (Four Seasons Hotel Hong Kong)",
         "official_website": "https://www.fourseasons.com/hongkong/offers/",
+        "official_homepage": "https://www.fourseasons.com/hongkong/",
         "address": "香港中環金融街8號",
         "phone": "+852 3196 8888",
         "seed_offers": [
@@ -98,6 +100,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "美利酒店 (The Murray, Hong Kong)",
         "official_website": "https://www.niccolohotels.com/zh-hk/hotels/hong-kong/the-murray/offers",
+        "official_homepage": "https://www.niccolohotels.com/zh-hk/hotels/hong-kong/the-murray",
         "address": "香港中環花園道22號",
         "phone": "+852 3141 8888",
         "seed_offers": [
@@ -117,6 +120,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "港島香格里拉大酒店 (Island Shangri-La)",
         "official_website": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
+        "official_homepage": "https://www.shangri-la.com/tc/hongkong/islandshangrila/",
         "address": "香港金鐘最高法院道太平山廣場",
         "phone": "+852 2877 3838",
         "seed_offers": [
@@ -137,6 +141,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港君悅酒店 (Grand Hyatt Hong Kong)",
         "official_website": "https://www.hyatt.com/zh-Hans/hotel/china/grand-hyatt-hong-kong/hongg/offers",
+        "official_homepage": "https://www.hyatt.com/zh-Hans/hotel/china/grand-hyatt-hong-kong/hongg",
         "address": "香港灣仔港灣道1號",
         "phone": "+852 2588 1234",
         "seed_offers": [
@@ -156,6 +161,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港君臨海景酒店 (Harbour Grand Hong Kong)",
         "official_website": "https://www.harbourgrand.com/hongkong/zh-hk/offers",
+        "official_homepage": "https://www.harbourgrand.com/hongkong/",
         "address": "香港北角油街23號",
         "phone": "+852 2121 2688",
         "seed_offers": [
@@ -175,6 +181,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港萬麗海景酒店 (Renaissance Harbour View)",
         "official_website": "https://www.marriott.com/zh/hotels/hkghv-renaissance-hong-kong-harbour-view-hotel/overview/",
+        "official_homepage": "https://www.marriott.com/zh/hotels/hkghv-renaissance-hong-kong-harbour-view-hotel/overview/",
         "address": "香港灣仔港灣道1號",
         "phone": "+852 2802 8888",
         "seed_offers": [
@@ -195,6 +202,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港半島酒店 (The Peninsula Hong Kong)",
         "official_website": "https://www.peninsula.com/zh-cn/hong-kong/special-offers",
+        "official_homepage": "https://www.peninsula.com/zh-cn/hong-kong",
         "address": "九龍尖沙咀梳士巴利道22號",
         "phone": "+852 2920 2888",
         "seed_offers": [
@@ -213,7 +221,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "油尖旺區",
         "star_rating": 5,
         "name": "唯港薈 (Hotel ICON)",
-        "official_website": "https://www.hotel-icon.com/zh-hk/offers",
+        "official_website": "https://www.hotel-icon.com/offers",
+        "official_homepage": "https://www.hotel-icon.com/",
         "address": "九龍尖沙咀科學館道17號",
         "phone": "+852 3400 1000",
         "seed_offers": [
@@ -232,7 +241,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "油尖旺區",
         "star_rating": 5,
         "name": "香港麗思卡爾頓酒店 (The Ritz-Carlton Hong Kong)",
-        "official_website": "https://www.ritzcarlton.com/zh-cn/hotels/hong-kong/offers",
+        "official_website": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
+        "official_homepage": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
         "address": "九龍柯士甸道西1號國際商務中心",
         "phone": "+852 2263 2263",
         "seed_offers": [
@@ -251,7 +261,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "油尖旺區",
         "star_rating": 5,
         "name": "香港康得思酒店 (Cordis, Hong Kong)",
-        "official_website": "https://www.cordishotels.com/zh-hk/hong-kong/offers",
+        "official_website": "https://www.cordishotels.com/en/hong-kong",
+        "official_homepage": "https://www.cordishotels.com/en/hong-kong",
         "address": "九龍旺角上海街555號",
         "phone": "+852 3552 2888",
         "seed_offers": [
@@ -271,6 +282,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "尖沙咀凱悅酒店 (Hyatt Regency Hong Kong, Tsim Sha Tsui)",
         "official_website": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-tsim-sha-tsui/hongt/offers",
+        "official_homepage": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-tsim-sha-tsui/hongt",
         "address": "九龍尖沙咀赫德道18號",
         "phone": "+852 2311 1234",
         "seed_offers": [
@@ -290,7 +302,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "東區",
         "star_rating": 5,
         "name": "香港東隅 (EAST Hong Kong)",
-        "official_website": "https://www.east-hongkong.com/zh-hk/offers",
+        "official_website": "https://www.swirehotels.com/en/brand/east-hotels/",
+        "official_homepage": "https://www.swirehotels.com/en/brand/east-hotels/",
         "address": "香港鰂魚涌海堤街29號",
         "phone": "+852 3969 2888",
         "seed_offers": [
@@ -309,7 +322,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "東區",
         "star_rating": 5,
         "name": "香港嘉里酒店 (Kerry Hotel Hong Kong)",
-        "official_website": "https://www.kerryhotels.com/hongkong/zh-hk/offers",
+        "official_website": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
+        "official_homepage": "https://www.shangri-la.com/tc/hongkong/kerry/",
         "address": "香港紅磡灣紅鸞道38號",
         "phone": "+852 2252 5888",
         "seed_offers": [
@@ -328,7 +342,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "東區",
         "star_rating": 4,
         "name": "北角海逸酒店 (Harbour Plaza North Point)",
-        "official_website": "https://www.harbour-plaza.com/northpoint/zh-hk/offers",
+        "official_website": "https://www.harbour-plaza.com/northpoint/",
+        "official_homepage": "https://www.harbour-plaza.com/northpoint/",
         "address": "香港北角英皇道665號",
         "phone": "+852 2187 8888",
         "seed_offers": [
@@ -349,6 +364,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港海洋公園萬豪酒店 (Hong Kong Ocean Park Marriott)",
         "official_website": "https://www.marriott.com/zh/hotels/hkgop-hong-kong-ocean-park-marriott-hotel/overview/",
+        "official_homepage": "https://www.marriott.com/zh/hotels/hkgop-hong-kong-ocean-park-marriott-hotel/overview/",
         "address": "香港黃竹坑深灣道180號",
         "phone": "+852 3555 1888",
         "seed_offers": [
@@ -368,6 +384,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港數碼港艾美酒店 (Le Méridien Cyberport)",
         "official_website": "https://www.marriott.com/zh/hotels/hkgmd-le-meridien-cyberport/overview/",
+        "official_homepage": "https://www.marriott.com/zh/hotels/hkgmd-le-meridien-cyberport/overview/",
         "address": "香港鋼綫灣數碼道100號",
         "phone": "+852 2980 7788",
         "seed_offers": [
@@ -387,7 +404,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "沙田區",
         "star_rating": 4,
         "name": "帝逸酒店 (ALVA HOTEL BY ROYAL)",
-        "official_website": "https://www.alvahotel.com/zh-hk/offers",
+        "official_website": "https://www.alva.com.hk/tc/offers/",
+        "official_homepage": "https://www.alva.com.hk/",
         "address": "新界沙田源康街1號",
         "phone": "+852 3653 1111",
         "seed_offers": [
@@ -407,6 +425,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "沙田凱悅酒店 (Hyatt Regency Hong Kong, Sha Tin)",
         "official_website": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-sha-tin/shahy/offers",
+        "official_homepage": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-sha-tin/shahy",
         "address": "新界沙田大學徑18號",
         "phone": "+852 3723 1234",
         "seed_offers": [
@@ -426,6 +445,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 4,
         "name": "帝都酒店 (Royal Park Hotel)",
         "official_website": "https://www.royalpark.com.hk/tc/offers",
+        "official_homepage": "https://www.royalpark.com.hk/",
         "address": "新界沙田公園大道8號",
         "phone": "+852 2601 2111",
         "seed_offers": [
@@ -446,6 +466,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 4,
         "name": "帝景酒店 (Royal View Hotel)",
         "official_website": "https://www.royalview.com.hk/tc/special-offers",
+        "official_homepage": "https://www.royalview.com.hk/",
         "address": "新界汀九青山公路－汀九段353號",
         "phone": "+852 3716 2888",
         "seed_offers": [
@@ -465,6 +486,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 4,
         "name": "悅來酒店 (Panda Hotel)",
         "official_website": "https://www.pandahotel.com.hk/tc/offers",
+        "official_homepage": "https://www.pandahotel.com.hk/",
         "address": "新界荃灣青山公路西樓角路3號",
         "phone": "+852 2409 1111",
         "seed_offers": [
@@ -485,6 +507,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 4,
         "name": "東涌福朋喜來登酒店 (Four Points by Sheraton)",
         "official_website": "https://www.marriott.com/zh/hotels/hkgfp-four-points-hong-kong-tung-chung/overview/",
+        "official_homepage": "https://www.marriott.com/zh/hotels/hkgfp-four-points-hong-kong-tung-chung/overview/",
         "address": "新界大嶼山東涌怡東路9號",
         "phone": "+852 2352 8000",
         "seed_offers": [
@@ -504,6 +527,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港天際萬豪酒店 (Hong Kong SkyCity Marriott)",
         "official_website": "https://www.marriott.com/zh/hotels/hkgsm-hong-kong-skycity-marriott-hotel/overview/",
+        "official_homepage": "https://www.marriott.com/zh/hotels/hkgsm-hong-kong-skycity-marriott-hotel/overview/",
         "address": "新界大嶼山香港國際機場翔天路1號",
         "phone": "+852 3969 1888",
         "seed_offers": [
@@ -523,6 +547,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港迪士尼樂園酒店 (Hong Kong Disneyland Hotel)",
         "official_website": "https://www.hongkongdisneyland.com/zh-hk/hotels/hong-kong-disneyland-hotel/",
+        "official_homepage": "https://www.hongkongdisneyland.com/zh-hk/hotels/hong-kong-disneyland-hotel/",
         "address": "新界大嶼山香港迪士尼樂園度假區",
         "phone": "+852 3510 6000",
         "seed_offers": [
@@ -542,7 +567,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "離島區",
         "star_rating": 5,
         "name": "富豪機場酒店 (Regal Airport Hotel)",
-        "official_website": "https://www.regalhotel.com/zh-hk/regal-airport-hotel/offers",
+        "official_website": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
+        "official_homepage": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
         "address": "新界大嶼山香港國際機場暢航路9號",
         "phone": "+852 2286 8888",
         "seed_offers": [
@@ -562,6 +588,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "九龍海逸君綽酒店 (Harbour Grand Kowloon)",
         "official_website": "https://www.harbourgrand.com/kowloon/zh-hk/offers",
+        "official_homepage": "https://www.harbourgrand.com/kowloon/",
         "address": "九龍紅磡海濱道20號",
         "phone": "+852 2621 3188",
         "seed_offers": [
@@ -581,7 +608,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "觀塘區",
         "star_rating": 5,
         "name": "香港九龍東皇冠假日酒店 (Crowne Plaza Kowloon East)",
-        "official_website": "https://www.ihg.com/crowneplaza/hotels/tw/zh/hong-kong/hkgke/hoteldetail",
+        "official_website": "https://www.ihg.com/crowneplaza/hotels/us/en/hong-kong/hkgke/hoteldetail",
+        "official_homepage": "https://www.ihg.com/crowneplaza/hotels/us/en/hong-kong/hkgke/hoteldetail",
         "address": "九龍觀塘偉業街3號",
         "phone": "+852 3983 0388",
         "seed_offers": [
@@ -600,7 +628,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "觀塘區",
         "star_rating": 4,
         "name": "悅品海景酒店・觀塘 (hotel COZi Harbour View)",
-        "official_website": "https://www.hotelcozi.com/harbourview/zh-hk/offers",
+        "official_website": "https://www.hotelcozi.com/harbourview/",
+        "official_homepage": "https://www.hotelcozi.com/harbourview/",
         "address": "九龍觀塘海濱道163號",
         "phone": "+852 3550 6888",
         "seed_offers": [
@@ -621,6 +650,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 5,
         "name": "香港黃金海岸酒店 (Hong Kong Gold Coast Hotel)",
         "official_website": "https://www.goldcoasthotel.com.hk/tc/offers",
+        "official_homepage": "https://www.goldcoasthotel.com.hk/",
         "address": "新界屯門黃金海岸青山公路1號",
         "phone": "+852 2452 8888",
         "seed_offers": [
@@ -640,7 +670,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "沙田區",
         "star_rating": 4,
         "name": "富豪園景酒店 (Regal Riverside Hotel)",
-        "official_website": "https://www.regalhotel.com/zh-hk/regal-riverside-hotel/offers",
+        "official_website": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
+        "official_homepage": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
         "address": "新界沙田大涌橋路34-36號",
         "phone": "+852 2649 7878",
         "seed_offers": [
@@ -660,7 +691,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "南區",
         "star_rating": 5,
         "name": "香港富麗敦海洋公園酒店 (The Fullerton Ocean Park Hotel)",
-        "official_website": "https://www.fullertonhotels.com/zh-hk/fullerton-ocean-park-hotel-hong-kong/offers",
+        "official_website": "https://www.fullertonhotels.com/",
+        "official_homepage": "https://www.fullertonhotels.com/",
         "address": "香港黃竹坑深灣道3號",
         "phone": "+852 2113 9333",
         "seed_offers": [
@@ -680,7 +712,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "油尖旺區",
         "star_rating": 4,
         "name": "旺角帝盛酒店 (Dorsett Mongkok, Hong Kong)",
-        "official_website": "https://www.dorsetthotels.com/zh-hk/dorsett-mongkok-hong-kong/offers",
+        "official_website": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
+        "official_homepage": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
         "address": "九龍旺角砵蘭街88號",
         "phone": "+852 2887 1888",
         "seed_offers": [
@@ -700,7 +733,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "葵青區",
         "star_rating": 4,
         "name": "藍天酒店 (Rambler Garden Hotel)",
-        "official_website": "https://www.ramblerhotels.com/garden/zh-hk/offers",
+        "official_website": "https://www.ramblerhotels.com/garden/",
+        "official_homepage": "https://www.ramblerhotels.com/garden/",
         "address": "新界青衣牙鷹洲街1號",
         "phone": "+852 2525 5111",
         "seed_offers": [
@@ -719,7 +753,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "荃灣區",
         "star_rating": 4,
         "name": "華逸酒店・荃灣 (Silka Tsuen Wan)",
-        "official_website": "https://www.silkahotels.com/zh-hk/silka-tsuen-wan/offers",
+        "official_website": "https://www.silkahotels.com/silka-tsuen-wan/",
+        "official_homepage": "https://www.silkahotels.com/silka-tsuen-wan/",
         "address": "新界荃灣青山公路荃灣段388號",
         "phone": "+852 2945 0288",
         "seed_offers": [
@@ -739,6 +774,7 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "star_rating": 4,
         "name": "香港沙田萬怡酒店 (Courtyard by Marriott Hong Kong Sha Tin)",
         "official_website": "https://www.marriott.com/zh/hotels/hkgcy-courtyard-hong-kong-sha-tin/overview/",
+        "official_homepage": "https://www.marriott.com/zh/hotels/hkgcy-courtyard-hong-kong-sha-tin/overview/",
         "address": "新界沙田安麗街1號",
         "phone": "+852 3553 3333",
         "seed_offers": [
@@ -757,7 +793,8 @@ HOTEL_REGISTRY: list[dict[str, Any]] = [
         "district": "元朗區",
         "star_rating": 4,
         "name": "形點・元朗商圈酒店式優惠 (YOHO / Silka offers)",
-        "official_website": "https://www.silkahotels.com/zh-hk/offers",
+        "official_website": "https://www.silkahotels.com/",
+        "official_homepage": "https://www.silkahotels.com/",
         "address": "新界元朗形點商圈／朗屏一帶",
         "phone": "+852 2479 8233",
         "seed_offers": [
@@ -915,6 +952,7 @@ def assemble_hotel(entry: dict[str, Any], *, today: date, scraped: list[dict[str
         "star_rating": int(entry.get("star_rating") or 4),
         "name": entry["name"],
         "official_website": entry["official_website"],
+        "official_homepage": entry.get("official_homepage") or entry["official_website"],
         "address": entry["address"],
         "phone": entry["phone"],
         "offers": merged,
@@ -946,12 +984,12 @@ def crawl(*, skip_fetch: bool = False, sleep_s: float = 0.35) -> dict[str, Any]:
         "pages_parsed": scraped_count,
         "hotels": hotels,
     }
-    cleaned, removed, kept = audit_hotels(payload, today=today)
+    cleaned, stats = audit_hotels(payload, today=today, client=None)
     cleaned["crawl_stats"] = {
         "registry_count": len(HOTEL_REGISTRY),
         "pages_parsed": scraped_count,
-        "removed_expired": removed,
-        "offers_kept": kept,
+        "removed_expired": stats.get("removed_expired", 0),
+        "offers_kept": stats.get("offers_kept", 0),
         "audited_on": today.isoformat(),
     }
     return cleaned
