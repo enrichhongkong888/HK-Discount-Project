@@ -590,7 +590,9 @@
           "active_count": 6,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "55c893c2557d"
+          "mall_id": "55c893c2557d",
+          "official_home": "https://www.ifcmall.com.hk/tc",
+          "official_happenings": "https://www.ifcmall.com.hk/tc/whats-happening"
         },
         {
           "mall_name": "太古廣場",
@@ -606,7 +608,7 @@
               "details": "‘Dreamlike Summer’ Shopping Rewards",
               "start_date": "2026-07-23",
               "end_date": "2026-08-20",
-              "source_url": "https://www.pacificplace.com.hk/en/entertainment/happenings/pp-summer-redemption-2026",
+              "source_url": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -622,7 +624,8 @@
                 "會員"
               ],
               "source_type": "official",
-              "platform": "官網"
+              "platform": "官網",
+              "booking_url": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings"
             },
             {
               "id": "mall-ota-pacificplace-openrice-01",
@@ -631,8 +634,8 @@
               "details": "經 OpenRice 預訂太古廣場指定商戶，中銀／DBS 信用卡可享平台獨家折扣。",
               "start_date": "2026-08-22",
               "end_date": "2026-10-10",
-              "source_url": "https://www.openrice.com/zh/hongkong",
-              "booking_url": "https://www.openrice.com/zh/hongkong",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E5%A4%AA%E5%8F%A4%E5%BB%A3%E5%A0%B4",
+              "booking_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E5%A4%AA%E5%8F%A4%E5%BB%A3%E5%A0%B4",
               "source_type": "ota",
               "platform": "OpenRice",
               "is_affiliate": true,
@@ -653,6 +656,36 @@
               ],
               "tag_labels": [
                 "信用卡"
+              ]
+            },
+            {
+              "id": "mall-official-pacificplace-happenings",
+              "type": "promotion",
+              "offer_title": "太古廣場精彩活動／優惠推廣總覽",
+              "details": "查看太古廣場最新活動、期間限定店及優惠推廣；條款以官網最新公告為準。",
+              "start_date": "2026-01-01",
+              "end_date": "2026-12-31",
+              "source_url": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings",
+              "booking_url": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings",
+              "source_type": "official",
+              "platform": "官網",
+              "is_affiliate": false,
+              "bank_tags": [],
+              "is_daily_special": false,
+              "is_evergreen": true,
+              "status": "active",
+              "lifecycle_status": "active",
+              "offer_category": "mall_promo",
+              "offer_category_label": "商場推廣",
+              "vertical_category": "Other",
+              "vertical_category_label": "其他",
+              "tags": [
+                "Member",
+                "FreeGift"
+              ],
+              "tag_labels": [
+                "會員",
+                "贈品換領"
               ]
             }
           ],
@@ -851,7 +884,9 @@
           "active_count": 4,
           "upcoming_offer_total": 0,
           "active_offer_total": 10,
-          "mall_id": "3432ba4e7cee"
+          "mall_id": "3432ba4e7cee",
+          "official_home": "https://www.pacificplace.com.hk/zh-hk",
+          "official_happenings": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings"
         },
         {
           "mall_name": "置地廣場",
@@ -1002,7 +1037,9 @@
               "tag_labels": [
                 "贈品換領",
                 "折扣"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -1030,7 +1067,9 @@
                 "會員",
                 "贈品換領",
                 "折扣"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -1174,7 +1213,9 @@
               ],
               "tag_labels": [
                 "折扣"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -1192,7 +1233,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -3269,7 +3312,9 @@
                 "會員",
                 "長青",
                 "週末"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -4705,7 +4750,9 @@
           "active_count": 4,
           "upcoming_offer_total": 6,
           "active_offer_total": 7,
-          "mall_id": "yoho-mall"
+          "mall_id": "yoho-mall",
+          "official_home": "https://www.yohomall.com/",
+          "official_happenings": "https://www.yohomall.com/tc/whats-on"
         },
         {
           "mall_name": "元朗廣場",
@@ -4857,7 +4904,9 @@
               "vertical_category": "Retail",
               "vertical_category_label": "零售",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -4875,7 +4924,9 @@
               "vertical_category": "Retail",
               "vertical_category_label": "零售",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -10986,7 +11037,9 @@
                 "積分",
                 "長青",
                 "超市"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -11131,7 +11184,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -11155,7 +11210,9 @@
               "tag_labels": [
                 "信用卡",
                 "會員"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -11177,7 +11234,9 @@
               ],
               "tag_labels": [
                 "積分"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -11195,7 +11254,9 @@
               "vertical_category": "Retail",
               "vertical_category_label": "零售",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -11217,7 +11278,9 @@
               ],
               "tag_labels": [
                 "會員"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -11239,7 +11302,9 @@
               ],
               "tag_labels": [
                 "信用卡"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -11257,7 +11322,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -11275,7 +11342,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -11418,7 +11487,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -12461,7 +12532,9 @@
           "active_count": 4,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "elements"
+          "mall_id": "elements",
+          "official_home": "https://www.elementshk.com/",
+          "official_happenings": "https://www.elementshk.com/tch/whats-on"
         },
         {
           "mall_name": "K11 MUSEA",
@@ -12951,7 +13024,9 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "the-one"
+          "mall_id": "the-one",
+          "official_home": "https://www.the-one.com.hk/",
+          "official_happenings": "https://www.the-one.com.hk/tc/whats-on"
         },
         {
           "mall_name": "奧海城",
@@ -13766,7 +13841,9 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 9,
-          "mall_id": "e7e381980395"
+          "mall_id": "e7e381980395",
+          "official_home": "https://www.langhamplace.com.hk/",
+          "official_happenings": "https://www.langhamplace.com.hk/tc/whats-on"
         },
         {
           "mall_name": "海港城",
@@ -13796,7 +13873,9 @@
               ],
               "tag_labels": [
                 "泊車"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -13814,7 +13893,9 @@
               "vertical_category": "Retail",
               "vertical_category_label": "零售",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -13836,7 +13917,9 @@
               ],
               "tag_labels": [
                 "泊車"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -13854,7 +13937,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -13876,7 +13961,9 @@
               ],
               "tag_labels": [
                 "會員"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -13898,7 +13985,9 @@
               ],
               "tag_labels": [
                 "會員"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -13920,7 +14009,9 @@
               ],
               "tag_labels": [
                 "信用卡"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -13942,7 +14033,9 @@
               ],
               "tag_labels": [
                 "信用卡"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -14097,7 +14190,9 @@
           "active_count": 10,
           "upcoming_offer_total": 0,
           "active_offer_total": 17,
-          "mall_id": "f74040b0a21e"
+          "mall_id": "f74040b0a21e",
+          "official_home": "https://www.harbourcity.com.hk/",
+          "official_happenings": "https://www.harbourcity.com.hk/tc/whats-on"
         }
       ]
     },
@@ -14699,7 +14794,9 @@
                 "贈品換領",
                 "折扣",
                 "長青"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -15304,7 +15401,9 @@
               "vertical_category": "Retail",
               "vertical_category_label": "零售",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -15461,7 +15560,9 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 10,
-          "mall_id": "76ab5fd7fab3"
+          "mall_id": "76ab5fd7fab3",
+          "official_home": "https://www.timessquare.com.hk/",
+          "official_happenings": "https://www.timessquare.com.hk/tc/whats-on"
         },
         {
           "mall_name": "皇室堡",
@@ -15491,7 +15592,9 @@
               ],
               "tag_labels": [
                 "會員"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -15509,7 +15612,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -17598,7 +17703,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -17622,7 +17729,9 @@
               "tag_labels": [
                 "信用卡",
                 "會員"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -17644,7 +17753,9 @@
               ],
               "tag_labels": [
                 "積分"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -17666,7 +17777,9 @@
               ],
               "tag_labels": [
                 "會員"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -17688,7 +17801,9 @@
               ],
               "tag_labels": [
                 "信用卡"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -17706,7 +17821,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -17850,7 +17967,9 @@
               ],
               "tag_labels": [
                 "折扣"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -17995,7 +18114,9 @@
               "vertical_category": "Retail",
               "vertical_category_label": "零售",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             },
             {
               "type": "mall",
@@ -18013,7 +18134,9 @@
               "vertical_category": "Other",
               "vertical_category_label": "其他",
               "tags": [],
-              "tag_labels": []
+              "tag_labels": [],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -19398,7 +19521,9 @@
                 "會員",
                 "贈品換領",
                 "長青"
-              ]
+              ],
+              "platform": "官網",
+              "source_type": "official"
             }
           ],
           "store_offers": [
@@ -20269,5 +20394,39 @@
         }
       ]
     }
-  ]
+  ],
+  "mall_official_hubs": {
+    "太古廣場": {
+      "home": "https://www.pacificplace.com.hk/zh-hk",
+      "happenings": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings"
+    },
+    "ELEMENTS 圓方": {
+      "home": "https://www.elementshk.com/",
+      "happenings": "https://www.elementshk.com/tch/whats-on"
+    },
+    "THE ONE": {
+      "home": "https://www.the-one.com.hk/",
+      "happenings": "https://www.the-one.com.hk/tc/whats-on"
+    },
+    "YOHO MALL 形點": {
+      "home": "https://www.yohomall.com/",
+      "happenings": "https://www.yohomall.com/tc/whats-on"
+    },
+    "國際金融中心商場": {
+      "home": "https://www.ifcmall.com.hk/tc",
+      "happenings": "https://www.ifcmall.com.hk/tc/whats-happening"
+    },
+    "海港城": {
+      "home": "https://www.harbourcity.com.hk/",
+      "happenings": "https://www.harbourcity.com.hk/tc/whats-on"
+    },
+    "時代廣場": {
+      "home": "https://www.timessquare.com.hk/",
+      "happenings": "https://www.timessquare.com.hk/tc/whats-on"
+    },
+    "朗豪坊": {
+      "home": "https://www.langhamplace.com.hk/",
+      "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
+    }
+  }
 }

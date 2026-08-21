@@ -1,0 +1,65 @@
+{
+  "_comment": "Stable official mall hubs (home + happenings/promotions). Used to replace expired campaign deep links.",
+  "hubs": {
+    "太古廣場": {
+      "home": "https://www.pacificplace.com.hk/zh-hk",
+      "happenings": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings"
+    },
+    "ELEMENTS 圓方": {
+      "home": "https://www.elementshk.com/",
+      "happenings": "https://www.elementshk.com/tch/whats-on"
+    },
+    "THE ONE": {
+      "home": "https://www.the-one.com.hk/",
+      "happenings": "https://www.the-one.com.hk/tc/whats-on"
+    },
+    "YOHO MALL 形點": {
+      "home": "https://www.yohomall.com/",
+      "happenings": "https://www.yohomall.com/tc/whats-on"
+    },
+    "國際金融中心商場": {
+      "home": "https://www.ifcmall.com.hk/tc",
+      "happenings": "https://www.ifcmall.com.hk/tc/whats-happening"
+    },
+    "海港城": {
+      "home": "https://www.harbourcity.com.hk/",
+      "happenings": "https://www.harbourcity.com.hk/tc/whats-on"
+    },
+    "時代廣場": {
+      "home": "https://www.timessquare.com.hk/",
+      "happenings": "https://www.timessquare.com.hk/tc/whats-on"
+    },
+    "朗豪坊": {
+      "home": "https://www.langhamplace.com.hk/",
+      "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
+    }
+  },
+  "offers_by_mall": {
+    "太古廣場": [
+      {
+        "id": "mall-official-pacificplace-happenings",
+        "type": "promotion",
+        "offer_title": "太古廣場精彩活動／優惠推廣總覽",
+        "details": "查看太古廣場最新活動、期間限定店及優惠推廣；條款以官網最新公告為準。",
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31",
+        "source_url": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings",
+        "booking_url": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings",
+        "source_type": "official",
+        "platform": "官網",
+        "is_affiliate": false,
+        "bank_tags": [],
+        "is_daily_special": false,
+        "is_evergreen": true,
+        "status": "active",
+        "lifecycle_status": "active",
+        "offer_category": "mall_promo",
+        "offer_category_label": "商場推廣",
+        "vertical_category": "Other",
+        "vertical_category_label": "其他",
+        "tags": ["Member", "FreeGift"],
+        "tag_labels": ["會員", "贈品換領"]
+      }
+    ]
+  }
+}
