@@ -1347,31 +1347,36 @@ function hotelCard(hotel) {
               : "開啟定位後，卡片顯示「距您 Xm」並由近至遠排序。");
         }
       }
+      function applyProximityOrigin(lat, lng, statusMessage) {
+        state.userLat = lat;
+        state.userLng = lng;
+        state.sortByProximity = true;
+        state.locationStatus = statusMessage;
+        render();
+      }
       function requestUserLocationAndSort() {
+        const TST_FALLBACK = { lat: 22.2998, lng: 114.1726 };
+        const fallbackStatus = "（測試模式：已套用尖沙咀位置進行距離排序）";
+        const useTstFallback = (error) => {
+          if (error) console.log("LBS 權限未開啟或取得失敗，改用尖沙咀測試座標:", error);
+          applyProximityOrigin(TST_FALLBACK.lat, TST_FALLBACK.lng, fallbackStatus);
+        };
         if (!navigator.geolocation) {
-          state.locationStatus = "此瀏覽器不支援定位。";
-          state.sortByProximity = false;
-          syncLbsChrome();
+          useTstFallback({ message: "geolocation unsupported" });
           return;
         }
         state.locationStatus = "正在取得你的位置…";
         syncLbsChrome();
         navigator.geolocation.getCurrentPosition(
           (position) => {
-            state.userLat = position.coords.latitude;
-            state.userLng = position.coords.longitude;
-            state.sortByProximity = true;
-            state.locationStatus = "已開啟「離我最近」：卡片顯示距您距離，並由近至遠排序。";
-            render();
+            applyProximityOrigin(
+              position.coords.latitude,
+              position.coords.longitude,
+              "已開啟「離我最近」：卡片顯示距您距離，並由近至遠排序。"
+            );
           },
           (error) => {
-            state.sortByProximity = false;
-            const code = error && error.code;
-            state.locationStatus = code === 1
-              ? "定位權限未開啟，請在瀏覽器允許位置存取後再試。"
-              : "無法取得位置，請稍後再試。";
-            console.log("LBS 權限未開啟或取得失敗:", error);
-            syncLbsChrome();
+            useTstFallback(error);
           },
           { enableHighAccuracy: false, timeout: 12000, maximumAge: 60000 }
         );
