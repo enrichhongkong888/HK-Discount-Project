@@ -789,6 +789,46 @@
         const banks = Array.isArray(state.selectedBanks) ? state.selectedBanks : [];
         return banks.length ? banks.join(",") : "全部";
       }
+      const PLATFORM_HOME = {
+        kkday: "https://www.kkday.com/zh-hk",
+        klook: "https://www.klook.com/zh-HK/",
+        openrice: "https://www.openrice.com/zh/hongkong",
+      };
+      function platformKey(platform) {
+        const p = String(platform || "").toLowerCase();
+        if (p.includes("kkday")) return "kkday";
+        if (p.includes("klook")) return "klook";
+        if (p.includes("openrice")) return "openrice";
+        return "";
+      }
+      function platformSearchUrl(platform, keyword) {
+        const key = platformKey(platform);
+        const q = encodeURIComponent(String(keyword || "").trim() || "Hong Kong");
+        if (key === "kkday") return `https://www.kkday.com/zh-hk/product/productlist?keyword=${q}`;
+        if (key === "klook") return `https://www.klook.com/zh-HK/search/?query=${q}`;
+        if (key === "openrice") return `https://www.openrice.com/zh/hongkong/restaurants?keyword=${q}`;
+        return "";
+      }
+      function platformHomeUrl(platform) {
+        const key = platformKey(platform);
+        return (key && PLATFORM_HOME[key]) || "";
+      }
+      function isUsableHttpUrl(url) {
+        const raw = String(url || "").trim();
+        if (!/^https?:\/\//i.test(raw)) return false;
+        if (/YOUR_AFFILIATE|XXXXX|javascript:|void\(0\)/i.test(raw)) return false;
+        return true;
+      }
+      function looksLikeFragileOtaProductUrl(url) {
+        const raw = String(url || "");
+        // Numeric product / category IDs on KKday frequently 404 when campaigns end.
+        return /kkday\.com\/[^?\s]+\/(product|category)\/\d+/i.test(raw);
+      }
+      function resolveAffiliateUrl(platform, url, keyword) {
+        const raw = String(url || "").trim();
+        if (isUsableHttpUrl(raw) && !looksLikeFragileOtaProductUrl(raw)) return raw;
+        return platformSearchUrl(platform, keyword) || platformHomeUrl(platform) || raw || platformHomeUrl("Klook");
+      }
       function trackAffiliateClick(offer, placeName, bankFilter) {
         const payload = {
           event_category: "Affiliate Conversion",
@@ -806,32 +846,47 @@
         window.dataLayer.push({ event: "click_affiliate_offer", ...payload });
       }
       function bookingCtaHtml({ href, label, platform, offerTitle, offerId, isAffiliate, placeName }) {
-        if (!href) return "";
+        const safeHref = resolveAffiliateUrl(platform, href, placeName || offerTitle);
+        if (!safeHref) return "";
         const rel = isAffiliate ? "noopener noreferrer sponsored" : "noopener noreferrer";
-        return `<a class="hotel-offer-cta btn-booking" href="${escapeAttr(href)}" target="_blank" rel="${rel}" data-hotel-booking="1" data-affiliate="${isAffiliate ? "1" : "0"}" data-platform="${escapeAttr(platform || "")}" data-offer-id="${escapeAttr(offerId || "")}" data-offer-title="${escapeAttr(offerTitle || "")}" data-place-name="${escapeAttr(placeName || "")}" data-booking-url="${escapeAttr(href)}">${label}</a>`;
+        return `<a class="hotel-offer-cta btn-booking" href="${escapeAttr(safeHref)}" target="_blank" rel="${rel}" data-hotel-booking="1" data-affiliate="${isAffiliate ? "1" : "0"}" data-platform="${escapeAttr(platform || "")}" data-offer-id="${escapeAttr(offerId || "")}" data-offer-title="${escapeAttr(offerTitle || "")}" data-place-name="${escapeAttr(placeName || "")}" data-booking-url="${escapeAttr(safeHref)}" data-raw-booking-url="${escapeAttr(href || "")}">${label}</a>`;
       }
-      function trackBookingElement(el) {
-        if (!el) return;
+      function resolveBookingNavigation(el) {
+        if (!el) return "";
         const cta = el.matches("[data-hotel-booking], .btn-booking")
           ? el
           : (el.querySelector && el.querySelector("[data-hotel-booking], .btn-booking")) || el;
+        const platform = cta.getAttribute("data-platform") || el.getAttribute("data-platform") || "";
         const placeName =
           cta.getAttribute("data-place-name")
           || el.getAttribute("data-place-name")
           || (el.closest("[data-place-name]") && el.closest("[data-place-name]").getAttribute("data-place-name"))
           || (placeDrawerTitle && placeDrawerTitle.textContent)
           || "";
+        const raw =
+          cta.getAttribute("data-raw-booking-url")
+          || cta.getAttribute("href")
+          || cta.getAttribute("data-booking-url")
+          || el.getAttribute("data-booking-url")
+          || "";
+        const safe = resolveAffiliateUrl(platform, raw, placeName || cta.getAttribute("data-offer-title") || "");
+        if (cta.tagName === "A") cta.setAttribute("href", safe);
+        cta.setAttribute("data-booking-url", safe);
         trackAffiliateClick(
           {
-            platform: cta.getAttribute("data-platform") || el.getAttribute("data-platform") || "",
+            platform,
             id: cta.getAttribute("data-offer-id") || "",
             offer_id: cta.getAttribute("data-offer-id") || "",
             title: cta.getAttribute("data-offer-title") || "",
-            booking_url: cta.getAttribute("href") || cta.getAttribute("data-booking-url") || el.getAttribute("data-booking-url") || "",
+            booking_url: safe,
           },
           placeName,
           selectedBankFilter()
         );
+        return safe;
+      }
+      function trackBookingElement(el) {
+        resolveBookingNavigation(el);
       }
 
       function bindMallOfferCard(placeName) {
@@ -1514,7 +1569,11 @@ function hotelCard(hotel) {
         placeDrawerBody.addEventListener("click", (event) => {
           const bookingEl = event.target.closest("[data-hotel-booking], .btn-booking");
           if (!bookingEl) return;
-          trackBookingElement(bookingEl);
+          const safe = resolveBookingNavigation(bookingEl);
+          if (safe && event.target.closest("a[href]")) {
+            event.preventDefault();
+            window.open(safe, "_blank", "noopener,noreferrer");
+          }
         });
       }
 
@@ -1523,23 +1582,16 @@ function hotelCard(hotel) {
         const card = event.target.closest(".hotel-card[data-booking-url]");
         if (!card) return;
         event.preventDefault();
-        const href = card.getAttribute("data-booking-url");
-        if (href) {
-          trackBookingElement(card);
-          window.open(href, "_blank", "noopener,noreferrer");
-        }
+        const safe = resolveBookingNavigation(card);
+        if (safe) window.open(safe, "_blank", "noopener,noreferrer");
       }, true);
       mallList.addEventListener("click", (event) => {
         const bookingEl = event.target.closest("[data-hotel-booking], .btn-booking, .hotel-card[data-booking-url]");
         if (bookingEl) {
-          const href = bookingEl.getAttribute("href") || bookingEl.getAttribute("data-booking-url");
-          if (href && /^https?:\/\//.test(href)) {
-            trackBookingElement(bookingEl);
-            // Allow native <a> navigation; for card body clicks open explicitly.
-            if (!event.target.closest("a[href]")) {
-              event.preventDefault();
-              window.open(href, "_blank", "noopener,noreferrer");
-            }
+          const safe = resolveBookingNavigation(bookingEl);
+          if (safe && /^https?:\/\//.test(safe)) {
+            event.preventDefault();
+            window.open(safe, "_blank", "noopener,noreferrer");
             event.stopPropagation();
             return;
           }

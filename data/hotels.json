@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T02:11:30+08:00",
+  "updated_at": "2026-08-22T02:51:32+08:00",
   "source": "crawl_hotel_official",
   "source_priority": "official_website",
   "registry_count": 37,
@@ -424,7 +424,7 @@
           "description": "經 Klook 快閃預訂，指定日子自助晚餐買一送一。",
           "start_date": "2026-08-22",
           "end_date": "2026-09-20",
-          "booking_url": "https://www.klook.com/zh-HK/search/?query=Hotel%20ICON%20buffet",
+          "booking_url": "https://www.klook.com/zh-HK/search/?query=Hotel%20ICON",
           "is_affiliate": true,
           "tags": [
             "自助餐",
@@ -610,7 +610,7 @@
           "description": "經 KKday 預訂康得思精選餐飲優惠，部分日子買一送一。",
           "start_date": "2026-08-21",
           "end_date": "2026-09-30",
-          "booking_url": "https://www.kkday.com/zh-hk/product/136215",
+          "booking_url": "https://www.kkday.com/zh-hk/product/productlist?keyword=Cordis%20Hong%20Kong",
           "is_affiliate": true,
           "tags": [
             "自助餐",
@@ -948,7 +948,7 @@
           "description": "經 KKday 預訂享買一送一，暢飲指定飲品及生蠔、波士頓龍蝦。",
           "start_date": "2026-08-22",
           "end_date": "2026-09-15",
-          "booking_url": "https://www.kkday.com/zh-hk/product/146464",
+          "booking_url": "https://www.kkday.com/zh-hk/product/productlist?keyword=ALVA%20House",
           "is_affiliate": true,
           "tags": [
             "自助餐",
@@ -1257,7 +1257,7 @@
           "description": "經 KKday 預訂酒店連門票套餐，適合家庭週末。",
           "start_date": "2026-08-22",
           "end_date": "2026-11-30",
-          "booking_url": "https://www.kkday.com/zh-hk/product/20085",
+          "booking_url": "https://www.kkday.com/zh-hk/product/productlist?keyword=Hong%20Kong%20Disneyland",
           "is_affiliate": true,
           "tags": [
             "Staycation"
@@ -1542,7 +1542,7 @@
           "description": "經 Klook 預訂海景自助晚餐，指定日子買一送一；渣打／DBS 卡另有加碼。",
           "start_date": "2026-08-23",
           "end_date": "2026-09-18",
-          "booking_url": "https://www.klook.com/zh-HK/search/?query=Gold%20Coast%20Hotel%20buffet",
+          "booking_url": "https://www.klook.com/zh-HK/search/?query=Gold%20Coast%20Hotel",
           "is_affiliate": true,
           "tags": [
             "自助餐",
