@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="HK-Deal 香港最新優惠、折扣碼與 18 區商場生活導航。" />
     <title>HK-Deal｜香港優惠與 18 區商場導航</title>
+    <script>window.dataLayer = window.dataLayer || [];</script>
+    <!-- Optional GA4: set meta name="ga4-measurement-id" content="G-XXXXXXXX" to enable gtag -->
+    <script>
+      (function () {
+        var meta = document.querySelector('meta[name="ga4-measurement-id"]');
+        var id = meta && meta.content ? String(meta.content).trim() : "";
+        if (!id || id.indexOf("G-") !== 0) return;
+        var s = document.createElement("script");
+        s.async = true;
+        s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(id);
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag("js", new Date());
+        gtag("config", id, { send_page_view: true });
+      })();
+    </script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -267,6 +285,25 @@
         border: 1px solid #e2e8f0;
       }
 
+
+      .lbs-distance-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        border-radius: 999px;
+        background: #ecfeff;
+        color: #0e7490;
+        border: 1px solid #a5f3fc;
+        padding: 0.2rem 0.55rem;
+        font-size: 0.7rem;
+        font-weight: 800;
+      }
+      .lbs-status {
+        margin-top: 0.5rem;
+        font-size: 0.75rem;
+        color: #64748b;
+      }
+
       .mall-filters-panel[hidden], .hotel-only-hint[hidden] { display: none !important; }
       @media (max-width: 480px) {
 
@@ -426,6 +463,15 @@
               </div>
               <p class="mt-2 text-xs text-slate-500">可多選；僅顯示／地圖高亮帶有對應銀行標籤的商場與酒店優惠。</p>
             </div>
+
+            <div class="mt-6 border-t border-slate-100 pt-5" id="lbs-filters-panel">
+              <p class="text-xs font-bold text-slate-500">📍 附近著數</p>
+              <div class="mt-2 flex flex-wrap gap-2">
+                <button type="button" id="lbs-sort-btn" class="district-tag" data-lbs="proximity" aria-pressed="false">📍 離我最近</button>
+                <button type="button" id="lbs-clear-btn" class="district-tag" data-lbs="clear" aria-pressed="false">預設排序</button>
+              </div>
+              <p id="lbs-status" class="lbs-status" aria-live="polite">開啟定位後，卡片顯示「距您 Xm」並由近至遠排序。</p>
+            </div>
             <div class="mt-6 border-t border-slate-100 pt-5" id="lifecycle-filters-panel">
               <p class="text-xs font-bold text-slate-500">優惠時段</p>
               <div id="lifecycle-filters" class="mt-2 flex flex-wrap gap-2">
@@ -492,6 +538,10 @@
         mapReady: false,
         leafletMap: null,
         leafletLayer: null,
+        userLat: null,
+        userLng: null,
+        sortByProximity: false,
+        locationStatus: "",
       };
       const homeView = document.querySelector("#home-view");
       const mallView = document.querySelector("#mall-view");
@@ -502,6 +552,9 @@
       const tagFilters = document.querySelector("#tag-filters");
       const lifecycleFilters = document.querySelector("#lifecycle-filters");
       const bankFilters = document.querySelector("#bank-filters");
+      const lbsSortBtn = document.querySelector("#lbs-sort-btn");
+      const lbsClearBtn = document.querySelector("#lbs-clear-btn");
+      const lbsStatus = document.querySelector("#lbs-status");
       const channelFilters = document.querySelector("#channel-filters");
       const mallFiltersPanel = document.querySelector("#mall-filters-panel");
       const hotelChannelHint = document.querySelector("#hotel-channel-hint");
@@ -724,6 +777,66 @@
         if (!tags.length) return "";
         return `<div class="mt-2 flex flex-wrap gap-1.5">${tags.map((t) => `<span class="rounded-md bg-slate-100 px-2 py-0.5 text-[10px] font-bold text-slate-600">${t}</span>`).join("")}</div>`;
       }
+
+      function escapeAttr(value) {
+        return String(value == null ? "" : value)
+          .replace(/&/g, "&amp;")
+          .replace(/"/g, "&quot;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+      }
+      function selectedBankFilter() {
+        const banks = Array.isArray(state.selectedBanks) ? state.selectedBanks : [];
+        return banks.length ? banks.join(",") : "全部";
+      }
+      function trackAffiliateClick(offer, placeName, bankFilter) {
+        const payload = {
+          event_category: "Affiliate Conversion",
+          platform: (offer && offer.platform) || "",
+          place_name: placeName || "",
+          offer_id: (offer && offer.offer_id) || (offer && offer.id) || "",
+          offer_title: (offer && (offer.title || offer.offer_title)) || "",
+          bank_filter: bankFilter || selectedBankFilter(),
+          outbound_url: (offer && (offer.booking_url || offer.outbound_url)) || "",
+        };
+        if (typeof gtag === "function") {
+          gtag("event", "click_affiliate_offer", payload);
+        }
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ event: "click_affiliate_offer", ...payload });
+      }
+      function bookingCtaHtml({ href, label, platform, offerTitle, offerId, isAffiliate, placeName }) {
+        if (!href) return "";
+        const rel = isAffiliate ? "noopener noreferrer sponsored" : "noopener noreferrer";
+        return `<a class="hotel-offer-cta btn-booking" href="${escapeAttr(href)}" target="_blank" rel="${rel}" data-hotel-booking="1" data-affiliate="${isAffiliate ? "1" : "0"}" data-platform="${escapeAttr(platform || "")}" data-offer-id="${escapeAttr(offerId || "")}" data-offer-title="${escapeAttr(offerTitle || "")}" data-place-name="${escapeAttr(placeName || "")}" data-booking-url="${escapeAttr(href)}">${label}</a>`;
+      }
+      function trackBookingElement(el) {
+        if (!el) return;
+        const cta = el.matches("[data-hotel-booking], .btn-booking")
+          ? el
+          : (el.querySelector && el.querySelector("[data-hotel-booking], .btn-booking")) || el;
+        const placeName =
+          cta.getAttribute("data-place-name")
+          || el.getAttribute("data-place-name")
+          || (el.closest("[data-place-name]") && el.closest("[data-place-name]").getAttribute("data-place-name"))
+          || (placeDrawerTitle && placeDrawerTitle.textContent)
+          || "";
+        trackAffiliateClick(
+          {
+            platform: cta.getAttribute("data-platform") || el.getAttribute("data-platform") || "",
+            id: cta.getAttribute("data-offer-id") || "",
+            offer_id: cta.getAttribute("data-offer-id") || "",
+            title: cta.getAttribute("data-offer-title") || "",
+            booking_url: cta.getAttribute("href") || cta.getAttribute("data-booking-url") || el.getAttribute("data-booking-url") || "",
+          },
+          placeName,
+          selectedBankFilter()
+        );
+      }
+
+      function bindMallOfferCard(placeName) {
+        return (offer, groupStatus) => mallOfferCard(offer, groupStatus, placeName);
+      }
       function mallOfferCard(offer, groupStatus) {
         const status = displayStatusForCard(offer, groupStatus);
         const active = status === "active";
@@ -731,11 +844,18 @@
         const platformBadge = (isOta || offer.platform) ? otaPlatformBadge(offer) : "";
         const bankChips = offerBankChips(offer);
         const href = offerBookingHref(offer);
-        const rel = offer.is_affiliate ? "noopener noreferrer sponsored" : "noopener noreferrer";
         const platform = String(offer.platform || "").trim();
-        const cta = href
-          ? `<a class="hotel-offer-cta" href="${href}" target="_blank" rel="${rel}" data-hotel-booking="1">${isOta && platform ? `經 ${platform} 預訂 ↗` : "立即預訂 / 了解詳情 ↗"}</a>`
-          : "";
+        const placeName = arguments.length > 2 ? arguments[2] : (offer.mall_name || "");
+        const ctaLabel = isOta && platform ? `經 ${platform} 預訂 ↗` : "立即預訂 / 了解詳情 ↗";
+        const cta = bookingCtaHtml({
+          href,
+          label: ctaLabel,
+          platform: platform || (isOta ? "OTA" : "官網"),
+          offerTitle: offer.offer_title || "",
+          offerId: offer.id || "",
+          isAffiliate: Boolean(offer.is_affiliate) || isOta,
+          placeName,
+        });
         const details = offer.details ? `<details class="mt-3 rounded-xl bg-white/70 p-3 text-xs leading-5"><summary class="cursor-pointer font-black ${active ? "text-sky-800" : "text-amber-800"}">查看優惠詳細條款</summary><div class="mt-2 text-slate-700">${formatDetails(offer.details)}</div></details>` : "";
         return `<article class="rounded-2xl border p-4 ${active ? "border-sky-200 bg-sky-50 text-sky-950" : "border-amber-200 bg-amber-50 text-amber-900"}" data-view-status="${status}" data-source="${isOta ? "ota" : "official"}"><div class="mb-2 flex flex-wrap gap-2">${platformBadge}${bankChips}</div><h5 class="text-lg font-black leading-tight sm:text-xl">${offer.offer_title}</h5>${details}<p class="mt-3 text-xs opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</article>`;
       }
@@ -890,20 +1010,25 @@
           .join("");
         const bankTags = offerBankChips(offer);
         const href = hotelBookingUrl(offer, hotel);
-        const rel = offer.is_affiliate ? "noopener noreferrer sponsored" : "noopener noreferrer";
         const ctaLabel = isOta && platform
           ? `經 ${platform} 預訂 ↗`
           : (offer.is_affiliate ? "立即預訂（聯盟連結）↗" : "立即預訂 / 了解詳情 ↗");
-        const cta = href
-          ? `<a class="hotel-offer-cta" href="${href}" target="_blank" rel="${rel}" data-hotel-booking="1" data-affiliate="${offer.is_affiliate ? "1" : "0"}">${ctaLabel}</a>`
-          : "";
+        const cta = bookingCtaHtml({
+          href,
+          label: ctaLabel,
+          platform: platform || (isOfficial ? "官網" : "OTA"),
+          offerTitle: offer.title || "",
+          offerId: offer.id || "",
+          isAffiliate: Boolean(offer.is_affiliate) || isOta,
+          placeName: hotel && hotel.name ? hotel.name : "",
+        });
         const affiliateNote = offer.is_affiliate
           ? `<p class="hotel-affiliate-note">含聯盟追蹤連結；條款以 ${platform || "平台"} 頁面為準。</p>`
           : "";
         const openAttr = href
           ? ` role="link" tabindex="0" data-booking-url="${href.replace(/"/g, "&quot;")}"`
           : "";
-        return `<article class="hotel-card rounded-2xl border p-4 ${upcoming ? "border-amber-300 bg-amber-50/80" : "border-emerald-200 bg-emerald-50/70"}" data-lifecycle="${status}" data-source="${isOfficial ? "official" : (isOta ? "ota" : "")}" data-platform="${platform.replace(/"/g, "&quot;")}"${openAttr}><div class="flex flex-wrap items-start justify-between gap-2">${badge}${sourceBadge}<p class="text-xs font-semibold text-slate-500">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p></div><h5 class="mt-3 text-base font-black leading-tight sm:text-lg">${offer.title || ""}</h5><p class="mt-2 text-sm leading-6 text-slate-700">${offer.description || ""}</p>${(tags || bankTags) ? `<div class="mt-3 flex flex-wrap gap-1.5">${tags}${bankTags}</div>` : ""}${cta}${affiliateNote}</article>`;
+        return `<article class="hotel-card rounded-2xl border p-4 ${upcoming ? "border-amber-300 bg-amber-50/80" : "border-emerald-200 bg-emerald-50/70"}" data-lifecycle="${status}" data-source="${isOfficial ? "official" : (isOta ? "ota" : "")}" data-platform="${platform.replace(/"/g, "&quot;")}" data-place-name="${escapeAttr(hotel && hotel.name ? hotel.name : "")}"${openAttr}><div class="flex flex-wrap items-start justify-between gap-2">${badge}${sourceBadge}<p class="text-xs font-semibold text-slate-500">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p></div><h5 class="mt-3 text-base font-black leading-tight sm:text-lg">${offer.title || ""}</h5><p class="mt-2 text-sm leading-6 text-slate-700">${offer.description || ""}</p>${(tags || bankTags) ? `<div class="mt-3 flex flex-wrap gap-1.5">${tags}${bankTags}</div>` : ""}${cta}${affiliateNote}</article>`;
       }
 
 function hotelCard(hotel) {
@@ -925,7 +1050,7 @@ function hotelCard(hotel) {
         const upcomingAlert = upcomingCount
           ? `<div class="mt-3"><span class="hotel-upcoming-badge">⚠️ 官網 3 天內開搶！（${upcomingCount}）</span></div>`
           : "";
-        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-channel="hotel"><button class="hotel-toggle flex w-full items-center justify-between gap-4 p-6 text-left transition hover:bg-slate-50" data-hotel-key="${key}" aria-expanded="${expanded}"><div><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p><h3 class="mt-1 text-xl font-black">${hotel.name || ""}</h3><p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p><p class="mt-1 text-sm font-semibold text-slate-600"><a class="underline" href="tel:${phone}">${hotel.phone || ""}</a>${officialLink}</p><p class="mt-3 text-xs font-semibold text-slate-400">${summaryLabel}</p>${upcomingAlert}</div><span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white">${expanded ? "−" : "+"}</span></button>${expanded ? `<div class="space-y-3 border-t border-slate-100 bg-slate-50 p-5">${offers.map((offer) => hotelOfferCard(offer, hotel)).join("")}</div>` : ""}</article>`;
+        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-channel="hotel" data-place-name="${escapeAttr(hotel.name || "")}"><button class="hotel-toggle flex w-full items-center justify-between gap-4 p-6 text-left transition hover:bg-slate-50" data-hotel-key="${key}" aria-expanded="${expanded}"><div><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p><h3 class="mt-1 text-xl font-black">${hotel.name || ""}</h3><p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p>${(() => { const ll = hotelLatLng(hotel); const b = distanceBadgeHtml(ll.lat, ll.lng); return b ? `<p class="mt-2">${b}</p>` : ""; })()}<p class="mt-1 text-sm font-semibold text-slate-600"><a class="underline" href="tel:${phone}">${hotel.phone || ""}</a>${officialLink}</p><p class="mt-3 text-xs font-semibold text-slate-400">${summaryLabel}</p>${upcomingAlert}</div><span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white">${expanded ? "−" : "+"}</span></button>${expanded ? `<div class="space-y-3 border-t border-slate-100 bg-slate-50 p-5">${offers.map((offer) => hotelOfferCard(offer, hotel)).join("")}</div>` : ""}</article>`;
       }
       function syncChannelChrome() {
         const channel = state.selectedChannel;
@@ -969,7 +1094,7 @@ function hotelCard(hotel) {
           : lifecycle === "active"
             ? "border-emerald-200 bg-emerald-50"
             : "border-slate-200 bg-slate-50";
-        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}"><button class="mall-toggle flex w-full items-center justify-between gap-4 p-6 text-left transition hover:bg-slate-50" data-mall-key="${key}" aria-expanded="${expanded}"><div><p class="text-xs font-bold text-coral">${district.district}</p><h3 class="mt-1 text-xl font-black">${mall.mall_name}</h3><p class="mt-2 text-sm text-slate-500">${mall.address}</p>${geoChips(mall)}<p class="mt-3 text-xs font-semibold text-slate-400">${summaryLabel}</p></div><span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white">${expanded ? "−" : "+"}</span></button>${expanded ? `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, mallOfferCard, "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>` : ""}</article>`;
+        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}" data-place-name="${escapeAttr(mall.mall_name)}"><button class="mall-toggle flex w-full items-center justify-between gap-4 p-6 text-left transition hover:bg-slate-50" data-mall-key="${key}" aria-expanded="${expanded}"><div><p class="text-xs font-bold text-coral">${district.district}</p><h3 class="mt-1 text-xl font-black">${mall.mall_name}</h3><p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distanceBadgeHtml(mall.lat, mall.lng) ? `<p class="mt-2">${distanceBadgeHtml(mall.lat, mall.lng)}</p>` : ""}${geoChips(mall)}<p class="mt-3 text-xs font-semibold text-slate-400">${summaryLabel}</p></div><span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white">${expanded ? "−" : "+"}</span></button>${expanded ? `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, bindMallOfferCard(mall.mall_name), "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>` : ""}</article>`;
       }
 
       function collectMapPlaces() {
@@ -1046,10 +1171,10 @@ function hotelCard(hotel) {
       function renderMallDrawer(district, mall) {
         const { mallOffers, storeOffers, activeCount, upcomingCount, storeSectionTone } = mallDetailPayload(district, mall);
         const badges = `<div class="mt-3 flex flex-wrap gap-2"><span class="rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold text-emerald-800">🟢 ${activeCount} 個進行中</span><span class="rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-800">🟡 ${upcomingCount} 個即將開始</span>${upcomingCount ? `<span class="hotel-upcoming-badge">⚠️ 3天內開搶！</span>` : ""}</div>`;
-        const body = `${badges}<div class="mt-4 grid min-w-0 grid-cols-1 gap-4">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, mallOfferCard, "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "含店舖實景、樓層／鋪號／電話；多於 1 項優惠可展開", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>`;
+        const body = `${badges}<div class="mt-4 grid min-w-0 grid-cols-1 gap-4">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, bindMallOfferCard(mall.mall_name), "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "含店舖實景、樓層／鋪號／電話；多於 1 項優惠可展開", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>`;
         return {
           title: mall.mall_name,
-          sub: `${district.district} · ${mall.address || ""}`,
+          sub: `${district.district} · ${mall.address || ""}${state.sortByProximity && placeDistanceKm(mall.lat, mall.lng) != null ? ` · 距您 ${formatDistanceKm(placeDistanceKm(mall.lat, mall.lng))}` : ""}`,
           body,
         };
       }
@@ -1064,7 +1189,7 @@ function hotelCard(hotel) {
         const section = `<section class="mt-4 rounded-2xl border border-sky-200 bg-sky-50 p-4"><h4 class="font-black">🏨 酒店優惠（官網／OTA）</h4><p class="mt-1 text-xs opacity-70">官網獨家與 Klook／KKday 等平台優惠；信用卡適用銀行見藍色標籤</p><div class="mt-3 space-y-3">${offers.map((offer) => hotelOfferCard(offer, hotel)).join("") || '<p class="rounded-xl bg-white/75 p-3 text-sm text-slate-500">暫無有效酒店優惠。</p>'}</div></section>`;
         return {
           title: hotel.name,
-          sub: `${hotel.district || ""} · ${hotel.address || ""}`,
+          sub: `${hotel.district || ""} · ${hotel.address || ""}${(() => { const ll = hotelLatLng(hotel); const km = placeDistanceKm(ll.lat, ll.lng); return state.sortByProximity && km != null ? ` · 距您 ${formatDistanceKm(km)}` : ""; })()}`,
           body: `${badges}${meta}${section}`,
         };
       }
@@ -1137,14 +1262,35 @@ function hotelCard(hotel) {
         if (!map || !state.leafletLayer || typeof L === "undefined") return;
         state.leafletLayer.clearLayers();
         const places = collectMapPlaces();
+        places.forEach((place) => {
+          const km = placeDistanceKm(place.lat, place.lng);
+          place.distance = km == null ? Number.POSITIVE_INFINITY : km;
+        });
+        if (state.sortByProximity && state.userLat != null) {
+          places.sort((a, b) => a.distance - b.distance);
+        }
         const bounds = [];
+        if (state.sortByProximity && state.userLat != null && state.userLng != null && typeof L !== "undefined") {
+          const you = L.circleMarker([state.userLat, state.userLng], {
+            radius: 8,
+            color: "#ff5d52",
+            weight: 2,
+            fillColor: "#ff5d52",
+            fillOpacity: 0.85,
+          });
+          you.bindTooltip("你的位置", { permanent: false, direction: "top" });
+          you.addTo(state.leafletLayer);
+          bounds.push([state.userLat, state.userLng]);
+        }
         places.forEach((place) => {
           const marker = L.marker([place.lat, place.lng], {
             icon: pinIcon(place.kind, place.key === state.selectedPlaceKey),
             placeKey: place.key,
             title: place.name,
           });
-          marker.bindTooltip(place.name, { direction: "top", offset: [0, -12] });
+          marker.bindTooltip(state.sortByProximity && Number.isFinite(place.distance) && place.distance !== Number.POSITIVE_INFINITY
+            ? `${place.name} · 距您 ${formatDistanceKm(place.distance)}`
+            : place.name, { direction: "top", offset: [0, -12] });
           marker.on("click", () => openPlaceDrawer(place));
           marker.addTo(state.leafletLayer);
           bounds.push([place.lat, place.lng]);
@@ -1157,8 +1303,83 @@ function hotelCard(hotel) {
       }
 
 
+
+      function calculateDistance(lat1, lon1, lat2, lon2) {
+        const R = 6371;
+        const dLat = (lat2 - lat1) * Math.PI / 180;
+        const dLon = (lon2 - lon1) * Math.PI / 180;
+        const a =
+          Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+          Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+          Math.sin(dLon / 2) * Math.sin(dLon / 2);
+        return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      }
+      function placeDistanceKm(lat, lng) {
+        if (state.userLat == null || state.userLng == null) return null;
+        const la = Number(lat);
+        const ln = Number(lng);
+        if (!Number.isFinite(la) || !Number.isFinite(ln)) return null;
+        return calculateDistance(state.userLat, state.userLng, la, ln);
+      }
+      function formatDistanceKm(km) {
+        if (km == null || !Number.isFinite(km)) return "";
+        if (km < 1) return `${Math.max(1, Math.round(km * 1000))}m`;
+        if (km < 10) return `${km.toFixed(1)}km`;
+        return `${Math.round(km)}km`;
+      }
+      function distanceBadgeHtml(lat, lng) {
+        if (!state.sortByProximity) return "";
+        const km = placeDistanceKm(lat, lng);
+        if (km == null) return "";
+        return `<span class="lbs-distance-badge" title="與你的直線距離">距您 ${formatDistanceKm(km)}</span>`;
+      }
+      function hotelLatLng(hotel) {
+        const coord = state.hotelCoords[hotel && hotel.id] || {};
+        return { lat: Number(coord.lat), lng: Number(coord.lng) };
+      }
+      function syncLbsChrome() {
+        if (lbsSortBtn) lbsSortBtn.setAttribute("aria-pressed", String(Boolean(state.sortByProximity)));
+        if (lbsClearBtn) lbsClearBtn.setAttribute("aria-pressed", String(!state.sortByProximity));
+        if (lbsStatus) {
+          lbsStatus.textContent = state.locationStatus
+            || (state.sortByProximity && state.userLat != null
+              ? "已開啟「離我最近」：卡片顯示距您距離，並由近至遠排序。"
+              : "開啟定位後，卡片顯示「距您 Xm」並由近至遠排序。");
+        }
+      }
+      function requestUserLocationAndSort() {
+        if (!navigator.geolocation) {
+          state.locationStatus = "此瀏覽器不支援定位。";
+          state.sortByProximity = false;
+          syncLbsChrome();
+          return;
+        }
+        state.locationStatus = "正在取得你的位置…";
+        syncLbsChrome();
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            state.userLat = position.coords.latitude;
+            state.userLng = position.coords.longitude;
+            state.sortByProximity = true;
+            state.locationStatus = "已開啟「離我最近」：卡片顯示距您距離，並由近至遠排序。";
+            render();
+          },
+          (error) => {
+            state.sortByProximity = false;
+            const code = error && error.code;
+            state.locationStatus = code === 1
+              ? "定位權限未開啟，請在瀏覽器允許位置存取後再試。"
+              : "無法取得位置，請稍後再試。";
+            console.log("LBS 權限未開啟或取得失敗:", error);
+            syncLbsChrome();
+          },
+          { enableHighAccuracy: false, timeout: 12000, maximumAge: 60000 }
+        );
+      }
+
       function render() {
         syncChannelChrome();
+        syncLbsChrome();
         if (state.selectedChannel === "map") {
           renderMapPins();
           return;
@@ -1166,18 +1387,40 @@ function hotelCard(hotel) {
         const channel = state.selectedChannel;
         const showMalls = channel === "全部" || channel === "malls";
         const showHotels = channel === "全部" || channel === "hotels";
-        const mallCards = showMalls
-          ? getVisibleDistricts().flatMap((district) => (district.malls || []).map((mall) => mallCard(district, mall))).filter(Boolean)
-          : [];
-        const hotelCards = showHotels ? visibleHotels().map(hotelCard) : [];
-        const cards = [...mallCards, ...hotelCards];
+        const items = [];
+        if (showMalls) {
+          getVisibleDistricts().forEach((district) => {
+            (district.malls || []).forEach((mall) => {
+              const html = mallCard(district, mall);
+              if (!html) return;
+              const km = placeDistanceKm(mall.lat, mall.lng);
+              items.push({ kind: "mall", html, distance: km == null ? Number.POSITIVE_INFINITY : km });
+            });
+          });
+        }
+        if (showHotels) {
+          visibleHotels().forEach((hotel) => {
+            const html = hotelCard(hotel);
+            if (!html) return;
+            const { lat, lng } = hotelLatLng(hotel);
+            const km = placeDistanceKm(lat, lng);
+            items.push({ kind: "hotel", html, distance: km == null ? Number.POSITIVE_INFINITY : km });
+          });
+        }
+        if (state.sortByProximity && state.userLat != null) {
+          items.sort((a, b) => a.distance - b.distance);
+        }
+        const cards = items.map((item) => item.html);
+        const mallCards = items.filter((item) => item.kind === "mall");
+        const hotelCards = items.filter((item) => item.kind === "hotel");
         const districtLabel = state.selectedDistrict === "全部" ? "" : `（${state.selectedDistrict}）`;
+        const nearLabel = state.sortByProximity && state.userLat != null ? " · 離我最近" : "";
         if (channel === "hotels") {
-          districtSummary.textContent = `顯示 ${hotelCards.length} 間酒店著數${districtLabel}`;
+          districtSummary.textContent = `顯示 ${hotelCards.length} 間酒店著數${districtLabel}${nearLabel}`;
         } else if (channel === "malls") {
-          districtSummary.textContent = `顯示 ${mallCards.length} 間商場${districtLabel}`;
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場${districtLabel}${nearLabel}`;
         } else {
-          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}`;
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}${nearLabel}`;
         }
         if (!cards.length) {
           const emptyId = channel === "hotels" ? "#empty-state-hotels" : channel === "malls" ? "#empty-state" : "#empty-state-all";
@@ -1208,6 +1451,20 @@ function hotelCard(hotel) {
       bindExclusiveFilters(verticalFilters, "data-vertical", "selectedVertical");
       bindExclusiveFilters(tagFilters, "data-tag", "selectedTag");
       bindExclusiveFilters(lifecycleFilters, "data-lifecycle", "selectedLifecycle");
+
+      if (lbsSortBtn) {
+        lbsSortBtn.addEventListener("click", () => {
+          requestUserLocationAndSort();
+        });
+      }
+      if (lbsClearBtn) {
+        lbsClearBtn.addEventListener("click", () => {
+          state.sortByProximity = false;
+          state.locationStatus = "已回復預設排序。";
+          render();
+        });
+      }
+
 
       if (bankFilters) {
         bankFilters.addEventListener("click", (event) => {
@@ -1247,19 +1504,32 @@ function hotelCard(hotel) {
           render();
         });
       }
+
+      if (placeDrawerBody) {
+        placeDrawerBody.addEventListener("click", (event) => {
+          const bookingEl = event.target.closest("[data-hotel-booking], .btn-booking");
+          if (!bookingEl) return;
+          trackBookingElement(bookingEl);
+        });
+      }
+
       mallList.addEventListener("keydown", (event) => {
         if (event.key !== "Enter" && event.key !== " ") return;
         const card = event.target.closest(".hotel-card[data-booking-url]");
         if (!card) return;
         event.preventDefault();
         const href = card.getAttribute("data-booking-url");
-        if (href) window.open(href, "_blank", "noopener,noreferrer");
+        if (href) {
+          trackBookingElement(card);
+          window.open(href, "_blank", "noopener,noreferrer");
+        }
       }, true);
       mallList.addEventListener("click", (event) => {
-        const bookingEl = event.target.closest("[data-hotel-booking], .hotel-card[data-booking-url]");
+        const bookingEl = event.target.closest("[data-hotel-booking], .btn-booking, .hotel-card[data-booking-url]");
         if (bookingEl) {
           const href = bookingEl.getAttribute("href") || bookingEl.getAttribute("data-booking-url");
           if (href && /^https?:\/\//.test(href)) {
+            trackBookingElement(bookingEl);
             // Allow native <a> navigation; for card body clicks open explicitly.
             if (!event.target.closest("a[href]")) {
               event.preventDefault();
