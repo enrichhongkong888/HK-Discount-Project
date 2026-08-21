@@ -803,9 +803,12 @@
         if (p.includes("官網") || p === "official" || p === "官网") return "official";
         return "";
       }
+      function encodeQueryValue(value) {
+        return encodeURIComponent(String(value == null ? "" : value).trim() || "Hong Kong");
+      }
       function platformSearchUrl(platform, keyword) {
         const key = platformKey(platform);
-        const q = encodeURIComponent(String(keyword || "").trim() || "Hong Kong");
+        const q = encodeQueryValue(keyword);
         if (key === "kkday") return `https://www.kkday.com/zh-hk/product/productlist?keyword=${q}`;
         if (key === "klook") return `https://www.klook.com/zh-HK/search/?query=${q}`;
         // OpenRice: mall-name "where" search keeps results highly relevant
@@ -828,7 +831,13 @@
         const raw = String(url || "").trim();
         if (!/^https?:\/\//i.test(raw)) return false;
         if (/YOUR_AFFILIATE|XXXXX|javascript:|void\(0\)/i.test(raw)) return false;
-        return true;
+        try {
+          // Throws if malformed; also rejects non-http schemes already filtered above
+          const parsed = new URL(raw);
+          return parsed.protocol === "http:" || parsed.protocol === "https:";
+        } catch (_err) {
+          return false;
+        }
       }
       function looksLikeFragileOtaProductUrl(url) {
         const raw = String(url || "");
@@ -850,16 +859,17 @@
         const place = String(keyword || "").trim();
         const hub = mallOfficialHub(place);
 
-        // OpenRice: always prefer mall-name where-search for relevance
+        // OpenRice: always rebuild with encodeURIComponent(placeName) for encoding safety
         if (key === "openrice") {
-          if (isUsableHttpUrl(raw) && /[?&](where|whatwhere)=/i.test(raw)) return raw;
-          return platformSearchUrl("OpenRice", place) || platformHomeUrl("OpenRice");
+          if (place) return platformSearchUrl("OpenRice", place);
+          return platformHomeUrl("OpenRice");
         }
 
-        // KKday / Klook
+        // KKday / Klook — prefer usable URL; otherwise rebuild encoded search
         if (key === "kkday" || key === "klook") {
           if (isUsableHttpUrl(raw) && !looksLikeFragileOtaProductUrl(raw)) return raw;
-          return platformSearchUrl(platform, place) || platformHomeUrl(platform);
+          if (place) return platformSearchUrl(platform, place) || platformHomeUrl(platform);
+          return platformHomeUrl(platform);
         }
 
         // Official / 官網 / unknown with mall context
@@ -873,14 +883,15 @@
               const u = new URL(raw);
               return `${u.origin}/`;
             } catch (_err) {
-              return raw;
+              return "";
             }
           }
           return "";
         }
 
         if (isUsableHttpUrl(raw) && !looksLikeFragileOtaProductUrl(raw)) return raw;
-        return platformSearchUrl(platform, place) || platformHomeUrl(platform) || raw;
+        if (place) return platformSearchUrl(platform, place) || platformHomeUrl(platform);
+        return platformHomeUrl(platform) || "";
       }
       function trackAffiliateClick(offer, placeName, bankFilter) {
         const payload = {
@@ -892,15 +903,17 @@
           bank_filter: bankFilter || selectedBankFilter(),
           outbound_url: (offer && (offer.booking_url || offer.outbound_url)) || "",
         };
-        if (typeof gtag === "function") {
-          gtag("event", "click_affiliate_offer", payload);
+        if (typeof window.gtag === "function") {
+          window.gtag("event", "click_affiliate_offer", payload);
+        } else {
+          console.warn("GA4 blocked or not loaded, skipping analytics track.");
         }
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({ event: "click_affiliate_offer", ...payload });
       }
       function bookingCtaHtml({ href, label, platform, offerTitle, offerId, isAffiliate, placeName, officialHome }) {
         const safeHref = resolveAffiliateUrl(platform, href, placeName || offerTitle, officialHome);
-        if (!safeHref) return "";
+        if (!safeHref || !isUsableHttpUrl(safeHref)) return "";
         const rel = isAffiliate ? "noopener noreferrer sponsored" : "noopener noreferrer";
         return `<a class="hotel-offer-cta btn-booking" href="${escapeAttr(safeHref)}" target="_blank" rel="${rel}" data-hotel-booking="1" data-affiliate="${isAffiliate ? "1" : "0"}" data-platform="${escapeAttr(platform || "")}" data-offer-id="${escapeAttr(offerId || "")}" data-offer-title="${escapeAttr(offerTitle || "")}" data-place-name="${escapeAttr(placeName || "")}" data-official-home="${escapeAttr(officialHome || "")}" data-booking-url="${escapeAttr(safeHref)}" data-raw-booking-url="${escapeAttr(href || "")}">${label}</a>`;
       }
@@ -924,7 +937,10 @@
           || el.getAttribute("data-booking-url")
           || "";
         const safe = resolveAffiliateUrl(platform, raw, placeName || cta.getAttribute("data-offer-title") || "", officialHome);
-        if (!safe) return "";
+        if (!safe || !isUsableHttpUrl(safe)) {
+          console.warn("Blocked navigation: no safe affiliate URL for", platform || placeName || raw);
+          return "";
+        }
         if (cta.tagName === "A") cta.setAttribute("href", safe);
         cta.setAttribute("data-booking-url", safe);
         trackAffiliateClick(
@@ -1643,32 +1659,35 @@ function hotelCard(hotel) {
         placeDrawerBody.addEventListener("click", (event) => {
           const bookingEl = event.target.closest("[data-hotel-booking], .btn-booking");
           if (!bookingEl) return;
-          const safe = resolveBookingNavigation(bookingEl);
-          if (safe && event.target.closest("a[href]")) {
-            event.preventDefault();
-            window.open(safe, "_blank", "noopener,noreferrer");
+          event.preventDefault();
+          event.stopPropagation();
+          const safeUrl = resolveBookingNavigation(bookingEl);
+          if (safeUrl && /^https?:\/\//i.test(safeUrl)) {
+            window.open(safeUrl, "_blank", "noopener,noreferrer");
           }
         });
       }
 
       mallList.addEventListener("keydown", (event) => {
         if (event.key !== "Enter" && event.key !== " ") return;
-        const card = event.target.closest(".hotel-card[data-booking-url]");
+        const card = event.target.closest(".hotel-card[data-booking-url], [data-hotel-booking], .btn-booking");
         if (!card) return;
         event.preventDefault();
-        const safe = resolveBookingNavigation(card);
-        if (safe) window.open(safe, "_blank", "noopener,noreferrer");
+        const safeUrl = resolveBookingNavigation(card);
+        if (safeUrl && /^https?:\/\//i.test(safeUrl)) {
+          window.open(safeUrl, "_blank", "noopener,noreferrer");
+        }
       }, true);
       mallList.addEventListener("click", (event) => {
         const bookingEl = event.target.closest("[data-hotel-booking], .btn-booking, .hotel-card[data-booking-url]");
         if (bookingEl) {
-          const safe = resolveBookingNavigation(bookingEl);
-          if (safe && /^https?:\/\//.test(safe)) {
-            event.preventDefault();
-            window.open(safe, "_blank", "noopener,noreferrer");
-            event.stopPropagation();
-            return;
+          event.preventDefault();
+          event.stopPropagation();
+          const safeUrl = resolveBookingNavigation(bookingEl);
+          if (safeUrl && /^https?:\/\//i.test(safeUrl)) {
+            window.open(safeUrl, "_blank", "noopener,noreferrer");
           }
+          return;
         }
         const mallButton = event.target.closest("[data-mall-key]");
         if (mallButton) {

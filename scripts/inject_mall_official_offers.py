@@ -16,7 +16,11 @@ PACIFIC_HOME = "https://www.pacificplace.com.hk/zh-hk"
 
 
 def openrice_where(mall_name: str) -> str:
-    return f"https://www.openrice.com/zh/hongkong/restaurants?where={quote(mall_name)}"
+    # safe="" so spaces and CJK punctuation are fully percent-encoded
+    return (
+        "https://www.openrice.com/zh/hongkong/restaurants?where="
+        + quote(str(mall_name or "").strip(), safe="")
+    )
 
 
 def upsert_offers(existing: list, extras: list) -> list:
