@@ -45,6 +45,10 @@ jobs:
         run: |
           python scripts/audit_hotels.py --hotels data/hotels.json
 
+      - name: Sync OpenRice dining offers (74 malls)
+        run: |
+          python scripts/daily_openrice_sync.py
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

@@ -1,0 +1,16 @@
+{
+  "today": "2026-08-23",
+  "stats": {
+    "today": "2026-08-23",
+    "malls": 74,
+    "scraped_rows": 44,
+    "offers_written": 44,
+    "malls_with_offers": 3,
+    "prune": {
+      "pruned_expired": 0,
+      "pruned_dead_url": 0,
+      "pruned_scheduled": 0
+    },
+    "live_scraped_rows": 0
+  }
+}

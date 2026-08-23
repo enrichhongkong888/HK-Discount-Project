@@ -22,7 +22,7 @@ from urllib.parse import urlencode
 
 import httpx
 
-from store_channels.http_util import afetch_json, normalize_phone
+from store_channels.http_util import afetch_text, normalize_phone
 
 ROOT = Path(__file__).resolve().parents[2]
 CACHE_PATH = ROOT / "data" / "cache" / "openrice_api_rows.json"
@@ -221,7 +221,11 @@ async def _search_page(mall_name: str, *, start_at: int) -> list[dict[str, Any]]
     }
     url = f"{SEARCH_URL}?{urlencode(params)}"
     async with _OPENRICE_SEM:
-        data = await afetch_json(url, timeout=API_TIMEOUT, headers=JSON_HEADERS)
+        raw = await afetch_text(url, timeout=API_TIMEOUT, headers=JSON_HEADERS)
+    text = (raw or "").lstrip()
+    if not text.startswith("{") and not text.startswith("["):
+        raise ValueError("non-json response (bot challenge or blocked)")
+    data = json.loads(text)
     if not isinstance(data, dict):
         return []
     results = (data.get("paginationResult") or {}).get("results") or []

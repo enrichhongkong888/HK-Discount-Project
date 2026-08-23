@@ -273,6 +273,37 @@
         background: #d97706;
         color: #fff;
       }
+      .dining-offer-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        border-radius: 9999px;
+        background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+        color: #fff;
+        padding: 0.25rem 0.65rem;
+        font-size: 0.7rem;
+        font-weight: 800;
+        box-shadow: 0 4px 12px rgba(249, 115, 22, 0.28);
+      }
+      .dining-openrice-cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        border-radius: 9999px;
+        background: #1f2937;
+        color: #fff;
+        padding: 0.55rem 0.95rem;
+        font-size: 0.75rem;
+        font-weight: 800;
+        transition: background 0.15s ease;
+      }
+      .dining-openrice-cta:hover {
+        background: #ff5d52;
+      }
+      #channel-filters [data-channel="dining"][aria-pressed="true"] {
+        background: #ea580c;
+        color: #fff;
+      }
 
       .map-layout {
         position: relative;
@@ -519,6 +550,7 @@
                 <button type="button" class="district-tag" data-channel="hotels" aria-pressed="false">🏨 酒店優惠</button>
                 <button type="button" class="district-tag" data-channel="parking" aria-pressed="false">🅿️ 免費泊車</button>
                 <button type="button" class="district-tag" data-channel="pets" aria-pressed="false">🐾 寵物友好</button>
+                <button type="button" class="district-tag" data-channel="dining" aria-pressed="false">🍽️ 餐飲優惠</button>
                 <button type="button" class="district-tag" data-channel="map" aria-pressed="false">🗺️ 地圖導覽</button>
               </div>
               <p class="hotel-only-hint mt-3 hidden text-xs text-slate-500" id="hotel-channel-hint">顯示全港 4–5 星級酒店進行中／即將開始的著數；無有效優惠的酒店會自動隱藏。</p>
@@ -573,6 +605,7 @@
     <template id="empty-state-hotels"><div class="col-span-full rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center"><p class="text-3xl">🏨</p><p class="mt-3 font-black">暫未有可顯示的酒店著數</p><p class="mt-2 text-sm text-slate-500">過期優惠已自動隱藏；請選擇其他地區或稍後再查看。</p></div></template>
     <template id="empty-state-all"><div class="col-span-full rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center"><p class="text-3xl">✨</p><p class="mt-3 font-black">暫未有可顯示的著數</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區／分類，或稍後再回來查看。</p></div></template>
 
+    <script src="frontend/app.js"></script>
     <script>
       const state = {
         districts: [],
@@ -793,6 +826,10 @@
           const place = kind === "hotel" ? context.hotel : context.mall;
           if (!isPetFriendlyAllowed(place)) return false;
         }
+        if (channel === "dining") {
+          if (kind === "hotel") return false;
+          if (context.mall && !mallHasActiveDining(context.mall)) return false;
+        }
 
         // sortByProximity affects ordering only — never excludes places/offers.
         return true;
@@ -970,6 +1007,69 @@
         const details = getPetFriendly(place);
         if (!details || details.is_allowed !== true || !details.details) return "";
         return `<br><span style="font-size:12px;color:#b45309;font-weight:700">🐾 ${escapeHtml(details.details)}</span>`;
+      }
+      function diningOfferLifecycle(offer) {
+        if (typeof window.getOfferStatus === "function") {
+          return window.getOfferStatus(offer.start_date, offer.end_date);
+        }
+        const status = offerStatus({ start_date: offer.start_date, end_date: offer.end_date });
+        return {
+          status,
+          label: status === "active" ? "🟢 今日進行中" : status === "upcoming" ? "🟡 即將開始" : "",
+        };
+      }
+      function getLiveDiningOffers(mall) {
+        if (typeof window.liveDiningOffers === "function") {
+          return window.liveDiningOffers(mall);
+        }
+        return (Array.isArray(mall && mall.dining_offers) ? mall.dining_offers : []).filter((offer) => {
+          const lifecycle = diningOfferLifecycle(offer);
+          return lifecycle.status === "active" || lifecycle.status === "upcoming";
+        });
+      }
+      function mallHasActiveDining(mall) {
+        if (typeof window.mallHasDiningOffers === "function") {
+          return window.mallHasDiningOffers(mall);
+        }
+        return getLiveDiningOffers(mall).length > 0;
+      }
+      function diningTitleBadgesHtml(mall) {
+        const count = getLiveDiningOffers(mall).length;
+        if (!count) return "";
+        return `<span class="dining-offer-badge" title="OpenRice 餐飲優惠">🍽️ ${count} 項餐飲優惠</span>`;
+      }
+      function diningOfferCard(offer) {
+        const lifecycle = diningOfferLifecycle(offer);
+        if (lifecycle.status === "expired" || lifecycle.status === "scheduled") return "";
+        const active = lifecycle.status === "active";
+        const borderTone = active
+          ? "border-emerald-300 bg-emerald-50 text-emerald-800"
+          : "border-amber-300 bg-amber-50 text-amber-800";
+        const badgeTone = active ? "text-emerald-800" : "text-amber-800";
+        const shopLine = offer.shop_no
+          ? `<p class="mt-1 text-xs font-semibold opacity-80">${escapeHtml(offer.shop_no)}</p>`
+          : "";
+        const typeLine = offer.offer_type
+          ? `<span class="rounded-full bg-white/80 px-2 py-0.5 text-[10px] font-black">${escapeHtml(offer.offer_type)}</span>`
+          : "";
+        const tagLine = offer.discount_tag
+          ? `<span class="rounded-full bg-white/80 px-2 py-0.5 text-[10px] font-black">${escapeHtml(offer.discount_tag)}</span>`
+          : "";
+        const url = String(offer.openrice_url || "").trim();
+        const cta = /^https?:\/\//.test(url)
+          ? `<a class="dining-openrice-cta mt-3" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">前往 OpenRice 領取/預約 ↗</a>`
+          : "";
+        return `<article class="dining-offer-card rounded-2xl border p-4 ${borderTone}"><div class="flex flex-wrap items-center gap-2"><span class="text-xs font-black ${badgeTone}">${escapeHtml(lifecycle.label || "")}</span>${typeLine}${tagLine}</div><h5 class="mt-2 text-base font-black leading-tight">${escapeHtml(offer.restaurant_name || "")}</h5>${shopLine}<p class="mt-2 text-sm font-semibold leading-6">${escapeHtml(offer.title || "")}</p><p class="mt-2 text-xs font-semibold opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</article>`;
+      }
+      function diningOffersSection(mall) {
+        const offers = getLiveDiningOffers(mall);
+        if (!offers.length) return "";
+        const active = offers.filter((offer) => diningOfferLifecycle(offer).status === "active");
+        const upcoming = offers.filter((offer) => diningOfferLifecycle(offer).status === "upcoming");
+        const renderGroup = (items, status, heading) => items.length
+          ? `<div class="mt-4" data-lifecycle-group="${status}"><h5 class="mb-2 text-xs font-black ${status === "active" ? "text-emerald-700" : "text-amber-700"}">${heading}</h5><div class="space-y-2">${items.map((offer) => diningOfferCard(offer)).join("")}</div></div>`
+          : "";
+        return `<section class="rounded-2xl border border-orange-200 bg-orange-50/70 p-4"><div><h4 class="font-black">🍽️ OpenRice 餐飲優惠</h4><p class="mt-1 text-xs opacity-70">訂座折扣、餐飲券、外賣自取及信用卡優惠（資料來源：OpenRice）</p></div>${renderGroup(active, "active", "🟢 今日進行中")}${renderGroup(upcoming, "upcoming", "🟡 3 天內即將開始")}</section>`;
       }
       function selectedBankFilter() {
         return "全部";
@@ -1414,6 +1514,7 @@ function hotelCard(hotel) {
         const lifecycle = currentViewMode();
         const rawMallOffers = (mall.mall_offers || []).filter((offer) => offer.type === "fallback" || ["active", "upcoming"].includes(offerStatus(offer)));
         const rawStoreOffers = (mall.store_offers || []).filter((offer) => ["active", "upcoming"].includes(offerStatus(offer)));
+        const diningOffers = getLiveDiningOffers(mall);
         // Strict isolation: each tab gets its own projected dataset (no cross-bleed).
         const mallOffers = isolateOffersForCurrentView(rawMallOffers, placeCtx);
         const storeOffers = isolateOffersForCurrentView(rawStoreOffers, placeCtx);
@@ -1421,8 +1522,10 @@ function hotelCard(hotel) {
 
         const activeCards = lifecycle === "upcoming" ? [] : offers.filter((o) => displayStatusForCard(o) === "active");
         const upcomingCardsList = lifecycle === "active" ? [] : offers.filter((o) => displayStatusForCard(o) === "upcoming");
-        const activeCount = activeCards.length;
-        const upcomingCount = upcomingCardsList.length;
+        const diningActiveCount = diningOffers.filter((o) => diningOfferLifecycle(o).status === "active").length;
+        const diningUpcomingCount = diningOffers.filter((o) => diningOfferLifecycle(o).status === "upcoming").length;
+        const activeCount = activeCards.length + diningActiveCount;
+        const upcomingCount = upcomingCardsList.length + diningUpcomingCount;
 
         const activeLabel = `🟢 ${activeCount} 個進行中`;
         const upcomingLabel = `🟡 ${upcomingCount} 個即將開始`;
@@ -1431,7 +1534,9 @@ function hotelCard(hotel) {
         else if (lifecycle === "upcoming") summaryLabel = upcomingLabel;
 
         const petsOnly = state.selectedChannel === "pets";
-        if (!petsOnly && !mallOffers.length && !storeOffers.length) return "";
+        const diningOnly = state.selectedChannel === "dining";
+        if (!diningOnly && !petsOnly && !mallOffers.length && !storeOffers.length && !diningOffers.length) return "";
+        if (diningOnly && !diningOffers.length) return "";
         // Neutral chrome for 全部時段; single-status tabs keep their theme.
         const storeSectionTone = lifecycle === "upcoming"
           ? "border-amber-200 bg-amber-50"
@@ -1450,16 +1555,20 @@ function hotelCard(hotel) {
           : "";
         const parkingBadges = parkingTitleBadgesHtml(mall);
         const petBadges = petTitleBadgesHtml(mall);
+        const diningBadges = diningTitleBadgesHtml(mall);
         const parkingBlock = parkingRewardBlockHtml(mall);
         const petBlock = petPolicyBlockHtml(mall);
-        const titleRow = `<div class="mt-1 flex flex-wrap items-center gap-2"><h3 class="text-xl font-black">${mall.mall_name}</h3>${parkingBadges}${petBadges}</div>`;
+        const titleRow = `<div class="mt-1 flex flex-wrap items-center gap-2"><h3 class="text-xl font-black">${mall.mall_name}</h3>${parkingBadges}${petBadges}${diningBadges}</div>`;
         const mapTrigger = hasMapCoords
           ? `<button type="button" class="card-map-trigger place-card-map-zone w-full text-left"${mapAttrs} aria-label="在地圖上查看 ${escapeAttr(mall.mall_name)}"><p class="text-xs font-bold text-coral">${district.district}</p>${titleRow}<p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distLine ? `<p class="mt-2">${distLine}</p>` : ""}${geoChips(mall)}${mapHint}</button>`
           : `<div><p class="text-xs font-bold text-coral">${district.district}</p>${titleRow}<p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distLine ? `<p class="mt-2">${distLine}</p>` : ""}${geoChips(mall)}</div>`;
-        const expandedPanel = petsOnly && !mallOffers.length && !storeOffers.length
-          ? `<div class="border-t border-slate-100 bg-slate-50 p-5"><p class="text-sm text-slate-500">此商場目前暫無符合篩選的著數優惠；上方已顯示官網寵物進出規範。</p></div>`
-          : `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, bindMallOfferCard(mall.mall_name), "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>`;
-        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}" data-place-name="${escapeAttr(mall.mall_name)}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="mall"${hasMapCoords ? ` data-lat="${lat}" data-lng="${lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}${parkingBlock}${petBlock}<p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p></div><button type="button" class="place-card-expand mall-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-mall-key="${key}" aria-expanded="${expanded}" aria-label="${expanded ? "收合" : "展開"} ${escapeAttr(mall.mall_name)} 優惠">${expanded ? "−" : "+"}</button></div>${expanded ? expandedPanel : ""}</article>`;
+        const diningBlock = diningOffers.length ? diningOffersSection(mall) : "";
+        const diningVisible = diningBlock && (expanded || diningOnly);
+        const diningMarkup = diningVisible ? `<div class="mt-3 px-1">${diningBlock}</div>` : "";
+        const expandedPanel = (petsOnly || diningOnly) && !mallOffers.length && !storeOffers.length && !diningOffers.length
+          ? `<div class="border-t border-slate-100 bg-slate-50 p-5"><p class="text-sm text-slate-500">${diningOnly ? "此商場目前暫無有效 OpenRice 餐飲優惠。" : "此商場目前暫無符合篩選的著數優惠；上方已顯示官網寵物進出規範。"}</p></div>`
+          : `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${diningBlock && !diningOnly ? diningBlock : ""}${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, bindMallOfferCard(mall.mall_name), "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>`;
+        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}" data-place-name="${escapeAttr(mall.mall_name)}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="mall"${hasMapCoords ? ` data-lat="${lat}" data-lng="${lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}${parkingBlock}${petBlock}${diningMarkup}<p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p></div><button type="button" class="place-card-expand mall-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-mall-key="${key}" aria-expanded="${expanded}" aria-label="${expanded ? "收合" : "展開"} ${escapeAttr(mall.mall_name)} 優惠">${expanded ? "−" : "+"}</button></div>${expanded ? expandedPanel : ""}</article>`;
       }
 
       function collectMapPlaces() {
@@ -1479,7 +1588,7 @@ function hotelCard(hotel) {
               const rawStoreOffers = (mall.store_offers || []).filter((offer) => ["active", "upcoming"].includes(offerStatus(offer)));
               const mallOffers = isolateOffersForCurrentView(rawMallOffers, placeCtx);
               const storeOffers = isolateOffersForCurrentView(rawStoreOffers, placeCtx);
-              if (!mallOffers.length && !storeOffers.length) return;
+              if (!mallOffers.length && !storeOffers.length && !mallHasActiveDining(mall)) return;
               const key = mallPlaceKey(district.district, mall.mall_name);
               places.push({
                 kind: "mall",
@@ -1776,7 +1885,7 @@ function hotelCard(hotel) {
           return;
         }
         const channel = state.selectedChannel;
-        const showMalls = channel === "全部" || channel === "malls" || channel === "parking" || channel === "pets";
+        const showMalls = channel === "全部" || channel === "malls" || channel === "parking" || channel === "pets" || channel === "dining";
         const showHotels = channel === "全部" || channel === "hotels" || channel === "pets";
         const items = [];
         if (showMalls) {
@@ -1808,24 +1917,29 @@ function hotelCard(hotel) {
         const nearLabel = state.sortByProximity && state.userLat != null ? " · 離我最近" : "";
         const parkingLabel = state.selectedChannel === "parking" ? " · 🅿️ 免費泊車" : "";
         const petsLabel = state.selectedChannel === "pets" ? " · 🐾 寵物友好" : "";
+        const diningLabel = state.selectedChannel === "dining" ? " · 🍽️ 餐飲優惠" : "";
         if (channel === "hotels") {
           districtSummary.textContent = `顯示 ${hotelCards.length} 間酒店著數${districtLabel}${nearLabel}`;
         } else if (channel === "parking") {
           districtSummary.textContent = `顯示 ${mallCards.length} 間免費泊車商場${districtLabel}${nearLabel}`;
         } else if (channel === "pets") {
           districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店（🐾 寵物友好）${districtLabel}${nearLabel}`;
+        } else if (channel === "dining") {
+          districtSummary.textContent = `顯示 ${mallCards.length} 間有 OpenRice 餐飲優惠的商場${districtLabel}${nearLabel}`;
         } else if (channel === "malls") {
           districtSummary.textContent = `顯示 ${mallCards.length} 間商場${districtLabel}${nearLabel}`;
         } else {
-          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}${nearLabel}${parkingLabel}${petsLabel}`;
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}${nearLabel}${parkingLabel}${petsLabel}${diningLabel}`;
         }
         if (!cards.length) {
-          const emptyId = channel === "hotels" ? "#empty-state-hotels" : channel === "malls" ? "#empty-state" : channel === "parking" ? "#empty-state" : channel === "pets" ? "#empty-state-all" : "#empty-state-all";
+          const emptyId = channel === "hotels" ? "#empty-state-hotels" : channel === "malls" ? "#empty-state" : channel === "parking" ? "#empty-state" : channel === "pets" ? "#empty-state-all" : channel === "dining" ? "#empty-state-all" : "#empty-state-all";
           mallList.innerHTML = document.querySelector(emptyId).innerHTML;
           if (channel === "parking" && showMalls) {
             mallList.innerHTML = `<div class="col-span-full rounded-3xl border border-dashed border-sky-300 bg-sky-50 px-6 py-14 text-center"><p class="text-3xl">🅿️</p><p class="mt-3 font-black">暫無符合「免費泊車」篩選的商場</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區，或關閉 🅿️ 免費泊車 篩選。</p></div>`;
           } else if (channel === "pets") {
             mallList.innerHTML = `<div class="col-span-full rounded-3xl border border-dashed border-amber-300 bg-amber-50 px-6 py-14 text-center"><p class="text-3xl">🐾</p><p class="mt-3 font-black">暫無符合「寵物友好」篩選的地點</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區，或關閉 🐾 寵物友好 篩選。</p></div>`;
+          } else if (channel === "dining") {
+            mallList.innerHTML = `<div class="col-span-full rounded-3xl border border-dashed border-orange-300 bg-orange-50 px-6 py-14 text-center"><p class="text-3xl">🍽️</p><p class="mt-3 font-black">暫無符合「餐飲優惠」篩選的商場</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區，或稍後再同步 OpenRice 資料。</p></div>`;
           }
           return;
         }

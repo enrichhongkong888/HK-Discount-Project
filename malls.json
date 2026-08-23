@@ -199,7 +199,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.centralmarket.hk/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "信德中心",
@@ -336,7 +337,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.shuntakgroup.com/en/search"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "國際金融中心商場",
@@ -625,7 +627,8 @@
             "is_allowed": true,
             "details": "家養貓狗可進入；室內須手抱或置於寵物手推車／攜帶包內。條款以 ifc mall 寵物政策頁為準。",
             "official_url": "https://ifc.com.hk/tc/mall/pet-policy/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "太古廣場",
@@ -930,7 +933,8 @@
             "is_allowed": true,
             "details": "L1／L2 禮賓處提供寵物車借用（按金 HK$500）；寵物須置於寵物袋或推車，不可落地。條款以官網為準。",
             "official_url": "https://www.pacificplace.com.hk/zh-hk/services"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "置地廣場",
@@ -1055,7 +1059,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.landmark.hk/en"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -1249,7 +1254,8 @@
             "is_allowed": true,
             "details": "設寵物共融區及借用服務；室內須以寵物袋或推車載運、不落地。條款以官網「寵物友善」專頁為準。",
             "official_url": "https://www.airside.com.hk/zh-hk/visit/pet-friendly-paradise"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "又一城",
@@ -1533,7 +1539,8 @@
             "is_allowed": true,
             "details": "歡迎攜同毛孩到訪；LG2 顧客服務處提供寵物車及寵物墊借用。條款以官網 Welcome Pets 頁為準。",
             "official_url": "https://www.festivalwalk.com.hk/zh-hk/happenings/welcome-pets"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "樂富廣場",
@@ -2343,7 +2350,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.linkhk.com/tc/home/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "黃埔天地",
@@ -3370,7 +3378,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.thewhampoa.com//"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -3543,7 +3552,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.fortunemalls.com.hk/en"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "T Town",
@@ -4103,7 +4113,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.linkreit.com/en/terms-of-use-and-disclaimer/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "YOHO MALL 形點",
@@ -4884,7 +4895,8 @@
             "is_allowed": true,
             "details": "官網提供寵物手推車、寵物袋、牽引繩等借用服務；須遵守商場寵物進出規範。條款以官網為準。",
             "official_url": "https://www.yohomall.hk/zh-hk/about"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "元朗廣場",
@@ -5016,7 +5028,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.yuenlongplaza.com/information/%e6%8e%a8%e5%bb%a3%e6%b4%bb%e5%8b%95%e6%a2%9d%e6%ac%be%e5%8f%8a%e7%b4%b0%e5%89%87/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -5199,7 +5212,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.sheungshuicentre.com/en/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "上水匯 spot",
@@ -5333,7 +5347,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.ssspot.com.hk/home.aspx"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "上水廣場",
@@ -5973,7 +5988,289 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.landmarknorth.com.hk/"
-          }
+          },
+          "dining_offers": [
+            {
+              "restaurant_name": "牛摩",
+              "shop_no": "5樓 513",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0QkuC00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "PizzaExpress",
+              "shop_no": "5樓 501",
+              "title": "$100現金券 (無限兌換)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$100",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0EoSC00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "営丼",
+              "shop_no": "5樓 502B",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0VBWD00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "金鶴二代目",
+              "shop_no": "5樓 511",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0B6mD00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "泰Cow",
+              "shop_no": "5樓 505",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS07w0C00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "錦麗",
+              "shop_no": "4/F 405-406",
+              "title": "$50現金劵 (即買即用)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "$50",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0aI4C00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "Merci Cafe by Déesses",
+              "shop_no": "5樓 512",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0xqeC00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "一焼肉",
+              "shop_no": "4樓 428B",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0rAeB00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "亞參雞飯",
+              "shop_no": "5樓 506-508",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0dQmB00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "太興",
+              "shop_no": "4樓 405-406",
+              "title": "[太興、靠得住、敏華冰廳]  $50 現金券 (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0DoCC00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "手作功夫茶",
+              "shop_no": "2樓 207",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0GkuA00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "CHAGEE 霸王茶姬",
+              "shop_no": "2樓 266-267",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0xvmF00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "皇玥",
+              "shop_no": "4樓 4-5",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0aL0B00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "ABC BAKERY",
+              "shop_no": "2樓 206",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0FnSB00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "瑞幸咖啡",
+              "shop_no": "2樓 208",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0KJCH00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "奇華餅家",
+              "shop_no": "4樓 415",
+              "title": "$50現金券(1套4張)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS05SS900",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "官燕棧",
+              "shop_no": "4樓 431A",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0ygW000",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "太興",
+              "shop_no": "5樓 501",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS00vu600",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "奇華餅家",
+              "shop_no": "2樓 211",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0Wdu000",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "聖安娜餅屋",
+              "shop_no": "2樓 206",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0uHS000",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            }
+          ]
         },
         {
           "mall_name": "粉嶺名都商場",
@@ -6085,7 +6382,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.fanlingcentre.com.hk/html/promotion/guidelines-for-pet-owners"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -6288,7 +6586,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://thesouthside.hk/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "數碼港商場",
@@ -7245,7 +7544,163 @@
             "is_allowed": true,
             "details": "ect spot for a day out with your beloved pets! Arcade@Cyberport is officially opened as a pet-friendly shopping mall. Along with the outdoor lawn podium (The Podium) and Waterfront Park, Arcad（條款以官網為準）",
             "official_url": "https://arcade.cyberport.hk/petfriendly"
-          }
+          },
+          "dining_offers": [
+            {
+              "restaurant_name": "鍾菜館",
+              "shop_no": "1樓 102",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0U9qA00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "Seed by Farmacy",
+              "shop_no": "2樓 207",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0YA0D00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "El Charro Mexican Cantina",
+              "shop_no": "2樓 208",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0KB4600",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "奧壽司",
+              "shop_no": "3樓 307",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0YZa000",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "牛田鮮",
+              "shop_no": "3樓 304",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0Ery8W0",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "Pepper Lunch Express",
+              "shop_no": "4樓 403A",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0cTy300",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "麵屋龍平",
+              "shop_no": "4樓 407",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0MfOD00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "譚仔雲南米線",
+              "shop_no": "4樓 409-410",
+              "title": "$50現金券（即買即用）",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0btSD00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "茶星人",
+              "shop_no": "3樓 309A",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0uLuD00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "The Pit Juice",
+              "shop_no": "4樓 417",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0nV8600",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "1+2小廚",
+              "shop_no": "4樓 408",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0iLKD00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            }
+          ]
         },
         {
           "mall_name": "海怡廣場",
@@ -7457,7 +7912,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://zh.wikipedia.org/wiki/MCL"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "赤柱廣場",
@@ -8405,7 +8861,191 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.linkhk.com/en/shopCentre/splxc2"
-          }
+          },
+          "dining_offers": [
+            {
+              "restaurant_name": "鍾菜館",
+              "shop_no": "3樓 308",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0HoWC00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "Surf & Turf Grill and Bar",
+              "shop_no": "3樓 302",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS05v4C00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "Beef & Liberty",
+              "shop_no": "地下 G04",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0W3i700",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "Dough Bros Pizza & Doughnuts",
+              "shop_no": "地下 G08B",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS00wmB00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "杏花樓",
+              "shop_no": "1樓 102-103",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0LxqD00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "必勝客",
+              "shop_no": "1樓 101",
+              "title": "$50現金券(即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0cMmA00",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "麥當勞",
+              "shop_no": "地下 G03",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0MJe000",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "McCafe",
+              "shop_no": "地下 G03",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0Tgy0W0",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "散水餅",
+              "shop_no": "4樓 407",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0QdW200",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "星巴克咖啡",
+              "shop_no": "地下 G01",
+              "title": "【香港美心集團】$50現金券 (1套5張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS03fu100",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "Gino's Gelato",
+              "shop_no": "地下 G09",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0eKi000",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "星巴克咖啡",
+              "shop_no": "2樓 201",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0kcW000",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            },
+            {
+              "restaurant_name": "Saffron",
+              "shop_no": "1樓 102",
+              "title": "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+              "offer_type": "外賣折扣",
+              "discount_tag": "OpenRice 優惠",
+              "start_date": "2026-08-23",
+              "end_date": "2026-09-22",
+              "openrice_url": "https://s.openrice.com/QrbS0ham000",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-23"
+            }
+          ]
         },
         {
           "mall_name": "香港仔中心商場",
@@ -8616,7 +9256,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "http://www.aberdeencentre.com.hk/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -8755,7 +9396,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "http://www.taipoplaza.com.hk/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "大埔超級城",
@@ -8950,7 +9592,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://taipomegamall.shkp.com/information/%e6%8e%a8%e5%bb%a3%e6%b4%bb%e5%8b%95%e6%a2%9d%e6%ac%be%e5%8f%8a%e7%b4%b0%e5%89%87/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -9246,7 +9889,8 @@
             "is_allowed": true,
             "details": "暖濕紙巾供應 * 小童/嬰兒退熱貼供應 * 嬰兒食品及奶瓶加熱服務 * 熱水供應 前抱式嬰兒背帶 * 坐墊式嬰兒揹帶 * 寵物服務 寵物拾便袋 * 寵物飲水器 * 寵物尿墊 * 寵物袋 * 寵物洗腳劑 * 寵物消臭劑 * 狗帶 * 寵物碗 * 寵物濕紙巾 * 寵物雨衣 * 寵物車借用 * 男女洗手間 嬰兒護理間 家庭洗手間 傷健人士洗手間 電子商場指南 免費Wi（條款以官網為準）",
             "official_url": "https://www.vcity.com.hk/tch/services/services.jsp"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "屯門市廣場",
@@ -10181,7 +10825,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.tmtp.com.hk/en/ServicesNFacilities"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "屯門時代廣場",
@@ -10356,7 +11001,8 @@
             "is_allowed": false,
             "details": "室內商場不允許寵物（導盲犬除外）。條款以官網服務及設施頁為準。",
             "official_url": "https://timessquare.com.hk/service-and-facilities/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "錦薈坊",
@@ -10551,7 +11197,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.k-point.com.hk/sc/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -10749,7 +11396,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.northpointhoi.com.hk/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "太古城中心",
@@ -10990,7 +11638,8 @@
             "is_allowed": true,
             "details": "LIVE+ 寵物政策：寵物須置於寵物袋或推車，不可落地。條款以官網為準。",
             "official_url": "https://www.cityplaza.com/zh-hk/about-cityplaza/services"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "康怡廣場",
@@ -11206,7 +11855,8 @@
             "is_allowed": true,
             "details": "寵物須置於寵物袋或推車，不可落地。條款以官網為準。",
             "official_url": "https://www.hanglungmalls.com/kornhill-plaza/zh-hk/about-kornhill-plaza/services"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "杏花新城",
@@ -11340,7 +11990,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.paradise-mall.com.hk/tch/terms-of-use"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -11521,7 +12172,8 @@
             "is_allowed": true,
             "details": "* 即棄防溢母乳墊供應 嬰兒車借用* 熱水供應 奶瓶加熱服務* 母乳餵哺圍巾借用* 救傷服務 「心臟去顫器」急救設備 急救箱設備供應 寵物服務 寵物車借用 * 寵物食糧碗借用 * 寵物袋借用 * 免費寵物濕紙巾 * 寵物清潔劑 * 免費寵物垃圾袋 * 免費寵物尿片 * 寵物急救箱 免費寵物零食 * 寵物急救員 寵物繩借用 * 寵物廢物回收箱 寵物水杯借用 * 免費（條款以官網為準）",
             "official_url": "https://www.homesquare.com.hk/zh-hant/concierge"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "圍方 The Wai",
@@ -11835,7 +12487,8 @@
             "is_allowed": true,
             "details": "設寵物車借用、寵物友善升降機及寵物專用廁所等；須遵守商場設施使用規範。條款以官網為準。",
             "official_url": "https://www.thewaimall.com/tch/facilities-and-services"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "新城市廣場",
@@ -12305,7 +12958,8 @@
             "is_allowed": true,
             "details": "設 Pets Park／寵物同樂園；一期 L1 可牽繩步行，其他室內須手抱或置於寵物車／袋內。條款以官網為準。",
             "official_url": "https://www.newtownplaza.com.hk/zh-hant/pet-friendly/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "新港城中心 MOSTown",
@@ -12548,7 +13202,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.mostown.com.hk/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "沙田中心",
@@ -12685,7 +13340,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.shatinplazacentre.com.hk/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -12952,7 +13608,8 @@
             "is_allowed": true,
             "details": "室內須以寵物車、寵物袋或手抱方式；平台範圍可牽繩散步（≤1.5 米）。條款以 ELEMENTS 官網為準。",
             "official_url": "https://www.elementshk.com/tch/elements/promotions/petfriendly2024"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "K11 MUSEA",
@@ -13125,7 +13782,8 @@
             "is_allowed": true,
             "details": "KLUB 11 寵物友善商場；B1 禮賓處提供嬰兒及寵物推車借用，寵物須置於袋／推車內。條款以官網為準。",
             "official_url": "https://www.k11musea.com/zh-hk/visit/facilities-and-services/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "K11購物藝術館",
@@ -13252,7 +13910,8 @@
             "is_allowed": true,
             "details": "寵物須置於寵物袋或推車；不可落地。禮賓處設寵物推車借用。條款以 K11 官網為準。",
             "official_url": "https://hk.k11.com/zh-hk/visit/facilities-and-services"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "THE ONE",
@@ -13477,7 +14136,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.the-one.hk/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "奧海城",
@@ -14189,7 +14849,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.olympiancity.com.hk/en/ServicesNFacilities"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "朗豪坊",
@@ -14316,7 +14977,8 @@
             "is_allowed": false,
             "details": "禮賓處提供寵物車借用；一般室內商場規定請向商場查詢。條款以官網服務頁為準。",
             "official_url": "https://www.langhamplace.com.hk/visit-us/lp-services"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "海港城",
@@ -14676,7 +15338,8 @@
             "is_allowed": false,
             "details": "商場活動守則一般禁止攜帶寵物（導盲犬除外）；請向顧客服務處查詢最新規定。條款以官網為準。",
             "official_url": "https://www.harbourcity.com.hk/tc/explore-hc/services-facilities/concierge/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -14816,7 +15479,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.vwalk.com.hk/eng/services-facilities/index"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "昇悅商場",
@@ -14950,7 +15614,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.ckmalls.com.hk/eng/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "碧海藍天商場",
@@ -15084,7 +15749,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.aeonstores.com.hk/terms_of_use/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "西九龍中心",
@@ -15279,7 +15945,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://dragoncentre.com.hk/blogs/offers"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -15449,7 +16116,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.hysanplace.com.hk/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "利東街",
@@ -15678,7 +16346,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.leetungavenue.com.hk/en/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "合和中心",
@@ -15812,7 +16481,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.hopewellcentre.com/cn/index.htm"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "合和商場",
@@ -15947,7 +16617,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.hopewellhill.com.hk/terms-and-conditions"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "時代廣場",
@@ -16145,7 +16816,8 @@
             "is_allowed": false,
             "details": "室內商場不允許寵物（導盲犬除外）。條款以官網服務及設施頁為準。",
             "official_url": "https://timessquare.com.hk/service-and-facilities/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "皇室堡",
@@ -16325,7 +16997,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.windsorhouse.hk/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -16525,7 +17198,8 @@
             "is_allowed": true,
             "details": "設寵物友善設施；室內須以寵物袋或推車載運。詳情請向禮賓處查詢。條款以官網為準。",
             "official_url": "https://www.dpark.com.hk/services?lang=en"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "OP Mall 海之戀商場",
@@ -16716,7 +17390,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.ckah.com/zh-hant/reits"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "綠楊坊",
@@ -16853,7 +17528,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.lukyeunggalleria.com/tch/terms-of-use"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "荃新天地",
@@ -17484,7 +18160,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.citywalk.com.hk/en/ServicesNFacilities"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "荃灣廣場",
@@ -17676,7 +18353,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.tsuenwanplaza.com.hk/facilities-service/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -17922,7 +18600,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.metroplaza.com.hk/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "葵涌廣場",
@@ -18113,7 +18792,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": ""
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "青衣城",
@@ -18354,7 +19034,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.mtrmalls.com/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -18630,7 +19311,8 @@
             "is_allowed": false,
             "details": "PopCorn 1 允許符合規範的寵物進入；PopCorn 2 不允許攜帶寵物（導盲犬除外）。條款以 MTR 商場守則為準。",
             "official_url": "https://www.popcorntko.com.hk/tch/facilities-and-services"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "將軍澳中心 Park Central",
@@ -18792,7 +19474,8 @@
             "is_allowed": true,
             "details": "寵物須置於寵物袋或推車。條款以官網政策頁為準。",
             "official_url": "https://www.park-central.com.hk/tc-policy/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "新都城中心",
@@ -19071,7 +19754,8 @@
             "is_allowed": true,
             "details": "戶外平台歡迎寵物；室內須以寵物袋或推車載運。條款以官網服務頁及現場告示為準。",
             "official_url": "https://www.metrocity1.com/services/"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "東港城",
@@ -19266,7 +19950,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.eastpointcity.com.hk/policy-2/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -19395,7 +20080,8 @@
             "is_allowed": true,
             "details": "歡迎貓狗進場；室內及室外（L4 寵物樂園除外）須置於寵物車或寵物袋並扣好布篷。條款以官網為準。",
             "official_url": "https://www.megabox.com.hk/page.php?lang=tchi&page_id=256"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "apm",
@@ -19616,7 +20302,8 @@
             "is_allowed": true,
             "details": "新地商場寵物政策：寵物須全程置於寵物袋或推車，不可落地。條款以新地顧客服務頁為準。",
             "official_url": "https://www.shkp.com/zh-HK/our-business/hong-kong-properties/shopping-mall/customer-care-service"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "德福廣場",
@@ -19867,7 +20554,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.telford-plaza.com/tch/terms-of-use"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -20129,7 +20817,8 @@
             "is_allowed": true,
             "details": "Discovery Bay Pet-friendly Merchants | What's Hot | Visit Discovery Bay TOP 繁 简 Home The Destination The Destination（條款以官網為準）",
             "official_url": "https://www.visitdiscoverybay.com/en/whats-hot-event/147"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "愉景灣廣場 DB Plaza",
@@ -20266,7 +20955,8 @@
             "is_allowed": true,
             "details": "Discovery Bay Pet-friendly Merchants | What's Hot | Visit Discovery Bay TOP 繁 简 Home The Destination The Destination（條款以官網為準）",
             "official_url": "https://www.visitdiscoverybay.com/en/whats-hot-event/147"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "東薈城名店倉",
@@ -20429,7 +21119,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.citygateoutlets.com.hk/en/visit/get-here/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     },
@@ -20725,7 +21416,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.plazahollywood.com.hk/tc/VIC"
-          }
+          },
+          "dining_offers": []
         },
         {
           "mall_name": "黃大仙中心",
@@ -21204,7 +21896,8 @@
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
             "official_url": "https://www.linkhk.com/tc/home/"
-          }
+          },
+          "dining_offers": []
         }
       ]
     }
@@ -21242,5 +21935,7 @@
       "home": "https://www.langhamplace.com.hk/",
       "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
     }
-  }
+  },
+  "openrice_sync_at": "2026-08-23T22:18:00.724645+08:00",
+  "openrice_sync_date": "2026-08-23"
 }
