@@ -348,16 +348,6 @@
       }
 
 
-      .bank-filter-chip[aria-pressed="true"] {
-        background: #172033;
-        color: #fff;
-        border-color: #172033;
-      }
-      .bank-filter-chip {
-        border: 1px solid #e2e8f0;
-      }
-
-
       .lbs-distance-badge {
         display: inline-flex;
         align-items: center;
@@ -500,41 +490,6 @@
               </div>
               <p class="hotel-only-hint mt-3 hidden text-xs text-slate-500" id="hotel-channel-hint">顯示全港 4–5 星級酒店進行中／即將開始的著數；無有效優惠的酒店會自動隱藏。</p>
             </div>
-            <div class="mall-filters-panel mt-6 border-t border-slate-100 pt-5" id="mall-filters-panel">
-              <p class="text-xs font-bold text-slate-500">業態分類</p>
-              <div id="vertical-filters" class="mt-2 flex flex-wrap gap-2">
-                <button type="button" class="district-tag" data-vertical="全部" aria-pressed="true">全部業態</button>
-                <button type="button" class="district-tag" data-vertical="Dining" aria-pressed="false">餐飲</button>
-                <button type="button" class="district-tag" data-vertical="Retail" aria-pressed="false">零售</button>
-                <button type="button" class="district-tag" data-vertical="Entertainment" aria-pressed="false">娛樂</button>
-                <button type="button" class="district-tag" data-vertical="Services" aria-pressed="false">服務</button>
-                <button type="button" class="district-tag" data-vertical="Other" aria-pressed="false">其他</button>
-              </div>
-              <p class="mt-4 text-xs font-bold text-slate-500">優惠標籤</p>
-              <div id="tag-filters" class="mt-2 flex flex-wrap gap-2">
-                <button type="button" class="district-tag" data-tag="全部" aria-pressed="true">全部標籤</button>
-                <button type="button" class="district-tag" data-tag="Parking" aria-pressed="false">泊車</button>
-                <button type="button" class="district-tag" data-tag="CreditCard" aria-pressed="false">信用卡</button>
-                <button type="button" class="district-tag" data-tag="AfternoonTea" aria-pressed="false">下午茶</button>
-                <button type="button" class="district-tag" data-tag="Member" aria-pressed="false">會員</button>
-                <button type="button" class="district-tag" data-tag="Takeaway" aria-pressed="false">外賣</button>
-                <button type="button" class="district-tag" data-tag="Birthday" aria-pressed="false">生日</button>
-                <button type="button" class="district-tag" data-tag="FreeGift" aria-pressed="false">贈品換領</button>
-              </div>
-            </div>
-
-            <div class="mt-6 border-t border-slate-100 pt-5" id="bank-filters-panel">
-              <p class="text-xs font-bold text-slate-500">💳 我的信用卡</p>
-              <div id="bank-filters" class="mt-2 flex flex-wrap gap-2" role="group" aria-label="信用卡篩選">
-                <button type="button" class="district-tag bank-filter-chip" data-bank="全部" aria-pressed="true">全部</button>
-                <button type="button" class="district-tag bank-filter-chip" data-bank="HSBC" aria-pressed="false">匯豐 HSBC</button>
-                <button type="button" class="district-tag bank-filter-chip" data-bank="SCB" aria-pressed="false">渣打 SCB</button>
-                <button type="button" class="district-tag bank-filter-chip" data-bank="BOC" aria-pressed="false">中銀 BOC</button>
-                <button type="button" class="district-tag bank-filter-chip" data-bank="HangSeng" aria-pressed="false">恒生</button>
-                <button type="button" class="district-tag bank-filter-chip" data-bank="DBS" aria-pressed="false">DBS</button>
-              </div>
-              <p class="mt-2 text-xs text-slate-500">可多選；僅顯示／地圖高亮帶有對應銀行標籤的商場與酒店優惠。</p>
-            </div>
 
             <div class="mt-6 border-t border-slate-100 pt-5" id="parking-filters-panel">
               <p class="text-xs font-bold text-slate-500">🅿️ 泊車著數</p>
@@ -551,14 +506,6 @@
                 <button type="button" id="lbs-clear-btn" class="district-tag" data-lbs="clear" aria-pressed="false">預設排序</button>
               </div>
               <p id="lbs-status" class="lbs-status" aria-live="polite">開啟定位後，卡片顯示「距您 Xm」並由近至遠排序。</p>
-            </div>
-            <div class="mt-6 border-t border-slate-100 pt-5" id="lifecycle-filters-panel">
-              <p class="text-xs font-bold text-slate-500">優惠時段</p>
-              <div id="lifecycle-filters" class="mt-2 flex flex-wrap gap-2">
-                <button type="button" class="district-tag" data-lifecycle="全部" aria-pressed="true">全部時段</button>
-                <button type="button" class="district-tag" data-lifecycle="upcoming" aria-pressed="false">🔥 3天內即將開始</button>
-                <button type="button" class="district-tag" data-lifecycle="active" aria-pressed="false">🟢 今日進行中</button>
-              </div>
             </div>
             </div>
           </div>
@@ -607,10 +554,6 @@
         hotels: [],
         selectedDistrict: "全部",
         selectedChannel: "全部",
-        selectedVertical: "全部",
-        selectedTag: "全部",
-        selectedLifecycle: "全部",
-        selectedBanks: [],
         filterFreeParking: false,
         expandedMalls: new Set(),
         expandedHotels: new Set(),
@@ -632,17 +575,12 @@
       const navButtons = document.querySelectorAll("[data-view]");
       const mallList = document.querySelector("#mall-list");
       const districtTags = document.querySelector("#district-tags");
-      const verticalFilters = document.querySelector("#vertical-filters");
-      const tagFilters = document.querySelector("#tag-filters");
-      const lifecycleFilters = document.querySelector("#lifecycle-filters");
-      const bankFilters = document.querySelector("#bank-filters");
       const parkingFreeBtn = document.querySelector("#parking-free-btn");
       const parkingFiltersPanel = document.querySelector("#parking-filters-panel");
       const lbsSortBtn = document.querySelector("#lbs-sort-btn");
       const lbsClearBtn = document.querySelector("#lbs-clear-btn");
       const lbsStatus = document.querySelector("#lbs-status");
       const channelFilters = document.querySelector("#channel-filters");
-      const mallFiltersPanel = document.querySelector("#mall-filters-panel");
       const hotelChannelHint = document.querySelector("#hotel-channel-hint");
       const districtSummary = document.querySelector("#district-summary");
       const listExplore = document.querySelector("#list-explore");
@@ -700,7 +638,7 @@
       function formatDate(value) { return localDate(value).toLocaleDateString("zh-HK", { month: "numeric", day: "numeric" }); }
       function getVisibleDistricts() { return state.selectedDistrict === "全部" ? state.districts : state.districts.filter(({ district }) => district === state.selectedDistrict); }
       function currentViewMode() {
-        return state.selectedLifecycle;
+        return "全部";
       }
       function displayStatusForCard(offer, groupStatus) {
         const mode = currentViewMode();
@@ -807,32 +745,7 @@
         };
       }
 
-      function selectedBankSet() {
-        return new Set((state.selectedBanks || []).map((b) => String(b).toUpperCase()));
-      }
-      function offerBankTags(offer) {
-        const tags = Array.isArray(offer && offer.bank_tags) ? offer.bank_tags : [];
-        return tags.map((t) => String(t).trim().toUpperCase()).filter(Boolean);
-      }
-      function offerMatchesBanks(offer) {
-        const selected = selectedBankSet();
-        if (!selected.size) return true;
-        const tags = offerBankTags(offer);
-        if (!tags.length) return false;
-        return tags.some((t) => selected.has(t) || (t === "BOCA" && selected.has("BOC")));
-      }
-      function matchesBaseFilters(offer) {
-        if (offer.type === "fallback") {
-          return (
-            state.selectedVertical === "全部"
-            && state.selectedTag === "全部"
-            && state.selectedLifecycle === "全部"
-            && !(state.selectedBanks && state.selectedBanks.length)
-          );
-        }
-        if (state.selectedVertical !== "全部" && offer.vertical_category !== state.selectedVertical) return false;
-        if (state.selectedTag !== "全部" && !(Array.isArray(offer.tags) && offer.tags.includes(state.selectedTag))) return false;
-        if (!offerMatchesBanks(offer)) return false;
+      function matchesBaseFilters(_offer) {
         return true;
       }
       function isolateOffersForCurrentView(offers) {
@@ -979,8 +892,7 @@
         return `<br><span style="font-size:12px;color:#1d4ed8;font-weight:700">🅿️ 泊車優惠：${escapeHtml(details.free_parking_threshold)}</span>`;
       }
       function selectedBankFilter() {
-        const banks = Array.isArray(state.selectedBanks) ? state.selectedBanks : [];
-        return banks.length ? banks.join(",") : "全部";
+        return "全部";
       }
       const PLATFORM_HOME = {
         kkday: "https://www.kkday.com/zh-hk",
@@ -1404,7 +1316,6 @@ function hotelCard(hotel) {
       }
       function syncChannelChrome() {
         const channel = state.selectedChannel;
-        if (mallFiltersPanel) mallFiltersPanel.hidden = channel === "hotels" || channel === "map";
         if (parkingFiltersPanel) parkingFiltersPanel.hidden = channel === "hotels";
         if (hotelChannelHint) hotelChannelHint.classList.toggle("hidden", channel !== "hotels");
         if (listExplore) listExplore.classList.toggle("hidden", channel === "map");
@@ -1437,10 +1348,7 @@ function hotelCard(hotel) {
         if (lifecycle === "active") summaryLabel = activeLabel;
         else if (lifecycle === "upcoming") summaryLabel = upcomingLabel;
 
-        const filtersOn = state.selectedVertical !== "全部" || state.selectedTag !== "全部" || lifecycle !== "全部" || (state.selectedBanks && state.selectedBanks.length > 0);
-        if (filtersOn && !mallOffers.length && !storeOffers.length) return "";
-        if (lifecycle === "upcoming" && upcomingCount === 0) return "";
-        if (lifecycle === "active" && activeCount === 0) return "";
+        if (!mallOffers.length && !storeOffers.length) return "";
         // Neutral chrome for 全部時段; single-status tabs keep their theme.
         const storeSectionTone = lifecycle === "upcoming"
           ? "border-amber-200 bg-amber-50"
@@ -1482,8 +1390,7 @@ function hotelCard(hotel) {
               const rawStoreOffers = (mall.store_offers || []).filter((offer) => ["active", "upcoming"].includes(offerStatus(offer)));
               const mallOffers = isolateOffersForCurrentView(rawMallOffers);
               const storeOffers = isolateOffersForCurrentView(rawStoreOffers);
-              const filtersOn = state.selectedVertical !== "全部" || state.selectedTag !== "全部" || currentViewMode() !== "全部" || (state.selectedBanks && state.selectedBanks.length > 0);
-              if (filtersOn && !mallOffers.length && !storeOffers.length) return;
+              if (!mallOffers.length && !storeOffers.length) return;
               const key = mallPlaceKey(district.district, mall.mall_name);
               places.push({
                 kind: "mall",
@@ -1829,17 +1736,6 @@ function hotelCard(hotel) {
         }
         mallList.innerHTML = cards.join("");
       }
-      function bindExclusiveFilters(root, attr, stateKey) {
-        if (!root) return;
-        root.addEventListener("click", (event) => {
-          const button = event.target.closest(`[${attr}]`);
-          if (!button) return;
-          state[stateKey] = button.getAttribute(attr);
-          state.expandedMalls.clear();
-          root.querySelectorAll(`[${attr}]`).forEach((tag) => tag.setAttribute("aria-pressed", String(tag === button)));
-          render();
-        });
-      }
       districtTags.addEventListener("click", (event) => {
         const button = event.target.closest("[data-district]");
         if (!button) return;
@@ -1848,9 +1744,6 @@ function hotelCard(hotel) {
         districtTags.querySelectorAll("[data-district]").forEach((tag) => tag.setAttribute("aria-pressed", String(tag === button)));
         render();
       });
-      bindExclusiveFilters(verticalFilters, "data-vertical", "selectedVertical");
-      bindExclusiveFilters(tagFilters, "data-tag", "selectedTag");
-      bindExclusiveFilters(lifecycleFilters, "data-lifecycle", "selectedLifecycle");
 
       if (lbsSortBtn) {
         lbsSortBtn.addEventListener("click", () => {
@@ -1874,31 +1767,6 @@ function hotelCard(hotel) {
         });
       }
 
-
-      if (bankFilters) {
-        bankFilters.addEventListener("click", (event) => {
-          const button = event.target.closest("[data-bank]");
-          if (!button) return;
-          const bank = button.dataset.bank;
-          if (bank === "全部") {
-            state.selectedBanks = [];
-          } else {
-            const set = new Set(state.selectedBanks || []);
-            const key = String(bank);
-            if (set.has(key)) set.delete(key);
-            else set.add(key);
-            state.selectedBanks = [...set];
-          }
-          state.expandedMalls.clear();
-          state.expandedHotels.clear();
-          bankFilters.querySelectorAll("[data-bank]").forEach((tag) => {
-            const b = tag.dataset.bank;
-            const pressed = b === "全部" ? state.selectedBanks.length === 0 : state.selectedBanks.includes(b);
-            tag.setAttribute("aria-pressed", String(pressed));
-          });
-          render();
-        });
-      }
 
       if (placeDrawerClose) placeDrawerClose.addEventListener("click", () => closePlaceDrawer());
       if (placeDrawerBackdrop) placeDrawerBackdrop.addEventListener("click", () => closePlaceDrawer());
