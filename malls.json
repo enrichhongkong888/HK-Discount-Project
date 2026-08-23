@@ -335,7 +335,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.shuntakgroup.com/"
+            "official_url": "https://www.shuntakgroup.com/en/search"
           }
         },
         {
@@ -622,9 +622,9 @@
             "ev_details": "提供 7kW 中充及 50kW 快充位"
           },
           "pet_friendly": {
-            "is_allowed": false,
-            "details": "商場內不允許攜帶寵物（導盲犬除外）。條款以 ifc mall 官網為準。",
-            "official_url": "https://www.ifcmall.com.hk/"
+            "is_allowed": true,
+            "details": "家養貓狗可進入；室內須手抱或置於寵物手推車／攜帶包內。條款以 ifc mall 寵物政策頁為準。",
+            "official_url": "https://ifc.com.hk/tc/mall/pet-policy/"
           }
         },
         {
@@ -928,8 +928,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "above 會員商場：寵物須置於寵物袋或推車，不可落地。條款以官網為準。",
-            "official_url": "https://www.pacificplace.com.hk/zh-hk"
+            "details": "L1／L2 禮賓處提供寵物車借用（按金 HK$500）；寵物須置於寵物袋或推車，不可落地。條款以官網為準。",
+            "official_url": "https://www.pacificplace.com.hk/zh-hk/services"
           }
         },
         {
@@ -1247,8 +1247,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "寵物友善商場；寵物須置於袋／推車。條款以官網為準。",
-            "official_url": "https://www.airside.com.hk/"
+            "details": "設寵物共融區及借用服務；室內須以寵物袋或推車載運、不落地。條款以官網「寵物友善」專頁為準。",
+            "official_url": "https://www.airside.com.hk/zh-hk/visit/pet-friendly-paradise"
           }
         },
         {
@@ -1530,9 +1530,9 @@
             "ev_details": "提供 7kW 中充及 50kW 快充位"
           },
           "pet_friendly": {
-            "is_allowed": false,
-            "details": "商場內不允許攜帶寵物（導盲犬除外）。條款以又一城官網為準。",
-            "official_url": "https://www.festivalwalk.com.hk/"
+            "is_allowed": true,
+            "details": "歡迎攜同毛孩到訪；LG2 顧客服務處提供寵物車及寵物墊借用。條款以官網 Welcome Pets 頁為準。",
+            "official_url": "https://www.festivalwalk.com.hk/zh-hk/happenings/welcome-pets"
           }
         },
         {
@@ -3369,7 +3369,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.thewhampoa.com/"
+            "official_url": "https://www.thewhampoa.com//"
           }
         }
       ]
@@ -4102,7 +4102,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.linkreit.com/en/business/properties/t-town/"
+            "official_url": "https://www.linkreit.com/en/terms-of-use-and-disclaimer/"
           }
         },
         {
@@ -4882,8 +4882,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "歡迎寵物進場；須使用寵物袋或推車，不可落地。條款以官網為準。",
-            "official_url": "https://www.yohomall.com/"
+            "details": "官網提供寵物手推車、寵物袋、牽引繩等借用服務；須遵守商場寵物進出規範。條款以官網為準。",
+            "official_url": "https://www.yohomall.hk/zh-hk/about"
           }
         },
         {
@@ -5015,7 +5015,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.yuenlongplaza.com/"
+            "official_url": "https://www.yuenlongplaza.com/information/%e6%8e%a8%e5%bb%a3%e6%b4%bb%e5%8b%95%e6%a2%9d%e6%ac%be%e5%8f%8a%e7%b4%b0%e5%89%87/"
           }
         }
       ]
@@ -6084,7 +6084,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.fanlingcentre.com.hk/html/"
+            "official_url": "https://www.fanlingcentre.com.hk/html/promotion/guidelines-for-pet-owners"
           }
         }
       ]
@@ -7242,9 +7242,9 @@
             "ev_details": "請向商場查詢 EV 充電設施"
           },
           "pet_friendly": {
-            "is_allowed": null,
-            "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://arcade.cyberport.hk/"
+            "is_allowed": true,
+            "details": "ect spot for a day out with your beloved pets! Arcade@Cyberport is officially opened as a pet-friendly shopping mall. Along with the outdoor lawn podium (The Podium) and Waterfront Park, Arcad（條款以官網為準）",
+            "official_url": "https://arcade.cyberport.hk/petfriendly"
           }
         },
         {
@@ -7456,7 +7456,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E6%80%A1%E5%BB%A3%E5%A0%B4_(%E8%A5%BF%E7%BF%BC)"
+            "official_url": "https://zh.wikipedia.org/wiki/MCL"
           }
         },
         {
@@ -8949,7 +8949,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://taipomegamall.shkp.com/"
+            "official_url": "https://taipomegamall.shkp.com/information/%e6%8e%a8%e5%bb%a3%e6%b4%bb%e5%8b%95%e6%a2%9d%e6%ac%be%e5%8f%8a%e7%b4%b0%e5%89%87/"
           }
         }
       ]
@@ -9243,9 +9243,9 @@
             "ev_details": "請向商場查詢 EV 充電設施"
           },
           "pet_friendly": {
-            "is_allowed": null,
-            "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.vcity.com.hk/tch/main/index.do"
+            "is_allowed": true,
+            "details": "暖濕紙巾供應 * 小童/嬰兒退熱貼供應 * 嬰兒食品及奶瓶加熱服務 * 熱水供應 前抱式嬰兒背帶 * 坐墊式嬰兒揹帶 * 寵物服務 寵物拾便袋 * 寵物飲水器 * 寵物尿墊 * 寵物袋 * 寵物洗腳劑 * 寵物消臭劑 * 狗帶 * 寵物碗 * 寵物濕紙巾 * 寵物雨衣 * 寵物車借用 * 男女洗手間 嬰兒護理間 家庭洗手間 傷健人士洗手間 電子商場指南 免費Wi（條款以官網為準）",
+            "official_url": "https://www.vcity.com.hk/tch/services/services.jsp"
           }
         },
         {
@@ -10180,7 +10180,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.tmtp.com.hk/en"
+            "official_url": "https://www.tmtp.com.hk/en/ServicesNFacilities"
           }
         },
         {
@@ -10354,8 +10354,8 @@
           },
           "pet_friendly": {
             "is_allowed": false,
-            "details": "室內商場不允許寵物（導盲犬除外）。條款以官網為準。",
-            "official_url": "https://www.timessquare.com.hk/"
+            "details": "室內商場不允許寵物（導盲犬除外）。條款以官網服務及設施頁為準。",
+            "official_url": "https://timessquare.com.hk/service-and-facilities/"
           }
         },
         {
@@ -10550,7 +10550,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.k-point.com.hk/"
+            "official_url": "https://www.k-point.com.hk/sc/"
           }
         }
       ]
@@ -10989,7 +10989,7 @@
           "pet_friendly": {
             "is_allowed": true,
             "details": "LIVE+ 寵物政策：寵物須置於寵物袋或推車，不可落地。條款以官網為準。",
-            "official_url": "https://www.cityplaza.com/zh-hk"
+            "official_url": "https://www.cityplaza.com/zh-hk/about-cityplaza/services"
           }
         },
         {
@@ -11205,7 +11205,7 @@
           "pet_friendly": {
             "is_allowed": true,
             "details": "寵物須置於寵物袋或推車，不可落地。條款以官網為準。",
-            "official_url": "https://www.cityplaza.com/zh-hk"
+            "official_url": "https://www.hanglungmalls.com/kornhill-plaza/zh-hk/about-kornhill-plaza/services"
           }
         },
         {
@@ -11339,7 +11339,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.paradise-mall.com.hk/tch"
+            "official_url": "https://www.paradise-mall.com.hk/tch/terms-of-use"
           }
         }
       ]
@@ -11518,9 +11518,9 @@
             "ev_details": "請向商場查詢 EV 充電設施"
           },
           "pet_friendly": {
-            "is_allowed": null,
-            "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.homesquare.com.hk/"
+            "is_allowed": true,
+            "details": "* 即棄防溢母乳墊供應 嬰兒車借用* 熱水供應 奶瓶加熱服務* 母乳餵哺圍巾借用* 救傷服務 「心臟去顫器」急救設備 急救箱設備供應 寵物服務 寵物車借用 * 寵物食糧碗借用 * 寵物袋借用 * 免費寵物濕紙巾 * 寵物清潔劑 * 免費寵物垃圾袋 * 免費寵物尿片 * 寵物急救箱 免費寵物零食 * 寵物急救員 寵物繩借用 * 寵物廢物回收箱 寵物水杯借用 * 免費（條款以官網為準）",
+            "official_url": "https://www.homesquare.com.hk/zh-hant/concierge"
           }
         },
         {
@@ -11833,8 +11833,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "寵物友善商場；寵物須置於袋／推車。條款以官網為準。",
-            "official_url": "https://www.the-wai.com/"
+            "details": "設寵物車借用、寵物友善升降機及寵物專用廁所等；須遵守商場設施使用規範。條款以官網為準。",
+            "official_url": "https://www.thewaimall.com/tch/facilities-and-services"
           }
         },
         {
@@ -12303,8 +12303,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "設戶外 Pets Park／毛孩活動區；室內須以寵物袋或推車載運、不落地。條款以官網為準。",
-            "official_url": "https://www.newtownplaza.com.hk/"
+            "details": "設 Pets Park／寵物同樂園；一期 L1 可牽繩步行，其他室內須手抱或置於寵物車／袋內。條款以官網為準。",
+            "official_url": "https://www.newtownplaza.com.hk/zh-hant/pet-friendly/"
           }
         },
         {
@@ -12950,8 +12950,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "寵物須置於寵物袋或推車，不可落地。條款以 ELEMENTS 官網為準。",
-            "official_url": "https://www.elementshk.com/"
+            "details": "室內須以寵物車、寵物袋或手抱方式；平台範圍可牽繩散步（≤1.5 米）。條款以 ELEMENTS 官網為準。",
+            "official_url": "https://www.elementshk.com/tch/elements/promotions/petfriendly2024"
           }
         },
         {
@@ -13123,8 +13123,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "KLUB 11 寵物友善商場；寵物須置於袋／推車內。條款以官網為準。",
-            "official_url": "https://www.k11musea.com/"
+            "details": "KLUB 11 寵物友善商場；B1 禮賓處提供嬰兒及寵物推車借用，寵物須置於袋／推車內。條款以官網為準。",
+            "official_url": "https://www.k11musea.com/zh-hk/visit/facilities-and-services/"
           }
         },
         {
@@ -13249,9 +13249,9 @@
             "ev_details": "請向商場查詢 EV 充電設施"
           },
           "pet_friendly": {
-            "is_allowed": null,
-            "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://hk.k11.com/"
+            "is_allowed": true,
+            "details": "寵物須置於寵物袋或推車；不可落地。禮賓處設寵物推車借用。條款以 K11 官網為準。",
+            "official_url": "https://hk.k11.com/zh-hk/visit/facilities-and-services"
           }
         },
         {
@@ -14188,7 +14188,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.olympiancity.com.hk/en"
+            "official_url": "https://www.olympiancity.com.hk/en/ServicesNFacilities"
           }
         },
         {
@@ -14314,8 +14314,8 @@
           },
           "pet_friendly": {
             "is_allowed": false,
-            "details": "商場內不允許攜帶寵物（導盲犬除外）。條款以朗豪坊官網為準。",
-            "official_url": "https://www.langhamplace.com.hk/"
+            "details": "禮賓處提供寵物車借用；一般室內商場規定請向商場查詢。條款以官網服務頁為準。",
+            "official_url": "https://www.langhamplace.com.hk/visit-us/lp-services"
           }
         },
         {
@@ -14674,8 +14674,8 @@
           },
           "pet_friendly": {
             "is_allowed": false,
-            "details": "商場內不允許攜帶寵物（導盲犬除外）。條款以海港城官網為準。",
-            "official_url": "https://www.harbourcity.com.hk/"
+            "details": "商場活動守則一般禁止攜帶寵物（導盲犬除外）；請向顧客服務處查詢最新規定。條款以官網為準。",
+            "official_url": "https://www.harbourcity.com.hk/tc/explore-hc/services-facilities/concierge/"
           }
         }
       ]
@@ -14815,7 +14815,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.vwalk.com.hk/eng/"
+            "official_url": "https://www.vwalk.com.hk/eng/services-facilities/index"
           }
         },
         {
@@ -14949,7 +14949,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.ckmalls.com.hk/eng/promotion/?id=4"
+            "official_url": "https://www.ckmalls.com.hk/eng/"
           }
         },
         {
@@ -15083,7 +15083,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.aeonstores.com.hk/shop_info/detail?id=124"
+            "official_url": "https://www.aeonstores.com.hk/terms_of_use/"
           }
         },
         {
@@ -15278,7 +15278,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://dragoncentre.com.hk/"
+            "official_url": "https://dragoncentre.com.hk/blogs/offers"
           }
         }
       ]
@@ -15811,7 +15811,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.hopewellcentre.com/eng/index.htm"
+            "official_url": "https://www.hopewellcentre.com/cn/index.htm"
           }
         },
         {
@@ -15946,7 +15946,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.hopewellhill.com.hk/"
+            "official_url": "https://www.hopewellhill.com.hk/terms-and-conditions"
           }
         },
         {
@@ -16143,8 +16143,8 @@
           },
           "pet_friendly": {
             "is_allowed": false,
-            "details": "室內商場不允許寵物（導盲犬除外）。條款以官網為準。",
-            "official_url": "https://www.timessquare.com.hk/"
+            "details": "室內商場不允許寵物（導盲犬除外）。條款以官網服務及設施頁為準。",
+            "official_url": "https://timessquare.com.hk/service-and-facilities/"
           }
         },
         {
@@ -16523,8 +16523,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "設寵物友善設施；室內須以寵物袋或推車載運。條款以官網為準。",
-            "official_url": "https://www.dpark.com.hk/"
+            "details": "設寵物友善設施；室內須以寵物袋或推車載運。詳情請向禮賓處查詢。條款以官網為準。",
+            "official_url": "https://www.dpark.com.hk/services?lang=en"
           }
         },
         {
@@ -16715,7 +16715,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.ckah.com/zh-hant/hong-kong-properties/leasing/817"
+            "official_url": "https://www.ckah.com/zh-hant/reits"
           }
         },
         {
@@ -16852,7 +16852,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.lukyeunggalleria.com/tch"
+            "official_url": "https://www.lukyeunggalleria.com/tch/terms-of-use"
           }
         },
         {
@@ -17483,7 +17483,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.citywalk.com.hk/en"
+            "official_url": "https://www.citywalk.com.hk/en/ServicesNFacilities"
           }
         },
         {
@@ -17675,7 +17675,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.tsuenwanplaza.com.hk/"
+            "official_url": "https://www.tsuenwanplaza.com.hk/facilities-service/"
           }
         }
       ]
@@ -18628,8 +18628,8 @@
           },
           "pet_friendly": {
             "is_allowed": false,
-            "details": "一般情況下不歡迎寵物（導盲犬除外）。條款以 MTR 商場守則為準。",
-            "official_url": "https://www.popcornmall.com.hk/"
+            "details": "PopCorn 1 允許符合規範的寵物進入；PopCorn 2 不允許攜帶寵物（導盲犬除外）。條款以 MTR 商場守則為準。",
+            "official_url": "https://www.popcorntko.com.hk/tch/facilities-and-services"
           }
         },
         {
@@ -18790,8 +18790,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "寵物須置於寵物袋或推車。條款以官網為準。",
-            "official_url": "https://www.parkcentral.com.hk/"
+            "details": "寵物須置於寵物袋或推車。條款以官網政策頁為準。",
+            "official_url": "https://www.park-central.com.hk/tc-policy/"
           }
         },
         {
@@ -19069,8 +19069,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "戶外平台歡迎寵物；室內須以寵物袋或推車載運。條款以官網為準。",
-            "official_url": "https://www.metrocity.com.hk/"
+            "details": "戶外平台歡迎寵物；室內須以寵物袋或推車載運。條款以官網服務頁及現場告示為準。",
+            "official_url": "https://www.metrocity1.com/services/"
           }
         },
         {
@@ -19265,7 +19265,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.eastpointcity.com.hk/"
+            "official_url": "https://www.eastpointcity.com.hk/policy-2/"
           }
         }
       ]
@@ -19393,8 +19393,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "歡迎寵物進場；須置於寵物袋或推車，不可落地。條款以官網為準。",
-            "official_url": "https://www.megabox.com.hk/"
+            "details": "歡迎貓狗進場；室內及室外（L4 寵物樂園除外）須置於寵物車或寵物袋並扣好布篷。條款以官網為準。",
+            "official_url": "https://www.megabox.com.hk/page.php?lang=tchi&page_id=256"
           }
         },
         {
@@ -19614,8 +19614,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "新地商場寵物政策：寵物須全程置於寵物袋或推車，不可落地。條款以官網為準。",
-            "official_url": "https://www.hkmalls.com/"
+            "details": "新地商場寵物政策：寵物須全程置於寵物袋或推車，不可落地。條款以新地顧客服務頁為準。",
+            "official_url": "https://www.shkp.com/zh-HK/our-business/hong-kong-properties/shopping-mall/customer-care-service"
           }
         },
         {
@@ -19866,7 +19866,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.telford-plaza.com/tch"
+            "official_url": "https://www.telford-plaza.com/tch/terms-of-use"
           }
         }
       ]
@@ -20127,8 +20127,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "2026.12.13 The KMB Pet Bus has arrived in Discovery Bay! 2026.2.9 2026.9.30 Discovery Bay Pet-friendly Merchants Spend & Ride Offer Discovery Bay \"Nature Guidebook 2.0\" is launched HK$50/HK$10（條款以官網為準）",
-            "official_url": "https://www.visitdiscoverybay.com/en/whats-hot-event/178"
+            "details": "Discovery Bay Pet-friendly Merchants | What's Hot | Visit Discovery Bay TOP 繁 简 Home The Destination The Destination（條款以官網為準）",
+            "official_url": "https://www.visitdiscoverybay.com/en/whats-hot-event/147"
           }
         },
         {
@@ -20264,8 +20264,8 @@
           },
           "pet_friendly": {
             "is_allowed": true,
-            "details": "2026.12.13 The KMB Pet Bus has arrived in Discovery Bay! 2026.2.9 2026.9.30 Discovery Bay Pet-friendly Merchants Spend & Ride Offer Discovery Bay \"Nature Guidebook 2.0\" is launched HK$50/HK$10（條款以官網為準）",
-            "official_url": "https://www.visitdiscoverybay.com/en/whats-hot-event/178"
+            "details": "Discovery Bay Pet-friendly Merchants | What's Hot | Visit Discovery Bay TOP 繁 简 Home The Destination The Destination（條款以官網為準）",
+            "official_url": "https://www.visitdiscoverybay.com/en/whats-hot-event/147"
           }
         },
         {
@@ -20428,7 +20428,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.citygateoutlets.com.hk/en/"
+            "official_url": "https://www.citygateoutlets.com.hk/en/visit/get-here/"
           }
         }
       ]
@@ -20724,7 +20724,7 @@
           "pet_friendly": {
             "is_allowed": null,
             "details": "待官網確認；請參閱官方網站最新寵物進出規範。",
-            "official_url": "https://www.plazahollywood.com.hk/tc/index"
+            "official_url": "https://www.plazahollywood.com.hk/tc/VIC"
           }
         },
         {
