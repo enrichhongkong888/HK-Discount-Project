@@ -246,6 +246,33 @@
         background: #2563eb;
         color: #fff;
       }
+      .pet-friendly-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        border-radius: 9999px;
+        background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+        color: #fff;
+        padding: 0.25rem 0.65rem;
+        font-size: 0.7rem;
+        font-weight: 800;
+        box-shadow: 0 4px 12px rgba(217, 119, 6, 0.28);
+        cursor: help;
+      }
+      .pet-friendly-block {
+        border: 1px solid #fcd34d;
+        background: linear-gradient(180deg, #fffbeb 0%, #fef3c7 100%);
+      }
+      .pet-friendly-block a {
+        color: #b45309;
+        font-weight: 800;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      #channel-filters [data-channel="pets"][aria-pressed="true"] {
+        background: #d97706;
+        color: #fff;
+      }
 
       .map-layout {
         position: relative;
@@ -491,6 +518,7 @@
                 <button type="button" class="district-tag" data-channel="malls" aria-pressed="false">🛍️ 商場門市</button>
                 <button type="button" class="district-tag" data-channel="hotels" aria-pressed="false">🏨 酒店優惠</button>
                 <button type="button" class="district-tag" data-channel="parking" aria-pressed="false">🅿️ 免費泊車</button>
+                <button type="button" class="district-tag" data-channel="pets" aria-pressed="false">🐾 寵物友好</button>
                 <button type="button" class="district-tag" data-channel="map" aria-pressed="false">🗺️ 地圖導覽</button>
               </div>
               <p class="hotel-only-hint mt-3 hidden text-xs text-slate-500" id="hotel-channel-hint">顯示全港 4–5 星級酒店進行中／即將開始的著數；無有效優惠的酒店會自動隱藏。</p>
@@ -761,6 +789,10 @@
           if (kind === "hotel") return false;
           if (context.mall && !mallHasFreeParking(context.mall)) return false;
         }
+        if (channel === "pets") {
+          const place = kind === "hotel" ? context.hotel : context.mall;
+          if (!isPetFriendlyAllowed(place)) return false;
+        }
 
         // sortByProximity affects ordering only — never excludes places/offers.
         return true;
@@ -908,6 +940,36 @@
         const details = getParkingDetails(mall);
         if (!details || !details.has_free_parking || !details.free_parking_threshold) return "";
         return `<br><span style="font-size:12px;color:#1d4ed8;font-weight:700">🅿️ 泊車優惠：${escapeHtml(details.free_parking_threshold)}</span>`;
+      }
+      function getPetFriendly(place) {
+        if (!place || typeof place !== "object") return null;
+        const details = place.pet_friendly;
+        return details && typeof details === "object" ? details : null;
+      }
+      function isPetFriendlyAllowed(place) {
+        const details = getPetFriendly(place);
+        return Boolean(details && details.is_allowed === true);
+      }
+      function petTitleBadgesHtml(place) {
+        if (!isPetFriendlyAllowed(place)) return "";
+        const details = getPetFriendly(place) || {};
+        const tip = escapeAttr(details.details || "官網寵物進出規範");
+        return `<span class="pet-friendly-badge" title="${tip}">🐾 寵物友好</span>`;
+      }
+      function petPolicyBlockHtml(place) {
+        const details = getPetFriendly(place);
+        if (!details || details.is_allowed !== true) return "";
+        const summary = escapeHtml(details.details || "詳情請參考官方網站最新寵物進出規範。");
+        const url = String(details.official_url || "").trim();
+        const link = /^https?:\/\//.test(url)
+          ? `<p class="mt-2 text-xs font-semibold"><a href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">官網寵物政策 ↗</a></p>`
+          : "";
+        return `<section class="pet-friendly-block mt-3 rounded-2xl p-4" title="${escapeAttr(details.details || "")}"><p class="text-xs font-black text-amber-900">🐾 寵物進出規範</p><p class="mt-2 text-sm font-semibold leading-6 text-slate-700">${summary}</p>${link}</section>`;
+      }
+      function petPopupHtml(place) {
+        const details = getPetFriendly(place);
+        if (!details || details.is_allowed !== true || !details.details) return "";
+        return `<br><span style="font-size:12px;color:#b45309;font-weight:700">🐾 ${escapeHtml(details.details)}</span>`;
       }
       function selectedBankFilter() {
         return "全部";
@@ -1211,13 +1273,14 @@
         return offers.filter((offer) => offer.status === mode);
       }
       function visibleHotels() {
+        const petsOnly = state.selectedChannel === "pets";
         return (state.hotels || [])
           .filter((hotel) => matchesBaseFilters({ kind: "hotel", hotel, districtName: hotel.district }))
           .map((hotel) => {
             const offers = hotelMatchesLifecycle(liveHotelOffers(hotel));
             return { ...hotel, offers };
           })
-          .filter((hotel) => hotel.offers.length > 0);
+          .filter((hotel) => hotel.offers.length > 0 || petsOnly);
       }
             function hotelBookingUrl(offer, hotel) {
         const booking = String((offer && offer.booking_url) || "").trim();
@@ -1322,10 +1385,16 @@ function hotelCard(hotel) {
         const mapHint = hasMapCoords
           ? `<span class="card-map-hint" title="在地圖上查看">🗺️ 在地圖上查看</span>`
           : "";
+        const petBadges = petTitleBadgesHtml(hotel);
+        const petBlock = petPolicyBlockHtml(hotel);
+        const hotelTitleRow = `<div class="mt-1 flex flex-wrap items-center gap-2"><h3 class="text-xl font-black">${hotel.name || ""}</h3>${petBadges}</div>`;
         const mapTrigger = hasMapCoords
-          ? `<button type="button" class="card-map-trigger place-card-map-zone w-full text-left"${mapAttrs} aria-label="在地圖上查看 ${escapeAttr(hotel.name || "")}"><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p><h3 class="mt-1 text-xl font-black">${hotel.name || ""}</h3><p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p>${distBadge ? `<p class="mt-2">${distBadge}</p>` : ""}${mapHint}</button>`
-          : `<div><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p><h3 class="mt-1 text-xl font-black">${hotel.name || ""}</h3><p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p>${distBadge ? `<p class="mt-2">${distBadge}</p>` : ""}</div>`;
-        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-channel="hotel" data-place-name="${escapeAttr(hotel.name || "")}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="hotel"${hasMapCoords ? ` data-lat="${ll.lat}" data-lng="${ll.lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}<p class="mt-2 text-sm font-semibold text-slate-600 px-1"><a class="underline" href="tel:${phone}">${hotel.phone || ""}</a>${officialLink}</p><p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p>${upcomingAlert}</div><button type="button" class="place-card-expand hotel-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-hotel-key="${key}" aria-expanded="${expanded}" aria-label="${expanded ? "收合" : "展開"} ${escapeAttr(hotel.name || "")} 優惠">${expanded ? "−" : "+"}</button></div>${expanded ? `<div class="space-y-3 border-t border-slate-100 bg-slate-50 p-5">${offers.map((offer) => hotelOfferCard(offer, hotel)).join("")}</div>` : ""}</article>`;
+          ? `<button type="button" class="card-map-trigger place-card-map-zone w-full text-left"${mapAttrs} aria-label="在地圖上查看 ${escapeAttr(hotel.name || "")}"><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p>${hotelTitleRow}<p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p>${distBadge ? `<p class="mt-2">${distBadge}</p>` : ""}${mapHint}</button>`
+          : `<div><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p>${hotelTitleRow}<p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p>${distBadge ? `<p class="mt-2">${distBadge}</p>` : ""}</div>`;
+        const offerPanel = offers.length
+          ? `<div class="space-y-3 border-t border-slate-100 bg-slate-50 p-5">${offers.map((offer) => hotelOfferCard(offer, hotel)).join("")}</div>`
+          : `<div class="border-t border-slate-100 bg-slate-50 p-5"><p class="text-sm text-slate-500">此酒店目前暫無符合篩選的著數優惠。</p></div>`;
+        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-channel="hotel" data-place-name="${escapeAttr(hotel.name || "")}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="hotel"${hasMapCoords ? ` data-lat="${ll.lat}" data-lng="${ll.lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}${petBlock}<p class="mt-2 text-sm font-semibold text-slate-600 px-1"><a class="underline" href="tel:${phone}">${hotel.phone || ""}</a>${officialLink}</p><p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p>${upcomingAlert}</div><button type="button" class="place-card-expand hotel-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-hotel-key="${key}" aria-expanded="${expanded}" aria-label="${expanded ? "收合" : "展開"} ${escapeAttr(hotel.name || "")} 優惠">${expanded ? "−" : "+"}</button></div>${expanded ? offerPanel : ""}</article>`;
       }
       function syncChannelChrome() {
         const channel = state.selectedChannel;
@@ -1361,7 +1430,8 @@ function hotelCard(hotel) {
         if (lifecycle === "active") summaryLabel = activeLabel;
         else if (lifecycle === "upcoming") summaryLabel = upcomingLabel;
 
-        if (!mallOffers.length && !storeOffers.length) return "";
+        const petsOnly = state.selectedChannel === "pets";
+        if (!petsOnly && !mallOffers.length && !storeOffers.length) return "";
         // Neutral chrome for 全部時段; single-status tabs keep their theme.
         const storeSectionTone = lifecycle === "upcoming"
           ? "border-amber-200 bg-amber-50"
@@ -1379,12 +1449,17 @@ function hotelCard(hotel) {
           ? ` data-place-key="${escapeAttr(placeKey)}" data-lat="${lat}" data-lng="${lng}"`
           : "";
         const parkingBadges = parkingTitleBadgesHtml(mall);
+        const petBadges = petTitleBadgesHtml(mall);
         const parkingBlock = parkingRewardBlockHtml(mall);
-        const titleRow = `<div class="mt-1 flex flex-wrap items-center gap-2"><h3 class="text-xl font-black">${mall.mall_name}</h3>${parkingBadges}</div>`;
+        const petBlock = petPolicyBlockHtml(mall);
+        const titleRow = `<div class="mt-1 flex flex-wrap items-center gap-2"><h3 class="text-xl font-black">${mall.mall_name}</h3>${parkingBadges}${petBadges}</div>`;
         const mapTrigger = hasMapCoords
           ? `<button type="button" class="card-map-trigger place-card-map-zone w-full text-left"${mapAttrs} aria-label="在地圖上查看 ${escapeAttr(mall.mall_name)}"><p class="text-xs font-bold text-coral">${district.district}</p>${titleRow}<p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distLine ? `<p class="mt-2">${distLine}</p>` : ""}${geoChips(mall)}${mapHint}</button>`
           : `<div><p class="text-xs font-bold text-coral">${district.district}</p>${titleRow}<p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distLine ? `<p class="mt-2">${distLine}</p>` : ""}${geoChips(mall)}</div>`;
-        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}" data-place-name="${escapeAttr(mall.mall_name)}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="mall"${hasMapCoords ? ` data-lat="${lat}" data-lng="${lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}${parkingBlock}<p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p></div><button type="button" class="place-card-expand mall-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-mall-key="${key}" aria-expanded="${expanded}" aria-label="${expanded ? "收合" : "展開"} ${escapeAttr(mall.mall_name)} 優惠">${expanded ? "−" : "+"}</button></div>${expanded ? `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, bindMallOfferCard(mall.mall_name), "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>` : ""}</article>`;
+        const expandedPanel = petsOnly && !mallOffers.length && !storeOffers.length
+          ? `<div class="border-t border-slate-100 bg-slate-50 p-5"><p class="text-sm text-slate-500">此商場目前暫無符合篩選的著數優惠；上方已顯示官網寵物進出規範。</p></div>`
+          : `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, bindMallOfferCard(mall.mall_name), "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>`;
+        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}" data-place-name="${escapeAttr(mall.mall_name)}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="mall"${hasMapCoords ? ` data-lat="${lat}" data-lng="${lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}${parkingBlock}${petBlock}<p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p></div><button type="button" class="place-card-expand mall-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-mall-key="${key}" aria-expanded="${expanded}" aria-label="${expanded ? "收合" : "展開"} ${escapeAttr(mall.mall_name)} 優惠">${expanded ? "−" : "+"}</button></div>${expanded ? expandedPanel : ""}</article>`;
       }
 
       function collectMapPlaces() {
@@ -1587,7 +1662,12 @@ function hotelCard(hotel) {
             : place.name, { direction: "top", offset: [0, -12] });
           const popupKind = place.kind === "hotel" ? "🏨 酒店" : "🛍️ 商場";
           const parkingLine = place.kind === "mall" && place.mall ? parkingPopupHtml(place.mall) : "";
-          marker.bindPopup(`<strong>${popupKind} ${place.name}</strong>${place.address ? `<br><span style="font-size:12px;color:#64748b">${place.address}</span>` : ""}${parkingLine}`);
+          const petLine = place.kind === "mall" && place.mall
+            ? petPopupHtml(place.mall)
+            : place.kind === "hotel" && place.hotel
+              ? petPopupHtml(place.hotel)
+              : "";
+          marker.bindPopup(`<strong>${popupKind} ${place.name}</strong>${place.address ? `<br><span style="font-size:12px;color:#64748b">${place.address}</span>` : ""}${parkingLine}${petLine}`);
           marker.on("click", () => openPlaceDrawer(place));
           marker.addTo(state.leafletLayer);
           window.mapMarkers[place.key] = marker;
@@ -1604,7 +1684,8 @@ function hotelCard(hotel) {
         const mallCount = places.filter((p) => p.kind === "mall").length;
         const hotelCount = places.filter((p) => p.kind === "hotel").length;
         const parkingLabel = state.selectedChannel === "parking" ? " · 🅿️ 免費泊車" : "";
-        districtSummary.textContent = `地圖顯示 ${mallCount} 個商場 · ${hotelCount} 間酒店 Pin${parkingLabel}`;
+        const petsLabel = state.selectedChannel === "pets" ? " · 🐾 寵物友好" : "";
+        districtSummary.textContent = `地圖顯示 ${mallCount} 個商場 · ${hotelCount} 間酒店 Pin${parkingLabel}${petsLabel}`;
       }
 
 
@@ -1695,8 +1776,8 @@ function hotelCard(hotel) {
           return;
         }
         const channel = state.selectedChannel;
-        const showMalls = channel === "全部" || channel === "malls" || channel === "parking";
-        const showHotels = channel === "全部" || channel === "hotels";
+        const showMalls = channel === "全部" || channel === "malls" || channel === "parking" || channel === "pets";
+        const showHotels = channel === "全部" || channel === "hotels" || channel === "pets";
         const items = [];
         if (showMalls) {
           getVisibleDistricts().forEach((district) => {
@@ -1726,20 +1807,25 @@ function hotelCard(hotel) {
         const districtLabel = state.selectedDistrict === "全部" ? "" : `（${state.selectedDistrict}）`;
         const nearLabel = state.sortByProximity && state.userLat != null ? " · 離我最近" : "";
         const parkingLabel = state.selectedChannel === "parking" ? " · 🅿️ 免費泊車" : "";
+        const petsLabel = state.selectedChannel === "pets" ? " · 🐾 寵物友好" : "";
         if (channel === "hotels") {
           districtSummary.textContent = `顯示 ${hotelCards.length} 間酒店著數${districtLabel}${nearLabel}`;
         } else if (channel === "parking") {
           districtSummary.textContent = `顯示 ${mallCards.length} 間免費泊車商場${districtLabel}${nearLabel}`;
+        } else if (channel === "pets") {
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店（🐾 寵物友好）${districtLabel}${nearLabel}`;
         } else if (channel === "malls") {
           districtSummary.textContent = `顯示 ${mallCards.length} 間商場${districtLabel}${nearLabel}`;
         } else {
-          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}${nearLabel}${parkingLabel}`;
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}${nearLabel}${parkingLabel}${petsLabel}`;
         }
         if (!cards.length) {
-          const emptyId = channel === "hotels" ? "#empty-state-hotels" : channel === "malls" ? "#empty-state" : channel === "parking" ? "#empty-state" : "#empty-state-all";
+          const emptyId = channel === "hotels" ? "#empty-state-hotels" : channel === "malls" ? "#empty-state" : channel === "parking" ? "#empty-state" : channel === "pets" ? "#empty-state-all" : "#empty-state-all";
           mallList.innerHTML = document.querySelector(emptyId).innerHTML;
           if (channel === "parking" && showMalls) {
             mallList.innerHTML = `<div class="col-span-full rounded-3xl border border-dashed border-sky-300 bg-sky-50 px-6 py-14 text-center"><p class="text-3xl">🅿️</p><p class="mt-3 font-black">暫無符合「免費泊車」篩選的商場</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區，或關閉 🅿️ 免費泊車 篩選。</p></div>`;
+          } else if (channel === "pets") {
+            mallList.innerHTML = `<div class="col-span-full rounded-3xl border border-dashed border-amber-300 bg-amber-50 px-6 py-14 text-center"><p class="text-3xl">🐾</p><p class="mt-3 font-black">暫無符合「寵物友好」篩選的地點</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區，或關閉 🐾 寵物友好 篩選。</p></div>`;
           }
           return;
         }
