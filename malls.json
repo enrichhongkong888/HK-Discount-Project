@@ -188,7 +188,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 20,
-          "mall_id": "95f8bbc69aa6"
+          "mall_id": "95f8bbc69aa6",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "信德中心",
@@ -205,7 +211,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 信德中心 萬寧（2樓 223號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -314,7 +320,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "864ed6237a0b"
+          "mall_id": "864ed6237a0b",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "國際金融中心商場",
@@ -524,7 +536,7 @@
               "details": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 國際金融中心商場 萬寧（2樓 2004號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -592,7 +604,13 @@
           "active_offer_total": 11,
           "mall_id": "55c893c2557d",
           "official_home": "https://www.ifcmall.com.hk/tc",
-          "official_happenings": "https://www.ifcmall.com.hk/tc/whats-happening"
+          "official_happenings": "https://www.ifcmall.com.hk/tc/whats-happening",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$800 免費泊車 1 小時 / HK$1,500 3 小時（ifc mall 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "太古廣場",
@@ -886,7 +904,13 @@
           "active_offer_total": 10,
           "mall_id": "3432ba4e7cee",
           "official_home": "https://www.pacificplace.com.hk/zh-hk",
-          "official_happenings": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings"
+          "official_happenings": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$800 免費泊車 1 小時 / HK$1,200 2 小時（above 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 Tesla 目的地充電位"
+          }
         },
         {
           "mall_name": "置地廣場",
@@ -1000,7 +1024,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 9,
-          "mall_id": "fc1ca715373e"
+          "mall_id": "fc1ca715373e",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$800 免費泊車 1 小時 / HK$1,500 3 小時（ifc mall 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         }
       ]
     },
@@ -1079,7 +1109,7 @@
               "details": "期間限定快閃推廣：2026-08-16 起於本店推出限時換領／折扣；名額有限，詳情以店內告示及商場官方公告為準。",
               "start_date": "2026-08-16",
               "end_date": "2026-09-06",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -1183,7 +1213,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "airside"
+          "mall_id": "airside",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（ELEMENTS 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "又一城",
@@ -1245,7 +1281,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 又一城 無印良品（LG1 LG1-30號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -1456,7 +1492,13 @@
           "active_count": 5,
           "upcoming_offer_total": 0,
           "active_offer_total": 15,
-          "mall_id": "18f74826e08d"
+          "mall_id": "18f74826e08d",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時 / HK$500 2 小時（條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "樂富廣場",
@@ -2255,7 +2297,13 @@
           "active_count": 4,
           "upcoming_offer_total": 9,
           "active_offer_total": 11,
-          "mall_id": "2c55a9365efd"
+          "mall_id": "2c55a9365efd",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "黃埔天地",
@@ -3271,7 +3319,13 @@
           "active_count": 19,
           "upcoming_offer_total": 7,
           "active_offer_total": 33,
-          "mall_id": "2c39d39b5018"
+          "mall_id": "2c39d39b5018",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -3433,7 +3487,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 12,
-          "mall_id": "woo"
+          "mall_id": "woo",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "T Town",
@@ -3982,7 +4042,13 @@
           "active_count": 4,
           "upcoming_offer_total": 6,
           "active_offer_total": 10,
-          "mall_id": "t-town"
+          "mall_id": "t-town",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "YOHO MALL 形點",
@@ -4337,7 +4403,7 @@
               "details": "匯豐信用卡  最紅大折日 適用於 YOHO MALL 形點 YVES ROCHER（YOHO MALL II L1 A172號舖）；實際條款以官方公告及店內告示為準。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-13",
-              "source_url": "https://www.yohomall.hk/zh-hk/whats-on/3037",
+              "source_url": "https://www.yohomall.com/tc/whats-on",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -4378,7 +4444,7 @@
               "details": "匯豐信用卡  最紅大折日 適用於 YOHO MALL 形點 茱莉蔲 Jurlique（YOHO MALL II L1 A173號舖）；實際條款以官方公告及店內告示為準。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-13",
-              "source_url": "https://www.yohomall.hk/zh-hk/whats-on/3037",
+              "source_url": "https://www.yohomall.com/tc/whats-on",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -4419,7 +4485,7 @@
               "details": "匯豐信用卡  最紅大折日 適用於 YOHO MALL 形點 萬寧  Mannings（YOHO MALL II L2 A212a號舖）；實際條款以官方公告及店內告示為準。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-13",
-              "source_url": "https://www.yohomall.hk/zh-hk/whats-on/3037",
+              "source_url": "https://www.yohomall.com/tc/whats-on",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -4462,7 +4528,7 @@
               "details": "匯豐信用卡  最紅大折日 適用於 YOHO MALL 形點 余仁生 Eu Yan Sang（YOHO MALL II L2 A236號舖）；實際條款以官方公告及店內告示為準。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-13",
-              "source_url": "https://www.yohomall.hk/zh-hk/whats-on/3037",
+              "source_url": "https://www.yohomall.com/tc/whats-on",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -4597,7 +4663,7 @@
               "details": "匯豐信用卡  最紅大折日 適用於 YOHO MALL 形點 YVES ROCHER（YOHO MALL II L1 A172號舖）；實際條款以官方公告及店內告示為準。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-13",
-              "source_url": "https://www.yohomall.hk/zh-hk/whats-on/3037",
+              "source_url": "https://www.yohomall.com/tc/whats-on",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -4635,7 +4701,7 @@
               "details": "匯豐信用卡  最紅大折日 適用於 YOHO MALL 形點 茱莉蔲 Jurlique（YOHO MALL II L1 A173號舖）；實際條款以官方公告及店內告示為準。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-13",
-              "source_url": "https://www.yohomall.hk/zh-hk/whats-on/3037",
+              "source_url": "https://www.yohomall.com/tc/whats-on",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -4673,7 +4739,7 @@
               "details": "匯豐信用卡  最紅大折日 適用於 YOHO MALL 形點 萬寧  Mannings（YOHO MALL II L2 A212a號舖）；實際條款以官方公告及店內告示為準。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-13",
-              "source_url": "https://www.yohomall.hk/zh-hk/whats-on/3037",
+              "source_url": "https://www.yohomall.com/tc/whats-on",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -4713,7 +4779,7 @@
               "details": "匯豐信用卡  最紅大折日 適用於 YOHO MALL 形點 余仁生 Eu Yan Sang（YOHO MALL II L2 A236號舖）；實際條款以官方公告及店內告示為準。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-13",
-              "source_url": "https://www.yohomall.hk/zh-hk/whats-on/3037",
+              "source_url": "https://www.yohomall.com/tc/whats-on",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -4752,7 +4818,13 @@
           "active_offer_total": 7,
           "mall_id": "yoho-mall",
           "official_home": "https://www.yohomall.com/",
-          "official_happenings": "https://www.yohomall.com/tc/whats-on"
+          "official_happenings": "https://www.yohomall.com/tc/whats-on",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 22kW 快充位"
+          }
         },
         {
           "mall_name": "元朗廣場",
@@ -4873,7 +4945,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "2db42835b170"
+          "mall_id": "2db42835b170",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -4936,7 +5014,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 上水中心購物商場 萬寧（2樓 2077D-H號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -5045,7 +5123,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "ed2e2e8206d1"
+          "mall_id": "ed2e2e8206d1",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "上水匯 spot",
@@ -5168,7 +5252,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "spot"
+          "mall_id": "spot",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "上水廣場",
@@ -5185,7 +5275,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 上水廣場 萬寧（4樓 419-423號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -5520,7 +5610,7 @@
               "details": "獨立咖啡廳特惠：2026-08-17 惠顧正價飲品／輕食可享第二杯或套餐禮遇；詳情以店內告示為準。 適用於 上水廣場 錦麗（4/F 405-406號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-09-07",
-              "source_url": "https://s.openrice.com/QrbS0aI4C00",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E4%B8%8A%E6%B0%B4%E5%BB%A3%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -5567,7 +5657,7 @@
               "details": "街坊專屬折扣：2026-08-18 起出示住址／會員可享獨立小店專屬折扣或換領；詳情以店內告示為準。 適用於 上水廣場 Merci Cafe by Déesses（5樓 512號舖）。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-08",
-              "source_url": "https://s.openrice.com/QrbS0xqeC00",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E4%B8%8A%E6%B0%B4%E5%BB%A3%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -5712,7 +5802,7 @@
               "details": "獨立咖啡廳特惠：2026-08-17 惠顧正價飲品／輕食可享第二杯或套餐禮遇；詳情以店內告示為準。 適用於 上水廣場 錦麗（4/F 405-406號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-09-07",
-              "source_url": "https://s.openrice.com/QrbS0aI4C00",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E4%B8%8A%E6%B0%B4%E5%BB%A3%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -5756,7 +5846,7 @@
               "details": "街坊專屬折扣：2026-08-18 起出示住址／會員可享獨立小店專屬折扣或換領；詳情以店內告示為準。 適用於 上水廣場 Merci Cafe by Déesses（5樓 512號舖）。",
               "start_date": "2026-08-18",
               "end_date": "2026-09-08",
-              "source_url": "https://s.openrice.com/QrbS0xqeC00",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E4%B8%8A%E6%B0%B4%E5%BB%A3%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -5797,7 +5887,13 @@
           "active_count": 4,
           "upcoming_offer_total": 7,
           "active_offer_total": 11,
-          "mall_id": "9998a5d14f22"
+          "mall_id": "9998a5d14f22",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "粉嶺名都商場",
@@ -5898,7 +5994,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 15,
-          "mall_id": "1b1346b34f03"
+          "mall_id": "1b1346b34f03",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -6090,7 +6192,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 15,
-          "mall_id": "the-southside"
+          "mall_id": "the-southside",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "數碼港商場",
@@ -6570,7 +6678,7 @@
               "details": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 數碼港商場 茶星人（3樓 309A號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://s.openrice.com/QrbS0uLuD00",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E6%95%B8%E7%A2%BC%E6%B8%AF%E5%95%86%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -6620,7 +6728,7 @@
               "details": "電子品類快閃規律：2026-08-18（週二）電器／數碼／配件正價貨品可享品類限定折扣或禮品；詳情以店內告示為準。 電子 數碼 快閃 適用於 數碼港商場 The Pit Juice（4樓 417號舖）。",
               "start_date": "2026-08-18",
               "end_date": "2026-08-18",
-              "source_url": "https://s.openrice.com/QrbS0nV8600",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E6%95%B8%E7%A2%BC%E6%B8%AF%E5%95%86%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -6668,7 +6776,7 @@
               "details": "電子品類快閃規律：2026-08-18（週二）電器／數碼／配件正價貨品可享品類限定折扣或禮品；詳情以店內告示為準。 電子 數碼 快閃 適用於 數碼港商場 1+2小廚（4樓 408號舖）。",
               "start_date": "2026-08-18",
               "end_date": "2026-08-18",
-              "source_url": "https://s.openrice.com/QrbS0iLKD00",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E6%95%B8%E7%A2%BC%E6%B8%AF%E5%95%86%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -6906,7 +7014,7 @@
               "details": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 數碼港商場 茶星人（3樓 309A號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://s.openrice.com/QrbS0uLuD00",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E6%95%B8%E7%A2%BC%E6%B8%AF%E5%95%86%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -6951,7 +7059,7 @@
               "details": "電子品類快閃規律：2026-08-18（週二）電器／數碼／配件正價貨品可享品類限定折扣或禮品；詳情以店內告示為準。 電子 數碼 快閃 適用於 數碼港商場 The Pit Juice（4樓 417號舖）。",
               "start_date": "2026-08-18",
               "end_date": "2026-08-18",
-              "source_url": "https://s.openrice.com/QrbS0nV8600",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E6%95%B8%E7%A2%BC%E6%B8%AF%E5%95%86%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -6994,7 +7102,7 @@
               "details": "電子品類快閃規律：2026-08-18（週二）電器／數碼／配件正價貨品可享品類限定折扣或禮品；詳情以店內告示為準。 電子 數碼 快閃 適用於 數碼港商場 1+2小廚（4樓 408號舖）。",
               "start_date": "2026-08-18",
               "end_date": "2026-08-18",
-              "source_url": "https://s.openrice.com/QrbS0iLKD00",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E6%95%B8%E7%A2%BC%E6%B8%AF%E5%95%86%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -7036,7 +7144,13 @@
           "active_count": 5,
           "upcoming_offer_total": 9,
           "active_offer_total": 9,
-          "mall_id": "17491e366c86"
+          "mall_id": "17491e366c86",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "海怡廣場",
@@ -7237,7 +7351,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 17,
-          "mall_id": "798ab89bdb5a"
+          "mall_id": "798ab89bdb5a",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "赤柱廣場",
@@ -7426,7 +7546,7 @@
               "details": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 赤柱廣場 鍾菜館（3樓 308號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://s.openrice.com/QrbS0HoWC00",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E8%B5%A4%E6%9F%B1%E5%BB%A3%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -7532,7 +7652,7 @@
               "details": "美妝品類快閃規律：2026-08-17（週一）護膚／化妝／藥妝正價貨品可享品類限定折扣或換購；詳情以店內告示為準。 美妝 快閃 折扣 適用於 赤柱廣場 Beef & Liberty（地下 G04號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://s.openrice.com/QrbS0W3i700",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E8%B5%A4%E6%9F%B1%E5%BB%A3%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -7744,7 +7864,7 @@
               "details": "電子品類快閃規律：2026-08-18（週二）電器／數碼／配件正價貨品可享品類限定折扣或禮品；詳情以店內告示為準。 電子 數碼 快閃 適用於 赤柱廣場 散水餅（4樓 407號舖）。",
               "start_date": "2026-08-18",
               "end_date": "2026-08-18",
-              "source_url": "https://s.openrice.com/QrbS0QdW200",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E8%B5%A4%E6%9F%B1%E5%BB%A3%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -7897,7 +8017,7 @@
               "details": "美妝品類快閃規律：2026-08-17（週一）護膚／化妝／藥妝正價貨品可享品類限定折扣或換購；詳情以店內告示為準。 美妝 快閃 折扣 適用於 赤柱廣場 Beef & Liberty（地下 G04號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://s.openrice.com/QrbS0W3i700",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E8%B5%A4%E6%9F%B1%E5%BB%A3%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -8089,7 +8209,7 @@
               "details": "電子品類快閃規律：2026-08-18（週二）電器／數碼／配件正價貨品可享品類限定折扣或禮品；詳情以店內告示為準。 電子 數碼 快閃 適用於 赤柱廣場 散水餅（4樓 407號舖）。",
               "start_date": "2026-08-18",
               "end_date": "2026-08-18",
-              "source_url": "https://s.openrice.com/QrbS0QdW200",
+              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E8%B5%A4%E6%9F%B1%E5%BB%A3%E5%A0%B4",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -8174,7 +8294,13 @@
           "active_count": 4,
           "upcoming_offer_total": 11,
           "active_offer_total": 7,
-          "mall_id": "1eadbf5137ab"
+          "mall_id": "1eadbf5137ab",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "香港仔中心商場",
@@ -8374,7 +8500,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 16,
-          "mall_id": "83cc34a62636"
+          "mall_id": "83cc34a62636",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -8396,7 +8528,7 @@
               "details": "期間限定快閃推廣：2026-08-16 起於本店推出限時換領／折扣；名額有限，詳情以店內告示及商場官方公告為準。",
               "start_date": "2026-08-16",
               "end_date": "2026-09-06",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -8502,7 +8634,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "45dccf7dbd5e"
+          "mall_id": "45dccf7dbd5e",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "大埔超級城",
@@ -8602,7 +8740,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 大埔超級城 一田（B區 8號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.yata.hk/tch/promotion/2025-07-crm/",
+              "source_url": "https://www.yata.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -8686,7 +8824,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "dd00746047f2"
+          "mall_id": "dd00746047f2",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -8905,7 +9049,7 @@
               "details": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 V city 一田（地下 83號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.yata.hk/tch/promotion/2025-07-crm/",
+              "source_url": "https://www.yata.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -8971,7 +9115,13 @@
           "active_count": 4,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "v-city"
+          "mall_id": "v-city",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "屯門市廣場",
@@ -9504,7 +9654,7 @@
               "details": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 屯門市廣場 太平洋咖啡（屯門市廣場2期 1樓 43號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://www.pacificcoffee.com/usMemberPlan/index.html",
+              "source_url": "https://www.pacificcoffee.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -9813,7 +9963,7 @@
               "details": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 屯門市廣場 太平洋咖啡（屯門市廣場2期 1樓 43號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://www.pacificcoffee.com/usMemberPlan/index.html",
+              "source_url": "https://www.pacificcoffee.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -9895,7 +10045,13 @@
           "active_count": 5,
           "upcoming_offer_total": 7,
           "active_offer_total": 11,
-          "mall_id": "2a9e3005383e"
+          "mall_id": "2a9e3005383e",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（S+ REWARDS 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充位"
+          }
         },
         {
           "mall_name": "屯門時代廣場",
@@ -9985,7 +10141,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 屯門時代廣場 萬寧（南翼 3樓 8,39號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -10059,7 +10215,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 9,
-          "mall_id": "8065f99e9d2b"
+          "mall_id": "8065f99e9d2b",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時 / HK$500 2 小時（條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充位"
+          }
         },
         {
           "mall_name": "錦薈坊",
@@ -10159,7 +10321,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 錦薈坊 萬寧（3樓 353號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -10243,7 +10405,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "fb70b72c5e6e"
+          "mall_id": "fb70b72c5e6e",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -10346,7 +10514,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 北角匯 一田（2期 123號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.yata.hk/tch/promotion/2025-07-crm/",
+              "source_url": "https://www.yata.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -10430,7 +10598,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "552284f83a1a"
+          "mall_id": "552284f83a1a",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "太古城中心",
@@ -10520,7 +10694,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 太古城中心 無印良品（2-3樓 245,301號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -10660,7 +10834,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "ea4165541bb5"
+          "mall_id": "ea4165541bb5",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時 / HK$600 2 小時（LIVE+ 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 22kW 快充位"
+          }
         },
         {
           "mall_name": "康怡廣場",
@@ -10865,7 +11045,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 17,
-          "mall_id": "9bfef0cb82da"
+          "mall_id": "9bfef0cb82da",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "杏花新城",
@@ -10882,7 +11068,7 @@
               "details": "期間限定快閃推廣：2026-08-16 起於本店推出限時換領／折扣；名額有限，詳情以店內告示及商場官方公告為準。",
               "start_date": "2026-08-16",
               "end_date": "2026-09-06",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -10988,7 +11174,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "3f9d97e7ac2a"
+          "mall_id": "3f9d97e7ac2a",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -11049,7 +11241,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 HomeSquare 惠康（G/F G01號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -11158,7 +11350,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 12,
-          "mall_id": "homesquare"
+          "mall_id": "homesquare",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "圍方 The Wai",
@@ -11354,7 +11552,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 圍方 The Wai 無印良品（2樓 237號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -11461,7 +11659,13 @@
           "active_count": 9,
           "upcoming_offer_total": 0,
           "active_offer_total": 19,
-          "mall_id": "the-wai"
+          "mall_id": "the-wai",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時 / HK$800 3 小時（The Point 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "新城市廣場",
@@ -11477,7 +11681,7 @@
               "details": "1/1/2026 - 31/12/2026",
               "start_date": "2026-01-01",
               "end_date": "2026-12-31",
-              "source_url": "https://www.facebook.com/sharer/sharer.php?u=https://www.newtownplaza.com.hk/happenings/shkp-malls-x-hsbc-yro-e-stamp-2026",
+              "source_url": "https://www.newtownplaza.com.hk/happenings",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -11920,7 +12124,13 @@
           "active_count": 5,
           "upcoming_offer_total": 2,
           "active_offer_total": 12,
-          "mall_id": "fdda653175b3"
+          "mall_id": "fdda653175b3",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時 / HK$800 3 小時（The Point 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "新港城中心 MOSTown",
@@ -12076,7 +12286,7 @@
               "details": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 新港城中心 MOSTown 萬寧（2樓 2108號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -12152,7 +12362,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "mostown"
+          "mall_id": "mostown",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時 / HK$800 3 小時（The Point 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "沙田中心",
@@ -12278,7 +12494,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "c8f48ea02b7b"
+          "mall_id": "c8f48ea02b7b",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -12534,7 +12756,13 @@
           "active_offer_total": 11,
           "mall_id": "elements",
           "official_home": "https://www.elementshk.com/",
-          "official_happenings": "https://www.elementshk.com/tch/whats-on"
+          "official_happenings": "https://www.elementshk.com/tch/whats-on",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（ELEMENTS 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "K11 MUSEA",
@@ -12622,7 +12850,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 K11 MUSEA 萬寧（B2 B201-01B號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -12696,7 +12924,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 9,
-          "mall_id": "k11-musea"
+          "mall_id": "k11-musea",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$500 免費泊車 1 小時 / HK$800 2 小時（KLUB 11 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "K11購物藝術館",
@@ -12713,7 +12947,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 K11購物藝術館 萬寧（地庫1層 B109-B110號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -12812,7 +13046,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 9,
-          "mall_id": "k11"
+          "mall_id": "k11",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "THE ONE",
@@ -13026,7 +13266,13 @@
           "active_offer_total": 13,
           "mall_id": "the-one",
           "official_home": "https://www.the-one.com.hk/",
-          "official_happenings": "https://www.the-one.com.hk/tc/whats-on"
+          "official_happenings": "https://www.the-one.com.hk/tc/whats-on",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時 / HK$500 2 小時（條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充位"
+          }
         },
         {
           "mall_name": "奧海城",
@@ -13406,7 +13652,7 @@
               "details": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 奧海城 Café & Meal MUJI（奧海城2期 G/F G K01-10號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -13634,7 +13880,7 @@
               "details": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 奧海城 Café & Meal MUJI（奧海城2期 G/F G K01-10號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -13727,7 +13973,13 @@
           "active_count": 5,
           "upcoming_offer_total": 12,
           "active_offer_total": 17,
-          "mall_id": "fc01b5097b39"
+          "mall_id": "fc01b5097b39",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（ELEMENTS 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "朗豪坊",
@@ -13744,7 +13996,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 朗豪坊 無印良品（7樓 08-12號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -13843,7 +14095,13 @@
           "active_offer_total": 9,
           "mall_id": "e7e381980395",
           "official_home": "https://www.langhamplace.com.hk/",
-          "official_happenings": "https://www.langhamplace.com.hk/tc/whats-on"
+          "official_happenings": "https://www.langhamplace.com.hk/tc/whats-on",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充位"
+          }
         },
         {
           "mall_name": "海港城",
@@ -14192,7 +14450,13 @@
           "active_offer_total": 17,
           "mall_id": "f74040b0a21e",
           "official_home": "https://www.harbourcity.com.hk/",
-          "official_happenings": "https://www.harbourcity.com.hk/tc/whats-on"
+          "official_happenings": "https://www.harbourcity.com.hk/tc/whats-on",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$500 免費泊車 1 小時 / HK$800 2 小時（VIC Club 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 22kW 快充位"
+          }
         }
       ]
     },
@@ -14321,7 +14585,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "v-walk"
+          "mall_id": "v-walk",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "昇悅商場",
@@ -14338,7 +14608,7 @@
               "details": "期間限定快閃推廣：2026-08-16 起於本店推出限時換領／折扣；名額有限，詳情以店內告示及商場官方公告為準。",
               "start_date": "2026-08-16",
               "end_date": "2026-09-06",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -14444,7 +14714,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "eb01ea6122c8"
+          "mall_id": "eb01ea6122c8",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "碧海藍天商場",
@@ -14567,7 +14843,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "1ff066a7837f"
+          "mall_id": "1ff066a7837f",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "西九龍中心",
@@ -14667,7 +14949,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 西九龍中心 萬寧（5樓 501B號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -14751,7 +15033,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "1f40efdd479f"
+          "mall_id": "1f40efdd479f",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -14910,7 +15198,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 12,
-          "mall_id": "hysan-place"
+          "mall_id": "hysan-place",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$800 免費泊車 1 小時 / HK$1,200 2 小時（above 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 Tesla 目的地充電位"
+          }
         },
         {
           "mall_name": "利東街",
@@ -15128,7 +15422,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 23,
-          "mall_id": "1260125e9265"
+          "mall_id": "1260125e9265",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "合和中心",
@@ -15251,7 +15551,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "b37ffac8fd01"
+          "mall_id": "b37ffac8fd01",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "合和商場",
@@ -15375,7 +15681,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "90f73a6406b2"
+          "mall_id": "90f73a6406b2",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "時代廣場",
@@ -15562,7 +15874,13 @@
           "active_offer_total": 10,
           "mall_id": "76ab5fd7fab3",
           "official_home": "https://www.timessquare.com.hk/",
-          "official_happenings": "https://www.timessquare.com.hk/tc/whats-on"
+          "official_happenings": "https://www.timessquare.com.hk/tc/whats-on",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時 / HK$500 2 小時（條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充位"
+          }
         },
         {
           "mall_name": "皇室堡",
@@ -15624,7 +15942,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 皇室堡 無印良品（地庫 B1號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -15731,7 +16049,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "eac14406db69"
+          "mall_id": "eac14406db69",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -15836,7 +16160,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 D·PARK 愉景新城 萬寧（2樓 2050號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -15920,7 +16244,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "d-park"
+          "mall_id": "d-park",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "OP Mall 海之戀商場",
@@ -16100,7 +16430,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "op-mall"
+          "mall_id": "op-mall",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "綠楊坊",
@@ -16117,7 +16453,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 綠楊坊 萬寧（平台 P11A-P11B號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -16226,7 +16562,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "b91ee8c213e5"
+          "mall_id": "b91ee8c213e5",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "荃新天地",
@@ -16562,7 +16904,7 @@
               "details": "美妝品類快閃規律：2026-08-17（週一）護膚／化妝／藥妝正價貨品可享品類限定折扣或換購；詳情以店內告示為準。 美妝 快閃 折扣 適用於 荃新天地 萬寧（萬寧 UG/F) (Citywalk2號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -16610,7 +16952,7 @@
               "details": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 荃新天地 7-Eleven（荃新天地2 地下 G01號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -16753,7 +17095,7 @@
               "details": "美妝品類快閃規律：2026-08-17（週一）護膚／化妝／藥妝正價貨品可享品類限定折扣或換購；詳情以店內告示為準。 美妝 快閃 折扣 適用於 荃新天地 萬寧（萬寧 UG/F) (Citywalk2號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -16796,7 +17138,7 @@
               "details": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 荃新天地 7-Eleven（荃新天地2 地下 G01號舖）。",
               "start_date": "2026-08-17",
               "end_date": "2026-08-17",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "upcoming",
@@ -16846,7 +17188,13 @@
           "active_count": 4,
           "upcoming_offer_total": 5,
           "active_offer_total": 12,
-          "mall_id": "d168f1b9c51a"
+          "mall_id": "d168f1b9c51a",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（S+ REWARDS 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充位"
+          }
         },
         {
           "mall_name": "荃灣廣場",
@@ -16943,7 +17291,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 荃灣廣場 一田（4樓 4號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.yata.hk/tch/promotion/2025-07-crm/",
+              "source_url": "https://www.yata.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -17027,7 +17375,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "e343b4e737c1"
+          "mall_id": "e343b4e737c1",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -17049,7 +17403,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 新都會廣場 無印良品（3樓 346-347號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -17186,7 +17540,7 @@
               "details": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 新都會廣場 一田（L4 223號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.yata.hk/tch/promotion/2025-07-crm/",
+              "source_url": "https://www.yata.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -17262,7 +17616,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "11b73af77990"
+          "mall_id": "11b73af77990",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "葵涌廣場",
@@ -17442,7 +17802,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "77a8b04cdb7d"
+          "mall_id": "77a8b04cdb7d",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "青衣城",
@@ -17672,7 +18038,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "4a71829965d8"
+          "mall_id": "4a71829965d8",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（ELEMENTS 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         }
       ]
     },
@@ -17811,7 +18183,7 @@
               "details": "Promotion 16/7/2026 - 20/8/2026",
               "start_date": "2026-07-16",
               "end_date": "2026-08-20",
-              "source_url": "https://www.popcorntko.com.hk/en/promotions/summerchillspace",
+              "source_url": "https://www.popcorntko.com.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -17937,7 +18309,13 @@
           "active_count": 7,
           "upcoming_offer_total": 0,
           "active_offer_total": 17,
-          "mall_id": "popcorn"
+          "mall_id": "popcorn",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時（MTR Mobile 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充位"
+          }
         },
         {
           "mall_name": "將軍澳中心 Park Central",
@@ -17979,7 +18357,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 將軍澳中心 Park Central 萬寧（地下 G33號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -18088,7 +18466,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 12,
-          "mall_id": "park-central"
+          "mall_id": "park-central",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時（MTR Mobile 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充位"
+          }
         },
         {
           "mall_name": "新都城中心",
@@ -18216,7 +18600,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 新都城中心 無印良品（1樓 1050-53號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -18356,7 +18740,13 @@
           "active_count": 5,
           "upcoming_offer_total": 0,
           "active_offer_total": 15,
-          "mall_id": "f55a185f622f"
+          "mall_id": "f55a185f622f",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時（MTR Mobile 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充位"
+          }
         },
         {
           "mall_name": "東港城",
@@ -18456,7 +18846,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 東港城 一田（2樓 8號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.yata.hk/tch/promotion/2025-07-crm/",
+              "source_url": "https://www.yata.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -18540,7 +18930,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "4494235ccd41"
+          "mall_id": "4494235ccd41",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     },
@@ -18658,7 +19054,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 9,
-          "mall_id": "megabox"
+          "mall_id": "megabox",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         },
         {
           "mall_name": "apm",
@@ -18675,7 +19077,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 apm 無印良品（L1 1a-1c號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -18797,7 +19199,7 @@
               "details": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 apm 一田（分店樓層 418號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.yata.hk/tch/promotion/2025-07-crm/",
+              "source_url": "https://www.yata.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -18868,7 +19270,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 9,
-          "mall_id": "apm"
+          "mall_id": "apm",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時 / HK$600 3 小時（條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 22kW 快充位"
+          }
         },
         {
           "mall_name": "德福廣場",
@@ -19034,7 +19442,7 @@
               "details": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 德福廣場 無印良品（二期 4樓 401-402,431號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -19108,7 +19516,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 16,
-          "mall_id": "52a7398edfec"
+          "mall_id": "52a7398edfec",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時 / HK$600 3 小時（條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 22kW 快充位"
+          }
         }
       ]
     },
@@ -19214,7 +19628,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 愉景灣北商場 DB North Plaza Market Place（地下 G11號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -19287,7 +19701,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 愉景灣北商場 DB North Plaza 7-Eleven（LG LG21號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -19359,7 +19773,13 @@
           "active_count": 3,
           "upcoming_offer_total": 0,
           "active_offer_total": 18,
-          "mall_id": "db-north-plaza"
+          "mall_id": "db-north-plaza",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "愉景灣廣場 DB Plaza",
@@ -19485,7 +19905,13 @@
           "active_count": 1,
           "upcoming_offer_total": 0,
           "active_offer_total": 11,
-          "mall_id": "db-plaza"
+          "mall_id": "db-plaza",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "東薈城名店倉",
@@ -19637,7 +20063,13 @@
           "active_count": 2,
           "upcoming_offer_total": 0,
           "active_offer_total": 12,
-          "mall_id": "4e5e2e74bcbe"
+          "mall_id": "4e5e2e74bcbe",
+          "parking_details": {
+            "has_free_parking": true,
+            "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（ELEMENTS 會員；條款以官網為準）",
+            "ev_charging": true,
+            "ev_details": "提供 7kW 中充及 50kW 快充位"
+          }
         }
       ]
     },
@@ -19790,7 +20222,7 @@
               "details": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 荷里活廣場 無印良品（1樓 125-127號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.muji.com/hk/mujiapp/",
+              "source_url": "https://www.muji.com/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -19922,7 +20354,13 @@
           "active_count": 4,
           "upcoming_offer_total": 0,
           "active_offer_total": 13,
-          "mall_id": "ae641d52fac1"
+          "mall_id": "ae641d52fac1",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         },
         {
           "mall_name": "黃大仙中心",
@@ -19997,7 +20435,7 @@
               "details": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 黃大仙中心 萬寧（UG UG23號舖）。",
               "start_date": "2026-08-16",
               "end_date": "2026-08-16",
-              "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+              "source_url": "https://www.wellcome.hk/",
               "is_daily_special": false,
               "is_evergreen": false,
               "status": "active",
@@ -20390,7 +20828,13 @@
           "active_count": 4,
           "upcoming_offer_total": 5,
           "active_offer_total": 9,
-          "mall_id": "8f9470c5a23d"
+          "mall_id": "8f9470c5a23d",
+          "parking_details": {
+            "has_free_parking": false,
+            "free_parking_threshold": "請參考商場官方泊車頁面",
+            "ev_charging": false,
+            "ev_details": "請向商場查詢 EV 充電設施"
+          }
         }
       ]
     }

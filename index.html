@@ -174,6 +174,78 @@
         border-color: #f59e0b;
         background: linear-gradient(180deg, #fffbeb 0%, #ffffff 42%);
       }
+      .place-card-head {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 1.5rem;
+      }
+      .card-map-trigger {
+        cursor: pointer;
+        min-width: 0;
+        flex: 1 1 auto;
+        border-radius: 1rem;
+        padding: 0.15rem 0.35rem;
+        transition: background 0.15s ease, box-shadow 0.15s ease;
+      }
+      .card-map-trigger:hover {
+        background: rgba(248, 250, 252, 0.95);
+        box-shadow: inset 0 0 0 1px rgba(255, 93, 82, 0.18);
+      }
+      .card-map-trigger:focus-visible {
+        outline: 2px solid #ff5d52;
+        outline-offset: 2px;
+      }
+      .card-map-hint {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        margin-top: 0.65rem;
+        font-size: 0.75rem;
+        font-weight: 800;
+        color: #ff5d52;
+      }
+      .card-map-trigger:hover .card-map-hint {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      .place-card-expand {
+        flex: 0 0 auto;
+      }
+      .parking-reward-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        border-radius: 9999px;
+        background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+        color: #fff;
+        padding: 0.25rem 0.65rem;
+        font-size: 0.7rem;
+        font-weight: 800;
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.28);
+      }
+      .parking-ev-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.2rem;
+        border-radius: 9999px;
+        background: #ecfdf5;
+        color: #047857;
+        border: 1px solid #6ee7b7;
+        padding: 0.2rem 0.55rem;
+        font-size: 0.65rem;
+        font-weight: 800;
+      }
+      .parking-reward-block {
+        border: 1px solid #bae6fd;
+        background: linear-gradient(180deg, #f0f9ff 0%, #e0f2fe 100%);
+      }
+      .parking-filter-chip[aria-pressed="true"] {
+        background: #2563eb;
+        color: #fff;
+      }
 
       .map-layout {
         position: relative;
@@ -464,6 +536,14 @@
               <p class="mt-2 text-xs text-slate-500">可多選；僅顯示／地圖高亮帶有對應銀行標籤的商場與酒店優惠。</p>
             </div>
 
+            <div class="mt-6 border-t border-slate-100 pt-5" id="parking-filters-panel">
+              <p class="text-xs font-bold text-slate-500">🅿️ 泊車著數</p>
+              <div id="parking-filters" class="mt-2 flex flex-wrap gap-2" role="group" aria-label="泊車優惠篩選">
+                <button type="button" id="parking-free-btn" class="district-tag parking-filter-chip" data-parking="free" aria-pressed="false">🅿️ 免費泊車</button>
+              </div>
+              <p class="mt-2 text-xs text-slate-500">開啟後，列表與地圖僅顯示設有免費泊車優惠的商場。</p>
+            </div>
+
             <div class="mt-6 border-t border-slate-100 pt-5" id="lbs-filters-panel">
               <p class="text-xs font-bold text-slate-500">📍 附近著數</p>
               <div class="mt-2 flex flex-wrap gap-2">
@@ -487,7 +567,7 @@
           <div class="mb-6 flex flex-wrap items-center gap-3">
             <span class="rounded-full bg-emerald-100 px-3 py-1.5 text-xs font-bold text-emerald-800">🟢 今日進行中</span>
             <span class="rounded-full bg-amber-100 px-3 py-1.5 text-xs font-bold text-amber-800">🟡 3 天內即將開始</span>
-            <span class="rounded-full bg-slate-100 px-3 py-1.5 text-xs font-bold text-slate-700">🗺️ 點擊地圖 Pin 開啟詳細優惠</span>
+            <span class="rounded-full bg-slate-100 px-3 py-1.5 text-xs font-bold text-slate-700">🗺️ 點擊卡片標題可在地圖上查看</span>
           </div>
           <div id="list-explore">
             <div id="mall-list" class="grid gap-4 lg:grid-cols-2" aria-live="polite"></div>
@@ -531,6 +611,7 @@
         selectedTag: "全部",
         selectedLifecycle: "全部",
         selectedBanks: [],
+        filterFreeParking: false,
         expandedMalls: new Set(),
         expandedHotels: new Set(),
         selectedPlaceKey: "",
@@ -543,7 +624,9 @@
         sortByProximity: false,
         locationStatus: "",
         mallOfficialHubs: {},
+        pendingMapFocus: null,
       };
+      window.mapMarkers = window.mapMarkers || {};
       const homeView = document.querySelector("#home-view");
       const mallView = document.querySelector("#mall-view");
       const navButtons = document.querySelectorAll("[data-view]");
@@ -553,6 +636,8 @@
       const tagFilters = document.querySelector("#tag-filters");
       const lifecycleFilters = document.querySelector("#lifecycle-filters");
       const bankFilters = document.querySelector("#bank-filters");
+      const parkingFreeBtn = document.querySelector("#parking-free-btn");
+      const parkingFiltersPanel = document.querySelector("#parking-filters-panel");
       const lbsSortBtn = document.querySelector("#lbs-sort-btn");
       const lbsClearBtn = document.querySelector("#lbs-clear-btn");
       const lbsStatus = document.querySelector("#lbs-status");
@@ -770,6 +855,79 @@
           return projected.length ? projected : [offer];
         });
       }
+      function mallPlaceKey(districtName, mallName) {
+        return `mall::${districtName}::${mallName}`;
+      }
+      function hotelPlaceKey(hotel) {
+        return `hotel::${hotel.id || hotel.name}`;
+      }
+      function resolvePlaceByKey(placeKey) {
+        const fromMap = collectMapPlaces().find((p) => p.key === placeKey);
+        if (fromMap) return fromMap;
+        if (placeKey.startsWith("mall::")) {
+          const rest = placeKey.slice(6);
+          const sep = rest.indexOf("::");
+          if (sep < 0) return null;
+          const districtName = rest.slice(0, sep);
+          const mallName = rest.slice(sep + 2);
+          const district = state.districts.find((d) => d.district === districtName);
+          const mall = district && (district.malls || []).find((m) => m.mall_name === mallName);
+          if (!district || !mall) return null;
+          return {
+            kind: "mall",
+            key: placeKey,
+            lat: Number(mall.lat),
+            lng: Number(mall.lng),
+            district: districtName,
+            name: mall.mall_name,
+            address: mall.address || "",
+            mall,
+            districtObj: district,
+          };
+        }
+        if (placeKey.startsWith("hotel::")) {
+          const id = placeKey.slice(7);
+          const hotel = state.hotels.find((h) => String(h.id) === id || h.name === id);
+          if (!hotel) return null;
+          const coord = state.hotelCoords[hotel.id] || {};
+          return {
+            kind: "hotel",
+            key: placeKey,
+            lat: Number(coord.lat),
+            lng: Number(coord.lng),
+            district: hotel.district,
+            name: hotel.name,
+            address: hotel.address || "",
+            hotel,
+          };
+        }
+        return null;
+      }
+      function applyMapFocus(placeKey, lat, lng) {
+        const map = state.leafletMap || ensureLeafletMap();
+        if (!map || !Number.isFinite(lat) || !Number.isFinite(lng)) return;
+        const mapEl = document.getElementById("deals-map");
+        if (mapEl) mapEl.scrollIntoView({ behavior: "smooth", block: "center" });
+        map.flyTo([lat, lng], 16, { animate: true, duration: 1.2 });
+        const marker = window.mapMarkers[placeKey];
+        if (marker && marker.openPopup) marker.openPopup();
+        const place = resolvePlaceByKey(placeKey);
+        if (place) openPlaceDrawer(place);
+        window.setTimeout(() => map.invalidateSize(), 150);
+      }
+      function focusPlaceOnMap(placeKey, lat, lng) {
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+        state.pendingMapFocus = { placeKey, lat, lng };
+        if (state.selectedChannel !== "map") {
+          state.selectedChannel = "map";
+          if (channelFilters) {
+            channelFilters.querySelectorAll("[data-channel]").forEach((tag) => {
+              tag.setAttribute("aria-pressed", String(tag.dataset.channel === "map"));
+            });
+          }
+        }
+        render();
+      }
       function geoChips(mall) {
         // Keep geo_tags / lat / lng in malls.json for GPS logic; never show raw coordinates in UI.
         const tags = (Array.isArray(mall.geo_tags) ? mall.geo_tags : []).filter(
@@ -785,6 +943,40 @@
           .replace(/"/g, "&quot;")
           .replace(/</g, "&lt;")
           .replace(/>/g, "&gt;");
+      }
+      function escapeHtml(value) {
+        return escapeAttr(value);
+      }
+      function getParkingDetails(mall) {
+        if (!mall || typeof mall !== "object") return null;
+        const details = mall.parking_details;
+        return details && typeof details === "object" ? details : null;
+      }
+      function mallHasFreeParking(mall) {
+        const details = getParkingDetails(mall);
+        return Boolean(details && details.has_free_parking === true);
+      }
+      function parkingTitleBadgesHtml(mall) {
+        const details = getParkingDetails(mall);
+        if (!details || !details.has_free_parking) return "";
+        const evBadge = details.ev_charging
+          ? `<span class="parking-ev-badge">⚡ EV 充電位</span>`
+          : "";
+        return `<span class="parking-reward-badge">🅿️ 免費泊車優惠</span>${evBadge}`;
+      }
+      function parkingRewardBlockHtml(mall) {
+        const details = getParkingDetails(mall);
+        if (!details || !details.has_free_parking) return "";
+        const threshold = details.free_parking_threshold || "詳情請參考商場官方泊車頁面";
+        const evLine = details.ev_charging && details.ev_details
+          ? `<p class="mt-2 text-xs font-semibold text-emerald-700">⚡ ${details.ev_details}</p>`
+          : "";
+        return `<section class="parking-reward-block mt-3 rounded-2xl p-4"><p class="text-xs font-black text-sky-800">🅿️ 泊車著數</p><p class="mt-2 text-sm font-semibold leading-6 text-slate-700">${threshold}</p>${evLine}</section>`;
+      }
+      function parkingPopupHtml(mall) {
+        const details = getParkingDetails(mall);
+        if (!details || !details.has_free_parking || !details.free_parking_threshold) return "";
+        return `<br><span style="font-size:12px;color:#1d4ed8;font-weight:700">🅿️ 泊車優惠：${escapeHtml(details.free_parking_threshold)}</span>`;
       }
       function selectedBankFilter() {
         const banks = Array.isArray(state.selectedBanks) ? state.selectedBanks : [];
@@ -1177,7 +1369,8 @@
       }
 
 function hotelCard(hotel) {
-        const key = `hotel::${hotel.id || hotel.name}`;
+        const key = hotelPlaceKey(hotel);
+        const placeKey = key;
         const expanded = state.expandedHotels.has(key);
         const hiddenWhileExpanded = (state.expandedHotels.size > 0 || state.expandedMalls.size > 0) && !expanded;
         const offers = hotel.offers || [];
@@ -1195,11 +1388,24 @@ function hotelCard(hotel) {
         const upcomingAlert = upcomingCount
           ? `<div class="mt-3"><span class="hotel-upcoming-badge">⚠️ 官網 3 天內開搶！（${upcomingCount}）</span></div>`
           : "";
-        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-channel="hotel" data-place-name="${escapeAttr(hotel.name || "")}"><button class="hotel-toggle flex w-full items-center justify-between gap-4 p-6 text-left transition hover:bg-slate-50" data-hotel-key="${key}" aria-expanded="${expanded}"><div><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p><h3 class="mt-1 text-xl font-black">${hotel.name || ""}</h3><p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p>${(() => { const ll = hotelLatLng(hotel); const b = distanceBadgeHtml(ll.lat, ll.lng); return b ? `<p class="mt-2">${b}</p>` : ""; })()}<p class="mt-1 text-sm font-semibold text-slate-600"><a class="underline" href="tel:${phone}">${hotel.phone || ""}</a>${officialLink}</p><p class="mt-3 text-xs font-semibold text-slate-400">${summaryLabel}</p>${upcomingAlert}</div><span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white">${expanded ? "−" : "+"}</span></button>${expanded ? `<div class="space-y-3 border-t border-slate-100 bg-slate-50 p-5">${offers.map((offer) => hotelOfferCard(offer, hotel)).join("")}</div>` : ""}</article>`;
+        const ll = hotelLatLng(hotel);
+        const hasMapCoords = Number.isFinite(ll.lat) && Number.isFinite(ll.lng);
+        const distBadge = distanceBadgeHtml(ll.lat, ll.lng);
+        const mapAttrs = hasMapCoords
+          ? ` data-place-key="${escapeAttr(placeKey)}" data-lat="${ll.lat}" data-lng="${ll.lng}"`
+          : "";
+        const mapHint = hasMapCoords
+          ? `<span class="card-map-hint" title="在地圖上查看">🗺️ 在地圖上查看</span>`
+          : "";
+        const mapTrigger = hasMapCoords
+          ? `<button type="button" class="card-map-trigger place-card-map-zone w-full text-left"${mapAttrs} aria-label="在地圖上查看 ${escapeAttr(hotel.name || "")}"><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p><h3 class="mt-1 text-xl font-black">${hotel.name || ""}</h3><p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p>${distBadge ? `<p class="mt-2">${distBadge}</p>` : ""}${mapHint}</button>`
+          : `<div><p class="text-xs font-bold text-coral">${hotel.district || ""} · ${starsLabel(hotel.star_rating)} ${hotel.star_rating || ""}星${hotelOfficialUrl ? ` · <span class="hotel-official-badge" style="vertical-align:middle">🌐 官方優惠</span>` : ""}</p><h3 class="mt-1 text-xl font-black">${hotel.name || ""}</h3><p class="mt-2 text-sm text-slate-500">${hotel.address || ""}</p>${distBadge ? `<p class="mt-2">${distBadge}</p>` : ""}</div>`;
+        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-channel="hotel" data-place-name="${escapeAttr(hotel.name || "")}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="hotel"${hasMapCoords ? ` data-lat="${ll.lat}" data-lng="${ll.lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}<p class="mt-2 text-sm font-semibold text-slate-600 px-1"><a class="underline" href="tel:${phone}">${hotel.phone || ""}</a>${officialLink}</p><p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p>${upcomingAlert}</div><button type="button" class="place-card-expand hotel-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-hotel-key="${key}" aria-expanded="${expanded}" aria-label="${expanded ? "收合" : "展開"} ${escapeAttr(hotel.name || "")} 優惠">${expanded ? "−" : "+"}</button></div>${expanded ? `<div class="space-y-3 border-t border-slate-100 bg-slate-50 p-5">${offers.map((offer) => hotelOfferCard(offer, hotel)).join("")}</div>` : ""}</article>`;
       }
       function syncChannelChrome() {
         const channel = state.selectedChannel;
         if (mallFiltersPanel) mallFiltersPanel.hidden = channel === "hotels" || channel === "map";
+        if (parkingFiltersPanel) parkingFiltersPanel.hidden = channel === "hotels";
         if (hotelChannelHint) hotelChannelHint.classList.toggle("hidden", channel !== "hotels");
         if (listExplore) listExplore.classList.toggle("hidden", channel === "map");
         if (mapExplore) mapExplore.classList.toggle("hidden", channel !== "map");
@@ -1207,7 +1413,9 @@ function hotelCard(hotel) {
       }
 
       function mallCard(district, mall) {
+        if (state.filterFreeParking && !mallHasFreeParking(mall)) return "";
         const key = `${district.district}::${mall.mall_name}`;
+        const placeKey = mallPlaceKey(district.district, mall.mall_name);
         const expanded = state.expandedMalls.has(key);
         const hiddenWhileExpanded = (state.expandedMalls.size > 0 || state.expandedHotels.size > 0) && !expanded;
         const lifecycle = currentViewMode();
@@ -1239,16 +1447,33 @@ function hotelCard(hotel) {
           : lifecycle === "active"
             ? "border-emerald-200 bg-emerald-50"
             : "border-slate-200 bg-slate-50";
-        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}" data-place-name="${escapeAttr(mall.mall_name)}"><button class="mall-toggle flex w-full items-center justify-between gap-4 p-6 text-left transition hover:bg-slate-50" data-mall-key="${key}" aria-expanded="${expanded}"><div><p class="text-xs font-bold text-coral">${district.district}</p><h3 class="mt-1 text-xl font-black">${mall.mall_name}</h3><p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distanceBadgeHtml(mall.lat, mall.lng) ? `<p class="mt-2">${distanceBadgeHtml(mall.lat, mall.lng)}</p>` : ""}${geoChips(mall)}<p class="mt-3 text-xs font-semibold text-slate-400">${summaryLabel}</p></div><span class="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white">${expanded ? "−" : "+"}</span></button>${expanded ? `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, bindMallOfferCard(mall.mall_name), "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>` : ""}</article>`;
+        const lat = Number(mall.lat);
+        const lng = Number(mall.lng);
+        const hasMapCoords = Number.isFinite(lat) && Number.isFinite(lng);
+        const distLine = distanceBadgeHtml(mall.lat, mall.lng);
+        const mapHint = hasMapCoords
+          ? `<span class="card-map-hint" title="在地圖上查看">🗺️ 在地圖上查看</span>`
+          : "";
+        const mapAttrs = hasMapCoords
+          ? ` data-place-key="${escapeAttr(placeKey)}" data-lat="${lat}" data-lng="${lng}"`
+          : "";
+        const parkingBadges = parkingTitleBadgesHtml(mall);
+        const parkingBlock = parkingRewardBlockHtml(mall);
+        const titleRow = `<div class="mt-1 flex flex-wrap items-center gap-2"><h3 class="text-xl font-black">${mall.mall_name}</h3>${parkingBadges}</div>`;
+        const mapTrigger = hasMapCoords
+          ? `<button type="button" class="card-map-trigger place-card-map-zone w-full text-left"${mapAttrs} aria-label="在地圖上查看 ${escapeAttr(mall.mall_name)}"><p class="text-xs font-bold text-coral">${district.district}</p>${titleRow}<p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distLine ? `<p class="mt-2">${distLine}</p>` : ""}${geoChips(mall)}${mapHint}</button>`
+          : `<div><p class="text-xs font-bold text-coral">${district.district}</p>${titleRow}<p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distLine ? `<p class="mt-2">${distLine}</p>` : ""}${geoChips(mall)}</div>`;
+        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}" data-place-name="${escapeAttr(mall.mall_name)}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="mall"${hasMapCoords ? ` data-lat="${lat}" data-lng="${lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}${parkingBlock}<p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p></div><button type="button" class="place-card-expand mall-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-mall-key="${key}" aria-expanded="${expanded}" aria-label="${expanded ? "收合" : "展開"} ${escapeAttr(mall.mall_name)} 優惠">${expanded ? "−" : "+"}</button></div>${expanded ? `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, bindMallOfferCard(mall.mall_name), "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>` : ""}</article>`;
       }
 
       function collectMapPlaces() {
         const places = [];
         const showMalls = true;
-        const showHotels = true;
+        const showHotels = !state.filterFreeParking;
         if (showMalls) {
           getVisibleDistricts().forEach((district) => {
             (district.malls || []).forEach((mall) => {
+              if (state.filterFreeParking && !mallHasFreeParking(mall)) return;
               const lat = Number(mall.lat);
               const lng = Number(mall.lng);
               if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
@@ -1259,7 +1484,7 @@ function hotelCard(hotel) {
               const storeOffers = isolateOffersForCurrentView(rawStoreOffers);
               const filtersOn = state.selectedVertical !== "全部" || state.selectedTag !== "全部" || currentViewMode() !== "全部" || (state.selectedBanks && state.selectedBanks.length > 0);
               if (filtersOn && !mallOffers.length && !storeOffers.length) return;
-              const key = `mall::${district.district}::${mall.mall_name}`;
+              const key = mallPlaceKey(district.district, mall.mall_name);
               places.push({
                 kind: "mall",
                 key,
@@ -1283,7 +1508,7 @@ function hotelCard(hotel) {
             if (state.selectedDistrict !== "全部" && hotel.district !== state.selectedDistrict) return;
             places.push({
               kind: "hotel",
-              key: `hotel::${hotel.id}`,
+              key: hotelPlaceKey(hotel),
               lat,
               lng,
               district: hotel.district,
@@ -1362,6 +1587,8 @@ function hotelCard(hotel) {
             bubble.classList.toggle("map-pin-bubble--active", layer.options && layer.options.placeKey === place.key);
           });
         }
+        const activeMarker = window.mapMarkers[place.key];
+        if (activeMarker && activeMarker.openPopup) activeMarker.openPopup();
       }
 
       function closePlaceDrawer() {
@@ -1406,6 +1633,7 @@ function hotelCard(hotel) {
         const map = ensureLeafletMap();
         if (!map || !state.leafletLayer || typeof L === "undefined") return;
         state.leafletLayer.clearLayers();
+        window.mapMarkers = {};
         const places = collectMapPlaces();
         places.forEach((place) => {
           const km = placeDistanceKm(place.lat, place.lng);
@@ -1436,15 +1664,26 @@ function hotelCard(hotel) {
           marker.bindTooltip(state.sortByProximity && Number.isFinite(place.distance) && place.distance !== Number.POSITIVE_INFINITY
             ? `${place.name} · 距您 ${formatDistanceKm(place.distance)}`
             : place.name, { direction: "top", offset: [0, -12] });
+          const popupKind = place.kind === "hotel" ? "🏨 酒店" : "🛍️ 商場";
+          const parkingLine = place.kind === "mall" && place.mall ? parkingPopupHtml(place.mall) : "";
+          marker.bindPopup(`<strong>${popupKind} ${place.name}</strong>${place.address ? `<br><span style="font-size:12px;color:#64748b">${place.address}</span>` : ""}${parkingLine}`);
           marker.on("click", () => openPlaceDrawer(place));
           marker.addTo(state.leafletLayer);
+          window.mapMarkers[place.key] = marker;
           bounds.push([place.lat, place.lng]);
         });
-        if (bounds.length) {
+        if (state.pendingMapFocus) {
+          const focus = state.pendingMapFocus;
+          state.pendingMapFocus = null;
+          window.setTimeout(() => applyMapFocus(focus.placeKey, focus.lat, focus.lng), 120);
+        } else if (bounds.length) {
           map.fitBounds(bounds, { padding: [28, 28], maxZoom: 13 });
         }
         setTimeout(() => map.invalidateSize(), 80);
-        districtSummary.textContent = `地圖顯示 ${places.filter((p) => p.kind === "mall").length} 個商場 · ${places.filter((p) => p.kind === "hotel").length} 間酒店 Pin`;
+        const mallCount = places.filter((p) => p.kind === "mall").length;
+        const hotelCount = places.filter((p) => p.kind === "hotel").length;
+        const parkingLabel = state.filterFreeParking ? " · 🅿️ 免費泊車" : "";
+        districtSummary.textContent = `地圖顯示 ${mallCount} 個商場 · ${hotelCount} 間酒店 Pin${parkingLabel}`;
       }
 
 
@@ -1527,16 +1766,23 @@ function hotelCard(hotel) {
         );
       }
 
+      function syncParkingChrome() {
+        if (parkingFreeBtn) {
+          parkingFreeBtn.setAttribute("aria-pressed", String(Boolean(state.filterFreeParking)));
+        }
+      }
+
       function render() {
         syncChannelChrome();
         syncLbsChrome();
+        syncParkingChrome();
         if (state.selectedChannel === "map") {
           renderMapPins();
           return;
         }
         const channel = state.selectedChannel;
         const showMalls = channel === "全部" || channel === "malls";
-        const showHotels = channel === "全部" || channel === "hotels";
+        const showHotels = (channel === "全部" || channel === "hotels") && !state.filterFreeParking;
         const items = [];
         if (showMalls) {
           getVisibleDistricts().forEach((district) => {
@@ -1565,16 +1811,20 @@ function hotelCard(hotel) {
         const hotelCards = items.filter((item) => item.kind === "hotel");
         const districtLabel = state.selectedDistrict === "全部" ? "" : `（${state.selectedDistrict}）`;
         const nearLabel = state.sortByProximity && state.userLat != null ? " · 離我最近" : "";
+        const parkingLabel = state.filterFreeParking ? " · 🅿️ 免費泊車" : "";
         if (channel === "hotels") {
-          districtSummary.textContent = `顯示 ${hotelCards.length} 間酒店著數${districtLabel}${nearLabel}`;
+          districtSummary.textContent = `顯示 ${hotelCards.length} 間酒店著數${districtLabel}${nearLabel}${parkingLabel}`;
         } else if (channel === "malls") {
-          districtSummary.textContent = `顯示 ${mallCards.length} 間商場${districtLabel}${nearLabel}`;
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場${districtLabel}${nearLabel}${parkingLabel}`;
         } else {
-          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}${nearLabel}`;
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}${nearLabel}${parkingLabel}`;
         }
         if (!cards.length) {
           const emptyId = channel === "hotels" ? "#empty-state-hotels" : channel === "malls" ? "#empty-state" : "#empty-state-all";
           mallList.innerHTML = document.querySelector(emptyId).innerHTML;
+          if (state.filterFreeParking && showMalls) {
+            mallList.innerHTML = `<div class="col-span-full rounded-3xl border border-dashed border-sky-300 bg-sky-50 px-6 py-14 text-center"><p class="text-3xl">🅿️</p><p class="mt-3 font-black">暫無符合「免費泊車」篩選的商場</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區，或關閉 🅿️ 免費泊車 篩選。</p></div>`;
+          }
           return;
         }
         mallList.innerHTML = cards.join("");
@@ -1611,6 +1861,15 @@ function hotelCard(hotel) {
         lbsClearBtn.addEventListener("click", () => {
           state.sortByProximity = false;
           state.locationStatus = "已回復預設排序。";
+          render();
+        });
+      }
+
+      if (parkingFreeBtn) {
+        parkingFreeBtn.addEventListener("click", () => {
+          state.filterFreeParking = !state.filterFreeParking;
+          state.expandedMalls.clear();
+          state.expandedHotels.clear();
           render();
         });
       }
@@ -1686,6 +1945,19 @@ function hotelCard(hotel) {
           const safeUrl = resolveBookingNavigation(bookingEl);
           if (safeUrl && /^https?:\/\//i.test(safeUrl)) {
             window.open(safeUrl, "_blank", "noopener,noreferrer");
+          }
+          return;
+        }
+        const mapTrigger = event.target.closest(".card-map-trigger");
+        if (mapTrigger) {
+          if (event.target.closest("a, [data-hotel-booking], .btn-booking")) return;
+          event.preventDefault();
+          event.stopPropagation();
+          const placeKey = mapTrigger.dataset.placeKey || mapTrigger.closest("[data-place-key]")?.dataset.placeKey;
+          const lat = Number(mapTrigger.dataset.lat || mapTrigger.closest("[data-lat]")?.dataset.lat);
+          const lng = Number(mapTrigger.dataset.lng || mapTrigger.closest("[data-lng]")?.dataset.lng);
+          if (placeKey && Number.isFinite(lat) && Number.isFinite(lng)) {
+            focusPlaceOnMap(placeKey, lat, lng);
           }
           return;
         }

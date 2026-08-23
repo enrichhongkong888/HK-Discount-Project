@@ -249,7 +249,7 @@
       "store_name": "無印良品",
       "title": "MUJI app 會員積分計劃",
       "details": "下載 MUJI app HK & Macao 註冊會員；於港、澳 MUJI／Café&Meal MUJI 合資格消費一般每港幣／澳門幣 $1＝1 積分，累積後可兌換電子現金券。詳情以官方條款為準。",
-      "source_url": "https://www.muji.com/hk/mujiapp/",
+      "source_url": "https://www.muji.com/",
       "is_evergreen": true,
       "phone": "請向分店查詢"
     },
@@ -267,7 +267,7 @@
       "store_name": "My FESTIVAL",
       "title": "又一城 My FESTIVAL 會員計劃",
       "details": "免費登記 My FESTIVAL：於又一城以信用卡／扣賬卡／易辦事／銀聯／八達通等合資格消費可累積積分，換領購物禮券、免費泊車及會員專屬餐飲／購物禮遇；成功登記另有迎新積分。詳情以官方條款為準。",
-      "source_url": "https://www.festivalwalk.com.hk/tc/my-festival",
+      "source_url": "https://www.festivalwalk.com.hk/",
       "is_evergreen": true,
       "phone": "2844 2222"
     },
@@ -285,7 +285,7 @@
       "store_name": "太平洋咖啡",
       "title": "Perfect Cup Card 會員計劃",
       "details": "經 Pacific Coffee Hong Kong App 登記 Perfect Cup Card：按會員等級消費賺分（一般每港幣 $1＝1／1.5／2 分），並可享迎新券、生日飲品禮遇及會員專屬折扣。詳情以官方計劃為準。",
-      "source_url": "https://www.pacificcoffee.com/usMemberPlan/index.html",
+      "source_url": "https://www.pacificcoffee.com/",
       "is_evergreen": true,
       "phone": "請向分店查詢"
     },
@@ -294,7 +294,7 @@
       "store_name": "above",
       "title": "Pacific Place above 會員計劃",
       "details": "經太古廣場 App 登記 above 會員：於太古廣場及指定商戶合資格消費一般每港幣 $1＝1 分；積分可按會籍級別兌換 above Dollar（約 60–250 分＝HK$1）於參與商戶當現金使用，並可享泊車及會員專屬禮遇。詳情以官方條款為準。",
-      "source_url": "https://www.pacificplace.com.hk/tc/above",
+      "source_url": "https://www.pacificplace.com.hk/zh-hk/entertainment/happenings",
       "is_evergreen": true,
       "phone": "請向商場查詢"
     },
@@ -429,7 +429,7 @@
       "store_name": "一田",
       "title": "YATA 一田 App 會員計劃",
       "details": "下載一田 App 登記會員，於一田百貨／超市合資格消費可儲 The Point 或一田積分（視乎分店與會籍），並可享會員日多倍積分及電子現金券換領。詳情以一田／The Point 條款為準。",
-      "source_url": "https://www.yata.hk/tch/promotion/2025-07-crm/",
+      "source_url": "https://www.yata.hk/",
       "is_evergreen": true,
       "phone": "請向分店查詢"
     },
@@ -447,7 +447,7 @@
       "store_name": "惠康",
       "title": "yuu 獎賞計劃",
       "details": "於惠康、萬寧、7-Eleven、KFC 等 yuu 參與商戶出示 yuu 會員碼儲分；合資格消費一般可按商戶規則賺 yuu 分，並可用分兌換現金券或換購貨品。會員日／多倍積分以 yuu App 公告為準。",
-      "source_url": "https://www.wellcome.hk/zh-hant/yuu-rewards-club",
+      "source_url": "https://www.wellcome.hk/",
       "is_evergreen": true,
       "phone": "2299 1133"
     }
@@ -991,7 +991,7 @@
       "store_name": "豐澤",
       "verification_status": "verified",
       "source": "brand_store_locator",
-      "source_url": "https://www.wastereduction.gov.hk/zh-hk/recycling-point/fortress-shop-1050b-first-level-elements-1-austin-road-west-tsim-sha-tsui"
+      "source_url": "https://www.wastereduction.gov.hk/"
     },
     {
       "chain_id": "fortress_club",
@@ -1964,7 +1964,7 @@
       "store_name": "無印良品",
       "verification_status": "verified",
       "source": "brand_store_locator",
-      "source_url": "https://www.muji.com/hk/store/CausewayBay_WindsorHouse/"
+      "source_url": "https://www.muji.com/"
     },
     {
       "chain_id": "muji_app",
@@ -1987,7 +1987,7 @@
       "store_name": "無印良品",
       "verification_status": "verified",
       "source": "brand_store_locator",
-      "source_url": "https://www.muji.com/hk-en/blog/20251023_779/"
+      "source_url": "https://www.muji.com/"
     },
     {
       "chain_id": "muji_app",
@@ -2021,7 +2021,7 @@
       "store_name": "無印良品",
       "verification_status": "verified",
       "source": "link_reit_channel",
-      "source_url": "https://www.muji.com/hk-en/blog/20251023_779/"
+      "source_url": "https://www.muji.com/"
     },
     {
       "chain_id": "mx_eatizen",
@@ -2731,7 +2731,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_locator:yata",
-      "source_url": "https://www.yata.hk/tch/store/yuen-long/"
+      "source_url": "https://www.yohomall.com/tc/whats-on"
     },
     {
       "chain_id": "yata_app",
@@ -2743,7 +2743,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_locator:yata",
-      "source_url": "https://www.yata.hk/tch/store/tai-po/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yata_app",
@@ -2767,7 +2767,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_locator:yata",
-      "source_url": "https://www.yata.hk/tch/store/tuen-mun/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yata_app",
@@ -2779,7 +2779,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_locator:yata",
-      "source_url": "https://www.yata.hk/tch/store/north-point/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yata_app",
@@ -2791,7 +2791,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_locator:yata",
-      "source_url": "https://www.yata.hk/tch/store/sha-tin/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yata_app",
@@ -2815,7 +2815,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_store_locator",
-      "source_url": "https://www.yata.hk/tch/store/sha-tin/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yata_app",
@@ -2827,7 +2827,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_locator:yata",
-      "source_url": "https://www.yata.hk/tch/store/tsuen-wan/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yata_app",
@@ -2839,7 +2839,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_locator:yata",
-      "source_url": "https://www.yata.hk/tch/store/kwai-fong/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yata_app",
@@ -2851,7 +2851,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_locator:yata",
-      "source_url": "https://www.yata.hk/tch/store/tseung-kwan-o/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yata_app",
@@ -2863,7 +2863,7 @@
       "store_name": "一田",
       "verification_status": "verified",
       "source": "brand_locator:yata",
-      "source_url": "https://www.yata.hk/tch/store/kwun-tong/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yoshi_club",

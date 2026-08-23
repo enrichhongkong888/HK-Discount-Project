@@ -39,7 +39,7 @@
       "floor": "三期 1-2樓",
       "shop_number": "L1-L2",
       "phone": "2694 1111",
-      "source_url": "https://www.yata.hk/tch/store/sha-tin/"
+      "source_url": "https://www.yata.hk/"
     },
     {
       "chain_id": "yata_app",
@@ -159,7 +159,7 @@
       "floor": "地庫",
       "shop_number": "B1",
       "phone": "3971 3110",
-      "source_url": "https://www.muji.com/hk/store/CausewayBay_WindsorHouse/"
+      "source_url": "https://www.muji.com/"
     },
     {
       "chain_id": "starbucks_rewards",
@@ -219,7 +219,7 @@
       "floor": "水區 L1",
       "shop_number": "1050B",
       "phone": "2196 8252",
-      "source_url": "https://www.wastereduction.gov.hk/zh-hk/recycling-point/fortress-shop-1050b-first-level-elements-1-austin-road-west-tsim-sha-tsui"
+      "source_url": "https://www.wastereduction.gov.hk/"
     },
     {
       "chain_id": "moneyback",
@@ -309,7 +309,7 @@
       "floor": "1樓",
       "shop_number": "1050-53",
       "phone": "3971 3261",
-      "source_url": "https://www.muji.com/hk-en/blog/20251023_779/"
+      "source_url": "https://www.muji.com/"
     },
     {
       "chain_id": "uniqlo_app",

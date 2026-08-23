@@ -38,7 +38,10 @@
     {
       "enabled": true,
       "channel": "supermarket",
-      "brand_affinity": ["DON DON DONKI", "Don Don Donki"],
+      "brand_affinity": [
+        "DON DON DONKI",
+        "Don Don Donki"
+      ],
       "title": "DONKI 期間限定進口零食快閃",
       "details": "DON DON DONKI 官方活動日曆：期間限定進口零食／日用品快閃特價；數量有限售完即止。",
       "source_url": "https://www.dondondonki.com/hk/",
@@ -49,7 +52,10 @@
     {
       "enabled": true,
       "channel": "cinema",
-      "brand_affinity": ["百老匯", "Broadway"],
+      "brand_affinity": [
+        "百老匯",
+        "Broadway"
+      ],
       "title": "百老匯戲院新片早鳥套票",
       "details": "百老匯戲院日曆公告：新片早鳥套票及會員加購優惠；購票條款以官方網站及票房為準。",
       "source_url": "https://www.broadway.com.hk/",
@@ -60,7 +66,10 @@
     {
       "enabled": true,
       "channel": "cinema",
-      "brand_affinity": ["百老匯", "Broadway"],
+      "brand_affinity": [
+        "百老匯",
+        "Broadway"
+      ],
       "title": "百老匯戲院平日場次禮遇",
       "details": "百老匯戲院活動日曆：平日指定場次套餐／小食加購禮遇；詳情以戲院現場及 App 為準。",
       "source_url": "https://www.broadway.com.hk/",
@@ -71,7 +80,10 @@
     {
       "enabled": true,
       "channel": "cinema",
-      "brand_affinity": ["MCL", "MCL Cinemas"],
+      "brand_affinity": [
+        "MCL",
+        "MCL Cinemas"
+      ],
       "title": "MCL 戲院近期場次會員賞",
       "details": "MCL 戲院公開日曆：近期場次會員積分／套票禮遇；若本商場未有核實 MCL 門市則不入庫。",
       "source_url": "https://www.mclcinema.com/",
@@ -162,7 +174,7 @@
       "mall_hint": "YOHO MALL",
       "title": "YOHO MALL 活動日曆",
       "details": "YOHO MALL 公開日曆：期間限定商場活動與商戶聯乘快閃；詳情以官方網站為準。",
-      "source_url": "https://www.yohomall.com.hk/",
+      "source_url": "https://www.yohomall.com/tc/whats-on",
       "start_offset_days": 2,
       "end_offset_days": 8,
       "max_stores": 3

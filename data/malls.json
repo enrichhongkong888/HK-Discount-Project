@@ -4,23 +4,29 @@
     "name": "創紀之城五期 (apm)",
     "district": "觀塘區",
     "group": "SHKP",
-    "url": "https://www.hkmalls.com/mall/apm",
+    "url": "https://www.hkmalls.com/",
     "offers_count": 1,
     "offers": [
       {
         "title": "apm 免費免費泊車優惠",
         "description": "消費滿指定金額可享最高 3 小時免費泊車優惠",
-        "link": "https://www.hkmalls.com/mall/apm",
+        "link": "https://www.hkmalls.com/",
         "source": "創紀之城五期 (apm)"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": true,
+      "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時 / HK$600 3 小時（條款以官網為準）",
+      "ev_charging": true,
+      "ev_details": "提供 7kW 中充及 22kW 快充位"
+    }
   },
   "new_town_plaza": {
     "mall_id": "new_town_plaza",
     "name": "沙田新城市廣場",
     "district": "沙田區",
     "group": "SHKP",
-    "url": "https://www.newtownplaza.com.hk/hk/promotions",
+    "url": "https://www.newtownplaza.com.hk/",
     "offers_count": 8,
     "offers": [
       {
@@ -38,7 +44,7 @@
       {
         "title": "Entertainment",
         "description": "MOVIE TOWN",
-        "link": "https://www.newtownplaza.com.hk/hk/promotions/#",
+        "link": "https://www.newtownplaza.com.hk/",
         "source": "沙田新城市廣場"
       },
       {
@@ -71,7 +77,13 @@
         "link": "https://www.newtownplaza.com.hk/entertainment/dino-park-2/",
         "source": "沙田新城市廣場"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": true,
+      "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時 / HK$800 3 小時（The Point 會員；條款以官網為準）",
+      "ev_charging": true,
+      "ev_details": "提供 7kW 中充及 50kW 快充位"
+    }
   },
   "tmtp": {
     "mall_id": "tmtp",
@@ -87,7 +99,13 @@
         "link": "https://www.tmtp.com.hk/tc/Promotions",
         "source": "屯門市廣場"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": true,
+      "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（S+ REWARDS 會員；條款以官網為準）",
+      "ev_charging": true,
+      "ev_details": "提供 7kW 中充位"
+    }
   },
   "citywalk": {
     "mall_id": "citywalk",
@@ -103,7 +121,13 @@
         "link": "https://www.citywalk.com.hk/tc/Promotions",
         "source": "荃灣荃新天地"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": true,
+      "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（S+ REWARDS 會員；條款以官網為準）",
+      "ev_charging": true,
+      "ev_details": "提供 7kW 中充位"
+    }
   },
   "taikoo_place": {
     "mall_id": "taikoo_place",
@@ -119,7 +143,13 @@
         "link": "https://www.cityplaza.com/zh-hk/events",
         "source": "太古城中心"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": true,
+      "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時 / HK$600 2 小時（LIVE+ 會員；條款以官網為準）",
+      "ev_charging": true,
+      "ev_details": "提供 7kW 中充及 22kW 快充位"
+    }
   },
   "moko": {
     "mall_id": "moko",
@@ -159,7 +189,13 @@
         "link": "https://www.moko.com.hk/about-moko/",
         "source": "MOKO 新世紀廣場"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": true,
+      "free_parking_threshold": "消費滿 HK$200 免費泊車 1 小時 / HK$400 2 小時（The Point 會員；條款以官網為準）",
+      "ev_charging": true,
+      "ev_details": "提供 7kW 中充位"
+    }
   },
   "popcorn": {
     "mall_id": "popcorn",
@@ -175,7 +211,13 @@
         "link": "https://www.popcornmall.com.hk/",
         "source": "PopCorn"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": true,
+      "free_parking_threshold": "消費滿 HK$300 免費泊車 1 小時（MTR Mobile 會員；條款以官網為準）",
+      "ev_charging": true,
+      "ev_details": "提供 7kW 中充位"
+    }
   },
   "harbour_city": {
     "mall_id": "harbour_city",
@@ -227,7 +269,13 @@
         "link": "https://www.harbourcity.com.hk/tc/fashion-beauty/",
         "source": "海港城"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": true,
+      "free_parking_threshold": "消費滿 HK$500 免費泊車 1 小時 / HK$800 2 小時（VIC Club 會員；條款以官網為準）",
+      "ev_charging": true,
+      "ev_details": "提供 7kW 中充及 22kW 快充位"
+    }
   },
   "chain_mannings": {
     "mall_id": "chain_mannings",
@@ -243,7 +291,13 @@
         "link": "https://www.mannings.com.hk/offers",
         "source": "萬寧 Mannings"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": false,
+      "free_parking_threshold": "連鎖品牌無固定商場泊車；請向個別分店所在商場查詢",
+      "ev_charging": false,
+      "ev_details": "不適用"
+    }
   },
   "chain_watsons": {
     "mall_id": "chain_watsons",
@@ -259,6 +313,12 @@
         "link": "https://www.watsons.com.hk/",
         "source": "屈臣氏 Watsons"
       }
-    ]
+    ],
+    "parking_details": {
+      "has_free_parking": false,
+      "free_parking_threshold": "連鎖品牌無固定商場泊車；請向個別分店所在商場查詢",
+      "ev_charging": false,
+      "ev_details": "不適用"
+    }
   }
 }
