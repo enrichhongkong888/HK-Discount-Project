@@ -242,7 +242,7 @@
         border: 1px solid #bae6fd;
         background: linear-gradient(180deg, #f0f9ff 0%, #e0f2fe 100%);
       }
-      .parking-filter-chip[aria-pressed="true"] {
+      #channel-filters [data-channel="parking"][aria-pressed="true"] {
         background: #2563eb;
         color: #fff;
       }
@@ -365,6 +365,10 @@
         font-size: 0.75rem;
         color: #64748b;
       }
+      .lbs-status:empty {
+        display: none;
+        margin: 0;
+      }
 
       .mall-filters-panel[hidden], .hotel-only-hint[hidden] { display: none !important; }
       @media (max-width: 480px) {
@@ -486,17 +490,10 @@
                 <button type="button" class="district-tag" data-channel="全部" aria-pressed="true">全部著數</button>
                 <button type="button" class="district-tag" data-channel="malls" aria-pressed="false">🛍️ 商場門市</button>
                 <button type="button" class="district-tag" data-channel="hotels" aria-pressed="false">🏨 酒店優惠</button>
-                <button type="button" class="district-tag" data-channel="map" aria-pressed="false">🗺️ 地圖導航</button>
+                <button type="button" class="district-tag" data-channel="parking" aria-pressed="false">🅿️ 免費泊車</button>
+                <button type="button" class="district-tag" data-channel="map" aria-pressed="false">🗺️ 地圖導覽</button>
               </div>
               <p class="hotel-only-hint mt-3 hidden text-xs text-slate-500" id="hotel-channel-hint">顯示全港 4–5 星級酒店進行中／即將開始的著數；無有效優惠的酒店會自動隱藏。</p>
-            </div>
-
-            <div class="mt-6 border-t border-slate-100 pt-5" id="parking-filters-panel">
-              <p class="text-xs font-bold text-slate-500">🅿️ 泊車著數</p>
-              <div id="parking-filters" class="mt-2 flex flex-wrap gap-2" role="group" aria-label="泊車優惠篩選">
-                <button type="button" id="parking-free-btn" class="district-tag parking-filter-chip" data-parking="free" aria-pressed="false">🅿️ 免費泊車</button>
-              </div>
-              <p class="mt-2 text-xs text-slate-500">開啟後，列表與地圖僅顯示設有免費泊車優惠的商場。</p>
             </div>
 
             <div class="mt-6 border-t border-slate-100 pt-5" id="lbs-filters-panel">
@@ -505,7 +502,7 @@
                 <button type="button" id="lbs-sort-btn" class="district-tag" data-lbs="proximity" aria-pressed="false">📍 離我最近</button>
                 <button type="button" id="lbs-clear-btn" class="district-tag" data-lbs="clear" aria-pressed="false">預設排序</button>
               </div>
-              <p id="lbs-status" class="lbs-status" aria-live="polite">開啟定位後，卡片顯示「距您 Xm」並由近至遠排序。</p>
+              <p id="lbs-status" class="lbs-status" aria-live="polite"></p>
             </div>
             </div>
           </div>
@@ -554,7 +551,6 @@
         hotels: [],
         selectedDistrict: "全部",
         selectedChannel: "全部",
-        filterFreeParking: false,
         expandedMalls: new Set(),
         expandedHotels: new Set(),
         selectedPlaceKey: "",
@@ -575,8 +571,6 @@
       const navButtons = document.querySelectorAll("[data-view]");
       const mallList = document.querySelector("#mall-list");
       const districtTags = document.querySelector("#district-tags");
-      const parkingFreeBtn = document.querySelector("#parking-free-btn");
-      const parkingFiltersPanel = document.querySelector("#parking-filters-panel");
       const lbsSortBtn = document.querySelector("#lbs-sort-btn");
       const lbsClearBtn = document.querySelector("#lbs-clear-btn");
       const lbsStatus = document.querySelector("#lbs-status");
@@ -763,8 +757,7 @@
         const channel = state.selectedChannel || "全部";
         if (channel === "malls" && kind === "hotel") return false;
         if (channel === "hotels" && kind === "mall") return false;
-
-        if (state.filterFreeParking) {
+        if (channel === "parking") {
           if (kind === "hotel") return false;
           if (context.mall && !mallHasFreeParking(context.mall)) return false;
         }
@@ -1336,7 +1329,6 @@ function hotelCard(hotel) {
       }
       function syncChannelChrome() {
         const channel = state.selectedChannel;
-        if (parkingFiltersPanel) parkingFiltersPanel.hidden = channel === "hotels";
         if (hotelChannelHint) hotelChannelHint.classList.toggle("hidden", channel !== "hotels");
         if (listExplore) listExplore.classList.toggle("hidden", channel === "map");
         if (mapExplore) mapExplore.classList.toggle("hidden", channel !== "map");
@@ -1397,8 +1389,9 @@ function hotelCard(hotel) {
 
       function collectMapPlaces() {
         const places = [];
-        const showMalls = true;
-        const showHotels = !state.filterFreeParking;
+        const channel = state.selectedChannel || "全部";
+        const showMalls = channel !== "hotels";
+        const showHotels = channel !== "malls" && channel !== "parking";
         if (showMalls) {
           getVisibleDistricts().forEach((district) => {
             (district.malls || []).forEach((mall) => {
@@ -1610,7 +1603,7 @@ function hotelCard(hotel) {
         setTimeout(() => map.invalidateSize(), 80);
         const mallCount = places.filter((p) => p.kind === "mall").length;
         const hotelCount = places.filter((p) => p.kind === "hotel").length;
-        const parkingLabel = state.filterFreeParking ? " · 🅿️ 免費泊車" : "";
+        const parkingLabel = state.selectedChannel === "parking" ? " · 🅿️ 免費泊車" : "";
         districtSummary.textContent = `地圖顯示 ${mallCount} 個商場 · ${hotelCount} 間酒店 Pin${parkingLabel}`;
       }
 
@@ -1656,7 +1649,7 @@ function hotelCard(hotel) {
           lbsStatus.textContent = state.locationStatus
             || (state.sortByProximity && state.userLat != null
               ? "已開啟「離我最近」：卡片顯示距您距離，並由近至遠排序。"
-              : "開啟定位後，卡片顯示「距您 Xm」並由近至遠排序。");
+              : "");
         }
       }
       function applyProximityOrigin(lat, lng, statusMessage) {
@@ -1694,23 +1687,16 @@ function hotelCard(hotel) {
         );
       }
 
-      function syncParkingChrome() {
-        if (parkingFreeBtn) {
-          parkingFreeBtn.setAttribute("aria-pressed", String(Boolean(state.filterFreeParking)));
-        }
-      }
-
       function render() {
         syncChannelChrome();
         syncLbsChrome();
-        syncParkingChrome();
         if (state.selectedChannel === "map") {
           renderMapPins();
           return;
         }
         const channel = state.selectedChannel;
-        const showMalls = channel === "全部" || channel === "malls";
-        const showHotels = (channel === "全部" || channel === "hotels") && !state.filterFreeParking;
+        const showMalls = channel === "全部" || channel === "malls" || channel === "parking";
+        const showHotels = channel === "全部" || channel === "hotels";
         const items = [];
         if (showMalls) {
           getVisibleDistricts().forEach((district) => {
@@ -1739,18 +1725,20 @@ function hotelCard(hotel) {
         const hotelCards = items.filter((item) => item.kind === "hotel");
         const districtLabel = state.selectedDistrict === "全部" ? "" : `（${state.selectedDistrict}）`;
         const nearLabel = state.sortByProximity && state.userLat != null ? " · 離我最近" : "";
-        const parkingLabel = state.filterFreeParking ? " · 🅿️ 免費泊車" : "";
+        const parkingLabel = state.selectedChannel === "parking" ? " · 🅿️ 免費泊車" : "";
         if (channel === "hotels") {
-          districtSummary.textContent = `顯示 ${hotelCards.length} 間酒店著數${districtLabel}${nearLabel}${parkingLabel}`;
+          districtSummary.textContent = `顯示 ${hotelCards.length} 間酒店著數${districtLabel}${nearLabel}`;
+        } else if (channel === "parking") {
+          districtSummary.textContent = `顯示 ${mallCards.length} 間免費泊車商場${districtLabel}${nearLabel}`;
         } else if (channel === "malls") {
-          districtSummary.textContent = `顯示 ${mallCards.length} 間商場${districtLabel}${nearLabel}${parkingLabel}`;
+          districtSummary.textContent = `顯示 ${mallCards.length} 間商場${districtLabel}${nearLabel}`;
         } else {
           districtSummary.textContent = `顯示 ${mallCards.length} 間商場 · ${hotelCards.length} 間酒店${districtLabel}${nearLabel}${parkingLabel}`;
         }
         if (!cards.length) {
-          const emptyId = channel === "hotels" ? "#empty-state-hotels" : channel === "malls" ? "#empty-state" : "#empty-state-all";
+          const emptyId = channel === "hotels" ? "#empty-state-hotels" : channel === "malls" ? "#empty-state" : channel === "parking" ? "#empty-state" : "#empty-state-all";
           mallList.innerHTML = document.querySelector(emptyId).innerHTML;
-          if (state.filterFreeParking && showMalls) {
+          if (channel === "parking" && showMalls) {
             mallList.innerHTML = `<div class="col-span-full rounded-3xl border border-dashed border-sky-300 bg-sky-50 px-6 py-14 text-center"><p class="text-3xl">🅿️</p><p class="mt-3 font-black">暫無符合「免費泊車」篩選的商場</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區，或關閉 🅿️ 免費泊車 篩選。</p></div>`;
           }
           return;
@@ -1778,16 +1766,6 @@ function hotelCard(hotel) {
           render();
         });
       }
-
-      if (parkingFreeBtn) {
-        parkingFreeBtn.addEventListener("click", () => {
-          state.filterFreeParking = !state.filterFreeParking;
-          state.expandedMalls.clear();
-          state.expandedHotels.clear();
-          render();
-        });
-      }
-
 
       if (placeDrawerClose) placeDrawerClose.addEventListener("click", () => closePlaceDrawer());
       if (placeDrawerBackdrop) placeDrawerBackdrop.addEventListener("click", () => closePlaceDrawer());
