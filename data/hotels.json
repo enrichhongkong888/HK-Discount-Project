@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T11:32:36+08:00",
+  "updated_at": "2026-08-23T22:46:57+08:00",
   "source": "crawl_hotel_official",
   "source_priority": "official_website",
   "registry_count": 37,
@@ -46,12 +46,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour"
-      }
+      ]
     },
     {
       "id": "hotel-four-seasons-hk",
@@ -79,12 +74,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.fourseasons.com/hongkong/"
-      }
+      ]
     },
     {
       "id": "hotel-the-murray",
@@ -113,12 +103,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.niccolohotels.com/zh-hk/hotels/hong-kong/the-murray"
-      }
+      ]
     },
     {
       "id": "hotel-island-shangri-la",
@@ -192,12 +177,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/"
-      }
+      ]
     },
     {
       "id": "hotel-grand-hyatt-hk",
@@ -225,12 +205,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.hyatt.com/zh-Hans/hotel/china/grand-hyatt-hong-kong/hongg"
-      }
+      ]
     },
     {
       "id": "hotel-harbour-grand-hk",
@@ -274,12 +249,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.harbourgrand.com/hongkong/"
-      }
+      ]
     },
     {
       "id": "hotel-renaissance-harbour-view",
@@ -307,12 +277,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.marriott.com/zh/hotels/hkghv-renaissance-hong-kong-harbour-view-hotel/overview/"
-      }
+      ]
     },
     {
       "id": "hotel-peninsula-hk",
@@ -361,12 +326,7 @@
             "HangSeng"
           ]
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.peninsula.com/zh-cn/hong-kong"
-      }
+      ]
     },
     {
       "id": "hotel-icon",
@@ -460,12 +420,7 @@
             "DBS"
           ]
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.hotel-icon.com/"
-      }
+      ]
     },
     {
       "id": "hotel-ritz-carlton-hk",
@@ -557,12 +512,7 @@
             "HSBC"
           ]
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": true,
-        "details": "ion Check-in: 3:00 pm Check-out: 12:00 pm Minimum Age to Check In: 18 Smoke Free Property Pet Policy Pets Not Allowed Parking On-Site Parking Hourly: $90.00 Daily: $800.00 Valet Daily: $800.（條款以官網為準）",
-        "official_url": "https://www.ritzcarlton.com/en/reserve/"
-      }
+      ]
     },
     {
       "id": "hotel-cordis-hk",
@@ -656,12 +606,7 @@
             "HangSeng"
           ]
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.cordishotels.com/en/hong-kong"
-      }
+      ]
     },
     {
       "id": "hotel-hyatt-regency-tst",
@@ -689,12 +634,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-tsim-sha-tsui/hongt"
-      }
+      ]
     },
     {
       "id": "hotel-east-hk",
@@ -752,12 +692,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.swirehotels.com/en/brand/east-hotels/"
-      }
+      ]
     },
     {
       "id": "hotel-kerry-hk",
@@ -831,12 +766,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.shangri-la.com/tc/hongkong/kerry/"
-      }
+      ]
     },
     {
       "id": "hotel-harbour-plaza-north-point",
@@ -864,12 +794,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.harbour-plaza.com/northpoint/"
-      }
+      ]
     },
     {
       "id": "hotel-fullerton-ocean-park",
@@ -897,12 +822,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": true,
-        "details": "酒店設寵物友善住宿計劃（需預約及附加費）；條款以 Marriott 官網最新公告為準。",
-        "official_url": "https://www.marriott.com/en-us/destinations/china/hong-kong/pet-friendly-hotels.mi"
-      }
+      ]
     },
     {
       "id": "hotel-le-meridien-cyberport",
@@ -930,12 +850,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.marriott.com/zh/hotels/hkgmd-le-meridien-cyberport/overview/"
-      }
+      ]
     },
     {
       "id": "hotel-alva-by-royal",
@@ -1029,12 +944,7 @@
             "SCB"
           ]
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.alva.com.hk/"
-      }
+      ]
     },
     {
       "id": "hotel-hyatt-regency-sha-tin",
@@ -1062,12 +972,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-sha-tin/shahy"
-      }
+      ]
     },
     {
       "id": "hotel-royal-park",
@@ -1141,12 +1046,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.royalpark.com.hk/"
-      }
+      ]
     },
     {
       "id": "hotel-royal-view",
@@ -1220,12 +1120,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.royalview.com.hk/"
-      }
+      ]
     },
     {
       "id": "hotel-panda",
@@ -1253,12 +1148,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.pandahotel.com.hk/"
-      }
+      ]
     },
     {
       "id": "hotel-four-points-tung-chung",
@@ -1287,12 +1177,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.marriott.com/zh/hotels/hkgfp-four-points-hong-kong-tung-chung/overview/"
-      }
+      ]
     },
     {
       "id": "hotel-skycity-marriott",
@@ -1320,12 +1205,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.marriott.com/zh/hotels/hkgsm-hong-kong-skycity-marriott-hotel/overview/"
-      }
+      ]
     },
     {
       "id": "hotel-disneyland-hk",
@@ -1373,12 +1253,7 @@
             "HangSeng"
           ]
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.hongkongdisneyland.com/zh-hk/hotels/hong-kong-disneyland-hotel/"
-      }
+      ]
     },
     {
       "id": "hotel-regal-airport",
@@ -1451,12 +1326,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel"
-      }
+      ]
     },
     {
       "id": "hotel-harbour-grand-kowloon",
@@ -1518,12 +1388,7 @@
             "DBS"
           ]
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.harbourgrand.com/kowloon/"
-      }
+      ]
     },
     {
       "id": "hotel-crowne-plaza-ke",
@@ -1551,12 +1416,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.ihg.com/crowneplaza/hotels/us/en/hong-kong/hkgke/hoteldetail"
-      }
+      ]
     },
     {
       "id": "hotel-cozi-harbour",
@@ -1629,12 +1489,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.hotelcozi.com/harbourview/"
-      }
+      ]
     },
     {
       "id": "hotel-gold-coast",
@@ -1684,12 +1539,7 @@
             "DBS"
           ]
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.goldcoasthotel.com.hk/"
-      }
+      ]
     },
     {
       "id": "hotel-regal-riverside",
@@ -1747,12 +1597,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel"
-      }
+      ]
     },
     {
       "id": "hotel-the-fullerton-ocean-park-alt",
@@ -1826,12 +1671,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.fullertonhotels.com/"
-      }
+      ]
     },
     {
       "id": "hotel-dorsett-mongkok",
@@ -1874,12 +1714,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/"
-      }
+      ]
     },
     {
       "id": "hotel-rambler-garden",
@@ -1907,12 +1742,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.ramblerhotels.com/garden/"
-      }
+      ]
     },
     {
       "id": "hotel-silka-tsuen-wan",
@@ -1985,12 +1815,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.silkahotels.com/silka-tsuen-wan/"
-      }
+      ]
     },
     {
       "id": "hotel-courtyard-sha-tin",
@@ -2018,12 +1843,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.marriott.com/zh/hotels/hkgcy-courtyard-hong-kong-sha-tin/overview/"
-      }
+      ]
     },
     {
       "id": "hotel-hop-inn-yoho",
@@ -2096,12 +1916,7 @@
           ],
           "platform": "官網"
         }
-      ],
-      "pet_friendly": {
-        "is_allowed": false,
-        "details": "一般客房不接待寵物（導盲犬除外）；如需攜同寵物請先向酒店查詢。條款以官網為準。",
-        "official_url": "https://www.silkahotels.com/"
-      }
+      ]
     }
   ],
   "last_audit_date": "2026-08-23",
