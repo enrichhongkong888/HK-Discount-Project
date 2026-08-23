@@ -745,12 +745,37 @@
         };
       }
 
-      function matchesBaseFilters(_offer) {
+      function matchesBaseFilters(ctx) {
+        const context = ctx && typeof ctx === "object" ? ctx : {};
+        const kind = context.kind === "hotel" ? "hotel" : "mall";
+        const districtName = String(
+          context.districtName
+          || context.district
+          || (context.mall && context.mall.district)
+          || (context.hotel && context.hotel.district)
+          || ""
+        );
+
+        if (state.selectedDistrict !== "全部" && districtName !== state.selectedDistrict) {
+          return false;
+        }
+
+        const channel = state.selectedChannel || "全部";
+        if (channel === "malls" && kind === "hotel") return false;
+        if (channel === "hotels" && kind === "mall") return false;
+
+        if (state.filterFreeParking) {
+          if (kind === "hotel") return false;
+          if (context.mall && !mallHasFreeParking(context.mall)) return false;
+        }
+
+        // sortByProximity affects ordering only — never excludes places/offers.
         return true;
       }
-      function isolateOffersForCurrentView(offers) {
+      function isolateOffersForCurrentView(offers, ctx) {
+        if (!matchesBaseFilters(ctx)) return [];
         const mode = currentViewMode();
-        const base = offers.filter(matchesBaseFilters);
+        const base = Array.isArray(offers) ? offers : [];
         // Single-status tabs: exclusive projection (no cross-bleed).
         if (mode === "active" || mode === "upcoming") {
           return base
@@ -1184,13 +1209,8 @@
         const offers = Array.isArray(hotel && hotel.offers) ? hotel.offers : [];
         return offers
           .filter((offer) => offer && offer.start_date && offer.end_date)
-          .filter(offerMatchesBanks)
           .map((offer) => ({ ...offer, status: hotelOfferStatus(offer) }))
           .filter((offer) => offer.status === "active" || offer.status === "upcoming");
-      }
-      function hotelMatchesDistrict(hotel) {
-        if (state.selectedDistrict === "全部") return true;
-        return String(hotel.district || "") === state.selectedDistrict;
       }
       function hotelMatchesLifecycle(offers) {
         const mode = currentViewMode();
@@ -1199,7 +1219,7 @@
       }
       function visibleHotels() {
         return (state.hotels || [])
-          .filter(hotelMatchesDistrict)
+          .filter((hotel) => matchesBaseFilters({ kind: "hotel", hotel, districtName: hotel.district }))
           .map((hotel) => {
             const offers = hotelMatchesLifecycle(liveHotelOffers(hotel));
             return { ...hotel, offers };
@@ -1324,7 +1344,8 @@ function hotelCard(hotel) {
       }
 
       function mallCard(district, mall) {
-        if (state.filterFreeParking && !mallHasFreeParking(mall)) return "";
+        const placeCtx = { kind: "mall", mall, districtName: district.district };
+        if (!matchesBaseFilters(placeCtx)) return "";
         const key = `${district.district}::${mall.mall_name}`;
         const placeKey = mallPlaceKey(district.district, mall.mall_name);
         const expanded = state.expandedMalls.has(key);
@@ -1333,8 +1354,8 @@ function hotelCard(hotel) {
         const rawMallOffers = (mall.mall_offers || []).filter((offer) => offer.type === "fallback" || ["active", "upcoming"].includes(offerStatus(offer)));
         const rawStoreOffers = (mall.store_offers || []).filter((offer) => ["active", "upcoming"].includes(offerStatus(offer)));
         // Strict isolation: each tab gets its own projected dataset (no cross-bleed).
-        const mallOffers = isolateOffersForCurrentView(rawMallOffers);
-        const storeOffers = isolateOffersForCurrentView(rawStoreOffers);
+        const mallOffers = isolateOffersForCurrentView(rawMallOffers, placeCtx);
+        const storeOffers = isolateOffersForCurrentView(rawStoreOffers, placeCtx);
         const offers = [...mallOffers, ...storeOffers].filter((offer) => offer.type !== "fallback");
 
         const activeCards = lifecycle === "upcoming" ? [] : offers.filter((o) => displayStatusForCard(o) === "active");
@@ -1381,15 +1402,15 @@ function hotelCard(hotel) {
         if (showMalls) {
           getVisibleDistricts().forEach((district) => {
             (district.malls || []).forEach((mall) => {
-              if (state.filterFreeParking && !mallHasFreeParking(mall)) return;
+              const placeCtx = { kind: "mall", mall, districtName: district.district };
+              if (!matchesBaseFilters(placeCtx)) return;
               const lat = Number(mall.lat);
               const lng = Number(mall.lng);
               if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
-              // Respect vertical / tag / lifecycle / bank filters on the map
               const rawMallOffers = (mall.mall_offers || []).filter((offer) => offer.type === "fallback" || ["active", "upcoming"].includes(offerStatus(offer)));
               const rawStoreOffers = (mall.store_offers || []).filter((offer) => ["active", "upcoming"].includes(offerStatus(offer)));
-              const mallOffers = isolateOffersForCurrentView(rawMallOffers);
-              const storeOffers = isolateOffersForCurrentView(rawStoreOffers);
+              const mallOffers = isolateOffersForCurrentView(rawMallOffers, placeCtx);
+              const storeOffers = isolateOffersForCurrentView(rawStoreOffers, placeCtx);
               if (!mallOffers.length && !storeOffers.length) return;
               const key = mallPlaceKey(district.district, mall.mall_name);
               places.push({
@@ -1412,7 +1433,6 @@ function hotelCard(hotel) {
             const lat = Number(coord.lat);
             const lng = Number(coord.lng);
             if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
-            if (state.selectedDistrict !== "全部" && hotel.district !== state.selectedDistrict) return;
             places.push({
               kind: "hotel",
               key: hotelPlaceKey(hotel),
@@ -1432,8 +1452,9 @@ function hotelCard(hotel) {
         const lifecycle = currentViewMode();
         const rawMallOffers = (mall.mall_offers || []).filter((offer) => offer.type === "fallback" || ["active", "upcoming"].includes(offerStatus(offer)));
         const rawStoreOffers = (mall.store_offers || []).filter((offer) => ["active", "upcoming"].includes(offerStatus(offer)));
-        const mallOffers = isolateOffersForCurrentView(rawMallOffers);
-        const storeOffers = isolateOffersForCurrentView(rawStoreOffers);
+        const placeCtx = { kind: "mall", mall, districtName: district.district };
+        const mallOffers = isolateOffersForCurrentView(rawMallOffers, placeCtx);
+        const storeOffers = isolateOffersForCurrentView(rawStoreOffers, placeCtx);
         const offers = [...mallOffers, ...storeOffers].filter((offer) => offer.type !== "fallback");
         const activeCount = offers.filter((o) => displayStatusForCard(o) === "active").length;
         const upcomingCount = offers.filter((o) => displayStatusForCard(o) === "upcoming").length;
@@ -1852,53 +1873,125 @@ function hotelCard(hotel) {
         }
         render();
       });
+      function renderCards() {
+        render();
+      }
+
+      async function fetchJsonResource(url, label) {
+        let response;
+        try {
+          response = await fetch(url, { cache: "no-store" });
+        } catch (networkErr) {
+          console.error(`[HK-Deal] Network error loading ${label}`, { url, error: networkErr });
+          throw networkErr;
+        }
+        if (!response.ok) {
+          const err = new Error(`${label} HTTP ${response.status} ${response.statusText}`);
+          console.error(`[HK-Deal] Failed to load ${label}`, { url, status: response.status, statusText: response.statusText });
+          throw err;
+        }
+        try {
+          return await response.json();
+        } catch (parseErr) {
+          console.error(`[HK-Deal] Invalid JSON in ${label}`, { url, error: parseErr });
+          throw parseErr;
+        }
+      }
+
+      function normalizeMallLookupName(name) {
+        return String(name || "").replace(/\s+/g, "").toLowerCase();
+      }
+
+      function mergeParkingCatalogFromDataMalls(catalogPayload) {
+        if (!catalogPayload || typeof catalogPayload !== "object") return;
+        const parkingByName = {};
+        Object.values(catalogPayload).forEach((entry) => {
+          if (!entry || typeof entry !== "object" || !entry.parking_details) return;
+          const keys = [
+            normalizeMallLookupName(entry.name),
+            normalizeMallLookupName(entry.mall_id),
+          ].filter(Boolean);
+          keys.forEach((key) => {
+            parkingByName[key] = entry.parking_details;
+          });
+        });
+        (state.districts || []).forEach((district) => {
+          (district.malls || []).forEach((mall) => {
+            if (!mall || mall.parking_details) return;
+            const lookup = normalizeMallLookupName(mall.mall_name);
+            if (parkingByName[lookup]) mall.parking_details = parkingByName[lookup];
+          });
+        });
+      }
+
+      function applyMallFeed(data) {
+        state.districts = (data && data.districts) || [];
+        state.mallOfficialHubs = (data && data.mall_official_hubs) || {};
+        (state.districts || []).forEach((district) => {
+          (district.malls || []).forEach((mall) => {
+            if (!mall || !mall.mall_name) return;
+            if (mall.official_home || mall.official_happenings) {
+              state.mallOfficialHubs[mall.mall_name] = {
+                home: mall.official_home || (state.mallOfficialHubs[mall.mall_name] && state.mallOfficialHubs[mall.mall_name].home) || "",
+                happenings: mall.official_happenings || (state.mallOfficialHubs[mall.mall_name] && state.mallOfficialHubs[mall.mall_name].happenings) || "",
+              };
+            }
+          });
+        });
+      }
+
+      async function fetchData() {
+        const mallData = await fetchJsonResource("./malls.json", "malls.json");
+        applyMallFeed(mallData);
+        mallsLoaded = true;
+
+        try {
+          const catalogData = await fetchJsonResource("./data/malls.json", "data/malls.json");
+          mergeParkingCatalogFromDataMalls(catalogData);
+        } catch (catalogErr) {
+          console.error("[HK-Deal] Optional parking catalog data/malls.json unavailable; using malls.json parking_details only.", catalogErr);
+        }
+
+        try {
+          const hotelsData = await fetchJsonResource("./data/hotels.json", "data/hotels.json");
+          state.hotels = Array.isArray(hotelsData.hotels) ? hotelsData.hotels : (Array.isArray(hotelsData) ? hotelsData : []);
+        } catch (hotelErr) {
+          console.error("[HK-Deal] Failed to load data/hotels.json", hotelErr);
+          state.hotels = [];
+        }
+
+        try {
+          const coordsData = await fetchJsonResource("./data/hotel_coordinates.json", "data/hotel_coordinates.json");
+          state.hotelCoords = (coordsData && coordsData.coordinates) || {};
+        } catch (coordsErr) {
+          console.error("[HK-Deal] Failed to load data/hotel_coordinates.json", coordsErr);
+          state.hotelCoords = {};
+        }
+
+        hotelsLoaded = true;
+      }
+
+      function showLoadFailure(err) {
+        console.error("[HK-Deal] fetchData() failed — unable to render mall feed.", err);
+        districtSummary.textContent = "無法載入資料。請以本機網頁伺服器開啟此頁面。";
+        if (mallList) {
+          mallList.innerHTML = '<div class="col-span-full rounded-3xl bg-red-50 p-6 text-sm font-semibold text-red-700">資料載入失敗。請執行 <code class="rounded bg-white px-2 py-1">python -m http.server 8000</code> 後開啟 http://localhost:8000。</div>';
+        }
+      }
+
       let mallsLoaded = false;
       let hotelsLoaded = false;
-      function loadHotels() {
-        const hotelsPromise = fetch("./data/hotels.json", { cache: "no-store" })
-          .then((response) => { if (!response.ok) throw new Error(); return response.json(); })
-          .then((data) => {
-            state.hotels = Array.isArray(data.hotels) ? data.hotels : (Array.isArray(data) ? data : []);
-          })
-          .catch(() => { state.hotels = []; });
-        const coordsPromise = fetch("./data/hotel_coordinates.json", { cache: "no-store" })
-          .then((response) => { if (!response.ok) throw new Error(); return response.json(); })
-          .then((data) => { state.hotelCoords = (data && data.coordinates) || {}; })
-          .catch(() => { state.hotelCoords = {}; });
-        return Promise.all([hotelsPromise, coordsPromise]).then(() => { hotelsLoaded = true; });
-      }
       function loadMalls() {
         if (mallsLoaded && hotelsLoaded) {
-          render();
+          renderCards();
           return;
         }
-        districtSummary.textContent = "載入著數資料中…";
-        const mallPromise = mallsLoaded
-          ? Promise.resolve()
-          : fetch("./malls.json", { cache: "no-store" }).then((response) => { if (!response.ok) throw new Error(); return response.json(); }).then((data) => {
-              state.districts = data.districts || [];
-              state.mallOfficialHubs = (data && data.mall_official_hubs) || {};
-              // Also collect hubs stamped on each mall
-              (state.districts || []).forEach((district) => {
-                (district.malls || []).forEach((mall) => {
-                  if (!mall || !mall.mall_name) return;
-                  if (mall.official_home || mall.official_happenings) {
-                    state.mallOfficialHubs[mall.mall_name] = {
-                      home: mall.official_home || (state.mallOfficialHubs[mall.mall_name] && state.mallOfficialHubs[mall.mall_name].home) || "",
-                      happenings: mall.official_happenings || (state.mallOfficialHubs[mall.mall_name] && state.mallOfficialHubs[mall.mall_name].happenings) || "",
-                    };
-                  }
-                });
-              });
-              mallsLoaded = true;
-            });
-        const hotelPromise = hotelsLoaded ? Promise.resolve() : loadHotels();
-        Promise.all([mallPromise, hotelPromise]).then(() => {
-          render();
-        }).catch(() => {
-          districtSummary.textContent = "無法載入資料。請以本機網頁伺服器開啟此頁面。";
-          mallList.innerHTML = '<div class="col-span-full rounded-3xl bg-red-50 p-6 text-sm font-semibold text-red-700">資料載入失敗。請執行 <code class="rounded bg-white px-2 py-1">python -m http.server 8000</code> 後開啟 http://localhost:8000。</div>';
-        });
+        if (districtSummary) districtSummary.textContent = "載入著數資料中…";
+        fetchData()
+          .then(() => {
+            renderCards();
+          })
+          .catch(showLoadFailure);
       }
       if (location.hash === "#malls") switchView("malls");
     </script>
