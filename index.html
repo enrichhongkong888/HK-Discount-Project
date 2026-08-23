@@ -1038,6 +1038,12 @@
         if (!count) return "";
         return `<span class="dining-offer-badge" title="OpenRice 餐飲優惠">🍽️ ${count} 項餐飲優惠</span>`;
       }
+      function diningOfferDisplayTitle(offer) {
+        if (typeof window.extractDiningOfferTitle === "function") {
+          return window.extractDiningOfferTitle(offer);
+        }
+        return String(offer && offer.title ? offer.title : "").trim() || "OpenRice 餐飲優惠";
+      }
       function diningOfferCard(offer) {
         const lifecycle = diningOfferLifecycle(offer);
         if (lifecycle.status === "expired" || lifecycle.status === "scheduled") return "";
@@ -1059,7 +1065,7 @@
         const cta = /^https?:\/\//.test(url)
           ? `<a class="dining-openrice-cta mt-3" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">前往 OpenRice 領取/預約 ↗</a>`
           : "";
-        return `<article class="dining-offer-card rounded-2xl border p-4 ${borderTone}"><div class="flex flex-wrap items-center gap-2"><span class="text-xs font-black ${badgeTone}">${escapeHtml(lifecycle.label || "")}</span>${typeLine}${tagLine}</div><h5 class="mt-2 text-base font-black leading-tight">${escapeHtml(offer.restaurant_name || "")}</h5>${shopLine}<p class="mt-2 text-sm font-semibold leading-6">${escapeHtml(offer.title || "")}</p><p class="mt-2 text-xs font-semibold opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</article>`;
+        return `<article class="dining-offer-card rounded-2xl border p-4 ${borderTone}"><div class="flex flex-wrap items-center gap-2"><span class="text-xs font-black ${badgeTone}">${escapeHtml(lifecycle.label || "")}</span>${typeLine}${tagLine}</div><h5 class="mt-2 text-base font-black leading-tight">${escapeHtml(offer.restaurant_name || "")}</h5>${shopLine}<p class="mt-2 text-sm font-semibold leading-6">${escapeHtml(diningOfferDisplayTitle(offer))}</p><p class="mt-2 text-xs font-semibold opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</article>`;
       }
       function diningOffersSection(mall) {
         const offers = getLiveDiningOffers(mall);

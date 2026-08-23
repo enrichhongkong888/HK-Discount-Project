@@ -57,6 +57,97 @@ EVERGREEN_DINING = (
     "實際條款以 OpenRice App／店內告示為準。"
 )
 
+_GENERIC_TITLE_RE = re.compile(
+    r"^(?:OpenRice\s*)?(?:門市／外賣(?:常態禮遇|優惠)|門市\s*/\s*外賣(?:常態禮遇|優惠))(?:[:：]|$)",
+    re.I,
+)
+
+
+def is_generic_openrice_title(text: str) -> bool:
+    t = str(text or "").strip()
+    if not t:
+        return True
+    if t == EVERGREEN_DINING or t.startswith("OpenRice 門市／外賣常態禮遇"):
+        return True
+    if t in ("門市／外賣優惠", "OpenRice 門市／外賣優惠", "OpenRice 門市 / 外賣常態禮遇"):
+        return True
+    if _GENERIC_TITLE_RE.match(t):
+        return True
+    if re.match(r"^OpenRice\s", t, re.I) and len(t) < 48 and "優惠" in t:
+        return True
+    return False
+
+
+def _voucher_title_from_raw(raw: dict[str, Any]) -> str:
+    vouchers = raw.get("vouchers")
+    if isinstance(vouchers, list) and vouchers:
+        first = vouchers[0]
+        if isinstance(first, dict):
+            return str(
+                first.get("title")
+                or first.get("voucher_title")
+                or first.get("shortTitle")
+                or first.get("name")
+                or ""
+            ).strip()
+    related = raw.get("relatedVoucher")
+    if isinstance(related, dict):
+        return str(
+            related.get("title")
+            or related.get("voucher_title")
+            or related.get("shortTitle")
+            or ""
+        ).strip()
+    return ""
+
+
+def _normalize_promo_title(text: str) -> str:
+    t = str(text or "").strip()
+    if re.match(r"^OpenRice\s+", t, re.I):
+        stripped = re.sub(r"^OpenRice\s+", "", t, flags=re.I).strip()
+        if stripped and not is_generic_openrice_title(stripped):
+            return stripped
+    return t
+
+
+def extract_real_offer_title(raw: dict[str, Any]) -> str:
+    """Prefer concrete promo copy; only fall back to evergreen boilerplate when empty."""
+    candidates: list[str] = []
+    for key in ("offer_name", "discount_text", "voucher_title", "promo_title", "title"):
+        val = str(raw.get(key) or "").strip()
+        if val:
+            candidates.append(val)
+    voucher_title = _voucher_title_from_raw(raw)
+    if voucher_title:
+        candidates.append(voucher_title)
+    details = str(raw.get("details") or "").strip()
+    if details:
+        candidates.append(details)
+
+    seen: set[str] = set()
+    for candidate in candidates:
+        parts: list[str] = []
+        if "｜" in candidate:
+            suffix = candidate.split("｜", 1)[-1].strip()
+            if suffix:
+                parts.append(suffix)
+        else:
+            parts.append(candidate)
+        for part in parts:
+            text = str(part or "").strip()
+            key = text.casefold()
+            if not text or key in seen:
+                continue
+            seen.add(key)
+            if is_generic_openrice_title(text):
+                continue
+            return _normalize_promo_title(text)[:160]
+    return ""
+
+
+def display_offer_title(raw: dict[str, Any]) -> str:
+    return extract_real_offer_title(raw) or EVERGREEN_DINING
+
 
 def _load_json(path: Path) -> Any:
     if not path.exists():
@@ -132,6 +223,9 @@ def _promo_from_poi(poi: dict[str, Any]) -> tuple[str, str, bool, str | None, st
             continue
         title = str(
             first.get("title")
+            or first.get("voucher_title")
+            or first.get("offer_name")
+            or first.get("discount_text")
             or first.get("shortTitle")
             or first.get("name")
             or first.get("promoTitle")
@@ -187,14 +281,23 @@ def poi_to_row(poi: dict[str, Any], *, mall_hint: str) -> dict[str, Any] | None:
             source_url = f"https://www.openrice.com/zh/hongkong/r-{poi_id}"
         else:
             return None
-    title = f"{name}｜OpenRice {title_sfx or '門市／外賣優惠'}"
+    promo_fields: dict[str, Any] = {
+        "title": title_sfx,
+        "details": details,
+        "vouchers": poi.get("vouchers"),
+        "relatedVoucher": poi.get("relatedVoucher"),
+    }
+    display_title = display_offer_title(promo_fields)
     row: dict[str, Any] = {
         "store_name": name,
         "floor": floor,
         "shop_number": shop,
         "phone": phone,
         "details": details,
-        "title": title[:120],
+        "title": f"{name}｜{display_title}"[:120],
+        "offer_name": title_sfx or None,
+        "voucher_title": _voucher_title_from_raw(poi) or None,
+        "discount_text": str(poi.get("discountText") or poi.get("discount_text") or "").strip() or None,
         "mall_hint": mall_hint,
         "address": str(poi.get("address") or mall_hint),
         "source_url": source_url,

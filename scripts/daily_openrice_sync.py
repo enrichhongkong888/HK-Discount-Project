@@ -23,6 +23,7 @@ sys.path[:0] = [str(ROOT), str(ROOT / "scripts")]
 import httpx
 
 from scrapers.openrice_api import (  # noqa: E402
+    display_offer_title,
     load_api_cache,
     poi_to_row,
     save_api_cache,
@@ -109,12 +110,8 @@ def row_to_dining_offer(row: dict[str, Any], *, today: date) -> dict[str, Any] |
     if not (name and url and OPENRICE_URL_RE.match(url)):
         return None
 
-    details = str(row.get("details") or row.get("title") or "").strip()
-    title = str(row.get("title") or "").strip()
-    if "｜" in title:
-        title = title.split("｜", 1)[-1].strip()
-    if not title or title.startswith("OpenRice"):
-        title = details[:80] or f"{name} OpenRice 優惠"
+    details = str(row.get("details") or "").strip()
+    title = display_offer_title(row)
 
     start = _parse_date(row.get("start_date"))
     end = _parse_date(row.get("expiry_date") or row.get("end_date"))

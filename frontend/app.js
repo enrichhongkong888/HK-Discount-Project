@@ -36,6 +36,49 @@
     return `${dt.getMonth() + 1}/${dt.getDate()}`;
   }
 
+  function isGenericOpenRiceTitle(text) {
+    const t = String(text || "").trim();
+    if (!t) return true;
+    if (t.startsWith("OpenRice 門市／外賣常態禮遇")) return true;
+    if (t === "門市／外賣優惠" || t === "OpenRice 門市／外賣優惠") return true;
+    if (/^OpenRice\s/i.test(t) && t.length < 48 && t.includes("優惠")) return true;
+    return false;
+  }
+
+  const DEFAULT_DINING_TITLE =
+    "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。";
+
+  function extractDiningOfferTitle(offer) {
+    if (!offer || typeof offer !== "object") return DEFAULT_DINING_TITLE;
+    const candidates = [];
+    ["offer_name", "discount_text", "voucher_title", "title"].forEach((key) => {
+      const val = String(offer[key] || "").trim();
+      if (val) candidates.push(val);
+    });
+    const vouchers = offer.vouchers;
+    if (Array.isArray(vouchers) && vouchers[0] && vouchers[0].title) {
+      candidates.push(String(vouchers[0].title).trim());
+    }
+    const details = String(offer.details || "").trim();
+    if (details) candidates.push(details);
+
+    const seen = new Set();
+    for (const candidate of candidates) {
+      const parts = candidate.includes("｜") ? [candidate.split("｜").pop().trim()] : [candidate];
+      for (const part of parts) {
+        const text = String(part || "").trim();
+        const key = text.toLowerCase();
+        if (!text || seen.has(key)) continue;
+        seen.add(key);
+        if (!isGenericOpenRiceTitle(text)) {
+          const normalized = text.replace(/^OpenRice\s+/i, "").trim();
+          return isGenericOpenRiceTitle(normalized) ? text : normalized || text;
+        }
+      }
+    }
+    return DEFAULT_DINING_TITLE;
+  }
+
   /**
    * @returns {{ status: 'active'|'upcoming'|'expired'|'scheduled', daysUntilStart?: number, label?: string }}
    */
@@ -102,14 +145,16 @@
   }
 
   global.todayDateStr = todayDateStr;
+  global.extractDiningOfferTitle = extractDiningOfferTitle;
   global.getOfferStatus = getOfferStatus;
   global.processStoreDeals = processStoreDeals;
   global.liveDiningOffers = liveDiningOffers;
   global.mallHasDiningOffers = mallHasDiningOffers;
 
   if (typeof module !== "undefined") {
-    module.exports = {
+      module.exports = {
       todayDateStr,
+      extractDiningOfferTitle,
       getOfferStatus,
       processStoreDeals,
       liveDiningOffers,
