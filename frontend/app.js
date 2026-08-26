@@ -1,4 +1,4 @@
-﻿// OpenRice 餐飲優惠 — 每日生命週期狀態引擎
+﻿// OpenRice 餐飲優惠 — 每日生命週期狀態引擎 + 商場 Focus 橫向優惠軌
 (function (global) {
   "use strict";
 
@@ -57,13 +57,6 @@
     return false;
   }
 
-  function isSubstantiveOfferTitle(text) {
-    const t = normalizeDiningTitle(text);
-    if (!t || isGenericOpenRiceTitle(t)) return false;
-    if (SUBSTANTIVE_OFFER_RE.test(t)) return true;
-    return t.length >= 4 && !t.includes("門市") && !t.includes("常態") && !t.includes("告示");
-  }
-
   function normalizeDiningTitle(text) {
     let t = String(text || "").trim();
     if (t.includes("｜")) t = t.split("｜").pop().trim();
@@ -72,10 +65,16 @@
     return t;
   }
 
+  function isSubstantiveOfferTitle(text) {
+    const t = normalizeDiningTitle(text);
+    if (!t || isGenericOpenRiceTitle(t)) return false;
+    if (SUBSTANTIVE_OFFER_RE.test(t)) return true;
+    return t.length >= 4 && !t.includes("門市") && !t.includes("常態") && !t.includes("告示");
+  }
+
   function extractDiningOfferTitle(offer) {
     if (!offer || typeof offer !== "object") return "";
 
-    // 1. Prefer voucher / cash-coupon titles (join multiple).
     const voucherTitles = [];
     const seen = new Set();
     const pushVoucher = (value) => {
@@ -98,7 +97,6 @@
     }
     if (voucherTitles.length) return voucherTitles.join(" / ");
 
-    // 2. Specific discount / promo description fields.
     for (const key of [
       "offer_name",
       "discount_text",
@@ -116,19 +114,15 @@
       if (text && !isGenericOpenRiceTitle(text) && isSubstantiveOfferTitle(text)) return text;
     }
 
-    // 3. Booking / takeaway discount tags.
     const booking = String(
       offer.booking_discount_text || offer.takeaway_discount_text || ""
     ).trim();
     if (booking && !isGenericOpenRiceTitle(booking)) {
       return `線上預約享 ${booking}`;
     }
-
-    // 4. No concrete detail — empty (caller drops the card).
     return "";
   }
 
-  /** Display-layer helper: only return concrete promo titles (never placeholders). */
   function getDisplayOfferDetail(offer) {
     if (!offer || typeof offer !== "object") return "";
     const extracted = extractDiningOfferTitle(offer);
@@ -209,7 +203,257 @@
     return liveDiningOffers(mall, todayOverride).length > 0;
   }
 
+  function clearPanelInlineStyles(panel) {
+    if (!panel) return;
+    panel.removeAttribute("hidden");
+    [
+      "display",
+      "flex-direction",
+      "flex-wrap",
+      "overflow-x",
+      "overflow-y",
+      "width",
+      "gap",
+      "margin-top",
+      "padding-bottom",
+      "visibility",
+      "height",
+      "max-height",
+      "opacity",
+    ].forEach((prop) => panel.style.removeProperty(prop));
+    panel.querySelectorAll(".offer-card").forEach((el) => {
+      ["min-width", "max-width", "width", "flex-shrink", "display", "flex-direction"].forEach(
+        (prop) => el.style.removeProperty(prop)
+      );
+    });
+  }
+
+  function collapseMallCard(card) {
+    if (!card) return;
+    card.classList.remove("is-focused", "mall-card--focused", "mall-card--offers-open");
+    card.style.removeProperty("display");
+    const panel = card.querySelector(".mall-offers-panel");
+    if (panel) {
+      clearPanelInlineStyles(panel);
+      panel.style.setProperty("display", "none", "important");
+    }
+    const btn = card.querySelector("button.mall-toggle");
+    if (btn) {
+      btn.textContent = "+";
+      btn.setAttribute("aria-expanded", "false");
+      btn.setAttribute("aria-label", `展開 ${card.getAttribute("data-place-name") || ""} 優惠`);
+    }
+  }
+
+  function applyFocusedPanelStyles(panel) {
+    if (!panel) return;
+    panel.removeAttribute("hidden");
+    // Match requested focus styles (override any display:none)
+    panel.style.setProperty("display", "flex", "important");
+    panel.style.setProperty("flex-direction", "row", "important");
+    panel.style.setProperty("flex-wrap", "nowrap", "important");
+    panel.style.setProperty("overflow-x", "auto", "important");
+    panel.style.setProperty("width", "100%", "important");
+    panel.style.setProperty("gap", "12px", "important");
+    panel.style.setProperty("margin-top", "16px", "important");
+    panel.style.setProperty("padding-bottom", "12px", "important");
+    panel.style.setProperty("visibility", "visible", "important");
+    panel.style.setProperty("opacity", "1", "important");
+    panel.querySelectorAll(".offer-card").forEach((card) => {
+      card.style.setProperty("min-width", "340px", "important");
+      card.style.setProperty("max-width", "360px", "important");
+      card.style.setProperty("flex-shrink", "0", "important");
+      card.style.setProperty("display", "flex", "important");
+    });
+  }
+
+  /**
+   * Focus one mall via + / − .
+   * Order: add .is-focused BEFORE list focus-mode, so CSS never hides the active card.
+   */
+  function toggleMallFocusMode(mallCardEl, listRoot, forceOpen) {
+    if (!mallCardEl || !mallCardEl.querySelector) {
+      console.warn("[HK-Deal] toggleMallFocusMode: missing mall card");
+      return false;
+    }
+    const panel = mallCardEl.querySelector(".mall-offers-panel");
+    if (!panel) {
+      console.warn("[HK-Deal] toggleMallFocusMode: missing .mall-offers-panel");
+      return false;
+    }
+
+    const list =
+      listRoot ||
+      mallCardEl.closest("#mall-list") ||
+      (typeof document !== "undefined" ? document.querySelector("#mall-list") : null);
+
+    const isFocused = mallCardEl.classList.contains("is-focused");
+    const nextOpen = typeof forceOpen === "boolean" ? forceOpen : !isFocused;
+    const mallName = mallCardEl.getAttribute("data-place-name") || "";
+    let offers = panel.querySelectorAll(".offer-card");
+
+    console.log("[HK-Deal] +/− click", {
+      mall: mallName,
+      nextOpen,
+      offersInDom: offers.length,
+      panelHtmlLength: panel.innerHTML.length,
+    });
+    console.log("Focusing mall:", mallName, "Offers count:", offers.length);
+
+    if (list) {
+      list.querySelectorAll(".mall-card.is-focused, .mall-card.mall-card--focused").forEach((card) => {
+        if (card !== mallCardEl) collapseMallCard(card);
+      });
+    }
+
+    if (nextOpen) {
+      mallCardEl.classList.add("is-focused");
+      mallCardEl.classList.remove("mall-card--focused", "mall-card--offers-open");
+      mallCardEl.style.removeProperty("display");
+      mallCardEl.style.setProperty("display", "block", "important");
+
+      if (list) {
+        list.classList.add("mall-list--focus-mode");
+        list.querySelectorAll(".mall-card").forEach((card) => {
+          if (card !== mallCardEl) {
+            card.style.setProperty("display", "none", "important");
+          }
+        });
+        list.querySelectorAll("[data-place-kind='hotel']").forEach((el) => {
+          el.style.setProperty("display", "none", "important");
+        });
+      }
+
+      if (offers.length === 0) {
+        panel.innerHTML =
+          '<article class="offer-card rounded-2xl border border-dashed border-slate-300 bg-white p-5 text-sm text-slate-500">暫無實質優惠</article>';
+        offers = panel.querySelectorAll(".offer-card");
+        console.log("[HK-Deal] injected empty-state offer-card");
+      }
+
+      applyFocusedPanelStyles(panel);
+
+      const plusBtn = mallCardEl.querySelector("button.mall-toggle");
+      if (plusBtn) {
+        plusBtn.textContent = "-";
+        plusBtn.setAttribute("aria-expanded", "true");
+        plusBtn.setAttribute("aria-label", `收合 ${mallName} 優惠`);
+      }
+
+      console.log("[HK-Deal] focus applied", {
+        hasIsFocused: mallCardEl.classList.contains("is-focused"),
+        panelDisplay: panel.style.display,
+        offerCards: panel.querySelectorAll(".offer-card").length,
+      });
+
+      if (typeof mallCardEl.scrollIntoView === "function") {
+        mallCardEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
+    } else {
+      collapseMallCard(mallCardEl);
+      if (list) {
+        list.classList.remove("mall-list--focus-mode");
+        list.querySelectorAll(".mall-card, [data-place-kind='hotel']").forEach((el) => {
+          el.style.removeProperty("display");
+        });
+      }
+      console.log("[HK-Deal] focus collapsed, list restored");
+    }
+
+    return nextOpen;
+  }
+
+  function toggleMallOffersPanel(mallCardEl, forceOpen, listRoot) {
+    return toggleMallFocusMode(mallCardEl, listRoot, forceOpen);
+  }
+
+  function toggleDiningOffersSection(mallCardEl, forceOpen) {
+    return toggleMallFocusMode(mallCardEl, null, forceOpen);
+  }
+
+  /** Single capture-phase handler — avoids double-toggle from bubble + per-button binds. */
+  function onMallFocusCapture(event) {
+    const trigger = event.target && event.target.closest
+      ? event.target.closest("[data-mall-focus-toggle], button.mall-toggle")
+      : null;
+    if (!trigger) return;
+    // Ignore hotel expand buttons
+    if (trigger.hasAttribute("data-hotel-key") || trigger.classList.contains("hotel-toggle")) return;
+
+    const card = trigger.closest(".mall-card");
+    if (!card || !card.querySelector(".mall-offers-panel")) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    if (typeof event.stopImmediatePropagation === "function") event.stopImmediatePropagation();
+
+    const list = card.closest("#mall-list") || document.querySelector("#mall-list");
+    console.log("[HK-Deal] capture click on +/−", trigger.textContent, card.getAttribute("data-place-name"));
+    toggleMallFocusMode(card, list);
+  }
+
+  function bindMallOffersToggle(root) {
+    const doc = root && root.addEventListener ? root : document;
+    if (doc.__mallFocusCaptureBound) return;
+    doc.__mallFocusCaptureBound = true;
+    doc.addEventListener("click", onMallFocusCapture, true);
+    console.log("[HK-Deal] mall focus capture listener bound");
+  }
+
+  /** Kept for callers after render; capture listener already covers dynamic buttons. */
+  function rebindMallFocusButtons(root) {
+    bindMallOffersToggle(document);
+    const scope = root || document;
+    const list = scope.querySelector ? scope.querySelector("#mall-list") || scope : scope;
+    if (!list || !list.querySelectorAll) return;
+    const count = list.querySelectorAll("[data-mall-focus-toggle], button.mall-toggle").length;
+    const withOffers = list.querySelectorAll(".mall-card .mall-offers-panel .offer-card").length;
+    console.log("[HK-Deal] after render:", { toggleButtons: count, offerCardsInDom: withOffers });
+  }
+
+  if (typeof document !== "undefined") {
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", () => bindMallOffersToggle(document));
+    } else {
+      bindMallOffersToggle(document);
+    }
+  }
+
+  function diningOfferImageUrl(offer) {
+    const fallback = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500";
+    if (!offer || typeof offer !== "object") return fallback;
+    const src = String(
+      offer.image || offer.photo_url || offer.logo_url || offer.banner || ""
+    ).trim();
+    if (/^https?:\/\//i.test(src)) return src;
+    return fallback;
+  }
+
+  /**
+   * Build dining .offer-card HTML with facade image on top (used by SPA renderers).
+   */
+  function renderDiningOfferCardHtml(offer, extras) {
+    const opts = extras && typeof extras === "object" ? extras : {};
+    const detail = opts.detail || getDisplayOfferDetail(offer) || String((offer && offer.title) || "");
+    const name = String((offer && offer.restaurant_name) || "").trim();
+    const title = String((offer && offer.title) || name || "餐廳優惠");
+    const img = diningOfferImageUrl(offer);
+    const fallback = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500";
+    const esc = (v) =>
+      String(v == null ? "" : v)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    return (
+      `<div class="offer-card-img-wrapper"><img class="offer-card-img" src="${esc(img)}" alt="${esc(title)}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';"></div>` +
+      (opts.bodyHtml || `<div class="dining-offer-card__body"><h5>${esc(name || title)}</h5><p>${esc(detail)}</p></div>`)
+    );
+  }
+
   global.todayDateStr = todayDateStr;
+  global.diningOfferImageUrl = diningOfferImageUrl;
+  global.renderDiningOfferCardHtml = renderDiningOfferCardHtml;
   global.extractDiningOfferTitle = extractDiningOfferTitle;
   global.getDisplayOfferDetail = getDisplayOfferDetail;
   global.hasSubstantiveDiningOffer = hasSubstantiveDiningOffer;
@@ -218,9 +462,14 @@
   global.processStoreDeals = processStoreDeals;
   global.liveDiningOffers = liveDiningOffers;
   global.mallHasDiningOffers = mallHasDiningOffers;
+  global.toggleMallFocusMode = toggleMallFocusMode;
+  global.toggleMallOffersPanel = toggleMallOffersPanel;
+  global.toggleDiningOffersSection = toggleDiningOffersSection;
+  global.bindMallOffersToggle = bindMallOffersToggle;
+  global.rebindMallFocusButtons = rebindMallFocusButtons;
 
   if (typeof module !== "undefined") {
-      module.exports = {
+    module.exports = {
       todayDateStr,
       extractDiningOfferTitle,
       getDisplayOfferDetail,
@@ -230,6 +479,11 @@
       processStoreDeals,
       liveDiningOffers,
       mallHasDiningOffers,
+      toggleMallFocusMode,
+      toggleMallOffersPanel,
+      toggleDiningOffersSection,
+      bindMallOffersToggle,
+      rebindMallFocusButtons,
     };
   }
 })(typeof window !== "undefined" ? window : globalThis);

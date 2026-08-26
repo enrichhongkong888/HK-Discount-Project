@@ -262,6 +262,204 @@ def _first_phone(poi: dict[str, Any]) -> str:
     return normalize_phone(str(poi.get("phone") or ""))
 
 
+# OpenRice photoTypeId hints (community / observed). Prefer door/env; never treat as food alone.
+_PHOTO_TYPE_DOOR = {1, 2}  # door / environment when present
+_PHOTO_TYPE_FOOD = {3, 5, 6, 7}  # food / dish / menu variants when present
+
+_FACADE_LABEL_RE = re.compile(
+    r"("
+    r"door|doorshot|door[\s_-]?photo|storefront|facade|façade|exterior|"
+    r"environment|ambiance|ambience|interior(?!\s*food)|"
+    r"門面|门面|店面|外觀|外观|舖面|铺面|招牌|門口|门口|環境|环境|店內環境|店内环境"
+    r")",
+    re.I,
+)
+_FOOD_LABEL_RE = re.compile(
+    r"("
+    r"food|dish|dishes|menu|meal|cuisine|dessert|drink|beverage|"
+    r"coffee|latte|mocha|cappuccino|espresso|tea|smoothie|juice|"
+    r"sandwich|burger|steak|pizza|sushi|ramen|noodle|pasta|"
+    r"tiramisu|cake|bread|toast|salad|soup|rice|"
+    r"菜|餐|美食|餸|饭|飯|麵|面|粥|粉|飯糰|三文治|漢堡|汉堡|"
+    r"牛扒|牛排|刺身|壽司|寿司|甜品|蛋糕|咖啡|奶茶|飲品|饮品|"
+    r"套餐|外賣餐|菜单|菜單|價目|价目|foodie|#food"
+    r")",
+    re.I,
+)
+
+
+def _abs_media_url(value: Any) -> str:
+    text = str(value or "").strip()
+    if not text:
+        return ""
+    if text.startswith("//"):
+        return f"https:{text}"
+    if text.startswith("http://") or text.startswith("https://"):
+        return text
+    if text.startswith("/"):
+        return f"https://www.openrice.com{text}"
+    return ""
+
+
+def _photo_blob(photo: dict[str, Any]) -> str:
+    parts = [
+        photo.get("caption"),
+        photo.get("otherCaption"),
+        photo.get("photoType"),
+        photo.get("photoTypeName"),
+        photo.get("category"),
+        photo.get("categoryName"),
+        photo.get("label"),
+        photo.get("type"),
+        photo.get("typeName"),
+        photo.get("album"),
+        photo.get("albumName"),
+        photo.get("tag"),
+        photo.get("tags"),
+        photo.get("mediaType"),
+        photo.get("mediaUnitType"),
+    ]
+    return " ".join(str(p or "") for p in parts)
+
+
+def _photo_url_from_obj(photo: Any) -> str:
+    if isinstance(photo, str):
+        return _abs_media_url(photo)
+    if not isinstance(photo, dict):
+        return ""
+    urls = photo.get("urls") if isinstance(photo.get("urls"), dict) else {}
+    for key in ("standard", "full", "mx", "lv", "thumbnail", "icon"):
+        hit = _abs_media_url(urls.get(key))
+        if hit:
+            return hit
+    return _abs_media_url(
+        photo.get("url")
+        or photo.get("photoUrl")
+        or photo.get("photo_url")
+        or photo.get("image")
+        or photo.get("imageUrl")
+    )
+
+
+def is_food_photo(photo: Any) -> bool:
+    """True when a photo is tagged / captioned as food, dish, or menu."""
+    if not isinstance(photo, dict):
+        return False
+    if photo.get("isRmsMenu") in (True, 1, "1"):
+        return True
+    tid = photo.get("photoTypeId")
+    try:
+        if tid is not None and int(tid) in _PHOTO_TYPE_FOOD:
+            return True
+    except (TypeError, ValueError):
+        pass
+    blob = _photo_blob(photo)
+    if _FOOD_LABEL_RE.search(blob):
+        return True
+    return False
+
+
+def is_facade_or_environment_photo(photo: Any, *, treat_door_field: bool = False) -> bool:
+    """True for door / environment / storefront / facade / exterior photos."""
+    if treat_door_field:
+        return True
+    if not isinstance(photo, dict):
+        return False
+    if is_food_photo(photo):
+        return False
+    tid = photo.get("photoTypeId")
+    try:
+        if tid is not None and int(tid) in _PHOTO_TYPE_DOOR:
+            return True
+    except (TypeError, ValueError):
+        pass
+    blob = _photo_blob(photo)
+    if _FACADE_LABEL_RE.search(blob):
+        return True
+    # Explicit string category fields
+    for key in ("photoType", "photoTypeName", "category", "categoryName", "label", "type", "typeName"):
+        val = str(photo.get(key) or "").strip().lower()
+        if val in {
+            "door",
+            "environment",
+            "storefront",
+            "facade",
+            "exterior",
+            "門面",
+            "门面",
+            "環境",
+            "环境",
+        }:
+            return True
+    return False
+
+
+def extract_poi_image_url(poi: dict[str, Any]) -> str:
+    """Prefer OpenRice door/environment facade; never return food/dish/menu shots."""
+    if not isinstance(poi, dict):
+        return ""
+
+    # 1) Official doorPhoto (OpenRice curated storefront) — highest priority.
+    door = poi.get("doorPhoto") or poi.get("door_photo")
+    if isinstance(door, (dict, str)):
+        hit = _photo_url_from_obj(door)
+        if hit:
+            return hit
+
+    # 2) Scan photo arrays — only keep facade / environment labelled shots.
+    photo_lists: list[Any] = []
+    for key in ("photos", "photoList", "photo_list", "images", "image_urls", "poiPhotos"):
+        items = poi.get(key)
+        if isinstance(items, list) and items:
+            photo_lists.append(items)
+
+    facade_candidates: list[str] = []
+    for items in photo_lists:
+        for item in items:
+            if is_food_photo(item):
+                continue
+            if not is_facade_or_environment_photo(item):
+                continue
+            hit = _photo_url_from_obj(item)
+            if hit:
+                facade_candidates.append(hit)
+    if facade_candidates:
+        return facade_candidates[0]
+
+    # 3) Fallback: brand logo / storefront banner — still never food.
+    for key in (
+        "logo_url",
+        "logoUrl",
+        "logo",
+        "brandLogo",
+        "brand_logo",
+        "bizLogo",
+        "shopLogo",
+        "coverPhoto",
+        "cover_photo",
+        "banner",
+        "banner_url",
+        "bannerUrl",
+        "doorPhotoUrl",
+        "storefront_url",
+        "storefrontUrl",
+    ):
+        raw = poi.get(key)
+        if isinstance(raw, dict):
+            if is_food_photo(raw):
+                continue
+            hit = _photo_url_from_obj(raw)
+            if hit:
+                return hit
+        else:
+            hit = _abs_media_url(raw)
+            if hit and not _FOOD_LABEL_RE.search(str(raw)):
+                return hit
+
+    # 4) No safe facade/logo — return empty (caller may use neutral placeholder).
+    return ""
+
+
 def _parse_floor_shop(poi: dict[str, Any]) -> tuple[str, str]:
     floor = str(poi.get("floor") or "").strip()
     address = str(poi.get("address") or "").strip()
@@ -354,6 +552,7 @@ def poi_to_row(poi: dict[str, Any], *, mall_hint: str) -> dict[str, Any] | None:
         "relatedVoucher": poi.get("relatedVoucher"),
     }
     display_title = display_offer_title(promo_fields)
+    image_url = extract_poi_image_url(poi)
     row: dict[str, Any] = {
         "store_name": name,
         "floor": floor,
@@ -371,6 +570,9 @@ def poi_to_row(poi: dict[str, Any], *, mall_hint: str) -> dict[str, Any] | None:
         "poi_id": poi.get("poiId"),
         "mall_name_api": str(poi.get("mallName") or "").strip(),
     }
+    if image_url:
+        row["image"] = image_url
+        row["photo_url"] = image_url
     if start:
         row["start_date"] = start
     if end:

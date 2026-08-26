@@ -276,7 +276,7 @@
       .dining-offer-badge {
         display: inline-flex;
         align-items: center;
-        gap: 0.25rem;
+        gap: 0.35rem;
         border-radius: 9999px;
         background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
         color: #fff;
@@ -284,6 +284,140 @@
         font-size: 0.7rem;
         font-weight: 800;
         box-shadow: 0 4px 12px rgba(249, 115, 22, 0.28);
+        cursor: pointer;
+        border: 0;
+        line-height: 1.2;
+        user-select: none;
+      }
+      .dining-offer-badge:hover {
+        filter: brightness(1.05);
+      }
+      .dining-offer-badge:focus-visible {
+        outline: 2px solid #ea580c;
+        outline-offset: 2px;
+      }
+      .mall-name {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        border-radius: 0.35rem;
+      }
+      /* Mall focus: + opens horizontal offer rail; − resets list */
+      .mall-offers-panel {
+        display: none !important;
+      }
+      /* Highest-weight show rule for focused mall offer rail */
+      #mall-list .mall-card.is-focused > .mall-offers-panel,
+      .mall-card.is-focused .mall-offers-panel {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        -webkit-overflow-scrolling: touch;
+        width: 100% !important;
+        gap: 12px !important;
+        margin-top: 16px !important;
+        padding: 0 1.5rem 12px !important;
+        box-sizing: border-box;
+        scroll-snap-type: x proximity;
+        visibility: visible !important;
+        opacity: 1 !important;
+        max-height: none !important;
+        height: auto !important;
+      }
+      #mall-list.mall-list--focus-mode > .mall-card:not(.is-focused),
+      #mall-list.mall-list--focus-mode > [data-place-kind="hotel"] {
+        display: none !important;
+      }
+      #mall-list.mall-list--focus-mode {
+        grid-template-columns: 1fr;
+      }
+      .mall-card.is-focused {
+        overflow: visible !important;
+        grid-column: 1 / -1;
+        display: block !important;
+      }
+      .place-card-expand.mall-toggle {
+        position: relative;
+        z-index: 5;
+        pointer-events: auto;
+        cursor: pointer;
+      }
+      /* Fixed-width offer cards in the horizontal rail (大家樂、茶湯會…) */
+      .mall-card.is-focused .mall-offers-panel > .offer-card,
+      .mall-card.is-focused .mall-offers-panel .offer-card {
+        min-width: 340px !important;
+        max-width: 360px !important;
+        width: 340px !important;
+        flex-shrink: 0 !important;
+        scroll-snap-align: start;
+        box-sizing: border-box;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+      }
+      /* Store cards: vertical stack (facade → meta → offer) inside focus rail */
+      .mall-card.is-focused .mall-offers-panel .offer-card.store-card {
+        flex-direction: column !important;
+        gap: 0.75rem !important;
+      }
+      .mall-card.is-focused .mall-offers-panel .offer-card.store-card .store-facade-container {
+        flex: 0 0 auto !important;
+        width: 100% !important;
+        height: 160px !important;
+      }
+      .mall-card.is-focused .mall-offers-panel .offer-card.store-card .store-card__body {
+        flex: 1 1 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.4rem !important;
+      }
+      .mall-card.is-focused .mall-offers-panel .offer-card.store-card .store-card__meta {
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 0.35rem 0.5rem !important;
+      }
+      .dining-offers-section {
+        display: block;
+      }
+      .offer-card.dining-offer-card {
+        overflow: hidden;
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column;
+      }
+      .offer-card-img-wrapper {
+        height: 140px;
+        width: 100%;
+        flex: 0 0 140px;
+        overflow: hidden;
+        background: linear-gradient(145deg, #e2e8f0 0%, #cbd5e1 100%);
+      }
+      .offer-card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px 8px 0 0;
+        display: block;
+      }
+      .dining-offer-card__body {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+      }
+      .mall-card.is-focused .mall-offers-panel .offer-card.dining-offer-card {
+        height: 100%;
+        min-height: 420px;
+      }
+      .mall-card.is-focused .mall-offers-panel .offer-card.dining-offer-card .offer-card-img-wrapper {
+        height: 140px !important;
+        flex: 0 0 140px !important;
+      }
+      .mall-card.is-focused .mall-offers-panel .offer-card.dining-offer-card .offer-card-img {
+        object-fit: cover !important;
+        object-position: center !important;
       }
       .dining-openrice-cta {
         display: inline-flex;
@@ -605,7 +739,7 @@
     <template id="empty-state-hotels"><div class="col-span-full rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center"><p class="text-3xl">🏨</p><p class="mt-3 font-black">暫未有可顯示的酒店著數</p><p class="mt-2 text-sm text-slate-500">過期優惠已自動隱藏；請選擇其他地區或稍後再查看。</p></div></template>
     <template id="empty-state-all"><div class="col-span-full rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center"><p class="text-3xl">✨</p><p class="mt-3 font-black">暫未有可顯示的著數</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區／分類，或稍後再回來查看。</p></div></template>
 
-    <script src="frontend/app.js"></script>
+    <script src="frontend/app.js?v=20260827-dining-img1"></script>
     <script>
       const state = {
         districts: [],
@@ -971,7 +1105,7 @@
         const evLine = details.ev_charging && details.ev_details
           ? `<p class="mt-2 text-xs font-semibold text-emerald-700">⚡ ${details.ev_details}</p>`
           : "";
-        return `<section class="parking-reward-block mt-3 rounded-2xl p-4"><p class="text-xs font-black text-sky-800">🅿️ 泊車著數</p><p class="mt-2 text-sm font-semibold leading-6 text-slate-700">${threshold}</p>${evLine}</section>`;
+        return `<section class="offer-card parking-reward-block rounded-2xl border border-sky-200 bg-sky-50 p-4"><p class="text-xs font-black text-sky-800">🅿️ 泊車著數</p><p class="mt-2 text-sm font-semibold leading-6 text-slate-700">${threshold}</p>${evLine}</section>`;
       }
       function parkingPopupHtml(mall) {
         const details = getParkingDetails(mall);
@@ -1001,7 +1135,7 @@
         const link = /^https?:\/\//.test(url)
           ? `<p class="mt-2 text-xs font-semibold"><a href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">官網寵物政策 ↗</a></p>`
           : "";
-        return `<section class="pet-friendly-block mt-3 rounded-2xl p-4" title="${escapeAttr(details.details || "")}"><p class="text-xs font-black text-amber-900">🐾 寵物進出規範</p><p class="mt-2 text-sm font-semibold leading-6 text-slate-700">${summary}</p>${link}</section>`;
+        return `<section class="offer-card pet-friendly-block rounded-2xl border border-amber-200 bg-amber-50 p-4" title="${escapeAttr(details.details || "")}"><p class="text-xs font-black text-amber-900">🐾 寵物進出規範</p><p class="mt-2 text-sm font-semibold leading-6 text-slate-700">${summary}</p>${link}</section>`;
       }
       function petPopupHtml(place) {
         const details = getPetFriendly(place);
@@ -1036,7 +1170,7 @@
       function diningTitleBadgesHtml(mall) {
         const count = getLiveDiningOffers(mall).length;
         if (!count) return "";
-        return `<span class="dining-offer-badge" title="OpenRice 餐飲優惠">🍽️ ${count} 項餐飲優惠</span>`;
+        return `<button type="button" class="dining-offer-badge" data-mall-focus-toggle="1" title="點擊展開餐飲優惠">🍽️ ${count} 項餐飲優惠</button>`;
       }
       function diningOfferDisplayTitle(offer) {
         if (typeof window.getDisplayOfferDetail === "function") {
@@ -1072,17 +1206,18 @@
         const cta = /^https?:\/\//.test(url)
           ? `<a class="dining-openrice-cta mt-3" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">前往 OpenRice 領取/預約 ↗</a>`
           : "";
-        return `<article class="dining-offer-card rounded-2xl border p-4 ${borderTone}"><div class="flex flex-wrap items-center gap-2"><span class="text-xs font-black ${badgeTone}">${escapeHtml(lifecycle.label || "")}</span>${typeLine}${tagLine}</div><h5 class="mt-2 text-base font-black leading-tight">${escapeHtml(offer.restaurant_name || "")}</h5>${shopLine}<p class="mt-2 text-sm font-semibold leading-6">${escapeHtml(detail)}</p><p class="mt-2 text-xs font-semibold opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</article>`;
+        const imgSrc = typeof window.diningOfferImageUrl === "function"
+          ? window.diningOfferImageUrl(offer)
+          : String(offer.image || offer.photo_url || "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500");
+        const imgAlt = escapeAttr(offer.restaurant_name || offer.title || "餐廳門面");
+        const fallbackImg = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500";
+        const photo = `<div class="offer-card-img-wrapper"><img class="offer-card-img" src="${escapeAttr(imgSrc)}" alt="${imgAlt}" loading="lazy" onerror="this.onerror=null;this.src='${fallbackImg}';"></div>`;
+        return `<article class="offer-card dining-offer-card rounded-2xl border ${borderTone}">${photo}<div class="dining-offer-card__body"><div class="flex flex-wrap items-center gap-2"><span class="text-xs font-black ${badgeTone}">${escapeHtml(lifecycle.label || "")}</span>${typeLine}${tagLine}</div><h5 class="mt-2 text-base font-black leading-tight">${escapeHtml(offer.restaurant_name || "")}</h5>${shopLine}<p class="mt-2 text-sm font-semibold leading-6">${escapeHtml(detail)}</p><p class="mt-2 text-xs font-semibold opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</div></article>`;
       }
       function diningOffersSection(mall) {
         const offers = getLiveDiningOffers(mall);
         if (!offers.length) return "";
-        const active = offers.filter((offer) => diningOfferLifecycle(offer).status === "active");
-        const upcoming = offers.filter((offer) => diningOfferLifecycle(offer).status === "upcoming");
-        const renderGroup = (items, status, heading) => items.length
-          ? `<div class="mt-4" data-lifecycle-group="${status}"><h5 class="mb-2 text-xs font-black ${status === "active" ? "text-emerald-700" : "text-amber-700"}">${heading}</h5><div class="space-y-2">${items.map((offer) => diningOfferCard(offer)).join("")}</div></div>`
-          : "";
-        return `<section class="rounded-2xl border border-orange-200 bg-orange-50/70 p-4"><div><h4 class="font-black">🍽️ OpenRice 餐飲優惠</h4><p class="mt-1 text-xs opacity-70">訂座折扣、餐飲券、外賣自取及信用卡優惠（資料來源：OpenRice）</p></div>${renderGroup(active, "active", "🟢 今日進行中")}${renderGroup(upcoming, "upcoming", "🟡 3 天內即將開始")}</section>`;
+        return offers.map((offer) => diningOfferCard(offer)).filter(Boolean).join("");
       }
       function selectedBankFilter() {
         return "全部";
@@ -1285,7 +1420,7 @@
           officialHome: (hub && (hub.happenings || hub.home)) || offer.official_home || "",
         });
         const details = offer.details ? `<details class="mt-3 rounded-xl bg-white/70 p-3 text-xs leading-5"><summary class="cursor-pointer font-black ${active ? "text-sky-800" : "text-amber-800"}">查看優惠詳細條款</summary><div class="mt-2 text-slate-700">${formatDetails(offer.details)}</div></details>` : "";
-        return `<article class="rounded-2xl border p-4 ${active ? "border-sky-200 bg-sky-50 text-sky-950" : "border-amber-200 bg-amber-50 text-amber-900"}" data-view-status="${status}" data-source="${isOta ? "ota" : "official"}"><div class="mb-2 flex flex-wrap gap-2">${platformBadge}${bankChips}</div><h5 class="text-lg font-black leading-tight sm:text-xl">${offer.offer_title}</h5>${details}<p class="mt-3 text-xs opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</article>`;
+        return `<article class="offer-card rounded-2xl border p-4 ${active ? "border-sky-200 bg-sky-50 text-sky-950" : "border-amber-200 bg-amber-50 text-amber-900"}" data-view-status="${status}" data-source="${isOta ? "ota" : "official"}"><div class="mb-2 flex flex-wrap gap-2">${platformBadge}${bankChips}</div><h5 class="text-lg font-black leading-tight sm:text-xl">${offer.offer_title}</h5>${details}<p class="mt-3 text-xs opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</article>`;
       }
       function fallbackCard(offer) {
         const placeName = offer.mall_name || "";
@@ -1304,7 +1439,7 @@
               officialHome: offer.official_home || "",
             })
           : "";
-        return `<article class="rounded-2xl border border-dashed border-slate-300 bg-white p-5 text-slate-700"><h5 class="text-lg font-black leading-tight sm:text-xl">${offer.offer_title}</h5><p class="mt-2 text-sm leading-6">${offer.details}</p>${officialLink}</article>`;
+        return `<article class="offer-card rounded-2xl border border-dashed border-slate-300 bg-white p-5 text-slate-700"><h5 class="text-lg font-black leading-tight sm:text-xl">${offer.offer_title}</h5><p class="mt-2 text-sm leading-6">${offer.details}</p>${officialLink}</article>`;
       }
       function defaultFacadeFor(store) {
         const vertical = String((store && store.vertical_category) || '').toLowerCase();
@@ -1338,7 +1473,7 @@
         const photo = `<div class="store-facade-container"><img src="${imageSrc}" alt="${safeName} 門面" width="180" height="125" loading="lazy" decoding="async" data-branch-id="${branchId}" data-fallback="${fallbackSrc}" onerror="this.onerror=null;this.src=this.dataset.fallback||'images/defaults/store_default.png';" /></div>`;
         const meta = `<dl class="store-card__meta rounded-xl bg-white/70 p-2.5 text-xs sm:text-sm"><div class="min-w-0"><dt class="font-bold opacity-60">樓層</dt><dd class="mt-0.5 break-words font-bold">${store.floor}</dd></div><div class="min-w-0"><dt class="font-bold opacity-60">鋪號</dt><dd class="mt-0.5 break-words font-bold">${store.shop_number}</dd></div><div class="min-w-0"><dt class="font-bold opacity-60">聯絡電話</dt><dd class="mt-0.5 break-words font-bold"><a class="underline" href="tel:${store.phone.replace(/\s/g, "")}">${store.phone}</a></dd></div></dl>`;
         const body = `<div class="store-card__body"><h5 class="text-base font-black leading-tight sm:text-lg">${store.store_name}</h5>${meta}<div class="mt-1.5 border-t ${borderTop} pt-2"><p class="text-xs font-black ${contentTone}">優惠內容</p><p class="mt-1 text-sm leading-6">${cleanOfferContent(store.offer_title)}</p></div>${subBlock}<p class="mt-auto pt-2 text-xs opacity-75">有效日期：${formatDate(store.start_date)} 至 ${formatDate(store.end_date)}</p></div>`;
-        return `<article class="store-card rounded-2xl border p-3 sm:p-4 ${borderTone}" data-view-status="${status}">${photo}${body}</article>`;
+        return `<article class="offer-card store-card rounded-2xl border p-3 sm:p-4 ${borderTone}" data-view-status="${status}">${photo}${body}</article>`;
       }
       function offerSection(title, description, offers, cardRenderer, emptyMessage, tone) {
         const fallbacks = offers.filter((offer) => offer.type === "fallback");
@@ -1358,6 +1493,26 @@
         const renderGroup = (items, status, heading) => items.length ? `<div class="mt-4" data-lifecycle-group="${status}"><h5 class="mb-2 text-xs font-black ${status === "active" ? "text-emerald-700" : "text-amber-700"}">${heading}</h5><div class="space-y-2">${items.map((offer) => cardRenderer(offer, status)).join("")}</div></div>` : "";
         const fallbackMarkup = fallbacks.length ? `<div class="mt-4 space-y-2">${fallbacks.map(fallbackCard).join("")}</div>` : "";
         return `<section class="rounded-2xl border p-4 ${tone}"><div><h4 class="font-black">${title}</h4>${description ? `<p class="mt-1 text-xs opacity-70">${description}</p>` : ""}</div>${fallbackMarkup}${active.length || upcoming.length ? `${renderGroup(active, "active", "🟢 今日進行中")}${renderGroup(upcoming, "upcoming", "🟡 3 天內即將開始")}` : fallbacks.length ? "" : `<p class="mt-4 rounded-xl bg-white/75 p-3 text-sm text-slate-500">${emptyMessage}</p>`}</section>`;
+      }
+
+      /** Flat list of .offer-card nodes for the horizontal focus rail. */
+      function flattenOfferCards(offers, cardRenderer) {
+        const lifecycle = currentViewMode();
+        const list = Array.isArray(offers) ? offers : [];
+        const cards = [];
+        list.forEach((offer) => {
+          if (!offer) return;
+          if (offer.type === "fallback") {
+            const html = fallbackCard(offer);
+            if (html) cards.push(html);
+            return;
+          }
+          let status = displayStatusForCard(offer);
+          if (lifecycle === "active" || lifecycle === "upcoming") status = lifecycle;
+          const html = cardRenderer(offer, status);
+          if (html) cards.push(html);
+        });
+        return cards;
       }
 
       function starsLabel(n) {
@@ -1520,10 +1675,7 @@ function hotelCard(hotel) {
       function mallCard(district, mall) {
         const placeCtx = { kind: "mall", mall, districtName: district.district };
         if (!matchesBaseFilters(placeCtx)) return "";
-        const key = `${district.district}::${mall.mall_name}`;
         const placeKey = mallPlaceKey(district.district, mall.mall_name);
-        const expanded = state.expandedMalls.has(key);
-        const hiddenWhileExpanded = (state.expandedMalls.size > 0 || state.expandedHotels.size > 0) && !expanded;
         const lifecycle = currentViewMode();
         const rawMallOffers = (mall.mall_offers || []).filter((offer) => offer.type === "fallback" || ["active", "upcoming"].includes(offerStatus(offer)));
         const rawStoreOffers = (mall.store_offers || []).filter((offer) => ["active", "upcoming"].includes(offerStatus(offer)));
@@ -1550,12 +1702,6 @@ function hotelCard(hotel) {
         const diningOnly = state.selectedChannel === "dining";
         if (!diningOnly && !petsOnly && !mallOffers.length && !storeOffers.length && !diningOffers.length) return "";
         if (diningOnly && !diningOffers.length) return "";
-        // Neutral chrome for 全部時段; single-status tabs keep their theme.
-        const storeSectionTone = lifecycle === "upcoming"
-          ? "border-amber-200 bg-amber-50"
-          : lifecycle === "active"
-            ? "border-emerald-200 bg-emerald-50"
-            : "border-slate-200 bg-slate-50";
         const lat = Number(mall.lat);
         const lng = Number(mall.lng);
         const hasMapCoords = Number.isFinite(lat) && Number.isFinite(lng);
@@ -1571,17 +1717,43 @@ function hotelCard(hotel) {
         const diningBadges = diningTitleBadgesHtml(mall);
         const parkingBlock = parkingRewardBlockHtml(mall);
         const petBlock = petPolicyBlockHtml(mall);
-        const titleRow = `<div class="mt-1 flex flex-wrap items-center gap-2"><h3 class="text-xl font-black">${mall.mall_name}</h3>${parkingBadges}${petBadges}${diningBadges}</div>`;
+        const titleRow = `<div class="mt-1 flex flex-wrap items-center gap-2"><h3 class="mall-name text-xl font-black"><span class="mall-name-text">${mall.mall_name}</span></h3>${parkingBadges}${petBadges}${diningBadges}</div>`;
         const mapTrigger = hasMapCoords
-          ? `<button type="button" class="card-map-trigger place-card-map-zone w-full text-left"${mapAttrs} aria-label="在地圖上查看 ${escapeAttr(mall.mall_name)}"><p class="text-xs font-bold text-coral">${district.district}</p>${titleRow}<p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distLine ? `<p class="mt-2">${distLine}</p>` : ""}${geoChips(mall)}${mapHint}</button>`
+          ? `<div class="place-card-map-zone"><p class="text-xs font-bold text-coral">${district.district}</p>${titleRow}<button type="button" class="card-map-trigger mt-2 w-full text-left"${mapAttrs} aria-label="在地圖上查看 ${escapeAttr(mall.mall_name)}"><p class="text-sm text-slate-500">${mall.address}</p>${distLine ? `<p class="mt-2">${distLine}</p>` : ""}${geoChips(mall)}${mapHint}</button></div>`
           : `<div><p class="text-xs font-bold text-coral">${district.district}</p>${titleRow}<p class="mt-2 text-sm text-slate-500">${mall.address}</p>${distLine ? `<p class="mt-2">${distLine}</p>` : ""}${geoChips(mall)}</div>`;
-        const diningBlock = diningOffers.length ? diningOffersSection(mall) : "";
-        const diningVisible = diningBlock && (expanded || diningOnly);
-        const diningMarkup = diningVisible ? `<div class="mt-3 px-1">${diningBlock}</div>` : "";
-        const expandedPanel = (petsOnly || diningOnly) && !mallOffers.length && !storeOffers.length && !diningOffers.length
-          ? `<div class="border-t border-slate-100 bg-slate-50 p-5"><p class="text-sm text-slate-500">${diningOnly ? "此商場目前暫無有效 OpenRice 餐飲優惠。" : "此商場目前暫無符合篩選的著數優惠；上方已顯示官網寵物進出規範。"}</p></div>`
-          : `<div class="grid min-w-0 grid-cols-1 gap-4 border-t border-slate-100 bg-slate-50 p-5">${diningBlock && !diningOnly ? diningBlock : ""}${offerSection("🅿️ 商場本身優惠", "泊車、消費換領及大型會員推廣活動", mallOffers, bindMallOfferCard(mall.mall_name), "此商場目前暫無符合篩選的商場優惠。", "border-sky-200 bg-sky-50")}${offerSection("🏪 商場內個別商店優惠", "", storeOffers, storeCard, "此商場目前暫無符合篩選的個別商店優惠。", storeSectionTone)}</div>`;
-        return `<article class="${expanded ? "mall-card--expanded" : ""} ${hiddenWhileExpanded ? "mall-card--hidden" : ""} min-w-0 overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}" data-place-name="${escapeAttr(mall.mall_name)}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="mall"${hasMapCoords ? ` data-lat="${lat}" data-lng="${lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}${parkingBlock}${petBlock}${diningMarkup}<p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p></div><button type="button" class="place-card-expand mall-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-mall-key="${key}" aria-expanded="${expanded}" aria-label="${expanded ? "收合" : "展開"} ${escapeAttr(mall.mall_name)} 優惠">${expanded ? "−" : "+"}</button></div>${expanded ? expandedPanel : ""}</article>`;
+        // Flat .offer-card list for focus rail (dining_offers + mall/store offers + optional offers/vouchers)
+        const diningOfferCards = diningOffers.map((offer) => diningOfferCard(offer)).filter(Boolean);
+        const mallOfferCards = flattenOfferCards(mallOffers, bindMallOfferCard(mall.mall_name));
+        const storeOfferCards = flattenOfferCards(storeOffers, storeCard);
+        const legacyOffers = Array.isArray(mall.offers) ? mall.offers : [];
+        const legacyOfferCards = flattenOfferCards(
+          isolateOffersForCurrentView(
+            legacyOffers.filter((offer) => offer && (offer.type === "fallback" || ["active", "upcoming"].includes(offerStatus(offer)))),
+            placeCtx
+          ),
+          bindMallOfferCard(mall.mall_name)
+        );
+        const voucherCards = (Array.isArray(mall.vouchers) ? mall.vouchers : [])
+          .map((v) => {
+            if (!v) return "";
+            const title = String(v.title || v.voucher_title || v.name || "").trim();
+            if (!title) return "";
+            return `<article class="offer-card rounded-2xl border border-violet-200 bg-violet-50 p-4 text-violet-950"><p class="text-xs font-black">禮券 / Voucher</p><h5 class="mt-2 text-base font-black leading-tight">${escapeHtml(title)}</h5>${v.details ? `<p class="mt-2 text-sm leading-6">${escapeHtml(v.details)}</p>` : ""}</article>`;
+          })
+          .filter(Boolean);
+        const railCards = [
+          parkingBlock,
+          petBlock,
+          ...diningOfferCards,
+          ...mallOfferCards,
+          ...storeOfferCards,
+          ...legacyOfferCards,
+          ...voucherCards,
+        ].filter(Boolean);
+        const offersBody = railCards.length
+          ? railCards.join("")
+          : `<article class="offer-card rounded-2xl border border-dashed border-slate-300 bg-white p-5 text-sm text-slate-500">暫無實質優惠</article>`;
+        return `<article class="mall-card min-w-0 rounded-3xl border border-slate-100 bg-white shadow-sm" data-view-mode="${lifecycle}" data-place-name="${escapeAttr(mall.mall_name)}" data-place-key="${escapeAttr(placeKey)}" data-place-kind="mall" data-offers-count="${railCards.length}"${hasMapCoords ? ` data-lat="${lat}" data-lng="${lng}"` : ""}><div class="place-card-head"><div class="min-w-0 flex-1">${mapTrigger}<p class="mt-3 text-xs font-semibold text-slate-400 px-1">${summaryLabel}</p></div><button type="button" class="place-card-expand mall-toggle grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-lg text-white transition hover:bg-coral" data-mall-focus-toggle="1" aria-expanded="false" aria-label="展開 ${escapeAttr(mall.mall_name)} 優惠">+</button></div><div class="mall-offers-panel" data-offer-count="${railCards.length}">${offersBody}</div></article>`;
       }
 
       function collectMapPlaces() {
@@ -1893,6 +2065,7 @@ function hotelCard(hotel) {
       function render() {
         syncChannelChrome();
         syncLbsChrome();
+        if (mallList) mallList.classList.remove("mall-list--focus-mode");
         if (state.selectedChannel === "map") {
           renderMapPins();
           return;
@@ -1957,6 +2130,11 @@ function hotelCard(hotel) {
           return;
         }
         mallList.innerHTML = cards.join("");
+        if (typeof window.rebindMallFocusButtons === "function") {
+          window.rebindMallFocusButtons(mallList);
+        } else if (typeof window.bindMallOffersToggle === "function") {
+          window.bindMallOffersToggle(mallList);
+        }
       }
       districtTags.addEventListener("click", (event) => {
         const button = event.target.closest("[data-district]");
@@ -2018,6 +2196,10 @@ function hotelCard(hotel) {
         }
       }, true);
       mallList.addEventListener("click", (event) => {
+        // Focus +/− is handled exclusively by frontend/app.js capture listener.
+        if (event.target.closest("[data-mall-focus-toggle], button.mall-toggle")) {
+          return;
+        }
         const bookingEl = event.target.closest("[data-hotel-booking], .btn-booking, .hotel-card[data-booking-url]");
         if (bookingEl) {
           event.preventDefault();
@@ -2030,7 +2212,7 @@ function hotelCard(hotel) {
         }
         const mapTrigger = event.target.closest(".card-map-trigger");
         if (mapTrigger) {
-          if (event.target.closest("a, [data-hotel-booking], .btn-booking")) return;
+          if (event.target.closest("a, [data-hotel-booking], .btn-booking, [data-mall-focus-toggle], .mall-toggle")) return;
           event.preventDefault();
           event.stopPropagation();
           const placeKey = mapTrigger.dataset.placeKey || mapTrigger.closest("[data-place-key]")?.dataset.placeKey;
@@ -2039,18 +2221,6 @@ function hotelCard(hotel) {
           if (placeKey && Number.isFinite(lat) && Number.isFinite(lng)) {
             focusPlaceOnMap(placeKey, lat, lng);
           }
-          return;
-        }
-        const mallButton = event.target.closest("[data-mall-key]");
-        if (mallButton) {
-          if (state.expandedMalls.has(mallButton.dataset.mallKey)) {
-            state.expandedMalls.delete(mallButton.dataset.mallKey);
-          } else {
-            state.expandedMalls.clear();
-            state.expandedHotels.clear();
-            state.expandedMalls.add(mallButton.dataset.mallKey);
-          }
-          render();
           return;
         }
         const hotelButton = event.target.closest("[data-hotel-key]");
