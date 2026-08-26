@@ -52,10 +52,14 @@ _FLOOR_RE = re.compile(
     re.I,
 )
 
-EVERGREEN_DINING = (
+DEFAULT_DINING_TITLE = "店內指定特惠套餐 / 堂食折扣"
+# Legacy long boilerplate — treated as generic so it is never shown as a title.
+EVERGREEN_DINING = DEFAULT_DINING_TITLE
+_LEGACY_EVERGREEN = (
     "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；"
     "實際條款以 OpenRice App／店內告示為準。"
 )
+_LEGACY_SHORT_DEFAULT = "店內當期指定餐飲優惠（請參閱門市告示）"
 
 _GENERIC_TITLE_RE = re.compile(
     r"^(?:OpenRice\s*)?(?:門市／外賣(?:常態禮遇|優惠)|門市\s*/\s*外賣(?:常態禮遇|優惠))(?:[:：]|$)",
@@ -64,10 +68,19 @@ _GENERIC_TITLE_RE = re.compile(
 
 
 def is_generic_openrice_title(text: str) -> bool:
+    """Alias used by callers; same as is_generic_text."""
+    return is_generic_text(text)
+
+
+def is_generic_text(text: str) -> bool:
     t = str(text or "").strip()
     if not t:
         return True
-    if t == EVERGREEN_DINING or t.startswith("OpenRice 門市／外賣常態禮遇"):
+    if t in (DEFAULT_DINING_TITLE, EVERGREEN_DINING, _LEGACY_EVERGREEN, _LEGACY_SHORT_DEFAULT):
+        return True
+    if "OpenRice 門市 / 外賣常態禮遇" in t or "OpenRice 門市／外賣常態禮遇" in t:
+        return True
+    if "OpenRice 門市/外賣常態禮遇" in t:
         return True
     if t in ("門市／外賣優惠", "OpenRice 門市／外賣優惠", "OpenRice 門市 / 外賣常態禮遇"):
         return True
@@ -78,75 +91,93 @@ def is_generic_openrice_title(text: str) -> bool:
     return False
 
 
-def _voucher_title_from_raw(raw: dict[str, Any]) -> str:
-    vouchers = raw.get("vouchers")
-    if isinstance(vouchers, list) and vouchers:
-        first = vouchers[0]
-        if isinstance(first, dict):
-            return str(
-                first.get("title")
-                or first.get("voucher_title")
-                or first.get("shortTitle")
-                or first.get("name")
-                or ""
-            ).strip()
-    related = raw.get("relatedVoucher")
-    if isinstance(related, dict):
-        return str(
-            related.get("title")
-            or related.get("voucher_title")
-            or related.get("shortTitle")
-            or ""
-        ).strip()
-    return ""
-
-
 def _normalize_promo_title(text: str) -> str:
     t = str(text or "").strip()
+    if "｜" in t:
+        t = t.split("｜", 1)[-1].strip()
     if re.match(r"^OpenRice\s+", t, re.I):
         stripped = re.sub(r"^OpenRice\s+", "", t, flags=re.I).strip()
-        if stripped and not is_generic_openrice_title(stripped):
+        if stripped and not is_generic_text(stripped):
             return stripped
     return t
 
 
-def extract_real_offer_title(raw: dict[str, Any]) -> str:
-    """Prefer concrete promo copy; only fall back to evergreen boilerplate when empty."""
-    candidates: list[str] = []
-    for key in ("offer_name", "discount_text", "voucher_title", "promo_title", "title"):
-        val = str(raw.get(key) or "").strip()
-        if val:
-            candidates.append(val)
-    voucher_title = _voucher_title_from_raw(raw)
-    if voucher_title:
-        candidates.append(voucher_title)
-    details = str(raw.get("details") or "").strip()
-    if details:
-        candidates.append(details)
-
+def _voucher_titles_from_raw(raw: dict[str, Any]) -> list[str]:
+    titles: list[str] = []
     seen: set[str] = set()
-    for candidate in candidates:
-        parts: list[str] = []
-        if "｜" in candidate:
-            suffix = candidate.split("｜", 1)[-1].strip()
-            if suffix:
-                parts.append(suffix)
-        else:
-            parts.append(candidate)
-        for part in parts:
-            text = str(part or "").strip()
-            key = text.casefold()
-            if not text or key in seen:
+
+    def _push(value: Any) -> None:
+        text = _normalize_promo_title(str(value or ""))
+        if not text or is_generic_text(text):
+            return
+        key = text.casefold()
+        if key in seen:
+            return
+        seen.add(key)
+        titles.append(text[:120])
+
+    vouchers = raw.get("vouchers")
+    if isinstance(vouchers, list):
+        for item in vouchers:
+            if not isinstance(item, dict):
                 continue
-            seen.add(key)
-            if is_generic_openrice_title(text):
-                continue
-            return _normalize_promo_title(text)[:160]
+            _push(
+                item.get("title")
+                or item.get("voucher_title")
+                or item.get("shortTitle")
+                or item.get("name")
+            )
+    related = raw.get("relatedVoucher")
+    if isinstance(related, dict):
+        _push(
+            related.get("title")
+            or related.get("voucher_title")
+            or related.get("shortTitle")
+            or related.get("name")
+        )
+    return titles
+
+
+def extract_real_offer_title(raw: dict[str, Any]) -> str:
+    """Extract concrete promo title; short default only when nothing useful exists."""
+    # 1. Prefer voucher / cash-coupon titles (join multiple).
+    voucher_titles = _voucher_titles_from_raw(raw)
+    if voucher_titles:
+        return " / ".join(voucher_titles)[:160]
+
+    # 2. Specific discount / promo description fields.
+    for key in (
+        "offer_name",
+        "discount_text",
+        "voucher_title",
+        "promotion_title",
+        "promo_title",
+        "title",
+        "description",
+        "details",
+    ):
+        val = raw.get(key)
+        if not isinstance(val, str):
+            continue
+        text = _normalize_promo_title(val)
+        if text and not is_generic_text(text):
+            return text[:160]
+
+    # 3. Booking / takeaway discount tags.
+    booking = str(
+        raw.get("booking_discount_text")
+        or raw.get("takeaway_discount_text")
+        or ""
+    ).strip()
+    if booking and not is_generic_text(booking):
+        return f"線上預約享 {booking}"[:160]
+
+    # 4. No concrete discount detail — short placeholder (never long boilerplate).
     return ""
 
 
 def display_offer_title(raw: dict[str, Any]) -> str:
-    return extract_real_offer_title(raw) or EVERGREEN_DINING
+    return extract_real_offer_title(raw) or DEFAULT_DINING_TITLE
 
 
 def _load_json(path: Path) -> Any:
@@ -296,7 +327,7 @@ def poi_to_row(poi: dict[str, Any], *, mall_hint: str) -> dict[str, Any] | None:
         "details": details,
         "title": f"{name}｜{display_title}"[:120],
         "offer_name": title_sfx or None,
-        "voucher_title": _voucher_title_from_raw(poi) or None,
+        "voucher_title": (" / ".join(_voucher_titles_from_raw(poi)) or None),
         "discount_text": str(poi.get("discountText") or poi.get("discount_text") or "").strip() or None,
         "mall_hint": mall_hint,
         "address": str(poi.get("address") or mall_hint),

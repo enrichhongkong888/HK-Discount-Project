@@ -36,47 +36,98 @@
     return `${dt.getMonth() + 1}/${dt.getDate()}`;
   }
 
+  const DEFAULT_DINING_TITLE = "店內指定特惠套餐 / 堂食折扣";
+  const LEGACY_DEFAULTS = [
+    "店內當期指定餐飲優惠（請參閱門市告示）",
+    "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
+  ];
+
   function isGenericOpenRiceTitle(text) {
     const t = String(text || "").trim();
     if (!t) return true;
-    if (t.startsWith("OpenRice 門市／外賣常態禮遇")) return true;
+    if (t === DEFAULT_DINING_TITLE || LEGACY_DEFAULTS.includes(t)) return true;
+    if (t.includes("OpenRice 門市 / 外賣常態禮遇") || t.includes("OpenRice 門市／外賣常態禮遇")) return true;
+    if (t.includes("OpenRice 門市/外賣常態禮遇")) return true;
     if (t === "門市／外賣優惠" || t === "OpenRice 門市／外賣優惠") return true;
     if (/^OpenRice\s/i.test(t) && t.length < 48 && t.includes("優惠")) return true;
     return false;
   }
 
-  const DEFAULT_DINING_TITLE =
-    "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。";
+  function normalizeDiningTitle(text) {
+    let t = String(text || "").trim();
+    if (t.includes("｜")) t = t.split("｜").pop().trim();
+    const stripped = t.replace(/^OpenRice\s+/i, "").trim();
+    if (stripped && !isGenericOpenRiceTitle(stripped)) return stripped;
+    return t;
+  }
 
   function extractDiningOfferTitle(offer) {
     if (!offer || typeof offer !== "object") return DEFAULT_DINING_TITLE;
-    const candidates = [];
-    ["offer_name", "discount_text", "voucher_title", "title"].forEach((key) => {
-      const val = String(offer[key] || "").trim();
-      if (val) candidates.push(val);
-    });
-    const vouchers = offer.vouchers;
-    if (Array.isArray(vouchers) && vouchers[0] && vouchers[0].title) {
-      candidates.push(String(vouchers[0].title).trim());
-    }
-    const details = String(offer.details || "").trim();
-    if (details) candidates.push(details);
 
+    // 1. Prefer voucher / cash-coupon titles (join multiple).
+    const voucherTitles = [];
     const seen = new Set();
-    for (const candidate of candidates) {
-      const parts = candidate.includes("｜") ? [candidate.split("｜").pop().trim()] : [candidate];
-      for (const part of parts) {
-        const text = String(part || "").trim();
-        const key = text.toLowerCase();
-        if (!text || seen.has(key)) continue;
-        seen.add(key);
-        if (!isGenericOpenRiceTitle(text)) {
-          const normalized = text.replace(/^OpenRice\s+/i, "").trim();
-          return isGenericOpenRiceTitle(normalized) ? text : normalized || text;
+    const pushVoucher = (value) => {
+      const text = normalizeDiningTitle(value);
+      const key = text.toLowerCase();
+      if (!text || isGenericOpenRiceTitle(text) || seen.has(key)) return;
+      seen.add(key);
+      voucherTitles.push(text);
+    };
+    if (Array.isArray(offer.vouchers)) {
+      offer.vouchers.forEach((v) => {
+        if (v && typeof v === "object") {
+          pushVoucher(v.title || v.voucher_title || v.shortTitle || v.name);
         }
-      }
+      });
     }
+    if (offer.relatedVoucher && typeof offer.relatedVoucher === "object") {
+      const rv = offer.relatedVoucher;
+      pushVoucher(rv.title || rv.voucher_title || rv.shortTitle || rv.name);
+    }
+    if (voucherTitles.length) return voucherTitles.join(" / ");
+
+    // 2. Specific discount / promo description fields.
+    for (const key of [
+      "offer_name",
+      "discount_text",
+      "voucher_title",
+      "promotion_title",
+      "promo_title",
+      "title",
+      "offer_title",
+      "description",
+      "details",
+    ]) {
+      const val = offer[key];
+      if (typeof val !== "string") continue;
+      const text = normalizeDiningTitle(val);
+      if (text && !isGenericOpenRiceTitle(text)) return text;
+    }
+
+    // 3. Booking / takeaway discount tags.
+    const booking = String(
+      offer.booking_discount_text || offer.takeaway_discount_text || ""
+    ).trim();
+    if (booking && !isGenericOpenRiceTitle(booking)) {
+      return `線上預約享 ${booking}`;
+    }
+
+    // 4. Short placeholder — never long boilerplate.
     return DEFAULT_DINING_TITLE;
+  }
+
+  /** Display-layer helper: swap legacy generic copy for a short tip. */
+  function getDisplayOfferDetail(offer) {
+    if (!offer || typeof offer !== "object") return DEFAULT_DINING_TITLE;
+    const title =
+      offer.title || offer.offer_title || offer.discount_text || offer.offer_name || "";
+    if (!title || isGenericOpenRiceTitle(title)) {
+      return DEFAULT_DINING_TITLE;
+    }
+    // Prefer richer extraction when available (vouchers, booking tags, etc.).
+    const extracted = extractDiningOfferTitle(offer);
+    return extracted || DEFAULT_DINING_TITLE;
   }
 
   /**
@@ -146,6 +197,7 @@
 
   global.todayDateStr = todayDateStr;
   global.extractDiningOfferTitle = extractDiningOfferTitle;
+  global.getDisplayOfferDetail = getDisplayOfferDetail;
   global.getOfferStatus = getOfferStatus;
   global.processStoreDeals = processStoreDeals;
   global.liveDiningOffers = liveDiningOffers;
@@ -155,6 +207,7 @@
       module.exports = {
       todayDateStr,
       extractDiningOfferTitle,
+      getDisplayOfferDetail,
       getOfferStatus,
       processStoreDeals,
       liveDiningOffers,

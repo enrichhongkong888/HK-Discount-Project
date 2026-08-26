@@ -1039,10 +1039,17 @@
         return `<span class="dining-offer-badge" title="OpenRice 餐飲優惠">🍽️ ${count} 項餐飲優惠</span>`;
       }
       function diningOfferDisplayTitle(offer) {
+        if (typeof window.getDisplayOfferDetail === "function") {
+          return window.getDisplayOfferDetail(offer);
+        }
         if (typeof window.extractDiningOfferTitle === "function") {
           return window.extractDiningOfferTitle(offer);
         }
-        return String(offer && offer.title ? offer.title : "").trim() || "OpenRice 餐飲優惠";
+        const title = String((offer && (offer.title || offer.offer_title || offer.discount_text)) || "").trim();
+        if (!title || title.includes("OpenRice 門市 / 外賣常態禮遇") || title.includes("OpenRice 門市／外賣常態禮遇")) {
+          return "店內指定特惠套餐 / 堂食折扣";
+        }
+        return title;
       }
       function diningOfferCard(offer) {
         const lifecycle = diningOfferLifecycle(offer);
