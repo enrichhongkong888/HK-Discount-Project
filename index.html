@@ -1046,14 +1046,14 @@
           return window.extractDiningOfferTitle(offer);
         }
         const title = String((offer && (offer.title || offer.offer_title || offer.discount_text)) || "").trim();
-        if (!title || title.includes("OpenRice 門市 / 外賣常態禮遇") || title.includes("OpenRice 門市／外賣常態禮遇")) {
-          return "店內指定特惠套餐 / 堂食折扣";
-        }
+        if (!title || title.includes("店內指定特惠套餐") || title.includes("OpenRice 門市")) return "";
         return title;
       }
       function diningOfferCard(offer) {
         const lifecycle = diningOfferLifecycle(offer);
         if (lifecycle.status === "expired" || lifecycle.status === "scheduled") return "";
+        const detail = diningOfferDisplayTitle(offer);
+        if (!detail) return "";
         const active = lifecycle.status === "active";
         const borderTone = active
           ? "border-emerald-300 bg-emerald-50 text-emerald-800"
@@ -1072,7 +1072,7 @@
         const cta = /^https?:\/\//.test(url)
           ? `<a class="dining-openrice-cta mt-3" href="${escapeAttr(url)}" target="_blank" rel="noopener noreferrer">前往 OpenRice 領取/預約 ↗</a>`
           : "";
-        return `<article class="dining-offer-card rounded-2xl border p-4 ${borderTone}"><div class="flex flex-wrap items-center gap-2"><span class="text-xs font-black ${badgeTone}">${escapeHtml(lifecycle.label || "")}</span>${typeLine}${tagLine}</div><h5 class="mt-2 text-base font-black leading-tight">${escapeHtml(offer.restaurant_name || "")}</h5>${shopLine}<p class="mt-2 text-sm font-semibold leading-6">${escapeHtml(diningOfferDisplayTitle(offer))}</p><p class="mt-2 text-xs font-semibold opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</article>`;
+        return `<article class="dining-offer-card rounded-2xl border p-4 ${borderTone}"><div class="flex flex-wrap items-center gap-2"><span class="text-xs font-black ${badgeTone}">${escapeHtml(lifecycle.label || "")}</span>${typeLine}${tagLine}</div><h5 class="mt-2 text-base font-black leading-tight">${escapeHtml(offer.restaurant_name || "")}</h5>${shopLine}<p class="mt-2 text-sm font-semibold leading-6">${escapeHtml(detail)}</p><p class="mt-2 text-xs font-semibold opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</article>`;
       }
       function diningOffersSection(mall) {
         const offers = getLiveDiningOffers(mall);

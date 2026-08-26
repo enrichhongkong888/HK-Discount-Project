@@ -24,6 +24,8 @@ import httpx
 
 from scrapers.openrice_api import (  # noqa: E402
     display_offer_title,
+    is_generic_text,
+    is_substantive_offer_title,
     load_api_cache,
     poi_to_row,
     save_api_cache,
@@ -86,7 +88,7 @@ def extract_discount_tag(text: str) -> str:
     match = DISCOUNT_TAG_RE.search(str(text or ""))
     if match:
         return re.sub(r"\s+", "", match.group(1))
-    return "OpenRice 優惠"
+    return ""
 
 
 def lifecycle_status(start: date, end: date, *, today: date) -> str | None:
@@ -112,6 +114,9 @@ def row_to_dining_offer(row: dict[str, Any], *, today: date) -> dict[str, Any] |
 
     details = str(row.get("details") or "").strip()
     title = display_offer_title(row)
+    # Drop placeholder / generic cards — keep only concrete promo titles.
+    if not title or not is_substantive_offer_title(title):
+        return None
 
     start = _parse_date(row.get("start_date"))
     end = _parse_date(row.get("expiry_date") or row.get("end_date"))
@@ -124,7 +129,7 @@ def row_to_dining_offer(row: dict[str, Any], *, today: date) -> dict[str, Any] |
         return None
 
     offer_type = classify_offer_type(f"{title} {details}")
-    discount_tag = extract_discount_tag(f"{title} {details}")
+    discount_tag = extract_discount_tag(f"{title} {details}") or title[:24]
     shop_no = _format_shop_no(floor, shop)
 
     return {
@@ -184,7 +189,14 @@ def prune_offers(
     today: date,
     alive_urls: dict[str, bool] | None = None,
 ) -> tuple[list[dict[str, Any]], dict[str, int]]:
-    stats = {"input": 0, "kept": 0, "pruned_expired": 0, "pruned_scheduled": 0, "pruned_dead_url": 0}
+    stats = {
+        "input": 0,
+        "kept": 0,
+        "pruned_expired": 0,
+        "pruned_scheduled": 0,
+        "pruned_dead_url": 0,
+        "pruned_generic": 0,
+    }
     kept: list[dict[str, Any]] = []
     for raw in offers:
         if not isinstance(raw, dict):
@@ -193,6 +205,10 @@ def prune_offers(
         start = _parse_date(raw.get("start_date"))
         end = _parse_date(raw.get("end_date"))
         url = str(raw.get("openrice_url") or "").strip()
+        title = str(raw.get("title") or raw.get("offer_title") or raw.get("discount_text") or "").strip()
+        if not title or is_generic_text(title) or not is_substantive_offer_title(title):
+            stats["pruned_generic"] += 1
+            continue
         if not (start and end and url):
             stats["pruned_scheduled"] += 1
             continue
@@ -207,6 +223,7 @@ def prune_offers(
             stats["pruned_scheduled"] += 1
             continue
         offer = dict(raw)
+        offer["title"] = title[:160]
         offer["start_date"] = start.isoformat()
         offer["end_date"] = end.isoformat()
         offer["status"] = status
@@ -345,7 +362,12 @@ async def sync_openrice(
         "scraped_rows": 0,
         "offers_written": 0,
         "malls_with_offers": 0,
-        "prune": {"pruned_expired": 0, "pruned_dead_url": 0, "pruned_scheduled": 0},
+        "prune": {
+            "pruned_expired": 0,
+            "pruned_dead_url": 0,
+            "pruned_scheduled": 0,
+            "pruned_generic": 0,
+        },
     }
 
     grouped_rows: dict[str, list[dict[str, Any]]] = {name: [] for name in mall_names}
@@ -389,12 +411,13 @@ async def sync_openrice(
             name = str(mall.get("mall_name") or "")
             existing = list(mall.get("dining_offers") or [])
             pruned_existing, prune_stats = prune_offers(existing, today=today, alive_urls=alive_map or None)
-            for key in ("pruned_expired", "pruned_dead_url", "pruned_scheduled"):
+            for key in ("pruned_expired", "pruned_dead_url", "pruned_scheduled", "pruned_generic"):
                 stats["prune"][key] += prune_stats.get(key, 0)
 
             fresh = [
                 o for o in candidate_offers.get(name, [])
-                if not alive_map or alive_map.get(str(o.get("openrice_url") or ""), True)
+                if is_substantive_offer_title(str(o.get("title") or ""))
+                and (not alive_map or alive_map.get(str(o.get("openrice_url") or ""), True))
             ]
             merged = dedupe_offers(pruned_existing + fresh)
             merged = [

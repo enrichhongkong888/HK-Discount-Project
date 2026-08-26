@@ -66,6 +66,19 @@ _GENERIC_TITLE_RE = re.compile(
     re.I,
 )
 
+# Concrete promo signals: cash amount, % off, voucher wording, named set deals.
+_SUBSTANTIVE_OFFER_RE = re.compile(
+    r"("
+    r"\$\s*\d+|HK\$\s*\d+|港幣\s*\d+|"
+    r"\d+(?:\.\d+)?\s*折|\d+\s*%\s*(?:off|折扣)?|"
+    r"現金券|現金劵|餐飲券|優惠券|禮券|coupon|voucher|"
+    r"半價|買一送一|BOGO|第二件|"
+    r"減\s*\$|滿\s*\$|即減|回贈|"
+    r"套餐|放題|特惠|折扣|訂座|外賣|自取|即買即用|限時"
+    r")",
+    re.I,
+)
+
 
 def is_generic_openrice_title(text: str) -> bool:
     """Alias used by callers; same as is_generic_text."""
@@ -82,6 +95,8 @@ def is_generic_text(text: str) -> bool:
         return True
     if "OpenRice 門市/外賣常態禮遇" in t:
         return True
+    if "店內指定特惠套餐" in t or "店內當期指定餐飲優惠" in t:
+        return True
     if t in ("門市／外賣優惠", "OpenRice 門市／外賣優惠", "OpenRice 門市 / 外賣常態禮遇"):
         return True
     if _GENERIC_TITLE_RE.match(t):
@@ -89,6 +104,24 @@ def is_generic_text(text: str) -> bool:
     if re.match(r"^OpenRice\s", t, re.I) and len(t) < 48 and "優惠" in t:
         return True
     return False
+
+
+def is_substantive_offer_title(text: str) -> bool:
+    """True only when title carries a concrete dining promo (not placeholder copy)."""
+    t = _normalize_promo_title(str(text or ""))
+    if not t or is_generic_text(t):
+        return False
+    if _SUBSTANTIVE_OFFER_RE.search(t):
+        return True
+    # Named voucher / set-meal product titles from OpenRice (e.g. dish-named coupons).
+    if len(t) >= 4 and "門市" not in t and "常態" not in t and "告示" not in t:
+        return True
+    return False
+
+
+def has_substantive_dining_offer(raw: dict[str, Any]) -> bool:
+    title = extract_real_offer_title(raw)
+    return is_substantive_offer_title(title)
 
 
 def _normalize_promo_title(text: str) -> str:
@@ -177,7 +210,9 @@ def extract_real_offer_title(raw: dict[str, Any]) -> str:
 
 
 def display_offer_title(raw: dict[str, Any]) -> str:
-    return extract_real_offer_title(raw) or DEFAULT_DINING_TITLE
+    """Return substantive promo title only; empty string means drop the offer."""
+    title = extract_real_offer_title(raw)
+    return title if is_substantive_offer_title(title) else ""
 
 
 def _load_json(path: Path) -> Any:

@@ -42,15 +42,26 @@
     "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
   ];
 
+  const SUBSTANTIVE_OFFER_RE =
+    /\$\s*\d+|HK\$\s*\d+|港幣\s*\d+|\d+(?:\.\d+)?\s*折|\d+\s*%|現金券|現金劵|餐飲券|優惠券|禮券|半價|買一送一|BOGO|第二件|減\s*\$|滿\s*\$|即減|回贈|套餐|放題|特惠|折扣|訂座|外賣|自取|即買即用|限時/i;
+
   function isGenericOpenRiceTitle(text) {
     const t = String(text || "").trim();
     if (!t) return true;
     if (t === DEFAULT_DINING_TITLE || LEGACY_DEFAULTS.includes(t)) return true;
+    if (t.includes("店內指定特惠套餐") || t.includes("店內當期指定餐飲優惠")) return true;
     if (t.includes("OpenRice 門市 / 外賣常態禮遇") || t.includes("OpenRice 門市／外賣常態禮遇")) return true;
     if (t.includes("OpenRice 門市/外賣常態禮遇")) return true;
     if (t === "門市／外賣優惠" || t === "OpenRice 門市／外賣優惠") return true;
     if (/^OpenRice\s/i.test(t) && t.length < 48 && t.includes("優惠")) return true;
     return false;
+  }
+
+  function isSubstantiveOfferTitle(text) {
+    const t = normalizeDiningTitle(text);
+    if (!t || isGenericOpenRiceTitle(t)) return false;
+    if (SUBSTANTIVE_OFFER_RE.test(t)) return true;
+    return t.length >= 4 && !t.includes("門市") && !t.includes("常態") && !t.includes("告示");
   }
 
   function normalizeDiningTitle(text) {
@@ -62,7 +73,7 @@
   }
 
   function extractDiningOfferTitle(offer) {
-    if (!offer || typeof offer !== "object") return DEFAULT_DINING_TITLE;
+    if (!offer || typeof offer !== "object") return "";
 
     // 1. Prefer voucher / cash-coupon titles (join multiple).
     const voucherTitles = [];
@@ -102,7 +113,7 @@
       const val = offer[key];
       if (typeof val !== "string") continue;
       const text = normalizeDiningTitle(val);
-      if (text && !isGenericOpenRiceTitle(text)) return text;
+      if (text && !isGenericOpenRiceTitle(text) && isSubstantiveOfferTitle(text)) return text;
     }
 
     // 3. Booking / takeaway discount tags.
@@ -113,21 +124,23 @@
       return `線上預約享 ${booking}`;
     }
 
-    // 4. Short placeholder — never long boilerplate.
-    return DEFAULT_DINING_TITLE;
+    // 4. No concrete detail — empty (caller drops the card).
+    return "";
   }
 
-  /** Display-layer helper: swap legacy generic copy for a short tip. */
+  /** Display-layer helper: only return concrete promo titles (never placeholders). */
   function getDisplayOfferDetail(offer) {
-    if (!offer || typeof offer !== "object") return DEFAULT_DINING_TITLE;
+    if (!offer || typeof offer !== "object") return "";
+    const extracted = extractDiningOfferTitle(offer);
+    if (extracted && isSubstantiveOfferTitle(extracted)) return extracted;
     const title =
       offer.title || offer.offer_title || offer.discount_text || offer.offer_name || "";
-    if (!title || isGenericOpenRiceTitle(title)) {
-      return DEFAULT_DINING_TITLE;
-    }
-    // Prefer richer extraction when available (vouchers, booking tags, etc.).
-    const extracted = extractDiningOfferTitle(offer);
-    return extracted || DEFAULT_DINING_TITLE;
+    if (title && isSubstantiveOfferTitle(title)) return normalizeDiningTitle(title);
+    return "";
+  }
+
+  function hasSubstantiveDiningOffer(offer) {
+    return Boolean(getDisplayOfferDetail(offer));
   }
 
   /**
@@ -186,6 +199,7 @@
   function liveDiningOffers(mall, todayOverride) {
     const offers = Array.isArray(mall && mall.dining_offers) ? mall.dining_offers : [];
     return offers.filter((offer) => {
+      if (!hasSubstantiveDiningOffer(offer)) return false;
       const lifecycle = getOfferStatus(offer.start_date, offer.end_date, todayOverride);
       return lifecycle.status === "active" || lifecycle.status === "upcoming";
     });
@@ -198,6 +212,8 @@
   global.todayDateStr = todayDateStr;
   global.extractDiningOfferTitle = extractDiningOfferTitle;
   global.getDisplayOfferDetail = getDisplayOfferDetail;
+  global.hasSubstantiveDiningOffer = hasSubstantiveDiningOffer;
+  global.isSubstantiveOfferTitle = isSubstantiveOfferTitle;
   global.getOfferStatus = getOfferStatus;
   global.processStoreDeals = processStoreDeals;
   global.liveDiningOffers = liveDiningOffers;
@@ -208,6 +224,8 @@
       todayDateStr,
       extractDiningOfferTitle,
       getDisplayOfferDetail,
+      hasSubstantiveDiningOffer,
+      isSubstantiveOfferTitle,
       getOfferStatus,
       processStoreDeals,
       liveDiningOffers,
