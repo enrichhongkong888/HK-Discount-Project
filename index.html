@@ -739,7 +739,7 @@
     <template id="empty-state-hotels"><div class="col-span-full rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center"><p class="text-3xl">🏨</p><p class="mt-3 font-black">暫未有可顯示的酒店著數</p><p class="mt-2 text-sm text-slate-500">過期優惠已自動隱藏；請選擇其他地區或稍後再查看。</p></div></template>
     <template id="empty-state-all"><div class="col-span-full rounded-3xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center"><p class="text-3xl">✨</p><p class="mt-3 font-black">暫未有可顯示的著數</p><p class="mt-2 text-sm text-slate-500">請選擇其他地區／分類，或稍後再回來查看。</p></div></template>
 
-    <script src="frontend/app.js?v=20260827-dining-img1"></script>
+    <script src="frontend/app.js?v=20260829-mall-feed-fallback"></script>
     <script>
       const state = {
         districts: [],
@@ -1208,10 +1208,13 @@
           : "";
         const imgSrc = typeof window.diningOfferImageUrl === "function"
           ? window.diningOfferImageUrl(offer)
-          : String(offer.image || offer.photo_url || "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500");
+          : String(offer.image || offer.photo_url || (window.DINING_IMAGE_FALLBACK || "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500"));
         const imgAlt = escapeAttr(offer.restaurant_name || offer.title || "餐廳門面");
-        const fallbackImg = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500";
-        const photo = `<div class="offer-card-img-wrapper"><img class="offer-card-img" src="${escapeAttr(imgSrc)}" alt="${imgAlt}" loading="lazy" onerror="this.onerror=null;this.src='${fallbackImg}';"></div>`;
+        const fallbackImg = window.DINING_IMAGE_FALLBACK || "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500";
+        const imgErr = typeof window.imgOnErrorAttr === "function"
+          ? window.imgOnErrorAttr(fallbackImg)
+          : `onerror="this.onerror=null;this.src='${fallbackImg}';"`;
+        const photo = `<div class="offer-card-img-wrapper"><img class="offer-card-img" src="${escapeAttr(imgSrc)}" alt="${imgAlt}" loading="lazy" ${imgErr}></div>`;
         return `<article class="offer-card dining-offer-card rounded-2xl border ${borderTone}">${photo}<div class="dining-offer-card__body"><div class="flex flex-wrap items-center gap-2"><span class="text-xs font-black ${badgeTone}">${escapeHtml(lifecycle.label || "")}</span>${typeLine}${tagLine}</div><h5 class="mt-2 text-base font-black leading-tight">${escapeHtml(offer.restaurant_name || "")}</h5>${shopLine}<p class="mt-2 text-sm font-semibold leading-6">${escapeHtml(detail)}</p><p class="mt-2 text-xs font-semibold opacity-75">${formatDate(offer.start_date)} 至 ${formatDate(offer.end_date)}</p>${cta}</div></article>`;
       }
       function diningOffersSection(mall) {
@@ -2239,6 +2242,9 @@ function hotelCard(hotel) {
       }
 
       async function fetchJsonResource(url, label) {
+        if (typeof window.fetchJsonResource === "function") {
+          return window.fetchJsonResource(url, label);
+        }
         let response;
         try {
           response = await fetch(url, { cache: "no-store" });
@@ -2251,8 +2257,14 @@ function hotelCard(hotel) {
           console.error(`[HK-Deal] Failed to load ${label}`, { url, status: response.status, statusText: response.statusText });
           throw err;
         }
+        const text = await response.text();
+        if (["<<<<<<<", "=======", ">>>>>>>"].some((m) => text.includes(m))) {
+          const err = new Error(`${label} contains unresolved Git merge conflict markers`);
+          console.error(`[HK-Deal] Conflict markers in ${label}`, { url });
+          throw err;
+        }
         try {
-          return await response.json();
+          return JSON.parse(text);
         } catch (parseErr) {
           console.error(`[HK-Deal] Invalid JSON in ${label}`, { url, error: parseErr });
           throw parseErr;
@@ -2302,7 +2314,10 @@ function hotelCard(hotel) {
       }
 
       async function fetchData() {
-        const mallData = await fetchJsonResource("./malls.json", "malls.json");
+        const loadFeed = typeof window.fetchMallFeed === "function"
+          ? window.fetchMallFeed
+          : () => fetchJsonResource("./malls.json", "malls.json");
+        const mallData = await loadFeed();
         applyMallFeed(mallData);
         mallsLoaded = true;
 
@@ -2334,9 +2349,10 @@ function hotelCard(hotel) {
 
       function showLoadFailure(err) {
         console.error("[HK-Deal] fetchData() failed — unable to render mall feed.", err);
+        const detail = err && err.message ? String(err.message) : String(err || "unknown error");
         districtSummary.textContent = "無法載入資料。請以本機網頁伺服器開啟此頁面。";
         if (mallList) {
-          mallList.innerHTML = '<div class="col-span-full rounded-3xl bg-red-50 p-6 text-sm font-semibold text-red-700">資料載入失敗。請執行 <code class="rounded bg-white px-2 py-1">python -m http.server 8000</code> 後開啟 http://localhost:8000。</div>';
+          mallList.innerHTML = `<div class="col-span-full rounded-3xl bg-red-50 p-6 text-sm font-semibold text-red-700">資料載入失敗（${escapeHtml(detail)}）。請執行 <code class="rounded bg-white px-2 py-1">python -m http.server 8000</code> 後開啟 http://localhost:8000，或執行 <code class="rounded bg-white px-2 py-1">python scripts/daily_openrice_sync.py --no-validate-urls</code> 更新資料。</div>`;
         }
       }
 

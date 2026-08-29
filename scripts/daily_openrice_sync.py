@@ -35,6 +35,7 @@ from scrapers.openrice_api import (  # noqa: E402
 from store_channels.http_util import shared_http  # noqa: E402
 
 SPA_MALLS_PATH = ROOT / "malls.json"
+CACHE_MALLS_BACKUP_PATH = ROOT / "data" / "cache" / "malls.json"
 CACHE_PATH = ROOT / "data" / "cache" / "daily_openrice_offers.json"
 POI_DUMP_PATH = ROOT / "data" / "cache" / "_openrice_poi.json"
 LIFECYCLE_PREVIEW_DAYS = 3
@@ -71,6 +72,24 @@ def _parse_date(value: Any) -> date | None:
         return date.fromisoformat(text)
     except ValueError:
         return None
+
+
+def backup_malls_json(payload: dict[str, Any]) -> None:
+    """Write a full SPA feed backup to data/cache/malls.json (atomic replace)."""
+    CACHE_MALLS_BACKUP_PATH.parent.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    tmp_path = CACHE_MALLS_BACKUP_PATH.with_suffix(".json.tmp")
+    try:
+        tmp_path.write_text(text, encoding="utf-8")
+        tmp_path.replace(CACHE_MALLS_BACKUP_PATH)
+        print(f"[openrice_sync] backup written → {CACHE_MALLS_BACKUP_PATH.relative_to(ROOT)}")
+    except OSError as exc:
+        print(f"[openrice_sync] warn: malls.json cache backup failed ({exc})")
+        try:
+            if tmp_path.exists():
+                tmp_path.unlink()
+        except OSError:
+            pass
 
 
 def _format_shop_no(floor: str, shop: str) -> str:
@@ -592,6 +611,7 @@ async def sync_openrice(
 
     if not dry_run:
         SPA_MALLS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        backup_malls_json(payload)
         CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
         CACHE_PATH.write_text(json.dumps({"today": today.isoformat(), "stats": stats}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

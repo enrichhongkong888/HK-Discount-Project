@@ -37,6 +37,89 @@
   }
 
   const DEFAULT_DINING_TITLE = "店內指定特惠套餐 / 堂食折扣";
+  const DINING_IMAGE_FALLBACK =
+    "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500";
+  const STORE_IMAGE_FALLBACK = "images/defaults/store_default.png";
+  const MALL_FEED_SOURCES = [
+    "./data/cache/malls.json",
+    "./malls.json",
+    "./data/malls.json",
+  ];
+  const JSON_CONFLICT_MARKERS = ["<<<<<<<", "=======", ">>>>>>>"];
+
+  function isValidMallFeed(payload) {
+    return (
+      payload &&
+      typeof payload === "object" &&
+      Array.isArray(payload.districts)
+    );
+  }
+
+  async function fetchJsonResource(url, label) {
+    let response;
+    try {
+      response = await fetch(url, { cache: "no-store" });
+    } catch (networkErr) {
+      console.error(`[HK-Deal] Network error loading ${label}`, {
+        url,
+        error: networkErr,
+      });
+      throw networkErr;
+    }
+    if (!response.ok) {
+      const err = new Error(`${label} HTTP ${response.status} ${response.statusText}`);
+      console.error(`[HK-Deal] Failed to load ${label}`, {
+        url,
+        status: response.status,
+        statusText: response.statusText,
+      });
+      throw err;
+    }
+    const text = await response.text();
+    if (JSON_CONFLICT_MARKERS.some((marker) => text.includes(marker))) {
+      const err = new Error(`${label} contains unresolved Git merge conflict markers`);
+      console.error(`[HK-Deal] Conflict markers in ${label}`, { url });
+      throw err;
+    }
+    try {
+      return JSON.parse(text);
+    } catch (parseErr) {
+      console.error(`[HK-Deal] Invalid JSON in ${label}`, { url, error: parseErr });
+      throw parseErr;
+    }
+  }
+
+  /**
+   * Load SPA mall feed with fallback chain:
+   * data/cache/malls.json → malls.json → data/malls.json (parking catalog skipped if no districts).
+   */
+  async function fetchMallFeed() {
+    const errors = [];
+    for (const url of MALL_FEED_SOURCES) {
+      const label = url.replace(/^\.\//, "");
+      try {
+        const payload = await fetchJsonResource(url, label);
+        if (!isValidMallFeed(payload)) {
+          console.warn(`[HK-Deal] ${label} is not a mall feed (missing districts); trying next source.`);
+          continue;
+        }
+        if (url !== MALL_FEED_SOURCES[0]) {
+          console.warn(`[HK-Deal] Mall feed loaded from fallback: ${url}`);
+        }
+        return payload;
+      } catch (err) {
+        errors.push({ url, error: err });
+      }
+    }
+    const summary = errors.map((e) => `${e.url}: ${e.error && e.error.message}`).join("; ");
+    throw new Error(`All mall feed sources failed (${summary})`);
+  }
+
+  function imgOnErrorAttr(fallbackUrl) {
+    const fb = String(fallbackUrl || DINING_IMAGE_FALLBACK).replace(/'/g, "\\'");
+    return `onerror="this.onerror=null;this.src='${fb}';"`;
+  }
+
   const LEGACY_DEFAULTS = [
     "店內當期指定餐飲優惠（請參閱門市告示）",
     "OpenRice 門市／外賣常態禮遇：堂食或外賣自取惠顧可享店內當期推廣；實際條款以 OpenRice App／店內告示為準。",
@@ -420,13 +503,12 @@
   }
 
   function diningOfferImageUrl(offer) {
-    const fallback = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500";
-    if (!offer || typeof offer !== "object") return fallback;
+    if (!offer || typeof offer !== "object") return DINING_IMAGE_FALLBACK;
     const src = String(
       offer.image || offer.photo_url || offer.logo_url || offer.banner || ""
     ).trim();
     if (/^https?:\/\//i.test(src)) return src;
-    return fallback;
+    return DINING_IMAGE_FALLBACK;
   }
 
   /**
@@ -438,7 +520,6 @@
     const name = String((offer && offer.restaurant_name) || "").trim();
     const title = String((offer && offer.title) || name || "餐廳優惠");
     const img = diningOfferImageUrl(offer);
-    const fallback = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500";
     const esc = (v) =>
       String(v == null ? "" : v)
         .replace(/&/g, "&amp;")
@@ -446,12 +527,18 @@
         .replace(/>/g, "&gt;")
         .replace(/"/g, "&quot;");
     return (
-      `<div class="offer-card-img-wrapper"><img class="offer-card-img" src="${esc(img)}" alt="${esc(title)}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';"></div>` +
+      `<div class="offer-card-img-wrapper"><img class="offer-card-img" src="${esc(img)}" alt="${esc(title)}" loading="lazy" ${imgOnErrorAttr(DINING_IMAGE_FALLBACK)}></div>` +
       (opts.bodyHtml || `<div class="dining-offer-card__body"><h5>${esc(name || title)}</h5><p>${esc(detail)}</p></div>`)
     );
   }
 
   global.todayDateStr = todayDateStr;
+  global.DINING_IMAGE_FALLBACK = DINING_IMAGE_FALLBACK;
+  global.STORE_IMAGE_FALLBACK = STORE_IMAGE_FALLBACK;
+  global.fetchJsonResource = fetchJsonResource;
+  global.fetchMallFeed = fetchMallFeed;
+  global.isValidMallFeed = isValidMallFeed;
+  global.imgOnErrorAttr = imgOnErrorAttr;
   global.diningOfferImageUrl = diningOfferImageUrl;
   global.renderDiningOfferCardHtml = renderDiningOfferCardHtml;
   global.extractDiningOfferTitle = extractDiningOfferTitle;
@@ -484,6 +571,12 @@
       toggleDiningOffersSection,
       bindMallOffersToggle,
       rebindMallFocusButtons,
+      fetchMallFeed,
+      fetchJsonResource,
+      isValidMallFeed,
+      imgOnErrorAttr,
+      diningOfferImageUrl,
+      renderDiningOfferCardHtml,
     };
   }
 })(typeof window !== "undefined" ? window : globalThis);
