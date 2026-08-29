@@ -74,22 +74,38 @@ def _parse_date(value: Any) -> date | None:
         return None
 
 
-def backup_malls_json(payload: dict[str, Any]) -> None:
-    """Write a full SPA feed backup to data/cache/malls.json (atomic replace)."""
-    CACHE_MALLS_BACKUP_PATH.parent.mkdir(parents=True, exist_ok=True)
-    text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
-    tmp_path = CACHE_MALLS_BACKUP_PATH.with_suffix(".json.tmp")
+def offer_start_date(raw: dict[str, Any]) -> date | None:
+    return _parse_date(raw.get("start_date") or raw.get("valid_from"))
+
+
+def offer_end_date(raw: dict[str, Any]) -> date | None:
+    return _parse_date(raw.get("end_date") or raw.get("expiry_date") or raw.get("valid_to"))
+
+
+def atomic_write_text(path: Path, text: str) -> None:
+    """Write UTF-8 text via temp file + replace to avoid partial JSON on crash."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
     try:
         tmp_path.write_text(text, encoding="utf-8")
-        tmp_path.replace(CACHE_MALLS_BACKUP_PATH)
-        print(f"[openrice_sync] backup written → {CACHE_MALLS_BACKUP_PATH.relative_to(ROOT)}")
-    except OSError as exc:
-        print(f"[openrice_sync] warn: malls.json cache backup failed ({exc})")
+        tmp_path.replace(path)
+    except OSError:
         try:
             if tmp_path.exists():
                 tmp_path.unlink()
         except OSError:
             pass
+        raise
+
+
+def backup_malls_json(payload: dict[str, Any]) -> None:
+    """Write a full SPA feed backup to data/cache/malls.json (atomic replace)."""
+    text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    try:
+        atomic_write_text(CACHE_MALLS_BACKUP_PATH, text)
+        print(f"[openrice_sync] backup written → {CACHE_MALLS_BACKUP_PATH.relative_to(ROOT)}")
+    except OSError as exc:
+        print(f"[openrice_sync] warn: malls.json cache backup failed ({exc})")
 
 
 def _format_shop_no(floor: str, shop: str) -> str:
@@ -302,8 +318,8 @@ def prune_offers(
         if not isinstance(raw, dict):
             continue
         stats["input"] += 1
-        start = _parse_date(raw.get("start_date"))
-        end = _parse_date(raw.get("end_date"))
+        start = offer_start_date(raw)
+        end = offer_end_date(raw)
         url = str(raw.get("openrice_url") or "").strip()
         title = str(raw.get("title") or raw.get("offer_title") or raw.get("discount_text") or "").strip()
         if not title or is_generic_text(title) or not is_substantive_offer_title(title):
@@ -336,6 +352,50 @@ def prune_offers(
         kept.append(offer)
         stats["kept"] += 1
     return kept, stats
+
+
+def prune_store_offers(
+    offers: list[dict[str, Any]],
+    *,
+    today: date,
+) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    """Drop expired / not-yet-active store_offers using end_date / expiry_date / valid_to."""
+    stats = {"input": 0, "kept": 0, "pruned_expired": 0, "pruned_scheduled": 0}
+    kept: list[dict[str, Any]] = []
+    for raw in offers:
+        if not isinstance(raw, dict):
+            continue
+        stats["input"] += 1
+        start = offer_start_date(raw)
+        end = offer_end_date(raw)
+        if end and end < today:
+            stats["pruned_expired"] += 1
+            continue
+        if start and end:
+            status = lifecycle_status(start, end, today=today)
+            if not status:
+                stats["pruned_scheduled"] += 1
+                continue
+            offer = dict(raw)
+            offer["start_date"] = start.isoformat()
+            offer["end_date"] = end.isoformat()
+            offer["status"] = status
+            offer["lifecycle_status"] = status
+            kept.append(offer)
+            stats["kept"] += 1
+            continue
+        kept.append(raw)
+        stats["kept"] += 1
+    return kept, stats
+
+
+def prune_mall_offers(
+    offers: list[dict[str, Any]],
+    *,
+    today: date,
+) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    """Drop expired / not-yet-active mall_offers."""
+    return prune_store_offers(offers, today=today)
 
 
 def merge_poi_dump(pois: list[dict[str, Any]]) -> int:
@@ -583,6 +643,18 @@ async def sync_openrice(
             for key in ("pruned_expired", "pruned_dead_url", "pruned_scheduled", "pruned_generic"):
                 stats["prune"][key] += prune_stats.get(key, 0)
 
+            store_existing = list(mall.get("store_offers") or [])
+            pruned_store, store_stats = prune_store_offers(store_existing, today=today)
+            for key in ("pruned_expired", "pruned_scheduled"):
+                stats["prune"][key] += store_stats.get(key, 0)
+            mall["store_offers"] = pruned_store
+
+            mall_existing = list(mall.get("mall_offers") or [])
+            pruned_mall, mall_stats = prune_mall_offers(mall_existing, today=today)
+            for key in ("pruned_expired", "pruned_scheduled"):
+                stats["prune"][key] += mall_stats.get(key, 0)
+            mall["mall_offers"] = pruned_mall
+
             fresh = [
                 o for o in candidate_offers.get(name, [])
                 if is_substantive_offer_title(str(o.get("title") or ""))
@@ -610,10 +682,11 @@ async def sync_openrice(
     payload["openrice_sync_date"] = today.isoformat()
 
     if not dry_run:
-        SPA_MALLS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        malls_text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+        atomic_write_text(SPA_MALLS_PATH, malls_text)
         backup_malls_json(payload)
-        CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-        CACHE_PATH.write_text(json.dumps({"today": today.isoformat(), "stats": stats}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        stats_text = json.dumps({"today": today.isoformat(), "stats": stats}, ensure_ascii=False, indent=2) + "\n"
+        atomic_write_text(CACHE_PATH, stats_text)
 
     return stats
 
