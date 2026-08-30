@@ -13,92 +13,7 @@
           "network_phone": null,
           "mall_url": "https://www.centralmarket.hk/",
           "mall_offers": [],
-          "store_offers": [
-            {
-              "type": "store",
-              "offer_title": "Chef's Market｜手作快閃限定（2026-08-15 起）",
-              "details": "獨立小店手作快閃：2026-08-15 起推出手作／本地品牌限定貨品或換購；名額有限，詳情以店內告示為準。 適用於 中環街市 Chef's Market（地下 G04-G09號舖）。",
-              "start_date": "2026-08-15",
-              "end_date": "2026-08-29",
-              "source_url": "https://www.centralmarket.hk/tc/floor-directory",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "store_offer",
-              "offer_category_label": "個別商店優惠",
-              "vertical_category": "Retail",
-              "vertical_category_label": "零售",
-              "tags": [
-                "Upcoming",
-                "PopUp"
-              ],
-              "tag_labels": [
-                "即將開始",
-                "快閃"
-              ],
-              "store_name": "Chef's Market",
-              "floor": "地下",
-              "shop_number": "G04-G09",
-              "phone": "6687 1703",
-              "sub_offers": [
-                {
-                  "time_slot": "2026-08-15 起",
-                  "title": "中環街市｜Chef's Market 門市優惠",
-                  "detail": "中環街市美食市集常態禮遇：惠顧正價貨品／餐飲可享店內當期推廣折扣；實際條款以店內告示為準。"
-                },
-                {
-                  "time_slot": "2026-08-15 至 2026-08-31",
-                  "title": "Chef's Market｜街坊專屬折扣（2026-08-15 起）",
-                  "detail": "街坊專屬折扣：2026-08-15 起出示住址／會員可享獨立小店專屬折扣或換領；詳情以店內告示為準。 適用於 中環街市 Chef's Market（地下 G04-G09號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-16 起",
-                  "title": "Chef's Market｜週日週末市集聯乘（2026-08-16）",
-                  "detail": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 中環街市 Chef's Market（地下 G04-G09號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-18 至 2026-09-08",
-                  "title": "Chef's Market｜週末限定推廣（2026-08-18 起）",
-                  "detail": "週末限定門市／餐飲推廣：2026-08-18 起惠顧正價貨品或堂食可享店內新一期會員／積分禮遇；實際條款以店內告示及官方 App 為準。"
-                },
-                {
-                  "time_slot": "2026-08-18 至 2026-09-08",
-                  "title": "Chef's Market｜獨立咖啡廳平日特惠（2026-08-18）",
-                  "detail": "獨立咖啡廳特惠：2026-08-18 惠顧正價飲品／輕食可享第二杯或套餐禮遇；詳情以店內告示為準。 適用於 中環街市 Chef's Market（地下 G04-G09號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-18 至 2026-09-08",
-                  "title": "Chef's Market｜小店市集聯乘（2026-08-18）",
-                  "detail": "獨立小店市集聯乘：2026-08-18 參與商場市集／快閃攤檔可享聯乘換領；詳情以市集及店內公告為準。 適用於 中環街市 Chef's Market（地下 G04-G09號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 起",
-                  "title": "Chef's Market｜週一餐飲／外賣禮遇（2026-08-17）",
-                  "detail": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 中環街市 Chef's Market（地下 G04-G09號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 起",
-                  "title": "Chef's Market｜週一美妝／護膚快閃（2026-08-17）",
-                  "detail": "美妝品類快閃規律：2026-08-17（週一）護膚／化妝／藥妝正價貨品可享品類限定折扣或換購；詳情以店內告示為準。 美妝 快閃 折扣 適用於 中環街市 Chef's Market（地下 G04-G09號舖）。"
-                }
-              ],
-              "consolidated_offer_count": 9,
-              "merchant_type": "independent",
-              "has_active": true,
-              "has_upcoming": false,
-              "branch_id": "chefsmarket_95f8bbc69aa6_g04g09",
-              "store_image_url": "frontend/images/stores/95f8bbc69aa6_g04-g09_66871703.jpg",
-              "facade_image_url": "frontend/images/stores/95f8bbc69aa6_g04-g09_66871703.jpg",
-              "image_url": "frontend/images/stores/95f8bbc69aa6_g04-g09_66871703.jpg",
-              "relocation_status": "ok",
-              "store_key": "95f8bbc69aa6_g04-g09_66871703",
-              "mall_id": "95f8bbc69aa6",
-              "image_source": "google_places",
-              "google_place_id": "ChIJpdvOs3wABDQRBKq48puR7iU",
-              "google_query": "中環街市 Chef's Market 香港"
-            }
-          ],
+          "store_offers": [],
           "lat": 22.28375,
           "lng": 114.15535,
           "geo_tags": [
@@ -14079,6 +13994,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 49775
+            },
+            {
+              "restaurant_name": "羲和雅苑",
+              "shop_no": "2樓 E203",
+              "title": "$100堂食現金券 (海港城分店)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$100",
+              "start_date": "2026-08-30",
+              "end_date": "2026-09-29",
+              "openrice_url": "https://s.openrice.com/QrbS0w4q800",
+              "image": "https://static6.orstatic.com/userphoto/photo/S/M8S/04E6KPD621BF26FEF8C512mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-30",
+              "poi_id": 544232
             }
           ]
         }
@@ -15205,7 +15136,7 @@
               "lifecycle_status": "active",
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-26",
-              "image": "https://static8.orstatic.com/userphoto2/photo/1O/1BML/09EOLNDE12A7697DA10B98mx.jpg"
+              "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500"
             },
             {
               "restaurant_name": "Green Waffle Diner",
@@ -15250,105 +15181,6 @@
           "mall_url": "https://www.leetungavenue.com.hk/en/",
           "mall_offers": [],
           "store_offers": [
-            {
-              "type": "store",
-              "offer_title": "Sho-EN｜手作快閃限定（2026-08-15 起）",
-              "details": "獨立小店手作快閃：2026-08-15 起推出手作／本地品牌限定貨品或換購；名額有限，詳情以店內告示為準。 適用於 利東街 Sho-EN（地下 G02-03號舖）。",
-              "start_date": "2026-08-15",
-              "end_date": "2026-08-29",
-              "source_url": "https://www.openrice.com/en/hongkong/r-sho-en-wan-chai-japanese-r887059",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "store_offer",
-              "offer_category_label": "個別商店優惠",
-              "vertical_category": "Retail",
-              "vertical_category_label": "零售",
-              "tags": [
-                "Upcoming",
-                "PopUp"
-              ],
-              "tag_labels": [
-                "即將開始",
-                "快閃"
-              ],
-              "store_name": "Sho-EN",
-              "floor": "地下",
-              "shop_number": "G02-03",
-              "phone": "2869 1228",
-              "sub_offers": [
-                {
-                  "time_slot": "2026-08-15 起",
-                  "title": "利東街｜Sho-EN 門市／外賣優惠",
-                  "detail": "利東街餐飲常態禮遇：堂食／外賣惠顧可享店內當期推廣折扣；詳情以店內告示為準。"
-                },
-                {
-                  "time_slot": "2026-08-15 至 2026-08-31",
-                  "title": "Sho-EN｜街坊專屬折扣（2026-08-15 起）",
-                  "detail": "街坊專屬折扣：2026-08-15 起出示住址／會員可享獨立小店專屬折扣或換領；詳情以店內告示為準。 適用於 利東街 Sho-EN（地下 G02-03號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-16 起",
-                  "title": "Sho-EN｜週日週末市集聯乘（2026-08-16）",
-                  "detail": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 利東街 Sho-EN（地下 G02-03號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-18 至 2026-09-08",
-                  "title": "Sho-EN｜銀行信用卡新一期優惠（2026-08-18 起）",
-                  "detail": "銀行信用卡新一期簽帳禮遇：2026-08-18 起以指定信用卡於本店消費可享分期／現金回贈或商場積分加成；以發卡行及店內公告為準。"
-                },
-                {
-                  "time_slot": "2026-08-18 起",
-                  "title": "Sho-EN｜週二電器／數碼快閃（2026-08-18）",
-                  "detail": "電子品類快閃規律：2026-08-18（週二）電器／數碼／配件正價貨品可享品類限定折扣或禮品；詳情以店內告示為準。 電子 數碼 快閃 適用於 利東街 Sho-EN（地下 G02-03號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-18 至 2026-09-08",
-                  "title": "Sho-EN｜小店市集聯乘（2026-08-18）",
-                  "detail": "獨立小店市集聯乘：2026-08-18 參與商場市集／快閃攤檔可享聯乘換領；詳情以市集及店內公告為準。 適用於 利東街 Sho-EN（地下 G02-03號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 起",
-                  "title": "Sho-EN｜週一餐飲／外賣禮遇（2026-08-17）",
-                  "detail": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 利東街 Sho-EN（地下 G02-03號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 起",
-                  "title": "Sho-EN｜週一美妝／護膚快閃（2026-08-17）",
-                  "detail": "美妝品類快閃規律：2026-08-17（週一）護膚／化妝／藥妝正價貨品可享品類限定折扣或換購；詳情以店內告示為準。 美妝 快閃 折扣 適用於 利東街 Sho-EN（地下 G02-03號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 至 2026-09-07",
-                  "title": "Sho-EN｜獨立咖啡廳平日特惠（2026-08-17）",
-                  "detail": "獨立咖啡廳特惠：2026-08-17 惠顧正價飲品／輕食可享第二杯或套餐禮遇；詳情以店內告示為準。 適用於 利東街 Sho-EN（地下 G02-03號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 至 2026-09-07",
-                  "title": "Sho-EN｜期間限定快閃禮遇（2026-08-17 起）",
-                  "detail": "期間限定快閃推廣：2026-08-17 起於本店推出限時換領／折扣；名額有限，詳情以店內告示及商場官方公告為準。"
-                },
-                {
-                  "time_slot": "2026-08-16 起",
-                  "title": "Sho-EN｜週日週末快閃折價（2026-08-16）",
-                  "detail": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 利東街 Sho-EN（地下 G02-03號舖）。"
-                }
-              ],
-              "consolidated_offer_count": 12,
-              "merchant_type": "chain",
-              "has_active": true,
-              "has_upcoming": false,
-              "branch_id": "shoen_1260125e9265_g0203",
-              "store_image_url": "frontend/images/stores/1260125e9265_g02-03_28691228.jpg",
-              "facade_image_url": "frontend/images/stores/1260125e9265_g02-03_28691228.jpg",
-              "image_url": "frontend/images/stores/1260125e9265_g02-03_28691228.jpg",
-              "relocation_status": "ok",
-              "store_key": "1260125e9265_g02-03_28691228",
-              "mall_id": "1260125e9265",
-              "image_source": "google_places",
-              "google_place_id": "ChIJYTz9S-EBBDQREK2Mldu6-DI",
-              "google_query": "利東街 Sho-EN 香港"
-            },
             {
               "type": "store",
               "offer_title": "Rakuraku Ramen｜小店市集聯乘（2026-08-15）",
@@ -20056,92 +19888,7 @@
           "network_phone": null,
           "mall_url": "https://www.visitdiscoverybay.com/",
           "mall_offers": [],
-          "store_offers": [
-            {
-              "type": "store",
-              "offer_title": "Uncle Russ Coffee｜手作快閃限定（2026-08-15 起）",
-              "details": "獨立小店手作快閃：2026-08-15 起推出手作／本地品牌限定貨品或換購；名額有限，詳情以店內告示為準。 適用於 愉景灣北商場 DB North Plaza Uncle Russ Coffee（LG LG19號舖）。",
-              "start_date": "2026-08-15",
-              "end_date": "2026-08-29",
-              "source_url": "https://www.visitdiscoverybay.com/en/shops-detail/81",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "store_offer",
-              "offer_category_label": "個別商店優惠",
-              "vertical_category": "Retail",
-              "vertical_category_label": "零售",
-              "tags": [
-                "Upcoming",
-                "PopUp"
-              ],
-              "tag_labels": [
-                "即將開始",
-                "快閃"
-              ],
-              "store_name": "Uncle Russ Coffee",
-              "floor": "LG",
-              "shop_number": "LG19",
-              "phone": "2840 1188",
-              "sub_offers": [
-                {
-                  "time_slot": "2026-08-15 起",
-                  "title": "愉景灣北商場｜Uncle Russ Coffee 常態優惠",
-                  "detail": "愉景北商場咖啡店常態禮遇：惠顧正價飲品／輕食可享店內當期推廣；詳情以店內告示為準。"
-                },
-                {
-                  "time_slot": "2026-08-15 至 2026-08-30",
-                  "title": "Uncle Russ Coffee｜獨立咖啡廳平日特惠（2026-08-15）",
-                  "detail": "獨立咖啡廳特惠：2026-08-15 惠顧正價飲品／輕食可享第二杯或套餐禮遇；詳情以店內告示為準。 適用於 愉景灣北商場 DB North Plaza Uncle Russ Coffee（LG LG19號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-16 起",
-                  "title": "Uncle Russ Coffee｜週日週末快閃折價（2026-08-16）",
-                  "detail": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 愉景灣北商場 DB North Plaza Uncle Russ Coffee（LG LG19號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-18 起",
-                  "title": "Uncle Russ Coffee｜週二電器／數碼快閃（2026-08-18）",
-                  "detail": "電子品類快閃規律：2026-08-18（週二）電器／數碼／配件正價貨品可享品類限定折扣或禮品；詳情以店內告示為準。 電子 數碼 快閃 適用於 愉景灣北商場 DB North Plaza Uncle Russ Coffee（LG LG19號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-18 至 2026-09-08",
-                  "title": "Uncle Russ Coffee｜期間限定快閃禮遇（2026-08-18 起）",
-                  "detail": "期間限定快閃推廣：2026-08-18 起於本店推出限時換領／折扣；名額有限，詳情以店內告示及商場官方公告為準。"
-                },
-                {
-                  "time_slot": "2026-08-18 至 2026-09-08",
-                  "title": "Uncle Russ Coffee｜小店市集聯乘（2026-08-18）",
-                  "detail": "獨立小店市集聯乘：2026-08-18 參與商場市集／快閃攤檔可享聯乘換領；詳情以市集及店內公告為準。 適用於 愉景灣北商場 DB North Plaza Uncle Russ Coffee（LG LG19號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 起",
-                  "title": "Uncle Russ Coffee｜週一美妝／護膚快閃（2026-08-17）",
-                  "detail": "美妝品類快閃規律：2026-08-17（週一）護膚／化妝／藥妝正價貨品可享品類限定折扣或換購；詳情以店內告示為準。 美妝 快閃 折扣 適用於 愉景灣北商場 DB North Plaza Uncle Russ Coffee（LG LG19號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 至 2026-09-07",
-                  "title": "Uncle Russ Coffee｜街坊專屬折扣（2026-08-17 起）",
-                  "detail": "街坊專屬折扣：2026-08-17 起出示住址／會員可享獨立小店專屬折扣或換領；詳情以店內告示為準。 適用於 愉景灣北商場 DB North Plaza Uncle Russ Coffee（LG LG19號舖）。"
-                }
-              ],
-              "consolidated_offer_count": 9,
-              "merchant_type": "independent",
-              "has_active": true,
-              "has_upcoming": false,
-              "branch_id": "unclerusscoffee_dbnorthplaza_lg19",
-              "store_image_url": "frontend/images/stores/db-north-plaza_lg19_28401188.jpg",
-              "facade_image_url": "frontend/images/stores/db-north-plaza_lg19_28401188.jpg",
-              "image_url": "frontend/images/stores/db-north-plaza_lg19_28401188.jpg",
-              "relocation_status": "ok",
-              "store_key": "db-north-plaza_lg19_28401188",
-              "mall_id": "db-north-plaza",
-              "image_source": "google_places",
-              "google_place_id": "ChIJWexrn7v9AzQRc7FnxaL2uAs",
-              "google_query": "愉景灣北商場 DB North Plaza Uncle Russ Coffee 香港"
-            }
-          ],
+          "store_offers": [],
           "lat": 22.29755,
           "lng": 114.01155,
           "geo_tags": [
@@ -21726,6 +21473,6 @@
       "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
     }
   },
-  "openrice_sync_at": "2026-08-29T12:59:46.154578+08:00",
-  "openrice_sync_date": "2026-08-29"
+  "openrice_sync_at": "2026-08-30T08:13:56.727973+08:00",
+  "openrice_sync_date": "2026-08-30"
 }
