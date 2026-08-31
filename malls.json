@@ -4485,6 +4485,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 156101
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "地下 G03",
+              "title": "杞子醬汁燒賣套票 (1套5張)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "杞子醬汁燒賣套票 (1套5張)",
+              "start_date": "2026-08-31",
+              "end_date": "2026-09-30",
+              "openrice_url": "https://s.openrice.com/QrbS0YL0000",
+              "image": "https://static6.orstatic.com/userphoto/photo/8/6FZ/019TQ9454F02D95DB50767mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-31",
+              "poi_id": 20617
             }
           ]
         },
@@ -10982,6 +10998,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 824995
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "2樓 200",
+              "title": "杞子醬汁燒賣套票 (1套5張)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "杞子醬汁燒賣套票 (1套5張)",
+              "start_date": "2026-08-31",
+              "end_date": "2026-09-30",
+              "openrice_url": "https://s.openrice.com/QrbS0qmy4W0",
+              "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-31",
+              "poi_id": 593875
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "地下 G53B",
+              "title": "杞子醬汁燒賣套票 (1套5張)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "杞子醬汁燒賣套票 (1套5張)",
+              "start_date": "2026-08-31",
+              "end_date": "2026-09-30",
+              "openrice_url": "https://s.openrice.com/QrbS0wNW000",
+              "image": "https://static7.orstatic.com/userphoto/photo/0/KT/00442A8D6BCE0BA0AD540Fmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-31",
+              "poi_id": 30953
             }
           ]
         }
@@ -11227,30 +11275,6 @@
               ],
               "tag_labels": [
                 "會員"
-              ],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
-              "offer_title": "The Wai - “MTR Malls x Mastercard Bonus Reward” Campaign",
-              "details": "4/7/2026 - 30/8/2026",
-              "start_date": "2026-07-04",
-              "end_date": "2026-08-30",
-              "source_url": "https://www.thewaimall.com/en/promotions/mastercard-bonus-reward-2026",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [
-                "CreditCard"
-              ],
-              "tag_labels": [
-                "信用卡"
               ],
               "platform": "官網",
               "source_type": "official"
@@ -14810,6 +14834,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 632091
+            },
+            {
+              "restaurant_name": "雲海滙",
+              "shop_no": "1樓 1-01",
+              "title": "[1位用]至尊嘗蟹宴(2位起) (星期一至五)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "[1位用]至尊嘗蟹宴(2位起) (星期一至五)",
+              "start_date": "2026-08-31",
+              "end_date": "2026-09-30",
+              "openrice_url": "https://s.openrice.com/QrbS0CKy5W0",
+              "image": "https://static5.orstatic.com/userphoto2/photo/1Q/1DMM/09SWXC118BF29FEDE33A6Cmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-31",
+              "poi_id": 741169
             }
           ]
         },
@@ -17065,6 +17105,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 895695
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "地下 G42",
+              "title": "杞子醬汁燒賣套票 (1套5張)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "杞子醬汁燒賣套票 (1套5張)",
+              "start_date": "2026-08-31",
+              "end_date": "2026-09-30",
+              "openrice_url": "https://s.openrice.com/QrbS0oda200",
+              "image": "https://static5.orstatic.com/userphoto/photo/9/7LY/01I468F93D62A8E4B8F274mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-31",
+              "poi_id": 162250
             }
           ]
         },
@@ -18017,30 +18073,6 @@
               ],
               "tag_labels": [
                 "會員"
-              ],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
-              "offer_title": "PopCorn - “MTR Malls x Mastercard Bonus Reward” Campaign",
-              "details": "4/7/2026 - 30/8/2026",
-              "start_date": "2026-07-04",
-              "end_date": "2026-08-30",
-              "source_url": "https://www.popcorntko.com.hk/en/promotions/mastercard-bonus-reward-2026",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [
-                "CreditCard"
-              ],
-              "tag_labels": [
-                "信用卡"
               ],
               "platform": "官網",
               "source_type": "official"
@@ -20433,6 +20465,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 873947
+            },
+            {
+              "restaurant_name": "羲和雅苑",
+              "shop_no": "4樓 417",
+              "title": "$100堂食現金券(東薈城分店)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$100",
+              "start_date": "2026-08-31",
+              "end_date": "2026-09-30",
+              "openrice_url": "https://s.openrice.com/QrbS0srKD00",
+              "image": "https://static5.orstatic.com/userphoto3/photo/2K/2152/0EG43O043F93EC51A9BBD9mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-31",
+              "poi_id": 873947
             }
           ]
         }
@@ -21433,6 +21481,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 779897
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "2樓 N214",
+              "title": "杞子醬汁燒賣套票 (1套5張)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "杞子醬汁燒賣套票 (1套5張)",
+              "start_date": "2026-08-31",
+              "end_date": "2026-09-30",
+              "openrice_url": "https://s.openrice.com/QrbS0I90800",
+              "image": "https://static8.orstatic.com/userphoto2/photo/1M/1A3V/093VHNAA9A69CB8FED4386mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-08-31",
+              "poi_id": 561224
             }
           ]
         }
@@ -21473,6 +21537,6 @@
       "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
     }
   },
-  "openrice_sync_at": "2026-08-30T08:13:56.727973+08:00",
-  "openrice_sync_date": "2026-08-30"
+  "openrice_sync_at": "2026-08-31T08:14:25.042244+08:00",
+  "openrice_sync_date": "2026-08-31"
 }

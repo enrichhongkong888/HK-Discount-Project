@@ -127,36 +127,12 @@
     "district": "油尖旺區",
     "group": "SHKP",
     "url": "https://www.moko.com.hk/",
-    "offers_count": 5,
+    "offers_count": 1,
     "offers": [
       {
-        "title": "活動及優惠",
-        "description": "詳情請參閱官方頁面",
-        "link": "https://www.moko.com.hk/happenings/",
-        "source": "MOKO 新世紀廣場"
-      },
-      {
-        "title": "The Point",
-        "description": "詳情請參閱官方頁面",
-        "link": "https://www.moko.com.hk/vip-club/",
-        "source": "MOKO 新世紀廣場"
-      },
-      {
-        "title": "前往 MOKO",
-        "description": "詳情請參閱官方頁面",
-        "link": "https://www.moko.com.hk/about-moko/to-moko/",
-        "source": "MOKO 新世紀廣場"
-      },
-      {
-        "title": "泊車及優惠",
-        "description": "詳情請參閱官方頁面",
-        "link": "https://www.moko.com.hk/about-moko/parking/",
-        "source": "MOKO 新世紀廣場"
-      },
-      {
-        "title": "關於MOKO",
-        "description": "詳情請參閱官方頁面",
-        "link": "https://www.moko.com.hk/about-moko/",
+        "title": "MOKO 周末消費回贈",
+        "description": "周末指定零售類別消費享高達 10% 禮券回贈",
+        "link": "https://www.moko.com.hk/",
         "source": "MOKO 新世紀廣場"
       }
     ]
