@@ -1449,30 +1449,6 @@
           "mall_offers": [
             {
               "type": "mall",
-              "offer_title": "又一城 x 旅發局 x 支付寶「夏日即賞」消費優惠",
-              "details": "又一城 x 旅發局 x 支付寶「夏日即賞」消費優惠",
-              "start_date": "2026-07-01",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.festivalwalk.com.hk/zh-hk/happenings/festival-walk-x-alipay-summer-instant-rewards",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [
-                "Discount"
-              ],
-              "tag_labels": [
-                "折扣"
-              ],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
               "offer_title": "又一城 X 支付寶內地用戶消費賞2026",
               "details": "又一城 X 支付寶內地用戶消費賞2026",
               "start_date": "2026-01-27",
@@ -4500,6 +4476,22 @@
               "lifecycle_status": "active",
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-31",
+              "poi_id": 20617
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "地下 G03",
+              "title": "$50現金券 (一張)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-09-01",
+              "end_date": "2026-10-01",
+              "openrice_url": "https://s.openrice.com/QrbS0YL0000",
+              "image": "https://static6.orstatic.com/userphoto/photo/8/6FZ/019TQ9454F02D95DB50767mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-01",
               "poi_id": 20617
             }
           ]
@@ -9167,61 +9159,7 @@
           "network_phone": null,
           "mall_url": "https://www.tmtp.com.hk/",
           "mall_offers": [],
-          "store_offers": [
-            {
-              "type": "store",
-              "offer_title": "A-1 Bakery｜屯門店週末烘焙禮遇（商戶登錄）",
-              "details": "[Dining] 商戶自主登錄推廣：2026-08-16 起指定烘焙產品可享會員積分；詳情以店內及 App 為準。",
-              "start_date": "2026-08-16",
-              "end_date": "2026-08-31",
-              "source_url": "https://clickandcollect.a-1bakery.com.hk/zh_HK/membership/",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "store_offer",
-              "offer_category_label": "個別商店優惠",
-              "vertical_category": "Dining",
-              "vertical_category_label": "餐飲",
-              "tags": [
-                "Member",
-                "FreeGift",
-                "Points",
-                "Weekend"
-              ],
-              "tag_labels": [
-                "會員",
-                "贈品換領",
-                "積分",
-                "週末"
-              ],
-              "store_name": "A-1 Bakery",
-              "floor": "屯門市廣場1期 1樓",
-              "shop_number": "1052",
-              "phone": "2452 6308",
-              "sub_offers": [
-                {
-                  "time_slot": "2026-08-16 起",
-                  "title": "A-1 Bakery｜週日週末市集聯乘（2026-08-16）",
-                  "detail": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 屯門市廣場 A-1 Bakery（屯門市廣場1期 1樓 1052號舖）。"
-                }
-              ],
-              "consolidated_offer_count": 2,
-              "merchant_type": "independent",
-              "has_active": true,
-              "has_upcoming": false,
-              "branch_id": "a1bakery_2a9e3005383e_1052",
-              "store_image_url": "frontend/images/stores/2a9e3005383e_1052_24526308.jpg",
-              "facade_image_url": "frontend/images/stores/2a9e3005383e_1052_24526308.jpg",
-              "image_url": "frontend/images/stores/2a9e3005383e_1052_24526308.jpg",
-              "relocation_status": "ok",
-              "store_key": "2a9e3005383e_1052_24526308",
-              "mall_id": "2a9e3005383e",
-              "image_source": "google_places",
-              "google_place_id": "ChIJzQe2AKz7AzQRmf-uFxcjCh4",
-              "google_query": "屯門市廣場 A-1 Bakery 香港"
-            }
-          ],
+          "store_offers": [],
           "lat": 22.39255,
           "lng": 113.97655,
           "geo_tags": [
@@ -11030,6 +10968,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-31",
               "poi_id": 30953
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "2樓 200",
+              "title": "$50現金券 (一張)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-09-01",
+              "end_date": "2026-10-01",
+              "openrice_url": "https://s.openrice.com/QrbS0qmy4W0",
+              "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-01",
+              "poi_id": 593875
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "地下 G53B",
+              "title": "$50現金券 (一張)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-09-01",
+              "end_date": "2026-10-01",
+              "openrice_url": "https://s.openrice.com/QrbS0wNW000",
+              "image": "https://static7.orstatic.com/userphoto/photo/0/KT/00442A8D6BCE0BA0AD540Fmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-01",
+              "poi_id": 30953
             }
           ]
         }
@@ -11187,32 +11157,6 @@
             },
             {
               "type": "mall",
-              "offer_title": "The Wai - MTR Malls x Mastercard Travel Rewards Expert Spending Rewards",
-              "details": "27/4/2026 - 31/8/2026",
-              "start_date": "2026-04-27",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.thewaimall.com/en/promotions/mastercard-traveller-2026",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [
-                "CreditCard",
-                "Member"
-              ],
-              "tag_labels": [
-                "信用卡",
-                "會員"
-              ],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
               "offer_title": "The Wai - MTR Points Scheme",
               "details": "1/5/2026 - 31/10/2026",
               "start_date": "2026-05-01",
@@ -11250,70 +11194,6 @@
               "offer_category_label": "官方活動",
               "vertical_category": "Retail",
               "vertical_category_label": "零售",
-              "tags": [],
-              "tag_labels": [],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
-              "offer_title": "The Wai - Summer Mega Rewards 2026",
-              "details": "1/7/2026 - 31/8/2026",
-              "start_date": "2026-07-01",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.thewaimall.com/en/promotions/summermegarewards2026",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [
-                "Member"
-              ],
-              "tag_labels": [
-                "會員"
-              ],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
-              "offer_title": "Music All The Wai 2026",
-              "details": "25/7/2026 - 31/8/2026",
-              "start_date": "2026-07-25",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.thewaimall.com/en/promotions/musicallthewai2026",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [],
-              "tag_labels": [],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
-              "offer_title": "The Wai - Karaoke Jam",
-              "details": "25/7/2026 - 31/8/2026",
-              "start_date": "2026-07-25",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.thewaimall.com/en/promotions/singkcontest2026",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
               "tags": [],
               "tag_labels": [],
               "platform": "官網",
@@ -13695,26 +13575,6 @@
             },
             {
               "type": "mall",
-              "offer_title": "Rewarding Beauty & Style @Harbour City",
-              "details": "Rewarding Beauty & Style @Harbour City",
-              "start_date": "2026-06-23",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.harbourcity.com.hk/en/happening/rewarding-beauty-style-harbourcity/",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [],
-              "tag_labels": [],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
               "offer_title": "Shell Double Rewards @ Harbour City",
               "details": "Shell Double Rewards @ Harbour City",
               "start_date": "2026-07-01",
@@ -14034,6 +13894,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-30",
               "poi_id": 544232
+            },
+            {
+              "restaurant_name": "芝樂坊餐廳",
+              "shop_no": "地下 G102",
+              "title": "蛋糕加購優惠",
+              "offer_type": "訂座折扣",
+              "discount_tag": "蛋糕加購優惠",
+              "start_date": "2026-09-01",
+              "end_date": "2026-10-01",
+              "openrice_url": "https://s.openrice.com/QrbS04Vu700",
+              "image": "https://static6.orstatic.com/userphoto3/photo/2O/249B/0F2A81C79A1E98F2EE98C4mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-01",
+              "poi_id": 523793
             }
           ]
         }
@@ -14930,40 +14806,7 @@
           "phone": null,
           "network_phone": null,
           "mall_url": "https://www.hysanplace.com.hk/",
-          "mall_offers": [
-            {
-              "type": "mall",
-              "offer_title": "利園區／希慎廣場免費泊車優惠",
-              "details": "星期一至四（公眾假期除外）於利園區以電子貨幣／八達通即日消費滿 HK$400 享 3 小時免費泊車；星期五、六、日及公眾假期滿 HK$600 享 3 小時。最多兩組即日機印單據；須成為會員並經 Lee Gardens App 換領。",
-              "start_date": "2026-08-09",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.leegardens.com.hk/privacy.aspx?lang=zh-HK#cookiePart",
-              "is_daily_special": false,
-              "is_evergreen": true,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "evergreen_benefit",
-              "offer_category_label": "長青福利",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [
-                "Parking",
-                "Member",
-                "FreeGift",
-                "Discount",
-                "Evergreen"
-              ],
-              "tag_labels": [
-                "泊車",
-                "會員",
-                "贈品換領",
-                "折扣",
-                "長青"
-              ],
-              "platform": "官網",
-              "source_type": "official"
-            }
-          ],
+          "mall_offers": [],
           "store_offers": [
             {
               "type": "store",
@@ -15705,28 +15548,7 @@
           "phone": "2118 8900",
           "network_phone": null,
           "mall_url": "https://timessquare.com.hk/",
-          "mall_offers": [
-            {
-              "type": "mall",
-              "offer_title": "Summer Shopping Marathon",
-              "details": "Summer Shopping Marathon",
-              "start_date": "2026-07-01",
-              "end_date": "2026-08-31",
-              "source_url": "https://timessquare.com.hk/happenings/summer-shopping-marathon/",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Retail",
-              "vertical_category_label": "零售",
-              "tags": [],
-              "tag_labels": [],
-              "platform": "官網",
-              "source_type": "official"
-            }
-          ],
+          "mall_offers": [],
           "store_offers": [],
           "lat": 22.27855,
           "lng": 114.18255,
@@ -15939,26 +15761,6 @@
               "tag_labels": [
                 "會員"
               ],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
-              "offer_title": "WINDSOR Meow’s Fun-Filled Diary",
-              "details": "WINDSOR Meow’s Fun-Filled Diary",
-              "start_date": "2026-07-17",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.windsorhouse.hk/index.php?sec=event&id=261&lang=en",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [],
-              "tag_labels": [],
               "platform": "官網",
               "source_type": "official"
             }
@@ -17121,6 +16923,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-31",
               "poi_id": 162250
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "地下 G42",
+              "title": "$50現金券 (一張)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-09-01",
+              "end_date": "2026-10-01",
+              "openrice_url": "https://s.openrice.com/QrbS0oda200",
+              "image": "https://static5.orstatic.com/userphoto/photo/9/7LY/01I468F93D62A8E4B8F274mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-01",
+              "poi_id": 162250
             }
           ]
         },
@@ -18005,32 +17823,6 @@
             },
             {
               "type": "mall",
-              "offer_title": "PopCorn - MTR Malls x Mastercard Travel Rewards Expert Spending Rewards",
-              "details": "27/4/2026 - 31/8/2026",
-              "start_date": "2026-04-27",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.popcorntko.com.hk/en/promotions/mastercard-traveller-2026",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [
-                "CreditCard",
-                "Member"
-              ],
-              "tag_labels": [
-                "信用卡",
-                "會員"
-              ],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
               "offer_title": "PopCorn - MTR Points Scheme",
               "details": "1/5/2026 - 31/10/2026",
               "start_date": "2026-05-01",
@@ -18049,30 +17841,6 @@
               ],
               "tag_labels": [
                 "積分"
-              ],
-              "platform": "官網",
-              "source_type": "official"
-            },
-            {
-              "type": "mall",
-              "offer_title": "PopCorn - Summer Mega Rewards 2026",
-              "details": "1/7/2026 - 31/8/2026",
-              "start_date": "2026-07-01",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.popcorntko.com.hk/en/promotions/summermegarewards2026",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [
-                "Member"
-              ],
-              "tag_labels": [
-                "會員"
               ],
               "platform": "官網",
               "source_type": "official"
@@ -18333,32 +18101,7 @@
           "phone": null,
           "network_phone": null,
           "mall_url": "https://www.park-central.com.hk/",
-          "mall_offers": [
-            {
-              "type": "mall",
-              "offer_title": "Summer Foodies’ Favourite",
-              "details": "Summer Foodies’ Favourite 😋Summer Foodies' Favourite 夏日搵食優惠合集🍽️ 📆優惠期：2026 年 7 月 10 日至 8 月 31 日 *優惠受條款及細則約束。",
-              "start_date": "2026-07-10",
-              "end_date": "2026-08-31",
-              "source_url": "https://www.park-central.com.hk/en/shk_promotion/summer-foodies-favourite_en/",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [
-                "Discount"
-              ],
-              "tag_labels": [
-                "折扣"
-              ],
-              "platform": "官網",
-              "source_type": "official"
-            }
-          ],
+          "mall_offers": [],
           "store_offers": [],
           "lat": 22.30755,
           "lng": 114.25855,
@@ -21497,6 +21240,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-31",
               "poi_id": 561224
+            },
+            {
+              "restaurant_name": "鴻福堂",
+              "shop_no": "2樓 N214",
+              "title": "$50現金券 (一張)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-09-01",
+              "end_date": "2026-10-01",
+              "openrice_url": "https://s.openrice.com/QrbS0I90800",
+              "image": "https://static8.orstatic.com/userphoto2/photo/1M/1A3V/093VHNAA9A69CB8FED4386mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-01",
+              "poi_id": 561224
             }
           ]
         }
@@ -21537,6 +21296,6 @@
       "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
     }
   },
-  "openrice_sync_at": "2026-08-31T08:14:25.042244+08:00",
-  "openrice_sync_date": "2026-08-31"
+  "openrice_sync_at": "2026-09-01T08:21:51.026904+08:00",
+  "openrice_sync_date": "2026-09-01"
 }
