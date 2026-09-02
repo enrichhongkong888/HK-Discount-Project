@@ -5239,7 +5239,7 @@
               "lifecycle_status": "active",
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-26",
-              "image": "https://static5.orstatic.com/userphoto2/photo/1Y/1JZQ/0B263OA0DA41E5554A0B0Emx.jpg"
+              "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500"
             },
             {
               "restaurant_name": "Glasshouse",
@@ -7621,21 +7621,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-26",
               "image": "https://static8.orstatic.com/userphoto2/photo/1L/1945/08WTKJ9D2B6027F7420769mx.jpg"
-            },
-            {
-              "restaurant_name": "譚仔雲南米線",
-              "shop_no": "地下 G07-G08",
-              "title": "$50現金券（即買即用）",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-08-26",
-              "end_date": "2026-09-25",
-              "openrice_url": "https://s.openrice.com/QrbS00FSA00",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-08-26",
-              "image": "https://static6.orstatic.com/userphoto3/photo/30/2DSO/0GY409FA81F05EDC38730Amx.jpg"
             },
             {
               "restaurant_name": "意樂餐廳",
@@ -15063,104 +15048,7 @@
           "network_phone": null,
           "mall_url": "https://www.leetungavenue.com.hk/en/",
           "mall_offers": [],
-          "store_offers": [
-            {
-              "type": "store",
-              "offer_title": "Rakuraku Ramen｜小店市集聯乘（2026-08-15）",
-              "details": "獨立小店市集聯乘：2026-08-15 參與商場市集／快閃攤檔可享聯乘換領；詳情以市集及店內公告為準。 適用於 利東街 Rakuraku Ramen（地下 G30號舖）。",
-              "start_date": "2026-08-15",
-              "end_date": "2026-09-01",
-              "source_url": "https://www.openrice.com/en/hongkong/r-rakuraku-ramen-wan-chai-japanese-ramen-r598554",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "store_offer",
-              "offer_category_label": "個別商店優惠",
-              "vertical_category": "Retail",
-              "vertical_category_label": "零售",
-              "tags": [
-                "FreeGift",
-                "Upcoming",
-                "PopUp"
-              ],
-              "tag_labels": [
-                "贈品換領",
-                "即將開始",
-                "快閃"
-              ],
-              "store_name": "Rakuraku Ramen",
-              "floor": "地下",
-              "shop_number": "G30",
-              "phone": "2818 3222",
-              "sub_offers": [
-                {
-                  "time_slot": "2026-08-15 起",
-                  "title": "利東街｜Rakuraku 樂拉麵門市／外賣優惠",
-                  "detail": "利東街拉麵店常態禮遇：堂食／外賣惠顧可享店內當期推廣；詳情以店內告示為準。"
-                },
-                {
-                  "time_slot": "2026-08-15 至 2026-08-30",
-                  "title": "Rakuraku Ramen｜獨立咖啡廳平日特惠（2026-08-15）",
-                  "detail": "獨立咖啡廳特惠：2026-08-15 惠顧正價飲品／輕食可享第二杯或套餐禮遇；詳情以店內告示為準。 適用於 利東街 Rakuraku Ramen（地下 G30號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-16 起",
-                  "title": "Rakuraku Ramen｜週日週末市集聯乘（2026-08-16）",
-                  "detail": "週末市集規律：2026-08-16（週日）商場市集／手作攤檔期間，本店推出聯乘換領或市集限定折扣；詳情以商場市集及店內告示為準。 週末 市集 快閃 適用於 利東街 Rakuraku Ramen（地下 G30號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-18 起",
-                  "title": "Rakuraku Ramen｜週二電器／數碼快閃（2026-08-18）",
-                  "detail": "電子品類快閃規律：2026-08-18（週二）電器／數碼／配件正價貨品可享品類限定折扣或禮品；詳情以店內告示為準。 電子 數碼 快閃 適用於 利東街 Rakuraku Ramen（地下 G30號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-18 至 2026-09-08",
-                  "title": "Rakuraku Ramen｜新菜單／新品上市（2026-08-18 起）",
-                  "detail": "餐飲／零售新品上市：2026-08-18 起推出新菜單或限定貨品，並設開賣會員／外賣自取禮遇；詳情以店內及官方 App 為準。"
-                },
-                {
-                  "time_slot": "2026-08-18 至 2026-09-08",
-                  "title": "Rakuraku Ramen｜手作快閃限定（2026-08-18 起）",
-                  "detail": "獨立小店手作快閃：2026-08-18 起推出手作／本地品牌限定貨品或換購；名額有限，詳情以店內告示為準。 適用於 利東街 Rakuraku Ramen（地下 G30號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 起",
-                  "title": "Rakuraku Ramen｜週一餐飲／外賣禮遇（2026-08-17）",
-                  "detail": "平日餐飲規律推廣：2026-08-17（週一）堂食或外賣自取可享套餐／第二件優惠；實際條款以店內告示及點餐 App 為準。 外賣 餐飲 折扣 適用於 利東街 Rakuraku Ramen（地下 G30號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 起",
-                  "title": "Rakuraku Ramen｜週一美妝／護膚快閃（2026-08-17）",
-                  "detail": "美妝品類快閃規律：2026-08-17（週一）護膚／化妝／藥妝正價貨品可享品類限定折扣或換購；詳情以店內告示為準。 美妝 快閃 折扣 適用於 利東街 Rakuraku Ramen（地下 G30號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-17 至 2026-09-07",
-                  "title": "Rakuraku Ramen｜街坊專屬折扣（2026-08-17 起）",
-                  "detail": "街坊專屬折扣：2026-08-17 起出示住址／會員可享獨立小店專屬折扣或換領；詳情以店內告示為準。 適用於 利東街 Rakuraku Ramen（地下 G30號舖）。"
-                },
-                {
-                  "time_slot": "2026-08-16 起",
-                  "title": "Rakuraku Ramen｜週日週末快閃折價（2026-08-16）",
-                  "detail": "週末快閃規律推廣：2026-08-16（週日）於本店惠顧正價貨品／餐飲可享週末限定折扣或換領；實際條款以店內告示及商場官方 App 為準。 週末 快閃 折扣 適用於 利東街 Rakuraku Ramen（地下 G30號舖）。"
-                }
-              ],
-              "consolidated_offer_count": 11,
-              "merchant_type": "independent",
-              "has_active": true,
-              "has_upcoming": false,
-              "branch_id": "rakurakuramen_1260125e9265_g30",
-              "store_image_url": "frontend/images/stores/1260125e9265_g30_28183222.jpg",
-              "facade_image_url": "frontend/images/stores/1260125e9265_g30_28183222.jpg",
-              "image_url": "frontend/images/stores/1260125e9265_g30_28183222.jpg",
-              "relocation_status": "ok",
-              "store_key": "1260125e9265_g30_28183222",
-              "mall_id": "1260125e9265",
-              "image_source": "google_places",
-              "google_place_id": "ChIJQ5i32BcBBDQRcMNsVzu62fU",
-              "google_query": "利東街 Rakuraku Ramen 香港"
-            }
-          ],
+          "store_offers": [],
           "lat": 22.27655,
           "lng": 114.17255,
           "geo_tags": [
@@ -21296,6 +21184,6 @@
       "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
     }
   },
-  "openrice_sync_at": "2026-09-01T08:21:51.026904+08:00",
-  "openrice_sync_date": "2026-09-01"
+  "openrice_sync_at": "2026-09-02T08:19:51.489800+08:00",
+  "openrice_sync_date": "2026-09-02"
 }
