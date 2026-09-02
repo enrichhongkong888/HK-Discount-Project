@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T08:11:34+08:00",
+  "updated_at": "2026-09-03T01:18:17+08:00",
   "source": "crawl_hotel_official",
   "source_priority": "official_website",
   "registry_count": 37,
@@ -27,9 +27,12 @@
           "booking_url": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour/offers",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-11-12"
         },
         {
           "id": "offer-mandarin-oriental-staycation-3edb669f",
@@ -42,9 +45,12 @@
           "booking_url": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour/offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         }
       ]
     },
@@ -70,9 +76,12 @@
           "booking_url": "https://www.fourseasons.com/hongkong/offers/",
           "tags": [
             "官網獨家",
-            "自助餐"
+            "自助餐",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-11-01"
         }
       ]
     },
@@ -99,9 +108,12 @@
           "tags": [
             "官網獨家",
             "Staycation",
-            "下午茶"
+            "下午茶",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         }
       ]
     },
@@ -128,9 +140,12 @@
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一"
+            "買一送一",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-12"
         },
         {
           "id": "offer-island-shangri-la-staycation-5ce3b956",
@@ -143,9 +158,12 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-10-01",
+          "valid_to": "2026-11-15"
         },
         {
           "id": "offer-island-shangri-la-staycation-e430377f",
@@ -158,9 +176,12 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-10-01",
+          "valid_to": "2026-11-15"
         },
         {
           "id": "offer-island-shangri-la-staycation-26711be0",
@@ -173,9 +194,12 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-10-01",
+          "valid_to": "2026-11-15"
         }
       ]
     },
@@ -201,9 +225,12 @@
           "booking_url": "https://www.hyatt.com/zh-Hans/hotel/china/grand-hyatt-hong-kong/hongg/offers",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-28"
         }
       ]
     },
@@ -230,9 +257,12 @@
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一"
+            "買一送一",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-10"
         },
         {
           "id": "offer-harbour-grand-hk-staycation-45b79ec3",
@@ -245,9 +275,12 @@
           "booking_url": "https://www.harbourgrand.com/hongkong/zh-hk/offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         }
       ]
     },
@@ -273,9 +306,12 @@
           "booking_url": "https://www.marriott.com/zh/hotels/hkghv-renaissance-hong-kong-harbour-view-hotel/overview/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-22"
         }
       ]
     },
@@ -302,9 +338,12 @@
           "tags": [
             "官網獨家",
             "Staycation",
-            "壽星禮遇"
+            "壽星禮遇",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2027-01-12"
         },
         {
           "id": "offer-peninsula-klook-01",
@@ -319,12 +358,15 @@
           "is_affiliate": true,
           "tags": [
             "Staycation",
-            "下午茶"
+            "下午茶",
+            "酒店優惠"
           ],
           "bank_tags": [
             "HSBC",
             "HangSeng"
-          ]
+          ],
+          "valid_from": "2026-08-20",
+          "valid_to": "2026-10-31"
         }
       ]
     },
@@ -351,9 +393,12 @@
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一"
+            "買一送一",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-icon-staycation-829e9fae",
@@ -366,9 +411,12 @@
           "booking_url": "https://www.hotel-icon.com/offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-icon-staycation-da9bfdc7",
@@ -381,9 +429,12 @@
           "booking_url": "https://www.hotel-icon.com/offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-icon-staycation-0886097f",
@@ -396,9 +447,12 @@
           "booking_url": "https://www.hotel-icon.com/offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-icon-klook-01",
@@ -413,12 +467,15 @@
           "is_affiliate": true,
           "tags": [
             "自助餐",
-            "買一送一"
+            "買一送一",
+            "酒店優惠"
           ],
           "bank_tags": [
             "BOC",
             "DBS"
-          ]
+          ],
+          "valid_from": "2026-08-22",
+          "valid_to": "2026-09-20"
         }
       ]
     },
@@ -444,9 +501,12 @@
           "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-11-02"
         },
         {
           "id": "offer-ritz-carlton-hk-staycation-68109ee4",
@@ -459,9 +519,12 @@
           "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-ritz-carlton-hk-staycation-23a0e494",
@@ -474,9 +537,12 @@
           "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-ritz-carlton-hk-staycation-b621b271",
@@ -489,9 +555,12 @@
           "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-ritz-klook-hsbc",
@@ -506,11 +575,14 @@
           "is_affiliate": true,
           "tags": [
             "Staycation",
-            "信用卡"
+            "信用卡",
+            "酒店優惠"
           ],
           "bank_tags": [
             "HSBC"
-          ]
+          ],
+          "valid_from": "2026-08-22",
+          "valid_to": "2026-10-15"
         }
       ]
     },
@@ -537,9 +609,12 @@
           "tags": [
             "官網獨家",
             "壽星禮遇",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-12-11"
         },
         {
           "id": "offer-cordis-hk-staycation-c5131982",
@@ -552,9 +627,12 @@
           "booking_url": "https://www.cordishotels.com/en/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-cordis-hk-staycation-7f6b7b91",
@@ -567,9 +645,12 @@
           "booking_url": "https://www.cordishotels.com/en/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-cordis-hk-staycation-66a75c56",
@@ -582,9 +663,12 @@
           "booking_url": "https://www.cordishotels.com/en/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-cordis-kkday-01",
@@ -599,12 +683,15 @@
           "is_affiliate": true,
           "tags": [
             "自助餐",
-            "下午茶"
+            "下午茶",
+            "酒店優惠"
           ],
           "bank_tags": [
             "SCB",
             "HangSeng"
-          ]
+          ],
+          "valid_from": "2026-08-21",
+          "valid_to": "2026-09-30"
         }
       ]
     },
@@ -630,9 +717,12 @@
           "booking_url": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-tsim-sha-tsui/hongt/offers",
           "tags": [
             "官網獨家",
-            "自助餐"
+            "自助餐",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-14"
         }
       ]
     },
@@ -658,9 +748,12 @@
           "booking_url": "https://www.swirehotels.com/en/brand/east-hotels/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-23"
         },
         {
           "id": "offer-east-hk-staycation-d8d0f760",
@@ -673,9 +766,12 @@
           "booking_url": "https://www.swirehotels.com/en/brand/east-hotels/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-east-hk-staycation-98177cb1",
@@ -688,9 +784,12 @@
           "booking_url": "https://www.swirehotels.com/en/brand/east-hotels/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         }
       ]
     },
@@ -717,9 +816,12 @@
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一"
+            "買一送一",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-05"
         },
         {
           "id": "offer-kerry-hk-staycation-86126c89",
@@ -732,9 +834,12 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-10-01",
+          "valid_to": "2026-11-30"
         },
         {
           "id": "offer-kerry-hk-staycation-9136bffa",
@@ -747,9 +852,12 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-10-01",
+          "valid_to": "2026-11-30"
         },
         {
           "id": "offer-kerry-hk-staycation-20156928",
@@ -762,9 +870,12 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-10-01",
+          "valid_to": "2026-11-30"
         }
       ]
     },
@@ -790,9 +901,12 @@
           "booking_url": "https://www.harbour-plaza.com/northpoint/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         }
       ]
     },
@@ -818,9 +932,12 @@
           "booking_url": "https://www.marriott.com/zh/hotels/hkgop-hong-kong-ocean-park-marriott-hotel/overview/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-29"
         }
       ]
     },
@@ -846,9 +963,12 @@
           "booking_url": "https://www.marriott.com/zh/hotels/hkgmd-le-meridien-cyberport/overview/",
           "tags": [
             "官網獨家",
-            "自助餐"
+            "自助餐",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-13"
         }
       ]
     },
@@ -875,9 +995,12 @@
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一"
+            "買一送一",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-09-30"
         },
         {
           "id": "offer-alva-by-royal-staycation-a5dd86f1",
@@ -890,9 +1013,12 @@
           "booking_url": "https://www.alva.com.hk/tc/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-alva-by-royal-staycation-c79ce2b7",
@@ -905,9 +1031,12 @@
           "booking_url": "https://www.alva.com.hk/tc/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-alva-by-royal-staycation-c585606c",
@@ -920,9 +1049,12 @@
           "booking_url": "https://www.alva.com.hk/tc/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-alva-kkday-01",
@@ -937,12 +1069,15 @@
           "is_affiliate": true,
           "tags": [
             "自助餐",
-            "買一送一"
+            "買一送一",
+            "酒店優惠"
           ],
           "bank_tags": [
             "HSBC",
             "SCB"
-          ]
+          ],
+          "valid_from": "2026-08-22",
+          "valid_to": "2026-09-15"
         }
       ]
     },
@@ -968,9 +1103,12 @@
           "booking_url": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-sha-tin/shahy/offers",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-22"
         }
       ]
     },
@@ -997,9 +1135,12 @@
           "tags": [
             "官網獨家",
             "壽星禮遇",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-12-03"
         },
         {
           "id": "offer-royal-park-staycation-ab876640",
@@ -1012,9 +1153,12 @@
           "booking_url": "https://www.royalpark.com.hk/tc/offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-royal-park-staycation-21ec3867",
@@ -1027,9 +1171,12 @@
           "booking_url": "https://www.royalpark.com.hk/tc/offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-royal-park-staycation-cc5c1bee",
@@ -1042,9 +1189,12 @@
           "booking_url": "https://www.royalpark.com.hk/tc/offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         }
       ]
     },
@@ -1071,9 +1221,12 @@
           "tags": [
             "官網獨家",
             "Staycation",
-            "壽星禮遇"
+            "壽星禮遇",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2027-01-10"
         },
         {
           "id": "offer-royal-view-staycation-744cd4fd",
@@ -1086,9 +1239,12 @@
           "booking_url": "https://www.royalview.com.hk/tc/special-offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-royal-view-staycation-3ac38f7c",
@@ -1101,9 +1257,12 @@
           "booking_url": "https://www.royalview.com.hk/tc/special-offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-royal-view-staycation-fece6589",
@@ -1116,9 +1275,12 @@
           "booking_url": "https://www.royalview.com.hk/tc/special-offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         }
       ]
     },
@@ -1144,9 +1306,12 @@
           "booking_url": "https://www.pandahotel.com.hk/",
           "tags": [
             "官網獨家",
-            "自助餐"
+            "自助餐",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-08"
         }
       ]
     },
@@ -1173,9 +1338,12 @@
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一"
+            "買一送一",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-12"
         }
       ]
     },
@@ -1201,9 +1369,12 @@
           "booking_url": "https://www.marriott.com/zh/hotels/hkgsm-hong-kong-skycity-marriott-hotel/overview/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-29"
         }
       ]
     },
@@ -1229,9 +1400,12 @@
           "booking_url": "https://www.hongkongdisneyland.com/zh-hk/hotels/hong-kong-disneyland-hotel/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-11-02"
         },
         {
           "id": "offer-disney-kkday-01",
@@ -1245,13 +1419,16 @@
           "booking_url": "https://www.kkday.com/zh-hk/product/productlist?keyword=Hong%20Kong%20Disneyland",
           "is_affiliate": true,
           "tags": [
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
           "bank_tags": [
             "HSBC",
             "SCB",
             "HangSeng"
-          ]
+          ],
+          "valid_from": "2026-08-22",
+          "valid_to": "2026-11-30"
         }
       ]
     },
@@ -1277,9 +1454,12 @@
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-regal-airport-staycation-f0a35c56",
@@ -1292,9 +1472,12 @@
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-regal-airport-staycation-58154bbe",
@@ -1307,9 +1490,12 @@
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-regal-airport-staycation-2f6b2d08",
@@ -1322,9 +1508,12 @@
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         }
       ]
     },
@@ -1350,9 +1539,12 @@
           "booking_url": "https://www.harbourgrand.com/kowloon/zh-hk/offers",
           "tags": [
             "官網獨家",
-            "自助餐"
+            "自助餐",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-14"
         },
         {
           "id": "offer-harbour-grand-kowloon-staycation-6891f934",
@@ -1365,9 +1557,12 @@
           "booking_url": "https://www.harbourgrand.com/kowloon/zh-hk/offers",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-hgk-openrice-01",
@@ -1381,12 +1576,15 @@
           "booking_url": "https://www.openrice.com/zh/hongkong",
           "is_affiliate": true,
           "tags": [
-            "自助餐"
+            "自助餐",
+            "酒店優惠"
           ],
           "bank_tags": [
             "BOC",
             "DBS"
-          ]
+          ],
+          "valid_from": "2026-08-22",
+          "valid_to": "2026-09-25"
         }
       ]
     },
@@ -1412,9 +1610,12 @@
           "booking_url": "https://www.ihg.com/crowneplaza/hotels/us/en/hong-kong/hkgke/hoteldetail",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-23"
         }
       ]
     },
@@ -1440,9 +1641,12 @@
           "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-12"
         },
         {
           "id": "offer-cozi-harbour-staycation-77205b94",
@@ -1455,9 +1659,12 @@
           "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-cozi-harbour-staycation-b31435f6",
@@ -1470,9 +1677,12 @@
           "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-cozi-harbour-staycation-cc012658",
@@ -1485,9 +1695,12 @@
           "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         }
       ]
     },
@@ -1514,9 +1727,12 @@
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一"
+            "買一送一",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-10"
         },
         {
           "id": "offer-goldcoast-klook-01",
@@ -1532,12 +1748,15 @@
           "tags": [
             "自助餐",
             "買一送一",
-            "信用卡"
+            "信用卡",
+            "酒店優惠"
           ],
           "bank_tags": [
             "SCB",
             "DBS"
-          ]
+          ],
+          "valid_from": "2026-08-23",
+          "valid_to": "2026-09-18"
         }
       ]
     },
@@ -1563,9 +1782,12 @@
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-regal-riverside-staycation-a1bfb5d0",
@@ -1578,9 +1800,12 @@
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-regal-riverside-staycation-33e6b90a",
@@ -1593,9 +1818,12 @@
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         }
       ]
     },
@@ -1622,9 +1850,12 @@
           "tags": [
             "官網獨家",
             "Staycation",
-            "下午茶"
+            "下午茶",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-28"
         },
         {
           "id": "offer-the-fullerton-ocean-park-alt-staycation-25bbb6ef",
@@ -1637,9 +1868,12 @@
           "booking_url": "https://www.fullertonhotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-the-fullerton-ocean-park-alt-staycation-9dac880f",
@@ -1652,9 +1886,12 @@
           "booking_url": "https://www.fullertonhotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-the-fullerton-ocean-park-alt-staycation-a3d4adb0",
@@ -1667,9 +1904,12 @@
           "booking_url": "https://www.fullertonhotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         }
       ]
     },
@@ -1695,9 +1935,12 @@
           "booking_url": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-12"
         },
         {
           "id": "offer-dorsett-mongkok-staycation-72a04223",
@@ -1710,9 +1953,12 @@
           "booking_url": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-12-31"
         }
       ]
     },
@@ -1738,9 +1984,12 @@
           "booking_url": "https://www.ramblerhotels.com/garden/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-13"
         }
       ]
     },
@@ -1766,9 +2015,12 @@
           "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-14"
         },
         {
           "id": "offer-silka-tsuen-wan-staycation-40b9ea3e",
@@ -1781,9 +2033,12 @@
           "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-17"
         },
         {
           "id": "offer-silka-tsuen-wan-staycation-942e3a9b",
@@ -1796,9 +2051,12 @@
           "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-silka-tsuen-wan-staycation-6a6e8318",
@@ -1811,9 +2069,12 @@
           "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         }
       ]
     },
@@ -1839,9 +2100,12 @@
           "booking_url": "https://www.marriott.com/zh/hotels/hkgcy-courtyard-hong-kong-sha-tin/overview/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-10-12"
         }
       ]
     },
@@ -1867,9 +2131,12 @@
           "booking_url": "https://www.silkahotels.com/",
           "tags": [
             "官網獨家",
-            "Staycation"
+            "Staycation",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-08"
         },
         {
           "id": "offer-hop-inn-yoho-staycation-fa4582f5",
@@ -1882,9 +2149,12 @@
           "booking_url": "https://www.silkahotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-12-31"
         },
         {
           "id": "offer-hop-inn-yoho-staycation-f74d291b",
@@ -1897,9 +2167,12 @@
           "booking_url": "https://www.silkahotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-12-31"
         },
         {
           "id": "offer-hop-inn-yoho-staycation-f3a216cd",
@@ -1912,9 +2185,12 @@
           "booking_url": "https://www.silkahotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠"
+            "官方優惠",
+            "酒店優惠"
           ],
-          "platform": "官網"
+          "platform": "官網",
+          "valid_from": "2026-09-02",
+          "valid_to": "2026-12-31"
         }
       ]
     }
@@ -1926,5 +2202,14 @@
     "removed_expired": 0,
     "offers_kept": 92,
     "audited_on": "2026-09-02"
+  },
+  "ensure_hotel_offers_at": "2026-09-03T01:18:17+08:00",
+  "ensure_hotel_offers_stats": {
+    "today": "2026-09-03",
+    "hotels": 37,
+    "live_offers": 92,
+    "ota_merged": 0,
+    "dates_refreshed": 0,
+    "samples_seeded": 0
   }
 }

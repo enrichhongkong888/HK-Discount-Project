@@ -1522,20 +1522,40 @@
         const stars = Math.max(0, Math.min(5, Number(n) || 0));
         return "★".repeat(stars) + "☆".repeat(5 - stars);
       }
+      function hotelOfferStartDate(offer) {
+        return String((offer && (offer.start_date || offer.valid_from)) || "").trim().slice(0, 10);
+      }
+      function hotelOfferEndDate(offer) {
+        return String((offer && (offer.end_date || offer.valid_to || offer.expiry_date)) || "").trim().slice(0, 10);
+      }
       function hotelOfferStatus(offer) {
+        const start = hotelOfferStartDate(offer);
+        const end = hotelOfferEndDate(offer);
         return offerStatus({
-          start_date: offer.start_date,
-          end_date: offer.end_date,
+          start_date: start,
+          end_date: end,
           status: offer.status,
           lifecycle_status: offer.lifecycle_status,
+          is_evergreen: offer.is_evergreen,
         });
       }
-      /** Drop end_date < today; keep only active / upcoming (within 3 days). */
+      /** Drop end/valid_to < today; keep only active / upcoming (within 3 days). */
       function liveHotelOffers(hotel) {
         const offers = Array.isArray(hotel && hotel.offers) ? hotel.offers : [];
         return offers
-          .filter((offer) => offer && offer.start_date && offer.end_date)
-          .map((offer) => ({ ...offer, status: hotelOfferStatus(offer) }))
+          .filter((offer) => offer && hotelOfferStartDate(offer) && hotelOfferEndDate(offer))
+          .map((offer) => {
+            const start = hotelOfferStartDate(offer);
+            const end = hotelOfferEndDate(offer);
+            return {
+              ...offer,
+              start_date: start,
+              end_date: end,
+              valid_from: offer.valid_from || start,
+              valid_to: offer.valid_to || end,
+              status: hotelOfferStatus({ ...offer, start_date: start, end_date: end }),
+            };
+          })
           .filter((offer) => offer.status === "active" || offer.status === "upcoming");
       }
       function hotelMatchesLifecycle(offers) {

@@ -13,8 +13,17 @@
         "end_date": "2026-09-15",
         "booking_url": "https://www.kkday.com/zh-hk/product/productlist?keyword=ALVA%20House",
         "is_affiliate": true,
-        "tags": ["自助餐", "買一送一"],
-        "bank_tags": ["HSBC", "SCB"]
+        "tags": [
+          "自助餐",
+          "買一送一",
+          "酒店優惠"
+        ],
+        "bank_tags": [
+          "HSBC",
+          "SCB"
+        ],
+        "valid_from": "2026-08-22",
+        "valid_to": "2026-09-15"
       }
     ],
     "hotel-peninsula-hk": [
@@ -29,8 +38,17 @@
         "end_date": "2026-10-31",
         "booking_url": "https://www.klook.com/zh-HK/search/?query=Peninsula%20Hong%20Kong",
         "is_affiliate": true,
-        "tags": ["Staycation", "下午茶"],
-        "bank_tags": ["HSBC", "HangSeng"]
+        "tags": [
+          "Staycation",
+          "下午茶",
+          "酒店優惠"
+        ],
+        "bank_tags": [
+          "HSBC",
+          "HangSeng"
+        ],
+        "valid_from": "2026-08-20",
+        "valid_to": "2026-10-31"
       }
     ],
     "hotel-icon": [
@@ -45,8 +63,17 @@
         "end_date": "2026-09-20",
         "booking_url": "https://www.klook.com/zh-HK/search/?query=Hotel%20ICON",
         "is_affiliate": true,
-        "tags": ["自助餐", "買一送一"],
-        "bank_tags": ["BOC", "DBS"]
+        "tags": [
+          "自助餐",
+          "買一送一",
+          "酒店優惠"
+        ],
+        "bank_tags": [
+          "BOC",
+          "DBS"
+        ],
+        "valid_from": "2026-08-22",
+        "valid_to": "2026-09-20"
       }
     ],
     "hotel-cordis-hk": [
@@ -61,8 +88,17 @@
         "end_date": "2026-09-30",
         "booking_url": "https://www.kkday.com/zh-hk/product/productlist?keyword=Cordis%20Hong%20Kong",
         "is_affiliate": true,
-        "tags": ["自助餐", "下午茶"],
-        "bank_tags": ["SCB", "HangSeng"]
+        "tags": [
+          "自助餐",
+          "下午茶",
+          "酒店優惠"
+        ],
+        "bank_tags": [
+          "SCB",
+          "HangSeng"
+        ],
+        "valid_from": "2026-08-21",
+        "valid_to": "2026-09-30"
       }
     ],
     "hotel-ritz-carlton-hk": [
@@ -77,8 +113,16 @@
         "end_date": "2026-10-15",
         "booking_url": "https://www.klook.com/zh-HK/search/?query=Ritz%20Carlton%20Hong%20Kong",
         "is_affiliate": true,
-        "tags": ["Staycation", "信用卡"],
-        "bank_tags": ["HSBC"]
+        "tags": [
+          "Staycation",
+          "信用卡",
+          "酒店優惠"
+        ],
+        "bank_tags": [
+          "HSBC"
+        ],
+        "valid_from": "2026-08-22",
+        "valid_to": "2026-10-15"
       }
     ],
     "hotel-harbour-grand-kowloon": [
@@ -93,8 +137,16 @@
         "end_date": "2026-09-25",
         "booking_url": "https://www.openrice.com/zh/hongkong",
         "is_affiliate": true,
-        "tags": ["自助餐"],
-        "bank_tags": ["BOC", "DBS"]
+        "tags": [
+          "自助餐",
+          "酒店優惠"
+        ],
+        "bank_tags": [
+          "BOC",
+          "DBS"
+        ],
+        "valid_from": "2026-08-22",
+        "valid_to": "2026-09-25"
       }
     ],
     "hotel-disneyland-hk": [
@@ -109,8 +161,17 @@
         "end_date": "2026-11-30",
         "booking_url": "https://www.kkday.com/zh-hk/product/productlist?keyword=Hong%20Kong%20Disneyland",
         "is_affiliate": true,
-        "tags": ["Staycation"],
-        "bank_tags": ["HSBC", "SCB", "HangSeng"]
+        "tags": [
+          "Staycation",
+          "酒店優惠"
+        ],
+        "bank_tags": [
+          "HSBC",
+          "SCB",
+          "HangSeng"
+        ],
+        "valid_from": "2026-08-22",
+        "valid_to": "2026-11-30"
       }
     ],
     "hotel-gold-coast": [
@@ -125,9 +186,20 @@
         "end_date": "2026-09-18",
         "booking_url": "https://www.klook.com/zh-HK/search/?query=Gold%20Coast%20Hotel",
         "is_affiliate": true,
-        "tags": ["自助餐", "買一送一", "信用卡"],
-        "bank_tags": ["SCB", "DBS"]
+        "tags": [
+          "自助餐",
+          "買一送一",
+          "信用卡",
+          "酒店優惠"
+        ],
+        "bank_tags": [
+          "SCB",
+          "DBS"
+        ],
+        "valid_from": "2026-08-23",
+        "valid_to": "2026-09-18"
       }
     ]
-  }
+  },
+  "updated_at": "2026-09-03T01:18:17+08:00"
 }

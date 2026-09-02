@@ -266,7 +266,8 @@ def audit_hotels(
         for offer in offers_in:
             if not isinstance(offer, dict):
                 continue
-            end = parse_day(offer.get("end_date"))
+            end = parse_day(offer.get("end_date") or offer.get("valid_to") or offer.get("expiry_date"))
+            start = parse_day(offer.get("start_date") or offer.get("valid_from"))
             if end is None:
                 continue
             if end < today:
@@ -274,6 +275,11 @@ def audit_hotels(
                 continue
 
             offer_out = dict(offer)
+            if start:
+                offer_out["start_date"] = start.isoformat()
+                offer_out["valid_from"] = start.isoformat()
+            offer_out["end_date"] = end.isoformat()
+            offer_out["valid_to"] = end.isoformat()
             offer_out["source_type"] = str(offer_out.get("source_type") or "official")
             booking, action = resolve_booking_url(client, hotel_out, offer_out, cache=cache)
             offer_out["booking_url"] = booking
