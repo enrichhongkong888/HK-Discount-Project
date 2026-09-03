@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T01:18:17+08:00",
+  "updated_at": "2026-09-03T08:12:01+08:00",
   "source": "crawl_hotel_official",
   "source_priority": "official_website",
   "registry_count": 37,
@@ -22,17 +22,16 @@
           "source_type": "official",
           "title": "官網獨家：市景客房連雙人早餐及下午茶",
           "description": "經文華東方官網預訂，免費升級市景客房，並送快船廊雙人自助早餐。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-11-12",
+          "start_date": "2026-09-04",
+          "end_date": "2026-11-13",
           "booking_url": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour/offers",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-11-12"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-11-13"
         },
         {
           "id": "offer-mandarin-oriental-staycation-3edb669f",
@@ -40,17 +39,16 @@
           "source_type": "official",
           "title": "官網優惠：香港 - 文華東方",
           "description": "詳情以 香港文華東方酒店 (Mandarin Oriental, Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.mandarinoriental.com/zh-hk/hong-kong/victoria-harbour/offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         }
       ]
     },
@@ -71,17 +69,16 @@
           "source_type": "official",
           "title": "官網獨家：Caprice / Lung King Heen 餐飲禮遇",
           "description": "經四季官網預訂指定餐飲或住宿套餐，尊享會員積分加倍及延遲退房優惠。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-11-01",
+          "start_date": "2026-09-03",
+          "end_date": "2026-11-02",
           "booking_url": "https://www.fourseasons.com/hongkong/offers/",
           "tags": [
             "官網獨家",
-            "自助餐",
-            "酒店優惠"
+            "自助餐"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-11-01"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-11-02"
         }
       ]
     },
@@ -102,18 +99,17 @@
           "source_type": "official",
           "title": "官網獨家：Garden Lounge 下午茶連住宿套餐",
           "description": "經美利酒店官網直接預訂，入住即送雙人精緻下午茶及歡迎飲品。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.niccolohotels.com/",
           "tags": [
             "官網獨家",
             "Staycation",
-            "下午茶",
-            "酒店優惠"
+            "下午茶"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         }
       ]
     },
@@ -134,18 +130,17 @@
           "source_type": "official",
           "title": "官網獨家：Café TOO 自助晚餐買一送一",
           "description": "經香格里拉官網預訂指定日子 Café TOO 自助晚餐，享買一送一優惠。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-12",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-13",
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一",
-            "酒店優惠"
+            "買一送一"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-12"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-13"
         },
         {
           "id": "offer-island-shangri-la-staycation-5ce3b956",
@@ -158,8 +153,7 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
           "valid_from": "2026-10-01",
@@ -176,8 +170,7 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
           "valid_from": "2026-10-01",
@@ -194,8 +187,7 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/islandshangrila/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
           "valid_from": "2026-10-01",
@@ -220,17 +212,16 @@
           "source_type": "official",
           "title": "官網獨家：海景客房連雙人早餐 Staycation",
           "description": "經君悅官網預訂，入住海景客房並享用雙人自助早餐及健身室禮遇。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-28",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-29",
           "booking_url": "https://www.hyatt.com/zh-Hans/hotel/china/grand-hyatt-hong-kong/hongg/offers",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-28"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-29"
         }
       ]
     },
@@ -251,18 +242,17 @@
           "source_type": "official",
           "title": "官網獨家：H Bar 自助晚餐海鮮盛宴",
           "description": "經君臨官網預訂週末自助晚餐，即享指定時段買二送一或85折優惠。",
-          "start_date": "2026-09-05",
-          "end_date": "2026-10-10",
+          "start_date": "2026-09-06",
+          "end_date": "2026-10-11",
           "booking_url": "https://www.harbourgrand.com/hongkong/zh-hk/offers",
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一",
-            "酒店優惠"
+            "買一送一"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-05",
-          "valid_to": "2026-10-10"
+          "valid_from": "2026-09-06",
+          "valid_to": "2026-10-11"
         },
         {
           "id": "offer-harbour-grand-hk-staycation-45b79ec3",
@@ -270,17 +260,16 @@
           "source_type": "official",
           "title": "官網優惠：Reservations",
           "description": "詳情以 香港君臨海景酒店 (Harbour Grand Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.harbourgrand.com/hongkong/zh-hk/offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         }
       ]
     },
@@ -301,17 +290,16 @@
           "source_type": "official",
           "title": "官網獨家：海景住宿連雙人早餐",
           "description": "經 Marriott 官網預訂萬麗海景，入住即送雙人早餐及延遲退房。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-22",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-23",
           "booking_url": "https://www.marriott.com/zh/hotels/hkghv-renaissance-hong-kong-harbour-view-hotel/overview/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-22"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-23"
         }
       ]
     },
@@ -332,18 +320,17 @@
           "source_type": "official",
           "title": "官網獨家：當月壽星專屬住宿禮遇",
           "description": "經半島官網直接預訂，尊享特製生日香檳、生日蛋糕及延遲退房至下午 4 時。",
-          "start_date": "2026-09-04",
-          "end_date": "2027-01-12",
+          "start_date": "2026-09-05",
+          "end_date": "2027-01-13",
           "booking_url": "https://www.peninsula.com/zh-cn/hong-kong/special-offers",
           "tags": [
             "官網獨家",
             "Staycation",
-            "壽星禮遇",
-            "酒店優惠"
+            "壽星禮遇"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2027-01-12"
+          "valid_from": "2026-09-05",
+          "valid_to": "2027-01-13"
         },
         {
           "id": "offer-peninsula-klook-01",
@@ -387,18 +374,17 @@
           "source_type": "official",
           "title": "官網獨家：The Market 自助晚餐買一送一",
           "description": "經唯港薈官網預訂指定日子 The Market 自助晚餐，尊享買一送一。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.hotel-icon.com/offers",
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一",
-            "酒店優惠"
+            "買一送一"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-icon-staycation-829e9fae",
@@ -406,17 +392,16 @@
           "source_type": "official",
           "title": "官網優惠：BEST HOTEL OFFERS IN HONG KONG - HOTEL ICON",
           "description": "詳情以 唯港薈 (Hotel ICON) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.hotel-icon.com/offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-icon-staycation-da9bfdc7",
@@ -424,17 +409,16 @@
           "source_type": "official",
           "title": "官網優惠：Bed & Breakfast",
           "description": "詳情以 唯港薈 (Hotel ICON) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.hotel-icon.com/offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-icon-staycation-0886097f",
@@ -442,17 +426,16 @@
           "source_type": "official",
           "title": "官網優惠：WANT TO KNOW MORE?",
           "description": "詳情以 唯港薈 (Hotel ICON) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.hotel-icon.com/offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         },
         {
           "id": "offer-icon-klook-01",
@@ -496,17 +479,16 @@
           "source_type": "official",
           "title": "官網獨家：天際客房連雙人早餐",
           "description": "經麗思卡爾頓官網預訂，入住即送雙人早餐及行政酒廊禮遇（視房型而定）。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-11-02",
+          "start_date": "2026-09-04",
+          "end_date": "2026-11-03",
           "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-11-02"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-11-03"
         },
         {
           "id": "offer-ritz-carlton-hk-staycation-68109ee4",
@@ -514,17 +496,16 @@
           "source_type": "official",
           "title": "官網優惠：The Ritz-Carlton, Hong Kong",
           "description": "詳情以 香港麗思卡爾頓酒店 (The Ritz-Carlton Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-ritz-carlton-hk-staycation-23a0e494",
@@ -532,17 +513,16 @@
           "source_type": "official",
           "title": "官網優惠：Welcome to The Ritz-Carlton, Hong Kong",
           "description": "詳情以 香港麗思卡爾頓酒店 (The Ritz-Carlton Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-ritz-carlton-hk-staycation-b621b271",
@@ -550,17 +530,16 @@
           "source_type": "official",
           "title": "官網優惠：TIMELESS JOURNEY IN THE SKY",
           "description": "詳情以 香港麗思卡爾頓酒店 (The Ritz-Carlton Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.ritzcarlton.com/en/hotels/china/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         },
         {
           "id": "offer-ritz-klook-hsbc",
@@ -603,18 +582,17 @@
           "source_type": "official",
           "title": "官網獨家：當月壽星住宿蛋糕禮遇",
           "description": "經康得思官網預訂 Staycation，當月壽星即送精美蛋糕及歡迎飲料。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-12-11",
+          "start_date": "2026-09-03",
+          "end_date": "2026-12-12",
           "booking_url": "https://www.cordishotels.com/en/hong-kong",
           "tags": [
             "官網獨家",
             "壽星禮遇",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-12-11"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-12-12"
         },
         {
           "id": "offer-cordis-hk-staycation-c5131982",
@@ -622,17 +600,16 @@
           "source_type": "official",
           "title": "官網優惠：STAY WITH CORDIS, HONG KONG",
           "description": "詳情以 香港康得思酒店 (Cordis, Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.cordishotels.com/en/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-cordis-hk-staycation-7f6b7b91",
@@ -640,17 +617,16 @@
           "source_type": "official",
           "title": "官網優惠：AROUND CORDIS, HONG KONG",
           "description": "詳情以 香港康得思酒店 (Cordis, Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.cordishotels.com/en/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-cordis-hk-staycation-66a75c56",
@@ -658,17 +634,16 @@
           "source_type": "official",
           "title": "官網優惠：CORDIS LONG STAY OFFER",
           "description": "詳情以 香港康得思酒店 (Cordis, Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.cordishotels.com/en/hong-kong",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         },
         {
           "id": "offer-cordis-kkday-01",
@@ -712,17 +687,16 @@
           "source_type": "official",
           "title": "官網獨家：Cafe 自助餐指定日子優惠",
           "description": "經凱悅官網預訂週末自助午餐／晚餐，可享官網會員專屬折扣。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-14",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-15",
           "booking_url": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-tsim-sha-tsui/hongt/offers",
           "tags": [
             "官網獨家",
-            "自助餐",
-            "酒店優惠"
+            "自助餐"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-14"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-15"
         }
       ]
     },
@@ -743,17 +717,16 @@
           "source_type": "official",
           "title": "官網獨家：海景客房連雙人早餐",
           "description": "經東隅官網直接預訂，入住即送雙人早餐及 FEAST 餐飲消費額。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-23",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-24",
           "booking_url": "https://www.swirehotels.com/en/brand/east-hotels/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-23"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-24"
         },
         {
           "id": "offer-east-hk-staycation-d8d0f760",
@@ -761,17 +734,16 @@
           "source_type": "official",
           "title": "官網優惠：EAST Hotels",
           "description": "詳情以 香港東隅 (EAST Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.swirehotels.com/en/brand/east-hotels/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-east-hk-staycation-98177cb1",
@@ -779,17 +751,16 @@
           "source_type": "official",
           "title": "官網優惠：ARRIVE AT A DIFFERENT PLACE",
           "description": "詳情以 香港東隅 (EAST Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.swirehotels.com/en/brand/east-hotels/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         }
       ]
     },
@@ -810,18 +781,17 @@
           "source_type": "official",
           "title": "官網獨家：Kerry Kitchen 自助晚餐買一送一",
           "description": "經嘉里酒店官網預訂指定日子自助晚餐，尊享買一送一優惠。",
-          "start_date": "2026-09-05",
-          "end_date": "2026-10-05",
+          "start_date": "2026-09-06",
+          "end_date": "2026-10-06",
           "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一",
-            "酒店優惠"
+            "買一送一"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-05",
-          "valid_to": "2026-10-05"
+          "valid_from": "2026-09-06",
+          "valid_to": "2026-10-06"
         },
         {
           "id": "offer-kerry-hk-staycation-86126c89",
@@ -834,8 +804,7 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
           "valid_from": "2026-10-01",
@@ -852,8 +821,7 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
           "valid_from": "2026-10-01",
@@ -870,8 +838,7 @@
           "booking_url": "https://www.shangri-la.com/tc/hongkong/kerry/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
           "valid_from": "2026-10-01",
@@ -896,17 +863,16 @@
           "source_type": "official",
           "title": "官網獨家：海景住宿連雙人早餐",
           "description": "經海逸酒店官網預訂，入住即送雙人早餐及游泳池禮遇。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.harbour-plaza.com/northpoint/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         }
       ]
     },
@@ -927,17 +893,16 @@
           "source_type": "official",
           "title": "官網獨家：海洋公園門票連住宿套餐",
           "description": "經 Marriott 官網預訂，套餐可含海洋公園入場證及雙人早餐。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-29",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-30",
           "booking_url": "https://www.marriott.com/zh/hotels/hkgop-hong-kong-ocean-park-marriott-hotel/overview/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-29"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-30"
         }
       ]
     },
@@ -958,17 +923,16 @@
           "source_type": "official",
           "title": "官網獨家：餐廳自助晚餐週末優惠",
           "description": "經艾美官網預訂週末自助晚餐，可享官網會員專屬折扣或買一送一。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-13",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-14",
           "booking_url": "https://www.marriott.com/zh/hotels/hkgmd-le-meridien-cyberport/overview/",
           "tags": [
             "官網獨家",
-            "自助餐",
-            "酒店優惠"
+            "自助餐"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-13"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-14"
         }
       ]
     },
@@ -989,18 +953,17 @@
           "source_type": "official",
           "title": "官網獨家：Alva House 環球海鮮自助晚餐買二送一",
           "description": "主打生蠔、波士頓龍蝦及刺身，經官網預訂享買二送一優惠。",
-          "start_date": "2026-09-05",
-          "end_date": "2026-09-30",
+          "start_date": "2026-09-06",
+          "end_date": "2026-10-01",
           "booking_url": "https://www.alva.com.hk/tc/offers/",
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一",
-            "酒店優惠"
+            "買一送一"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-05",
-          "valid_to": "2026-09-30"
+          "valid_from": "2026-09-06",
+          "valid_to": "2026-10-01"
         },
         {
           "id": "offer-alva-by-royal-staycation-a5dd86f1",
@@ -1008,17 +971,16 @@
           "source_type": "official",
           "title": "官網優惠：ALVA HOTEL BY ROYAL",
           "description": "詳情以 帝逸酒店 (ALVA HOTEL BY ROYAL) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.alva.com.hk/tc/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-alva-by-royal-staycation-c79ce2b7",
@@ -1026,17 +988,16 @@
           "source_type": "official",
           "title": "官網優惠：Latest Offers",
           "description": "詳情以 帝逸酒店 (ALVA HOTEL BY ROYAL) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.alva.com.hk/tc/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-alva-by-royal-staycation-c585606c",
@@ -1044,17 +1005,16 @@
           "source_type": "official",
           "title": "官網優惠：Discover our wonders",
           "description": "詳情以 帝逸酒店 (ALVA HOTEL BY ROYAL) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.alva.com.hk/tc/offers/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         },
         {
           "id": "offer-alva-kkday-01",
@@ -1098,17 +1058,16 @@
           "source_type": "official",
           "title": "官網獨家：沙田凱悅週末住宿連早餐",
           "description": "經凱悅官網預訂，入住即送雙人早餐及室內泳池禮遇。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-22",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-23",
           "booking_url": "https://www.hyatt.com/zh-Hans/hotel/china/hyatt-regency-hong-kong-sha-tin/shahy/offers",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-22"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-23"
         }
       ]
     },
@@ -1129,18 +1088,17 @@
           "source_type": "official",
           "title": "官網獨家：壽星住宿蛋糕禮遇",
           "description": "經帝都官網預訂當月壽星套餐，即送生日蛋糕及延遲退房。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-12-03",
+          "start_date": "2026-09-05",
+          "end_date": "2026-12-04",
           "booking_url": "https://www.royalpark.com.hk/tc/offers",
           "tags": [
             "官網獨家",
             "壽星禮遇",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-12-03"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-12-04"
         },
         {
           "id": "offer-royal-park-staycation-ab876640",
@@ -1148,17 +1106,16 @@
           "source_type": "official",
           "title": "官網優惠：Royal Park Hotel",
           "description": "詳情以 帝都酒店 (Royal Park Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.royalpark.com.hk/tc/offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-royal-park-staycation-21ec3867",
@@ -1166,17 +1123,16 @@
           "source_type": "official",
           "title": "官網優惠：Latest Offers",
           "description": "詳情以 帝都酒店 (Royal Park Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.royalpark.com.hk/tc/offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-royal-park-staycation-cc5c1bee",
@@ -1184,17 +1140,16 @@
           "source_type": "official",
           "title": "官網優惠：Discover our wonders",
           "description": "詳情以 帝都酒店 (Royal Park Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.royalpark.com.hk/tc/offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         }
       ]
     },
@@ -1215,18 +1170,17 @@
           "source_type": "official",
           "title": "官網獨家：當月壽星住宿優惠方案",
           "description": "當月壽星經官網預訂 Staycation 套餐即贈生日蛋糕及氣泡酒。",
-          "start_date": "2026-09-02",
-          "end_date": "2027-01-10",
+          "start_date": "2026-09-03",
+          "end_date": "2027-01-11",
           "booking_url": "https://www.royalview.com.hk/tc/special-offers",
           "tags": [
             "官網獨家",
             "Staycation",
-            "壽星禮遇",
-            "酒店優惠"
+            "壽星禮遇"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2027-01-10"
+          "valid_from": "2026-09-03",
+          "valid_to": "2027-01-11"
         },
         {
           "id": "offer-royal-view-staycation-744cd4fd",
@@ -1234,17 +1188,16 @@
           "source_type": "official",
           "title": "官網優惠：Royal View Hotel",
           "description": "詳情以 帝景酒店 (Royal View Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.royalview.com.hk/tc/special-offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-royal-view-staycation-3ac38f7c",
@@ -1252,17 +1205,16 @@
           "source_type": "official",
           "title": "官網優惠：Latest Offers",
           "description": "詳情以 帝景酒店 (Royal View Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.royalview.com.hk/tc/special-offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-royal-view-staycation-fece6589",
@@ -1270,17 +1222,16 @@
           "source_type": "official",
           "title": "官網優惠：Comfortable Stay with Breathtaking Views",
           "description": "詳情以 帝景酒店 (Royal View Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.royalview.com.hk/tc/special-offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         }
       ]
     },
@@ -1301,17 +1252,16 @@
           "source_type": "official",
           "title": "官網獨家：悅來坊自助晚餐優惠",
           "description": "經悅來官網預訂週末自助晚餐，即享官網專屬折扣或買一送一。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-08",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-09",
           "booking_url": "https://www.pandahotel.com.hk/",
           "tags": [
             "官網獨家",
-            "自助餐",
-            "酒店優惠"
+            "自助餐"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-08"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-09"
         }
       ]
     },
@@ -1332,18 +1282,17 @@
           "source_type": "official",
           "title": "官網獨家：藝廚餐廳週末自助晚餐買一送一",
           "description": "經 Marriott 官網預訂，週末自助晚餐可暢飲指定飲品及日式刺身。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-12",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-13",
           "booking_url": "https://www.marriott.com/zh/hotels/hkgfp-four-points-hong-kong-tung-chung/overview/",
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一",
-            "酒店優惠"
+            "買一送一"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-12"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-13"
         }
       ]
     },
@@ -1364,17 +1313,16 @@
           "source_type": "official",
           "title": "官網獨家：機場萬豪住宿連雙人早餐",
           "description": "經 Marriott 官網預訂，適合航班前後入住，含雙人早餐及穿梭巴士。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-29",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-30",
           "booking_url": "https://www.marriott.com/zh/hotels/hkgsm-hong-kong-skycity-marriott-hotel/overview/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-29"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-30"
         }
       ]
     },
@@ -1395,17 +1343,16 @@
           "source_type": "official",
           "title": "官網獨家：樂園酒店住宿連門票套餐",
           "description": "經迪士尼官網預訂酒店，套餐可含樂園門票及角色見面禮遇。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-11-02",
+          "start_date": "2026-09-04",
+          "end_date": "2026-11-03",
           "booking_url": "https://www.hongkongdisneyland.com/zh-hk/hotels/hong-kong-disneyland-hotel/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-11-02"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-11-03"
         },
         {
           "id": "offer-disney-kkday-01",
@@ -1449,17 +1396,16 @@
           "source_type": "official",
           "title": "官網獨家：機場酒店過夜連早餐",
           "description": "經富豪官網預訂，含雙人早餐及機場穿梭服務。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-regal-airport-staycation-f0a35c56",
@@ -1467,17 +1413,16 @@
           "source_type": "official",
           "title": "官網優惠：水療豪華按摩客房",
           "description": "詳情以 富豪機場酒店 (Regal Airport Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-regal-airport-staycation-58154bbe",
@@ -1485,17 +1430,16 @@
           "source_type": "official",
           "title": "官網優惠：水療 Cabana 按摩客房",
           "description": "詳情以 富豪機場酒店 (Regal Airport Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-regal-airport-staycation-2f6b2d08",
@@ -1503,17 +1447,16 @@
           "source_type": "official",
           "title": "官網優惠：長期住宿計劃優惠",
           "description": "詳情以 富豪機場酒店 (Regal Airport Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-airport-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         }
       ]
     },
@@ -1534,17 +1477,16 @@
           "source_type": "official",
           "title": "官網獨家：海景自助晚餐優惠",
           "description": "經九龍海逸君綽官網預訂自助晚餐，即享官網會員折扣。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-14",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-15",
           "booking_url": "https://www.harbourgrand.com/kowloon/zh-hk/offers",
           "tags": [
             "官網獨家",
-            "自助餐",
-            "酒店優惠"
+            "自助餐"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-14"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-15"
         },
         {
           "id": "offer-harbour-grand-kowloon-staycation-6891f934",
@@ -1552,17 +1494,16 @@
           "source_type": "official",
           "title": "官網優惠：Reservations",
           "description": "詳情以 九龍海逸君綽酒店 (Harbour Grand Kowloon) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.harbourgrand.com/kowloon/zh-hk/offers",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-hgk-openrice-01",
@@ -1605,17 +1546,16 @@
           "source_type": "official",
           "title": "官網獨家：九龍東住宿連雙人早餐",
           "description": "經 IHG 官網預訂，入住即送雙人早餐及健身室禮遇。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-23",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-24",
           "booking_url": "https://www.ihg.com/crowneplaza/hotels/us/en/hong-kong/hkgke/hoteldetail",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-23"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-24"
         }
       ]
     },
@@ -1636,17 +1576,16 @@
           "source_type": "official",
           "title": "官網獨家：海景客房週末套餐",
           "description": "經悅品官網預訂，入住海景客房並送雙人早餐。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-12",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-13",
           "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-12"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-13"
         },
         {
           "id": "offer-cozi-harbour-staycation-77205b94",
@@ -1654,17 +1593,16 @@
           "source_type": "official",
           "title": "官網優惠：RESERVATION",
           "description": "詳情以 悅品海景酒店・觀塘 (hotel COZi Harbour View) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-cozi-harbour-staycation-b31435f6",
@@ -1672,17 +1610,16 @@
           "source_type": "official",
           "title": "官網優惠：INDULGE IN COZI COMFORT",
           "description": "詳情以 悅品海景酒店・觀塘 (hotel COZi Harbour View) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-cozi-harbour-staycation-cc012658",
@@ -1690,17 +1627,16 @@
           "source_type": "official",
           "title": "官網優惠：Kai Tak Sports Park",
           "description": "詳情以 悅品海景酒店・觀塘 (hotel COZi Harbour View) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.hotelcozi.com/harbourview/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         }
       ]
     },
@@ -1721,18 +1657,17 @@
           "source_type": "official",
           "title": "官網獨家：海景自助晚餐買一送一",
           "description": "經黃金海岸官網預訂週末自助晚餐，尊享買一送一或指定折扣。",
-          "start_date": "2026-09-05",
-          "end_date": "2026-10-10",
+          "start_date": "2026-09-06",
+          "end_date": "2026-10-11",
           "booking_url": "https://www.goldcoasthotel.com.hk/tc/offers",
           "tags": [
             "官網獨家",
             "自助餐",
-            "買一送一",
-            "酒店優惠"
+            "買一送一"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-05",
-          "valid_to": "2026-10-10"
+          "valid_from": "2026-09-06",
+          "valid_to": "2026-10-11"
         },
         {
           "id": "offer-goldcoast-klook-01",
@@ -1777,17 +1712,16 @@
           "source_type": "official",
           "title": "官網獨家：園景住宿連雙人早餐",
           "description": "經富豪官網預訂，入住即送雙人早餐及室內泳池。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         },
         {
           "id": "offer-regal-riverside-staycation-a1bfb5d0",
@@ -1795,17 +1729,16 @@
           "source_type": "official",
           "title": "官網優惠：Regal Club 富豪薈",
           "description": "詳情以 富豪園景酒店 (Regal Riverside Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-regal-riverside-staycation-33e6b90a",
@@ -1813,17 +1746,16 @@
           "source_type": "official",
           "title": "官網優惠：富豪「探索之旅」致力為各級會員提供豐富禮遇。",
           "description": "詳情以 富豪園景酒店 (Regal Riverside Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.regalhotel.com/zh-hant/regal-riverside-hotel",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         }
       ]
     },
@@ -1844,18 +1776,17 @@
           "source_type": "official",
           "title": "官網獨家：海景住宿連下午茶禮遇",
           "description": "經富麗敦官網預訂，入住即送雙人下午茶及海景房升級機會。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-28",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-29",
           "booking_url": "https://www.fullertonhotels.com/",
           "tags": [
             "官網獨家",
             "Staycation",
-            "下午茶",
-            "酒店優惠"
+            "下午茶"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-28"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-29"
         },
         {
           "id": "offer-the-fullerton-ocean-park-alt-staycation-25bbb6ef",
@@ -1863,17 +1794,16 @@
           "source_type": "official",
           "title": "官網優惠：The Fullerton Hotel Singapore",
           "description": "詳情以 香港富麗敦海洋公園酒店 (The Fullerton Ocean Park Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.fullertonhotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-the-fullerton-ocean-park-alt-staycation-9dac880f",
@@ -1881,17 +1811,16 @@
           "source_type": "official",
           "title": "官網優惠：The Fullerton Bay Hotel Singapore",
           "description": "詳情以 香港富麗敦海洋公園酒店 (The Fullerton Ocean Park Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.fullertonhotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-the-fullerton-ocean-park-alt-staycation-a3d4adb0",
@@ -1899,17 +1828,16 @@
           "source_type": "official",
           "title": "官網優惠：The Fullerton Hotel Sydney",
           "description": "詳情以 香港富麗敦海洋公園酒店 (The Fullerton Ocean Park Hotel) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.fullertonhotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         }
       ]
     },
@@ -1930,17 +1858,16 @@
           "source_type": "official",
           "title": "官網獨家：旺角住宿連購物消費額",
           "description": "經帝盛官網預訂，入住即送雙人早餐及指定餐飲／購物消費額。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-12",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-13",
           "booking_url": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-12"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-13"
         },
         {
           "id": "offer-dorsett-mongkok-staycation-72a04223",
@@ -1948,16 +1875,15 @@
           "source_type": "official",
           "title": "官網優惠：旺角帝盛酒店尊享",
           "description": "詳情以 旺角帝盛酒店 (Dorsett Mongkok, Hong Kong) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
+          "start_date": "2026-09-03",
           "end_date": "2026-12-31",
           "booking_url": "https://www.dorsetthotels.com/zh-hant/dorsett-mongkok/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
+          "valid_from": "2026-09-03",
           "valid_to": "2026-12-31"
         }
       ]
@@ -1979,17 +1905,16 @@
           "source_type": "official",
           "title": "官網獨家：青衣海景住宿連雙人早餐",
           "description": "經藍天酒店官網預訂，入住即送雙人早餐及穿梭巴士禮遇。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-13",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-14",
           "booking_url": "https://www.ramblerhotels.com/garden/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-13"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-14"
         }
       ]
     },
@@ -2010,17 +1935,16 @@
           "source_type": "official",
           "title": "官網獨家：荃灣住宿連雙人早餐",
           "description": "經華逸官網預訂，適合週末短途 Staycation，含雙人早餐。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-14",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-15",
           "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-14"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-15"
         },
         {
           "id": "offer-silka-tsuen-wan-staycation-40b9ea3e",
@@ -2028,17 +1952,16 @@
           "source_type": "official",
           "title": "官網優惠：Where Tradition Meets Modernity",
           "description": "詳情以 華逸酒店・荃灣 (Silka Tsuen Wan) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-17",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-18",
           "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-17"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-18"
         },
         {
           "id": "offer-silka-tsuen-wan-staycation-942e3a9b",
@@ -2046,17 +1969,16 @@
           "source_type": "official",
           "title": "官網優惠：EXPERIENCE AN AUTHENTIC HONG KONG",
           "description": "詳情以 華逸酒店・荃灣 (Silka Tsuen Wan) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-18",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-19",
           "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-18"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-19"
         },
         {
           "id": "offer-silka-tsuen-wan-staycation-6a6e8318",
@@ -2064,17 +1986,16 @@
           "source_type": "official",
           "title": "官網優惠：FAMILY-FRIENDLY ROOMS",
           "description": "詳情以 華逸酒店・荃灣 (Silka Tsuen Wan) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-04",
-          "end_date": "2026-10-19",
+          "start_date": "2026-09-05",
+          "end_date": "2026-10-20",
           "booking_url": "https://www.silkahotels.com/silka-tsuen-wan/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-04",
-          "valid_to": "2026-10-19"
+          "valid_from": "2026-09-05",
+          "valid_to": "2026-10-20"
         }
       ]
     },
@@ -2095,17 +2016,16 @@
           "source_type": "official",
           "title": "官網獨家：沙田萬怡住宿連雙人早餐",
           "description": "經 Marriott 官網預訂，入住即送雙人早餐及健身室禮遇。",
-          "start_date": "2026-09-02",
-          "end_date": "2026-10-12",
+          "start_date": "2026-09-03",
+          "end_date": "2026-10-13",
           "booking_url": "https://www.marriott.com/zh/hotels/hkgcy-courtyard-hong-kong-sha-tin/overview/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
-          "valid_to": "2026-10-12"
+          "valid_from": "2026-09-03",
+          "valid_to": "2026-10-13"
         }
       ]
     },
@@ -2126,17 +2046,16 @@
           "source_type": "official",
           "title": "官網獨家：元朗商圈住宿連早餐",
           "description": "經合作酒店官網預訂，適合形點／元朗週末短住，含雙人早餐。",
-          "start_date": "2026-09-03",
-          "end_date": "2026-10-08",
+          "start_date": "2026-09-04",
+          "end_date": "2026-10-09",
           "booking_url": "https://www.silkahotels.com/",
           "tags": [
             "官網獨家",
-            "Staycation",
-            "酒店優惠"
+            "Staycation"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-03",
-          "valid_to": "2026-10-08"
+          "valid_from": "2026-09-04",
+          "valid_to": "2026-10-09"
         },
         {
           "id": "offer-hop-inn-yoho-staycation-fa4582f5",
@@ -2144,16 +2063,15 @@
           "source_type": "official",
           "title": "官網優惠：Silka Hotels Stay Smart Save Smart",
           "description": "詳情以 形點・元朗商圈酒店式優惠 (YOHO / Silka offers) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
+          "start_date": "2026-09-03",
           "end_date": "2026-12-31",
           "booking_url": "https://www.silkahotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
+          "valid_from": "2026-09-03",
           "valid_to": "2026-12-31"
         },
         {
@@ -2162,16 +2080,15 @@
           "source_type": "official",
           "title": "官網優惠：Our Hotels",
           "description": "詳情以 形點・元朗商圈酒店式優惠 (YOHO / Silka offers) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
+          "start_date": "2026-09-03",
           "end_date": "2026-12-31",
           "booking_url": "https://www.silkahotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
+          "valid_from": "2026-09-03",
           "valid_to": "2026-12-31"
         },
         {
@@ -2180,36 +2097,26 @@
           "source_type": "official",
           "title": "官網優惠：What's On",
           "description": "詳情以 形點・元朗商圈酒店式優惠 (YOHO / Silka offers) 官方網站為準，請經官網查閱條款及預訂。",
-          "start_date": "2026-09-02",
+          "start_date": "2026-09-03",
           "end_date": "2026-12-31",
           "booking_url": "https://www.silkahotels.com/",
           "tags": [
             "官網獨家",
-            "官方優惠",
-            "酒店優惠"
+            "官方優惠"
           ],
           "platform": "官網",
-          "valid_from": "2026-09-02",
+          "valid_from": "2026-09-03",
           "valid_to": "2026-12-31"
         }
       ]
     }
   ],
-  "last_audit_date": "2026-09-02",
+  "last_audit_date": "2026-09-03",
   "crawl_stats": {
     "registry_count": 37,
     "pages_parsed": 19,
     "removed_expired": 0,
     "offers_kept": 92,
-    "audited_on": "2026-09-02"
-  },
-  "ensure_hotel_offers_at": "2026-09-03T01:18:17+08:00",
-  "ensure_hotel_offers_stats": {
-    "today": "2026-09-03",
-    "hotels": 37,
-    "live_offers": 92,
-    "ota_merged": 0,
-    "dates_refreshed": 0,
-    "samples_seeded": 0
+    "audited_on": "2026-09-03"
   }
 }
