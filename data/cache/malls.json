@@ -18197,7 +18197,7 @@
               "start_date": "2026-08-29",
               "end_date": "2026-09-28",
               "openrice_url": "https://s.openrice.com/QrbS0iOC900",
-              "image": "https://static7.orstatic.com/userphoto3/photo/33/2GBD/0HG0UM6D12209F073834A4mx.jpg",
+              "image": "https://static5.orstatic.com/userphoto3/photo/34/2GRS/0HJ9L4301AE94C06432166mx.jpg",
               "status": "active",
               "lifecycle_status": "active",
               "source": "openrice_daily_sync",
@@ -21472,6 +21472,6 @@
       "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
     }
   },
-  "openrice_sync_at": "2026-09-03T08:20:06.216025+08:00",
-  "openrice_sync_date": "2026-09-03"
+  "openrice_sync_at": "2026-09-04T08:18:19.960160+08:00",
+  "openrice_sync_date": "2026-09-04"
 }
