@@ -1206,6 +1206,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 707224
+            },
+            {
+              "restaurant_name": "Apinara",
+              "shop_no": "L2樓 205",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0diG700",
+              "image": "https://static8.orstatic.com/userphoto2/photo/20/1LDD/0BBZ479A31E183D6E95638mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 509086
             }
           ]
         },
@@ -1270,7 +1286,7 @@
               "lifecycle_status": "active",
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-26",
-              "image": "https://static6.orstatic.com/userphoto3/photo/30/2DPC/0GXG5XD27B00D6C4FDBEB7mx.jpg"
+              "image": "https://static8.orstatic.com/userphoto3/photo/34/2GUK/0HJTDRBFAE2A08E3CE0FF4mx.jpg"
             },
             {
               "restaurant_name": "CAFÉ LANDMARK",
@@ -1281,7 +1297,7 @@
               "start_date": "2026-09-06",
               "end_date": "2026-10-06",
               "openrice_url": "https://s.openrice.com/QrbS06Ia000",
-              "image": "https://static6.orstatic.com/userphoto3/photo/30/2DPC/0GXG5XD27B00D6C4FDBEB7mx.jpg",
+              "image": "https://static8.orstatic.com/userphoto3/photo/34/2GUK/0HJTDRBFAE2A08E3CE0FF4mx.jpg",
               "status": "active",
               "lifecycle_status": "active",
               "source": "openrice_daily_sync",
@@ -3808,6 +3824,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 5976
+            },
+            {
+              "restaurant_name": "永年士多",
+              "shop_no": "地下 9A",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0Y80D00",
+              "image": "https://static8.orstatic.com/userphoto3/photo/2P/24VJ/0F6O8B04D990919073416Amx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 884872
             }
           ]
         }
@@ -4199,6 +4231,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 739828
+            },
+            {
+              "restaurant_name": "天仁茗茶",
+              "shop_no": "地下 G28",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0XOKH00",
+              "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 1148293
             }
           ]
         },
@@ -6540,53 +6588,6 @@
             },
             {
               "type": "store",
-              "offer_title": "錦麗｜獨立咖啡廳平日特惠（2026-08-17）",
-              "details": "獨立咖啡廳特惠：2026-08-17 惠顧正價飲品／輕食可享第二杯或套餐禮遇；詳情以店內告示為準。 適用於 上水廣場 錦麗（4/F 405-406號舖）。",
-              "start_date": "2026-08-17",
-              "end_date": "2026-09-07",
-              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E4%B8%8A%E6%B0%B4%E5%BB%A3%E5%A0%B4",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "store_offer",
-              "offer_category_label": "個別商店優惠",
-              "vertical_category": "Dining",
-              "vertical_category_label": "餐飲",
-              "tags": [
-                "FreeGift",
-                "Upcoming"
-              ],
-              "tag_labels": [
-                "贈品換領",
-                "即將開始"
-              ],
-              "store_name": "錦麗",
-              "floor": "4/F",
-              "shop_number": "405-406",
-              "phone": "2278 0018",
-              "sub_offers": [
-                {
-                  "time_slot": "2026-08-18 起",
-                  "title": "錦麗｜週二會員日雙倍積分（2026-08-18）",
-                  "detail": "會員日雙倍積分規律：2026-08-18（週二）出示商場／品牌會員於本店消費可享雙倍積分；詳情以會員 App 為準。 會員 雙倍積分 適用於 上水廣場 錦麗（4/F 405-406號舖）。"
-                }
-              ],
-              "consolidated_offer_count": 2,
-              "merchant_type": "independent",
-              "has_active": false,
-              "has_upcoming": true,
-              "branch_id": "e9226cd9fa47_9998a5d14f22_405406",
-              "store_image_url": "frontend/images/stores/9998a5d14f22_405-406_22780018.jpg",
-              "facade_image_url": "frontend/images/stores/9998a5d14f22_405-406_22780018.jpg",
-              "image_url": "frontend/images/stores/9998a5d14f22_405-406_22780018.jpg",
-              "relocation_status": "ok",
-              "store_key": "9998a5d14f22_405-406_22780018",
-              "mall_id": "9998a5d14f22",
-              "image_source": "directory_crawl"
-            },
-            {
-              "type": "store",
               "offer_title": "Merci Cafe by Déesses｜街坊專屬折扣（2026-08-18 起）",
               "details": "街坊專屬折扣：2026-08-18 起出示住址／會員可享獨立小店專屬折扣或換領；詳情以店內告示為準。 適用於 上水廣場 Merci Cafe by Déesses（5樓 512號舖）。",
               "start_date": "2026-08-18",
@@ -7259,6 +7260,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 841919
+            },
+            {
+              "restaurant_name": "Meet Met Met",
+              "shop_no": "LG樓 G31-32",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS04auD00",
+              "image": "https://static5.orstatic.com/userphoto3/photo/2K/20SC/0EDLNGAD608A43F288E81Emx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 871954
             }
           ]
         },
@@ -7270,106 +7287,7 @@
           "network_phone": null,
           "mall_url": "https://arcade.cyberport.hk/",
           "mall_offers": [],
-          "store_offers": [
-            {
-              "type": "store",
-              "offer_title": "El Charro Mexican Cantina｜小店市集聯乘（2026-08-17）",
-              "details": "獨立小店市集聯乘：2026-08-17 參與商場市集／快閃攤檔可享聯乘換領；詳情以市集及店內公告為準。 適用於 數碼港商場 El Charro Mexican Cantina（2樓 208號舖）。",
-              "start_date": "2026-08-17",
-              "end_date": "2026-09-07",
-              "source_url": "https://s.openrice.com/QrbS0KB4600",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "store_offer",
-              "offer_category_label": "個別商店優惠",
-              "vertical_category": "Retail",
-              "vertical_category_label": "零售",
-              "tags": [
-                "FreeGift",
-                "Upcoming",
-                "PopUp"
-              ],
-              "tag_labels": [
-                "贈品換領",
-                "即將開始",
-                "快閃"
-              ],
-              "store_name": "El Charro Mexican Cantina",
-              "floor": "2樓",
-              "shop_number": "208",
-              "phone": "2793 2522",
-              "sub_offers": [
-                {
-                  "time_slot": "2026-08-17 起",
-                  "title": "El Charro Mexican Cantina｜週一美妝／護膚快閃（2026-08-17）",
-                  "detail": "美妝品類快閃規律：2026-08-17（週一）護膚／化妝／藥妝正價貨品可享品類限定折扣或換購；詳情以店內告示為準。 美妝 快閃 折扣 適用於 數碼港商場 El Charro Mexican Cantina（2樓 208號舖）。"
-                }
-              ],
-              "consolidated_offer_count": 2,
-              "merchant_type": "independent",
-              "has_active": false,
-              "has_upcoming": true,
-              "branch_id": "elcharromexicancantina_17491e366c86_208",
-              "store_image_url": "frontend/images/stores/17491e366c86_208_27932522.jpg",
-              "facade_image_url": "frontend/images/stores/17491e366c86_208_27932522.jpg",
-              "image_url": "frontend/images/stores/17491e366c86_208_27932522.jpg",
-              "relocation_status": "ok",
-              "store_key": "17491e366c86_208_27932522",
-              "mall_id": "17491e366c86",
-              "image_source": "google_places",
-              "google_place_id": "ChIJhS7HTu7_AzQRBepzz9mWEW4",
-              "google_query": "數碼港商場 El Charro Mexican Cantina 香港"
-            },
-            {
-              "type": "store",
-              "offer_title": "Pepper Lunch Express｜街坊專屬折扣（2026-08-17 起）",
-              "details": "街坊專屬折扣：2026-08-17 起出示住址／會員可享獨立小店專屬折扣或換領；詳情以店內告示為準。 適用於 數碼港商場 Pepper Lunch Express（4樓 403A號舖）。",
-              "start_date": "2026-08-17",
-              "end_date": "2026-09-07",
-              "source_url": "https://s.openrice.com/QrbS0cTy300",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "store_offer",
-              "offer_category_label": "個別商店優惠",
-              "vertical_category": "Retail",
-              "vertical_category_label": "零售",
-              "tags": [
-                "Member",
-                "FreeGift",
-                "Discount",
-                "Upcoming"
-              ],
-              "tag_labels": [
-                "會員",
-                "贈品換領",
-                "折扣",
-                "即將開始"
-              ],
-              "store_name": "Pepper Lunch Express",
-              "floor": "4樓",
-              "shop_number": "403A",
-              "phone": "2577 2311",
-              "sub_offers": [],
-              "consolidated_offer_count": 1,
-              "merchant_type": "independent",
-              "has_active": false,
-              "has_upcoming": true,
-              "branch_id": "pepperlunchexpress_17491e366c86_403a",
-              "store_image_url": "frontend/images/stores/17491e366c86_403a_25772311.jpg",
-              "facade_image_url": "frontend/images/stores/17491e366c86_403a_25772311.jpg",
-              "image_url": "frontend/images/stores/17491e366c86_403a_25772311.jpg",
-              "relocation_status": "ok",
-              "store_key": "17491e366c86_403a_25772311",
-              "mall_id": "17491e366c86",
-              "image_source": "google_places",
-              "google_place_id": "ChIJdRTFve__AzQRiLd9miBE6ag",
-              "google_query": "數碼港商場 Pepper Lunch Express 香港"
-            }
-          ],
+          "store_offers": [],
           "lat": 22.26155,
           "lng": 114.12985,
           "geo_tags": [
@@ -7738,6 +7656,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 695672
+            },
+            {
+              "restaurant_name": "茶星人",
+              "shop_no": "3樓 309A",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0uLuD00",
+              "image": "https://static6.orstatic.com/userphoto3/photo/2L/228D/0ENVLH6C6472D53BA0D4C1mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 876257
             }
           ]
         },
@@ -7940,22 +7874,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 452182
-            },
-            {
-              "restaurant_name": "譚仔雲南米線",
-              "shop_no": "地下 G07-G08",
-              "title": "$50現金券（即買即用）",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-09-03",
-              "end_date": "2026-10-03",
-              "openrice_url": "https://s.openrice.com/QrbS00FSA00",
-              "image": "https://static6.orstatic.com/userphoto3/photo/30/2DSO/0GY409FA81F05EDC38730Amx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-03",
-              "poi_id": 718592
             },
             {
               "restaurant_name": "元気寿司",
@@ -9984,6 +9902,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 534967
+            },
+            {
+              "restaurant_name": "Oliver's Super Sandwiches",
+              "shop_no": "G樓 G115",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0B2y100",
+              "image": "https://static8.orstatic.com/userphoto/photo/5/4GA/00VNY373F42AA9FD48CB1Cmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 143148
             }
           ]
         },
@@ -10646,6 +10580,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 651141
+            },
+            {
+              "restaurant_name": "Oliver's Super Sandwiches",
+              "shop_no": "地下 G10",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0ZKqH00",
+              "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 1133965
             }
           ]
         },
@@ -12134,6 +12084,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 807833
+            },
+            {
+              "restaurant_name": "Meet Met Met",
+              "shop_no": "3樓 335",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0R5iH00",
+              "image": "https://static7.orstatic.com/userphoto3/photo/33/2FSH/0HCAIYFBBC6CD329B7F62Amx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 1137516
             }
           ]
         },
@@ -12644,6 +12610,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 639173
+            },
+            {
+              "restaurant_name": "Nara Thai Cuisine",
+              "shop_no": "5樓 507",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0xwW800",
+              "image": "https://static8.orstatic.com/userphoto2/photo/1B/115G/07C6VBF53AB9A6C219BE7Dmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 567535
+            },
+            {
+              "restaurant_name": "香港永年車仔麵茶冰廳",
+              "shop_no": "L1樓 113",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0HzE4W0",
+              "image": "https://static6.orstatic.com/userphoto2/photo/1B/11XB/07HP05976019F06B615C59mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 649031
             }
           ]
         },
@@ -12941,6 +12939,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-26",
               "image": "https://static5.orstatic.com/userphoto2/photo/2D/1VGQ/0DBR10AB3041D6DC29B514mx.jpg"
+            },
+            {
+              "restaurant_name": "一鼎‧台式火鍋",
+              "shop_no": "3樓 57",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0QR8F00",
+              "image": "https://static6.orstatic.com/userphoto3/photo/2X/2B2S/0GERRT2CD26F20CE8107D3mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 1028713
             }
           ]
         }
@@ -13380,6 +13394,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 663490
+            },
+            {
+              "restaurant_name": "Glasshouse Greenery",
+              "shop_no": "5樓 503A",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0DqWA00",
+              "image": "https://static8.orstatic.com/userphoto2/photo/1C/12AI/07KAPB36DDBA2F9D979165mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 673847
             }
           ]
         },
@@ -13634,6 +13664,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-26",
               "image": "https://static5.orstatic.com/userphoto2/photo/2C/1UWL/0D7RSCC2240DC6302AE03Emx.jpg"
+            },
+            {
+              "restaurant_name": "HABITŪ Caffe",
+              "shop_no": "5樓 5A",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0SJiC00",
+              "image": "https://static5.orstatic.com/userphoto2/photo/28/1R8Z/0CHRV4CE5D2312436985EDmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 801649
             }
           ]
         },
@@ -14080,6 +14126,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 451245
+            },
+            {
+              "restaurant_name": "Oliver's Super Sandwiches",
+              "shop_no": "UG樓 G06",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0NwG000",
+              "image": "https://static5.orstatic.com/userphoto2/photo/21/1MEJ/0BJBECDA0B1381E8D67A8Dmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 42079
             }
           ]
         },
@@ -14730,6 +14792,54 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 188922
+            },
+            {
+              "restaurant_name": "Nara Thai Cuisine",
+              "shop_no": "3樓 3303",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0b8eA00",
+              "image": "https://static8.orstatic.com/userphoto2/photo/1F/14GA/07ZNT789A87F733B63C0BDmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 690836
+            },
+            {
+              "restaurant_name": "Lady Nara",
+              "shop_no": "3/F 3303",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0JOCA00",
+              "image": "https://static6.orstatic.com/userphoto2/photo/1Q/1DF4/09RFMTE8F9397521139717mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 688973
+            },
+            {
+              "restaurant_name": "安娣瑪萊",
+              "shop_no": "地下 G16",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0wQuC00",
+              "image": "https://static7.orstatic.com/userphoto2/photo/2D/1VMY/0DCZB2FE83C7E96DC2BC44mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 831209
             }
           ]
         }
@@ -16901,6 +17011,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 657137
+            },
+            {
+              "restaurant_name": "HABITŪ table",
+              "shop_no": "地下 G21",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0feqA00",
+              "image": "https://static7.orstatic.com/userphoto2/photo/1F/14G8/07ZNHIBB70276E5CED1DADmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 691622
+            },
+            {
+              "restaurant_name": "大快活",
+              "shop_no": "3樓 3006",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0rWWA00",
+              "image": "https://static5.orstatic.com/userphoto2/photo/19/ZPL/071Y44F4592E2E79AD03DBmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 657622
             }
           ]
         },
@@ -18729,6 +18871,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 9535
+            },
+            {
+              "restaurant_name": "永年士多",
+              "shop_no": "地下 G26-G27",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0jIKF00",
+              "image": "https://static6.orstatic.com/userphoto3/photo/2T/28AK/0FUZ6T9E2BEE972AFA88EDmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 992693
             }
           ]
         }
@@ -20323,6 +20481,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 13540
+            },
+            {
+              "restaurant_name": "Oliver's Super Sandwiches (創紀之城五期(apm))",
+              "shop_no": "2樓 L2-13",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS0Z3K000",
+              "image": "https://static6.orstatic.com/userphoto/photo/F/C7R/02EV9XD74709F1AECCCAA6mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 13708
             }
           ]
         },
@@ -20730,6 +20904,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 795983
+            },
+            {
+              "restaurant_name": "Oliver's Super Sandwiches",
+              "shop_no": "4樓 413-414",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-09-08",
+              "end_date": "2026-10-08",
+              "openrice_url": "https://s.openrice.com/QrbS04TuG00",
+              "image": "https://static8.orstatic.com/userphoto3/photo/2Z/2CTI/0GR5X3A4939792ED056D48mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-08",
+              "poi_id": 1105425
             }
           ]
         }
@@ -22568,6 +22758,6 @@
       "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
     }
   },
-  "openrice_sync_at": "2026-09-07T08:19:37.973523+08:00",
-  "openrice_sync_date": "2026-09-07"
+  "openrice_sync_at": "2026-09-08T08:19:15.639889+08:00",
+  "openrice_sync_date": "2026-09-08"
 }
