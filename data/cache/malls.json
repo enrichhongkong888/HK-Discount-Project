@@ -8125,6 +8125,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-19",
               "poi_id": 755833
+            },
+            {
+              "restaurant_name": "一粥麵",
+              "shop_no": "1樓 127",
+              "title": "$50現金券（即買即用）",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-09-21",
+              "end_date": "2026-10-21",
+              "openrice_url": "https://s.openrice.com/QrbS0JIOC00",
+              "image": "https://static6.orstatic.com/userphoto3/photo/30/2DZX/0GZJJLE626E0D43E4EBF4Bmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-21",
+              "poi_id": 796237
             }
           ]
         },
@@ -8798,22 +8814,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-08-29",
               "poi_id": 31962
-            },
-            {
-              "restaurant_name": "犀牛犀牛",
-              "shop_no": "1樓",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-08-29",
-              "end_date": "2026-09-28",
-              "openrice_url": "https://s.openrice.com/QrbS0z9S5W0",
-              "image": "https://static5.orstatic.com/userphoto2/photo/1Q/1D06/09OHB4E4AC4639F25AC9A3mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-08-29",
-              "poi_id": 732921
             },
             {
               "restaurant_name": "星巴克咖啡",
@@ -12567,6 +12567,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-18",
               "poi_id": 807166
+            },
+            {
+              "restaurant_name": "PAPER STONE BAKERY",
+              "shop_no": "3樓 301",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-09-21",
+              "end_date": "2026-10-21",
+              "openrice_url": "https://s.openrice.com/QrbS0abCC00",
+              "image": "https://static6.orstatic.com/userphoto2/photo/29/1SGO/0CQEODF49333910A087682mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-09-21",
+              "poi_id": 807826
             }
           ]
         },
@@ -14112,38 +14128,7 @@
           "phone": null,
           "network_phone": null,
           "mall_url": "https://www.the-one.hk/",
-          "mall_offers": [
-            {
-              "id": "mall-ota-theone-kkday-01",
-              "type": "promotion",
-              "offer_title": "THE ONE 餐廳 KKday 限定買一送一",
-              "details": "經 KKday 預訂 THE ONE 指定餐廳，平日晚市買一送一；渣打卡專享。",
-              "start_date": "2026-08-22",
-              "end_date": "2026-09-20",
-              "source_url": "https://www.kkday.com/zh-hk/product/productlist?keyword=THE%20ONE",
-              "booking_url": "https://www.kkday.com/zh-hk/product/productlist?keyword=THE%20ONE",
-              "source_type": "ota",
-              "platform": "KKday",
-              "is_affiliate": true,
-              "bank_tags": [
-                "SCB"
-              ],
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "dining",
-              "offer_category_label": "餐飲",
-              "vertical_category": "Dining",
-              "vertical_category_label": "餐飲",
-              "tags": [
-                "CreditCard"
-              ],
-              "tag_labels": [
-                "信用卡"
-              ]
-            }
-          ],
+          "mall_offers": [],
           "store_offers": [],
           "lat": 22.29805,
           "lng": 114.17255,
@@ -21094,28 +21079,7 @@
           "phone": null,
           "network_phone": null,
           "mall_url": "https://www.metrocity1.com/",
-          "mall_offers": [
-            {
-              "type": "mall",
-              "offer_title": "MCPOne Joint Participation in “Henderson Land 50th Anniversary・Lucky Draw”",
-              "details": "Promotion Period: 26 June 2026 – 6 September 2026",
-              "start_date": "2026-06-26",
-              "end_date": "2026-09-20",
-              "source_url": "https://www.metrocity1.com/en/promotion-event/mcpone-joint-participation-in-henderson-land-50th-anniversary%e3%83%bblucky-draw/",
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "official_event",
-              "offer_category_label": "官方活動",
-              "vertical_category": "Other",
-              "vertical_category_label": "其他",
-              "tags": [],
-              "tag_labels": [],
-              "platform": "官網",
-              "source_type": "official"
-            }
-          ],
+          "mall_offers": [],
           "store_offers": [],
           "lat": 22.32255,
           "lng": 114.25755,
@@ -23157,21 +23121,6 @@
               "image": "https://static8.orstatic.com/userphoto2/photo/13/UWK/063RP7C94C4516A09F16EBmx.jpg"
             },
             {
-              "restaurant_name": "SHAKE SHACK",
-              "shop_no": "地下 G20",
-              "title": "【香港美心集團】$50現金券 (1套5張) (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-08-26",
-              "end_date": "2026-09-25",
-              "openrice_url": "https://s.openrice.com/QrbS0uu4B00",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-08-26",
-              "image": "https://static7.orstatic.com/userphoto2/photo/1T/1FPG/0A7OZQ8089D3BFF686B987mx.jpg"
-            },
-            {
               "restaurant_name": "Cinnabon",
               "shop_no": "2樓 298",
               "title": "以「連結里賞」賺里數",
@@ -23386,22 +23335,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-06",
               "poi_id": 635792
-            },
-            {
-              "restaurant_name": "SHAKE SHACK",
-              "shop_no": "地下 G20",
-              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-09-06",
-              "end_date": "2026-10-06",
-              "openrice_url": "https://s.openrice.com/QrbS0uu4B00",
-              "image": "https://static7.orstatic.com/userphoto2/photo/1T/1FPG/0A7OZQ8089D3BFF686B987mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-06",
-              "poi_id": 754147
             },
             {
               "restaurant_name": "元気寿司",
@@ -24975,6 +24908,6 @@
       "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
     }
   },
-  "openrice_sync_at": "2026-09-20T11:04:44.746976+08:00",
-  "openrice_sync_date": "2026-09-20"
+  "openrice_sync_at": "2026-09-21T11:02:47.885698+08:00",
+  "openrice_sync_date": "2026-09-21"
 }
