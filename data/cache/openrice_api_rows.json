@@ -1588,25 +1588,6 @@
       "photo_url": "https://static7.orstatic.com/userphoto2/photo/2F/1X9A/0DOI2EBC00E1D2509BD127mx.jpg"
     },
     {
-      "store_name": "A LUX",
-      "floor": "4樓",
-      "shop_number": "4009",
-      "phone": "6660 7352",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "A LUX｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "國際金融中心商場",
-      "address": "金融街8號國際金融中心商場4樓4009號舖",
-      "source_url": "https://s.openrice.com/QrbS0wMSH00",
-      "is_evergreen": true,
-      "poi_id": 1140713,
-      "mall_name_api": "國際金融中心商場",
-      "image": "https://static5.orstatic.com/userphoto3/photo/34/2GTV/0HJOGGD47C655A778AB76Amx.jpg",
-      "photo_url": "https://static5.orstatic.com/userphoto3/photo/34/2GTV/0HJOGGD47C655A778AB76Amx.jpg"
-    },
-    {
       "store_name": "McCafe",
       "floor": "2樓",
       "shop_number": "2022",
@@ -1928,6 +1909,25 @@
       "mall_name_api": "",
       "image": "https://static5.orstatic.com/userphoto/photo/P/KAS/040COS43D0AED719DEE504mx.jpg",
       "photo_url": "https://static5.orstatic.com/userphoto/photo/P/KAS/040COS43D0AED719DEE504mx.jpg"
+    },
+    {
+      "store_name": "A LUX",
+      "floor": "4樓",
+      "shop_number": "4009",
+      "phone": "6660 7352",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "A LUX｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "國際金融中心商場",
+      "address": "金融街8號國際金融中心商場4樓4009號舖",
+      "source_url": "https://s.openrice.com/QrbS0wMSH00",
+      "is_evergreen": true,
+      "poi_id": 1140713,
+      "mall_name_api": "國際金融中心商場",
+      "image": "https://static5.orstatic.com/userphoto3/photo/34/2GTV/0HJOGGD47C655A778AB76Amx.jpg",
+      "photo_url": "https://static5.orstatic.com/userphoto3/photo/34/2GTV/0HJOGGD47C655A778AB76Amx.jpg"
     },
     {
       "store_name": "Falcone",
@@ -34510,25 +34510,6 @@
       "photo_url": "https://static7.orstatic.com/userphoto2/photo/1R/1E2L/09W2FEAE073A77875A42F4mx.jpg"
     },
     {
-      "store_name": "快樂蜂",
-      "floor": "2樓",
-      "shop_number": "208-209",
-      "phone": "2389 9318",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "快樂蜂｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "西九龍中心",
-      "address": "欽州街37K號西九龍中心2樓208-209號舖",
-      "source_url": "https://s.openrice.com/QrbS0yD65W0",
-      "is_evergreen": true,
-      "poi_id": 762865,
-      "mall_name_api": "西九龍中心",
-      "image": "https://static6.orstatic.com/userphoto2/photo/1X/1J41/0AVWRHD6773239ECA23E1Amx.jpg",
-      "photo_url": "https://static6.orstatic.com/userphoto2/photo/1X/1J41/0AVWRHD6773239ECA23E1Amx.jpg"
-    },
-    {
       "store_name": "鴨蔥自家製拉麵",
       "floor": "6樓",
       "shop_number": "6FC45-47",
@@ -34546,6 +34527,25 @@
       "mall_name_api": "西九龍中心",
       "image": "https://static8.orstatic.com/userphoto3/photo/34/2GT9/0HJK5N526355D39663C4E1mx.jpg",
       "photo_url": "https://static8.orstatic.com/userphoto3/photo/34/2GT9/0HJK5N526355D39663C4E1mx.jpg"
+    },
+    {
+      "store_name": "快樂蜂",
+      "floor": "2樓",
+      "shop_number": "208-209",
+      "phone": "2389 9318",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "快樂蜂｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "西九龍中心",
+      "address": "欽州街37K號西九龍中心2樓208-209號舖",
+      "source_url": "https://s.openrice.com/QrbS0yD65W0",
+      "is_evergreen": true,
+      "poi_id": 762865,
+      "mall_name_api": "西九龍中心",
+      "image": "https://static6.orstatic.com/userphoto2/photo/1X/1J41/0AVWRHD6773239ECA23E1Amx.jpg",
+      "photo_url": "https://static6.orstatic.com/userphoto2/photo/1X/1J41/0AVWRHD6773239ECA23E1Amx.jpg"
     },
     {
       "store_name": "港蠔",
@@ -47788,10 +47788,10 @@
       "floor": "1樓",
       "shop_number": "160",
       "phone": "2656 8098",
-      "details": "[3-4位用] 豪華脆鯇魚火鍋套餐 (不含加一)",
-      "title": "淘米漁 · 米湯脆鯇魚火鍋｜[3-4位用] 豪華脆鯇魚火鍋套餐 (不含加一) / [2位用] 午市限定脆鯇魚火鍋套餐 (不含加一) / [2位用] 精選脆皖魚火鍋套餐 (不含加一) / [6-8位用] 豪華脆鯇魚火鍋套餐 (不含加一)",
-      "offer_name": "[3-4位用] 豪華脆鯇魚火鍋套餐 (不含加一)",
-      "voucher_title": "[3-4位用] 豪華脆鯇魚火鍋套餐 (不含加一) / [2位用] 午市限定脆鯇魚火鍋套餐 (不含加一) / [2位用] 精選脆皖魚火鍋套餐 (不含加一) / [6-8位用] 豪華脆鯇魚火鍋套餐 (不含加一)",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "淘米漁 · 米湯脆鯇魚火鍋｜",
+      "offer_name": null,
+      "voucher_title": null,
       "discount_text": null,
       "mall_hint": "東港城",
       "address": "坑口重華路8號東港城1樓160號舖",
@@ -47800,8 +47800,7 @@
       "poi_id": 1118700,
       "mall_name_api": "東港城",
       "image": "https://static5.orstatic.com/userphoto3/photo/2Z/2D8V/0GU70SAF7621C444D7F7B3mx.jpg",
-      "photo_url": "https://static5.orstatic.com/userphoto3/photo/2Z/2D8V/0GU70SAF7621C444D7F7B3mx.jpg",
-      "start_date": "2026-08-26"
+      "photo_url": "https://static5.orstatic.com/userphoto3/photo/2Z/2D8V/0GU70SAF7621C444D7F7B3mx.jpg"
     },
     {
       "store_name": "泰國婆",
