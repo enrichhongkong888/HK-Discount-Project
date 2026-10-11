@@ -186,22 +186,6 @@
               "poi_id": 845425
             },
             {
-              "restaurant_name": "華御結",
-              "shop_no": "2樓 231D",
-              "title": "$25現金券",
-              "offer_type": "餐飲券",
-              "discount_tag": "$25",
-              "start_date": "2026-09-26",
-              "end_date": "2026-10-26",
-              "openrice_url": "https://s.openrice.com/QrbS0WE4600",
-              "image": "https://static8.orstatic.com/userphoto/photo/B/8RE/01QASB9030C4A62E5B5AC5mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-26",
-              "poi_id": 450944
-            },
-            {
               "restaurant_name": "元気寿司",
               "shop_no": "2樓 241",
               "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
@@ -312,22 +296,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 801481
-            },
-            {
-              "restaurant_name": "華御結",
-              "shop_no": "2樓 231D",
-              "title": "$25現金券 (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$25",
-              "start_date": "2026-10-09",
-              "end_date": "2026-11-08",
-              "openrice_url": "https://s.openrice.com/QrbS0WE4600",
-              "image": "https://static8.orstatic.com/userphoto/photo/B/8RE/01QASB9030C4A62E5B5AC5mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-09",
-              "poi_id": 450944
             },
             {
               "restaurant_name": "美心西餅",
@@ -641,37 +609,6 @@
           "network_phone": null,
           "mall_url": "https://www.pacificplace.com.hk/",
           "mall_offers": [
-            {
-              "id": "mall-ota-pacificplace-openrice-01",
-              "type": "promotion",
-              "offer_title": "太古廣場 OpenRice 信用卡晚市優惠",
-              "details": "經 OpenRice 預訂太古廣場指定商戶，中銀／DBS 信用卡可享平台獨家折扣。",
-              "start_date": "2026-08-22",
-              "end_date": "2026-10-10",
-              "source_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E5%A4%AA%E5%8F%A4%E5%BB%A3%E5%A0%B4",
-              "booking_url": "https://www.openrice.com/zh/hongkong/restaurants?where=%E5%A4%AA%E5%8F%A4%E5%BB%A3%E5%A0%B4",
-              "source_type": "ota",
-              "platform": "OpenRice",
-              "is_affiliate": true,
-              "bank_tags": [
-                "BOC",
-                "DBS"
-              ],
-              "is_daily_special": false,
-              "is_evergreen": false,
-              "status": "active",
-              "lifecycle_status": "active",
-              "offer_category": "dining",
-              "offer_category_label": "餐飲",
-              "vertical_category": "Dining",
-              "vertical_category_label": "餐飲",
-              "tags": [
-                "CreditCard"
-              ],
-              "tag_labels": [
-                "信用卡"
-              ]
-            },
             {
               "id": "mall-official-pacificplace-happenings",
               "type": "promotion",
@@ -1078,22 +1015,6 @@
               "poi_id": 821374
             },
             {
-              "restaurant_name": "樂天皇朝薈萃",
-              "shop_no": "4樓 L418",
-              "title": "【樂天皇朝】$100現金券 **無限兌換**",
-              "offer_type": "餐飲券",
-              "discount_tag": "$100",
-              "start_date": "2026-10-10",
-              "end_date": "2026-11-09",
-              "openrice_url": "https://s.openrice.com/QrbS0KN4C00",
-              "image": "https://static8.orstatic.com/userphoto2/photo/2B/1UAW/0D3HIJA586EA538583DA7Fmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-10",
-              "poi_id": 815441
-            },
-            {
               "restaurant_name": "Homebake",
               "shop_no": "B1樓 B132A-B132B",
               "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
@@ -1124,6 +1045,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 820539
+            },
+            {
+              "restaurant_name": "燒肉火蔵",
+              "shop_no": "2樓 L206",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0ceWC00",
+              "image": "https://static7.orstatic.com/userphoto2/photo/2B/1UB6/0D3JL62D2465C47DAB2A91mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 821402
             }
           ]
         },
@@ -1308,22 +1245,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-07",
               "poi_id": 7434
-            },
-            {
-              "restaurant_name": "八月花",
-              "shop_no": "LG2樓 G2-40",
-              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-10-07",
-              "end_date": "2026-11-06",
-              "openrice_url": "https://s.openrice.com/QrbS0yYG500",
-              "image": "https://static7.orstatic.com/userphoto2/photo/1F/14N1/080ZT28C12CE8CDECBFF1Dmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-07",
-              "poi_id": 674036
             },
             {
               "restaurant_name": "千両",
@@ -2173,22 +2094,6 @@
               "poi_id": 45929
             },
             {
-              "restaurant_name": "元気寿司",
-              "shop_no": "1樓 1157",
-              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-10-07",
-              "end_date": "2026-11-06",
-              "openrice_url": "https://s.openrice.com/QrbS0YZm000",
-              "image": "https://static5.orstatic.com/userphoto/photo/0/T/0005VO621AA8BDDF5DE950mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-07",
-              "poi_id": 15498
-            },
-            {
               "restaurant_name": "必勝客",
               "shop_no": "2樓 2201",
               "title": "$50現金券(即買即用)",
@@ -2203,6 +2108,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 543563
+            },
+            {
+              "restaurant_name": "南記粉麵",
+              "shop_no": "1樓 1115",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0ERmB00",
+              "image": "https://static5.orstatic.com/userphoto2/photo/1Z/1KMX/0B6R0CD2140D419093939Amx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 769081
+            },
+            {
+              "restaurant_name": "米線陣",
+              "shop_no": "1樓 1112",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0xWK200",
+              "image": "https://static5.orstatic.com/userphoto/photo/R/LX3/04BVAO5791C1F0B2239C5Bmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 132590
             }
           ]
         },
@@ -3218,22 +3155,6 @@
               "poi_id": 55293
             },
             {
-              "restaurant_name": "南記粉麵",
-              "shop_no": "地下 G7F",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-09-29",
-              "end_date": "2026-10-29",
-              "openrice_url": "https://s.openrice.com/QrbS0o2i200",
-              "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-29",
-              "poi_id": 142280
-            },
-            {
               "restaurant_name": "必勝客",
               "shop_no": "地下 G10A",
               "title": "$50現金券(即買即用)",
@@ -3328,22 +3249,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 657116
-            },
-            {
-              "restaurant_name": "永年士多",
-              "shop_no": "地下 9A",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-10-09",
-              "end_date": "2026-11-08",
-              "openrice_url": "https://s.openrice.com/QrbS0Y80D00",
-              "image": "https://static8.orstatic.com/userphoto3/photo/2P/24VJ/0F6O8B04D990919073416Amx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-09",
-              "poi_id": 884872
             },
             {
               "restaurant_name": "百份百餐廳",
@@ -3529,22 +3434,6 @@
               "poi_id": 581477
             },
             {
-              "restaurant_name": "譚仔雲南米線",
-              "shop_no": "1樓 127-128",
-              "title": "$50現金券（即買即用）",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-09-26",
-              "end_date": "2026-10-26",
-              "openrice_url": "https://s.openrice.com/QrbS0HkWA00",
-              "image": "https://static8.orstatic.com/userphoto3/photo/2R/26W7/0FL11RC3E302451D194BC7mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-26",
-              "poi_id": 714822
-            },
-            {
               "restaurant_name": "百份百大師‧即造烘焙",
               "shop_no": "地下 G79-G80",
               "title": "【亞洲國際餐飲集團】$50現金券",
@@ -3689,22 +3578,6 @@
               "poi_id": 1148293
             },
             {
-              "restaurant_name": "一粥麵",
-              "shop_no": "1樓 140-141",
-              "title": "$50現金券（即買即用）",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-10-10",
-              "end_date": "2026-11-09",
-              "openrice_url": "https://s.openrice.com/QrbS0p9e200",
-              "image": "https://static8.orstatic.com/userphoto/photo/8/6FZ/019TPB98F4B108D710635Dmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-10",
-              "poi_id": 170700
-            },
-            {
               "restaurant_name": "元気寿司",
               "shop_no": "1樓 144-145",
               "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
@@ -3735,6 +3608,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 483500
+            },
+            {
+              "restaurant_name": "燒肉LIKE",
+              "shop_no": "地下 G22-25",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0AyU600",
+              "image": "https://static8.orstatic.com/userphoto2/photo/2F/1XBJ/0DOY4V687F8FD77A071E95mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 839467
             }
           ]
         },
@@ -4065,22 +3954,6 @@
           },
           "dining_offers": [
             {
-              "restaurant_name": "茶木‧台式休閒餐廳",
-              "shop_no": "1樓 S101-S103",
-              "title": "$50現金劵 (即買即用)",
-              "offer_type": "訂座折扣",
-              "discount_tag": "$50",
-              "start_date": "2026-09-26",
-              "end_date": "2026-10-26",
-              "openrice_url": "https://s.openrice.com/QrbS04py600",
-              "image": "https://static8.orstatic.com/userphoto2/photo/29/1SHW/0CQN97C4334C4C8E4E771Dmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-26",
-              "poi_id": 802579
-            },
-            {
               "restaurant_name": "敏華冰廳",
               "shop_no": "南翼地下 G12",
               "title": "[太興、靠得住、敏華冰廳]  $50 現金券 (即買即用)",
@@ -4255,6 +4128,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 546218
+            },
+            {
+              "restaurant_name": "譚仔三哥米線",
+              "shop_no": "2樓 S211",
+              "title": "$50現金券（即買即用）",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0QrK800",
+              "image": "https://static5.orstatic.com/userphoto/photo/M/I0I/03K3N0E7775F36AB18A4E1mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 546155
             }
           ]
         },
@@ -4583,22 +4472,6 @@
               "poi_id": 537014
             },
             {
-              "restaurant_name": "元気寿司",
-              "shop_no": "L2樓 A222-A225",
-              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-09-17",
-              "end_date": "2026-10-17",
-              "openrice_url": "https://s.openrice.com/QrbS0WKS800",
-              "image": "https://static8.orstatic.com/userphoto/photo/M/HH7/03GAER7BA024F3A2EC0B4Bmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-17",
-              "poi_id": 542593
-            },
-            {
               "restaurant_name": "Itamama",
               "shop_no": "2樓 A201-A202",
               "title": "少鹽少糖食店",
@@ -4661,22 +4534,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-26",
               "poi_id": 538378
-            },
-            {
-              "restaurant_name": "靠得住粥麵小館",
-              "shop_no": "3樓 A301",
-              "title": "[太興、靠得住、敏華冰廳]  $50 現金券 (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-09-26",
-              "end_date": "2026-10-26",
-              "openrice_url": "https://s.openrice.com/QrbS0RxSB00",
-              "image": "https://static8.orstatic.com/userphoto2/photo/1Y/1JZQ/0B263N890B13A7AE71E291mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-26",
-              "poi_id": 767855
             },
             {
               "restaurant_name": "譚仔三哥米線",
@@ -4821,6 +4678,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-07",
               "poi_id": 538413
+            },
+            {
+              "restaurant_name": "翠園",
+              "shop_no": "L2樓 2039",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0XNW800",
+              "image": "https://static5.orstatic.com/userphoto2/photo/1W/1IG5/0AR6XSABF275A44A9AA15Fmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 555141
+            },
+            {
+              "restaurant_name": "牛奶冰室",
+              "shop_no": "1樓 A101",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0Sn8C00",
+              "image": "https://static5.orstatic.com/userphoto3/photo/2P/24OK/0F5AN0AB6CC0C675992A72mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 791155
             }
           ]
         },
@@ -5032,22 +4921,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-08",
               "poi_id": 991299
-            },
-            {
-              "restaurant_name": "潮館",
-              "shop_no": "3樓 333-340",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-10-09",
-              "end_date": "2026-11-08",
-              "openrice_url": "https://s.openrice.com/QrbS0fa0000",
-              "image": "https://static5.orstatic.com/userphoto/photo/0/W/0006D4082C933AB4A5F847mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-09",
-              "poi_id": 16550
             },
             {
               "restaurant_name": "星巴克咖啡",
@@ -5264,6 +5137,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 666632
+            },
+            {
+              "restaurant_name": "天仁茗茶",
+              "shop_no": "2樓 2211",
+              "title": "$25現金劵(即買即用)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "$25",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0rxK800",
+              "image": "https://static6.orstatic.com/userphoto/photo/S/M4P/04DDG511D709A6AF7A9D3Amx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 570839
             }
           ]
         },
@@ -6532,22 +6421,6 @@
               "poi_id": 796237
             },
             {
-              "restaurant_name": "牛奶冰室",
-              "shop_no": "1樓 120",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-10-09",
-              "end_date": "2026-11-08",
-              "openrice_url": "https://s.openrice.com/QrbS0UOWB00",
-              "image": "https://static8.orstatic.com/userphoto3/photo/2P/24OJ/0F5AIFCC3715440D689A7Amx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-09",
-              "poi_id": 755833
-            },
-            {
               "restaurant_name": "百份百餐廳",
               "shop_no": "層 9",
               "title": "少鹽少糖食店",
@@ -6562,6 +6435,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 698582
+            },
+            {
+              "restaurant_name": "上海姥姥",
+              "shop_no": "M樓 M3",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0BTOA00",
+              "image": "https://static6.orstatic.com/userphoto2/photo/1I/177N/08JAFH9541A0F590B6D58Bmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 710189
             }
           ]
         },
@@ -7730,6 +7619,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 144060
+            },
+            {
+              "restaurant_name": "天仁茗茶",
+              "shop_no": "地下 1-8",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0RYG700",
+              "image": "https://static7.orstatic.com/userphoto/photo/B/8VF/01R3GQFC4139C0BC2521D5mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 468078
             }
           ]
         },
@@ -8495,6 +8400,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-04",
               "poi_id": 781303
+            },
+            {
+              "restaurant_name": "上海姥姥",
+              "shop_no": "3樓 317",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0UwaB00",
+              "image": "https://static7.orstatic.com/userphoto2/photo/25/1P4E/0C2NA6D441BC7BF4423688mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 764283
             }
           ]
         }
@@ -8631,6 +8552,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-07",
               "poi_id": 651141
+            },
+            {
+              "restaurant_name": "海街丼",
+              "shop_no": "地下 G38",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0bfGB00",
+              "image": "https://static6.orstatic.com/userphoto2/photo/1V/1HK4/0AKV5913D2EFB566E1EF17mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 758934
             }
           ]
         },
@@ -8794,6 +8731,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 482160
+            },
+            {
+              "restaurant_name": "sensory ZERO",
+              "shop_no": "地下 G014",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0X5a700",
+              "image": "https://static6.orstatic.com/userphoto/photo/C/9SW/01XPJ91B794EA1F1240FF6mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 481668
             }
           ]
         },
@@ -8861,22 +8814,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-19",
               "poi_id": 1137304
-            },
-            {
-              "restaurant_name": "敏華冰廳",
-              "shop_no": "地下 G1",
-              "title": "[太興、靠得住、敏華冰廳]  $50 現金券 (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-09-26",
-              "end_date": "2026-10-26",
-              "openrice_url": "https://s.openrice.com/QrbS0eQ4B00",
-              "image": "https://static7.orstatic.com/userphoto2/photo/1X/1IJS/0ARWN69E7B90485C822264mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-26",
-              "poi_id": 762273
             },
             {
               "restaurant_name": "茶木‧台式休閒餐廳",
@@ -9069,6 +9006,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 575309
+            },
+            {
+              "restaurant_name": "上海姥姥",
+              "shop_no": "M樓 M3",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0BTOA00",
+              "image": "https://static6.orstatic.com/userphoto2/photo/1I/177N/08JAFH9541A0F590B6D58Bmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 710189
+            },
+            {
+              "restaurant_name": "必勝客",
+              "shop_no": "3樓 T1",
+              "title": "$50現金券(即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0oseC00",
+              "image": "https://static5.orstatic.com/userphoto2/photo/2A/1TDH/0CWVT802ADC4668A295FAAmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 813771
             }
           ]
         },
@@ -9105,22 +9074,6 @@
             "official_url": "https://www.paradise-mall.com.hk/tch/terms-of-use"
           },
           "dining_offers": [
-            {
-              "restaurant_name": "鴻福堂",
-              "shop_no": "地下 G53B",
-              "title": "杞子醬汁燒賣券一張",
-              "offer_type": "訂座折扣",
-              "discount_tag": "杞子醬汁燒賣券一張",
-              "start_date": "2026-09-10",
-              "end_date": "2026-10-10",
-              "openrice_url": "https://s.openrice.com/QrbS0wNW000",
-              "image": "https://static7.orstatic.com/userphoto/photo/0/KT/00442A8D6BCE0BA0AD540Fmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-10",
-              "poi_id": 30953
-            },
             {
               "restaurant_name": "太興",
               "shop_no": "地下 G37",
@@ -9408,6 +9361,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 593875
+            },
+            {
+              "restaurant_name": "八方台式麵屋",
+              "shop_no": "地下 G39A",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0mACB00",
+              "image": "https://static7.orstatic.com/userphoto2/photo/2C/1UV5/0D7HL6C6A4BB9FD39AEB5Amx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 762816
             }
           ]
         }
@@ -9710,22 +9679,6 @@
               "poi_id": 807383
             },
             {
-              "restaurant_name": "潮庭",
-              "shop_no": "5樓 501",
-              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-10-05",
-              "end_date": "2026-11-04",
-              "openrice_url": "https://s.openrice.com/QrbS0q54C00",
-              "image": "https://static5.orstatic.com/userphoto2/photo/2F/1XJ0/0DQF8O262F479F9B563B38mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-05",
-              "poi_id": 807376
-            },
-            {
               "restaurant_name": "PAPER STONE BAKERY",
               "shop_no": "3樓 301",
               "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
@@ -9868,6 +9821,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 807819
+            },
+            {
+              "restaurant_name": "Godiva Chocolatier",
+              "shop_no": "2樓 229",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0nL8C00",
+              "image": "https://static8.orstatic.com/userphoto2/photo/29/1SGO/0CQEP7DDFD840AF5590723mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 807621
             }
           ]
         },
@@ -10283,6 +10252,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 999709
+            },
+            {
+              "restaurant_name": "北京樓",
+              "shop_no": "8樓 801C",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0nS0900",
+              "image": "https://static5.orstatic.com/userphoto2/photo/2C/1URF/0D6R3WFAC9DB85B46C299Bmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 639173
             }
           ]
         },
@@ -10319,22 +10304,6 @@
             "official_url": "https://www.mostown.com.hk/"
           },
           "dining_offers": [
-            {
-              "restaurant_name": "錦麗 (MOSTown新港城中心(4期))",
-              "shop_no": "2樓 2106",
-              "title": "$50現金劵 (即買即用)",
-              "offer_type": "訂座折扣",
-              "discount_tag": "$50",
-              "start_date": "2026-09-26",
-              "end_date": "2026-10-26",
-              "openrice_url": "https://s.openrice.com/QrbS05KC900",
-              "image": "https://static7.orstatic.com/userphoto2/photo/X/QEH/057R2E1E8EDF37F62B8AAAmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-26",
-              "poi_id": 606997
-            },
             {
               "restaurant_name": "RUD燒肉 (MOSTown新港城中心(4期))",
               "shop_no": "2樓 2141",
@@ -10561,6 +10530,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 1028713
+            },
+            {
+              "restaurant_name": "必勝客",
+              "shop_no": "3樓 69B",
+              "title": "$50現金券(即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0yO04W0",
+              "image": "https://static5.orstatic.com/userphoto2/photo/Z/SE2/05LW1C277B51D7E0513D33mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 590067
             }
           ]
         }
@@ -10688,38 +10673,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-26",
               "poi_id": 149312
-            },
-            {
-              "restaurant_name": "Godiva Chocolatier",
-              "shop_no": "1樓 1097",
-              "title": "以「連結里賞」賺里數",
-              "offer_type": "訂座折扣",
-              "discount_tag": "以「連結里賞」賺里數",
-              "start_date": "2026-09-26",
-              "end_date": "2026-10-26",
-              "openrice_url": "https://s.openrice.com/QrbS0D1C900",
-              "image": "https://static5.orstatic.com/userphoto2/photo/12/U4Q/05Y9ROE6697ECEA36DB5EFmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-26",
-              "poi_id": 594740
-            },
-            {
-              "restaurant_name": "Café Bohème",
-              "shop_no": "地下 06",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-10-03",
-              "end_date": "2026-11-02",
-              "openrice_url": "https://s.openrice.com/QrbS0Ifq900",
-              "image": "https://static5.orstatic.com/userphoto2/photo/15/WZS/06IMGGCE06F01BAD1A09C4mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-03",
-              "poi_id": 630090
             },
             {
               "restaurant_name": "LE-TA-SU 一人一鍋",
@@ -10915,6 +10868,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 673847
+            },
+            {
+              "restaurant_name": "路易奇電力公司",
+              "shop_no": "6樓 603",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS02z0800",
+              "image": "https://static7.orstatic.com/userphoto3/photo/35/2HDY/0HNN9U9C483F727FB0C541mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 1105931
+            },
+            {
+              "restaurant_name": "Elephant Grounds",
+              "shop_no": "7樓 705",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0oTO900",
+              "image": "https://static8.orstatic.com/userphoto2/photo/15/WMJ/06G07V667E5613BEAC9650mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 644809
             }
           ]
         },
@@ -11069,38 +11054,6 @@
           },
           "dining_offers": [
             {
-              "restaurant_name": "享慢煮意",
-              "shop_no": "6樓 L608",
-              "title": "[1位用] 法式優閒三層下午茶套餐(2位起)",
-              "offer_type": "訂座折扣",
-              "discount_tag": "[1位用] 法式優閒三層下午茶套餐(2位起)",
-              "start_date": "2026-09-16",
-              "end_date": "2026-10-16",
-              "openrice_url": "https://s.openrice.com/QrbS0xJmC00",
-              "image": "https://static7.orstatic.com/userphoto2/photo/29/1SN4/0CROIA1AFD1DFC00CE43AAmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-16",
-              "poi_id": 802029
-            },
-            {
-              "restaurant_name": "享慢煮意",
-              "shop_no": "6樓 L608",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-09-19",
-              "end_date": "2026-10-19",
-              "openrice_url": "https://s.openrice.com/QrbS0xJmC00",
-              "image": "https://static7.orstatic.com/userphoto2/photo/29/1SN4/0CROIA1AFD1DFC00CE43AAmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-19",
-              "poi_id": 802029
-            },
-            {
               "restaurant_name": "HABITŪ Caffe",
               "shop_no": "5樓 5A",
               "title": "少鹽少糖食店",
@@ -11115,6 +11068,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-30",
               "poi_id": 801649
+            },
+            {
+              "restaurant_name": "呷哺呷哺",
+              "shop_no": "UG2樓 G220-UG221",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0be4C00",
+              "image": "https://static5.orstatic.com/userphoto2/photo/2C/1UWL/0D7RSCC2240DC6302AE03Emx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 819606
             }
           ]
         },
@@ -11521,6 +11490,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 433765
+            },
+            {
+              "restaurant_name": "元気寿司",
+              "shop_no": "1樓 107",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0hU8600",
+              "image": "https://static5.orstatic.com/userphoto/photo/K/G67/03708GDE7B880691C7855Dmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 451245
             }
           ]
         },
@@ -11606,6 +11591,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 1107799
+            },
+            {
+              "restaurant_name": "Smile Gift",
+              "shop_no": "B2樓 07",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0AzS400",
+              "image": "https://static7.orstatic.com/userphoto2/photo/23/1NXU/0BU8QM74F15F9325E003DEmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 585259
+            },
+            {
+              "restaurant_name": "天仁茗茶",
+              "shop_no": "B2樓 20",
+              "title": "$25現金劵(即買即用)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "$25",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0XKWF00",
+              "image": "https://static8.orstatic.com/userphoto3/photo/2U/28V4/0FZ1DR528D3451FA98E3F7mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 1001605
             }
           ]
         },
@@ -11916,6 +11933,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 690836
+            },
+            {
+              "restaurant_name": "芝樂坊餐廳",
+              "shop_no": "地下 G102",
+              "title": "蛋糕加購優惠",
+              "offer_type": "訂座折扣",
+              "discount_tag": "蛋糕加購優惠",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS04Vu700",
+              "image": "https://static6.orstatic.com/userphoto3/photo/2O/249B/0F2A81C79A1E98F2EE98C4mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 523793
+            },
+            {
+              "restaurant_name": "羲和雅苑",
+              "shop_no": "2樓 E203",
+              "title": "$100堂食現金券 (海港城分店)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$100",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0w4q800",
+              "image": "https://static6.orstatic.com/userphoto/photo/S/M8S/04E6KPD621BF26FEF8C512mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 544232
             }
           ]
         }
@@ -12102,22 +12151,6 @@
               "poi_id": 704536
             },
             {
-              "restaurant_name": "牛涮鍋",
-              "shop_no": "2樓 L2-116b",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-10-09",
-              "end_date": "2026-11-08",
-              "openrice_url": "https://s.openrice.com/QrbS0fSaG00",
-              "image": "https://static7.orstatic.com/userphoto3/photo/2X/2BQR/0GJI8M3FF22C9208BCB6E7mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-09",
-              "poi_id": 1100197
-            },
-            {
               "restaurant_name": "百份百餐廳",
               "shop_no": "2樓 L2-116",
               "title": "少鹽少糖食店",
@@ -12148,6 +12181,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 852249
+            },
+            {
+              "restaurant_name": "華御結",
+              "shop_no": "地下 23",
+              "title": "$25現金券 (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$25",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0sRu900",
+              "image": "https://static5.orstatic.com/userphoto2/photo/14/W4Y/06CJ7O97B6B018376C5B20mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 638681
             }
           ]
         },
@@ -12199,22 +12248,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-11",
               "poi_id": 30784
-            },
-            {
-              "restaurant_name": "魚米",
-              "shop_no": "1樓 11-12A",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-09-13",
-              "end_date": "2026-10-13",
-              "openrice_url": "https://s.openrice.com/QrbS0ywW3W0",
-              "image": "https://static5.orstatic.com/userphoto/photo/I/EDB/02U6N019487A52091AC388mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-13",
-              "poi_id": 479479
             },
             {
               "restaurant_name": "大家樂",
@@ -12423,6 +12456,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 433448
+            },
+            {
+              "restaurant_name": "銀座炎蔵燒肉",
+              "shop_no": "3樓 302",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0SBy5W0",
+              "image": "https://static5.orstatic.com/userphoto3/photo/2O/24AO/0F2JWS93BB73C28E5A98B7mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 769904
             }
           ]
         },
@@ -12604,22 +12653,6 @@
               "poi_id": 433469
             },
             {
-              "restaurant_name": "魚米",
-              "shop_no": "1樓 11-12A",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-10-03",
-              "end_date": "2026-11-02",
-              "openrice_url": "https://s.openrice.com/QrbS0ywW3W0",
-              "image": "https://static5.orstatic.com/userphoto/photo/I/EDB/02U6N019487A52091AC388mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-03",
-              "poi_id": 479479
-            },
-            {
               "restaurant_name": "茶大椰",
               "shop_no": "2樓 9",
               "title": "少鹽少糖食店",
@@ -12634,6 +12667,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 1119817
+            },
+            {
+              "restaurant_name": "銀座炎蔵燒肉",
+              "shop_no": "3樓 302",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0SBy5W0",
+              "image": "https://static5.orstatic.com/userphoto3/photo/2O/24AO/0F2JWS93BB73C28E5A98B7mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 769904
             }
           ]
         },
@@ -12701,6 +12750,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-15",
               "poi_id": 161975
+            },
+            {
+              "restaurant_name": "和順記",
+              "shop_no": "6樓 6FC06",
+              "title": "$50 現金券 (西九龍中心分店限定)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0TxGB00",
+              "image": "https://static5.orstatic.com/userphoto2/photo/1Y/1JXI/0B1QA8A9EF2C7939F7B414mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 767095
             }
           ]
         }
@@ -12890,22 +12955,6 @@
           },
           "dining_offers": [
             {
-              "restaurant_name": "蛋撻王",
-              "shop_no": "地下 G13",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-09-19",
-              "end_date": "2026-10-19",
-              "openrice_url": "https://s.openrice.com/QrbS0MyO4W0",
-              "image": "https://static7.orstatic.com/userphoto2/photo/14/W4Y/06CJ821C571379DF544071mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-19",
-              "poi_id": 642139
-            },
-            {
               "restaurant_name": "花斑茶社",
               "shop_no": "B1樓 B14",
               "title": "少鹽少糖食店",
@@ -12936,6 +12985,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 1015152
+            },
+            {
+              "restaurant_name": "Cooshti",
+              "shop_no": "地下 G35",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0p54B00",
+              "image": "https://static6.orstatic.com/userphoto2/photo/2B/1TWV/0D0PST37277166AFCC4BC1mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 741836
+            },
+            {
+              "restaurant_name": "絲茶",
+              "shop_no": "地下 G39",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0yGU600",
+              "image": "https://static7.orstatic.com/userphoto2/photo/24/1OD0/0BX8HEAD9A66A3B3B0191Bmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 790514
             }
           ]
         },
@@ -13187,22 +13268,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-18",
               "poi_id": 816873
-            },
-            {
-              "restaurant_name": "洪瑞珍",
-              "shop_no": "B2樓 B214B",
-              "title": "經典三文治系列 (任何口味) 一件",
-              "offer_type": "訂座折扣",
-              "discount_tag": "經典三文治系列 (任何口味) 一件",
-              "start_date": "2026-09-23",
-              "end_date": "2026-10-23",
-              "openrice_url": "https://s.openrice.com/QrbS0MmqB00",
-              "image": "https://static6.orstatic.com/userphoto2/photo/1L/19OW/090X5XF6AADD13194C2F06mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-23",
-              "poi_id": 724315
             },
             {
               "restaurant_name": "菲爾斯曲奇專賣店",
@@ -13660,22 +13725,6 @@
           },
           "dining_offers": [
             {
-              "restaurant_name": "洪瑞珍",
-              "shop_no": "1樓 1008",
-              "title": "經典三文治系列 (任何口味) 一件",
-              "offer_type": "訂座折扣",
-              "discount_tag": "經典三文治系列 (任何口味) 一件",
-              "start_date": "2026-09-26",
-              "end_date": "2026-10-26",
-              "openrice_url": "https://s.openrice.com/QrbS0E7uA00",
-              "image": "https://static8.orstatic.com/userphoto2/photo/1E/13MF/07TRJNAFAAA93FD39FB2E4mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-26",
-              "poi_id": 687672
-            },
-            {
               "restaurant_name": "彩薈軒",
               "shop_no": "2樓 2021-2024",
               "title": "少鹽少糖食店",
@@ -13802,6 +13851,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 657622
+            },
+            {
+              "restaurant_name": "韓樂",
+              "shop_no": "地下 G16",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0bmWA00",
+              "image": "https://static7.orstatic.com/userphoto3/photo/2P/24XB/0F71026D3113BC3148B6BFmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 657559
+            },
+            {
+              "restaurant_name": "星巴克咖啡",
+              "shop_no": "地下 G17",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0y8C500",
+              "image": "https://static7.orstatic.com/userphoto2/photo/19/ZQ8/0722ME1F61ED7274CA3126mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 657137
             }
           ]
         },
@@ -13919,22 +14000,6 @@
               "poi_id": 778717
             },
             {
-              "restaurant_name": "客館",
-              "shop_no": "1樓 P9-9A",
-              "title": "少鹽少糖食店",
-              "offer_type": "訂座折扣",
-              "discount_tag": "少鹽少糖食店",
-              "start_date": "2026-09-29",
-              "end_date": "2026-10-29",
-              "openrice_url": "https://s.openrice.com/QrbS0c8KF00",
-              "image": "https://static8.orstatic.com/userphoto3/photo/2Z/2D59/0GTHCVE7F215153249C462mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-29",
-              "poi_id": 1017240
-            },
-            {
               "restaurant_name": "美心皇宮",
               "shop_no": "LG樓 G27",
               "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
@@ -13997,6 +14062,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-08",
               "poi_id": 170567
+            },
+            {
+              "restaurant_name": "燒肉LIKE",
+              "shop_no": "2樓 S10-S12",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0MkuB00",
+              "image": "https://static6.orstatic.com/userphoto2/photo/21/1M79/0BHVL538360D171BF7A46Amx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 781914
             }
           ]
         },
@@ -14208,22 +14289,6 @@
           },
           "dining_offers": [
             {
-              "restaurant_name": "華御結",
-              "shop_no": "UG樓 G19",
-              "title": "$25現金券",
-              "offer_type": "餐飲券",
-              "discount_tag": "$25",
-              "start_date": "2026-09-12",
-              "end_date": "2026-10-12",
-              "openrice_url": "https://s.openrice.com/QrbS0Oq8A00",
-              "image": "https://static6.orstatic.com/userphoto3/photo/2W/2ABN/0G9EYHF4BDF9EAEA8305AEmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-12",
-              "poi_id": 672355
-            },
-            {
               "restaurant_name": "東海堂",
               "shop_no": "地下 G17",
               "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
@@ -14416,22 +14481,6 @@
               "poi_id": 450562
             },
             {
-              "restaurant_name": "華御結",
-              "shop_no": "UG樓 G19",
-              "title": "$25現金券 (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$25",
-              "start_date": "2026-10-09",
-              "end_date": "2026-11-08",
-              "openrice_url": "https://s.openrice.com/QrbS0Oq8A00",
-              "image": "https://static6.orstatic.com/userphoto3/photo/2W/2ABN/0G9EYHF4BDF9EAEA8305AEmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-09",
-              "poi_id": 672355
-            },
-            {
               "restaurant_name": "Godiva Chocolatier",
               "shop_no": "UG樓 G79",
               "title": "以「連結里賞」賺里數",
@@ -14446,6 +14495,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 564975
+            },
+            {
+              "restaurant_name": "CHICKEN FACTORY",
+              "shop_no": "UG樓 G81",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0tDiA00",
+              "image": "https://static6.orstatic.com/userphoto3/photo/2P/24NU/0F55KHC5711AFF08D66C39mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 711644
             }
           ]
         },
@@ -14593,6 +14658,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 755418
+            },
+            {
+              "restaurant_name": "潮江春",
+              "shop_no": "L5樓 536-539",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0lpC200",
+              "image": "https://static6.orstatic.com/userphoto/photo/6/5HB/012Z796814F6BD6C451AACmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 144319
             }
           ]
         }
@@ -14859,20 +14940,20 @@
               "poi_id": 439153
             },
             {
-              "restaurant_name": "必勝客",
-              "shop_no": "2樓 267-269",
-              "title": "$50現金券(即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-10-10",
-              "end_date": "2026-11-09",
-              "openrice_url": "https://s.openrice.com/QrbS00G4900",
-              "image": "https://static8.orstatic.com/userphoto2/photo/24/1OPP/0BZQRN18D4E980AEA00A13mx.jpg",
+              "restaurant_name": "PAUL LAFAYET",
+              "shop_no": "2樓 299F",
+              "title": "以「連結里賞」賺里數",
+              "offer_type": "訂座折扣",
+              "discount_tag": "以「連結里賞」賺里數",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0DVC600",
+              "image": "https://static7.orstatic.com/userphoto2/photo/2C/1UV5/0D7HKQ6CFF60986B92D8B0mx.jpg",
               "status": "active",
               "lifecycle_status": "active",
               "source": "openrice_daily_sync",
-              "synced_at": "2026-10-10",
-              "poi_id": 590081
+              "synced_at": "2026-10-11",
+              "poi_id": 455477
             }
           ]
         },
@@ -14924,22 +15005,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-09-29",
               "poi_id": 11103
-            },
-            {
-              "restaurant_name": "譚仔三哥米線",
-              "shop_no": "1樓 93",
-              "title": "$50現金券（即買即用）",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-10-03",
-              "end_date": "2026-11-02",
-              "openrice_url": "https://s.openrice.com/QrbS0gpmA00",
-              "image": "https://static8.orstatic.com/userphoto2/photo/1A/10XJ/07AMI32EE78439F7284B24mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-03",
-              "poi_id": 670891
             },
             {
               "restaurant_name": "小黑糖",
@@ -15057,22 +15122,6 @@
               "poi_id": 612732
             },
             {
-              "restaurant_name": "東海薈 · 拉斐特",
-              "shop_no": "1樓 117",
-              "title": "[4位用] 自選六道粵菜套餐",
-              "offer_type": "訂座折扣",
-              "discount_tag": "[4位用] 自選六道粵菜套餐",
-              "start_date": "2026-09-30",
-              "end_date": "2026-10-30",
-              "openrice_url": "https://s.openrice.com/QrbS00oq800",
-              "image": "https://static8.orstatic.com/userphoto/photo/L/H9Z/03EV2B64F059E31B106270mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-30",
-              "poi_id": 535811
-            },
-            {
               "restaurant_name": "Godiva Chocolatier",
               "shop_no": "1樓 133-134",
               "title": "以「連結里賞」賺里數",
@@ -15183,6 +15232,70 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 557213
+            },
+            {
+              "restaurant_name": "LE-TA-SU 一人一鍋",
+              "shop_no": "3樓 322B-1",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS03VqG00",
+              "image": "https://static7.orstatic.com/userphoto3/photo/2Y/2CHM/0GOT9QC75BA2597A90C4F4mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 1113357
+            },
+            {
+              "restaurant_name": "樂天皇朝",
+              "shop_no": "3樓 310B",
+              "title": "【樂天皇朝】$100現金券 **無限兌換**",
+              "offer_type": "餐飲券",
+              "discount_tag": "$100",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0O28800",
+              "image": "https://static8.orstatic.com/userphoto3/photo/2P/259H/0F9FD3989A8E512A06E96Amx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 533088
+            },
+            {
+              "restaurant_name": "大家樂",
+              "shop_no": "地下 G32-G33",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0C7m800",
+              "image": "https://static7.orstatic.com/userphoto2/photo/10/SKX/05N8TUF1F04A19BC47F845mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 556080
+            },
+            {
+              "restaurant_name": "魚尚",
+              "shop_no": "1樓 196",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0P7u800",
+              "image": "https://static5.orstatic.com/userphoto/photo/O/JFQ/03U7YGAA92364099445DC3mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 556644
             }
           ]
         }
@@ -15332,6 +15445,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 628992
+            },
+            {
+              "restaurant_name": "米線陣",
+              "shop_no": "地下 G50B",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0iOC900",
+              "image": "https://static5.orstatic.com/userphoto3/photo/34/2GRS/0HJ9L4301AE94C06432166mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 623537
+            },
+            {
+              "restaurant_name": "星巴克咖啡",
+              "shop_no": "1樓 F45-46",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0zRg0W0",
+              "image": "https://static7.orstatic.com/userphoto2/photo/1E/13SL/07UZCU2AC6F5636B0A70A8mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 95739
             }
           ]
         },
@@ -15919,22 +16064,6 @@
               "poi_id": 565523
             },
             {
-              "restaurant_name": "海街丼",
-              "shop_no": "1樓 186",
-              "title": "以「連結里賞」賺里數",
-              "offer_type": "訂座折扣",
-              "discount_tag": "以「連結里賞」賺里數",
-              "start_date": "2026-09-25",
-              "end_date": "2026-10-25",
-              "openrice_url": "https://s.openrice.com/QrbS0pGaA00",
-              "image": "https://static6.orstatic.com/userphoto3/photo/2J/20OD/0ECTBP0BD30F811E709FCCmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-25",
-              "poi_id": 657869
-            },
-            {
               "restaurant_name": "UURO",
               "shop_no": "1樓 188",
               "title": "【亞洲國際餐飲集團】$50現金券",
@@ -16093,6 +16222,22 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-09",
               "poi_id": 656615
+            },
+            {
+              "restaurant_name": "淘米漁 · 米湯脆鯇魚火鍋",
+              "shop_no": "1樓 160",
+              "title": "[3-4位用] 豪華脆鯇魚火鍋套餐 (不含加一)",
+              "offer_type": "訂座折扣",
+              "discount_tag": "[3-4位用] 豪華脆鯇魚火鍋套餐 (不含加一)",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0x14H00",
+              "image": "https://static5.orstatic.com/userphoto3/photo/2Z/2D8V/0GU70SAF7621C444D7F7B3mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 1118700
             }
           ]
         }
@@ -16215,22 +16360,6 @@
               "poi_id": 180410
             },
             {
-              "restaurant_name": "利龍軒",
-              "shop_no": "地下 1",
-              "title": "極品乳豬(一隻) 配 瑤池貴妃雞(一隻)(只限自取)",
-              "offer_type": "外賣折扣",
-              "discount_tag": "極品乳豬(一隻) 配 瑤池貴妃雞(一隻)(只限自",
-              "start_date": "2026-09-30",
-              "end_date": "2026-10-30",
-              "openrice_url": "https://s.openrice.com/QrbS0kPGD00",
-              "image": "https://static6.orstatic.com/userphoto3/photo/2P/24P0/0F5DYX6919FFC7DFB6F749mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-30",
-              "poi_id": 890041
-            },
-            {
               "restaurant_name": "大快活",
               "shop_no": "2樓 24",
               "title": "少鹽少糖食店",
@@ -16297,22 +16426,6 @@
             "official_url": "https://www.shkp.com/zh-HK/our-business/hong-kong-properties/shopping-mall/customer-care-service"
           },
           "dining_offers": [
-            {
-              "restaurant_name": "必勝客 (創紀之城五期(apm))",
-              "shop_no": "2樓 L2-1",
-              "title": "$50現金券(即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-09-20",
-              "end_date": "2026-10-20",
-              "openrice_url": "https://s.openrice.com/QrbS0iIy4W0",
-              "image": "https://static5.orstatic.com/userphoto2/photo/W/PJP/051O8K3A4EB5FD884D23CDmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-20",
-              "poi_id": 602033
-            },
             {
               "restaurant_name": "錦麗 (創紀之城五期(apm))",
               "shop_no": "4樓 L4-19",
@@ -16456,6 +16569,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-07",
               "poi_id": 13540
+            },
+            {
+              "restaurant_name": "千両 (創紀之城五期(apm))",
+              "shop_no": "UC樓 43",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0qxmB00",
+              "image": "https://static5.orstatic.com/userphoto2/photo/2C/1V5N/0D9K98165CE4BA62206A2Amx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 769235
+            },
+            {
+              "restaurant_name": "Oliver's Super Sandwiches (創紀之城五期(apm))",
+              "shop_no": "2樓 L2-13",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0Z3K000",
+              "image": "https://static6.orstatic.com/userphoto/photo/F/C7R/02EV9XD74709F1AECCCAA6mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 13708
             }
           ]
         },
@@ -16747,6 +16892,38 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 670313
+            },
+            {
+              "restaurant_name": "太興",
+              "shop_no": "5樓 520-523",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0wHm800",
+              "image": "https://static6.orstatic.com/userphoto3/photo/2X/2BPQ/0GJAZT6EB43691442F0B37mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 531689
+            },
+            {
+              "restaurant_name": "譚仔三哥米線",
+              "shop_no": "6樓 613",
+              "title": "$50現金券（即買即用）",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0o20800",
+              "image": "https://static5.orstatic.com/userphoto/photo/K/G2U/036C7O0F76CAB309C3E045mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 532680
             }
           ]
         }
@@ -16938,22 +17115,6 @@
           },
           "dining_offers": [
             {
-              "restaurant_name": "Oolaa",
-              "shop_no": "地下 G30",
-              "title": "以「連結里賞」賺里數",
-              "offer_type": "訂座折扣",
-              "discount_tag": "以「連結里賞」賺里數",
-              "start_date": "2026-09-15",
-              "end_date": "2026-10-15",
-              "openrice_url": "https://s.openrice.com/QrbS0jla900",
-              "image": "https://static6.orstatic.com/userphoto2/photo/1R/1EE4/09YCHP14CF1CFE006C67F8mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-09-15",
-              "poi_id": 653750
-            },
-            {
               "restaurant_name": "天仁茗茶",
               "shop_no": "7樓 702",
               "title": "少鹽少糖食店",
@@ -17096,22 +17257,6 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-05",
               "poi_id": 754147
-            },
-            {
-              "restaurant_name": "八月花",
-              "shop_no": "2樓 255",
-              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-10-07",
-              "end_date": "2026-11-06",
-              "openrice_url": "https://s.openrice.com/QrbS0aBC900",
-              "image": "https://static8.orstatic.com/userphoto2/photo/13/UWK/063RP7C94C4516A09F16EBmx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-07",
-              "poi_id": 635792
             },
             {
               "restaurant_name": "元気寿司",
@@ -18007,22 +18152,6 @@
               "poi_id": 475103
             },
             {
-              "restaurant_name": "必勝客",
-              "shop_no": "地下 G2A",
-              "title": "$50現金券(即買即用)",
-              "offer_type": "餐飲券",
-              "discount_tag": "$50",
-              "start_date": "2026-10-10",
-              "end_date": "2026-11-09",
-              "openrice_url": "https://s.openrice.com/QrbS0hCqB00",
-              "image": "https://static8.orstatic.com/userphoto2/photo/25/1OZW/0C1R8J630F2D2983588954mx.jpg",
-              "status": "active",
-              "lifecycle_status": "active",
-              "source": "openrice_daily_sync",
-              "synced_at": "2026-10-10",
-              "poi_id": 773548
-            },
-            {
               "restaurant_name": "鴻福堂",
               "shop_no": "2樓 N214",
               "title": "自家湯電子券 一張",
@@ -18053,6 +18182,102 @@
               "source": "openrice_daily_sync",
               "synced_at": "2026-10-10",
               "poi_id": 760331
+            },
+            {
+              "restaurant_name": "亞萊泰",
+              "shop_no": "地下 G07",
+              "title": "曼谷火山骨",
+              "offer_type": "訂座折扣",
+              "discount_tag": "曼谷火山骨",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0dK8D00",
+              "image": "https://static5.orstatic.com/userphoto3/photo/2K/2103/0EF4NW3A6674720D1006DCmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 869021
+            },
+            {
+              "restaurant_name": "意樂餐廳",
+              "shop_no": "L1樓 130",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS01r0C00",
+              "image": "https://static8.orstatic.com/userphoto3/photo/2P/24O6/0F57VBBF131DBB16E0AA40mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 806919
+            },
+            {
+              "restaurant_name": "牛奶冰室",
+              "shop_no": "地下 07",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0Kq4C00",
+              "image": "https://static8.orstatic.com/userphoto3/photo/2P/24OK/0F5AN3CD0FB047545E35B6mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 803155
+            },
+            {
+              "restaurant_name": "燒肉LIKE",
+              "shop_no": "地下 G4B",
+              "title": "【香港美心集團】$50現金券(1套20張) (即買即用)",
+              "offer_type": "餐飲券",
+              "discount_tag": "$50",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0CJuC00",
+              "image": "https://static5.orstatic.com/userphoto2/photo/29/1S27/0CNJO090897BF6C04B81A5mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 802353
+            },
+            {
+              "restaurant_name": "CHICKEN FACTORY",
+              "shop_no": "地下 07",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0J44C00",
+              "image": "https://static5.orstatic.com/userphoto3/photo/2P/24NW/0F55WKFC940DA03461DEFCmx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 803148
+            },
+            {
+              "restaurant_name": "大快活",
+              "shop_no": "2樓 N225",
+              "title": "少鹽少糖食店",
+              "offer_type": "訂座折扣",
+              "discount_tag": "少鹽少糖食店",
+              "start_date": "2026-10-11",
+              "end_date": "2026-11-10",
+              "openrice_url": "https://s.openrice.com/QrbS0abC800",
+              "image": "https://static7.orstatic.com/userphoto/photo/N/I6Z/03LDPAB8B0B3F7F6196CF7mx.jpg",
+              "status": "active",
+              "lifecycle_status": "active",
+              "source": "openrice_daily_sync",
+              "synced_at": "2026-10-11",
+              "poi_id": 545682
             }
           ]
         }
@@ -18093,6 +18318,6 @@
       "happenings": "https://www.langhamplace.com.hk/tc/whats-on"
     }
   },
-  "openrice_sync_at": "2026-10-10T12:05:40.236844+08:00",
-  "openrice_sync_date": "2026-10-10"
+  "openrice_sync_at": "2026-10-11T11:39:16.287599+08:00",
+  "openrice_sync_date": "2026-10-11"
 }
