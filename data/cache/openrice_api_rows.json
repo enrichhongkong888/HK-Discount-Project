@@ -7528,25 +7528,6 @@
       "photo_url": "https://static8.orstatic.com/userphoto3/photo/2V/2A1T/0G7H1B49915FA38EF3C4AAmx.jpg"
     },
     {
-      "store_name": "尚品",
-      "floor": "2樓",
-      "shop_number": "238",
-      "phone": "2126 7543",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "尚品｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "+WOO 嘉湖",
-      "address": "天恩路12-18號+WOO嘉湖一期2樓238號舖",
-      "source_url": "https://s.openrice.com/QrbS0Xxq900",
-      "is_evergreen": true,
-      "poi_id": 638343,
-      "mall_name_api": "",
-      "image": "https://static5.orstatic.com/userphoto2/photo/13/VBM/066QQ0CFEF7ED047EE80BFmx.jpg",
-      "photo_url": "https://static5.orstatic.com/userphoto2/photo/13/VBM/066QQ0CFEF7ED047EE80BFmx.jpg"
-    },
-    {
       "store_name": "海天堂",
       "floor": "2樓",
       "shop_number": "235",
@@ -7825,6 +7806,25 @@
       "mall_name_api": "",
       "image": "https://static7.orstatic.com/userphoto3/photo/2R/26QD/0FJVLY930564B12795B6ECmx.jpg",
       "photo_url": "https://static7.orstatic.com/userphoto3/photo/2R/26QD/0FJVLY930564B12795B6ECmx.jpg"
+    },
+    {
+      "store_name": "極尚大瀛喜日本料理",
+      "floor": "L2樓",
+      "shop_number": "2001a",
+      "phone": "3188 3330",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "極尚大瀛喜日本料理｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "+WOO 嘉湖",
+      "address": "朗日路9號形點 I L2樓2001a號舖",
+      "source_url": "https://s.openrice.com/QrbS0js8800",
+      "is_evergreen": true,
+      "poi_id": 549559,
+      "mall_name_api": "形點",
+      "image": "https://static6.orstatic.com/userphoto3/photo/2O/244U/0F1EIDE1BD90AFCC424CD2mx.jpg",
+      "photo_url": "https://static6.orstatic.com/userphoto3/photo/2O/244U/0F1EIDE1BD90AFCC424CD2mx.jpg"
     },
     {
       "store_name": "天鳥居酒屋",
@@ -24727,25 +24727,6 @@
       "photo_url": "https://static6.orstatic.com/userphoto3/photo/2K/2107/0EF5FHE3F04371B938F650mx.jpg"
     },
     {
-      "store_name": "春水堂",
-      "floor": "3樓",
-      "shop_number": "A363A",
-      "phone": "2610 0801",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "春水堂｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "新城市廣場",
-      "address": "沙田正街2-8號新城市廣場三期3樓A332&A363A號舖",
-      "source_url": "https://s.openrice.com/QrbS0XmuA00",
-      "is_evergreen": true,
-      "poi_id": 659079,
-      "mall_name_api": "新城市廣場3期",
-      "image": "https://static5.orstatic.com/userphoto2/photo/1A/10S2/079JIO008506D9254691D7mx.jpg",
-      "photo_url": "https://static5.orstatic.com/userphoto2/photo/1A/10S2/079JIO008506D9254691D7mx.jpg"
-    },
-    {
       "store_name": "意粉屋",
       "floor": "7樓",
       "shop_number": "710",
@@ -24764,6 +24745,25 @@
       "image": "https://static6.orstatic.com/userphoto3/photo/2X/2B66/0GFFYX9A600ED0462EF415mx.jpg",
       "photo_url": "https://static6.orstatic.com/userphoto3/photo/2X/2B66/0GFFYX9A600ED0462EF415mx.jpg",
       "start_date": "2026-08-01"
+    },
+    {
+      "store_name": "春水堂",
+      "floor": "3樓",
+      "shop_number": "A363A",
+      "phone": "2610 0801",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "春水堂｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "新城市廣場",
+      "address": "沙田正街2-8號新城市廣場三期3樓A332&A363A號舖",
+      "source_url": "https://s.openrice.com/QrbS0XmuA00",
+      "is_evergreen": true,
+      "poi_id": 659079,
+      "mall_name_api": "新城市廣場3期",
+      "image": "https://static5.orstatic.com/userphoto2/photo/1A/10S2/079JIO008506D9254691D7mx.jpg",
+      "photo_url": "https://static5.orstatic.com/userphoto2/photo/1A/10S2/079JIO008506D9254691D7mx.jpg"
     },
     {
       "store_name": "翠園",
@@ -29591,25 +29591,6 @@
       "mall_name_api": "奧海城2期",
       "image": "https://static5.orstatic.com/userphoto2/photo/1W/1IG0/0AR5YS876368A221060648mx.jpg",
       "photo_url": "https://static5.orstatic.com/userphoto2/photo/1W/1IG0/0AR5YS876368A221060648mx.jpg"
-    },
-    {
-      "store_name": "糖心軒",
-      "floor": "UG樓",
-      "shop_number": "G10B",
-      "phone": "2271 4328",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "糖心軒｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "奧海城",
-      "address": "海輝道11號奧海城一期UG樓UG09及UG10B號舖",
-      "source_url": "https://s.openrice.com/QrbS0lea200",
-      "is_evergreen": true,
-      "poi_id": 166334,
-      "mall_name_api": "奧海城一期",
-      "image": "https://static6.orstatic.com/userphoto/photo/H/DH9/02NUTT3C511FD37095FAE0mx.jpg",
-      "photo_url": "https://static6.orstatic.com/userphoto/photo/H/DH9/02NUTT3C511FD37095FAE0mx.jpg"
     },
     {
       "store_name": "Dough Bros Pizza & Doughnuts",
@@ -36099,25 +36080,6 @@
       "photo_url": "https://static6.orstatic.com/userphoto2/photo/1P/1CB1/09JIGDD33BE8775FF0895Cmx.jpg"
     },
     {
-      "store_name": "永華日常",
-      "floor": "地下",
-      "shop_number": "G22-23",
-      "phone": "2686 9887",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "永華日常｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "利東街",
-      "address": "皇后大道東200號利東街地下G22-23號舖",
-      "source_url": "https://s.openrice.com/QrbS083iB00",
-      "is_evergreen": true,
-      "poi_id": 736032,
-      "mall_name_api": "利東街",
-      "image": "https://static6.orstatic.com/userphoto2/photo/2A/1T2N/0CUQRP48CFCBB13FB1BC76mx.jpg",
-      "photo_url": "https://static6.orstatic.com/userphoto2/photo/2A/1T2N/0CUQRP48CFCBB13FB1BC76mx.jpg"
-    },
-    {
       "store_name": "Rakuraku 樂拉麵",
       "floor": "地下",
       "shop_number": "G30",
@@ -36306,23 +36268,6 @@
       "mall_name_api": "",
       "image": "https://static8.orstatic.com/userphoto/photo/F/C1U/02DP2R3293364AD75E9472mx.jpg",
       "photo_url": "https://static8.orstatic.com/userphoto/photo/F/C1U/02DP2R3293364AD75E9472mx.jpg"
-    },
-    {
-      "store_name": "曲奇阿嬸",
-      "floor": "G樓",
-      "shop_number": "G35",
-      "phone": "9548 7668",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "曲奇阿嬸｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "利東街",
-      "address": "皇后大道東200號利東街G樓G35號舖",
-      "source_url": "https://s.openrice.com/QrbS0fUKG00",
-      "is_evergreen": true,
-      "poi_id": 1107365,
-      "mall_name_api": "利東街"
     },
     {
       "store_name": "山手作",
@@ -41805,6 +41750,23 @@
       "photo_url": "https://static5.orstatic.com/userphoto/photo/1/V4/0065CCAE03DBA03B04632Amx.jpg"
     },
     {
+      "store_name": "MORE YOGURT",
+      "floor": "UG樓",
+      "shop_number": "G52a",
+      "phone": "4627 2411",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "MORE YOGURT｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "荃新天地",
+      "address": "楊屋道1號荃新天地UG樓UG52a號舖",
+      "source_url": "https://s.openrice.com/QrbS0KPGH00",
+      "is_evergreen": true,
+      "poi_id": 1152081,
+      "mall_name_api": "荃新天地"
+    },
+    {
       "store_name": "GF Bistro",
       "floor": "1樓",
       "shop_number": "117",
@@ -41819,23 +41781,6 @@
       "source_url": "https://s.openrice.com/QrbS0gNqH00",
       "is_evergreen": true,
       "poi_id": 1146281,
-      "mall_name_api": "荃新天地"
-    },
-    {
-      "store_name": "丸亀製麵",
-      "floor": "G樓",
-      "shop_number": "C3-5",
-      "phone": "2719 5800",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "丸亀製麵｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "荃新天地",
-      "address": "楊屋道1號荃新天地G樓FC3-5號舖",
-      "source_url": "https://s.openrice.com/QrbS0bMSH00",
-      "is_evergreen": true,
-      "poi_id": 1140629,
       "mall_name_api": "荃新天地"
     },
     {
