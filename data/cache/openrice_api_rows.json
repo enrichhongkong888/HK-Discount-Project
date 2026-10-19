@@ -262,7 +262,9 @@
       "source_url": "https://s.openrice.com/QrbS020uD00",
       "is_evergreen": true,
       "poi_id": 855560,
-      "mall_name_api": ""
+      "mall_name_api": "",
+      "image": "https://static8.orstatic.com/userphoto3/photo/2W/2AAS/0G98S3E38ADE832210CA44mx.jpg",
+      "photo_url": "https://static8.orstatic.com/userphoto3/photo/2W/2AAS/0G98S3E38ADE832210CA44mx.jpg"
     },
     {
       "store_name": "可不可熟成茶行",
@@ -8786,23 +8788,6 @@
       "photo_url": "https://static5.orstatic.com/userphoto3/photo/33/2G20/0HE6BC1F4445BF61564D9Cmx.jpg"
     },
     {
-      "store_name": "ITALIAN TOMATO",
-      "floor": "L1樓",
-      "shop_number": "A112a",
-      "phone": "2865 3283",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "ITALIAN TOMATO｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "YOHO MALL 形點",
-      "address": "朗日路8號形點 II L1樓A112a號舖",
-      "source_url": "https://s.openrice.com/QrbS0vcy8W0",
-      "is_evergreen": true,
-      "poi_id": 1142758,
-      "mall_name_api": "形點 II"
-    },
-    {
       "store_name": "LIFETASTIC Patisserie",
       "floor": "1樓",
       "shop_number": "1030",
@@ -9487,6 +9472,23 @@
       "mall_name_api": "",
       "image": "https://static6.orstatic.com/userphoto3/photo/2S/27KE/0FPT6572BC9B093C1D7496mx.jpg",
       "photo_url": "https://static6.orstatic.com/userphoto3/photo/2S/27KE/0FPT6572BC9B093C1D7496mx.jpg"
+    },
+    {
+      "store_name": "ITALIAN TOMATO",
+      "floor": "L1樓",
+      "shop_number": "A112a",
+      "phone": "2865 3283",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "ITALIAN TOMATO｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "YOHO MALL 形點",
+      "address": "朗日路8號形點 II L1樓A112a號舖",
+      "source_url": "https://s.openrice.com/QrbS0vcy8W0",
+      "is_evergreen": true,
+      "poi_id": 1142758,
+      "mall_name_api": "形點 II"
     },
     {
       "store_name": "譚仔三哥米線",
@@ -10810,6 +10812,23 @@
       "photo_url": "https://static7.orstatic.com/userphoto/photo/4/3P3/00QAJU4521E88238114778mx.jpg"
     },
     {
+      "store_name": "和府撈麵",
+      "floor": "2樓",
+      "shop_number": "2043-2044",
+      "phone": "2561 1158",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "和府撈麵｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "上水中心購物商場",
+      "address": "智昌路3號上水中心2樓2043-2044號舖",
+      "source_url": "https://s.openrice.com/QrbS09V0G00",
+      "is_evergreen": true,
+      "poi_id": 1110053,
+      "mall_name_api": "上水中心"
+    },
+    {
       "store_name": "東海堂",
       "floor": "2樓",
       "shop_number": "2011",
@@ -10847,23 +10866,6 @@
       "mall_name_api": "",
       "image": "https://static5.orstatic.com/userphoto2/photo/W/PL4/051Y7S3457D6E6FDE912ABmx.jpg",
       "photo_url": "https://static5.orstatic.com/userphoto2/photo/W/PL4/051Y7S3457D6E6FDE912ABmx.jpg"
-    },
-    {
-      "store_name": "和府撈麵",
-      "floor": "2樓",
-      "shop_number": "2043-2044",
-      "phone": "2561 1158",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "和府撈麵｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "上水中心購物商場",
-      "address": "智昌路3號上水中心2樓2043-2044號舖",
-      "source_url": "https://s.openrice.com/QrbS09V0G00",
-      "is_evergreen": true,
-      "poi_id": 1110053,
-      "mall_name_api": "上水中心"
     },
     {
       "store_name": "華御結",
@@ -31378,25 +31380,6 @@
       "photo_url": "https://static5.orstatic.com/userphoto3/photo/30/2DQ4/0GXLOK741843219D024532mx.jpg"
     },
     {
-      "store_name": "THE COFFEE ACADEMÏCS",
-      "floor": "4/F",
-      "shop_number": "4201K",
-      "phone": "3620 3028",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "THE COFFEE ACADEMÏCS｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "海港城",
-      "address": "廣東道3-27號海港城港威商場4樓4201K號舖",
-      "source_url": "https://s.openrice.com/QrbS0nOeA00",
-      "is_evergreen": true,
-      "poi_id": 690885,
-      "mall_name_api": "Harbour City",
-      "image": "https://static7.orstatic.com/userphoto2/photo/1E/1453/07XGC6252B9CEDB3F08569mx.jpg",
-      "photo_url": "https://static7.orstatic.com/userphoto2/photo/1E/1453/07XGC6252B9CEDB3F08569mx.jpg"
-    },
-    {
       "store_name": "城中鴨子",
       "floor": "3樓",
       "shop_number": "3319",
@@ -31415,6 +31398,25 @@
       "image": "https://static7.orstatic.com/userphoto2/photo/1W/1IGA/0AR7RADF3A7D5F11365508mx.jpg",
       "photo_url": "https://static7.orstatic.com/userphoto2/photo/1W/1IGA/0AR7RADF3A7D5F11365508mx.jpg",
       "start_date": "2026-08-06"
+    },
+    {
+      "store_name": "THE COFFEE ACADEMÏCS",
+      "floor": "4/F",
+      "shop_number": "4201K",
+      "phone": "3620 3028",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "THE COFFEE ACADEMÏCS｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "海港城",
+      "address": "廣東道3-27號海港城港威商場4樓4201K號舖",
+      "source_url": "https://s.openrice.com/QrbS0nOeA00",
+      "is_evergreen": true,
+      "poi_id": 690885,
+      "mall_name_api": "Harbour City",
+      "image": "https://static7.orstatic.com/userphoto2/photo/1E/1453/07XGC6252B9CEDB3F08569mx.jpg",
+      "photo_url": "https://static7.orstatic.com/userphoto2/photo/1E/1453/07XGC6252B9CEDB3F08569mx.jpg"
     },
     {
       "store_name": "Pizza Maru",
@@ -43456,23 +43458,21 @@
       "mall_name_api": ""
     },
     {
-      "store_name": "榮華餅家",
-      "floor": "4樓",
-      "shop_number": "422",
-      "phone": "2466 0338",
+      "store_name": "McCafe",
+      "floor": "5樓",
+      "shop_number": "541",
+      "phone": "2422 4134",
       "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "榮華餅家｜",
+      "title": "McCafe｜",
       "offer_name": null,
       "voucher_title": null,
       "discount_text": null,
       "mall_hint": "新都會廣場",
-      "address": "興芳路223號新都會廣場4樓422號舖",
-      "source_url": "https://s.openrice.com/QrbS0ieG800",
+      "address": "興芳路223號新都會廣場5樓541號舖",
+      "source_url": "https://s.openrice.com/QrbS0cg0800",
       "is_evergreen": true,
-      "poi_id": 558258,
-      "mall_name_api": "MetroPlaza",
-      "image": "https://static6.orstatic.com/userphoto/photo/O/JKH/03V5QH2871EE1E2E7F5678mx.jpg",
-      "photo_url": "https://static6.orstatic.com/userphoto/photo/O/JKH/03V5QH2871EE1E2E7F5678mx.jpg"
+      "poi_id": 565402,
+      "mall_name_api": ""
     },
     {
       "store_name": "孖寶車仔麵",
@@ -47315,25 +47315,6 @@
       "mall_name_api": "",
       "image": "https://static6.orstatic.com/userphoto2/photo/Z/RZF/05IZVXEA695E2865644074mx.jpg",
       "photo_url": "https://static6.orstatic.com/userphoto2/photo/Z/RZF/05IZVXEA695E2865644074mx.jpg"
-    },
-    {
-      "store_name": "研香",
-      "floor": "G樓",
-      "shop_number": "G28",
-      "phone": "3487 9600",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "研香｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "新都城中心",
-      "address": "寶琳運亨路1號新都城中心一期G樓G28號舖",
-      "source_url": "https://s.openrice.com/QrbS0rFaC00",
-      "is_evergreen": true,
-      "poi_id": 850388,
-      "mall_name_api": "",
-      "image": "https://static6.orstatic.com/userphoto2/photo/2F/1XE8/0DPH69D2C1311E937299CCmx.jpg",
-      "photo_url": "https://static6.orstatic.com/userphoto2/photo/2F/1XE8/0DPH69D2C1311E937299CCmx.jpg"
     },
     {
       "store_name": "沙嗲王",
@@ -51231,6 +51212,25 @@
       "photo_url": "https://static6.orstatic.com/userphoto3/photo/2X/2BPQ/0GJAZT6EB43691442F0B37mx.jpg"
     },
     {
+      "store_name": "靠得住粥麵小館",
+      "floor": "5樓",
+      "shop_number": "528-529",
+      "phone": "2816 6308",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "靠得住粥麵小館｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "德福廣場",
+      "address": "偉業街33號德福廣場2期5樓528-529號舖",
+      "source_url": "https://s.openrice.com/QrbS0EV8G00",
+      "is_evergreen": true,
+      "poi_id": 1110585,
+      "mall_name_api": "",
+      "image": "https://static8.orstatic.com/userphoto3/photo/2Z/2CTI/0GR5WZCA34F1E1F702AC3Bmx.jpg",
+      "photo_url": "https://static8.orstatic.com/userphoto3/photo/2Z/2CTI/0GR5WZCA34F1E1F702AC3Bmx.jpg"
+    },
+    {
       "store_name": "元気寿司",
       "floor": "地下",
       "shop_number": "G54A1",
@@ -51287,25 +51287,6 @@
       "mall_name_api": "",
       "image": "https://static7.orstatic.com/userphoto3/photo/2Y/2C4W/0GMAXYB47A64920F9510ADmx.jpg",
       "photo_url": "https://static7.orstatic.com/userphoto3/photo/2Y/2C4W/0GMAXYB47A64920F9510ADmx.jpg"
-    },
-    {
-      "store_name": "靠得住粥麵小館",
-      "floor": "5樓",
-      "shop_number": "528-529",
-      "phone": "2816 6308",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "靠得住粥麵小館｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "德福廣場",
-      "address": "偉業街33號德福廣場2期5樓528-529號舖",
-      "source_url": "https://s.openrice.com/QrbS0EV8G00",
-      "is_evergreen": true,
-      "poi_id": 1110585,
-      "mall_name_api": "",
-      "image": "https://static8.orstatic.com/userphoto3/photo/2Z/2CTI/0GR5WZCA34F1E1F702AC3Bmx.jpg",
-      "photo_url": "https://static8.orstatic.com/userphoto3/photo/2Z/2CTI/0GR5WZCA34F1E1F702AC3Bmx.jpg"
     },
     {
       "store_name": "天仁茗茶",
