@@ -263,8 +263,8 @@
       "is_evergreen": true,
       "poi_id": 855560,
       "mall_name_api": "",
-      "image": "https://static8.orstatic.com/userphoto3/photo/2W/2AAS/0G98S3E38ADE832210CA44mx.jpg",
-      "photo_url": "https://static8.orstatic.com/userphoto3/photo/2W/2AAS/0G98S3E38ADE832210CA44mx.jpg"
+      "image": "https://static8.orstatic.com/userphoto3/photo/2W/2AAS/0G98S7303C82324F8EEE51mx.jpg",
+      "photo_url": "https://static8.orstatic.com/userphoto3/photo/2W/2AAS/0G98S7303C82324F8EEE51mx.jpg"
     },
     {
       "store_name": "可不可熟成茶行",
@@ -44484,10 +44484,10 @@
       "floor": "1樓",
       "shop_number": "117",
       "phone": "2317 8889",
-      "details": "[4位用] 自選六道粵菜套餐",
-      "title": "東海薈 · 拉斐特｜[4位用] 自選六道粵菜套餐 / [1位用] 120 分鐘大閘蟹放題．汽水啤酒暢飲(2位起)",
-      "offer_name": "[4位用] 自選六道粵菜套餐",
-      "voucher_title": "[4位用] 自選六道粵菜套餐 / [1位用] 120 分鐘大閘蟹放題．汽水啤酒暢飲(2位起)",
+      "details": "[1位用] 120 分鐘大閘蟹放題．汽水啤酒暢飲(2位起)",
+      "title": "東海薈 · 拉斐特｜[1位用] 120 分鐘大閘蟹放題．汽水啤酒暢飲(2位起) / [4位用] 自選六道粵菜套餐",
+      "offer_name": "[1位用] 120 分鐘大閘蟹放題．汽水啤酒暢飲(2位起)",
+      "voucher_title": "[1位用] 120 分鐘大閘蟹放題．汽水啤酒暢飲(2位起) / [4位用] 自選六道粵菜套餐",
       "discount_text": null,
       "mall_hint": "青衣城",
       "address": "青敬路31-33號青衣城1 1樓117號舖",
@@ -44497,7 +44497,7 @@
       "mall_name_api": "青衣城",
       "image": "https://static8.orstatic.com/userphoto/photo/L/H9Z/03EV2B64F059E31B106270mx.jpg",
       "photo_url": "https://static8.orstatic.com/userphoto/photo/L/H9Z/03EV2B64F059E31B106270mx.jpg",
-      "start_date": "2026-09-08"
+      "start_date": "2026-10-05"
     },
     {
       "store_name": "三點三冰室",
@@ -47583,6 +47583,23 @@
       "photo_url": "https://static6.orstatic.com/userphoto2/photo/1S/1F22/0A32RX3AD61CAE35C00677mx.jpg"
     },
     {
+      "store_name": "雲香園小鍋米線",
+      "floor": "地下",
+      "shop_number": "G21",
+      "phone": "5464 6973",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "雲香園小鍋米線｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "新都城中心",
+      "address": "寶琳貿業路8號新都城中心三期地下G21號舖",
+      "source_url": "https://s.openrice.com/QrbS0b6uH00",
+      "is_evergreen": true,
+      "poi_id": 1142420,
+      "mall_name_api": "新都城中心三期"
+    },
+    {
       "store_name": "壽司郎",
       "floor": "2樓",
       "shop_number": "201-202",
@@ -47600,23 +47617,6 @@
       "mall_name_api": "",
       "image": "https://static8.orstatic.com/userphoto2/photo/2C/1US0/0D6V7V54A38DAE3C19B64Amx.jpg",
       "photo_url": "https://static8.orstatic.com/userphoto2/photo/2C/1US0/0D6V7V54A38DAE3C19B64Amx.jpg"
-    },
-    {
-      "store_name": "雲香園小鍋米線",
-      "floor": "地下",
-      "shop_number": "G21",
-      "phone": "5464 6973",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "雲香園小鍋米線｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "新都城中心",
-      "address": "寶琳貿業路8號新都城中心三期地下G21號舖",
-      "source_url": "https://s.openrice.com/QrbS0b6uH00",
-      "is_evergreen": true,
-      "poi_id": 1142420,
-      "mall_name_api": "新都城中心三期"
     },
     {
       "store_name": "南記粉麵",
