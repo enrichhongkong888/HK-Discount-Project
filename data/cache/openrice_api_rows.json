@@ -6243,7 +6243,9 @@
       "source_url": "https://s.openrice.com/QrbS08ceD00",
       "is_evergreen": true,
       "poi_id": 879138,
-      "mall_name_api": ""
+      "mall_name_api": "",
+      "image": "https://static7.orstatic.com/userphoto3/photo/35/2I1Q/0HSC9I4B4FD572B13ABF1Dmx.jpg",
+      "photo_url": "https://static7.orstatic.com/userphoto3/photo/35/2I1Q/0HSC9I4B4FD572B13ABF1Dmx.jpg"
     },
     {
       "store_name": "コメダ珈琲店",
@@ -7764,7 +7766,9 @@
       "source_url": "https://s.openrice.com/QrbS09Zy8W0",
       "is_evergreen": true,
       "poi_id": 1130278,
-      "mall_name_api": ""
+      "mall_name_api": "",
+      "image": "https://static5.orstatic.com/userphoto3/photo/35/2I1Q/0HSC8WBD957BB603C393BEmx.jpg",
+      "photo_url": "https://static5.orstatic.com/userphoto3/photo/35/2I1Q/0HSC8WBD957BB603C393BEmx.jpg"
     },
     {
       "store_name": "千葉鳥",
@@ -7895,7 +7899,9 @@
       "source_url": "https://s.openrice.com/QrbS09Zy8W0",
       "is_evergreen": true,
       "poi_id": 1130278,
-      "mall_name_api": ""
+      "mall_name_api": "",
+      "image": "https://static5.orstatic.com/userphoto3/photo/35/2I1Q/0HSC8WBD957BB603C393BEmx.jpg",
+      "photo_url": "https://static5.orstatic.com/userphoto3/photo/35/2I1Q/0HSC8WBD957BB603C393BEmx.jpg"
     },
     {
       "store_name": "越象",
@@ -9418,25 +9424,6 @@
       "photo_url": "https://static7.orstatic.com/userphoto2/photo/28/1RZH/0CN0EA600923D13237EF01mx.jpg"
     },
     {
-      "store_name": "亞參雞飯",
-      "floor": "3樓",
-      "shop_number": "A301",
-      "phone": "2267 0203",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "亞參雞飯｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "YOHO MALL 形點",
-      "address": "朗日路8號形點 II L3樓A301號舖",
-      "source_url": "https://s.openrice.com/QrbS0fAmB00",
-      "is_evergreen": true,
-      "poi_id": 765092,
-      "mall_name_api": "形點2期",
-      "image": "https://static6.orstatic.com/userphoto2/photo/1X/1IWA/0AUDOHA52CE5CE55930574mx.jpg",
-      "photo_url": "https://static6.orstatic.com/userphoto2/photo/1X/1IWA/0AUDOHA52CE5CE55930574mx.jpg"
-    },
-    {
       "store_name": "潮庭",
       "floor": "L1樓",
       "shop_number": "1035",
@@ -9455,6 +9442,25 @@
       "image": "https://static5.orstatic.com/userphoto3/photo/2R/26AF/0FGQ4K5B23F8A6D3BDEB55mx.jpg",
       "photo_url": "https://static5.orstatic.com/userphoto3/photo/2R/26AF/0FGQ4K5B23F8A6D3BDEB55mx.jpg",
       "start_date": "2026-10-22"
+    },
+    {
+      "store_name": "亞參雞飯",
+      "floor": "3樓",
+      "shop_number": "A301",
+      "phone": "2267 0203",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "亞參雞飯｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "YOHO MALL 形點",
+      "address": "朗日路8號形點 II L3樓A301號舖",
+      "source_url": "https://s.openrice.com/QrbS0fAmB00",
+      "is_evergreen": true,
+      "poi_id": 765092,
+      "mall_name_api": "形點2期",
+      "image": "https://static6.orstatic.com/userphoto2/photo/1X/1IWA/0AUDOHA52CE5CE55930574mx.jpg",
+      "photo_url": "https://static6.orstatic.com/userphoto2/photo/1X/1IWA/0AUDOHA52CE5CE55930574mx.jpg"
     },
     {
       "store_name": "千海水產海鮮火鍋放題",
@@ -14886,7 +14892,9 @@
       "source_url": "https://s.openrice.com/QrbS0PdGH00",
       "is_evergreen": true,
       "poi_id": 1143910,
-      "mall_name_api": "合和中心．商場"
+      "mall_name_api": "合和中心．商場",
+      "image": "https://static8.orstatic.com/userphoto3/photo/35/2I1P/0HSC8NFE52C2398CDF1FF7mx.jpg",
+      "photo_url": "https://static8.orstatic.com/userphoto3/photo/35/2I1P/0HSC8NFE52C2398CDF1FF7mx.jpg"
     },
     {
       "store_name": "Venchi",
@@ -24119,10 +24127,10 @@
       "floor": "6樓",
       "shop_number": "626",
       "phone": "3165 8889",
-      "details": "$100現金券(一至四 晚上八時後)(只限堂食)(即買即用)",
-      "title": "探魚烤魚｜$100現金券(一至四 晚上八時後)(只限堂食)(即買即用)",
-      "offer_name": "$100現金券(一至四 晚上八時後)(只限堂食)(即買即用)",
-      "voucher_title": "$100現金券(一至四 晚上八時後)(只限堂食)(即買即用)",
+      "details": "$100現金券(只限堂食)(即買即用)",
+      "title": "探魚烤魚｜$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / [2位用]新",
+      "offer_name": "$100現金券(只限堂食)(即買即用)",
+      "voucher_title": "$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / [2位用]新品爆款雙人午餐(只限堂食)(即買即用) / [3-4位用] 大人細路都啱食家庭餐（只限堂食）(即買即用) / 手工鲜作黑豆花 (只限堂食)(即買即用)",
       "discount_text": null,
       "mall_hint": "新城市廣場",
       "address": "沙田正街18-19號新城市廣場一期6樓626號舖",
@@ -24132,7 +24140,7 @@
       "mall_name_api": "",
       "image": "https://static6.orstatic.com/userphoto2/photo/2F/1XE9/0DPHC9E01FA3A458266515mx.jpg",
       "photo_url": "https://static6.orstatic.com/userphoto2/photo/2F/1XE9/0DPHC9E01FA3A458266515mx.jpg",
-      "start_date": "2026-10-20"
+      "start_date": "2026-11-10"
     },
     {
       "store_name": "Pici",
@@ -25147,7 +25155,9 @@
       "source_url": "https://s.openrice.com/QrbS0T6OH00",
       "is_evergreen": true,
       "poi_id": 1140340,
-      "mall_name_api": "MOSTown Street新港城中心大街(1期)"
+      "mall_name_api": "MOSTown Street新港城中心大街(1期)",
+      "image": "https://static7.orstatic.com/userphoto3/photo/35/2I1P/0HSC8Q4715DA128ED10C2Amx.jpg",
+      "photo_url": "https://static7.orstatic.com/userphoto3/photo/35/2I1P/0HSC8Q4715DA128ED10C2Amx.jpg"
     },
     {
       "store_name": "荳子 (MOSTown新港城中心(4期))",
@@ -26738,6 +26748,26 @@
       "photo_url": "https://static8.orstatic.com/userphoto3/photo/32/2F4M/0H7KTJD2084911F991B8A9mx.jpg"
     },
     {
+      "store_name": "星巴克咖啡",
+      "floor": "2樓",
+      "shop_number": "2100B",
+      "phone": "2697 0533",
+      "details": "【香港美心集團】$50現金券 (1套10張) (即買即用)",
+      "title": "星巴克咖啡｜【香港美心集團】$50現金券 (1套10張) (即買即用) / 【香港美心集團】$100現金券 (1套10張) (即買即用)",
+      "offer_name": "【香港美心集團】$50現金券 (1套10張) (即買即用)",
+      "voucher_title": "【香港美心集團】$50現金券 (1套10張) (即買即用) / 【香港美心集團】$100現金券 (1套10張) (即買即用)",
+      "discount_text": null,
+      "mall_hint": "ELEMENTS 圓方",
+      "address": "柯士甸道西1號ELEMENTS圓方木區2樓2100B號舖",
+      "source_url": "https://s.openrice.com/QrbS0T3C100",
+      "is_evergreen": true,
+      "poi_id": 78708,
+      "mall_name_api": "圓方",
+      "image": "https://static5.orstatic.com/userphoto/photo/3/2L7/00IERWB9C198AE3CA16944mx.jpg",
+      "photo_url": "https://static5.orstatic.com/userphoto/photo/3/2L7/00IERWB9C198AE3CA16944mx.jpg",
+      "start_date": "2026-10-22"
+    },
+    {
       "store_name": "SHAKE SHACK",
       "floor": "2樓",
       "shop_number": "2001B",
@@ -26775,26 +26805,6 @@
       "mall_name_api": "",
       "image": "https://static6.orstatic.com/userphoto2/photo/V/OYK/04XHV16849AA3A32BAC160mx.jpg",
       "photo_url": "https://static6.orstatic.com/userphoto2/photo/V/OYK/04XHV16849AA3A32BAC160mx.jpg"
-    },
-    {
-      "store_name": "星巴克咖啡",
-      "floor": "2樓",
-      "shop_number": "2100B",
-      "phone": "2697 0533",
-      "details": "【香港美心集團】$50現金券 (1套10張) (即買即用)",
-      "title": "星巴克咖啡｜【香港美心集團】$50現金券 (1套10張) (即買即用) / 【香港美心集團】$100現金券 (1套10張) (即買即用)",
-      "offer_name": "【香港美心集團】$50現金券 (1套10張) (即買即用)",
-      "voucher_title": "【香港美心集團】$50現金券 (1套10張) (即買即用) / 【香港美心集團】$100現金券 (1套10張) (即買即用)",
-      "discount_text": null,
-      "mall_hint": "ELEMENTS 圓方",
-      "address": "柯士甸道西1號ELEMENTS圓方木區2樓2100B號舖",
-      "source_url": "https://s.openrice.com/QrbS0T3C100",
-      "is_evergreen": true,
-      "poi_id": 78708,
-      "mall_name_api": "圓方",
-      "image": "https://static5.orstatic.com/userphoto/photo/3/2L7/00IERWB9C198AE3CA16944mx.jpg",
-      "photo_url": "https://static5.orstatic.com/userphoto/photo/3/2L7/00IERWB9C198AE3CA16944mx.jpg",
-      "start_date": "2026-10-22"
     },
     {
       "store_name": "Tea WG Salon & Boutique",
@@ -29255,26 +29265,9 @@
       "source_url": "https://s.openrice.com/QrbS0ZDqG00",
       "is_evergreen": true,
       "poi_id": 1105292,
-      "mall_name_api": "奧海城三期"
-    },
-    {
-      "store_name": "薔紅餐廳",
-      "floor": "1樓",
-      "shop_number": "103-R3",
-      "phone": "6183 0701",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "薔紅餐廳｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "奧海城",
-      "address": "海庭道18號奧海城二期1樓大食代103-R3號舖",
-      "source_url": "https://s.openrice.com/QrbS0Cby7W0",
-      "is_evergreen": true,
-      "poi_id": 1007410,
-      "mall_name_api": "二期",
-      "image": "https://static5.orstatic.com/userphoto3/photo/30/2DUJ/0GYH3W1F773FFD0675AA14mx.jpg",
-      "photo_url": "https://static5.orstatic.com/userphoto3/photo/30/2DUJ/0GYH3W1F773FFD0675AA14mx.jpg"
+      "mall_name_api": "奧海城三期",
+      "image": "https://static6.orstatic.com/userphoto3/photo/35/2I1Q/0HSC998F18ED8B3B8CB6FDmx.jpg",
+      "photo_url": "https://static6.orstatic.com/userphoto3/photo/35/2I1Q/0HSC998F18ED8B3B8CB6FDmx.jpg"
     },
     {
       "store_name": "疊囍居",
@@ -29294,6 +29287,25 @@
       "mall_name_api": "",
       "image": "https://static7.orstatic.com/userphoto2/photo/2F/1X2F/0DN5DMC620F9E32EDFEFDDmx.jpg",
       "photo_url": "https://static7.orstatic.com/userphoto2/photo/2F/1X2F/0DN5DMC620F9E32EDFEFDDmx.jpg"
+    },
+    {
+      "store_name": "薔紅餐廳",
+      "floor": "1樓",
+      "shop_number": "103-R3",
+      "phone": "6183 0701",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "薔紅餐廳｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "奧海城",
+      "address": "海庭道18號奧海城二期1樓大食代103-R3號舖",
+      "source_url": "https://s.openrice.com/QrbS0Cby7W0",
+      "is_evergreen": true,
+      "poi_id": 1007410,
+      "mall_name_api": "二期",
+      "image": "https://static5.orstatic.com/userphoto3/photo/30/2DUJ/0GYH3W1F773FFD0675AA14mx.jpg",
+      "photo_url": "https://static5.orstatic.com/userphoto3/photo/30/2DUJ/0GYH3W1F773FFD0675AA14mx.jpg"
     },
     {
       "store_name": "亞參雞飯",
@@ -29765,7 +29777,9 @@
       "source_url": "https://s.openrice.com/QrbS0NaWH00",
       "is_evergreen": true,
       "poi_id": 1132638,
-      "mall_name_api": "奧海城三期"
+      "mall_name_api": "奧海城三期",
+      "image": "https://static5.orstatic.com/userphoto3/photo/35/2HTV/0HQSEO880B67EE7E1F3566mx.jpg",
+      "photo_url": "https://static5.orstatic.com/userphoto3/photo/35/2HTV/0HQSEO880B67EE7E1F3566mx.jpg"
     },
     {
       "store_name": "Pho74",
@@ -32200,6 +32214,8 @@
       "is_evergreen": true,
       "poi_id": 879457,
       "mall_name_api": "",
+      "image": "https://static6.orstatic.com/userphoto3/photo/35/2I1Q/0HSC9H785E57485175CF7Fmx.jpg",
+      "photo_url": "https://static6.orstatic.com/userphoto3/photo/35/2I1Q/0HSC9H785E57485175CF7Fmx.jpg",
       "start_date": "2026-10-22"
     },
     {
@@ -36329,7 +36345,9 @@
       "source_url": "https://s.openrice.com/QrbS0PdGH00",
       "is_evergreen": true,
       "poi_id": 1143910,
-      "mall_name_api": "合和中心．商場"
+      "mall_name_api": "合和中心．商場",
+      "image": "https://static8.orstatic.com/userphoto3/photo/35/2I1P/0HSC8NFE52C2398CDF1FF7mx.jpg",
+      "photo_url": "https://static8.orstatic.com/userphoto3/photo/35/2I1P/0HSC8NFE52C2398CDF1FF7mx.jpg"
     },
     {
       "store_name": "燒肉LIKE",
@@ -37066,7 +37084,9 @@
       "source_url": "https://s.openrice.com/QrbS0PdGH00",
       "is_evergreen": true,
       "poi_id": 1143910,
-      "mall_name_api": "合和中心．商場"
+      "mall_name_api": "合和中心．商場",
+      "image": "https://static8.orstatic.com/userphoto3/photo/35/2I1P/0HSC8NFE52C2398CDF1FF7mx.jpg",
+      "photo_url": "https://static8.orstatic.com/userphoto3/photo/35/2I1P/0HSC8NFE52C2398CDF1FF7mx.jpg"
     },
     {
       "store_name": "王沛欣潮汕鹵水火鍋",
@@ -45729,7 +45749,9 @@
       "source_url": "https://s.openrice.com/QrbS0IsqH00",
       "is_evergreen": true,
       "poi_id": 1142091,
-      "mall_name_api": "PopCorn 1期"
+      "mall_name_api": "PopCorn 1期",
+      "image": "https://static6.orstatic.com/userphoto3/photo/35/2I1P/0HSC8PCF37A23F65EC47D9mx.jpg",
+      "photo_url": "https://static6.orstatic.com/userphoto3/photo/35/2I1P/0HSC8PCF37A23F65EC47D9mx.jpg"
     },
     {
       "store_name": "一橋拉麵",
@@ -46127,8 +46149,8 @@
       "is_evergreen": true,
       "poi_id": 873038,
       "mall_name_api": "",
-      "image": "https://static5.orstatic.com/userphoto3/photo/2P/2508/0F7LP050E5291AE2EAB235mx.jpg",
-      "photo_url": "https://static5.orstatic.com/userphoto3/photo/2P/2508/0F7LP050E5291AE2EAB235mx.jpg"
+      "image": "https://static7.orstatic.com/userphoto3/photo/35/2I1Q/0HSC9U7094E32762F17545mx.jpg",
+      "photo_url": "https://static7.orstatic.com/userphoto3/photo/35/2I1Q/0HSC9U7094E32762F17545mx.jpg"
     },
     {
       "store_name": "樂天皇朝",
@@ -47689,7 +47711,9 @@
       "source_url": "https://s.openrice.com/QrbS0b6uH00",
       "is_evergreen": true,
       "poi_id": 1142420,
-      "mall_name_api": "新都城中心三期"
+      "mall_name_api": "新都城中心三期",
+      "image": "https://static5.orstatic.com/userphoto3/photo/35/2I1P/0HSC8O390B94F56AA49EA9mx.jpg",
+      "photo_url": "https://static5.orstatic.com/userphoto3/photo/35/2I1P/0HSC8O390B94F56AA49EA9mx.jpg"
     },
     {
       "store_name": "壽司郎",
@@ -49918,10 +49942,10 @@
       "floor": "3樓",
       "shop_number": "L3-13",
       "phone": "2186 6398",
-      "details": "$100現金券(一至四 晚上八時後)(只限堂食)(即買即用)",
-      "title": "探魚烤魚｜$100現金券(一至四 晚上八時後)(只限堂食)(即買即用)",
-      "offer_name": "$100現金券(一至四 晚上八時後)(只限堂食)(即買即用)",
-      "voucher_title": "$100現金券(一至四 晚上八時後)(只限堂食)(即買即用)",
+      "details": "$100現金券(只限堂食)(即買即用)",
+      "title": "探魚烤魚｜$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / [2位用]新",
+      "offer_name": "$100現金券(只限堂食)(即買即用)",
+      "voucher_title": "$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / [2位用]新品爆款雙人午餐(只限堂食)(即買即用) / [3-4位用] 大人細路都啱食家庭餐（只限堂食）(即買即用) / 手工鲜作黑豆花 (只限堂食)(即買即用)",
       "discount_text": null,
       "mall_hint": "apm",
       "address": "觀塘道418號創紀之城五期(apm)3樓L3-13號舖",
@@ -49931,7 +49955,7 @@
       "mall_name_api": "",
       "image": "https://static6.orstatic.com/userphoto3/photo/2L/21YX/0EM0BDBD6B2898F28AC368mx.jpg",
       "photo_url": "https://static6.orstatic.com/userphoto3/photo/2L/21YX/0EM0BDBD6B2898F28AC368mx.jpg",
-      "start_date": "2026-10-20"
+      "start_date": "2026-11-10"
     },
     {
       "store_name": "但馬屋 (創紀之城五期(apm))",
