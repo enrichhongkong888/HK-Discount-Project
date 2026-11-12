@@ -1,18 +1,18 @@
 {
-  "today": "2026-11-11",
+  "today": "2026-11-12",
   "stats": {
-    "today": "2026-11-11",
+    "today": "2026-11-12",
     "malls": 74,
-    "scraped_rows": 2918,
-    "offers_written": 858,
+    "scraped_rows": 2919,
+    "offers_written": 899,
     "malls_with_offers": 74,
     "prune": {
       "pruned_expired": 1,
-      "pruned_dead_url": 91,
+      "pruned_dead_url": 50,
       "pruned_scheduled": 0,
       "pruned_generic": 0
     },
-    "live_scraped_rows": 2918,
-    "poi_images_indexed": 6394
+    "live_scraped_rows": 2919,
+    "poi_images_indexed": 6400
   }
 }
