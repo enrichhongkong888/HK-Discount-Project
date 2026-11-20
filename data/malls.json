@@ -183,7 +183,7 @@
     "district": "油尖旺區",
     "group": "Wharf",
     "url": "https://www.harbourcity.com.hk/tc/happening/",
-    "offers_count": 7,
+    "offers_count": 6,
     "offers": [
       {
         "title": "時尚美妝",
@@ -219,12 +219,6 @@
         "title": "探索更多",
         "description": "詳情請參閱官方頁面",
         "link": "https://www.harbourcity.com.hk/tc/happening/",
-        "source": "海港城"
-      },
-      {
-        "title": "時尚美妝",
-        "description": "詳情請參閱官方頁面",
-        "link": "https://www.harbourcity.com.hk/tc/fashion-beauty/",
         "source": "海港城"
       }
     ]
