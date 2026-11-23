@@ -4228,6 +4228,25 @@
       "photo_url": "https://static6.orstatic.com/userphoto2/photo/2B/1UBM/0D3MN163D8F7520B0AD7ABmx.jpg"
     },
     {
+      "store_name": "Häagen-Dazs",
+      "floor": "1樓",
+      "shop_number": "L118",
+      "phone": "2780 3028",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "Häagen-Dazs｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "AIRSIDE",
+      "address": "啟德協調道2號AIRSIDE 1樓L118號舖",
+      "source_url": "https://s.openrice.com/QrbS0tGeD00",
+      "is_evergreen": true,
+      "poi_id": 854749,
+      "mall_name_api": "",
+      "image": "https://static6.orstatic.com/userphoto2/photo/2G/1XTY/0DSL05B1F27AB6042D4B52mx.jpg",
+      "photo_url": "https://static6.orstatic.com/userphoto2/photo/2G/1XTY/0DSL05B1F27AB6042D4B52mx.jpg"
+    },
+    {
       "store_name": "Amaroni's New York Italian Restaurant & Café",
       "floor": "LG1樓",
       "shop_number": "G1-32",
@@ -4380,7 +4399,7 @@
       "mall_name_api": "又一城",
       "image": "https://static6.orstatic.com/userphoto3/photo/2V/29OT/0G4WKLC5CBA9E3E4D995A3mx.jpg",
       "photo_url": "https://static6.orstatic.com/userphoto3/photo/2V/29OT/0G4WKLC5CBA9E3E4D995A3mx.jpg",
-      "start_date": "2026-10-30"
+      "start_date": "2026-11-23"
     },
     {
       "store_name": "王家沙．花好月圓",
@@ -10104,26 +10123,6 @@
       "mall_name_api": "YOHO MALL II",
       "image": "https://static5.orstatic.com/userphoto2/photo/1Y/1JZQ/0B263OA0DA41E5554A0B0Emx.jpg",
       "photo_url": "https://static5.orstatic.com/userphoto2/photo/1Y/1JZQ/0B263OA0DA41E5554A0B0Emx.jpg"
-    },
-    {
-      "store_name": "PAPER STONE BAKERY",
-      "floor": "L1樓",
-      "shop_number": "1022",
-      "phone": "2253 1330",
-      "details": "【香港美心集團】$100現金券 (1套10張) (即買即用)",
-      "title": "PAPER STONE BAKERY｜【香港美心集團】$100現金券 (1套10張) (即買即用)",
-      "offer_name": "【香港美心集團】$100現金券 (1套10張) (即買即用)",
-      "voucher_title": "【香港美心集團】$100現金券 (1套10張) (即買即用)",
-      "discount_text": null,
-      "mall_hint": "YOHO MALL 形點",
-      "address": "朗日路9號形點 I L1樓1022號舖",
-      "source_url": "https://s.openrice.com/QrbS0BJS800",
-      "is_evergreen": true,
-      "poi_id": 538413,
-      "mall_name_api": "形點",
-      "image": "https://static7.orstatic.com/userphoto/photo/L/GYV/03CNXA59455BC64F33EACCmx.jpg",
-      "photo_url": "https://static7.orstatic.com/userphoto/photo/L/GYV/03CNXA59455BC64F33EACCmx.jpg",
-      "start_date": "2026-10-22"
     },
     {
       "store_name": "潮館",
@@ -27257,7 +27256,7 @@
       "mall_name_api": "",
       "image": "https://static5.orstatic.com/userphoto3/photo/2I/1ZNW/0E5LYS3DDC0D83536E35B7mx.jpg",
       "photo_url": "https://static5.orstatic.com/userphoto3/photo/2I/1ZNW/0E5LYS3DDC0D83536E35B7mx.jpg",
-      "start_date": "2026-10-30"
+      "start_date": "2026-11-23"
     },
     {
       "store_name": "Cafe Deco Pizzeria",
@@ -28378,9 +28377,9 @@
       "shop_number": "626",
       "phone": "3165 8889",
       "details": "$100現金券(只限堂食)(即買即用)",
-      "title": "探魚烤魚｜$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / [2位用]新",
+      "title": "探魚烤魚｜$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]新品爆款雙人午餐(只限堂食)(即買即用) / [2位用]抵到爛",
       "offer_name": "$100現金券(只限堂食)(即買即用)",
-      "voucher_title": "$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / [2位用]新品爆款雙人午餐(只限堂食)(即買即用) / 手工鲜作黑豆花 (只限堂食)(即買即用) / [3-4位用] 大人細路都啱食家庭餐（只限堂食）(即買即用)",
+      "voucher_title": "$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]新品爆款雙人午餐(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / 手工鲜作黑豆花 (只限堂食)(即買即用) / [3-4位用] 大人細路都啱食家庭餐（只限堂食）(即買即用)",
       "discount_text": null,
       "mall_hint": "新城市廣場",
       "address": "沙田正街18-19號新城市廣場一期6樓626號舖",
@@ -32934,7 +32933,7 @@
       "store_name": "阿閒泰",
       "floor": "2樓",
       "shop_number": "219",
-      "phone": "3996 9226",
+      "phone": "6177 7712",
       "details": "店內指定特惠套餐 / 堂食折扣",
       "title": "阿閒泰｜",
       "offer_name": null,
@@ -36078,23 +36077,21 @@
       "photo_url": "https://static6.orstatic.com/userphoto3/photo/2T/28D5/0FVHLX5B5B5DE35AAD6554mx.jpg"
     },
     {
-      "store_name": "四維°C茶",
-      "floor": "2樓",
-      "shop_number": "35-37",
-      "phone": "5414 4406",
+      "store_name": "金龍",
+      "floor": "4A樓",
+      "shop_number": "10",
+      "phone": "3793 3742",
       "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "四維°C茶｜",
+      "title": "金龍｜",
       "offer_name": null,
       "voucher_title": null,
       "discount_text": null,
       "mall_hint": "朗豪坊",
-      "address": "亞皆老街8號朗豪坊2樓32, 33及35-37號舖A部分",
-      "source_url": "https://s.openrice.com/QrbS0Oxy6W0",
+      "address": "亞皆老街8號朗豪坊4A樓10號舖",
+      "source_url": "https://s.openrice.com/QrbS0Jw0H00",
       "is_evergreen": true,
-      "poi_id": 900963,
-      "mall_name_api": "",
-      "image": "https://static8.orstatic.com/userphoto3/photo/2R/2709/0FLTXBC0557F2F95193F75mx.jpg",
-      "photo_url": "https://static8.orstatic.com/userphoto3/photo/2R/2709/0FLTXBC0557F2F95193F75mx.jpg"
+      "poi_id": 1155151,
+      "mall_name_api": "朗豪坊"
     },
     {
       "store_name": "芝樂坊餐廳",
@@ -42304,6 +42301,25 @@
       "mall_name_api": "Hopewell Hotel．Mall",
       "image": "https://static6.orstatic.com/userphoto3/photo/2R/26DX/0FHF5HE0B980626767C40Bmx.jpg",
       "photo_url": "https://static6.orstatic.com/userphoto3/photo/2R/26DX/0FHF5HE0B980626767C40Bmx.jpg"
+    },
+    {
+      "store_name": "Amante 168",
+      "floor": "地下",
+      "shop_number": "G11",
+      "phone": "9237 2798",
+      "details": "店內指定特惠套餐 / 堂食折扣",
+      "title": "Amante 168｜",
+      "offer_name": null,
+      "voucher_title": null,
+      "discount_text": null,
+      "mall_hint": "合和商場",
+      "address": "皇后大道東183號合和酒店．商場地下合和食街G11號舖",
+      "source_url": "https://s.openrice.com/QrbS0f98H00",
+      "is_evergreen": true,
+      "poi_id": 1151652,
+      "mall_name_api": "合和酒店．商場",
+      "image": "https://static8.orstatic.com/userphoto3/photo/36/2I9E/0HTUSV75713D64E45F5E10mx.jpg",
+      "photo_url": "https://static8.orstatic.com/userphoto3/photo/36/2I9E/0HTUSV75713D64E45F5E10mx.jpg"
     },
     {
       "store_name": "Coffganic",
@@ -54901,25 +54917,6 @@
       "photo_url": "https://static5.orstatic.com/userphoto3/photo/2P/24O5/0F57QG68AC86D0AF808B2Amx.jpg"
     },
     {
-      "store_name": "煌宴酒家",
-      "floor": "2樓",
-      "shop_number": "232",
-      "phone": "2706 6698",
-      "details": "店內指定特惠套餐 / 堂食折扣",
-      "title": "煌宴酒家｜",
-      "offer_name": null,
-      "voucher_title": null,
-      "discount_text": null,
-      "mall_hint": "新都城中心",
-      "address": "寶琳貿業路8號新都城中心三期2樓227&232號舖",
-      "source_url": "https://s.openrice.com/QrbS0PMi800",
-      "is_evergreen": true,
-      "poi_id": 551781,
-      "mall_name_api": "",
-      "image": "https://static5.orstatic.com/userphoto/photo/P/KA3/0407RCA4129F06344FB206mx.jpg",
-      "photo_url": "https://static5.orstatic.com/userphoto/photo/P/KA3/0407RCA4129F06344FB206mx.jpg"
-    },
-    {
       "store_name": "陳鵬鵬潮汕菜館",
       "floor": "1樓",
       "shop_number": "138D",
@@ -56881,9 +56878,9 @@
       "shop_number": "L3-13",
       "phone": "2186 6398",
       "details": "$100現金券(只限堂食)(即買即用)",
-      "title": "探魚烤魚｜$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / [2位用]新",
+      "title": "探魚烤魚｜$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]新品爆款雙人午餐(只限堂食)(即買即用) / [2位用]抵到爛",
       "offer_name": "$100現金券(只限堂食)(即買即用)",
-      "voucher_title": "$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / [2位用]新品爆款雙人午餐(只限堂食)(即買即用) / 手工鲜作黑豆花 (只限堂食)(即買即用) / [3-4位用] 大人細路都啱食家庭餐（只限堂食）(即買即用)",
+      "voucher_title": "$100現金券(只限堂食)(即買即用) / $100烤魚現金券(只限堂食)(即買即用) / $100現金券(一至四 晚上八時後)(只限堂食)(即買即用) / [2位用]新品爆款雙人午餐(只限堂食)(即買即用) / [2位用]抵到爛新品雙人套餐 (只限堂食)(即買即用) / 手工鲜作黑豆花 (只限堂食)(即買即用) / [3-4位用] 大人細路都啱食家庭餐（只限堂食）(即買即用)",
       "discount_text": null,
       "mall_hint": "apm",
       "address": "觀塘道418號創紀之城五期(apm)3樓L3-13號舖",
